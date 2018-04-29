@@ -1,0 +1,1600 @@
+1
+OmegaT
+OmegaT
+
+Fu Rhong
+Bundle.properties
+
+2
+{0}_{1}_{2}
+未翻译
+
+没有修改者
+Bundle.properties
+
+3
+{0}-{1}_{2}_{3}
+未翻译
+
+没有修改者
+Bundle.properties
+
+4
+{0} {1}
+未翻译
+
+没有修改者
+Bundle.properties
+
+5
+{0} {1}_{2}
+未翻译
+
+没有修改者
+Bundle.properties
+
+6
+Usage: java -jar OmegaT.jar [<options>] [<project path>]
+未翻译
+
+没有修改者
+Bundle.properties
+
+7
+Options:
+	None: Launch GUI
+	Project path only: Launch GUI and load specified project
+	team
+		Team project tool.
+未翻译
+
+没有修改者
+Bundle.properties
+
+8
+Invoke `team -h` for details.
+未翻译
+
+没有修改者
+Bundle.properties
+
+9
+-h, --help
+		Show usage information.
+未翻译
+
+没有修改者
+Bundle.properties
+
+10
+--remote-project
+		Download an omegat.project file from the URL given as <project
+		path> and load the project.
+未翻译
+
+没有修改者
+Bundle.properties
+
+11
+--mode=[console-translate|console-pseudotranslatetmx|console-align]
+		Specify a mode other than default (GUI).
+未翻译
+
+没有修改者
+Bundle.properties
+
+12
+See below for details.
+未翻译
+
+没有修改者
+Bundle.properties
+
+13
+--config-file=<path>
+		A Java .properties file from which to load default settings.
+未翻译
+
+没有修改者
+Bundle.properties
+
+14
+--resource-bundle=<path>
+		A Java .properties file to use for interface text
+	--config-dir=<path>
+		The directory to read/write OmegaT configuration files from/to.
+未翻译
+
+没有修改者
+Bundle.properties
+
+15
+--disable-project-locking
+		Do not attempt to lock the project's omegat.project file.
+未翻译
+
+没有修改者
+Bundle.properties
+
+16
+--disable-location-save
+		Do not remember the last directory opened in the file picker.
+未翻译
+
+没有修改者
+Bundle.properties
+
+17
+--no-team
+		Disable team project functionality.
+未翻译
+
+没有修改者
+Bundle.properties
+
+18
+--ITokenizer=<classname>
+	--ITokenizerTarget=<classname>
+		Source- or target-language tokenizer to use (overrides project
+		settings).
+未翻译
+
+没有修改者
+Bundle.properties
+
+19
+See OmegaT.jar/META-INF/MANIFEST.MF for valid values.
+未翻译
+
+没有修改者
+Bundle.properties
+
+20
+Non-GUI mode options:
+	--quiet
+		Reduce output to command line stdout.
+未翻译
+
+没有修改者
+Bundle.properties
+
+21
+--script=<path>
+		A script file to be executed on project events.
+未翻译
+
+没有修改者
+Bundle.properties
+
+22
+--tag-validation=[abort|warn]
+		Validate tags.
+未翻译
+
+没有修改者
+Bundle.properties
+
+23
+Abort: Exit with an error if tags invalid.
+未翻译
+
+没有修改者
+Bundle.properties
+
+24
+Warn: Report invalid tags to stdout.
+未翻译
+
+没有修改者
+Bundle.properties
+
+25
+Console-translate mode:
+	--source-pattern=<pattern>
+		A regex whitelist of source files to process.
+未翻译
+
+没有修改者
+Bundle.properties
+
+26
+Console-pseudotranslatetmx mode:
+	--pseudotranslatetmx=<path>
+		The output pseudotranslated TMX file.
+未翻译
+
+没有修改者
+Bundle.properties
+
+27
+--pseudotranslatetype=[equal|empty]
+		What to fill the pseudotranslated TMX with.
+未翻译
+
+没有修改者
+Bundle.properties
+
+28
+Console-align mode:
+	--alignDir=<path>
+		A directory containing the translated files.
+未翻译
+
+没有修改者
+Bundle.properties
+
+29
+See Help > User's Manual for more information.
+未翻译
+
+没有修改者
+Bundle.properties
+
+30
+{0}
+未翻译
+
+没有修改者
+Bundle.properties
+
+31
+Usage: java -jar OmegaT.jar team <command> [<options>]]
+未翻译
+
+没有修改者
+Bundle.properties
+
+32
+Commands:
+	-h, --help
+		Show usage information.
+未翻译
+
+没有修改者
+Bundle.properties
+
+33
+init <source language> <target language>
+		Initialize a minimal team project with the specified languages.
+未翻译
+
+没有修改者
+Bundle.properties
+
+34
+If invoked in a git working tree or svn checkout, the results
+		will be staged/added.
+未翻译
+
+没有修改者
+Bundle.properties
+
+35
+{0}
+未翻译
+
+没有修改者
+Bundle.properties
+
+36
+Initialized {0}-{1} team project.
+初始化 {0}-{1} 团队项目
+
+lenovo
+Bundle.properties
+
+37
+Place source files in ./source and supplemental
+material in ./tm, ./glossary, and ./dictionary as required, then commit
+everything.
+未翻译
+
+没有修改者
+Bundle.properties
+
+38
+&OK
+确定(&O)
+
+钢
+Bundle.properties
+
+39
+&Cancel
+取消(&C)
+
+钢
+Bundle.properties
+
+40
+&Close
+关闭(&C)
+
+Administrator
+Bundle.properties
+
+41
+&Filter
+过滤器(&F)
+
+钢
+Bundle.properties
+
+42
+Re&move Filter
+删除过滤器(&M)
+
+lenovo
+Bundle.properties
+
+43
+&Replace
+替换(&R)
+
+lenovo
+Bundle.properties
+
+44
+Re&place All
+全部替换(&P)
+
+lenovo
+Bundle.properties
+
+45
+Con&tents
+内容(&T)
+
+lenovo
+Bundle.properties
+
+46
+&Back
+回退(&B)
+
+钢
+Bundle.properties
+
+47
+&OK
+确定(&O)
+
+钢
+Bundle.properties
+
+48
+Select
+选择
+
+钢
+Bundle.properties
+
+49
+&Search
+搜索(&S)
+
+钢
+Bundle.properties
+
+50
+&Remove
+删除(&R)
+
+钢
+Bundle.properties
+
+51
+R&emove
+删除(&E)
+
+lenovo
+Bundle.properties
+
+52
+&Add...
+新增(&A)
+
+lenovo
+Bundle.properties
+
+53
+&Edit...
+编辑(&E)
+
+lenovo
+Bundle.properties
+
+54
+&Add
+新增(&A)
+
+xulihang
+Bundle.properties
+
+55
+A&dd
+新增(&D)
+
+lenovo
+Bundle.properties
+
+56
+Restore De&faults
+还原默认设置(&F)
+
+lenovo
+Bundle.properties
+
+57
+&Insert
+插入(&I)
+
+钢
+Bundle.properties
+
+58
+&Fix All
+修复所有(&F)
+
+钢
+Bundle.properties
+
+59
+&Skip
+忽略(&S)
+
+lenovo
+Bundle.properties
+
+60
+&Replace Next
+替换下一个(&R)
+
+lenovo
+Bundle.properties
+
+61
+&Finish
+完成(&F)
+
+lenovo
+Bundle.properties
+
+62
+&Remove Filter
+删除过滤器(&R)
+
+lenovo
+Bundle.properties
+
+63
+&Save As...
+另存为(&S)
+
+lenovo
+Bundle.properties
+
+64
+Error
+错误
+
+钢
+Bundle.properties
+
+65
+Confirm
+确认
+
+钢
+Bundle.properties
+
+66
+OmegaT ran out of memory, and will quit when you press OK.
+OmegaT内存耗尽，将会在点击“确定”后退出。
+
+lenovo
+Bundle.properties
+
+67
+You may try to solve this problem in one of the following ways:
+可尝试使用下列方法解决此问题：
+
+钢
+Bundle.properties
+
+68
+1) Reduce the number of source files and translate in batches;
+1)减少原文数量并分批进行翻译；
+
+lenovo
+Bundle.properties
+
+69
+2) Increase the amount of memory available to OmegaT, by
+specifying "java -Xmx<size-in-MB>M -jar OmegaT.jar" on the
+command line or in the OmegaT start script;
+The current setting is {0}MB;
+2)通过在命令行或 OmegaT 启动脚本中指定 "java -Xmx<size-in-MB>M -jar OmegaT.jar" 增加 OmegaT 的可用存；                                                        当前设置为 {0} 兆字节
+
+lenovo
+Bundle.properties
+
+70
+See "Chapter 3.
+查阅用户手册“第3章”
+
+钢
+Bundle.properties
+
+71
+Installing and running OmegaT" in the User Manual.
+用户手册的《安装运行 OmegaT》章节。
+
+Puzzlist
+Bundle.properties
+
+72
+OmegaT will now terminate.
+OmegaT 现在将终止运行。
+
+钢
+Bundle.properties
+
+73
+Running on Java {0} ({1}-bit)
+在Java上运行中 {0} ({1}-bit)
+
+lenovo
+Bundle.properties
+
+74
+Current memory usage by the VM: {0}MB; of which free memory: {1}MB; maximum available: {2}MB
+当前虚拟内存使用：{0}兆字节；其中可用内存：{1}兆字节；最大可用：{2}兆字节。
+
+lenovo
+Bundle.properties
+
+75
+<auto>
+<自动>
+
+钢
+Bundle.properties
+
+76
+Your project does not contain any files in a supported file format.
+项目中所有的文件格式都为不可支持的格式
+
+lenovo
+Bundle.properties
+
+77
+(In the user's manual, see 'Files to translate' > 'File formats' for a list of supported file formats.)
+To add files to the project, click on the Copy Files to Source Folder... button in the Project Files window or call this action from the Project menu and select the source files you want to copy.
+（在用户手册中，查阅”要翻译的文件“>”文件格式“,了解所支持的文件格式列表）要想向项目中添加文件的话，可以在"项目文件"窗口中点击“复制文件到原文目录”或者从“项目”菜单中进行该操作，并选择要复制的原文文件。
+
+lenovo
+Bundle.properties
+
+78
+You may also copy the files to your project's 'source' folder using your favorite file manager and reload the project by calling Reload from the Project menu.
+也可以使用自己喜欢的文件管理工具将文件拷贝到项目的 'source' 文件夹，然后通过调用主菜单的 项目 -> 重新载入 重新载入项目。
+
+钢
+Bundle.properties
+
+79
+Project is Empty
+项目为空。
+
+钢
+Bundle.properties
+
+80
+Warning
+警告
+
+钢
+Bundle.properties
+
+81
+Error
+错误
+
+钢
+Bundle.properties
+
+82
+OmegaT has chosen option 'Yes' automatically.
+OmegaT 已自动选择“是”选项。
+
+钢
+Bundle.properties
+
+83
+&Project
+项目(&P)
+
+钢
+Bundle.properties
+
+84
+&New...
+新建(&N)...
+
+xulihang
+Bundle.properties
+
+85
+Download &Team Project...
+下载团队项目(&T)...
+
+xulihang
+Bundle.properties
+
+86
+&Open...
+打开(&O)...
+
+xulihang
+Bundle.properties
+
+87
+Open Recent Pro&ject
+打开最近的项目(&J)
+
+lenovo
+Bundle.properties
+
+88
+&Clear Menu
+未翻译
+
+没有修改者
+Bundle.properties
+
+89
+Cop&y Files to Source Folder...
+复制文件到原文文件夹(&Y)...
+
+lenovo
+Bundle.properties
+
+90
+Copy Files to Source Folder...
+复制文件到原文文件夹...
+
+lenovo
+Bundle.properties
+
+91
+Download Media&Wiki Page...
+下载 Media&Wiki 页面...
+
+xulihang
+Bundle.properties
+
+92
+Download MediaWiki Page
+下载 MediaWiki 页面...
+
+xulihang
+Bundle.properties
+
+93
+Please type or paste the URL of the mediawiki page
+请输入或者粘贴 mediawiki 页面的 URL 
+
+钢
+Bundle.properties
+
+94
+Importing Wiki Page Failed
+导入维基页面失败
+
+lenovo
+Bundle.properties
+
+95
+File Copy Failed
+文件复制失败
+
+钢
+Bundle.properties
+
+96
+&Reload
+重新导入(&R)
+
+钢
+Bundle.properties
+
+97
+&Close
+关闭(&C)
+
+Administrator
+Bundle.properties
+
+98
+Commit Source Files
+提交原文件
+
+lenovo
+Bundle.properties
+
+99
+Commit Target Files
+提交目标文件
+
+lenovo
+Bundle.properties
+
+100
+&Save
+保存(&S)
+
+钢
+Bundle.properties
+
+101
+Create &Translated Documents
+创建译文文档(&T)
+
+钢
+Bundle.properties
+
+102
+Create Current Translated &Document
+创建当前已译文档(&D)
+
+Fu Rhong
+Bundle.properties
+
+103
+Open MED Project...
+打开MED项目
+
+lenovo
+Bundle.properties
+
+104
+Create MED Project...
+创建MED项目 
+
+lenovo
+Bundle.properties
+
+105
+&Properties...
+属性(&P)...
+
+xulihang
+Bundle.properties
+
+106
+Options
+选项
+
+钢
+Bundle.properties
+
+107
+File &Filters...
+文件过滤器(&F)...
+
+xulihang
+Bundle.properties
+
+108
+Project &Files...
+项目文件(&F)...
+
+xulihang
+Bundle.properties
+
+109
+&Access Project Contents
+访问项目内容(&A)
+
+lenovo
+Bundle.properties
+
+110
+&Root
+根文件(&R)
+
+lenovo
+Bundle.properties
+
+111
+&Dictionaries
+词典(&D)
+
+lenovo
+Bundle.properties
+
+112
+&Glossaries
+术语表(&G)
+
+lenovo
+Bundle.properties
+
+113
+T&Ms
+翻译记忆库(&M)
+
+lenovo
+Bundle.properties
+
+114
+&Source Files
+提交原文件(&S)
+
+lenovo
+Bundle.properties
+
+115
+&Target Files
+目标文件(&T)
+
+lenovo
+Bundle.properties
+
+116
+&Current Source Document
+当前原文档(&C)
+
+lenovo
+Bundle.properties
+
+117
+C&urrent Target Document
+当前目标文档(&U)
+
+lenovo
+Bundle.properties
+
+118
+&Writeable Glossary
+可编辑术语表(&W)
+
+lenovo
+Bundle.properties
+
+119
+&Quit
+退出(&Q)
+
+钢
+Bundle.properties
+
+120
+&Edit
+编辑(&E)
+
+钢
+Bundle.properties
+
+121
+&Undo Last Action
+取消前一操作(&U)
+
+lenovo
+Bundle.properties
+
+122
+&Redo Last Action
+重复前一操作(&R)
+
+lenovo
+Bundle.properties
+
+123
+&Search Project...
+在项目中搜索(&S)...
+
+xulihang
+Bundle.properties
+
+124
+Search and Replace...
+搜索与替换...
+
+xulihang
+Bundle.properties
+
+125
+&Insert Match or Selection
+插入匹配项或选择项(&I)
+
+lenovo
+Bundle.properties
+
+126
+R&eplace with Match or Selection
+用匹配项或选择项替代(&E)
+
+lenovo
+Bundle.properties
+
+127
+Replace with &Machine Translation
+用机器翻译替代(&M)
+
+lenovo
+Bundle.properties
+
+128
+I&nsert Source
+插入原文(&N)
+
+lenovo
+Bundle.properties
+
+129
+Re&place with Source
+用原文替代(&P)
+
+lenovo
+Bundle.properties
+
+130
+E&xport Selection
+导出选中项(&X)
+
+lenovo
+Bundle.properties
+
+131
+Insert Missing Source &Tags
+插入遗漏的原文标签(&T)
+
+lenovo
+Bundle.properties
+
+132
+Insert Next Missing Tag
+插入下一个遗漏的标签
+
+lenovo
+Bundle.properties
+
+133
+Insert Tag {0}
+插入标签 {0}
+
+钢
+Bundle.properties
+
+134
+Remove translation
+删除译文
+
+钢
+Bundle.properties
+
+135
+Set empty translation
+设置空译文
+
+钢
+Bundle.properties
+
+136
+Register Identical Translation
+使用原文作为译文
+
+xulihang
+Bundle.properties
+
+137
+Create &Glossary Entry...
+创建术语表词条(&G)
+
+lenovo
+Bundle.properties
+
+138
+Select Mat&ch
+选择匹配项(&C)
+
+lenovo
+Bundle.properties
+
+139
+Select &Next Match
+选择下一匹配项(&N)
+
+钢
+Bundle.properties
+
+140
+Select &Previous Match
+选择前一匹配项(&P)
+
+钢
+Bundle.properties
+
+141
+Select Match #&1
+选择第一个匹配项(&1)
+
+钢
+Bundle.properties
+
+142
+Select Match #&2
+选择第二个匹配项(&2)
+
+钢
+Bundle.properties
+
+143
+Select Match #&3
+选择第三个匹配项(&3)
+
+钢
+Bundle.properties
+
+144
+Select Match #&4
+选择第四个匹配项(&4)
+
+钢
+Bundle.properties
+
+145
+Select Match #&5
+选择第五个匹配项(&5)
+
+钢
+Bundle.properties
+
+146
+Insert Unicode Control Character
+插入 Unicode 控制符
+
+lenovo
+Bundle.properties
+
+147
+Left-to-Right Mark (LRM U+200E)
+自左向右标记 (LRM U+200E)
+
+lenovo
+Bundle.properties
+
+148
+Right-to-Left Mark (RLM U+200F)
+自右向左标记(RLM U+200F)
+
+lenovo
+Bundle.properties
+
+149
+Left-to-Right Embedding (LRE U+202A)
+自左向右嵌入 (LRE U+202A)
+
+lenovo
+Bundle.properties
+
+150
+Right-to-Left Embedding (RLE U+202B)
+自右向左嵌入 (RLE U+202B)
+
+lenovo
+Bundle.properties
+
+151
+Pop Directional Formatting (PDF U+202C)
+未翻译
+
+没有修改者
+Bundle.properties
+
+152
+&Go To
+前往(&G)
+
+xulihang
+Bundle.properties
+
+153
+&Next Segment
+下一片段(&N)
+
+钢
+Bundle.properties
+
+154
+Next N&ote
+下一注释(&O)
+
+lenovo
+Bundle.properties
+
+155
+Next &Untranslated Segment
+下一未译片段(&U)
+
+钢
+Bundle.properties
+
+156
+Next &Translated Segment
+下一已译片段(&T)
+
+钢
+Bundle.properties
+
+157
+&Previous Segment
+前一片段(&P)
+
+钢
+Bundle.properties
+
+158
+Previous No&te
+前一注释(&t)
+
+钢
+Bundle.properties
+
+159
+&Segment Number...
+片段序号(&S)...
+
+xulihang
+Bundle.properties
+
+160
+&Forward in History
+在编辑历史中前进(&F)...
+
+xulihang
+Bundle.properties
+
+161
+&Back in History
+在编辑历史中回退(&B)...
+
+xulihang
+Bundle.properties
+
+162
+Source of Selected &Match
+当前匹配原文(&M)
+
+lenovo
+Bundle.properties
+
+163
+Next Uni&que Segment
+下一个单一片段(&Q)
+
+lenovo
+Bundle.properties
+
+164
+&Tools
+工具(&T)
+
+钢
+Bundle.properties
+
+165
+Check &Issues...
+检查及问题(&I)
+
+lenovo
+Bundle.properties
+
+166
+Check Issues for &Current Document
+检查当前文档问题(&C)
+
+lenovo
+Bundle.properties
+
+167
+&Statistics
+统计数据(&S)
+
+xulihang
+Bundle.properties
+
+168
+&Match Statistics
+匹配项统计数据(&M)
+
+Puzzlist
+Bundle.properties
+
+169
+Match Statistics per &File
+每个文件匹配统计数据(&F)
+
+lenovo
+Bundle.properties
+
+170
+&Align Files...
+对齐文件(&A)
+
+lenovo
+Bundle.properties
+
+171
+Scriptin&g...
+脚本(&G)...
+
+lenovo
+Bundle.properties
+
+172
+&Options
+选项(&O)
+
+钢
+Bundle.properties
+
+173
+Use &TAB to Advance
+使用 Tab 前进(&T)
+
+钢
+Bundle.properties
+
+174
+Mark &Translated Segments
+标记已译片段(&T)
+
+钢
+Bundle.properties
+
+175
+Mark &Untranslated Segments
+标记未译片段(&U)
+
+钢
+Bundle.properties
+
+176
+File &Filters...
+文件过滤器(&F)...
+
+xulihang
+Bundle.properties
+
+177
+&Editor...
+编辑器(&E)
+
+lenovo
+Bundle.properties
+
+178
+&Segmentation...
+片段分割(&S)...
+
+lenovo
+Bundle.properties
+
+179
+Mac&hine Translate
+机器翻译(&H)
+
+lenovo
+Bundle.properties
+
+180
+&Glossary
+术语表(&G)
+
+xulihang
+Bundle.properties
+
+181
+Display context description for TBX &glossaries
+显示TBX的上下文描述及术语表(&G)
+
+lenovo
+Bundle.properties
+
+182
+Use terms &appearing separately in the source text
+原文件使用术语单独显示 (&A)
+
+lenovo
+Bundle.properties
+
+183
+Use &stemming for glossary entries
+使用词根术语词条(&S)
+
+lenovo
+Bundle.properties
+
+184
+Replace &glossary hits when inserting source text
+在插入原文时替换匹配词汇表中的术语(&G)
+
+lenovo
+Bundle.properties
+
+185
+&Ignore hits with very different case (e.g. FOO vs foo)
+在很不同的情况下忽视匹配(&I) (e.g. FOO vs foo)
+
+lenovo
+Bundle.properties
+
+186
+Glossary
+术语表
+
+xulihang
+Bundle.properties
+
+187
+Dictionar&y
+词典(&Y)
+
+xulihang
+Bundle.properties
+
+188
+Use &Fuzzy Matching for Dictionary Entries
+模糊匹配词条(&F)
+
+lenovo
+Bundle.properties
+
+189
+Dictionary
+字典
+
+钢
+Bundle.properties
+
+190
+Use &fuzzy matching for dictionary entries
+模糊匹配词条(&F)
+
+lenovo
+Bundle.properties
+
+191
+&Show Relevant Suggestions Automatically
+自动显示相关建议(&S)
+
+lenovo
+Bundle.properties
+
+192
+A&uto-completion
+自动完成(&U)
+
+lenovo
+Bundle.properties
+
+193
+&Show relevant suggestions automatically
+自动显示相关建议(&S)
+
+lenovo
+Bundle.properties
+
+194
+Switch views with {0} and {1}
+未翻译
+
+没有修改者
+Bundle.properties
+
+195
+Auto-Completion
+自动完成
+
+lenovo
+Bundle.properties
+
+196
+History Completion
+历史完成
+
+lenovo
+Bundle.properties
+
+197
+History Prediction
+历史预测
+
+lenovo
+Bundle.properties
+
+198
+&Enable history completion
+启用历史完成(&E)
+
+lenovo
+Bundle.properties
+
+199
+Enable history &prediction
+启用历史预测(&P)
+
+lenovo
+Bundle.properties
+
+200
+History
+历史
+
+lenovo
+Bundle.properties
+
+201
+&Always Confirm Quit
+退出前总是进行确认(&A)
+
+钢
+Bundle.properties
+
+202
+&Restore Main Window
+复原主窗口(&R)
+
+钢
+Bundle.properties
+
+203
+Access Configurat&ion Folder
+访问配置文件夹(&I)
+
+xulihang
+Bundle.properties
+
+204
+&Preferences...
+偏好设置(&P)
+
+xulihang
+Bundle.properties
+
+205
+&Help
+帮助(&H)
+
+钢
+Bundle.properties
+
+206
+&User's Manual...
+用户手册(&U)...
+
+xulihang
+Bundle.properties
+
+207
+&About...
+关于(&A)...
+
+xulihang
+Bundle.properties
+
+208
+&Last Changes...
+最近更新(&L)...
+
+xulihang
+Bundle.properties
+
+209
+L&og...
+日志(&O)...
+
+lenovo
+Bundle.properties
+
+210
+In order for the changes to take effect OmegaT needs to close and then open the project.
+为了使修改生效，OmegaT 需要关闭然后打开项目。
+
+钢
+Bundle.properties
+
+211
+Reopen the project now?
+是否现在重新打开项目？
+
+钢
+Bundle.properties
+
+212
+Failed to load translation memory {0} for project!
+打开项目的翻译记忆 {0} 失败！
+
+lenovo
+Bundle.properties
+
+213
+Failed to load specified project!
+导入指定项目失败！
+
+钢
+Bundle.properties
+
+214
+Failed to compile project files!
+编译项目文件失败！
+
+钢
+Bundle.properties
+
+215
+It was not possible to create translated documents, because some tags are missing or damaged.
+由于标签丢失或者损坏，无法创建译文文档。
+
+钢
+Bundle.properties
+
+216
+Please correct the tag issues before using again Create Translated Documents.
+再次使用"创建译文文档"功能前请修正标签问题。
+
+钢
+Bundle.properties
+
+217
+Failed to commit source files!
+提交原文件失败!
+
+lenovo
+Bundle.properties
+
+218
+Failed to commit target files!
+提交目标文件失败!
+
+lenovo
+Bundle.properties
+
+219
+Committing source files
+正在提交原文件
+
+lenovo
+Bundle.properties
+
+220
+Source files committed
+原文件已提交
+
+lenovo
+Bundle.properties
+
+221
+Committing target files
+正在提交目标文件
+
+lenovo
+Bundle.properties
+
+222
+Target files committed
+目标文件已提交
+
+lenovo
+Bundle.properties
+
+223
+Failed to update project properties
+项目属性更新失败
+
+lenovo
+Bundle.properties
+
