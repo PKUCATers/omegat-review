@@ -1,0 +1,1580 @@
+1116
+Belazar
+Belazar
+
+钢
+Bundle.properties
+
+1117
+Apertium
+Apertium
+
+钢
+Bundle.properties
+
+1118
+Microsoft Translator
+微软翻译
+
+weiyi
+Bundle.properties
+
+1119
+MyMemory (human)
+MyMemory（人工）
+
+Fu Rhong
+Bundle.properties
+
+1120
+MyMemory (machine)
+MyMemory（机器）
+
+Fu Rhong
+Bundle.properties
+
+1121
+Yandex Translate
+Yandex 翻译
+
+17012
+Bundle.properties
+
+1122
+Moses
+Moses 
+
+Administrator
+Bundle.properties
+
+1123
+DeepL
+DeepL 
+
+Administrator
+Bundle.properties
+
+1124
+Error while reading MT results
+读取MT结果错误
+
+Administrator
+Bundle.properties
+
+1125
+Error extracting MT result from MyMemory, response:
+从MyMemory提取MT结果错误，答复：
+
+Fu Rhong
+Bundle.properties
+
+1126
+Email:
+邮箱：
+
+Administrator
+Bundle.properties
+
+1127
+API Key:
+API 密钥：
+
+Administrator
+Bundle.properties
+
+1128
+Error {0}: {1}
+错误：{0}
+
+钢
+Bundle.properties
+
+1129
+API Key:
+API 密钥：
+
+Administrator
+Bundle.properties
+
+1130
+Premium Edition
+高级版
+
+Administrator
+Bundle.properties
+
+1131
+Google Api key not available.
+Google Api 密钥可不用。
+
+Administrator
+Bundle.properties
+
+1132
+See OmegaT manual for instructions.
+查阅 OmegaT 手册了解详细情况。
+
+钢
+Bundle.properties
+
+1133
+API Key:
+API 密钥：
+
+Administrator
+Bundle.properties
+
+1134
+DeepL Api key not available.
+DeepL Api 密钥可不用。
+
+Administrator
+Bundle.properties
+
+1135
+See OmegaT manual for instructions.
+查阅 OmegaT 手册了解详细情况。
+
+钢
+Bundle.properties
+
+1136
+Subscription Key:
+订阅密钥：
+
+Administrator
+Bundle.properties
+
+1137
+Wrong response from engine
+翻译引擎响应错误
+
+钢
+Bundle.properties
+
+1138
+Microsoft Translator Subscription Key not available.
+微软翻译订阅密钥不可用。
+
+Administrator
+Bundle.properties
+
+1139
+See OmegaT manual for instructions.
+查阅 OmegaT 手册了解详细情况。
+
+钢
+Bundle.properties
+
+1140
+Neural machine translation
+未翻译
+
+没有修改者
+Bundle.properties
+
+1141
+Yandex Translate - No API Key Specified
+Yandex 翻译——无指定API 密钥
+
+Administrator
+Bundle.properties
+
+1142
+Invalid API key
+API 密钥无效
+
+Administrator
+Bundle.properties
+
+1143
+This API key has been blocked
+此API密钥已被阻止
+
+Administrator
+Bundle.properties
+
+1144
+You have reached the daily limit for requests
+您已达到每日申请限值
+
+Administrator
+Bundle.properties
+
+1145
+You have reached the daily limit for the volume of translated text
+您已达到每日翻译文本限值
+
+Administrator
+Bundle.properties
+
+1146
+The text size exceeds the maximum
+文本大小超过最大值
+
+Administrator
+Bundle.properties
+
+1147
+The text could not be translated
+文本无法翻译
+
+Administrator
+Bundle.properties
+
+1148
+The specified translation direction is not supported
+不支持指定的翻译方向
+
+Administrator
+Bundle.properties
+
+1149
+API Key:
+API 密钥：
+
+Administrator
+Bundle.properties
+
+1150
+Moses Server URL:
+Moses 服务器网址：
+
+Administrator
+Bundle.properties
+
+1151
+The Moses server URL is not set
+未设置Moses 服务器网址
+
+Administrator
+Bundle.properties
+
+1152
+Test
+测试
+
+xulihang
+Bundle.properties
+
+1153
+Testing...
+测试中…
+
+Administrator
+Bundle.properties
+
+1154
+OK
+确定
+
+Administrator
+Bundle.properties
+
+1155
+Server does not understand the "translate" method
+服务器未识别“翻译”方法
+
+Administrator
+Bundle.properties
+
+1156
+&Store for this session only
+仅存储此会话(&S)
+
+Administrator
+Bundle.properties
+
+1157
+&Language Checker
+语言检查(&L)
+
+Administrator
+Bundle.properties
+
+1158
+Proxy User and Password
+代理服务器用户名及密码
+
+钢
+Bundle.properties
+
+1159
+Multiple Translations
+多重译文
+
+钢
+Bundle.properties
+
+1160
+Displays alternative translations that you have created for segments that are repeated in the project.
+显示在当前项目中给该片段创建的多种译文。
+
+钢
+Bundle.properties
+
+1161
+Use as Default Translation
+用作缺省译文
+
+钢
+Bundle.properties
+
+1162
+Create Alternative Translation
+创建多重译法
+
+钢
+Bundle.properties
+
+1163
+Use as Default Translation
+用作缺省译文
+
+钢
+Bundle.properties
+
+1164
+Replace Translation with Text
+用文本替换译文
+
+钢
+Bundle.properties
+
+1165
+Go To Segment Source
+转到片段源
+
+钢
+Bundle.properties
+
+1166
+Notify Me When a Segment Has Multiple Translations
+有多重翻译时通知我
+
+Administrator
+Bundle.properties
+
+1167
+Set empty translation
+设置空译文
+
+钢
+Bundle.properties
+
+1168
+Remove translation
+删除译文
+
+钢
+Bundle.properties
+
+1169
+Register Identical Translation
+使用原文作为译文
+
+xulihang
+Bundle.properties
+
+1170
+<EMPTY>
+<EMPTY>
+
+钢
+Bundle.properties
+
+1171
+Scripting
+脚本
+
+钢
+Bundle.properties
+
+1172
+&File
+文件/<br0>
+
+钢
+Bundle.properties
+
+1173
+&Open Script...
+打开脚本(&O)...
+
+xulihang
+Bundle.properties
+
+1174
+Script &Language
+脚本语言(&L)
+
+钢
+Bundle.properties
+
+1175
+&Run
+运行(&R)
+
+Administrator
+Bundle.properties
+
+1176
+Cancel
+取消
+
+Administrator
+Bundle.properties
+
+1177
+Cancel only works on scripts that explicitly check for cancellation.
+Cancel仅适用于显式检查取消的脚本。
+
+Administrator
+Bundle.properties
+
+1178
+Result:
+结果：
+
+钢
+Bundle.properties
+
+1179
+The script "{0}" is running...
+正在运行脚本 "{0}"…
+
+Administrator
+Bundle.properties
+
+1180
+done ({0} ms elapsed)
+完成，花费了{0}时间
+
+Administrator
+Bundle.properties
+
+1181
+canceled ({0} ms elapsed)
+取消，花费了{0}时间
+
+Administrator
+Bundle.properties
+
+1182
+An error occurred
+出现错误
+
+Administrator
+Bundle.properties
+
+1183
+An error occurred when loading the script: {0}
+载入脚本时出错：
+
+Administrator
+Bundle.properties
+
+1184
+&Quit
+退出(&Q)
+
+钢
+Bundle.properties
+
+1185
+Available script engines:
+可用脚本引擎：
+
+钢
+Bundle.properties
+
+1186
+ERROR: (declaring bean)
+ERROR: (declaring bean)
+
+钢
+Bundle.properties
+
+1187
+{0} loaded.
+已载入 {0}
+
+钢
+Bundle.properties
+
+1188
+Scripts Folder:
+脚本目录：
+
+钢
+Bundle.properties
+
+1189
+Select Scripts Folder
+选择脚本目录：
+
+Administrator
+Bundle.properties
+
+1190
+Select a Script File
+选择脚本文件
+
+Administrator
+Bundle.properties
+
+1191
+No script selected.
+未选择脚本。
+
+钢
+Bundle.properties
+
+1192
+Cannot read selected script file.
+无法读取选中的脚本文件。
+
+钢
+Bundle.properties
+
+1193
+Selected Engine: {0}
+选定的引擎：
+
+钢
+Bundle.properties
+
+1194
+Script Result
+脚本结果
+
+Administrator
+Bundle.properties
+
+1195
+Refreshing script folder "{0}"
+更新脚本目录 "{0}"
+
+Administrator
+Bundle.properties
+
+1196
+Save Script
+保存脚本
+
+钢
+Bundle.properties
+
+1197
+Error while trying to save script.
+保存脚本时出错。
+
+钢
+Bundle.properties
+
+1198
+Script "{0}" saved.
+已保存脚本 "{0}" 。
+
+钢
+Bundle.properties
+
+1199
+Run script on slot #{0}.
+在位置 #{0} 运行脚本.
+
+钢
+Bundle.properties
+
+1200
+No script set.
+未设定脚本。
+
+钢
+Bundle.properties
+
+1201
+No script bound in slot #{0}.
+没有脚本被绑定到位置 #{0} 。
+
+钢
+Bundle.properties
+
+1202
+Add Script
+新增脚本
+
+钢
+Bundle.properties
+
+1203
+Remove Script
+删除脚本
+
+钢
+Bundle.properties
+
+1204
+Script "{0}" bound to slot #{1}.
+脚本 "{0}" 绑定到 slot #{1}.
+
+钢
+Bundle.properties
+
+1205
+Script "{0}" unbound from slot #{1}.
+脚本 "{0}" 解除与 slot #{1} 的绑定。
+
+钢
+Bundle.properties
+
+1206
+<none>
+<none>
+
+钢
+Bundle.properties
+
+1207
+extensions:
+扩展：
+
+Administrator
+Bundle.properties
+
+1208
+File
+文件
+
+xulihang
+Bundle.properties
+
+1209
+&New Script
+新建脚本(&N)
+
+Administrator
+Bundle.properties
+
+1210
+Set Scripts Folder...
+设置脚本目录…
+
+Administrator
+Bundle.properties
+
+1211
+Access Scripts Folder
+访问脚本文件夹
+
+Administrator
+Bundle.properties
+
+1212
+&Edit
+编辑(&E)
+
+钢
+Bundle.properties
+
+1213
+&Find...
+查找(&F)…
+
+Administrator
+Bundle.properties
+
+1214
+&Replace...
+替换(&R)…
+
+Administrator
+Bundle.properties
+
+1215
+Goto &Line...
+前往&行…
+
+Administrator
+Bundle.properties
+
+1216
+Show Find Search Bar
+显示查找搜索栏
+
+Administrator
+Bundle.properties
+
+1217
+Show Replace Search Bar
+显示替换搜索栏
+
+Administrator
+Bundle.properties
+
+1218
+&Close
+关闭(&C)
+
+Administrator
+Bundle.properties
+
+1219
+Sets
+集合
+
+Administrator
+Bundle.properties
+
+1220
+Save Current Set...
+保存当前设置…
+
+Administrator
+Bundle.properties
+
+1221
+Please enter the name of this set:
+请输入此集合的名称：
+
+Administrator
+Bundle.properties
+
+1222
+&Help
+帮助(&H)
+
+钢
+Bundle.properties
+
+1223
+OmegaT Javadoc...
+OmegaT Javadoc... 
+
+Administrator
+Bundle.properties
+
+1224
+Translator comments:
+译者注释：
+
+钢
+Bundle.properties
+
+1225
+Extracted comments:
+提取的注释:
+
+钢
+Bundle.properties
+
+1226
+References:
+参考文献：
+
+钢
+Bundle.properties
+
+1227
+Please translate this plural as plural form #{0}.
+请将下列词汇翻译成复数形式 #{0}。
+
+钢
+Bundle.properties
+
+1228
+Tag:
+标记：
+
+钢
+Bundle.properties
+
+1229
+Attribute:
+属性：
+
+钢
+Bundle.properties
+
+1230
+Initializing
+初始化
+
+钢
+Bundle.properties
+
+1231
+Tag validation failed
+标签检验失败
+
+钢
+Bundle.properties
+
+1232
+Translating Project
+翻译项目
+
+钢
+Bundle.properties
+
+1233
+Finished
+结束
+
+钢
+Bundle.properties
+
+1234
+Validating tags
+验证标签
+
+钢
+Bundle.properties
+
+1235
+Aborted.
+放弃。
+
+钢
+Bundle.properties
+
+1236
+Create pseudo-translate TMX
+创建伪翻译 TMX
+
+钢
+Bundle.properties
+
+1237
+Translated files location not defined
+未定义译文位置
+
+钢
+Bundle.properties
+
+1238
+Align project against {0}
+将项目与 {0} 对齐
+
+钢
+Bundle.properties
+
+1239
+Loading Project
+载入项目
+
+钢
+Bundle.properties
+
+1240
+The project cannot be verified
+项目无法通过校验
+
+钢
+Bundle.properties
+
+1241
+An error occurred while trying to run console process: {0}
+尝试运行控制台进程时发生错误：{0}
+
+Administrator
+Bundle.properties
+
+1242
+Source folder {0} does not exist.
+原文目录 {0} 不存在。
+
+钢
+Bundle.properties
+
+1243
+Target folder {0} does not exist.
+译文目录 {0} 不存在。
+
+钢
+Bundle.properties
+
+1244
+Glossary folder {0} does not exist.
+术语表目录 {0} 不存在。
+
+xulihang
+Bundle.properties
+
+1245
+Translation memory folder {0} does not exist.
+译法记忆目录{0}不存在。
+
+钢
+Bundle.properties
+
+1246
+The writeable glossary file is not in the glossary folder.
+可写术语表文件不在术语表目录当中。
+
+xulihang
+Bundle.properties
+
+1247
+Project locked.
+项目已锁定。
+
+钢
+Bundle.properties
+
+1248
+Perhaps it is already opened in another OmegaT instance
+可能已经在其它 OmegaT 示例中打开
+
+钢
+Bundle.properties
+
+1249
+SVN '{0}' execution start
+开始执行 SVN '{0}'
+
+钢
+Bundle.properties
+
+1250
+SVN '{0}' execution finished successfully
+SVN '{0}' 成功执行完毕
+
+钢
+Bundle.properties
+
+1251
+SVN '{0}' error: {1}
+SVN '{0}' 错误： {1}
+
+钢
+Bundle.properties
+
+1252
+Commit not possible because somebody else changed remote translation.
+由于其他人对远程翻译进行了修改，无法进行提交。
+
+钢
+Bundle.properties
+
+1253
+Will be synchronized next time.
+将在下一次进行同步。
+
+钢
+Bundle.properties
+
+1254
+Upload disabled because repository in read-only mode
+由于仓库处于只读模式，上传被取消
+
+Administrator
+Bundle.properties
+
+1255
+Unsupported SVN error
+不支持SVN错误
+
+Administrator
+Bundle.properties
+
+1256
+During SVN error({0}),
+project_save.tmx was not really uploaded and SVN switched to unstable status.
+在SVN错误（{0}）期间，
+project_save.tmx未真正上传，SVN切换到不稳定状态。
+
+Administrator
+Bundle.properties
+
+1257
+To be sure that no translation will be lost, you need to:
+1.
+为确保没有翻译丢失，您需要：
+1.
+
+Administrator
+Bundle.properties
+
+1258
+Copy <project>/omegat/project_save.tmx file into a safe location
+2.
+将<project> /omegat/project_save.tmx文件复制到安全位置
+2.
+
+Administrator
+Bundle.properties
+
+1259
+Close the current OmegaT instance
+3.
+关闭当前OmegaT实例
+3.
+
+Administrator
+Bundle.properties
+
+1260
+Remove the project folder manually.
+手动删除项目文件夹。
+
+Administrator
+Bundle.properties
+
+1261
+WARNING: all unsaved data will be lost
+4.
+警告：所有未保存数据将丢失
+4.
+
+Administrator
+Bundle.properties
+
+1262
+Start OmegaT again, download the team project, close OmegaT
+5.
+再次启动OmegaT，下载团队项目，关闭OmegaT
+5.
+
+Administrator
+Bundle.properties
+
+1263
+Replace <project>/omegat/project_save.tmx in the newly downloaded project with the file saved in a safe location
+6.
+将新下载的项目中的<project> /omegat/project_save.tmx替换为保存在安全位置的文件
+6.
+
+Administrator
+Bundle.properties
+
+1264
+Start OmegaT and continue to translate
+启动OmegaT并继续翻译
+
+Administrator
+Bundle.properties
+
+1265
+Allow to save password locally as plain text
+允许以纯文本格式保存本地密码
+
+Administrator
+Bundle.properties
+
+1266
+Git '{0}' execution start
+开始执行 Git '{0}'
+
+钢
+Bundle.properties
+
+1267
+Git '{0}' execution finished successfully
+Git '{0}' 成功执行完毕
+
+钢
+Bundle.properties
+
+1268
+Git '{0}' did nothing because there were no changes
+未翻译
+
+没有修改者
+Bundle.properties
+
+1269
+Git '{0}' error: {1}
+Git '{0}' 错误： {1}
+
+钢
+Bundle.properties
+
+1270
+Push failed.
+推送失败。
+
+钢
+Bundle.properties
+
+1271
+Will be synchronized next time.
+将在下一次进行同步。
+
+钢
+Bundle.properties
+
+1272
+Upload disabled because repository in read-only mode
+由于仓库处于只读模式，上传被取消
+
+Administrator
+Bundle.properties
+
+1273
+Read-only
+只读
+
+钢
+Bundle.properties
+
+1274
+Allow to save password as plain text
+允许以纯文本格式保存密码
+
+Administrator
+Bundle.properties
+
+1275
+No connection available, the project is in offline mode.
+连接无效，项目处于离线模式。
+
+钢
+Bundle.properties
+
+1276
+Connection available, the project is in team project mode.
+连接可用，项目处于团队模式。
+
+钢
+Bundle.properties
+
+1277
+The specified project is an OmegaT 3.6-style team project.
+指定的项目是OmegaT 3.6风格的团队项目。
+
+Administrator
+Bundle.properties
+
+1278
+It needs to be converted to a new team project, but this cannot be done in console mode.
+它需要转换为新的团队项目，但无法在控制台模式下完成。
+
+Administrator
+Bundle.properties
+
+1279
+The project will be loaded as a local project without team functionality.
+该项目将作为没有团队功能的本地项目加载。
+
+Administrator
+Bundle.properties
+
+1280
+To convert it into a new team project, open it in the OmegaT GUI.
+将其转换为新的团队项目，请在OmegaT GUI中打开。
+
+Administrator
+Bundle.properties
+
+1281
+Convert Old Team Project
+转换旧的团队项目
+
+Administrator
+Bundle.properties
+
+1282
+OmegaT has detected a 3.6-style team project.
+OmegaT已检测出3.6风格的团队项目。
+
+Administrator
+Bundle.properties
+
+1283
+Press 'OK' to convert the project into a 4.x-style team project.
+按‘确定’将项目转换为4.x风格的团队项目。
+
+Administrator
+Bundle.properties
+
+1284
+This
+will delete your local data and re-download the project contents from
+the server.
+这将删除您的本地数据并从服务器重新下载项目内容。
+
+Administrator
+Bundle.properties
+
+1285
+Press 'Cancel' to leave the project unmodified and load it as a local
+project without team functionality.
+按‘取消'可以不修改项目并将其作为本地项目加载，无需团队功能。
+
+Administrator
+Bundle.properties
+
+1286
+(You will still able to use OmegaT
+3.6 to edit this project as a team project.)
+（您仍然可以使用OmegaT3.6编辑该项目作为团队项目。）
+
+Administrator
+Bundle.properties
+
+1287
+The project was converted successfully.
+该项目已成功转换。
+
+Administrator
+Bundle.properties
+
+1288
+Please contact your project administrator to find out if any
+additional steps need to be taken.
+请联系您的项目管理员，了解是否需要采取其他措施。
+
+Administrator
+Bundle.properties
+
+1289
+Authentication
+认证
+
+钢
+Bundle.properties
+
+1290
+Please enter username/password
+请输入用户名和密码
+
+钢
+Bundle.properties
+
+1291
+Wrong username/password
+用户名或密码错误
+
+钢
+Bundle.properties
+
+1292
+Wrong authentication
+认证错误
+
+钢
+Bundle.properties
+
+1293
+<html>Repository URL:</html>
+<html>仓库地址 URL:</html>
+
+Administrator
+Bundle.properties
+
+1294
+Download Team Project
+下载团队项目
+
+Administrator
+Bundle.properties
+
+1295
+New Local Project Folder:
+新建本地项目文件：
+
+Administrator
+Bundle.properties
+
+1296
+Checking out the project...
+正在检出项目…
+
+Administrator
+Bundle.properties
+
+1297
+Error checking out the project from remote repository:
+从远程仓库检出项目时出错：
+
+钢
+Bundle.properties
+
+1298
+Error checking out the project from remote repository: {0}
+从远程仓库检出项目时出错：
+
+钢
+Bundle.properties
+
+1299
+Local translation not synchronized with remote repository.
+本地译文未与远程仓库同步。
+
+钢
+Bundle.properties
+
+1300
+Project will not be updated.
+项目将不会得到更新。
+
+钢
+Bundle.properties
+
+1301
+Team synchronization
+团队同步
+
+钢
+Bundle.properties
+
+1302
+Team synchronization...
+团队同步…
+
+Administrator
+Bundle.properties
+
+1303
+Team synchronization: Waiting for you to finish this segment...
+团队同步：等待您完成此段…
+
+Administrator
+Bundle.properties
+
+1304
+Team synchronization: Saving translation in {0} s
+团队同步：在{0}中保存翻译
+
+Administrator
+Bundle.properties
+
+1305
+Synchronization error
+同步错误
+
+钢
+Bundle.properties
+
+1306
+Cancelled creating new team project
+取消创建新团队项目
+
+钢
+Bundle.properties
+
+1307
+User denied credentials
+用户证书被拒
+
+钢
+Bundle.properties
+
+1308
+The project folder {0} is missing and could not be created.
+项目目录 {0} 丢失，且无法创建。
+
+钢
+Bundle.properties
+
+1309
+Could not save credentials to text file
+无法将证书保存到文本文件
+
+钢
+Bundle.properties
+
+1310
+Detecting...
+检测…
+
+Administrator
+Bundle.properties
+
+1311
+Project file should be on http protocol.
+项目文件应遵循http协议。
+
+Administrator
+Bundle.properties
+
+1312
+An error occurred when trying to detect the project file.
+检测该项目文件夹时发生错误。
+
+Administrator
+Bundle.properties
+
+1313
+This is a Git repository.
+Git仓库。
+
+Administrator
+Bundle.properties
+
+1314
+This is a Subversion repository.
+Subversion仓库。
+
+Administrator
+Bundle.properties
+
+1315
+This is a valid project file.
+有效项目文件。
+
+Administrator
+Bundle.properties
+
+1316
+This URL appears to be invalid.
+此网址似乎无效。
+
+Administrator
+Bundle.properties
+
+1317
+Please double-check it.
+请双击。
+
+Administrator
+Bundle.properties
+
+1318
+Start rebase
+开始变基
+
+Administrator
+Bundle.properties
+
+1319
+End rebase
+结束变基
+
+Administrator
+Bundle.properties
+
+1320
+Predefined credentials was not passed.
+预定义凭证未通过
+
+Administrator
+Bundle.properties
+
+1321
+Error retrieve {0} as remote project file
+远程项目文件检索错误 {0}
+
+Administrator
+Bundle.properties
+
+1322
+Repository Credentials
+仓库凭证
+
+Administrator
+Bundle.properties
+
+1323
+Synchronisation of repositories
+同步仓库
+
+Administrator
+Bundle.properties
+
+1324
+Opening team project
+打开团队项目
+
+Administrator
+Bundle.properties
+
+1325
+Saving and Output Options
+保存并输出选项
+
+Funster
+Bundle.properties
+
+1326
+Saving and Output
+保存并输出
+
+Funster
+Bundle.properties
+
+1327
+Please select the interval at which the project should be saved automatically, in minutes and seconds.
+请选择项目自动保存的时间间隔，以分秒为单位。
+
+钢
+Bundle.properties
+
+1328
+Minutes:
+分：
+
+钢
+Bundle.properties
+
+1329
+Seconds:
+秒：
+
+钢
+Bundle.properties
+
+1330
+External Post-processing Command
+外部后置处理命令：
+
+钢
+Bundle.properties
+
+1331
+This command will be executed after Creating Translated Documents.
+该命令将在创建已译文档之后执行。
+
+钢
+Bundle.properties
+
+1332
+&Also allow per-project external commands
+同时可以针对每个项目指定外部命令(&A)
+
+Administrator
+Bundle.properties
+
+1333
+Non-breakable space
+不可中断的空白符
+
+钢
+Bundle.properties
+
+1334
+Tab
+标签
+
+Administrator
+Bundle.properties
+
+1335
+Tag
+标记
+
+钢
+Bundle.properties
+
+1336
+Text to be removed
+要删除的文本
+
+钢
+Bundle.properties
+
+1337
+Duplicate
+复制
+
+钢
+Bundle.properties
+
+1338
+Bad nesting
+错误嵌套
+
+Funster
+Bundle.properties
+
