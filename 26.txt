@@ -1,0 +1,946 @@
+7577
+<br2/>
+<br2/>
+
+lenovo
+website/howtos/ms_translator.html
+
+7578
+- Access the above website and [Sign in] to Microsoft Azure Marketplace.<br3/>
+访问上述网站并“登陆”到微软 Azure Marketplace账户<br3/>
+
+anton
+website/howtos/ms_translator.html
+
+7579
+<br4/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7580
+*If you do not already have an Microsoft account, you will need to register one first.<br5/>
+*如果您还没有Azure Marketplace账户，您首先需要注册一个账户。.<br5/>
+
+anton
+website/howtos/ms_translator.html
+
+7581
+<br6/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7582
+- After signing in Microsoft Azure Marketplace, you can get subscription to use Microsoft Translator.<br7/>
+-成功登入微软Azure Marketplace之后，您就能订阅使用Microsoft Translator了。.<br7/>
+
+anton
+website/howtos/ms_translator.html
+
+7583
+- You may pick from any of the available subscription offers, shown in the right area of the page.
+-您可以从页面右边的区域中订阅任意内容。.
+
+anton
+website/howtos/ms_translator.html
+
+7584
+If you want to select Basic subscription (free, up to 2 million characters a month,) click [SIGN UP] at the top of the subscription list.<br8/>
+如果您想选择基础订阅（免费，每月高达两百万字符），在订阅列表的顶部点击“注册”.<br8/>
+
+anton
+website/howtos/ms_translator.html
+
+7585
+Register your application
+注册您的应用
+
+anton
+website/howtos/ms_translator.html
+
+7586
+- Click [My Account] on the top of the page.<br0/>
+点击页面上方“我的账户”选项.<br0/>
+
+anton
+website/howtos/ms_translator.html
+
+7587
+- Click [DEVELOPERS] in the left "my account" menu.<br1/>
+-点击左侧”我的账户“菜单中“DEVELOPERS”选项.<br1/>
+
+anton
+website/howtos/ms_translator.html
+
+7588
+<br2/>
+<br2/>
+
+lenovo
+website/howtos/ms_translator.html
+
+7589
+<a3>https://datamarket.azure.com/developer/applications</a3> <br4/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7590
+<br5/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7591
+- Click [REGISTER] shown below "Registered Applications."<br6/>
+-在下方”已注册应用“中点击”注册“<br6/>
+
+anton
+website/howtos/ms_translator.html
+
+7592
+- Register an application with the following infomation:<br7/>
+-填写以下信息注册:<br7/>
+
+anton
+website/howtos/ms_translator.html
+
+7593
+   - Client ID: Any string ex.) my_clientid1<br8/>
+   -用户ID: 任意字符<br8/>
+
+anton
+website/howtos/ms_translator.html
+
+7594
+   - Name: Any string ex.) my_application01<br9/>
+   - 用户名:任意字符<br9/>
+
+anton
+website/howtos/ms_translator.html
+
+7595
+   - Client secret: Use string displayed by default<br10/>
+   -用户密码：使用默认字符串<br10/>
+
+anton
+website/howtos/ms_translator.html
+
+7596
+   - Redirect URI: Any URI (Invalid URL required when using Microsoft Translator) ex.) http://dummy/<br11/>
+   - 重定向URI：任何URI（使用Microsoft Translator时所需的URL无效） http://dummy/<br11/>
+
+anton
+website/howtos/ms_translator.html
+
+7597
+- After registering, check if your application has been displayed on the "Registered Applications" in the page.<br12/>
+- 注册后，请检查您的应用程序是否已显示在页面的”已注册应用程序“中。.<br12/>
+
+anton
+website/howtos/ms_translator.html
+
+7598
+<br13/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7599
+<a14>https://datamarket.azure.com/developer/applications</a14> <br15/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7600
+OmegaT setting
+OmegaT 设置
+
+anton
+website/howtos/ms_translator.html
+
+7601
+- OmegaT uses "Client ID" and "Client secret" information of which you registered.
+- OmegaT 将使用您注册所用的 "用户ID" 与"用户密码" .
+
+anton
+website/howtos/ms_translator.html
+
+7602
+Windows users:
+Windows 用户:
+
+anton
+website/howtos/ms_translator.html
+
+7603
+- Locate the file OmegaT.l4J.ini (in the OmegaT program folder) and edit the following lines with your preferred plain-text editor:<br0/>
+-找到OmegaT.l4J.ini文件（位于OmegaT程序文件夹中），并使用首选的纯文本编辑器编辑下行:<br0/>
+
+anton
+website/howtos/ms_translator.html
+
+7604
+<br1/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7605
+- Before editing OmegaT.l4J.ini<br2/>
+-编辑OmegaT.l4J.ini之前<br2/>
+
+anton
+website/howtos/ms_translator.html
+
+7606
+# Microsoft Translator credentials
+#-Dmicrosoft.api.client_id=xxxxx
+#-Dmicrosoft.api.client_secret=xxxxx
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7607
+- After editing OmegaT.l4J.ini (where Client ID: my_clientid1)<br0/>
+-编辑OmegaT.l4J.ini之后 (where Client ID: my_clientid1)<br0/>
+
+anton
+website/howtos/ms_translator.html
+
+7608
+- Remove "#" at the line heads, and replace "xxxxx" with your "Client ID" and "Client secret."<br1/>
+- 删除行头的”#“，并将”xxxx“替换为”用户ID“和”用户密码“"<br1/>
+
+anton
+website/howtos/ms_translator.html
+
+7609
+# Microsoft Translator credentials
+-Dmicrosoft.api.client_id=my_clientid1
+-Dmicrosoft.api.client_secret=your Client secret
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7610
+- Save OmegaT.l4J.ini.
+- 保存 OmegaT.l4J.ini.
+
+anton
+website/howtos/ms_translator.html
+
+7611
+Mac users:
+Mac 用户：
+
+Puzzlist
+website/howtos/ms_translator.html
+
+7612
+- Right-click on OmegaT.app and select "Show Package Contents."<br0/>
+-右键单击OmegaT.app并选择”显示包装内容“<br0/>
+
+anton
+website/howtos/ms_translator.html
+
+7613
+- Find the file OmegaT.app/Contents/MacOS/OmegaT.sh and edit the following lines with your preferred plain-text editor:<br1/>
+-在OmegaT.app/Contents/MacOS/OmegaT.sh路径下找到文件并用你喜欢的纯文本编辑器编辑下行:<br1/>
+
+anton
+website/howtos/ms_translator.html
+
+7614
+<br2/>
+<br2/>
+
+lenovo
+website/howtos/ms_translator.html
+
+7615
+- Before editing OmegaT.sh<br3/>
+- 在编辑 OmegaT.sh之前<br3/>
+
+anton
+website/howtos/ms_translator.html
+
+7616
+# Microsoft Translator credentials
+#MS_CLIENT_ID="-Dmicrosoft.api.client_id=xxxxx"
+#MS_CLIENT_SECRET="-Dmicrosoft.api.client_secret=xxxxx"
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7617
+- After editing OmegaT.sh (where Client ID: my_clientid1)<br0/>
+-在编辑 OmegaT.sh之后 (where Client ID: my_clientid1)<br0/>
+
+anton
+website/howtos/ms_translator.html
+
+7618
+- Remove "#" at the line heads, and replace "xxxxx" with your "Client ID" and "Client secret."<br1/>
+- 删除行头的”#“，并将”xxxx“替换为”用户ID“和”用户密码“"<br1/>
+
+anton
+website/howtos/ms_translator.html
+
+7619
+# Microsoft Translator credentials
+MS_CLIENT_ID="-Dmicrosoft.api.client_id=my_clientid1"
+MS_CLIENT_SECRET="-Dmicrosoft.api.client_secret=your Client secret"
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7620
+- Save OmegaT.sh.
+- 保存 OmegaT.sh.
+
+anton
+website/howtos/ms_translator.html
+
+7621
+Linux users:
+Linux 用户
+
+Puzzlist
+website/howtos/ms_translator.html
+
+7622
+- Add the following options to launch OmegaT (where Client ID: my_clientid1)
+-添加以下选项以启动OmegaT (where Client ID: my_clientid1)
+
+anton
+website/howtos/ms_translator.html
+
+7623
+java -jar -Dmicrosoft.api.client_id=my_clientid1 -Dmicrosoft.api.client_secret=your Client secret OmegaT.jar
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7624
+Using Microsoft Translator machine translation in OmegaT
+在OmegaT中使用Microsoft Translaort机器翻译
+
+anton
+website/howtos/ms_translator.html
+
+7625
+- Launch OmegaT and open your project.<br0/>
+-启动OmegaT并打开你的项目.<br0/>
+
+anton
+website/howtos/ms_translator.html
+
+7626
+- Select [Options] > [Machine Translate]<br1/>
+- 选择 [选项] > [机器翻译]<br1/>
+
+anton
+website/howtos/ms_translator.html
+
+7627
+- Check [Microsoft Translator]<br2/>
+- 点击 [Microsoft Translator]<br2/>
+
+anton
+website/howtos/ms_translator.html
+
+7628
+- When you select any segments, its translation will be displayed in Machine Translation window of OmegaT.<br3/>
+-当你选择任意片段时，其翻译将显示在OmegaT的机器翻译窗口中.<br3/>
+
+anton
+website/howtos/ms_translator.html
+
+7629
+   - If you find a message including "Bad Request" in Machine Translation window, check if the values "Client ID" and "Client secret" are appropriate.<br4/>
+   - 如果在机器翻译窗口中发现包含”错误请求“的消息，请检查”用户ID“和”用户密码“是否正确.<br4/>
+
+anton
+website/howtos/ms_translator.html
+
+7630
+- Ctrl+M (or Command+M on Mac) will replace the current segment translation with that machine translation.<br5/>
+-通过 Ctrl+M (或者Mac上 Command+M) 将当前片段替换为机器翻译.<br5/>
+
+anton
+website/howtos/ms_translator.html
+
+7631
+How will I know when I reach my monthly usage limit?
+我如何直到何时达到每月使用限制？
+
+anton
+website/howtos/ms_translator.html
+
+7632
+<a0>https://datamarket.azure.com/account/datasets</a0> <br1/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7633
+<br2/>
+<br2/>
+
+lenovo
+website/howtos/ms_translator.html
+
+7634
+- You can check your usage limit in your account by accessing the above page.
+- 您可以通过访问上述页面来查看您账户中的使用限额.
+
+anton
+website/howtos/ms_translator.html
+
+7635
+The "Status" field displays the limit like as "1,998,890 Characters remaining" for example.<br3/>
+例如，”状态“字段显示”剩余1,998,890个字符“.<br3/>
+
+anton
+website/howtos/ms_translator.html
+
+7636
+<br4/>
+未翻译
+
+没有修改者
+website/howtos/ms_translator.html
+
+7637
+Copyright Will Helton and OmegaT Japanese Localization Team 2012-2015<br5/>
+版权Will Helton and OmegaT Japanese Localization Team 2012-2015<br5/>
+
+anton
+website/howtos/ms_translator.html
+
+7638
+This HowTo explains how to create a new file filter for use with OmegaT by describing the creation of a rudimentary file filter for the TMX format.
+”HowTo“解释了如何创建一个新的文件过滤器以便与OmegaT一起使用，并描述了如何玮TMX格式创建基本文件.
+
+anton
+website/howtos/new_filter.html
+
+7639
+Although it might seem strange to want to translate TMX files (the usual reason for creating a file filter), the addition of a TMX filter has the interesting effect that it enables TMX files in any location to be searched for from within any OmegaT project using the "Search Files" function, something not possible in the standard OmegaT build.
+尽管翻译TMX文件听起来似乎很奇怪（这是创建文件过滤器的常见原因），但添加TMX过滤器可以让它在任何位置使用任何OmegaT项目中的TMX文件进行”文件搜索“的功能，这在标准的OmegaT版本中时不可能实现的.
+
+anton
+website/howtos/new_filter.html
+
+7640
+For compiling OmegaT from the source code, see <a0>Compiling OmegaT from Source HowTo</a0>.
+要从源代码编译OmegaT ，请参阅<a0>从源代码”HowTo“编译OmegaT</a0>.
+
+anton
+website/howtos/new_filter.html
+
+7641
+Select an existing filter for a format similar to that for the new filter.
+选择一个与新过滤器类似的现有过滤器.
+
+anton
+website/howtos/new_filter.html
+
+7642
+In this example, the Help & Manual filter has been selected as a basis.
+在这个例子中，已经选择了Help&Mannul过滤器作为基础.
+
+anton
+website/howtos/new_filter.html
+
+7643
+Locate the folder src/org/omegat/filters3/xml, and make a copy the subfolder /helpandmanual, naming it /tmx.
+ 找到src/org/omegat/filters3/xml文件夹，然后复制子文件夹/helpandmanual，并将其命名为/tmx.
+
+anton
+website/howtos/new_filter.html
+
+7644
+In this folder, rename the two files HelpandManualDialect.java and HelpandManualFilter.java to TmxDialect.java and TmxFilter.java respectively.
+在这个文件夹中，分别将两个文件HelpandManualDialect.java和HelpandManualFilter.java重命名为TmxDialect.java和TmxFilter.java.
+
+anton
+website/howtos/new_filter.html
+
+7645
+Open the files TMXDialect.java and TMX filter in a text editor.
+在本文编辑器中打开TMXDialect.java和TMX 过滤器.
+
+anton
+website/howtos/new_filter.html
+
+7646
+In both files, search for (matching the case) and replace:
+在这两个文件中，搜索“匹配案例”并进行替换
+
+anton
+website/howtos/new_filter.html
+
+7647
+"helpandmanual" with "tmx"<br0/>
+“helpandmanual" with "tmx"<br0/>
+
+anton
+website/howtos/new_filter.html
+
+7648
+"HelpAndManual" with "TMX"<br1/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7649
+"HELPANDMANUAL" with "TMX"<br2/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7650
+"Help & Manual" with "TMX"<br3/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7651
+"Help&Manual" with "TMX"
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7652
+Identify the paragraph-level tag(s) for your new file format.
+为新的文件格式识别段落级标签.
+
+anton
+website/howtos/new_filter.html
+
+7653
+To find out what the paragraph tags should be, examine a sample file in a text editor.
+要找到段落标签，请在文本编辑器中检查示例文件.
+
+anton
+website/howtos/new_filter.html
+
+7654
+In TMX, the paragraph-level tag corresponding to a segment is "tu".
+在TMX文件中，片段对应的段落级标签是"tu".
+
+anton
+website/howtos/new_filter.html
+
+7655
+In TMXDialect.java:
+在 TMXDialect.java中:
+
+anton
+website/howtos/new_filter.html
+
+7656
+Define the paragraph tags, in this case by changing the line:
+通过改变线条来定义段落标签:
+
+anton
+website/howtos/new_filter.html
+
+7657
+defineParagraphTags(new String[] { "caption", "config-value", "variable", "para", "title", "keyword", "li", });
+定义段落级标签(新字符串[] { "caption", "config-value", "variable", "para", "title", "keyword", "li", });
+
+anton
+website/howtos/new_filter.html
+
+7658
+to
+跳转到
+
+anton
+website/howtos/new_filter.html
+
+7659
+defineParagraphTags(new String[] { "tu", });
+定义段落系标签(新字符串[] { "tu", });
+
+anton
+website/howtos/new_filter.html
+
+7660
+You can delete the line:
+您也可以删除横线:
+
+anton
+website/howtos/new_filter.html
+
+7661
+defineShortcut("link", "li");
+定义快捷方式("link", "li");
+
+anton
+website/howtos/new_filter.html
+
+7662
+as it is irrelevant to TMX, although the new filter will still work if you do not.
+由于它与TMX无关，所以即便您不进行这样的操作，新的过滤器仍然可以工作.
+
+anton
+website/howtos/new_filter.html
+
+7663
+You can define out-of-turn tags.
+你可以定义外转标签.
+
+anton
+website/howtos/new_filter.html
+
+7664
+These define subsegments that are presented outside the segment in which they are contained (footnotes are a good example).
+这能定义那些在包含他们的片段之外呈现的子片段（脚注就是一个很好的例子）.
+
+anton
+website/howtos/new_filter.html
+
+7665
+To do this for the TMX filter, insert the line
+腰围TMX过滤器执行此操作，请插入改行
+
+anton
+website/howtos/new_filter.html
+
+7666
+defineOutOfTurnTags(new String[] { "sub", });
+定义外转标签（新字符串[] { "sub", });
+
+anton
+website/howtos/new_filter.html
+
+7667
+beneath the line
+这行下面
+
+anton
+website/howtos/new_filter.html
+
+7668
+defineParagraphTags(new String[] { "tu", });
+定义段落系标签(新字符串[] { "tu", });
+
+anton
+website/howtos/new_filter.html
+
+7669
+The filter will however still work if you do not do this.
+但是，如果你不这样做，过滤器仍然可以运行.
+
+anton
+website/howtos/new_filter.html
+
+7670
+Beneath these lines, you can also insert the code:
+在这几行下面，您还可以插入代码:
+
+anton
+website/howtos/new_filter.html
+
+7671
+defineIntactTags(new String[]<br0/>
+定义IntactTags(新字符串[]<br0/>
+
+anton
+website/howtos/new_filter.html
+
+7672
+   {<br1/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7673
+   "header",<br2/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7674
+   "prop",<br3/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7675
+   "ph",<br4/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7676
+   "bpt",<br5/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7677
+   "ept",<br6/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7678
+   "it",<br7/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7679
+   "ut",<br8/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7680
+   });
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7681
+This will make the display of the TMX files neater, but again, it is not absolutely essential.
+这将使TMX文件显得更整洁，但同样，这也不是必要的操作.
+
+anton
+website/howtos/new_filter.html
+
+7682
+In TMXFilter.java:
+在TMXFilter.java里:
+
+anton
+website/howtos/new_filter.html
+
+7683
+Change the file extension, in this case to .tmx, by changing the line:
+通过更改文件扩展名，在本例中改为.tmx:
+
+anton
+website/howtos/new_filter.html
+
+7684
+public Instance[] getDefaultInstances() {<br0/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7685
+   return new Instance[] { new Instance("*.xml", null, null), new Instance("*.hmxp", null, null), };
+ 返回新的 Instance[] { new Instance("*.xml", null, null), new Instance("*.hmxp", null, null), };
+
+anton
+website/howtos/new_filter.html
+
+7686
+to:
+改为:
+
+weiyi
+website/howtos/new_filter.html
+
+7687
+public Instance[] getDefaultInstances() {<br0/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7688
+   return new Instance[] { new Instance("*.tmx", null, null), };
+  返回新的 Instance[] { new Instance("*.tmx", null, null), };
+
+anton
+website/howtos/new_filter.html
+
+7689
+In the folder /src/org/omegat, open the file Bundle.properties in a text editor and find the lines
+在文件夹/src/org/omegat中，用文本编辑器打开Bundle.properties文件并查找行
+
+anton
+website/howtos/new_filter.html
+
+7690
+# HelpAndManualFilter.java<br0/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7691
+   HELPANDMANUAL_FILTER_NAME=Help & Manual Files
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7692
+Below these lines, insert the lines
+在这几行下面，插入行
+
+anton
+website/howtos/new_filter.html
+
+7693
+# TMXFilter.java<br0/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7694
+   TMX_FILTER_NAME=TMX files
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7695
+(If you wish to launch OmegaT with a user interface language other than English, make the same change in the relevant localized Bundle.properties file.)
+(如果您希望以非英语的用户界面语言启动OmegaT，请在相关的本地化的Bundle.properties file文件中进行相同的更改.)
+
+anton
+website/howtos/new_filter.html
+
+7696
+In the main folder of the source code, open the file manifest-template.mf in a text editor.
+在源代码的主文件夹中，用文本编辑器打开文件manifest-template.mf.
+
+anton
+website/howtos/new_filter.html
+
+7697
+Find the lines:
+查找到以下行：
+
+anton
+website/howtos/new_filter.html
+
+7698
+Name: org.omegat.filters3.xml.helpandmanual.HelpAndManualFilter<br0/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7699
+   OmegaT-Plugin: filter
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7700
+Below them, insert the lines:
+在下方插入行：
+
+anton
+website/howtos/new_filter.html
+
+7701
+Name: org.omegat.filters3.xml.tmx.TMXFilter<br0/>
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7702
+   OmegaT-Plugin: filter
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7703
+Compile as described in the Compiling OmegaT from Source HowTo.
+按照源代码HowTo中所描述的来编译OmegaT
+
+anton
+website/howtos/new_filter.html
+
+7704
+Launch the newly compiled version.
+启动新编译版本
+
+anton
+website/howtos/new_filter.html
+
+7705
+Check in Options > File Filters that the new filter is present.
+检查选项 > 文件过滤器 看是否存在新过滤器.
+
+anton
+website/howtos/new_filter.html
+
+7706
+To check whether it works, you can place a TMX file in the /source folder of a project, or (more useful) perform a Text Search > Search files operation on TMX files.
+要检查它是否有效，可以将TMX文件放在项目的/source文件夹中，或者(更有效的办法)在TMX文件上执行文本搜索> 搜索文件 的操作.
+
+anton
+website/howtos/new_filter.html
+
+7707
+Copyright Marc Prior 2008-2011
+未翻译
+
+没有修改者
+website/howtos/new_filter.html
+
+7708
+Background
+背景
+
+xulihang
+website/howtos/preview.html
+
+7709
+Most modern CAT tools display the text in segment-oriented form rather than with its ultimate layout and formatting.
+大多数现代CAT工具都是以片段为导向来显示文本，而不是以其最终的布局格式来显示.
+
+anton
+website/howtos/preview.html
+
+7710
+Although this has many advantages, it can be very useful for the translator to be able to see the ultimate layout and formatting whilst translating.
+虽然这样有很多有点，但若能在翻译时看到最终的布局和格式，这将对翻译人员起到非常大的帮助。
+
+anton
+website/howtos/preview.html
+
