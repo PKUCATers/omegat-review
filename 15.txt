@@ -1,0 +1,4452 @@
+5007
+User Manual...
+用户手册...
+
+xulihang
+doc_src/Menu.xml
+
+5008
+<k0>F1:</k0> Opens this manual in the default browser.
+<k0>F1：</k0>在默认浏览器中打开此用户手册。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5009
+About...
+关于...
+
+xulihang
+doc_src/Menu.xml
+
+5010
+Displays copyright, credits and license information.
+显示版权、制作人员和授权信息。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5011
+Last Changes...
+上次更新...
+
+lenovo
+doc_src/Menu.xml
+
+5012
+Displays the list of new functionalities, enhancements and bug fixes for each new release.
+显示每个版本的船新功能、改进及修复～
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5013
+Log...
+登陆...
+
+lenovo
+doc_src/Menu.xml
+
+5014
+Displays the current log file.
+显示当前日志文件。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5015
+The title of the dialog reflects the file actually used (which depends on how many instances of OmegaT are running concurrently).
+对话框的标题显示真正使用的文件（取决于OmegaT同时开启多个实例）
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5016
+Keyboard shortcuts
+键盘快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+5017
+Keyboard shortcuts
+键盘快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+5018
+The following shortcuts are available from the main window.
+在主窗口中可以使用以下快捷方式。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5019
+When another window is on the foreground, click on the main window to bring it to the foreground or press <k0>Esc</k0> to close the other window.
+当其他窗口挡在前面时，点击主窗口使它位于前方，或者按 <k0>Esc</k0> 键关闭当前窗口。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5020
+Shortcuts are activated by pressing <k0>Ctrl</k0> and a letter.
+快捷键通过按 <k0>Ctrl</k0> 和字母键来激活。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5021
+Some shortcuts involve other keys.
+某些快捷键还包含其他按键。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5022
+For readability purposes, letters are written in uppercase here.
+为了增强可读性，本手册中这些字母以大写形式出现。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5023
+Ctrl is used on Windows, UNIX and UNIX-like operating systems with keyboards featuring a <k0>Ctrl</k0> / <k1>Control key</k1>.
+Ctrl 键在 Windows 系统中使用，UNIX 和类 UNIX 操作系统使用 <k0>Ctrl</k0> / <k1>Control 键</k1>。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5024
+Mac users should instead use the <g2>cmd+key.</g2> On Apple keyboards the <g3>cmd</g3> key either has a command label or an Apple icon on it.
+Mac 用户则使用 <g2>cmd+key。</g2><g3>Cmd</g3> 键就是在苹果键盘上印有 "command" 或“苹果”符号的那个键。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5025
+Project management
+项目管理
+
+Fu Rhong
+doc_src/Menu.xml
+
+5026
+Editing
+编辑
+
+Fu Rhong
+doc_src/Menu.xml
+
+5027
+Moving around
+来回移动
+
+Fu Rhong
+doc_src/Menu.xml
+
+5028
+Reference windows
+参考窗口
+
+Fu Rhong
+doc_src/Menu.xml
+
+5029
+Other
+其它
+
+Fu Rhong
+doc_src/Menu.xml
+
+5030
+<p0>Keyboard shortcuts</p0> <s1>Project</s1>
+<p0>键盘快捷键</p0> <s1>项目</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5031
+<p0>Project</p0> <s1>Project management shortcuts</s1>
+<p0>项目</p0> <s1>项目管理快捷键</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5032
+Project management
+项目管理
+
+Fu Rhong
+doc_src/Menu.xml
+
+5033
+Project management shortcuts
+项目管理快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+5034
+Open project
+打开项目
+
+Fu Rhong
+doc_src/Menu.xml
+
+5035
+<k0>Ctrl</k0> <k1>O</k1>
+<k0>Ctrl</k0> <k1>O</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5036
+Displays a dialog to locate an existing project.
+打开对话框以打开一个现有的项目。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5037
+Save
+保存
+
+Fu Rhong
+doc_src/Menu.xml
+
+5038
+<k0>Ctrl</k0> <k1>S</k1>
+<k0>Ctrl</k0> <k1>S</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5039
+Saves the current work to the internal translation memory (file project_save.tmx located in the project's <f0>omegat</f0> folder).
+将当前的工作保存到内部翻译记忆（project_save.tmx 文件位于项目的 <f0>omegat</f0> 目录下）。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5040
+Close Project
+关闭项目
+
+Fu Rhong
+doc_src/Menu.xml
+
+5041
+<k0>Shift</k0> <k1>Ctrl</k1> <k2>W</k2>
+<k0>Shift</k0> <k1>Ctrl</k1> <k2>W</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5042
+Closes the current project.
+关闭当前项目。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5043
+Create Translated Documents
+创建已译文档
+
+Fu Rhong
+doc_src/Menu.xml
+
+5044
+<k0>Ctrl</k0> <k1>D</k1>
+<k0>Ctrl</k0> <k1>D</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5045
+Creates the translated documents in the project's Target folder and creates translation memory files (level1, level2 and omegat tmx files) in the project's root folder.
+在项目的目标文件夹创建已译文档，同时在项目的根目录中创建翻译记忆文件（(level1，level2 和 omegat tmx 文件）。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5046
+Project properties
+项目属性
+
+Fu Rhong
+doc_src/Menu.xml
+
+5047
+<k0>Ctrl</k0> <k1>E</k1>
+<k0>Ctrl</k0> <k1>E</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5048
+Displays the project's settings for modification, if required.
+显示项目设置并进行可能的修改。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5049
+<p0>Keyboard shortcuts</p0> <s1>Editing</s1>
+<p0>键盘快捷键</p0> <s1>编辑</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5050
+<p0>Keyboard shortcuts</p0> <s1>Goto</s1>
+<p0>键盘快捷键</p0> <s1>前往</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5051
+Editing
+编辑
+
+Fu Rhong
+doc_src/Menu.xml
+
+5052
+Editing shortcuts
+编辑快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+5053
+Undo last action
+取消上一操作
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5054
+<k0>Ctrl</k0> <k1>Z</k1>
+<k0>Ctrl</k0> <k1>Z</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5055
+Undoes the last editing actions in the current target segment
+取消当前目标片段中的上一个编辑操作
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5056
+Redo last action
+重做上一操作
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5057
+<k0>Ctrl</k0> <k1>Y</k1>
+<k0>Ctrl</k0> <k1>Y</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5058
+Redoes the last editing actions in the current target segment
+重做当前目标片段中的上一个编辑操作
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5059
+Select match #N
+选择第 #N 号匹配
+
+Fu Rhong
+doc_src/Menu.xml
+
+5060
+<k0>Ctrl</k0> <k1>#N</k1>
+<k0>Ctrl</k0> <k1>#N</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5061
+#N is a digit from 1 to 5.
+#N 为 1 至 5 之间的数字.
+
+Fu Rhong
+doc_src/Menu.xml
+
+5062
+The shortcut selects the Nth match displayed in the match window (the first match is selected by default)
+选中匹配窗口中显示的第 N 个匹配内容（缺省情况下选中第一个匹配）
+
+Fu Rhong
+doc_src/Menu.xml
+
+5063
+Replace with match
+用匹配替代
+
+Fu Rhong
+doc_src/Menu.xml
+
+5064
+<k0>Ctrl</k0> <k1>R</k1>
+<k0>Ctrl</k0> <k1>R</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5065
+Replaces the current target segment contents with the selected match (the first match is selected by default)
+使用选中的匹配替换当前目标片段内容（缺省情况下选中第一个匹配）
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5066
+Insert match
+插入匹配
+
+Fu Rhong
+doc_src/Menu.xml
+
+5067
+<k0>Ctrl</k0> <k1>I</k1>
+<k0>Ctrl</k0> <k1>I</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5068
+Inserts the selected match at the cursor position in the current target segment (the first match is inserted by default)
+向当前片段的光标位置插入选中的匹配（缺省情况下插入第一个匹配）
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5069
+Replace with source
+用原文本替换
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5070
+<k0>Ctrl</k0> <k1>Shift+R</k1>
+<k0>Ctrl</k0> <k1>Shift+R</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5071
+Replaces the current target segment contents with the source text contents
+用源文本内容替换当前的目标片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5072
+Insert source
+插入源文本
+
+Fu Rhong
+doc_src/Menu.xml
+
+5073
+<k0>Ctrl</k0> <k1>Shift+I</k1>
+<k0>Ctrl</k0> <k1>Shift+I</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5074
+Inserts the source text contents into the target segment at the cursor position
+在目标片段的光标位置插入源文本内容
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5075
+Insert Source Tags
+插入源标签
+
+Fu Rhong
+doc_src/Menu.xml
+
+5076
+<k0>Ctrl</k0> <k1>Shift+T</k1>
+<k0>Ctrl</k0> <k1>Shift+T</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5077
+Inserts the source tags into the target segment at the cursor position
+在目标片段的光标位置插入源标签
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5078
+Search project
+在项目中搜索...
+
+xulihang
+doc_src/Menu.xml
+
+5079
+<k0>Ctrl</k0> <k1>F</k1>
+<k0>Ctrl</k0> <k1>F</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5080
+Displays a dialog to conduct searches in the project
+显示一个对话框以在项目中搜索
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5081
+Replace with Machine Translation
+用机器翻译替换
+
+Fu Rhong
+doc_src/Menu.xml
+
+5082
+<k0>Ctrl</k0> <k1>M</k1>
+<k0>Ctrl</k0> <k1>M</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5083
+Replaces the target segment with the machine translation of the source.
+使用原文的机器翻译的译文取代目标片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5084
+No action, if machine tools are deactivated (see Menu > Options > Machine Translate)
+如果未激活机器翻译服务（参阅下面的 菜单 > 选项 > 机器翻译），将不会有任何动作。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5085
+Export Selection
+导出选中部分
+
+Fu Rhong
+doc_src/Menu.xml
+
+5086
+<k0>Shift</k0> <k1>Ctrl</k1> <k2>C</k2>
+<k0>Shift</k0> <k1>Ctrl</k1> <k2>C</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5087
+Exports the current selection to a text file for processing.
+将当前选中内容导出至文本文件进行处理。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5088
+Create Glossary Entry
+创建术语表条目
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5089
+<k0>Shift</k0> <k1>Ctrl</k1> <k2>G</k2>
+<k0>Shift</k0> <k1>Ctrl</k1> <k2>G</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5090
+Allows the user create an entry in the default glossary file.
+可让用户在缺省的术语表文件中创建条目。
+
+xulihang
+doc_src/Menu.xml
+
+5091
+<p0>Keyboard shortcuts</p0> <s1>Goto</s1>
+<p0>键盘快捷键</p0> <s1>前往</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5092
+Moving around
+来回移动
+
+Fu Rhong
+doc_src/Menu.xml
+
+5093
+Moving around shortcuts
+来回移动快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+5094
+Next Untranslated Segment
+后一未译片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+5095
+<k0>Ctrl</k0> <k1>U</k1>
+<k0>Ctrl</k0> <k1>U</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5096
+Moves the editing field to the next segment that is not registered in the project's translation memory
+将编辑字段转到项目翻译记忆中未登记的后一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5097
+Next Segment
+后一片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+5098
+<k0> <k1>Ctrl</k1> <k2>N</k2> </k0>, <k3>Enter</k3> or <k4>Return</k4>
+<k0> <k1>Ctrl</k1> <k2>N</k2> </k0>，<k3>Enter</k3> 或 <k4>Return</k4>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5099
+Moves the editing field to the next segment.
+移动编辑区域到后一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5100
+Previous Segment
+前一片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+5101
+<k0>Ctrl</k0> <k1>P</k1>
+<k0>Ctrl</k0> <k1>P</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5102
+Moves the editing field to the previous segment
+将编辑区域转移到前一个片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+5103
+Segment number...
+片段序号...
+
+xulihang
+doc_src/Menu.xml
+
+5104
+<k0>Ctrl</k0> <k1>J</k1>
+<k0>Ctrl</k0> <k1>J</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5105
+Moves to the segment number entered
+移动到所输入序号的片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+5106
+Back in history...
+在编辑历史中回退...
+
+Andrew
+doc_src/Menu.xml
+
+5107
+<k0>Ctrl</k0> <k1>Shift+P</k1>
+<k0>Ctrl</k0> <k1>Shift+P</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5108
+Moves one segment back in history
+在编辑历史中回退一个片段
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5109
+Forward in history...
+在编辑历史中前进...
+
+Andrew
+doc_src/Menu.xml
+
+5110
+<k0>Ctrl</k0> <k1>Shift+N</k1>
+<k0>Ctrl</k0> <k1>Shift+N</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5111
+Moves one segment forward in history
+在历史中前进一个片段..
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5112
+<p0>Keyboard shortcuts</p0> <s1>Other</s1>
+<p0>键盘快捷键</p0> <s1>其他</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5113
+Other
+其它
+
+Fu Rhong
+doc_src/Menu.xml
+
+5114
+Various shortcuts
+其他快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+5115
+Project files listing
+项目文件清单
+
+Fu Rhong
+doc_src/Menu.xml
+
+5116
+<k0>Ctrl</k0> <k1>L</k1>
+<k0>Ctrl</k0> <k1>L</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5117
+Displays the Project files listing
+显示项目文件列表
+
+Fu Rhong
+doc_src/Menu.xml
+
+5118
+Validate Tags
+检验标签
+
+Fu Rhong
+doc_src/Menu.xml
+
+5119
+<k0>Ctrl</k0> <k1>T</k1>
+<k0>Ctrl</k0> <k1>T</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5120
+Opens the Tag validation window.
+打开标签验证窗口。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5121
+Export Selection
+导出选中部分
+
+Fu Rhong
+doc_src/Menu.xml
+
+5122
+<k0>Shift</k0> <k1>Ctrl+C</k1>
+<k0>Shift</k0> <k1>Ctrl+C</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5123
+Exports the current selection or the current source, if no text has been selected.
+输出当前选中内容，如果未选中文本则输出当前原文。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5124
+The text is exported to a plain text file.
+该文本被导出到纯文本文件。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5125
+Search Project
+在项目中搜索...
+
+xulihang
+doc_src/Menu.xml
+
+5126
+<k0>Ctrl</k0> <k1>F</k1>
+<k0>Ctrl</k0> <k1>F</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5127
+Opens a new Search window.
+打开一个新的搜索窗口。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5128
+Help files
+帮助文件
+
+Fu Rhong
+doc_src/Menu.xml
+
+5129
+F1
+F1
+
+Fu Rhong
+doc_src/Menu.xml
+
+5130
+Displays the <a0>OmegaT</a0> help files in a separate window
+在独立的窗口中显示 <a0>OmegaT</a0> 帮助文件
+
+Fu Rhong
+doc_src/Menu.xml
+
+5131
+Miscellanea
+杂项
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5132
+Miscellaneous subjects
+杂项主题
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5133
+<p0>OmegaT console mode</p0> <s1>Miscellanea</s1>
+<p0>OmegaT 控制台模式</p0> <s1>杂项</s1>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5134
+<p0>Miscellanea</p0> <s1>OmegaT console mode</s1>
+<p0>杂项</p0> <s1>OmegaT 控制台模式</s1>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5135
+<a0><i1/>OmegaT</a0> Console Mode
+<a0><i1/>OmegaT</a0> 控制台模式
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5136
+Of interest for advanced users only!
+这些内容为感兴趣的高级用户准备的！
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5137
+The purpose of the console (i.e. command line) mode is to permit the use <a0>of OmegaT</a0> as translation tool in a scripting environment.
+控制台（即命令行）模式的目的是将 <a0>of OmegaT</a0> 用作脚本环境的翻译工具。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5138
+When launched in console mode, no GUI is loaded ( it will work therefore on any console) and the given project is automatically translated.
+在控制台模式下，将不会载入任何图形化界面（因此仅在某控制台中运行），同时会自动按要求翻译指定的项目。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5139
+An example would be a software project, with GUI localized in a number of languages.
+这样的一个例子是需要把图形用户界面本地化为多种语言的软件项目。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5140
+Using the console mode, one can make generating a localized interface a part of the build process.
+使用控制台模式就可以在它的构建过程中生成本地化界面。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5141
+Prerequisites
+先决条件
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5142
+To run OmegaT, a valid OmegaT project must be available.
+为运行 OmegaT，必须存在有效的 OmegaT 项目。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5143
+The location is irrelevant, since it must be specified explicitly on the command-line at launch.
+位置并不重要，因为无论如何，启动时您都必须在命令行中明确指定它的位置。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5144
+If you need non-standard settings, the corresponding configuration files (<l0>filters.conf</l0> and <l1>segmentation.conf</l1>) must be present.
+如果不使用标准设置，则必须提供相应的配置文件（<l0>filters.conf</l0>和<l1>segmentation.conf)</l1>）。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5145
+This can be achieved in two ways:
+可通过两种方式达到这个目的：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5146
+Run <a0>OmegaT</a0> normally (with the GUI) and set the settings.
+正常运行 <a0>OmegaT</a0> （带图像用户界面）并进行设置。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5147
+If you start <a1>OmegaT</a1> in console mode, it will use the settings you configured.
+如果以控制台模式启动 <a1>OmegaT</a1>，它将使用您配置的设置。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5148
+If you are unable to run <a0>OmegaT</a0> normally (no graphical environment available): copy the settings files from some other <a1>OmegaT</a1> installation on another machine to a specific folder.
+如果您无法正常运行<a0>OmegaT</a0>（没有可用的图形界面）：可将另一机器上安装的<a1>OmegaT</a1>设置文件复制到指定文件夹。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5149
+The location does not matter, since you can add it to the command line at launch (see below).
+位置并不重要，因为无论如何，启动时您都必须将位置添加到命令行。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5150
+The relevant files <l2>filters.conf</l2> and <l3>segmentation.conf</l3> can be found in the user home folder (E.g. <l4>C:\Documents and Settings\%User%\<a5>OmegaT</a5></l4> under Windows, <l6>%user%/.omegat/</l6> under Linux)
+相关的文件<l2>filters.conf</l2>和<l3>segmentation.conf</l3>可在用户主目录找到（如Windows 系统中的<l4>C:\Documents and Settings\%User%\<a5>OmegaT</a5></l4>或Linux系统中的<l6>%user%/.omegat/</l6>）
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5151
+Launching OmegaT in console mode
+以控制台模式运行 OmegaT
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5152
+To launch OmegaT in console mode, additional parameters must be specified at launch.
+要以控制台模式启动 OmegaT，必须在启动时传入另外的参数。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5153
+The most important of these is <l0><project-dir></l0>, and optionally <l1>--config-dir=<config-dir></l1>.
+其中最重要的是<l0><project-dir></l0>，还可以加上<l1>--config-dir=<config-dir></l1>。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5154
+Example:
+例如：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5155
+$> java -jar <a0>OmegaT</a0>.jar /path/to/project \
+$> java -jar <a0>OmegaT</a0>.jar /path/to/project \
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5156
+--config-dir=/path/to/config-files/ \
+--config-dir=/path/to/config-files/ \
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5157
+--mode=console-translate \
+--mode=console-translate \
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5158
+--source-pattern={regexp} \
+--source-pattern={regexp} \
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5159
+--tag-validation=[block|warn]
+--tag-validation=[block|warn]
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5160
+Explanation:
+说明：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5161
+<l0><project-dir></l0> tells <a1>OmegaT</a1> where to find the project to be translated.
+<l0><project-dir></l0> 告知 <a1>OmegaT</a1> 要翻译项目的位置。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5162
+If given, <a2>OmegaT</a2> launches in console mode and translates the given project.
+如果给出了该参数，则 <a2>OmegaT</a2> 以控制台模式启动并翻译指定的项目。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5163
+<l0>--config-dir=<config-dir></l0> enables OmegaT to be instructed in which folder the configuration files are stored.
+<l0>--config-dir=<config-dir></l0> 向 OmegaT 指示配置文件所在的目录。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5164
+If not specified, OmegaT reverts to default values (the OmegaT folder in the user home folder, or if not available: the current working folder).
+如果没有给出该参数，OmegaT 将转而使用缺省值（即用户主目录中的OmegaT文件夹，如果不可用的话则是当前的工作目录）。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5165
+<l0>--mode=console-translate </l0> <a1>OmegaT</a1> launches in console mode and translates the given project
+<l0>--mode=console-translate </l0> <a1>OmegaT</a1> 以控制台模式运行并翻译指定的项目。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5166
+<l0>--source-pattern={regexp} </l0>The files to be translated can be specified this way.
+<l0>--source-pattern={regexp} </l0>可使用这种方式指定要翻译的文件。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5167
+Here is an example of the regular expression: <f1>test\.html</f1>
+这是一个正则表达式的例子：<f1>test\.html</f1>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5168
+<l0>--tag-validation=[abort|warn] </l0> On abort, the program is aborted when tag validation finds errors.
+<l0>--tag-validation=[abort|warn]</l0>若使用abort，在标签检验发现错误时会中止。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5169
+On warn the errors are printed but the program continues.
+用warn则打印错误且OmegaT继续执行。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5170
+In all other cases no tag validation is done.
+在其他情况下（即不使用此参数时）不会进行标签验证操作。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5171
+Quiet option
+静默选项
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5172
+An extra command line parameter specific to console mode: <l0>--quiet</l0>.
+控制台模式专用的一个附加命令行参数：<l0>--quiet</l0>。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5173
+In the quiet mode, less info is logged to the screen.
+在静默模式下，屏幕上将显示更少的日志信息。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5174
+The messages you would usually find in the status bar are not displayed.
+在状态栏通常可以看到的所有信息都不会被显示。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5175
+Usage: <l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --quiet</l0>
+用法：<l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --quiet</l0>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5176
+Tag validation option
+标记验证选项
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5177
+Another extra command line parameter specific to console mode: <l0>--tag-validation=[abort|warn]</l0>.
+控制台模式专用的另一个附加命令行参数： <l0>--tag-validation=[abort|warn]</l0>。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5178
+When this parameter is added, tag validation is done prior to translation/aligning.
+添加此参数后，标签验证操作先于翻译/对齐进行。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5179
+If the value is <l1>abort</l1>, then on tag errors the errors are printed and the program stops.
+如果该参数值为 <l1>abort</l1>，那么在遇到标签错误时打印出错误，同时程序停止。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5180
+If the value is <l2>warn</l2> then the errors are printed but OmegaT continues.
+如果该参数值为 <l2>warn</l2>，则打印错误且 OmegaT 继续执行。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5181
+Usage: <l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --tag-validation=abort</l0>
+用法：<l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --tag-validation=abort</l0>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5182
+<p0>Miscellanea</p0> <s1>Automatic aligner for Java properties</s1>
+<p0>杂项</p0> <s1>用于Java属性的自动对齐器</s1>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5183
+Automatic Java Properties Aligner
+自动Java属性对齐器
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5184
+OmegaT can align Java .properties in console mode.
+OmegaT 可以在控制台模式中对齐 Java .properties。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5185
+If you have the source and the target Properties files for one and the same contents in your language pair, this procedure will create a corresponding tmx file for these contents.
+如果您有以您需要的语言对表示的源和目标属性文件，这个过程将创建包含这些内容的 TMX 文件。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5186
+Usage:
+用法：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5187
+java -jar OmegaT.jar --mode=console-align /my-project-dir --alignDir=/translatedFiles/
+java -jar OmegaT.jar --mode=console-align /my-project-dir --alignDir=/translatedFiles/
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5188
+<f0>alignDir </f0>must contain a translation in the target language of the project.
+<f0>alignDir </f0> 必须包含项目目标语言的翻译。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5189
+E.g., if the project is EN->FR, alignDir must contain a bundle ending with _fr.
+例如，如果项目为 EN->FR，则 alignDir 必须包含以 _fr 结尾的包。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5190
+The resulting tmx is stored in the <l1>omegat </l1>folder under the name <f2>align.tmx</f2>.
+生成的 TMX 保存在 <l1>omegat</l1> 目录，名称为 <f2>align.tmx</f2>。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5191
+<p0>Miscellanea</p0> <s1>Font settings</s1>
+<p0>杂项</p0> <s1>字体设置</s1>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5192
+Font settings
+字体设置
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5193
+In this dialog one can define the font used by <a0>OmegaT</a0> in the following windows:
+在该对话框中可以修改下列 <a0>OmegaT</a0> 窗口所使用的字体：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5194
+<a0>OmegaT</a0> main window (Editor, Match viewer, Glossary viewer)
+<a0>OmegaT</a0> 主窗口 (编辑器、匹配查看器、术语表查看器）
+
+xulihang
+doc_src/Miscelanea.xml
+
+5195
+Search window
+搜索窗口
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5196
+Tag validation window
+标签验证窗口
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5197
+<p0>Menu Options</p0> <s1>Font...</s1>
+<p0>菜单选项</p0> <s1>字体...</s1>
+
+xulihang
+doc_src/Miscelanea.xml
+
+5198
+The dialog can be accessed via the <i0/><m1> <g2>Options</g2> <g3>Font...</g3> </m1> item in the Main menu.
+通过主菜单中的<i0/><m1> <g2>选项</g2> <g3>字体...</g3> </m1>菜单项可以调出该对话框。
+
+xulihang
+doc_src/Miscelanea.xml
+
+5199
+The dialog contains:
+该对话框包括：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5200
+<e0>Font:</e0> drop-down to select one of the fonts available on your machine
+<e0>字体：</e0>用于在计算机上选择可用字体的下拉菜单。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5201
+<e0>Size:</e0> edit to change font size
+<e0>大小：</e0>改变字体大小。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5202
+<e0>Sample text:</e0> field for immediate preview of the selected font
+<e0>示例文本：</e0>即时预览所选择的字体的区域。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5203
+<e0>Note: </e0>In some cases it may take quite some time for OmegaT to update the display after the font setting has been changed.
+<e0>注意：</e0>在某些情况下，修改字体设置后 OmegaT 可能需要一些时间来更新显示。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5204
+This is especially the case when a large file containing many segments is open in the editor, and/or slow hardware is used.
+特别是在编辑器中打开了一份拥有大量片段的大文件或使用慢速硬件的时候。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5205
+Note also that some fonts behave better for some language pairs than for others.
+同时，就某些语言而言，某些字体比另一些的表现更佳。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5206
+In particular, if you are translating between two languages with different alphabets/writing systems (such as Russian and Japanese), select a font that can be used for both.
+特别是当您在不同的语系/书写系统间进行翻译（例如俄语和日语），请选择一种适用于两者的字体。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5207
+<p0>Miscellanea</p0> <s1>Preventing data Loss</s1>
+<p0>杂项</p0> <s1>防止数据丢失</s1>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5208
+Preventing data loss
+防止数据丢失
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5209
+<a0>OmegaT</a0> is a robust application.
+<a0>OmegaT</a0> 是健壮的应用程序。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5210
+However, you should take precautions against data loss when using <a1>OmegaT</a1>, just as with any other application.
+然而就像使用其他任何程序一样，使用 <a1>OmegaT</a1> 时还是应该对数据丢失保持警惕。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5211
+When you translate your files, <a2>OmegaT</a2> stores all your progress in the translation memory <l3>project_save.tmx</l3> that resides in the project's <l4>/omegat</l4> subfolder.
+在翻译文件时，<a2>OmegaT</a2>在项目的<l4>/omegat </l4>子文件夹的翻译记忆文件<l3>project_save.tmx</l3>中储存您所有的进度信息。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5212
+OmegaT also backs up the translation memory to project_save.tmx.YEARMMDDHHNN.bak in the same subfolder each time a project is opened or reloaded.
+OmegaT 在每次打开或重新载入项目时，也将翻译记忆备份到同一子目录下的 project_save.tmx.YEARMMDDHHNN.bak 文件中。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5213
+YEAR is the 4-digit year, MM is the month, DD the day of the month, and HH and NN are the hours and minutes when the previous translation memory was saved.
+YEAR 是 4 位数的年份；MM 是月份；DD 是日期；而 HH 和 NN 是前一份翻译记忆保存时的小时和分钟。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5214
+If you believe that you have lost translation data, you can use the following procedure to restore the project to its most recently saved state, usually not older than approximately 10 minutes or so:
+如果您觉得丢失了翻译数据，那么可以参照下列步骤恢复项目到最近保存的数据，通常是大约 10 分钟以内：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5215
+close the project
+关闭项目
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5216
+rename the current <f0>project_save.tmx </f0>file (e.g. to <f1>project_save.tmx.temporary</f1>)
+重命名当前的 <f0>project_save.tmx </f0>文件（例如改名为 <f1>project_save.tmx.temporary</f1>）
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5217
+select the backup translation memory that is the most likely to contain the data you are looking for
+选择最有可能包含所需数据的翻译记忆备份
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5218
+rename it <l0>project_save.tmx</l0>
+将其更名为 <l0>project_save.tmx</l0>
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5219
+open the project
+打开项目
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5220
+To avoid losing important data:
+为避免丢失重要数据：
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5221
+Make regular copies of the file /omegat/project_save.tmx to backup media, such as CD or DVD.
+必须定期备份 /omegat/project_save.tmx，例如复制到 CD 或 DVD。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5222
+Until you are familiar with <a0>OmegaT</a0>, create translated files at regular intervals and check that the translated file contains the latest version of your translation.
+在熟悉 <a0>OmegaT</a0> 之前，应该定期创建已译文件，并查看已译文件是否包含了您所翻译的最新版本。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5223
+Take particular care when making changes to the files in <l0>/source</l0> while in the middle of a project.
+在项目进行过程中，对<l0>/source</l0>目录中的文件进行修改要特别小心。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5224
+If the source file is modified after you have begun translating, <a1>OmegaT</a1> may be unable to find a segment that you have already translated.
+如果在开始翻译后对源文件进行了修改，<a1>OmegaT</a1> 也许会找不到您已经翻译的某个片段。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5225
+https://groups.yahoo.com/neo/groups/OmegaT/info
+未翻译
+
+没有修改者
+doc_src/Miscelanea.xml
+
+5226
+Use these Help texts to get started.
+通过这些帮助来开始使用。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5227
+Should you run into problems, post a message in the <u0><a1>OmegaT</a1> user group</u0>.
+如果运行遇到问题，请在<u0><a1>OmegaT</a1> 用户组</u0>发帖。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5228
+Do not hesitate to post in the language you feel the most familiar with.
+请使用自我感觉最熟悉的语言发帖。
+
+Fu Rhong
+doc_src/Miscelanea.xml
+
+5229
+en
+en
+
+Fu Rhong
+doc_src/OmegaTUsersManual_xinclude full.xml
+
+5230
+OmegaT 3.5 - User's Guide
+未翻译
+
+没有修改者
+doc_src/OmegaTUsersManual_xinclude full.xml
+
+5231
+vs
+vs
+
+Fu Rhong
+doc_src/OmegaTUsersManual_xinclude full.xml
+
+5232
+Vito Smolej
+Vito Smolej
+
+Fu Rhong
+doc_src/OmegaTUsersManual_xinclude full.xml
+
+5233
+This document is the official user's guide to OmegaT, the free Computer Aided Translation tool.
+该文档是正式的 OmegaT（免费的计算机辅助翻译工具）用户指南。
+
+Fu Rhong
+doc_src/OmegaTUsersManual_xinclude full.xml
+
+5234
+It also contains installation instructions.
+其中还包含了安装说明。
+
+Fu Rhong
+doc_src/OmegaTUsersManual_xinclude full.xml
+
+5235
+<p0>Source files</p0> <s1>Plain text files</s1>
+<p0>源文件</p0> <s1>纯文本文件</s1>
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5236
+Working with plain text
+处理纯文本
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5237
+<p0>Encoding</p0> <s1>Plain text files</s1>
+<p0>编码</p0> <s1>纯文本文件</s1>
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5238
+<p0>Source files</p0> <s1>Encoding</s1>
+<p0>源文件</p0> <s1>编码</s1>
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5239
+Default encoding
+缺省编码
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5240
+Plain text files - in most cases files with a txt extension - contain just textual information and offer no clearly defined way to inform the computer which language they contain.
+纯文本文件（在大多数情况下扩展名为 txt）只包含了文本信息，目前还没有明确的办法告诉计算机该文件包含了何种语言的内容。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5241
+The most that OmegaT can do in such a case, is to assume that the text is written in the same language the computer itself uses.
+在这种情况下，一般 OmegaT 会假设该文本写入时使用了当前计算机所使用相同语言。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5242
+This is no problem for files encoded in Unicode using a 16 bit character encoding set.
+这对于使用 16 位字符集 Unicode 进行编码的文件不会产生问题。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5243
+If the text is encoded in 8 bits, however, one can be faced with the following awkward situation: instead of displaying the text, for Japanese characters...
+然而，如果文本使用 8 位编码，那么可能会遇到这样困惑的情况：不是显示日文的文本...
+
+xulihang
+doc_src/PlainText.xml
+
+5244
+...the system will display it like this for instance:
+相反地，系统将显示类似这样的内容：
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5245
+The computer, running OmegaT, has Russian as the default language, and thus shows the characters in the Cyrillic alphabet and not in Kanji.
+运行 OmegaT 的电脑的缺省语言为俄语，因此它使用西里尔字符集而不是汉字字符集显示字符。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5246
+The <a0>OmegaT</a0> solution
+<a0>OmegaT</a0> 解决方案
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5247
+There are basically three ways to address this problem in <a0>OmegaT</a0>.
+基本上 <a0>OmegaT</a0> 中有三种方法解决这个问题。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5248
+They all involve the application of file filters in the<e1> Options </e1>menu.
+它们都与<e1>选项</e1>菜单中的文件过滤器应用程序有关。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5249
+Change the encoding of your files to Unicode
+将文件编码改为 Unicode
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5250
+open your source file in a text editor that correctly interprets its encoding and save the file in <e0>"UTF-8"</e0> encoding.
+使用能够正确解析编码的文本编辑器打开源文件，并使用 <e0>"UTF-8"</e0> 编码保存文件。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5251
+Change the file extension from <l1>.txt</l1> to <l2>.utf8.</l2> <a3>OmegaT</a3> will automatically interpret the file as a UTF-8 file.
+将文件扩展名由 <l1>.txt</l1> 改为 <l2>.utf8。</l2><a3>OmegaT</a3> 会自动将文件解析为 UTF-8 文件。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5252
+This is the most common-sense alternative, sparing you problems in the long run.
+这是最常用的有效方案, 可最大程度减少您的问题.
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5253
+Specify the encoding for your plain text files
+指定纯文本文件的编码
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5254
+- i.e. files with a <f0>.txt </f0>extension - : in the <e1>Text files </e1>section of the file filters dialog, change the <e2>Source File Encoding</e2> from <auto> to the encoding that corresponds to your source <f3>.txt</f3> file, for instance to .jp for the above example.
+即扩展名为 <f0>.txt </f0> 的文件：在文件过滤器对话框的<e1>文本文件</e1>部分，将<e2>源文件编码</e2>从<自动>修改为 <f3>.txt</f3> 文件的编码，例如对于上述例子则修改为 .jp。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5255
+Change the extensions of your plain text source files
+修改纯文本文件的扩展名
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5256
+for instance from <f0>.txt</f0> to <f1>.jp</f1> for Japanese plain texts: in the <e2>Text files</e2> section of the file filters dialog, add new <e3>Source Filename Pattern</e3> (<f4>*.jp</f4> for this example) and select the appropriate parameters for the source and target encoding
+例如对于日文纯文本文件将 <f0>.txt</f0> 修改为 <f1>.jp</f1>：在文件过滤器对话框的<e2>文本文件</e2>部分，新增一个新的<e3>源文件名模式</e3>（在此例中为 <f4>*.jp</f4>）并为该源文件和目标文件的编码选择适当的参数。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5257
+<a0>OmegaT</a0> has by default the following short list available to make it easier for you to deal with some plain text files:
+缺省情况下，<a0>OmegaT</a0> 使用下面的短名单帮助您处理一些纯文本文件：
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5258
+<l0>.txt</l0> files are automatically (<auto>) interpreted by <a1>OmegaT</a1> as being encoded in the computer's default encoding.
+<l0>.txt</l0> 文件会自动 (<自动>) 被 <a1>OmegaT</a1> 以计算机缺省的编码进行解释。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5259
+<p0>Encoding</p0> <s1>Western</s1>
+<p0>编码</p0> <s1>西方</s1>
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5260
+<l0>.txt1</l0> files are files in ISO-8859-1, covering most <e1>Western Europe</e1> languages.
+<l0>.txt1</l0> 是以 ISO-8859-1 进行编码的，包括绝大多数<e1>西欧</e1>语言。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5261
+<p0>Encoding</p0> <s1>Central and Eastern European</s1>
+<p0>编码</p0> <s1>中欧和东欧</s1>
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5262
+<l0>.txt2</l0> files are files in ISO-8859-2, that covers most <e1>Central and Eastern Europe</e1> languages
+<l0>.txt2</l0> 文件是以 ISO-8859-2 进行编码的，包括绝大多数<e1>中欧和东欧</e1>语言
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5263
+<p0>Encoding</p0> <s1>Unicode</s1>
+<p0>编码</p0> <s1>Unicode</s1>
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5264
+<l0>.utf8</l0> files are interpreted by <a1>OmegaT</a1> as being encoded in UTF-8 (an encoding that covers almost all languages in the world).
+<l0>.utf8</l0> 文件会被 <a1>OmegaT</a1> 以 UTF-8 编码进行解释（一种几乎涵盖了世界上所有语言的编码）。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5265
+You can check that yourself by selecting the item <e0>File Filters</e0> in the menu <e1>Options</e1>.
+可以通过在<e1>选项</e1>菜单中选择<e0>文件过滤器</e0>菜单项来检查是不是这样。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5266
+For example, when you have a Czech text file (very probably written in the <e2>ISO-8859-2</e2> code) you just need to change the extension<l3> .txt</l3> to <l4>.txt2 </l4>and <a5>OmegaT</a5> will interpret its contents correctly.
+比方说，当您拿到一份捷克文本文件（非常有可能使用 <e2>ISO-8859-2</e2> 编码编写），您仅需将扩展名 <l3>.txt</l3> 修改为 <l4>.txt2</l4>，而 <a5>OmegaT</a5> 将会正确地解析其内容。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5267
+And of course, if you wish to be on the safe side, consider converting this kind of file to Unicode, i.e. to the <l6>.utf8 </l6>file format.
+当然，如果您希望更加安全，可以将这类文件转换为 Unicode，即 <l6>.utf8</l6> 文件格式。
+
+Fu Rhong
+doc_src/PlainText.xml
+
+5268
+<p0>Project</p0> <s1>Properties</s1>
+<p0>项目</p0> <s1>属性</s1>
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5269
+Project properties
+项目属性
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5270
+Generalities
+概述
+
+Doris
+doc_src/ProjectProperties.xml
+
+5271
+The <m0> <s1> <k2> <k3>Ctrl</k3> <k4>E</k4> </k2> </s1> <g5>Project</g5> <g6>Properties...</g6> </m0> dialog is used to define and modify the project folders and languages.
+<m0> <s1> <k2> <k3>Ctrl</k3> <k4>E</k4> </k2> </s1> <g5>项目</g5> <g6>属性...</g6> </m0>对话框可用来修改项目文件夹和语种。
+
+xulihang
+doc_src/ProjectProperties.xml
+
+5272
+It is possible to modify the project properties during a translation session.
+可以在翻译进行的过程中对项目的属性进行修改。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5273
+Note that changes to the project setup may have some consequences, especially, when the project has already been started.
+请注意对项目设置的变更可能已经产生结果，特别是在重新加载项目后。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5274
+Until you have some experience with OmegaT, it is safest to consider all settings final once the translation has started – unless of course you realize a major mistake has been made.
+在您还没有丰富的OmegaT使用经验时，最安全的办法是在翻译开始的时候决定好所有的设置——除非您意识到自己犯了一个严重的错误。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5275
+See the section Preventing data loss for ways and means of protecting your work.
+查阅防止数据丢失部分了解如何保护您的工作成果。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5276
+Languages
+语言
+
+钢
+doc_src/ProjectProperties.xml
+
+5277
+You can either enter the source and target languages by hand or use the drop down menus.
+您可以手动输入语种或者通过下拉菜单选择。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5278
+Bear in mind that changing the languages may render the currently used translation memories useless since their language pair may not longer match the new languages.
+必须要记住：修改语言可能会导致当前使用的翻译记忆变得不可用，由于它的语言对不再与新语言相匹配。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5279
+Tokenizers corresponding to the selected languages are displayed.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5280
+See <l0>Tokenizers Appendix</l0> for details.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5281
+Options
+选项
+
+钢
+doc_src/ProjectProperties.xml
+
+5282
+Enable Sentence-level segmentation
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5283
+The segmentation settings only address the way the source files are handled by <a0>OmegaT</a0>.
+分割规则设置只影响 <a0>OmegaT</a0> 处理源文件的方式。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5284
+The predominant way of segmenting the sources is the sentence-level segmenting, so this check box should in a normal case be left checked.
+语句级分割是主要的分割方式，所以正常情况下应该选中该复选框。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5285
+In some seldom cases the alternative, i.e. segmenting by paragraphs, may be preferred.
+在一些罕见的情况下，可能优先选择其替代方案即段落级分割方式。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5286
+Changing this flag does not modify the segmentation of already existing translation memories.
+改变该标志不会对已经译好翻译记忆进行修改。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5287
+If you decide mid-translation to switch from sentence to paragraph translation, the internal translation memory of the project will not be changed (OmegaT may upgrade old translation memories that did not use sentence segmentation, but not vice versa), but OmegaT will attempt to create paragraph fuzzy matches by glueing together existing sentence translations.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5288
+Changing segmentation settings may cause some already translated segments to be split or merged.
+改变分割规则设置可能导致一些已经译好的片段被分拆或者合并。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5289
+This will effectively return them to the "untranslated" status, as they will no longer match segments recorded in the project memory, even though their original translation is still there.
+这实际上会让它们回到“未译”状态，因为它们不再和记录在翻译记忆中的片段相匹配，即便旧的的匹配翻译仍然存在。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5290
+<p0>Segmentation</p0> <s1>global vs project rules</s1>
+<p0>分割规则</p0> <s1>全局与项目规则</s1>
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5291
+Segmentation...
+分割规则...
+
+xulihang
+doc_src/ProjectProperties.xml
+
+5292
+The segmentation rules are generally valid across all the projects.
+分割规则通常应用于所有项目。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5293
+The user, however, may need to generate a set of rules, specific to the project in question.
+但是用户可能需要设置一些针对当前项目的一些规则。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5294
+Use this button to open a dialog, activate the check box <g0>Project specific segmentation rules</g0>, then proceed to adjust the segmentation rules as desired.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5295
+The new set of rules will be stored together with the project and will not interfere with the general set of segmentation rules.
+新的规则集将和项目保存在一起，而不与通用分割规则集相冲突。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5296
+To delete project specific segmentation rules, uncheck the check box.
+要删除项目专用分割规则，请取消选中此复选框。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5297
+See chapter <l1>Source Segmentation</l1> for more information on segmentation rules.
+请参阅<l1>源分割规则</l1>章节了解更多关于分割规则的信息。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5298
+<e0>Hint:</e0> the set of segmentation rules for a given project is stored as <f1>project/omegat/segmentation.conf.</f1>
+<e0>暗示：</e0>特定项目的分割规则集保存在<f1>project/omegat/segmentation.conf</f1>。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5299
+<p0>File filters</p0> <s1>global vs project file filters</s1>
+<p0>文件过滤器</p0> <s1>全局与项目文件过滤器</s1>
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5300
+File Filters...
+文件过滤器...
+
+xulihang
+doc_src/ProjectProperties.xml
+
+5301
+In a similar fashion as above the user can create project-specific File filters, which will be stored together with the project and will be valid for the current project only.
+和上面类似，用户可以创建项目专用文件过滤器，它和项目保存在一起并仅对当前项目有效。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5302
+To create a project-specific set of file filters, click on the <g0>File filter ... </g0>button, then activate <g1>Enable project specific filters</g1> check box in the window that opens.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5303
+A copy of the changed filters configuration will be stored with the project.
+更新后的文件过滤器配置文件的副本会与项目保存在一起。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5304
+To delete project specific file filters, uncheck the check box.
+要删除项目专用文件过滤器，请取消选中此复选框。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5305
+Note that in the menu <g2>Options->File Filters</g2>, the global user filters are changed, not the project filters.
+注意在<g2>选项->文件过滤器</g2>菜单中，修改的是全局用户过滤器而不是项目专用过滤器。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5306
+See chapter <l3>File filters</l3>for more on the subject.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5307
+<e0>Hint:</e0> the set of file filters for a given project is stored as <f1>project/omegat/filters.xml.</f1>
+<e0>提示：</e0>特定项目的文件过滤器集保存在<f1>project/omegat/filters.xml</f1>。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5308
+Auto-propagation of Translations
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5309
+In case there are non-unique segments in source documents, the Auto-propagation check box offers the user the following two possibilities as regards automatic translation: if checked, the first translated segment will be assumed as the default translation and its target text will be automatically used for later hits during the translation process.
+源文档中包含非唯一片段时，自动传播翻译复选框为用户提供了下面两种类似自动翻译的功能：选中时，首次翻译的片段将被假定为默认翻译，其目标文本会自动用于以后翻译过程中的提示。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5310
+Mistranslated segments can of course be corrected later manually using <g0>Create Alternative Translation</g0>.
+当然误译片段可以之后手动通过<g0>创建可选译文</g0>进行纠正。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5311
+If the Auto-propagation check box is not checked, the segments with alternative translations are left untranslated until the user has decided which translation is to be used.
+如果未选中自动传播复选框，则含可选译文的片段会保持未译状态至用户决定使用哪种译文。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5312
+Remove Tags
+移除标签
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5313
+When enabled, all the formatting tags are removed from source segments.
+启用该选项后，会从源片段中移除所有格式化标签。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5314
+This is especially useful when dealing with texts where inline formatting is not really useful (e.g., OCRed PDF, bad converted .odt or .docx, etc.) In a normal case it should always be possible to open the target documents, as only inline tags are removed.
+在处理含无用内联格式的文本（如OCRed PDF、转换错误的.odt或.docx等）时特别有用。一般情况下都能正常打开目标文档，因为只移除了内联标签。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5315
+Non-visible formatting (i.e., which doesn't appear as tags in the OmegaT editor) is retained in target documents.
+不可见的格式信息（即在OmegaT编辑器中不显示为标签的那些）会保留在目标文档中。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5316
+External Post-processing Command
+外部后置处理命令：
+
+钢
+doc_src/ProjectProperties.xml
+
+5317
+This area allows entering an external post-processing command (for instance, a script to rename files) that will be applied each time Create Translated Documents is used.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5318
+This external command cannot include "pipes", etc., which is why calling a script is recommended.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5319
+File locations
+文件位置
+
+钢
+doc_src/ProjectProperties.xml
+
+5320
+Here you can select different subfolders, for instance the subfolder with source files, subfolder for target files etc.
+此处您可选择不同的子文件夹，如源文件子文件夹、目标文件子文件夹等。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5321
+If you enter names of folders that do not exist yet, <a0>OmegaT</a0> creates them for you.
+如果您输入了还不存在的文件夹名称，则 <a0>OmegaT</a0> 会创建它们。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5322
+In case you decide to modify project folders, keep in mind that this will not move existing files from old folders to the new location.
+如果您要修改项目文件夹，必须紧记这样做并不会将现有的文件从旧文件夹移动到新的位置。
+
+Fu Rhong
+doc_src/ProjectProperties.xml
+
+5323
+Clic on <g0>Exclusions...</g0> to define the files or folders that will be ignored by <a1>OmegaT</a1>.
+点击<g0>Exclusions...</g0> to define the files  <a1>OmegaT</a1>.
+
+lenovo
+doc_src/ProjectProperties.xml
+
+5324
+An ignored file or folder:
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5325
+is not displayed in the Editor pane,
+is not display
+
+lenovo
+doc_src/ProjectProperties.xml
+
+5326
+is not taken into account in statistics,
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5327
+is not copied in /target folder during the translated files creation process.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5328
+https://ant.apache.org/manual/dirtasks.html#patterns
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5329
+In the Exclusion patterns dialog, it is possible to Add or Remove a pattern, or edit one by selecting a line and pressing F2.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5330
+It is possible to use wildcards, using the <u0>ant syntax</u0>.
+未翻译
+
+没有修改者
+doc_src/ProjectProperties.xml
+
+5331
+<p0>Regular expressions</p0> <s1>Segmentation</s1> <s2>Searching</s2>
+<p0>正则表达式</p0> <s1>分割规则</s1> <s2>搜索</s2>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5332
+Regular expressions
+正则表达式
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5333
+http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html
+http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5334
+The regular expressions (or regex for short) used in searches and segmentation rules are those supported by Java.
+在搜索和片段切分规则中使用的是 Java 支持的正则表达式(或简称为 regex)。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5335
+Should you need more specific information, consult the <u0>Java Regex documentation</u0>.
+如果需要更详细的信息，请参阅 <u0>Java Regex 文档</u0>.
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5336
+See additional references and examples below.
+查阅下面提到的附加参考和范例。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5337
+This chapter is intended for advanced users, who need to define their own variants of segmentation rules or devise more complex and powerful key search items.
+本章内容是为高级用户准备的，用于定义多变的分割规则或使用更复杂和强大的搜索功能。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5338
+Regex - Flags
+Regex - 标志
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5339
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5340
+... matches the following
+...匹配下列内容：
+
+xulihang
+doc_src/Regexp.xml
+
+5341
+(?i)
+(?i)
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5342
+Enables case-insensitive matching (by default, the pattern is case-sensitive).
+激活大小写不敏感匹配（缺省模式为大小写敏感）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5343
+Regex - Character
+Regex - 字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5344
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5345
+... matches the following
+...匹配下列内容：
+
+xulihang
+doc_src/Regexp.xml
+
+5346
+x
+x
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5347
+The character x, except the following...
+字符 x，除了以下内容...
+
+xulihang
+doc_src/Regexp.xml
+
+5348
+\uhhhh
+\uhhhh
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5349
+The character with hexadecimal value 0xhhhh
+以十六进制值 0xhhhh 表示的字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5350
+\t
+\t
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5351
+The tab character ('\u0009')
+制表符 ('\u0009')
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5352
+\n
+\n
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5353
+The newline (line feed) character ('\u000A')
+新行（换行）符 ('\u000A')
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5354
+\r
+\r
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5355
+The carriage-return character ('\u000D')
+回车符 ('\u000D')
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5356
+\f
+\f
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5357
+The form-feed character ('\u000C')
+换页符 ('\u000C')
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5358
+\a
+\a
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5359
+The alert (bell) character ('\u0007')
+报警（响铃）符 ('\u0007')
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5360
+\e
+\e
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5361
+The escape character ('\u001B')
+转义符 ('\u001B')
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5362
+\cx
+\cx
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5363
+The control character corresponding to x
+与 x 对应的控制字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5364
+\0n
+\0n
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5365
+The character with octal value 0n (0 <= n <= 7)
+八进制值 0n (0 <= n <= 7) 表示的字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5366
+\0nn
+\0nn
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5367
+The character with octal value 0nn (0 <= n <= 7)
+八进制值 0nn (0 <= n <= 7) 表示的字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5368
+\0mnn
+\0mnn
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5369
+The character with octal value 0mnn (0 <= m <= 3, 0 <= n <= 7)
+八进制值 0mnn (0 <= m <= 3, 0 <= n <= 7) 表示的字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5370
+\xhh
+\xhh
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5371
+The character with hexadecimal value 0xhh
+十六进制值 0xhh 表示的字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5372
+Regex - Quotation
+Regex - 引用
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5373
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5374
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5375
+\
+\
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5376
+Nothing, but quotes the following character.
+什么都不匹配，但对以下字符进行引用。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5377
+This is required if you would like to enter any of the meta characters !$()*+.<>?[\]^{|} to match as themselves.
+当您需要对 !$()*+.<>?[\]^{|} 中任意一个元字符进行匹配时需要使用它。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5378
+\\
+\\
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5379
+For example, this is the backslash character
+例如，这是反斜杠字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5380
+\Q
+\Q
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5381
+Nothing, but quotes all characters until \E
+什么都不匹配，但是引用 \E 之前的所有字符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5382
+\E
+\E
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5383
+Nothing, but ends quoting started by \Q
+什么都不匹配，但结束由 \Q 开始的引用
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5384
+Regex - Classes for Unicode blocks and categories
+Regex - 用于 Unicode 字块和分类的类
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5385
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5386
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5387
+\p{InGreek}
+\p{InGreek}
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5388
+http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html#ubc
+http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html#ubc
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5389
+A character in the Greek block (simple <u0> block</u0>)
+希腊字块中的字符（简单的<u0>字块</u0>）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5390
+\p{Lu}
+\p{Lu}
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5391
+http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html#ubc
+http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html#ubc
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5392
+An uppercase letter (simple <u0> category</u0>)
+大写字母（简单的<u0>分类</u0>）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5393
+\p{Sc}
+\p{Sc}
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5394
+A currency symbol
+货币符号
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5395
+\P{InGreek}
+\P{InGreek}
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5396
+Any character except one in the Greek block (negation)
+任何不在 Greek 字块中的字符（取反）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5397
+[\p{L}&&[^\p{Lu}]]
+[\p{L}&&[^\p{Lu}]]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5398
+Any letter except an uppercase letter (subtraction)
+除大写字母之外的所有字母（减法）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5399
+Regex - Character classes
+Regex - 字符类
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5400
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5401
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5402
+[abc]
+[abc]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5403
+a, b, or c (simple class)
+a, b 或 c（简单的类）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5404
+[^abc]
+[^abc]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5405
+Any character except a, b, or c (negation)
+除了 a、b 或 c 之外的任何字符（取反）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5406
+[a-zA-Z]
+[a-zA-Z]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5407
+a through z or A through Z, inclusive (range)
+a 到 z 和 A 到 Z 的字符，包含两边（范围）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5408
+Regex - Predefined character classes
+Regex - 预定义字符类
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5409
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5410
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5411
+.
+.
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5412
+Any character (except for line terminators)
+任何字符 （除了行结束符之外）
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5413
+\d
+\d
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5414
+A digit: [0-9]
+数字：[0-9]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5415
+\D
+\D
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5416
+A non-digit: [^0-9]
+非数字：[^0-9]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5417
+\s
+\s
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5418
+A whitespace character: [ \t\n\x0B\f\r]
+空白字符：[ \t\n\x0B\f\r]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5419
+\S
+\S
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5420
+A non-whitespace character: [^\s]
+非空白字符：[^\s]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5421
+\w
+\w
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5422
+A word character: [a-zA-Z_0-9]
+单词字符：[a-zA-Z_0-9]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5423
+\W
+\W
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5424
+A non-word character: [^\w]
+非单词字符：[^\w]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5425
+Regex - Boundary matchers
+Regex - 边界匹配
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5426
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5427
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5428
+^
+^
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5429
+The beginning of a line
+行首
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5430
+$
+$
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5431
+The end of a line
+行尾
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5432
+\b
+\b
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5433
+A word boundary
+单词边界
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5434
+\B
+\B
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5435
+A non-word boundary
+非单词边界
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5436
+Regex - Greedy quantifiers
+Regex - 贪婪量词
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5437
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5438
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5439
+X<e0>?</e0>
+X<e0>?</e0>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5440
+X, once or not at all
+X 出现一次或根本不出现
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5441
+X<e0>*</e0>
+X<e0>*</e0>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5442
+X, zero or more times
+X 出现零次或多次
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5443
+X<e0>+</e0>
+X<e0>+</e0>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5444
+X, one or more times
+X 出现一次或多次
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5445
+greedy quantifiers will match as much as they can.
+贪婪量词会匹配尽可能多的字符。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5446
+For example, <e0>a+</e0> will match the aaa in <e1>aaabbb</e1>
+未翻译
+
+没有修改者
+doc_src/Regexp.xml
+
+5447
+Regex - Reluctant (non-greedy) quantifiers
+Regex - 非贪婪量词
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5448
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5449
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5450
+X??
+X??
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5451
+X, once or not at all
+X 出现一次或根本不出现
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5452
+X*?
+X*?
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5453
+X, zero or more times
+X 出现零次或多次
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5454
+X+?
+X+?
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5455
+X, one or more times
+X 出现一次或多次
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5456
+non-greedy quantifiers will match as little as they can.
+非贪婪量词会匹配尽可能少的字符。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5457
+For example, <e0>a+?</e0> will match the first <e1>a</e1> in <e2>aaabbb</e2>
+例如，<e0>a+?</e0> 将会匹配 <e2>aaabbb</e2> 中的 <e1>a</e1>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5458
+Regex - Logical operators
+Regex - 逻辑操作符
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5459
+The construct
+构造
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5460
+...matches the following
+...匹配下列内容
+
+xulihang
+doc_src/Regexp.xml
+
+5461
+XY
+XY
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5462
+X followed by Y
+X 后跟着 Y
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5463
+X|Y
+X|Y
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5464
+Either X or Y
+X 或 Y
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5465
+(XY)
+(XY)
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5466
+XY as a single group
+XY 作为单个组出现
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5467
+<p0>Regular expressions</p0> <s1>Tools</s1>
+<p0>正则表达式</p0> <s1>工具</s1>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5468
+<p0>Regular expressions</p0> <s1>Examples of use</s1>
+<p0>正则表达式</p0> <s1>使用实例</s1>
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5469
+Regex tools and examples of use
+正则表达式的工具和使用实例
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5470
+A number of interactive tools are available to develop and test regular expressions.
+有许多用于开发和测试正则表达式的交互工具。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5471
+They generally follow much the same pattern (for an example from the Regular Expression Tester see below): the regular expression (top entry) analyzes the search text (Text box in the middle) , yielding the hits, shown in the result Text box.
+他们几乎都遵循同样的模式（见下面的 Regular Expression Tester 示例）：正则表达式（上面的条目）分析了搜索文本（中间的文本框），进行点击，显示结果文本框。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5472
+Regex Tester
+Regex Tester
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5473
+http://weitz.de/regex-coach/
+http://weitz.de/regex-coach/
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5474
+See <u0>The Regex Coach</u0> for Windows,Linux, FreeBSD versions of a stand-alone tool.
+请参阅用于 Windows、Linux、FreeBSD 平台的独立工具 <u0>The Regex Coach</u0>。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5475
+This is much the same as the above example.
+这个工具和上面的示例几乎一致。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5476
+A nice collection of useful regex cases can be found in <a0>OmegaT</a0> itself (see Options > Segmentation).
+在 <a0>OmegaT</a0> 内可找到非常有用的正则表达式实例集（请参阅选项 > 片段分割）。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5477
+The following list includes expressions you may find useful when searching through the translation memory:
+在搜索翻译记忆时，下列表所包含的表达式可能会有用：
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5478
+Regex - Examples of regular expressions in translations
+Regex - 用于译文的正则表达式示例
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5479
+Regular expression
+正则表达式
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5480
+Finds the following:
+查找以下内容：
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5481
+(\b\w+\b)\s\1\b
+(\b\w+\b)\s\1\b
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5482
+double words
+双字
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5483
+[\.,]\s*[\.,]+
+[\.,]\s*[\.,]+
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5484
+comma or a period, followed by spaces and yet another comma or period
+一个逗号或句点，跟着空格，然后是另一个逗号或句点
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5485
+\.
+\.
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5486
+\s+$
+\s+$
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5487
+extra spaces after the period at the end of the line
+在行尾，句点后跟着额外的空格
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5488
+\s+a\s+[aeiou]
+\s+a\s+[aeiou]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5489
+English: words, beginning with vowels, should generally be preceded by "an", not "a"
+英语：单词，以元音开始，前面可以是 "an" 而不能是 "a"
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5490
+\s+an\s+[^aeiou]
+\s+an\s+[^aeiou]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5491
+English: the same check as above, but concerning consonants ("a", not "an")
+英语：如上一条表达式，但为辅音（"a"，而不是 "an")
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5492
+\s{2,}
+\s{2,}
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5493
+more than one space
+一个以上空格
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5494
+\.[A-Z]
+\.[A-Z]
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5495
+Period, followed by an upper-case letter - possibly a space is missing between the period and the start of a new sentence?
+句点，跟着一个大写字母——是否在句点和下一个句子间遗漏了空格？
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5496
+\bis\b
+\bis\b
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5497
+search for “is”, not “this” or “isn't” etc.
+匹配“is”，但不是“this”或“isn't”等。
+
+Fu Rhong
+doc_src/Regexp.xml
+
+5498
+Search
+搜索
+
+xulihang
+doc_src/SearchAndReplace.xml
+
+5499
+Search and Replace
+搜索与替换
+
+xulihang
+doc_src/SearchAndReplace.xml
+
+5500
+<p0>Shortcuts</p0> <s1>Search and replace - Ctrl+K</s1>
+<p0>快捷键</p0> <s1>搜索与替换 - Ctrl+K</s1>
+
+10353
+doc_src/SearchAndReplace.xml
+
+5501
+Search window
+搜索窗口
+
+Fu Rhong
+doc_src/SearchAndReplace.xml
+
+5502
+Open the Search and replace window with <k0> <k1>Ctrl</k1> <k2>K</k2> </k0> and enter the word or expression you wish to replace in the <e3>Search for</e3> box.
+用 <k0> <k1>Ctrl</k1> <k2>K</k2> </k0>打开查找与替换窗口，把你想要替换的单词或词组输入到 <e3>查找</e3> 框里。
+
+10353
+doc_src/SearchAndReplace.xml
+
+5503
+Then click on <e0>Search</e0> button to display all the corresponding occurrences.
+然后点击 <e0>查找</e0> 按钮以显示所有相关内容.
+
+10353
+doc_src/SearchAndReplace.xml
+
+5504
+Enter the new word or phrase (regular expressions are not supported) in the <e0>Replace with</e0> box, then click one of the following options:
+在 <e0>替换</e0> 框内输入新的单词或短语（不支持正则表达式）, 然后点击以下任一选项
+
+10353
+doc_src/SearchAndReplace.xml
+
+5505
+<e0>Replace All:</e0> operates replacement of all occurrences (after displaying a confirmation window where the number of occurrences is shown).
+<e0>全部替换:</e0> 对所有显示结果进行操作（之前会显示替换内容数量的确认窗口）。
+
+10353
+doc_src/SearchAndReplace.xml
+
+5506
+<e0>Replace:</e0> operates a "one by one" replacement, by the mean of buttons in the <e1>header of the Editor pane</e1>.
+<e0>替换：:</e0> 通过点击编辑窗格顶部按钮对内容进行“逐个”替换</e1>。
+
+10353
+doc_src/SearchAndReplace.xml
+
+5507
+Click <e2>Replace Next</e2> or <e3>Skip</e3>, then end the replacement session with <e4>Finish</e4>.
+点击 <e2>替换下一个</e2> 或 <e3>跳过</e3>，然后点击<e4>结束</e4>终止替换操作.
+
+10353
+doc_src/SearchAndReplace.xml
+
+5508
+<e0>Close:</e0> close the window without any change.
+<e0>关闭：</e0>关闭窗口，不做任何改变。
+
+10353
+doc_src/SearchAndReplace.xml
+
+5509
+Search options
+查找选项
+
+10353
+doc_src/SearchAndReplace.xml
+
+5510
+Search options are similar to the ones displayed in <l0>Search window</l0>.
+查找选项与<l0>查找窗口</l0>相似。
+
+10353
+doc_src/SearchAndReplace.xml
+
+5511
+Except one: check <e0>Untranslated</e0> in order to operate Search and replace also on segments that have not been translated yet.
+只有一点不同：确认<e0>未翻译</e0> in order to operate Search and replace also on segments that have not been translated yet.
+
+10353
+doc_src/SearchAndReplace.xml
+
+5512
+To make it possible (although Search and replace operates only on memory), OmegaT will copy the source segment to the target segment before the replace operation occurs.
+未翻译
+
+没有修改者
+doc_src/SearchAndReplace.xml
+
+5513
+If no replacement is done to a given segment, the target segment will be “emptied”, i.e., it will remain untranslated.
+未翻译
+
+没有修改者
+doc_src/SearchAndReplace.xml
+
+5514
+Searches
+搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5515
+Searches
+搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5516
+<p0>Shortcuts</p0> <s1>Search - Ctrl+F</s1>
+<p0>快捷键</p0> <s1>搜索——Ctrl+F</s1>
+
+Fu Rhong
+doc_src/Searches.xml
+
+5517
+Search window
+搜索窗口
+
+Fu Rhong
+doc_src/Searches.xml
+
+5518
+Open the Search window with <k0> <k1>Ctrl</k1> <k2>F</k2> </k0> and enter the word or phrase you wish to search for in the <e3>Search for</e3> box.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5519
+Alternatively, you can select a word or phrase in the Editor pane, Fuzzy matches pane or Glossary pane and hit <k0> <k1>Ctrl</k1> <k2>F</k2> </k0>.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5520
+The word or phrase is entered in the <e3>Search for</e3> box automatically.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5521
+You can have several Search windows open at the same time, but close them when they are no longer needed so that they do not clutter your desktop.
+您可以同时打开多个搜索窗口，但别忘记在不需要时关闭它们，这样它们才不会弄乱您的桌面。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5522
+Click the dropdown arrow of the <e0>Search for</e0> box to access the last 10 searches.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5523
+The Search window has its own menus:
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5524
+File > Search for selection (<k0> <k1>Ctrl</k1> <k2>F</k2> </k0>): refocus on the search field and select all its contents.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5525
+File > Close (<k0> <k1>Ctrl</k1> <k2>W</k2> </k0>): close the search window (in the same way as <k3>Esc</k3>)
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5526
+Edit > Insert source (<k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>I</k3> </k0>): insert current segment source.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5527
+Edit > Replace with source (<k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>R</k3> </k0>): replace with current segment source.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5528
+Edit > Create Glossary Entry (<k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>G</k3> </k0>): add a new glossary item.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5529
+<p0>Searches</p0> <s1>Using wild cards</s1>
+<p0>搜索</p0> <s1>使用通配符</s1>
+
+Fu Rhong
+doc_src/Searches.xml
+
+5530
+Using wild cards
+使用通配符
+
+Fu Rhong
+doc_src/Searches.xml
+
+5531
+In both exact and keyword searches, the wild card search characters '*' and '?' can be used.
+无论是精确还是关键词搜索，都可以使用通配符 '*' 和 '?'。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5532
+They have the meaning, familiar to Word users:
+它们的含义Word用户很熟悉：
+
+Fu Rhong
+doc_src/Searches.xml
+
+5533
+'*' matches zero or more characters, from the current position in a given word to its end.
+‘*’匹配零个或多个字符，从指定单词的当前位置开始到它结束的部分。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5534
+The search term <l0>'run*'</l0> for example would match words <l1>'run'</l1>, <l2>'runs'</l2> and <l3>'running'</l3>.
+例如搜索条件<l0>‘run*’</l0>将会匹配单词<l1>‘run’</l1>、<l2>‘runs’</l2>和<l3>‘running’</l3>。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5535
+'?' matches any single character.
+‘?’匹配任何单个字符。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5536
+For instance, <l0>'run?'</l0> would match the word <l1>'runs'</l1> and <l2>'runn'</l2> in the word <l3>'running'</l3>.
+例如，<l0>‘run?’ </l0>会匹配单词<l1>‘runs’</l1>和<l3>‘running’</l3>单词中的<l2>‘runn’</l2>。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5537
+The matches will be displayed in bold blue.
+匹配将显示为蓝色粗体。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5538
+Note that '*' and '?' have special meaning in regular expressions, so wild card search, as described here, applies to exact and keyword search only (see below).
+需要注意‘*’和‘?’在正则表达式中有特殊含义，所以这里所说的通配符搜索只适用于精确搜索和关键字搜索（见下文）。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5539
+<p0>Searches</p0> <s1>Methods and options</s1>
+<p0>搜索</p0> <s1>方式和选项</s1>
+
+Fu Rhong
+doc_src/Searches.xml
+
+5540
+Search methods and options
+搜索方式和选项
+
+Fu Rhong
+doc_src/Searches.xml
+
+5541
+Select the method using the radio buttons.
+使用单选按钮选择搜索方法。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5542
+The following search methods are available:
+下面是可用的搜索方式：
+
+Fu Rhong
+doc_src/Searches.xml
+
+5543
+exact search
+精确搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5544
+Search for segments containing the exact string you specified.
+找出包括指定字符串的片段。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5545
+An exact search looks for a phrase, i.e. if several words are entered, they are found only if they occur in exactly that sequence.
+精确搜索查找某条短语，也就是说，如果输入了多个词汇，只有它们以相同顺序出现时才会被找出来。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5546
+Searching for <l0>open file</l0> will thus find all occurrences of the string <e1><l2>open file</l2></e1>, but not <e3><l4>file opened</l4></e3> or <e5><l6>open input file</l6></e5>.
+搜索 <l0>open file</l0> 将找到所有 <e1><l2>open file</l2></e1> 字符串出现的地方，但不会找到 <e3><l4>file opened</l4></e3> 或 <e5><l6>open input file</l6></e5>.
+
+Fu Rhong
+doc_src/Searches.xml
+
+5547
+keyword search
+关键字搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5548
+Search for segments containing all keywords you specified, in any order.
+找出所有包括指定关键字的片段，不考虑顺序。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5549
+Select keyword search to search for any number of individual full words, in any order.
+选择关键字搜索以搜索任何数目、任何顺序出现的所有词汇。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5550
+OmegaT displays a list of all segments containing all of the words specified.
+OmegaT 会显示所有词汇都出现了的片段清单。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5551
+Keyword searches are similar to a search "with all of the words" in an Internet search engine such as Google (AND logic).
+关键字搜索和互联网 Google 搜索引擎的 “使用所有词”方式相似（AND 逻辑）。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5552
+Using keyword search with <e0><l1>open file</l1></e0> will thus find all occurrences of the string <e2><l3>open file</l3>,</e2> as well as <e4><l5>file opened</l5>, <l6>open input file</l6>, <l7>file may not be safe to open</l7></e4>, etc.
+使用关键字<e0><l1>open file</l1></e0>进行搜索将找到所有<e2><l3>open file</l3>、</e2><e4><l5>file opened</l5>、<l6>open input file</l6>以及<l7>file may not be safe to open</l7></e4>等字符串出现的地方。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5553
+regular expressions
+正则表达式
+
+Fu Rhong
+doc_src/Searches.xml
+
+5554
+The search string will be treated as a regular expression.
+搜索字符串将会被当作正则表达式进行处理。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5555
+The search string - [a-zA-Z]+[öäüqwß] - in the example above for instance looks for words in the target segment, containing questionable characters from German keyboard.
+例如在上文示例中的搜索字符串[a-zA-Z]+[öäüqwß]在目标片段中寻找包含疑似来自德语键盘的字符的单词。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5556
+Regular expressions are a powerful way to look for instances of a string.
+正则表达式是一种功能强大的字符串实例查找方法。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5557
+See more in the chapter<l0> Regular Expressions.</l0>
+请到<l0>正则表达式</l0>章节了解更多信息。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5558
+Additionally to one of the methods above you can select the following:
+对上面的几种方式，您还可以选择下列选项：
+
+Fu Rhong
+doc_src/Searches.xml
+
+5559
+<e0>case sensitive</e0>: the search will be performed for the exact string specified; i.e. capitalization is observed.
+<e0>区分大小写</e0>：搜索工作将会严格匹配指定字符串，即遵循大小写状态。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5560
+<e0>Space matches nbsp</e0>: when this option is checked, a space character put in search entry can match either a normal space character or a non-breacking space (\u00A) character.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5561
+<e0>in source: </e0>search in the source segments
+<e0>源片段：</e0>在源片段中搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5562
+<e0>in translations: </e0>search in the target segments
+<e0>目标片段：</e0>在目标片段中搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5563
+<e0>in notes: </e0>search in notes to segments
+<e0>笔记：</e0>在笔记中搜索
+
+Fu Rhong
+doc_src/Searches.xml
+
+5564
+<e0>in comments: </e0>search in comments to segments
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5565
+<e0>Translated or untranslated: </e0>search in both translated and untranslated segments.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5566
+<e0>Translated: </e0>search only in translated segments.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5567
+<e0>Untranslated: </e0>search only in untranslated segments.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5568
+<e0>Display: all matching segments: </e0>if checked, all the segments are displayed one by one, even if they are present several times in the same document or in different documents.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5569
+<e0>Display: file names: </e0>if checked, the name of the file where each segment is found is displayed above each result.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5570
+<e0>Search in Project</e0>: check <e1>Memory</e1> to include the project memory (project_save.tmx file) in the search.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5571
+Check <e2>TMs</e2> to include the translation memories located in the <f3>tm</f3> folder in the search.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5572
+Check <e4>Glossaries</e4> to include the glossaries located in the <f5>glossary</f5> folder in the search.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5573
+<e0>Search in Files: </e0>search in a single file or a folder containing a set of files.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5574
+When searching through files (as opposed to translation memories), OmegaT restricts the search to files in source file formats.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5575
+Consequently, although OmegaT is quite able to handle<f1> tmx</f1> files, it does not include them in the Search files search.
+因此，尽管 OmegaT 能充分处理 <f1> tmx</f1> 文件，但它不会在进行文件搜索时把它们纳入搜索范围。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5576
+If you click on the button <g0>Advanced options</g0> additional criteria (author or changer of the translation, date translated, excluding orphan segments, etc) can be selected.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5577
+When <e1>Full/Half width char insensitive</e1> option is checked, searches for fullwidth forms (CJK characters) will match halfwidth forms and vice versa.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5578
+Search results display
+搜索结果展示
+
+Fu Rhong
+doc_src/Searches.xml
+
+5579
+Pressing the search button after entering a string in the search field displays all the segments in the project that include the entered string.
+在搜索字段输入一个字符串然后点击搜索按钮，会把项目中所有包含输入字符串的片段显示出来。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5580
+As <a0>OmegaT</a0> handles identical segments as one single entity, only the first unique segment is shown.
+由于 <a0>OmegaT</a0> 将相同片段视为同一实体，因此将只显示第一个唯一的片段。
+
+xulihang
+doc_src/Searches.xml
+
+5581
+The segments are displayed in order of appearance in the project.
+片段以在项目中出现的顺序显示。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5582
+Translated segments are displayed with the original text at the top and the translated text at the bottom, untranslated segments are displayed as the source only.
+已译片段会以上面显示原文、下面显示译文的形式显示，而未译片段只显示原始文本。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5583
+Double-clicking on a segment opens it in the Editor for modifications (one single click does it when <e0>Auto-sync with Editor</e0> option is checked).
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5584
+You can then switch back to the Search window for the next segment found, for instance to check and, if necessary, correct the terminology.
+然后您可以转回搜索窗口以编辑找到的下一个片段，例如进行检查或者在必要时调整术语。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5585
+In the Search window, you can use standard shortcuts (<k0> <k1>Ctrl</k1> <k2>N</k2> </k0>, <k3> <k4>Ctrl</k4> <k5>P</k5> </k3>) to move from one segment to another.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5586
+You may have several Search windows open at the same time.
+可以同时打开多个搜索窗口。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5587
+You can quickly see their contents by looking at their title: it will contain the search term used.
+通过标题您可以快速了解它们的搜索内容：标题中包含了搜索用词。
+
+Fu Rhong
+doc_src/Searches.xml
+
+5588
+Filter entries in editor according to search
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5589
+For easier navigation in the search result set, you can apply the search to the editor.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5590
+Press the <e0>Filter</e0> button on the bottom to limit the shown entries in the editor window to those that match the current search.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5591
+You can use normal navigation to go to e.g. the next (untranslated) segment that matches the search criteria.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5592
+NB:
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5593
+A search may be limited to 1000 items, so if you search on a common phrase, the editor then shows only those 1000 matching entries, and not all entries that match the search criteria.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5594
+A file might have no matching entries, so it will show empty.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5595
+If a search removes duplicates, those duplicates will not be in the Editor.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5596
+To remove a filter, press the <e0>Remove filter</e0> button, or reload a project.
+未翻译
+
+没有修改者
+doc_src/Searches.xml
+
+5597
+Source segmentation
+源片段分割规则
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5598
+<p0>Project</p0> <s1>Properties</s1>
+<p0>项目</p0> <s1>属性</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5599
+<p0>Project</p0> <s1>Options</s1>
+<p0>项目</p0> <s1>选项</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5600
+Translation memory tools work with textual units called segments.
+翻译记忆工具的使用以叫做片段的文本为单位。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5601
+<a0>OmegaT</a0> has two ways to segment a text: by paragraph or by sentence segmentation (also referred to as “rule-based segmentation”).
+<a0>OmegaT</a0> 使用两种方式对文本进行片段分割：段落分割或句子分割（也被称为“基于分割的规则”）。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5602
+In order to select the type of segmentation, select <m1> <g2><i3/>Project</g2> <g4>Properties...</g4> </m1> from the main menu and tick or untick the check box provided.
+要选择分割类型，请从主菜单选择<m1> <g2><i3/>项目</g2> <g4>属性...</g4> </m1>，然后选用选中或取消选中相应的复选框。
+
+xulihang
+doc_src/Segmentation.xml
+
+5603
+Paragraph segmentation is advantageous in certain cases, such as highly creative or stylistic translations in which the translator may wish to change the order of entire sentences; for the majority of projects, however, sentence segmentation is a choice to be preferred, since it delivers better matches from previous translations.
+在某些情况中使用段落分割是有好处的，例如在与创造性和文学性高度相关的翻译中，译员可能需要改变整个段落的顺序；然而，对于大多数项目，应优先选择句子分割，因为这样可以与以前的翻译实现更好的匹配。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5604
+If sentence segmentation has been selected, you can setup the rules by selecting <m5> <g6><i7/>Options</g6> <g8>Segmentation...</g8> </m5>from the main menu.
+如果选用了句子分割，可通过从主菜单选择<m5> <g6><i7/>选项</g6> <g8>片段分割...</g8> </m5>以设置规则。
+
+xulihang
+doc_src/Segmentation.xml
+
+5605
+Dependable segmentation rules are already available for many languages, so it is likely that you will not need to get involved with writing your own segmentation rules.
+许多语言中已经包含了可靠的分割规则，所以很可能您不需要自己编写分割规则。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5606
+On the other hand this functionality can be very useful in special cases, where you can increase your productivity by tuning the segmentation rules to the text to be translated.
+另一方面，该功能在特殊情况下可能非常有用，您可以针对需要翻译的文本设置分割规则来提高生产力。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5607
+<e0>Warning: </e0>because the text will segment differently after filter options have been changed, so you may have to start translating from scratch.
+<e0>警告：</e0>由于在改变过滤器选项后将对文本进行不同的分割，所以您可能需要从原文开始进行翻译。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5608
+At the same time the previous valid segments in the project translation memory will turn into orphan segments.
+同时，在项目翻译记忆中原来有效的片段将变成孤立片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5609
+If you change segmentation options when a project is open, you must reload the project in order for the changes to take effect.
+如果您在项目打开的时候改变分割规则选项，您必须重新载入项目以使改变生效。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5610
+<a0>OmegaT</a0> uses the following sequence of steps:
+<a0>OmegaT</a0> 使用下列步骤：
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5611
+<p0>Segmentation</p0> <s1>Source level segmentation</s1>
+<p0>片段分割</p0> <s1>源层分割</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5612
+Structure level segmentation
+结构层片段分割
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5613
+<a0>OmegaT</a0> first parses the text for structure-level segmentation.
+<a0>OmegaT</a0> 首先将文本分割成结构级别的片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5614
+During this process it is only the structure of the source file that is used to produce segments.
+在这个过程中，只有源文本的结构被用于创建片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5615
+For example, text files may be segmented on line breaks, empty lines, or not be segmented at all.
+例如：文本文件可能会在行终止、空行进行片段分割或根本进行分割。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5616
+Files containing formatting (ODF documents, HTML documents, etc.) are segmented on the block-level (paragraph) tags.
+格式化文件（ODF文档、HTML 文档等等）在块级别（段落）标签处进行分割。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5617
+Translatable object attributes in XHTML or HTML files can be extracted as separate segments.
+XHTML 或 HTML 文件的可翻译对象属性可以被提取为独立的片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5618
+<p0>Segmentation</p0> <s1>Sentence level segmentation</s1>
+<p0>片段分割</p0> <s1>语句级分割</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5619
+Sentence level segmentation
+语句级分割
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5620
+After segmenting the source file into structural units, <a0>OmegaT</a0> will segment these blocks further into sentences.
+在将源文件分割为结构单元之后， <a0>OmegaT</a0> 将进一步把这些块分割为语句。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5621
+<p0>Segmentation</p0> <s1>Rules</s1>
+<p0>片段分割</p0> <s1>规则</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5622
+Segmentation rules
+片段分割规则
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5623
+The process of segmenting can be pictured as follows: the cursor moves along the text, one character at a time.
+片段分割过程可描绘如下：光标沿着文本移动，每次一个字符。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5624
+At each cursor position rules, consisting of a <e0>Before </e0>and <e1>After </e1>pattern, are applied in their given order to see if any of the<e2> Before</e2> patterns are valid for the text on the left and the corresponding <e3>After</e3> pattern for the text on the right of the cursor.
+在每个光标位置，由 <e0>之前</e0>和<e1>之后</e1>的模式组成的规则以指定的顺序应用，即对左边的文本使用<e2>之前</e2>模式同时对光标右边的文本使用 <e3>之后</e3> 模式。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5625
+If the rule matches, either the cursor moves on without inserting a segment break (for an exception rule) or a new segment break is created at the current cursor position (for the break rule).
+如果规则匹配，光标继续移动而不进行分割（对于例外规则）或者创建一个新片段（为中断规则）。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5626
+The two types of rules behave as follows:
+两种类型的规则表现如下：
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5627
+<p0>Segmentation</p0> <s1>Rules</s1> <t2>Break rule</t2>
+<p0>片段分割</p0> <s1>规则</s1> <t2>中断规则</t2>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5628
+Break rule
+中断规则
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5629
+Separates the source text into segments.
+将源文本分割为片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5630
+For example, "<e0>Did it make sense?
+例如，"<e0>Did it make sense?
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5631
+I was not sure</e0>." should be split into two segments.
+I was not sure</e0>." 应该分割成两个句子。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5632
+For this to happen, there should be a break rule for "?", when followed by spaces and a capitalized word.
+要实现这样的目的，应该在 "?" 后跟着空格和大写字符时进行中断的规则。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5633
+To define a rule as a break rule, tick the Break/Exception check box.
+要定义一个中断规则，请选中中断/例外复选框。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5634
+<p0>Segmentation</p0> <s1>Rules</s1> <t2>Exception rule</t2>
+<p0>片段分割</p0> <s1>规则</s1> <t2>例外规则</t2>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5635
+Exception rule
+例外规则
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5636
+specify what parts of text should NOT be separated.
+指定哪部分文本不应该被分开。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5637
+In spite of the period, <e0>"Mrs. Dalloway "</e0> should not be split in two segments, so an exception rule should be established for Mrs (and for Mr, for Dr, for prof etc), followed by a period.
+不考虑句点的话， <e0>"Mrs. Dalloway "</e0> 不应被分割成两个片段，因此应该为后面跟着句点的 Mrs (以及 Mr 和 Dr 、prof 等等) 创建例外规则。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5638
+To define a rule as an exception rule, leave the Break/Exception check box unticked.
+要定义例外规则，请取消选中中断/例外复选框。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5639
+The predefined break rules should be sufficient for most European languages and Japanese.
+对于绝大多数欧洲语言和日语来说，预定义的中断规则已经够用了。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5640
+In view of the flexibility, you may consider defining more exception rules for your source language in order to provide more meaningful and coherent segments.
+从灵活性的角度看，您可能考虑为要翻译的语种定义更多的例外规则，以获取语意更完整也更连贯的片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5641
+<p0>Segmentation</p0> <s1>Rules priority</s1>
+<p0>片段分割</p0> <s1>规则优先级</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5642
+Rule priority
+规则的优先级
+
+Fu Rhong
+doc_src/Segmentation.xml
+
