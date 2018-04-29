@@ -1,0 +1,4452 @@
+1827
+About <a0>OmegaT</a0> - introduction
+关于 <a0>OmegaT</a0> - 介绍
+
+钢
+doc_src/AboutOmegaT.xml
+
+1828
+OmegaT highlights
+OmegaT 特色
+
+钢
+doc_src/AboutOmegaT.xml
+
+1829
+<a0>OmegaT</a0> is a free multi platform Computer Aided Translation tool, with the following highlights:
+<a0>OmegaT</a0>是一种免费的多平台计算机辅助翻译工具软件，具有以下特色功能：
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1830
+<e0>Translation memory:</e0><a1> OmegaT</a1> stores your translations in a translation memory file.
+<e0>译法记忆：</e0><a1> OmegaT</a1>将译文存储在译法记忆文件中。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1831
+At the same time, it can use memories files from previous translations for reference.
+同时，OmegaT可以使用此前翻译的译法记忆文件作为翻译参考。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1832
+Translation memories can be very useful in a translation where there are numerous repetitions or reasonably similar segments of text.
+如果译文中存在大量重复，或相似的句段，译法记忆文件可以有效提高效率。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1833
+OmegaT uses translation memories to store your previous translations and then suggest likely translations for the text you are currently working on.
+OmegaT 使用译法记忆文件存储完成的翻译，然后根据您当前翻译的文本，给您提供相似的译文作为参考。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1834
+These translation memories can be very useful when a document that has already been translated needs to be updated.
+如果您需要对已译文档进行更新，这些译法记忆可以有效提高效率。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1835
+Unchanged sentences are automatically translated, while updated sentences are shown with the translation of the most similar, older sentence.
+文本中未发生变化的句子会进行自动翻译，而更新后的句子则会提供最相似的原有句段的译文以供参考。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1836
+Modifications to the original document are thus handled with greater ease.
+这样，您可以轻松处理原文档中更新变化后的部分。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1837
+If you are supplied with previously created translation memories , for example by your translation agency or your client, OmegaT is able to use these as reference memories.
+如果您手头有事先创建好的译法记忆文件，比如说是翻译公司或客户提供给您的译法记忆，OmegaT 也可以使用这些文件作为翻译参考。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1838
+OmegaT uses the standard tmx file format to store and access translation memories, which guarantees that you can exchange your translation material with other CAT applications supporting this file format.
+OmegaT 使用标准 TMX 文件格式存储和访问译法记忆，保证您同其他支持 TMX 文件格式的 CAT 工具进行译法记忆交互。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1839
+<e0>Terminology management</e0>: Terminology management is important for translation consistency.
+<e0>术语管理</e0>：术语管理对于译文的一致性至关重要。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1840
+OmegaT uses glossaries containing translations of single words or small phrases: a simplified bilingual dictionary for a specific domain.
+OmegaT 的术语表包含单词或短语的翻译，即，术语表就是特定领域中的简易双语词典。
+
+xulihang
+doc_src/AboutOmegaT.xml
+
+1841
+For your reference, OmegaT displays the translation of any word that is both present in the segment and registered in the glossary.
+当前句段中的单词如果存在于术语表中，OmegaT 就会显示出这个单词的译文，以供翻译参考。
+
+xulihang
+doc_src/AboutOmegaT.xml
+
+1842
+<e0>Translation process:</e0> Imagine having to translate something; from a single file to a folder containing subfolders each with a number of files in a variety of formats.
+<e0>翻译处理：</e0>设想您需要进行翻译，需要翻译的可能是单个文件，也可能是一个文件夹，其中包含子文件夹以及许多种不同格式的文件。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1843
+When you let OmegaT know the files that you need to translate, it looks for the files it understands based on file filtering rules, recognizes the textual parts within them, splits up the text groups according to the segmentation rules, and displays the segments one by one so that you can proceed with the translation.
+您可以通过设置选择需要翻译的文件，OmegaT可以通过文件过滤规则对文件进行查找，辨认文件中的文本部分，根据片段分割规则对文本进行分割，然后在编辑器中显示出待翻译的片段以供翻译。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1844
+OmegaT stores your translations and proposes possible translations from similar segments registered in the translation memory files.
+未翻译
+
+没有修改者
+doc_src/AboutOmegaT.xml
+
+1845
+When you are ready to view the final product, you can export the translated files, open them in the appropriate application and view the translation in the final format...
+如果您需要查看最终翻译成果，您可以导出已译文件，在相应的应用程序中打开，查看导出为最终格式的译文...
+
+xulihang
+doc_src/AboutOmegaT.xml
+
+1846
+Summary of chapters
+章节摘要
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1847
+This documentation is intended both as a tutorial and as a reference guide.
+本文档为 OmegaT 的简易教程和参考指南。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1848
+Here is a short summary of the chapters and their contents.
+以下是对各章节及其内容的简要说明。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1849
+<e0>Learn to use OmegaT in 5 minutes!:</e0> this chapter is intended as a quick tutorial for beginners as well as people who already know CAT tools, showing the complete procedure from opening a new translation project through to completing the translation.
+<e0>5 分钟入门 OmegaT！：</e0>本章为针对初学者和已经了解 CAT 工具的用户的快速教程，本章中展示了完整的翻译过程，从打开一个全新的翻译项目，一直到完成整个翻译工作。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1850
+<e0>Installing and running OmegaT: </e0>this chapter is useful when you first begin using OmegaT.
+<e0>安装运行 OmegaT：</e0>本章介绍您初次开始使用 OmegaT 需要了解的知识。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1851
+It contains the specific instructions on how to install OmegaT and run it on Windows, Mac OS X and Linux.
+其中包含如何在 Windows、Mac OS X 和 Linux 操作系统上安装和运行 OmegaT 的具体操作说明。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1852
+For advanced users, the chapter describes the command line mode and its possibilities.
+对于高级用户，本章还介绍了命令行模式和这种模式的功能。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1853
+<e0>The user interface</e0>,<e1>Main Menu and Keyboard Shortcuts</e1>: these two chapters are likely to be heavily consulted, since they explain the user interface of OmegaT and the functions available via the main menu and the keyboard shortcuts.
+<e0>用户界面</e0>、<e1>主菜单和键盘快捷键</e1>：使用过程中主要查询的为这两章，其中介绍了 OmegaT 的用户界面，以及通过主菜单和键盘快捷键可调用的功能。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1854
+<e0>Project properties</e0>, <e1><a2>OmegaT</a2> Files and Folders:</e1> a project in the context of OmegaT is the piece of work that OmegaT as a CAT tool is able to handle.
+<e0>项目属性</e0>、<e1><a2>OmegaT</a2> 文件和目录：</e1> 在 OmegaT 中，项目是指 OmegaT 作为一款 CAT 工具能够处理的工作单位。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1855
+This chapter describes the project properties, such as the source and target languages.
+本章介绍了项目属性，如源语言和目标语言等。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1856
+The second of these chapters describes the various subfolders and files in a translation project and their role as well as other user and application files associated with OmegaT.
+OmegaT 文件和目录章节介绍了翻译项目中不同的子目录和文件，阐述了这些子目录和文件的作用，以及其他 OmegaT 相关的用户和应用文件。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1857
+<e0>Editing field behavior:</e0> a short chapter describing how to set up the editing behavior of the segment being translated.
+<e0>编辑域行为：</e0> 本章简要地介绍了如何设置正在翻译片段的编辑行为。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1858
+<e0>Working with plain text</e0> and <e1>Working with formatted text</e1>: these two chapters explain certain important points concerning texts to be translated, such as the encoding set (in the case of plain text files) and tag handling (in the case of formatted text).
+<e0>使用纯文本</e0>和<e1>使用格式文本</e1>： 这两章节介绍了有关待翻译文本的重要事项，如编码集（纯文本文件）和标签处理（格式文本）。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1859
+<e0>Translation memories: </e0> explains the role of the various subfolders containing translation memories, and provides information on other important aspects relating to translation memories.
+<e0>译法记忆：</e0> 本章介绍了包含译法记忆的各个子目录的作用，阐述了与译法记忆相关的其他重要信息。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1860
+<e0>Segmentation</e0>:translation memory tools work with textual units called segments.
+<e0>片段分割</e0>：译法记忆工具软件处理的文本单元称作片段。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1861
+In OmegaT, segments can be based on paragraphs or on segmentation rules.
+在 OmegaT 中，片段可根据段落或片段分割规则进行划分。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1862
+Paragraph segmentation is less frequently used, but can be useful in cases of so-called "creative" texts.
+根据段落分割片段使用较少，但处理“创意类”文本时可提高翻译效率。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1863
+The rule-based segmentation is usually synonymous with sentence-based segmentation.
+基于规则的片段分割通常就是指根据句子进行片段分割。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1864
+A number of rule sets are provided while additional rules can be defined by the user, as described in this chapter.
+软件中已经内置一些规则设置，与此同时用户还可自定义其他规则，具体信息请见本章。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1865
+<e0>Searches</e0> and<e1> </e1><e2>Regular expressions</e2>: Searches in OmegaT can be as simple as "<e3>list segments with </e3><e4>the word 'kangaroo' ".
+<e0>搜索</e0>和<e1> </e1><e2>正则表达式</e2>：OmegaT 的搜索非常简便，如“<e3>列出所有含有</e3><e4> 'kangaroo' 这个单词的片段”。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1866
+</e4> They can also be complex, allowing for instance to search for segments with two or more consecutive spaces.
+</e4>也可以搜索复杂的关键词，如，支持搜索含有两个或更多连续空格的片段。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1867
+In this case the regular expression ^s^s+ would be used to find and list the offending segments.
+为了完成上述搜索，需要用到正则表达式 ^s^s+ ，然后软件会列出所有相关的片段。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1868
+Regular expressions are also used extensively in the segmentation rules.
+正则表达式还广泛地应用于片段分割规则中。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1869
+<e0>Dictionaries, Glossaries</e0>, <e1>Machine translation</e1> , <e2>Spellchecker, LanguageTool:</e2> OmegaT supports an extensive use of dictionaries and glossaries.
+<e0>字典和术语表</e0>、<e1>机器翻译</e1>、<e2>拼写检查和语言工具：</e2> OmegaT 支持字典和术语表工具。
+
+xulihang
+doc_src/AboutOmegaT.xml
+
+1870
+If an Internet connection is available, various MT services such as Google Translate and Microsoft Translator can be used from within OmegaT.
+如果连接到互联网，OmegaT 还可连接机器翻译服务，如谷歌翻译和 Microsoft Translator。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1871
+If spell checking is activated, spelling mistakes and typos are recognized and can be corrected during translation.
+如果启用拼写检查功能，翻译过程中 OmegaT 即会辨认拼写错误和错别字并进行修改。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1872
+The open source LanguageTool can be used to correct common grammatical and stylistic mistakes.
+开源语言工具可用于纠正常见的语法和风格错误。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1873
+<e0>Miscellanea</e0>: deals with other issues of interest, such as how to avoid losing data.
+<e0>杂项</e0>：介绍其他相关事项，如何避免丢失数据，等。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1874
+<e0>Appendices</e0> contain the following information
+<e0>附录</e0>中包含以下信息
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1875
+<e0>OmegaT on the web:</e0> information regarding on-line OmegaT resources
+<e0>OmegaT 网络资源：</e0>介绍有关 OmegaT 在线资源的信息
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1876
+<e0>Languages:</e0> the ISO list of languages and language codes is provided
+<e0>语言：</e0>语言和对应代码的 ISO 列表
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1877
+<e0>Keyboard shortcuts in the editor</e0>: the list of shortcuts used in the editor
+<e0>编辑器中的键盘快捷键</e0>：编辑器中可用的快捷键列表
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1878
+<e0>Shortcuts customization:</e0> shortcuts can be customized to your personal preferences
+<e0>快捷键自定义：</e0>可根据用户个人偏好对快捷键进行自定义
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1879
+Introduction to tokenizers and scripts
+未翻译
+
+没有修改者
+doc_src/AboutOmegaT.xml
+
+1880
+Team Projects
+团队项目
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1881
+Legal notices and Acknowledgements
+法律通知和鸣谢
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1882
+<e0>Keyword index:</e0> an extensive keyword index is provided to help the reader find the relevant information.
+<e0>关键词索引：</e0>详细的关键词索引，帮助读者迅速找到相关信息。
+
+Yujun Yin
+doc_src/AboutOmegaT.xml
+
+1883
+Acknowledgements
+致谢
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1884
+Thank you all!
+感谢各位！
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1885
+Whatever the inconsistencies, omissions and straightforward errors you may find in the present version, I declare them all my own.
+不论您可能在当前版本中发现不一致、遗漏或简单的错误，我宣布我们自己的。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1886
+This manual, however, would not be possible without the help and support from a number of people.
+然而，这个手册如果没有许多人的帮助和支持是不可能的。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1887
+Explicit thanks to:
+明确感谢下列各位：
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1888
+Marc Prior: correcting my first draft was an act of love for OmegaT and the English language.
+Marc Prior：由于热爱 OmegaT 和英语而改正我最初的草稿。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1889
+Didier Briel: I could not do without Didier's patient and persistent help with DocBook intricacies.
+Didier Briel：如果没有 Didier 耐心和持久的帮助，我处理不了 DocBook 复杂情况。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1890
+Not to mention his care and diligence, keeping repositories intact and in good order.
+还必须提及他的细心和努力保持了代码库的完整和良好顺序。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1891
+Samuel Murray: for the introductory chapter "Learn to use OmegaT in 5 minutes".
+Samuel Murray：写了“五分钟内学会OmegaT”入门篇章。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1892
+Will Helton: his final reading of the draft has spared me a lot of embarrassment.
+Will Helton：他查看草稿后的决定省去了我一堆麻烦。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1893
+One could only wonder, how many the and a prepositions would still be missing without his invaluable help.
+如果没有他无价的帮助，许多重要的基础工作仍然是缺失的，可能有人对此感觉很惊讶。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1894
+Jean-Christophe Helary: special thanks to JC for his concise description of OmegaT run, command line parameters and all other details, I have yet to notice.
+Jean-Christophe Helary：特别感谢 JC 对 OmegaT 运行和命令行参数及我注意到的所有其他细节的简洁说明。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1895
+https://sourceforge.net/p/omegat/documentation/
+https://sourceforge.net/p/omegat/documentation/
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1896
+Last but not least: my thanks to all the contributors to<u0> OmegaT documentation tracker</u0> for all the inconsistencies found in the previous versions of the documentation.
+最后但同样重要的：感谢所有找出OmegaT 前一版本文档不一致性的<u0>OmegaT 文档跟踪器</u0>贡献者。
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1897
+Keep up your good work!
+继续好好努力！
+
+Fu Rhong
+doc_src/App_Aknowledgements.xml
+
+1898
+Keyboard shortcuts in the editor
+编辑器中的键盘快捷键
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1899
+This short text describes key behavior in the editor pane.
+此简短的文本描述了编辑窗格中的按键行为。
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1900
+The term "Move to inside segment" means, that the cursor moves to the beginning of the segment if it was previously before the segment, and to the end of the segment if it was previously after it.
+在这里“移动到片段内”是指，如果光标原来在此片段前面则移动到片段的开始处，如果在片段后面则移动到片段的末尾。
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1901
+Key behavior in the editor
+编辑器中的按键行为
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1902
+Key combination
+组合键
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1903
+Action
+动作
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1904
+Left:
+Left:
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1905
+one char left, but not further than the beginning of segment
+移到一个字符左边，但不超过片段的开始处
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1906
+Right:
+Right:
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1907
+one char right, but not further than the end of segment
+移到一个字符右边，但不超过片段的末尾
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1908
+Ctrl+Left:
+Ctrl+Left:
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1909
+one word left, but not further than the beginning of segment
+移到一个单词左边，但不超过片段的开始处
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1910
+Ctrl+Right:
+Ctrl+Right:
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1911
+one word right, but not further than the end of segment
+移到一个单词右边，但不超过片段的末尾
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1912
+PgUp:
+PgUp:
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1913
+page up through the document
+在文档中向上翻页
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1914
+PgDn:
+PgDn:
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1915
+page down through the document
+在文档中向下翻页
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1916
+Home*
+Home*
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1917
+move to the beginning of the line in the segment
+移到当前片段中当前行的开始处
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1918
+End*
+End*
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1919
+move to the end of the line in the segment
+移到当前片段中当前行的末尾
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1920
+Ctrl+Home
+Ctrl+Home
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1921
+move to the start of the segment
+移到当前片段的开始处
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1922
+Ctrl+End
+Ctrl+End
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1923
+move to the end of the segment
+移到当前片段的末尾
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1924
+Ctrl+PgUp
+Ctrl+PgUp
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1925
+move to the first segment of the document (Mac: <e0>Cmd+PgUp</e0>)
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1926
+Ctrl+PgDn
+Ctrl+PgDn
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1927
+move to the last segment of the document (Mac: <e0>Cmd+PgDn</e0>)
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1928
+Backspace*
+Backspace*
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1929
+remove char before cursor
+移除光标前字符
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1930
+Delete*
+Delete*
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1931
+remove char after cursor
+移除光标后字符
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1932
+Ctrl+Backspace
+Ctrl+Backspace
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1933
+remove chars up to the start of the current word (Mac: <e0>Alt+Backspace</e0>)
+移除从当前位置到当前单词开始处的字符 (Mac: <e0>Alt+Backspace</e0>)
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1934
+Ctrl+Delete
+Ctrl+Delete
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1935
+remove chars up to the start of next word (Mac: <e0>Alt+Delete</e0>)
+移除从当前位置到下一个单词开始处的字符 (Mac: <e0>Alt+Delete</e0>)
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1936
+Ctrl+Enter
+Ctrl+Enter
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1937
+open previous segment (Mac: <e0>Cmd+Enter</e0>)
+打开前一个片段（Mac：<e0>Cmd+Enter</e0>）
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1938
+Ctrl+A
+Ctrl+A
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1939
+select complete segment (Mac: <e0>Cmd+A</e0>)
+全选当前片段 (Mac: <e0>Cmd+A</e0>)
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1940
+Ctrl+Shift+O
+Ctrl+Shift+O
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1941
+RTL-LTR switch
+RTL-LTR 开关
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1942
+Ctrl+Space
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1943
+open Auto-completer dialog box with contextual suggestions (Mac: <e0>Esc</e0>).
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1944
+Once Auto-completer is open, use <e1>Ctrl+Space</e1> again to switch successively from <e2>Glossaries entries</e2>, <e3>Auto-text entries,</e3> <e4>Missing tags</e4> and <e5>Character table</e5> options.
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1945
+* These keys behave differently when the cursor is outside the editable segment:
+* 当光标在可编辑片段外面时这些按键的行为会不相同：
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1946
+<e0>Home: </e0> cursor to the beginning of the active segment
+<e0>Home: </e0> 将光标移到活动片段的开始处
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1947
+<e0>End: </e0> cursor to the end of the active segment
+<e0>End: </e0> 将光标移到活动片段的末尾
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1948
+<e0>Backspace: </e0>nothing
+<e0>Backspace: </e0>不起作用
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1949
+<e0>Delete: </e0>nothing
+<e0>Delete: </e0>不起作用
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1950
+<e0>Any char key,</e0> if clicked outside editable segment, will be ignored.
+<e0>任意字符键</e0> 在可编辑片段外面被按下时都会被忽略。
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1951
+The "Shift" key doesn't exhibit any special behavior per se: when the "Shift" key is pressed, all keys move the cursor in their usual manner, except in the case of the <l0>Shift+Enter</l0> combination, that inserts a line break into the text.
+“Shift”键不会表现出特殊的行为：在按下 "Shift" 时使用上面快捷键也会以相同的方式移动，唯一的例外是<l0>Shift+Enter</l0>组合键会在文本中插入新行符。
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1952
+System-wide commands Select All (<k0>Ctrl+A</k0>), Paste (<e1>Ctrl+V</e1>), Cut (<e2>Ctrl+X</e2>), copy (<e3>Ctrl+C)</e3>, Insert Match or Selection <e4>(Ctrl+I</e4>) and Insert source (<e5>Ctrl+Shift+I</e5>) act in principle on the text within the currently open segment only.
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1953
+It is possible to move from one pane to another (for instance, from the Editor to the Fuzzy Matches pane) using <k0>Ctrl+Tab</k0>.
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1954
+<k1>Ctrl+Shift+Tab</k1> moves back to the previous pane.
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1955
+The shortcuts <k2>Ctrl+A</k2> and <k3>Ctrl+C</k3> work in panes, allowing to copy all or some of the information to the clipboard.
+未翻译
+
+没有修改者
+doc_src/App_Keyboard.xml
+
+1956
+Note that you can reassign the shortcuts to your own preferences.
+请注意，您可以按自己的偏好重新分配快捷键。
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1957
+See <l0>Appendix ShortCut Customization</l0>
+请参阅<l0>附录自定义快捷键</l0>
+
+Fu Rhong
+doc_src/App_Keyboard.xml
+
+1958
+Languages
+语言
+
+钢
+doc_src/App_Languages.xml
+
+1959
+ISO language codes
+ISO语言代码
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1960
+<p0>Project</p0> <s1>Properties</s1> <s2>Languages</s2>
+<p0>项目</p0> <s1>属性</s1> <s2>语言</s2>
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1961
+Languages - ISO 639 code list
+语言－ISO 639 代码列表
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1962
+http://www.sil.org/ISO639-3/codes.asp
+http://www.sil.org/ISO639-3/codes.asp
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1963
+Please check the <u0>ISO 639 Code Tables</u0> for further and up-to-date information about language codes.
+请参阅 <u0>ISO 639 代码列表</u0>了解最新的语言代码。
+
+puleiying
+doc_src/App_Languages.xml
+
+1964
+ISO 639-1/639-2 Language code list
+ISO 639-1/639-2 语言代码列表
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1965
+Language name
+语言名称
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1966
+ISO 639-1
+ISO 639-1
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1967
+ISO 639-2
+ISO 639-2
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1968
+Abkhaz
+阿布卡兹语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1969
+ab
+ab
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1970
+abk
+abk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1971
+Afar
+阿法尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1972
+aa
+aa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1973
+aar
+aar
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1974
+Afrikaans
+南非荷兰语（斐语）
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1975
+af
+af
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1976
+afr
+afr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1977
+Akan
+库阿语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1978
+ak
+ak
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1979
+aka
+aka
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1980
+Albanian
+阿尔巴尼亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1981
+sq
+sq
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1982
+sqi
+sqi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1983
+Amharic
+阿姆哈拉语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1984
+am
+am
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1985
+amh
+amh
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1986
+Arabic
+阿拉伯语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1987
+ar
+ar
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1988
+ara
+ara
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1989
+Aragonese
+阿拉贡语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1990
+an
+an
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1991
+arg
+arg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1992
+Armenian
+亚美尼亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1993
+hy
+hy
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1994
+hye
+hye
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1995
+Assamese
+阿萨姆语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1996
+as
+as
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1997
+asm
+asm
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1998
+Avaric
+阿瓦尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+1999
+av
+av
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2000
+ava
+ava
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2001
+Avestan
+阿维斯陀语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2002
+ae
+ae
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2003
+ave
+ave
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2004
+Aymara
+艾马拉语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2005
+ay
+ay
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2006
+aym
+aym
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2007
+Azerbaijani
+阿塞拜疆语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2008
+az
+az
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2009
+aze
+aze
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2010
+Bambara
+班巴拉语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2011
+bm
+bm
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2012
+bam
+bam
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2013
+Bashkir
+巴什基尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2014
+ba
+ba
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2015
+bak
+bak
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2016
+Basque
+巴斯克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2017
+eu
+eu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2018
+eus
+eus
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2019
+Belarusian
+白俄罗斯语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2020
+be
+be
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2021
+bel
+bel
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2022
+Bengali
+孟加拉语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2023
+bn
+bn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2024
+ben
+ben
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2025
+Bihari
+比尔哈语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2026
+bh
+bh
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2027
+bih
+bih
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2028
+Bislama
+比斯拉马语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2029
+bi
+bi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2030
+bis
+bis
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2031
+Bosnian
+波斯尼亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2032
+bs
+bs
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2033
+bos
+bos
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2034
+Breton
+布里多尼语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2035
+br
+br
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2036
+bre
+bre
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2037
+Bulgarian
+保加利亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2038
+bg
+bg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2039
+bul
+bul
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2040
+Burmese
+缅甸语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2041
+my
+my
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2042
+mya
+mya
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2043
+Catalan
+加泰罗尼亚语
+
+钢
+doc_src/App_Languages.xml
+
+2044
+ca
+ca
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2045
+cat
+cat
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2046
+Chamorro
+查莫罗语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2047
+ch
+ch
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2048
+cha
+cha
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2049
+Chechen
+车臣语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2050
+ce
+ce
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2051
+che
+che
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2052
+Chichewa, Chewa, Nyanja
+奇契瓦语、切瓦语、尼安哈语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2053
+ny
+ny
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2054
+nya
+nya
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2055
+Chinese
+中文
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2056
+zh
+zh
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2057
+zho
+zho
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2058
+Chuvash
+楚瓦什语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2059
+cv
+cv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2060
+chv
+chv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2061
+Cornish
+凯尔特语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2062
+kw
+kw
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2063
+cor
+cor
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2064
+Corsican
+科西嘉文
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2065
+co
+co
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2066
+cos
+cos
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2067
+Cree
+克里语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2068
+cr
+cr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2069
+cre
+cre
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2070
+Croatian
+克罗地亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2071
+hr
+hr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2072
+hrv
+hrv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2073
+Czech
+捷克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2074
+cs
+cs
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2075
+ces
+ces
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2076
+Danish
+丹麦语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2077
+da
+da
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2078
+dan
+dan
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2079
+Divehi, Dhivehi, Maldivian
+地维希语、迪维希语、马尔代夫语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2080
+dv
+dv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2081
+div
+div
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2082
+Dutch
+荷兰语
+
+钢
+doc_src/App_Languages.xml
+
+2083
+nl
+nl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2084
+nld
+nld
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2085
+Dzongkha
+不丹语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2086
+dz
+dz
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2087
+dzo
+dzo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2088
+English
+英语
+
+钢
+doc_src/App_Languages.xml
+
+2089
+en
+en
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2090
+eng
+eng
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2091
+Esperanto
+世界语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2092
+eo
+eo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2093
+epo
+epo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2094
+Estonian
+爱沙尼亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2095
+et
+et
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2096
+est
+est
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2097
+Ewe
+埃维语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2098
+ee
+ee
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2099
+ewe
+ewe
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2100
+Faroese
+法罗语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2101
+fo
+fo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2102
+fao
+fao
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2103
+Fijian
+飞济群岛语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2104
+fj
+fj
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2105
+fij
+fij
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2106
+Finnish
+芬兰语
+
+钢
+doc_src/App_Languages.xml
+
+2107
+fi
+fi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2108
+fin
+fin
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2109
+French
+法语
+
+钢
+doc_src/App_Languages.xml
+
+2110
+fr
+fr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2111
+fra
+fra
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2112
+Fula, Fulah, Pulaar, Pular
+弗拉语、富拉语、弗拉尼语、普拉尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2113
+ff
+ff
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2114
+ful
+ful
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2115
+Galician
+加利西亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2116
+gl
+gl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2117
+glg
+glg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2118
+Georgian
+格鲁吉亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2119
+ka
+ka
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2120
+kat
+kat
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2121
+German
+德语
+
+钢
+doc_src/App_Languages.xml
+
+2122
+de
+de
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2123
+deu
+deu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2124
+Greek, Modern
+希腊语（现代）
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2125
+el
+el
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2126
+ell
+ell
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2127
+Guaraní
+瓜拉尼语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2128
+gn
+gn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2129
+grn
+grn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2130
+Gujarati
+古吉拉特语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2131
+gu
+gu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2132
+guj
+guj
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2133
+Haitian, Haitian Creole
+海地语、海地克里奥尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2134
+ht
+ht
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2135
+hat
+hat
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2136
+Hausa
+豪撒语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2137
+ha
+ha
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2138
+hau
+hau
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2139
+Hebrew (modern)
+希伯来语（现代）
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2140
+he
+he
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2141
+heb
+heb
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2142
+Herero
+赫勒娄语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2143
+hz
+hz
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2144
+her
+her
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2145
+Hindi
+印地语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2146
+hi
+hi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2147
+hin
+hin
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2148
+Hiri Motu
+希里莫图语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2149
+ho
+ho
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2150
+hmo
+hmo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2151
+Hungarian
+匈牙利语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2152
+hu
+hu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2153
+hun
+hun
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2154
+Interlingua
+国际语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2155
+ia
+ia
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2156
+ina
+ina
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2157
+Indonesian
+印尼语群
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2158
+id
+id
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2159
+ind
+ind
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2160
+Interlingue
+国际语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2161
+ie
+ie
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2162
+ile
+ile
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2163
+Irish
+爱尔兰语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2164
+ga
+ga
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2165
+gle
+gle
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2166
+Igbo
+伊博语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2167
+ig
+ig
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2168
+ibo
+ibo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2169
+Inupiaq
+依努皮亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2170
+ik
+ik
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2171
+ipk
+ipk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2172
+Ido
+伊多语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2173
+io
+io
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2174
+ido
+ido
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2175
+Icelandic
+冰岛语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2176
+is
+is
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2177
+isl
+isl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2178
+Italian
+意大利语
+
+钢
+doc_src/App_Languages.xml
+
+2179
+it
+it
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2180
+ita
+ita
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2181
+Inuktitut
+伊努伊特语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2182
+iu
+iu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2183
+iku
+iku
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2184
+Japanese
+日语
+
+钢
+doc_src/App_Languages.xml
+
+2185
+ja
+ja
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2186
+jpn
+jpn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2187
+Javanese
+爪哇语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2188
+jv
+jv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2189
+jav
+jav
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2190
+Kalaallisut, Greenlandic
+格陵兰语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2191
+kl
+kl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2192
+kal
+kal
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2193
+Kannada
+卡纳塔克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2194
+kn
+kn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2195
+kan
+kan
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2196
+Kanuri
+卡努里语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2197
+kr
+kr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2198
+kau
+kau
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2199
+Kashmiri
+克什米尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2200
+ks
+ks
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2201
+kas
+kas
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2202
+Kazakh
+哈萨克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2203
+kk
+kk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2204
+kaz
+kaz
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2205
+Khmer
+高棉语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2206
+km
+km
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2207
+khm
+khm
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2208
+Kikuyu, Gikuyu
+吉库犹语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2209
+ki
+ki
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2210
+kik
+kik
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2211
+Kinyarwanda
+卢旺达语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2212
+rw
+rw
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2213
+kin
+kin
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2214
+Kirghiz, Kyrgyz
+吉尔吉斯语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2215
+ky
+ky
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2216
+kir
+kir
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2217
+Komi
+科米语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2218
+kv
+kv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2219
+kom
+kom
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2220
+Kongo
+刚果语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2221
+kg
+kg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2222
+kon
+kon
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2223
+Korean
+韩语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2224
+ko
+ko
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2225
+kor
+kor
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2226
+Kurdish
+库尔德语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2227
+ku
+ku
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2228
+kur
+kur
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2229
+Kwanyama, Kuanyama
+库瓦亚马语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2230
+kj
+kj
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2231
+kua
+kua
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2232
+Latin
+拉丁语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2233
+la
+la
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2234
+lat
+lat
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2235
+Luxembourgish, Letzeburgesch
+卢森堡语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2236
+lb
+lb
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2237
+ltz
+ltz
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2238
+Luganda
+卢干达语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2239
+lg
+lg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2240
+lug
+lug
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2241
+Limburgish, Limburgan, Limburger
+林堡语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2242
+li
+li
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2243
+lim
+lim
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2244
+Lingala
+林加拉语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2245
+ln
+ln
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2246
+lin
+lin
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2247
+Lao
+老挝语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2248
+lo
+lo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2249
+lao
+lao
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2250
+Lithuanian
+立陶宛语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2251
+lt
+lt
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2252
+lit
+lit
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2253
+Luba-Katanga
+卢巴-加丹加语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2254
+lu
+lu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2255
+lub
+lub
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2256
+Latvian
+拉脱维亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2257
+lv
+lv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2258
+lav
+lav
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2259
+Manx
+马恩岛语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2260
+gv
+gv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2261
+glv
+glv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2262
+Macedonian
+马其顿语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2263
+mk
+mk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2264
+mkd
+mkd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2265
+Malagasy
+马达加斯加语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2266
+mg
+mg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2267
+mlg
+mlg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2268
+Malay
+马来语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2269
+ms
+ms
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2270
+msa
+msa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2271
+Malayalam
+马拉亚拉姆语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2272
+ml
+ml
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2273
+mal
+mal
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2274
+Maltese
+马其他语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2275
+mt
+mt
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2276
+mlt
+mlt
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2277
+Māori
+毛利语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2278
+mi
+mi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2279
+mri
+mri
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2280
+Marathi (Marāṭhī)
+马拉地语（Marāṭhī）
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2281
+mr
+mr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2282
+mar
+mar
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2283
+Marshallese
+马绍尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2284
+mh
+mh
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2285
+mah
+mah
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2286
+Mongolian
+蒙古语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2287
+mn
+mn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2288
+mon
+mon
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2289
+Nauru
+瑙鲁语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2290
+na
+na
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2291
+nau
+nau
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2292
+Navajo, Navaho
+纳瓦伙语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2293
+nv
+nv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2294
+nav
+nav
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2295
+Norwegian Bokmål
+挪威博克马尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2296
+nb
+nb
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2297
+nob
+nob
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2298
+North Ndebele
+北恩德贝勒语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2299
+nd
+nd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2300
+nde
+nde
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2301
+Nepali
+尼泊尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2302
+ne
+ne
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2303
+nep
+nep
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2304
+Ndonga
+恩敦加语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2305
+ng
+ng
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2306
+ndo
+ndo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2307
+Norwegian Nynorsk
+挪威尼诺斯克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2308
+nn
+nn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2309
+nno
+nno
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2310
+Norwegian
+挪威语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2311
+no
+no
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2312
+nor
+nor
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2313
+Nuosu
+彝语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2314
+ii
+ii
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2315
+iii
+iii
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2316
+South Ndebele
+南恩德贝勒语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2317
+nr
+nr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2318
+nbl
+nbl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2319
+Occitan
+奥西坦语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2320
+oc
+oc
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2321
+oci
+oci
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2322
+Ojibwe, Ojibwa
+欧吉布瓦语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2323
+oj
+oj
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2324
+oji
+oji
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2325
+Old Church Slavonic, Church Slavic, Church Slavonic, Old Bulgarian, Old Slavonic
+古教会斯拉夫语、教会斯拉夫语、古斯拉夫语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2326
+cu
+cu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2327
+chu
+chu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2328
+Oromo
+库希特语言
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2329
+om
+om
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2330
+orm
+orm
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2331
+Oriya
+奥里亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2332
+or
+或者
+
+lenovo
+doc_src/App_Languages.xml
+
+2333
+ori
+ori
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2334
+Ossetian, Ossetic
+奥塞特语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2335
+os
+os
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2336
+oss
+oss
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2337
+Panjabi, Punjabi
+旁遮普语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2338
+pa
+pa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2339
+pan
+pan
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2340
+Pāli
+巴利语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2341
+pi
+pi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2342
+pli
+pli
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2343
+Persian
+波斯语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2344
+fa
+fa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2345
+fas
+fas
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2346
+Polish
+波兰语
+
+钢
+doc_src/App_Languages.xml
+
+2347
+pl
+pl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2348
+pol
+pol
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2349
+Pashto, Pushto
+普什图语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2350
+ps
+ps
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2351
+pus
+pus
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2352
+Portuguese
+葡萄牙语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2353
+pt
+pt
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2354
+por
+por
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2355
+Quechua
+盖丘亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2356
+qu
+qu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2357
+que
+que
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2358
+Romansh
+罗曼斯语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2359
+rm
+rm
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2360
+roh
+roh
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2361
+Kirundi
+基隆迪语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2362
+rn
+rn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2363
+run
+run
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2364
+Romanian, Moldavian, Moldovan
+罗马尼亚语、摩尔达维亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2365
+ro
+ro
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2366
+ron
+ron
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2367
+Russian
+俄语
+
+钢
+doc_src/App_Languages.xml
+
+2368
+ru
+ru
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2369
+rus
+rus
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2370
+Sanskrit (Saṁskṛta)
+梵语（Saṁskṛta）
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2371
+sa
+sa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2372
+san
+san
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2373
+Sardinian
+撒丁语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2374
+sc
+sc
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2375
+srd
+srd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2376
+Sindhi
+信德语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2377
+sd
+sd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2378
+snd
+snd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2379
+Northern Sami
+北萨米语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2380
+se
+se
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2381
+sme
+sme
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2382
+Samoan
+萨摩亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2383
+sm
+sm
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2384
+smo
+smo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2385
+Sango
+桑戈语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2386
+sg
+sg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2387
+sag
+sag
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2388
+Serbian
+塞尔维亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2389
+sr
+sr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2390
+srp
+srp
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2391
+Scottish Gaelic, Gaelic
+苏格兰盖尔语, Gaelic
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2392
+gd
+gd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2393
+gla
+gla
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2394
+Shona
+修纳语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2395
+sn
+sn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2396
+sna
+sna
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2397
+Sinhala, Sinhalese
+锡兰语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2398
+si
+si
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2399
+sin
+sin
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2400
+Slovak
+斯洛伐克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2401
+sk
+sk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2402
+slk
+slk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2403
+Slovene
+斯洛文尼亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2404
+sl
+sl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2405
+slv
+slv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2406
+Somali
+索马利语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2407
+so
+so
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2408
+som
+som
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2409
+Southern Sotho
+南索托语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2410
+st
+st
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2411
+sot
+sot
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2412
+Spanish, Castilian
+西班牙语、卡斯提语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2413
+es
+es
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2414
+spa
+spa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2415
+Sundanese
+巽他语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2416
+su
+su
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2417
+sun
+sun
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2418
+Swahili
+斯瓦希里语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2419
+sw
+sw
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2420
+swa
+swa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2421
+Swati
+斯瓦特语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2422
+ss
+ss
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2423
+ssw
+ssw
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2424
+Swedish
+瑞典语
+
+钢
+doc_src/App_Languages.xml
+
+2425
+sv
+sv
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2426
+swe
+swe
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2427
+Tamil
+泰米尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2428
+ta
+ta
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2429
+tam
+tam
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2430
+Telugu
+泰卢固语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2431
+te
+te
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2432
+tel
+tel
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2433
+Tajik
+塔吉克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2434
+tg
+tg
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2435
+tgk
+tgk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2436
+Thai
+泰语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2437
+th
+th
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2438
+tha
+tha
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2439
+Tigrinya
+蒂格里亚语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2440
+ti
+ti
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2441
+tir
+tir
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2442
+Tibetan Standard, Tibetan, Central
+标准藏语、西藏语、主要的
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2443
+bo
+bo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2444
+bod
+bod
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2445
+Turkmen
+土库曼语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2446
+tk
+tk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2447
+tuk
+tuk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2448
+Tagalog
+塔加拉族语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2449
+tl
+tl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2450
+tgl
+tgl
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2451
+Tswana
+塞茨瓦纳语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2452
+tn
+tn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2453
+tsn
+tsn
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2454
+Tonga (Tonga Islands)
+汤加语（汤加群岛）
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2455
+to
+跳转到
+
+anton
+doc_src/App_Languages.xml
+
+2456
+ton
+ton
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2457
+Turkish
+土耳其语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2458
+tr
+tr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2459
+tur
+tur
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2460
+Tsonga
+宗加语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2461
+ts
+ts
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2462
+tso
+tso
+
+Fu Rhong
+doc_src/App_Languages.xml
+
