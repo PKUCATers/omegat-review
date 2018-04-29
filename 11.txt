@@ -1,0 +1,4452 @@
+2463
+Tatar
+鞑靼语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2464
+tt
+tt
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2465
+tat
+tat
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2466
+Twi
+Twi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2467
+tw
+tw
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2468
+twi
+twi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2469
+Tahitian
+大溪地语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2470
+ty
+ty
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2471
+tah
+tah
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2472
+Uighur, Uyghur
+维吾尔语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2473
+ug
+ug
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2474
+uig
+uig
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2475
+Ukrainian
+乌克兰语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2476
+uk
+uk
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2477
+ukr
+ukr
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2478
+Urdu
+乌尔都语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2479
+ur
+ur
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2480
+urd
+urd
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2481
+Uzbek
+乌兹别克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2482
+uz
+uz
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2483
+uzb
+uzb
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2484
+Venda
+文达语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2485
+ve
+ve
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2486
+ven
+ven
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2487
+Vietnamese
+越南语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2488
+vi
+vi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2489
+vie
+vie
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2490
+Volapük
+沃拉卜克语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2491
+vo
+vo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2492
+vol
+vol
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2493
+Walloon
+瓦隆语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2494
+wa
+wa
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2495
+wln
+wln
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2496
+Welsh
+威尔士语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2497
+cy
+cy
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2498
+cym
+cym
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2499
+Wolof
+沃洛夫语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2500
+wo
+wo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2501
+wol
+wol
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2502
+Western Frisian
+西弗里斯兰语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2503
+fy
+fy
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2504
+fry
+fry
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2505
+Xhosa
+科萨语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2506
+xh
+xh
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2507
+xho
+xho
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2508
+Yiddish
+意第续语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2509
+yi
+yi
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2510
+yid
+yid
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2511
+Yoruba
+约鲁巴语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2512
+yo
+yo
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2513
+yor
+yor
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2514
+Zhuang, Chuang
+藏语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2515
+za
+za
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2516
+zha
+zha
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2517
+Zulu
+祖鲁语
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2518
+zu
+zu
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2519
+zul
+zul
+
+Fu Rhong
+doc_src/App_Languages.xml
+
+2520
+<p0>Plugins</p0> <s1>LanguageTool</s1>
+<p0>插件</p0> <s1>LanguageTool</s1>
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2521
+LanguageTool plugin
+LanguageTool插件
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2522
+Introduction
+介绍
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2523
+http://www.languagetool.org
+http://www.languagetool.org
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2524
+http://www.languagetool.org/languages/
+http://www.languagetool.org/languages/
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2525
+<u0>LanguageTool</u0> is an Open Source style and grammar proofreading software for English, French, German, Polish, Dutch, Romanian, and a number of other languages - see the <u1>list of supported languages</u1>.
+<u0>LanguageTool</u0>是开源的语法校对软件，适用于英语、法语、德语、波兰语、荷兰语、罗马尼亚语等语言（请参阅<u1>支持语言列表</u1>）。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2526
+You can think of LanguageTool as a software to detect errors that a simple spell checker cannot detect, e.g. mixing up there/their, no/now etc.
+LanguageTool可用于检查一般拼写检查软件无法检测出的错误，例如混用了there/their、no/now等。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2527
+It can also detect some grammar mistakes.
+它还可以检查语法错误。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2528
+It does not include spell checking.
+这不包括拼写检查。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2529
+LanguageTool will find errors for which a rule has been defined in its language-specific configuration files.
+LanguageTool能检测对应针对特定语言的配置文件中已定义规则的错误。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2530
+The LanguageTool in OmegaT
+OmegaT中的LanguageTool
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2531
+Installation and Use
+安装和使用
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2532
+The LanguageTool plugin is included in OmegaT.
+LanguageTool插件包含在OmegaT中。
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2533
+It will be used automatically by OmegaT if <g0>Options > Language Checker</g0> is checked.
+如果选择了<g0>选项>语言检查器</g0>，则OmegaT会自动使用这个工具。
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2534
+The rules applied (if any) will depend on the source and target language of the project.
+其它适用的规则取决于项目的源语言和目标语言。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2535
+When a rule is triggered, the corresponding phrase will be underlined in blue in the Editor (see <e1>also </e1>and <e2>I didn't do nothing</e2> in the picture above).
+检查发现错误后，编辑器中相应短语会标上蓝色下划线（请参阅上图中<e1>also </e1>和<e2>I didn't do nothing）</e2>
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2536
+When hovering the mouse over the underlined phrase, an explanation will appear.
+将鼠标放在画线短语上时，会出现相应说明。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2537
+Incompatibilities
+不兼容性
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2538
+LanguageTool will not work properly if an old version is found in the /plugin folder.
+如果/plugin文件夹中有旧版本的LanguageTool，则无法正常工作。
+
+Lenovo
+doc_src/App_LanguageTool_plugin.xml
+
+2539
+Remove LanguageTool from the /plugin folder before starting OmegaT.
+请在启动OmegaT前删除/plugin文件夹中的LanguageTool。
+
+Fu Rhong
+doc_src/App_LanguageTool_plugin.xml
+
+2540
+Legal notices
+法律声明
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2541
+Legal notices
+法律声明
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2542
+<p0>Legal notices</p0> <s1>For the documentation</s1>
+<p0>法律声明</p0> <s1>关于本文档</s1>
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2543
+For the documentation
+关于本文档
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2544
+Copyright
+版权所有
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2545
+The documentation distributed with <a0>OmegaT</a0> includes the User Manual and the readme.txt document.
+本文档与包含用户手册及readme.txt文档的 <a0>OmegaT</a0>同时发布。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2546
+The documentation is Copyright ©2013 Vito Smolej, ©2014-2016 Vincent Bidaux.
+本文档版权所有©2013 Vito Smolej, ©2014-2016 Vincent Bidaux。.
+
+lenovo
+doc_src/App_LegalNotices.xml
+
+2547
+The author of the Chapter <e1>Learn to use OmegaT in 5 minutes!</e1> is Samuel Murray, Copyright ©2005-2012.
+<e1>五分钟内学会OmegaT！</e1>本章的作者是Samuel Murray，版权所有©2005-2012。
+
+lenovo
+doc_src/App_LegalNotices.xml
+
+2548
+Distribution and modifications
+发布和修改
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2549
+The documentation is a free document; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (if you prefer) any later version.
+本文档是自由文档，在遵守自由软件基金会（FSF）发布的的 GNU 通用公共许可证的版本3或者更高版本的前提下，您可以对它进行修改或者重新发布。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2550
+Warranty
+保证
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2551
+The documentation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+该文档的目的是希望它有用，但没有任何担保，甚至没有适销性或针对特定用途的隐含的担保。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2552
+See the GNU General Public License for more details.
+请参阅 GNU 通用公共许可证了解更多信息。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2553
+<p0>Legal notices</p0> <s1>For the application</s1>
+<p0>法律声明</p0> <s1>关于本文档</s1>
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2554
+For the application
+关于应用程序
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2555
+Copyright
+版权所有
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2556
+<e0><a1>OmegaT</a1> </e0> is Copyright © 2000-2016 Keith Godfrey, Lev Abashkin, Zoltan Bartko, Volker Berlin, Didier Briel, Kim Bruning, Alex Buloichik, Thomas Cordonnier, Sandra Jean Chua, Enrique Estévez Fernández, Martin Fleurke, Wildrich Fourie, Tony Graham, Phillip Hall, Jean-Christophe Helary, Chihiro Hio, Thomas Huriaux, Hans-Peter Jacobs, Kyle Katarn, Piotr Kulik, Ibai Lakunza Velasco, Guido Leenders, Aaron Madlon-Kay, Fabián Mandelbaum, Manfred Martin, Adiel Mittmann, Hiroshi Miura, John Moran, Maxym Mykhalchuk, Arno Peters, Henry Pijffers, Briac Pilpré, Tiago Saboga, Andrzej Sawuła, Benjamin Siband, Yu Tang, Rashid Umarov, Antonio Vilei, Ilia Vinogradov, Martin Wunderlich and Michael Zakharov.
+<e0><a1>OmegaT</a1> </e0> 版权所有 © 2000-2016 Keith Godfrey, Lev Abashkin, Zoltan Bartko, Volker Berlin, Didier Briel, Kim Bruning, Alex Buloichik, Thomas Cordonnier, Sandra Jean Chua, Enrique Estévez Fernández, Martin Fleurke, Wildrich Fourie, Tony Graham, Phillip Hall, Jean-Christophe Helary, Chihiro Hio, Thomas Huriaux, Hans-Peter Jacobs, Kyle Katarn, Piotr Kulik, Ibai Lakunza Velasco, Guido Leenders, Aaron Madlon-Kay, Fabián Mandelbaum, Manfred Martin, Adiel Mittmann, Hiroshi Miura, John Moran, Maxym Mykhalchuk, Arno Peters, Henry Pijffers, Briac Pilpré, Tiago Saboga, Andrzej Sawuła, Benjamin Siband, Yu Tang, Rashid Umarov, Antonio Vilei, Ilia Vinogradov, Martin Wunderlich and Michael Zakharov.
+
+lenovo
+doc_src/App_LegalNotices.xml
+
+2557
+Distribution and modifications
+发布和修改
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2558
+<e0>OmegaT </e0> is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (if you prefer) any later version.
+<e0>OmegaT </e0>是自由软件，在遵守自由软件基金会（FSF）发布的 GNU 通用公共许可证的版本3或者更高版本的前提下，您可以对它进行修改或者重新发布。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2559
+Warranty
+保证
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2560
+<e0> <a1>OmegaT</a1> </e0>is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+<e0> <a1>OmegaT</a1> </e0>发布的目的是希望它有用，但没有任何担保，甚至没有适销性或针对特定用途的隐含的担保。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2561
+See the GNU General Public License for more detail.
+请参阅 GNU 通用公共许可证了解更多信息。
+
+Fu Rhong
+doc_src/App_LegalNotices.xml
+
+2562
+Scripts
+脚本
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2563
+Scripts
+脚本
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2564
+Introduction
+介绍
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2565
+OmegaT allows to run scripts written in different scripting languages.
+OmegaT 允许运行使用不同脚本语言发布的脚本.
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2566
+Use
+用
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2567
+Clicking <g0>Tools > </g0><g1>Scripting</g1> opens the Scripting window:<s2> <s3>Scripting window</s3> <m4> <i5> <i6/> </i5> </m4> </s2>
+点击 <g0>工具 > </g0><g1>脚本</g1> o打开脚本窗口:<s2> <s3>脚本窗口</s3> <m4> <i5> <i6/> </i5> </m4> </s2>
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2568
+The Scripting window allows you to load an existing script into the text area and run it against the current opened project.
+您可以在脚本窗口的文本区加载一个已存在的脚本并且再次运行当前打开的程序.
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2569
+To customize the script feature, do the following:
+要定制脚本功能，请执行以下操作：
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2570
+Load a script into the editor by clicking on its name in the list on the left panel.
+点击左面板列表中的脚本名称加载脚本到编辑器中。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2571
+Right-click on a button from "<1>" to "<12>" in the bottom panel and select "Add".
+右键点击底面板中的“<1>”到“<12>”按钮并选择“添加”。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2572
+In the above example, two scripts (position 1 and 2) have already been added.
+在上面的例子中，已添加了两个脚本（位置1和2）。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2573
+When you left-click on the number, the selected script will run.
+当您左键点击数字时，将运行选择的脚本。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2574
+You can start the selected macros from the main menu as well by using their entries in the <g0>Tools </g0>menu or by pressing<k1> Ctrl+Alt+F#</k1> (# 1 to 12).
+您还可以点击<g0>工具</g0>菜单下的脚本条目或按<k1> Ctrl+Alt+F#</k1>（#表示1到12）组合键运行选择的宏。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2575
+By default, scripts are stored in the "scripts" folder located in OmegaT installation folder (the folder that contains the OmegaT.jar).
+默认情况下，脚本存储在位于OmegaT安装文件夹（包含OmegaT.jar的文件夹）中的“scripts”文件夹里。
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2576
+You can add new scripts there, so they will appear in the list of available scripts in the Scripting window.
+您可以在这里添加新的脚本，这些脚本会出现在脚本窗口里的可用脚本列表里。
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2577
+https://sourceforge.net/projects/omegatscripts/
+未翻译
+
+没有修改者
+doc_src/App_Scripting_plugin.xml
+
+2578
+Some additional scripts can be found here: <u0>OmegaT Scripts</u0>
+一些附带脚本可以写这里找到： <u0>OmegaT Scripts</u0>
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2579
+Scripting languages
+脚本语言
+
+lenovo
+doc_src/App_Scripting_plugin.xml
+
+2580
+The following scripting languages have been implemented:
+目前已支持下列脚本语言：
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2581
+<e0>Groovy</e0> (http://groovy.codehaus.org): is a dynamic language for the Java Virtual machine.
+<e0>Groovy</e0>（http://groovy.codehaus.org）：是用于Java虚拟机的动态语言。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2582
+It builds upon the strengths of Java but has additional power features inspired by languages like Python, Ruby and Smalltalk.
+它构建于增强的Java之上，含有从Python、Ruby和Smalltalk等语言获得灵感而实现的附加强大功能。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2583
+<e0>JavaScript</e0> (sometimes abbreviated JS, not to be confused with Java): is a prototype-based scripting language that is dynamic, weakly typed and has first-class functions.
+<e0>JavaScript</e0>（不会与Java混淆时简写为JS）：是动态、弱类型且具有一类函数的基于原型的脚本语言。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2584
+It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.
+它是多范型语言，支持面向对象、命令和函数式编程风格。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2585
+Being the language behind popular software such as Firefox it is a familiar and preferred programming tool in the open-source domain.
+它工作于像Firefox这样流行软件的后台，是开源领域中常见和首选的编程工具。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2586
+All the languages have access to the OmegaT object model, with the project as the top object.
+所有的语言都能访问OmegaT对象模型，其中的顶级对象为项目。
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2587
+The following code snippet in groovy for instance scans through all the segments in all files in the current project and, if the translation exists, prints out the source and the target of the segment:
+例如下面的groovy代码片段扫描当前项目所有文件中的所有片段，且当某个片段的翻译存在时打印出它的源和目标译文：
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2588
+files = project.projectFiles;
+files = project.projectFiles;
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2589
+for (i in 0 ..< files.size())
+for (i in 0 ..< files.size())
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2590
+{
+{
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2591
+for (j in 0 ..< files[i].entries.size())
+for (j in 0 ..< files[i].entries.size())
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2592
+{
+{
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2593
+currSegment = files[i].entries[j];
+currSegment = files[i].entries[j];
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2594
+if (project.getTranslationInfo(currSegment))
+if (project.getTranslationInfo(currSegment))
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2595
+{
+{
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2596
+source = currSegment.getSrcText();
+source = currSegment.getSrcText();
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2597
+target = project.getTranslationInfo(currSegment).translation;
+target = project.getTranslationInfo(currSegment).translation;
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2598
+console.println(source + " >>>> " + target);
+console.println(source + " >>>> " + target);
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2599
+}
+}
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2600
+}
+}
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2601
+}
+}
+
+Fu Rhong
+doc_src/App_Scripting_plugin.xml
+
+2602
+Shortcuts customization
+自定义快捷键>
+
+Administrator
+doc_src/App_ShortCutCustomization.xml
+
+2603
+<p0>Shortcuts</p0> <s1>Customization</s1>
+自定义快捷键><p0>快捷键</p0> <s1>自定义</s1>
+
+Administrator
+doc_src/App_ShortCutCustomization.xml
+
+2604
+Shortcuts customization
+自定义快捷键>
+
+Administrator
+doc_src/App_ShortCutCustomization.xml
+
+2605
+Most of the items that appear in the main menu can have a new shortcut assigned.
+在主菜单中的大部分菜单项可设置新的快捷键。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2606
+You can change the already assigned shortcuts and add new shortcuts by putting a shortcut definition file in your OmegaT preferences folder (see <l0>User files location</l0>).
+通过 OmegaT 首选项文件夹（请参阅<l0>用户文件位置</l0>）中的快捷键定义文件，您可改变已分配的快捷键或添加新的快捷键。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2607
+The shortcut definition file must be named <f0>MainMenuShortcuts.properties</f0> and must contain at most one shortcut definition per line.
+快捷键定义文件名称必须为 <f0>主菜单截图..properties</f0>，同时每行最多包含一个快捷键的定义。
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2608
+Empty lines are accepted and comment lines should start with "//".
+可接受空行，而注释行应以 "//" 开头。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2609
+Anything after the "//" will be ignored.
+在 "//" 后的所有内容将被忽略。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2610
+Once the <f0>MainMenuShortcuts.properties</f0> file is modified, <a1>OmegaT</a1> must be relaunched to take the new shortcuts into account.
+修改 <f0>项目编译菜单项.properties</f0> 文件后，必须重新运行 <a1>OmegaT</a1> 才能让新的快捷键生效。
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2611
+The shortcut definition syntax is the following: <c0><menu item code>=<shortcut></c0>, where <e1><menu item code></e1> is a code taken from the tables below and <e2><shortcut></e2> is a combination of pressed keys specified by the user
+快捷键定义的语法如下：<c0><menu item code>=<shortcut></c0>，其中<e1><menu item code></e1>取自下表，而<e2><shortcut></e2>是用户指定的按键组合
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2612
+http://docs.oracle.com/javase/6/docs/api/javax/swing/KeyStroke.html
+http://docs.oracle.com/javase/6/docs/api/javax/swing/KeyStroke.html
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2613
+The full syntax for keystrokes (shortcuts) is defined in the following Java 1.6 documentation from Oracle (bottom of page): <u0>Java 1.6 keystrokes shortcuts</u0>
+按键（快捷键）的全部语法的定义在来自 Oracle Java 1.6 文档（页面底部）：<u0>Java 1.6 快捷键</u0>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2614
+.
+.
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2615
+<shortcut> must be of the following form: 0 or more <c0><modifier></c0> followed by 0 or 1 <c1><event></c1> followed by 1 <c2><key></c2>, where:
+<shortcut>必须为下面的形式：0或多个<c0><modifier></c0>后跟着0或1个<c1><event></c1>后跟着1个<c2><key></c2>，其中：
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2616
+<c0><modifier></c0> can be: <e1>shift</e1>, <e2>control</e2>, <e3>ctrl</e3>, <e4>meta</e4>
+<c0><modifier></c0> 可以为：<e1>shift</e1>, <e2>control</e2>, <e3>ctrl</e3>, <e4>meta</e4>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2617
+On the Mac, the modifier <e0>meta</e0> must be used to specify the <e1>command</e1> key.
+在 Mac 系统中，必须使用 <e0>meta</e0> 修饰符来指定 <e1>command</e1> 键。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2618
+, <e0>alt</e0>, <e1>altGraph</e1>
+, <e0>alt</e0>, <e1>altGraph</e1>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2619
+<c0><event></c0> can be: <e1>typed</e1>, <e2>pressed</e2>, <e3>released</e3>
+<c0><event></c0> 可以为：<e1>typed</e1>, <e2>pressed</e2>, <e3>released</e3>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2620
+and <c0><key></c0> can be any key available on your keyboard
+而 <c0><key></c0> 可以为您键盘上有效的任何键。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2621
+http://docs.oracle.com/javase/6/docs/api/java/awt/event/KeyEvent.html
+http://docs.oracle.com/javase/6/docs/api/java/awt/event/KeyEvent.html
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2622
+The possible keyevents (keys) are listed in the following Java 1.6 documentation from Oracle: <u0>Java 1.6 keyEvents description</u0>
+可用的按键事件在来自 Oracle 的 Java 1.6 文档中列出：<u0>Java 1.6 按键事件说明</u0>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2623
+.
+.
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2624
+For example, in the default OmegaT shortcuts
+例如，缺省的OmegaT快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2625
+https://sourceforge.net/p/omegat/svn/HEAD/tree/trunk/src/org/omegat/gui/main/MainMenuShortcuts.properties
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2626
+The default OmegaT shortcuts are available from Sourceforge: <u0>Default OmegaT Shortcuts</u0>
+缺省的 OmegaT 快捷键设置可从 Sourceforge 获取：<u0>缺省的 OmegaT 快捷键</u0>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2627
+https://sourceforge.net/p/omegat/svn/HEAD/tree/trunk/src/org/omegat/gui/main/MainMenuShortcuts.mac.properties
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2628
+The default OmegaT shortcuts for the Mac are also available from Sourceforge, they all use "meta" instead of "ctrl": <u0>Default OmegaT Shortcuts for the Mac</u0>
+在Mac系统中缺省的OmegaT快捷键同样可从Sourceforge获取，其中把所有的“ctrl”都被替换为“meta”：<u0>Mac 系统上缺省的OmegaT快捷键</u0>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2629
+, one can find:
+，其中可以看到：
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2630
+projectOpenMenuItem=ctrl O
+项目打开菜单项=ctrl O
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2631
+editCreateGlossaryEntryMenuItem=ctrl shift G
+编辑创建单词条目菜单项=ctrl shift G
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2632
+The first is the shortcut for <g0>Open Project</g0>, the second for <g1>Create Glossary Entry</g1>.
+第一个是<g0>打开项目</g0>的快捷键，第二个为<g1>创建术语表条目</g1>。
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2633
+If you want to use <k0> <k1>Shift</k1> <k2>Ctrl</k2> <k3>O</k3> </k0> to open a project, modify your <f4>MainMenuShortcuts.properties</f4> as follows:
+如果想用<k0> <k1>Shift</k1> <k2>Ctrl</k2> <k3>O</k3> </k0>来打开项目，请把<f4>项目编译菜单项.properties</f4>修改成这样：
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2634
+<c0>projectOpenMenuItem=shift ctrl O</c0>.
+<c0>打开程序菜单项=shift ctrl O</c0>.
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2635
+If you are on a Mac and you want to add a <k0> <k1>Shift</k1> <k2>Command</k2> <k3>S</k3> </k0> shortcut to <m4> <g5>Tools</g5> <g6>Statistics</g6> </m4>, add the following line to your <f7>MainMenuShortcuts.properties</f7>:
+如果您用Mac且想设置<k0> <k1>Shift</k1> <k2>Command</k2> <k3>S</k3> </k0>为<m4> <g5>工具</g5> <g6>统计</g6> </m4>的快捷方式，请在<f7>项目编译菜单项.properties</f7>中添加此行：
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2636
+toolsShowStatisticsStandardMenuItem=shift meta S
+工具显示统计标准菜单项=shift meta S
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2637
+Save then the file and relaunch <a0>OmegaT</a0>.
+然后保存文件并重新启动<a0>OmegaT</a0>。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2638
+Your new shortcuts should now appear next to the menu items you have modified.
+现在新的快捷键应该出现在刚修改的菜单项旁边。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2639
+If they do not conflict with system shortcuts, they should be available from within OmegaT.
+不会和系统快捷键冲突的话，它们在OmegaT中应该有效了。
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2640
+Project Menu
+项目菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2641
+Project Menu
+项目菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2642
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2643
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2644
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2645
+New
+新建
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2646
+Ctrl+Shift+N
+Ctrl+Shift+N
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2647
+projectNewMenuItem
+新项目菜单项m
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2648
+Download Team Project
+下载团队项目
+
+Administrator
+doc_src/App_ShortCutCustomization.xml
+
+2649
+projectTeamNewMenuItem
+项目团队新菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2650
+Open
+打开
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2651
+Ctrl+O
+Ctrl+O
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2652
+projectOpenMenuItem
+项目编译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2653
+Open Recent Project
+打开最近的项目
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2654
+projectOpenRecentMenuItem
+项目编译菜单项m
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2655
+Copy Files to Source Folder...
+复制文件到原文文件夹...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2656
+projectImportMenuItem
+项目输入菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2657
+Download MediaWiki Page...
+下载MediaWiki页...
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2658
+projectWikiImportMenuItem
+项目wiki输入菜单项m
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2659
+Reload
+重新载入
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2660
+F5
+F5
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2661
+projectReloadMenuItem
+项目重载菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2662
+Close
+关闭
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2663
+Ctrl+Shift+W
+Ctrl+Shift+W
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2664
+projectCloseMenuItem
+项目关闭菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2665
+Save
+保存
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2666
+Ctrl+S
+Ctrl+S
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2667
+projectSaveMenuItem
+项目保存菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2668
+Create Translated Documents
+创建已译文档
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2669
+Ctrl+D
+Ctrl+D
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2670
+projectCompileMenuItem
+项目编译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2671
+Create Current Translated Documents
+创建已译文档档
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2672
+Ctrl+Shift+D
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2673
+projectSingleCompileMenuItem
+项目单一编译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2674
+Properties...
+属性...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2675
+Ctrl+E
+Ctrl+E
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2676
+projectEditMenuItem
+项目编译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2677
+Project Files...
+项目文件...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2678
+Ctrl+L
+Ctrl+L
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2679
+viewFileListMenuItem
+查看文件列表菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2680
+Access Project Contents/Root
+访问项目内容/根
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2681
+projectAccessRootMenuItem
+项目访问根菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2682
+Access Project Contents/Dictionaries
+访问项目内容/词典
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2683
+projectAccessDictionaryMenuItem
+项目访问词典菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2684
+Access Project Contents/Glossaries
+访问项目文件/词汇表
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2685
+projectAccessGlossaryMenuItem
+项目访问词汇表菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2686
+Access Project Contents/Source Files
+访问呢项目内容/源文件
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2687
+projectAccessSourceMenuItem
+项目访问原菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2688
+Access Project Contents/Target Files
+访问项目内容/目标文件
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2689
+projectAccessTargetMenuItem
+项目访问目标菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2690
+Access Project Contents/Current Source Document
+访问项目内容/当前源文件
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2691
+projectAccessCurrentSourceDocumentMenuItem
+项目访问当前源文件菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2692
+Access Project Contents/Current Target Document
+访问项目内容/当前目标文档
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2693
+projectAccessCurrentTargetDocumentMenuItem
+项目访问当前目标文档菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2694
+Access Project Contents/Writeable Glossary
+访问项目内容/可写词汇表
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2695
+projectAccessWriteableGlossaryMenuItem
+项目访问科协词汇表菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2696
+Quit
+退出
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2697
+Ctrl+Q
+Ctrl+Q
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2698
+projectExitMenuItem
+项目退出菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2699
+Edit Menu
+编辑菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2700
+Edit Menu
+编辑菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2701
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2702
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2703
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2704
+Undo Last Action
+取消前一操作
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2705
+Ctrl+Z
+Ctrl+Z
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2706
+editUndoMenuItem
+编辑未完成菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2707
+Redo Last Action
+重做前一操作
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2708
+Ctrl+Y
+Ctrl+Y
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2709
+editRedoMenuItem
+编辑重做菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2710
+Replace With Match or Selection
+替换成匹配或选择
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2711
+Ctrl+R
+Ctrl+R
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2712
+editOverwriteTranslationMenuItem
+编辑覆盖翻译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2713
+Insert Match or Selection
+插入匹配或选择
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2714
+Ctrl+I
+Ctrl+I
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2715
+editInsertTranslationMenuItem
+编辑插入翻译菜单项m
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2716
+Replace with Machine Translation
+用机器翻译替换
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2717
+Ctrl+M
+Ctrl+M
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2718
+editOverwriteMachineTranslationMenuItem
+编辑覆盖机器翻译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2719
+Replace With Source
+用源文本替换
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2720
+Ctrl+Shift+R
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2721
+editOverwriteSourceMenuItem
+编辑覆盖源菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2722
+Insert Source
+插入源文本
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2723
+Ctrl+Shift+I
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2724
+editInsertSourceMenuItem
+编辑插入源文件菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2725
+Insert Missing Source Tags
+插入丢失源标签
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2726
+Ctrl+Shift+T
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2727
+editTagPainterMenuItem
+编辑标签菜画笔单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2728
+Insert Next Missing Tag
+插入下一个遗漏的标签
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2729
+Ctrl+T
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2730
+editTagNextMissedMenuItem
+编辑标签下忽略下一个菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2731
+Export Selection
+导出选中部分
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2732
+Ctrl+Shift+C
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2733
+editExportSelectionMenuItem
+编辑导出部分菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2734
+Create Glossary Entry
+创建术语表条目
+
+Kaname Madokami☆!
+doc_src/App_ShortCutCustomization.xml
+
+2735
+Ctrl+Shift+G
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2736
+editCreateGlossaryEntryMenuItem
+编辑创建术语表条目菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2737
+Search Project...
+在项目中搜索...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2738
+Ctrl+F
+Ctrl+F
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2739
+editFindInProjectMenuItem
+编辑在项目中查找菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2740
+Ctrl+Shift+F
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2741
+findInProjectReuseLastWindow
+在项目中查找重用上一个窗口
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2742
+Search and Replace...
+搜索与替换...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2743
+Ctrl+K
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2744
+editReplaceInProjectMenuItem
+编辑在项目中替换菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2745
+Switch Case To/Lower Case
+切换到/小写
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2746
+lowerCaseMenuItem
+小写菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2747
+Switch Case To/Upper Case
+切换/大写
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2748
+upperCaseMenuItem
+大写菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2749
+Switch Case To/Title Case
+将切换到/标题案例
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2750
+titleCaseMenuItem
+标题菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2751
+Switch Case To/Sentence Case
+切换到/句子格式
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2752
+sentenceCaseMenuItem
+句子菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2753
+Switch Case To/Cycle
+切换到/循环
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2754
+Shift+F3
+Shift+F3
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2755
+cycleSwitchCaseMenuItem
+循环切换菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2756
+Select Previous Match
+选择上一个匹配
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2757
+Ctrl+↑
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2758
+editSelectFuzzyPrevMenuItem
+编辑选择模糊上一菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2759
+Select Next Match
+选择下一菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2760
+Ctrl+↓
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2761
+editSelectFuzzyNextMenuItem
+编辑选择模糊下一项菜单
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2762
+Select Match #1
+选择匹配 #1
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2763
+Ctrl+1
+Ctrl+1
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2764
+editSelectFuzzy1MenuItem
+编辑选择模糊1菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2765
+Select Match #2
+选择匹配 #2
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2766
+Ctrl+2
+Ctrl+2
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2767
+editSelectFuzzy2MenuItem
+编辑选择模糊2菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2768
+Select Match #3
+选择匹配 #3
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2769
+Ctrl+3
+Ctrl+3
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2770
+editSelectFuzzy3MenuItem
+编辑选择模糊3菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2771
+Select Match #4
+选择匹配 #4
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2772
+Ctrl+4
+Ctrl+4
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2773
+editSelectFuzzy4MenuItem
+编辑选择模糊4菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2774
+Select Match #5
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2775
+Ctrl+5
+Ctrl+5
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2776
+editSelectFuzzy5MenuItem
+editSelectFuzzy5MenuItem
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2777
+Use as Default Translation
+用作缺省译文
+
+钢
+doc_src/App_ShortCutCustomization.xml
+
+2778
+editMultipleDefault
+编辑多项默认值
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2779
+Create Alternative Translation
+创建多重译法
+
+钢
+doc_src/App_ShortCutCustomization.xml
+
+2780
+editMultipleAlternate
+编辑多项备用
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2781
+Remove translation
+删除译文
+
+钢
+doc_src/App_ShortCutCustomization.xml
+
+2782
+editRegisterUntranslatedMenuItem
+编辑寄存器未翻译的菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2783
+Set empty translation
+设置空译文
+
+钢
+doc_src/App_ShortCutCustomization.xml
+
+2784
+editRegisterEmptyMenuItem
+编辑寄存器空菜单项m
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2785
+Register Identical Translation
+使用原文作为译文
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2786
+Ctrl+Shift+S
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2787
+editRegisterIdenticalMenuItem
+编辑寄存器相同菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2788
+GoTo Menu
+前往菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2789
+GoTo Menu
+前往菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2790
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2791
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2792
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2793
+Next Untranslated Segment
+后一未译片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2794
+Ctrl+U
+Ctrl+U
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2795
+gotoNextUntranslatedMenuItem
+转到下一个未翻译的菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2796
+Next Translated Segment
+下一已译片段
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2797
+Ctrl+Shift+U
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2798
+gotoNextTranslatedMenuItem
+转到下一个翻译菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2799
+Next Segment
+后一片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2800
+<k0>Ctrl+N</k0> or <k1>Enter</k1> or <k2>Tab</k2>
+<k0>Ctrl+N</k0>或<k1>Enter</k1>或<k2>Tab</k2>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2801
+gotoNextSegmentMenuItem
+转到下一个段落菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2802
+Previous Segment
+前一片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2803
+<k0>Ctrl+P</k0> or <k1>Ctrl+Enter</k1> or <k2>Ctrl+Tab</k2>
+<k0>Ctrl+P</k0>或<k1>Ctrl+Enter</k1>或<k2>Ctrl+Tab</k2>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2804
+gotoPreviousSegmentMenuItem
+转到前一个段落菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2805
+Segment number...
+片段序号...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2806
+Ctrl+J
+Ctrl+J
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2807
+gotoSegmentMenuItem
+转到段落菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2808
+Next Note
+后一笔记
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2809
+gotoNextNoteMenuItem
+转到下一个注释菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2810
+Previous Note
+前一笔记
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2811
+gotoPreviousNoteMenuItem
+转到下一个注释菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2812
+Next Unique Segment
+下一个独立段落
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2813
+Ctrl+Shift+Q
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2814
+gotoNextUniqueMenuItem
+转到下一个独立段落
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2815
+Source of Selected Match
+当前匹配原文
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2816
+Ctrl+Shift+M
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2817
+gotoMatchSourceSegment
+转到匹配源段落
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2818
+Forward in history...
+在编辑历史中前进...
+
+Andrew
+doc_src/App_ShortCutCustomization.xml
+
+2819
+Ctrl+Shift+N
+Ctrl+Shift+N
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2820
+gotoHistoryForwardMenuItem
+转到前历史菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2821
+Back in history...
+在编辑历史中回退...
+
+Andrew
+doc_src/App_ShortCutCustomization.xml
+
+2822
+Ctrl+Shift+P
+Ctrl+Shift+P
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2823
+gotoHistoryBackMenuItem
+转到历史之后菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2824
+View Menu
+查看菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2825
+View Menu
+查看菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2826
+<p0>Shortcuts Customization</p0> <s1>View Menu</s1>
+<p0>自定义快捷键</p0> <s1>查看菜单</s1>
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2827
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2828
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2829
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2830
+Mark Translated Segments
+标记已译片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2831
+viewMarkTranslatedSegmentsCheckBoxMenuItem
+查看标记翻译段落复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2832
+Mark Untranslated Segments
+标记未译片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2833
+viewMarkUntranslatedSegmentsCheckBoxMenuItem
+查看标记未翻译段落复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2834
+Display Source Segments
+显示源片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2835
+viewDisplaySegmentSourceCheckBoxMenuItem
+查看显示段来源复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2836
+Mark Non-Unique Segments
+标记非唯一片段
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2837
+viewMarkNonUniqueSegmentsCheckBoxMenuItem
+查看标记非唯一片段复选框菜单项
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2838
+Mark Segments with Notes
+标记含笔记片段
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2839
+viewMarkNotedSegmentsCheckBoxMenuItem
+查看标记注释段落复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2840
+Mark Non-breakable Spaces
+标记不可分割空格
+
+Andrew
+doc_src/App_ShortCutCustomization.xml
+
+2841
+viewMarkNBSPCheckBoxMenuItem
+查看标记NBSP复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2842
+Mark Whitespace
+标记空白字符
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2843
+viewMarkWhitespaceCheckBoxMenuItem
+查看标记空白复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2844
+Mark Bidirectional Algorithm Control Characters
+标记双向算法控制字符
+
+Andrew
+doc_src/App_ShortCutCustomization.xml
+
+2845
+viewMarkBidiCheckBoxMenuItem
+查看标记Bidi复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2846
+Mark Auto-Populated Segments
+标记自动填充片段
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2847
+viewMarkAutoPopulatedCheckBoxMenuItem
+查看标记自动填充复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2848
+Modification Info/Display None
+修改信息/不显示
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2849
+viewDisplayModificationInfoNoneRadioButtonMenuItem
+视图显示修改信息无单选按钮菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2850
+Modification Info/Display Selected
+修改信息/显示选中部分
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2851
+viewDisplayModificationInfoSelectedRadioButtonMenuItem
+视图显示修改信息选定的单选按钮菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2852
+Modification Info/Display All
+修改信息/显示所有
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2853
+viewDisplayModificationInfoAllRadioButtonMenuItem
+视图显示修改信息所有单选按钮菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2854
+Tools Menu
+工具菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2855
+Tools Menu
+工具菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2856
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2857
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2858
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2859
+Validate Tags
+检验标签
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2860
+Ctrl+Shift+V
+未翻译
+
+没有修改者
+doc_src/App_ShortCutCustomization.xml
+
+2861
+toolsValidateTagsMenuItem
+工具验证标签菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2862
+Validate Tags for Current Document
+验证当前文件中的标签
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2863
+toolsSingleValidateTagsMenuItem
+工具单一验证标签菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2864
+Statistics
+统计
+
+Andrew
+doc_src/App_ShortCutCustomization.xml
+
+2865
+toolsShowStatisticsStandardMenuItem
+工具显示统计标准菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2866
+Match Statistics
+匹配状态
+
+钢
+doc_src/App_ShortCutCustomization.xml
+
+2867
+toolsShowStatisticsMatchesMenuItem
+工具显示统计匹配菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2868
+Match Statistics per File
+每文件匹配统计
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2869
+toolsShowStatisticsMatchesPerFileMenuItem
+工具显示统计每个文件匹配菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2870
+Options Menu
+选项菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2871
+Options Menu
+选项菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2872
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2873
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2874
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2875
+Use TAB To Advance
+使用 Tab 前进
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2876
+optionsTabAdvanceCheckBoxMenuItem
+选项卡高级复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2877
+Always Confirm Quit
+退出前总是确认
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2878
+optionsAlwaysConfirmQuitCheckBoxMenuItem
+选项始终确认退出复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2879
+Glossary/Display Context Description for TBX Glossaries
+词汇表/TBX词汇表的显示上下文描述
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2880
+optionsGlossaryTBXDisplayContextCheckBoxMenuItem
+选项词汇表TBX显示上下文复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2881
+Use Terms Appearing Separately in the Source Text
+使用在源文本中单独出现的术语
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2882
+optionsGlossaryExactMatchCheckBoxMenuItem
+选项词汇表完全匹配复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2883
+Glossary/Use Stemming for Glossary Entries
+词汇表/使用词干词汇表词条
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2884
+optionsGlossaryStemmingCheckBoxMenuItem
+现象词汇表词干复选框菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2885
+TransTips/Enable Transtips
+翻译提示/启用翻译提示
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2886
+optionsTransTipsEnableMenuItem
+选项转换提示启用菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2887
+Auto-completion/Show Relevant Suggestions Automatically
+自动填充/自动显示相关建议
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2888
+optionsAutoCompleteShowAutomaticallyItem
+选项自动填充自动显示项目
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2889
+Auto-completion/Glossary...
+自动填充/术语表...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2890
+optionsAutoCompleteGlossaryMenuItem
+选项自动填充术语表菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2891
+Auto-completion/Auto-text...
+自动填写/自动文本...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2892
+optionsAutoCompleteAutoTextMenuItem
+选项自动填充自动文本菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2893
+Auto-completion/Character Table...
+自动填充/字符表...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2894
+optionsAutoCompleteCharTableMenuItem
+选项自动填充表格菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2895
+Font...
+字体...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2896
+optionsFontSelectionMenuItem
+选项字体选择菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2897
+Custom Colours...
+自定义颜色...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2898
+optionsColorsSelectionMenuItem
+选项颜色部分菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2899
+File Filters...
+文件过滤器...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2900
+optionsSetupFileFiltersMenuItem
+悬念启动文件夹菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2901
+Segmentation...
+分割规则...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2902
+optionsSentsegMenuItem
+选项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2903
+Spell checking...
+拼写检查...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2904
+optionsSpellCheckMenuItem
+选项拼写检查菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2905
+Editing Behavior...
+编辑行为...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2906
+optionsWorkflowMenuItem
+选项工作流程菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2907
+Tag Processing...
+标签处理
+
+weiyi
+doc_src/App_ShortCutCustomization.xml
+
+2908
+optionsTagValidationMenuItem
+选项标签验证菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2909
+Team...
+团队...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2910
+optionsTeamMenuItem
+选项团队菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2911
+External TMXs...
+外部 TMX ...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2912
+optionsExtTMXMenuItem
+选项登出菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2913
+View...
+查看...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2914
+optionsViewOptionsMenuItem
+选项查看选项菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2915
+Saving and Output...
+保存和输出...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2916
+optionsSaveOptionsMenuItem
+选项保存选项菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2917
+Proxy Login...
+代理登陆...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2918
+optionsViewOptionsMenuLoginItem
+选项查看选项菜单登录项目
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2919
+Restore Main Window
+恢复主窗口
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2920
+optionsRestoreGUIMenuItem
+选项恢复GUI菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2921
+Access Configuration Folder
+访问配置文件夹
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2922
+optionsAccessConfigDirMenuItem
+选项访问配置Dir菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2923
+Help Menu
+帮助菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2924
+Help Menu
+帮助菜单
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2925
+Menu Item
+菜单项
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2926
+Default shortcut
+缺省快捷键
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2927
+Menu Item Code
+菜单项代码
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2928
+User Manual...
+用户手册...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2929
+F1
+F1
+
+Fu Rhong
+doc_src/App_ShortCutCustomization.xml
+
+2930
+helpContentsMenuItem
+帮助内容菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2931
+About...
+关于...
+
+xulihang
+doc_src/App_ShortCutCustomization.xml
+
+2932
+helpAboutMenuItem
+帮助关于菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2933
+Last Changes...
+上次更新...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2934
+helpLastChangesMenuItem
+帮助上次更新菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2935
+Log...
+登陆...
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2936
+helpLogMenuItem
+帮助登陆菜单项
+
+lenovo
+doc_src/App_ShortCutCustomization.xml
+
+2937
+<p0>OmegaT</p0> <s1>Team projects</s1> <s2>Team projects</s2>
+<p0>OmegaT</p0> <s1>团队项目</s1> <s2>团队项目</s2>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2938
+OmegaT Team Projects
+OmegaT团队项目
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2939
+Version control - introduction
+版本控制——介绍
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2940
+http://subversion.apache.org
+http://subversion.apache.org
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2941
+http://git-scm.com/
+http://git-scm.com/
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2942
+The collaborative translation offered by OmegaT is based on the functionality of version or revision control, widely used by the software community to maintain control of changes to the code of a program and allow unimpeded collaboration within the development team.
+OmegaT中的协作翻译基于版本控制功能，该功能广泛应用于软件社区的程序代码维护和开发团队内部的无阻碍协作。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2943
+OmegaT supports two of the popular version control systems (VCS for short), <u0>Apache Subversion</u0> (often abbreviated SVN, after the command name svn) and <u1>Git</u1>.
+OmegaT支持两种流行的版本控制系统（简写为VCS）：<u0>Apache Subversion</u0>（在命令名称svn后常被简称为SVN）和<u1>Git</u1>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2944
+The advantages of a VC system for a team of translators can be summarized as follows:
+版本控制系统给团队成员带来的好处可概括如下：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2945
+Several team members can work on the translation project simultaneously without interfering with each other
+多个团队成员可同时工作在一个翻译项目而不会彼此冲突
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2946
+They can share common material, like project translation memory and its glossary
+他们可以共用材料，如项目的翻译记忆和术语表
+
+xulihang
+doc_src/App_TeamProjects.xml
+
+2947
+Every three minutes by default, an updated version of data shared is available to the rest of the team
+缺省情况下，每三分钟就会把更新的版本分享给团队其他成员
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2948
+The system maintains versioning for data shared
+由系统维护共享数据的版本
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2949
+Conflicts - for instance alternative translations of the same segment or glossary entry - can be monitored, resolved and merged
+可以发现并解决冲突（例如相同片段或术语的可选译文）
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2950
+The following terms, to be used in the text below, deserve a short explanation:
+这里对后面的文本中使用的术语作个简短的说明：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2951
+<e0>VCS server - </e0>i.e. SVN or Git server is the environment where the common material is kept and maintained on the net.
+<e0>VCS服务器：</e0>即SVN或Git服务器是网上保存和维护公用材料的地方。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2952
+The server can exist in the local network but in the majority of cases it will be available on internet, i.e. via URL address.
+服务器可以在本地网络，但大部分情况下它在因特网上，即通过网址访问。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2953
+One member of the team, the project administrator, needs to be acquainted with handling the server side, i.e. the job of setting up the environment, importing the OmegaT project, assigning the access rights for the team members, resolving the conflicts, etc.
+项目的其中一个成员——项目管理员，需要熟悉服务器端事务，即设置工作环境、导入OmegaT项目、设置团队成员的访问权限、解决冲突等。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2954
+http://tortoisesvn.net/
+http://tortoisesvn.net/
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2955
+http://code.google.com/p/tortoisegit/
+http://code.google.com/p/tortoisegit/
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2956
+<e0>VCS client: </e0>To interface with the server an SVN or Git client must be installed on computers of "project managers" involved in the OmegaT project.
+<e0>VCS客户端：</e0>要和服务器连接，SVN或Git客户端必须安装在包含OmegaT项目的“项目管理员”的电脑上。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2957
+Very popular clients for Windows environment are <u1>TortoiseSVN</u1> and <u2>TortoiseGit</u2>.
+Windows系统中最常用的客户端分别为<u1>TortoiseSVN</u1>和<u2>TortoiseGit</u2>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2958
+Other operating systems (Linux, OS X) offer similar packages.
+其他操作系统（Linux、OS X）提供了类似的软件。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2959
+<e0>repository: </e0>the place where the shared material is saved and maintained, either on a local access network or in Internet.
+<e0>版本库：</e0>保存和维护共享材料的位置，在本地网或因特网上。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2960
+Project members connect with it via their VCS client.
+项目成员需要VCS客户端与其连接。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2961
+<e0>checkout:</e0> the operation that creates a working copy from the repository to your local computer.
+<e0>检出：</e0>该操作从版本库创建工作副本到本地电脑。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2962
+The server keeps the information on checkouts, so that later commits (see below) can be performed in an orderly fashion.
+服务器维护了检出的信息，所以以后的提交（参阅下面）可以平滑地进行。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2963
+<e0>commit: </e0>once a new local version of the checked-out material is ready, it can be committed to the repository and thus made available to the rest of the team.
+<e0>提交：</e0>当检出材料的新的本地版本准备好后，就可以提交到版本库而共享给团队其他成员。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2964
+The server makes sure that any conflicting changes, due to two members working on the same checked-out contents, will be resolved.
+服务器会确保在两个成员工作于相同的检出内容时引起的冲突得到解决。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2965
+<e0>administrator: </e0>the person responsible for the creation and maintaining of the repository, i.e. taking care of the server side of the task.
+<e0>管理员：</e0>创建和维护版本库（如处理服务端事务）的人。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2966
+To avoid any problems, one person only should have these rights at least initially.
+要避免问题，最初的设置中每个人只应该具有基本的这些权利。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2967
+<e0>user</e0>: a member of the team, collaborating on the common project.
+<e0>用户</e0>：团队成员，协作于共同的项目。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2968
+<p0>Team projects</p0> <s1>Subversion</s1>
+<p0>团队项目</p0> <s1>Subversion</s1>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2969
+Sharing a project using SVN
+使用SVN共享项目
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2970
+There are two possibilities to run an SVN server: you can install SVN on your own server or you can use a hosted service.
+有两种运行SVN服务器的方式：可以把SVN安装在自己的服务器或使用托管服务。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2971
+When using an external service you must be aware of the possible implications in terms of confidentiality, since you are loading the original document on a server outside of your direct control.
+使用外部服务时您必须注意到可能的机密泄漏，因为您是在不受自己直接控制的服务器上加载文档的。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2972
+Alternatively, to avoid this issue you can set a private SVN server, for example if you already have an Apache server that includes the software in question (e.g. VisualSVN).
+或者，为了避免此问题您可以建立私有的SVN服务器，例如如果您已经有了包含正在讨论的软件（如VisualSVN）的Apache服务器。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2973
+http://tortoisesvn.net/
+http://tortoisesvn.net/
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2974
+https://sourceforge.net/projects/macsvn/
+https://sourceforge.net/projects/macsvn/
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2975
+http://www.yolinux.com/TUTORIALS/Subversion.html
+未翻译
+
+没有修改者
+doc_src/App_TeamProjects.xml
+
+2976
+Once the SVN server is available, project managers must locally install a SVN client, in order to manage the project contents on their computers.
+有了SVN服务器，那么项目管理员需要在本地安装SVN客户端用来管理电脑上的项目内容。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2977
+For Windows we recommend <u0>TortoiseSVN</u0>.
+对于Windows我们推荐<u0>TortoiseSVN</u0>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2978
+For Mac you can download the client for instance from <u1>SourceForge</u1>, For Linux see <u2>Subversion Commands and Scripts</u2>.
+对于Mac您可以从如<u1>SourceForge</u1>站点下载客户端，对于Linux请参阅<u2>Subversion命令和脚本</u2>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2979
+<p0>Team projects</p0> <s1>Creating SVN repository</s1>
+<p0>团队项目</p0> <s1>创建SVN版本库</s1>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2980
+Creating a repository
+创建版本库
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2981
+http://projectlocker.com/
+http://projectlocker.com/
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2982
+The procedure presented here relies on the free SVN server (limited to 2 users) offered by <u0>ProjectLocker</u0>.
+这里所说的过程依赖于由<u0>ProjectLocker</u0>提供的免费的SVN服务器（限制2个用户）。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2983
+Note that the creator of the repository has implicitly the administrator rights for the repository created.
+请注意版本库的创建者默认具有他所创建的版本库的管理权限。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2984
+Sign in to the site first or - if it is your first time on the site, register for it and note your user name and password for the future projects.
+首先登录到该站点，如果您是第一次到这个站点，请先注册并保存用户名和密码以用于之后的项目。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2985
+Create a new project on ProjectLocker
+在ProjectLocker上创建新项目
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2986
+Type the name and description of the repository.
+输入版本库的名称和说明。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2987
+( <l0>OmegaT</l0> and <l1>OmegaT SL Localization </l1>in the example used here)
+（这里举的例子为<l0>OmegaT</l0>和<l1>OmegaT SL本地化</l1>）
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2988
+Choose<g0> SVN.</g0>
+选择<g0> SVN。</g0>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2989
+Click <g0>Create Project</g0>
+点击<g0>Create Project</g0>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2990
+Open the<e0> Projects</e0> view for your account.
+在您的账户中打开<e0>Projects</e0>视图。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2991
+The URL shown under Project Services will be used by SVN to connect clients to the SVN server you have just established.
+项目服务下的网址将被SVN用来从客户端连接到您刚建立的SVN服务器。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2992
+This is also the place to add members of the team to the project and assign them their rights.
+这里还可以添加团队成员到项目中并为他们分配权限。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2993
+Note that the team members have to be registered first, before you can add them to the project (Note: in the free version of ProjectLocker you are allowed only two users per project).
+需要注意的是团队成员必须先注册，您才能把他们添加到项目中（注意：在ProjectLocker的免费版本中每个项目只允许添加两个成员）。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2994
+Projects can be managed according to your development style and needs.
+您可以根据自己的开发风格和需求管理项目。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2995
+Similar as in the case of OmegaT projects, you will need to have separate repositories for different language pairs.
+与OmegaT项目类似，对于不同的语言对您需要使用各自的版本库。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2996
+Within a given language pair it is best to keep different subjects and/or clients as separate repositories as well.
+在指定的语言对中最好像单独的版本库一样保存不同的主题及客户。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2997
+The alternative is to have one single repository with subfolders <l0>Project1</l0>, <l1>Project2</l1>, etc., and share the common material via common <l2>tm</l2>, <l3>glossary</l3> and <l4>dictionary</l4> folders.
+替代方案是在一个版本库中包含<l0>Project1</l0>、<l1>Project2</l1>等子文件夹，并通过公共的<l2>tm</l2>、<l3>glossary</l3>和<l4>dictionary</l4>文件夹共用相同的材料。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2998
+For the example shown here we decided for the one OmegaT project - one single repository for the simplicity reasons.
+为了简便，这里的例子中我们决定为OmegaT项目使用单个版本库。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+2999
+Importing the project to SVN repository - Windows
+导入项目到SVN版本库——Windows
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3000
+The repository is empty at this moment.
+此时版本库是空的。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3001
+You create first an empty client folder on your disk.
+您先在磁盘上创建空的客户端文件夹。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3002
+Create an empty folder, where you will keep your project and right-click on it.
+在保存项目的位置创建空文件夹并在上面点击右键。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3003
+Select<g0> TortoiseSVN > Checkout.</g0> The following dialog appears:
+选择<g0> TortoiseSVN>检出</g0>后显示下面的对话框：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3004
+Enter the URL, provided by ProjectLocker, into the field <e0>URL of repository</e0>.
+把ProjectLocker提供的网址输入到<e0>版本库网址</e0>字段。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3005
+Make sure the field <e1>Checkout directory</e1> is correct, i.e. specifies the empty folder you have created, and press <e2>OK</e2>.
+确保<e1>检出目录</e1>无误，即指定您创建的空文件夹并按下<e2>OK</e2>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3006
+Once the operation has finished, you can check the said folder: it should now contain a subfolder .svn and a green OK badge on its icon will show, that the contents of the folder are up-to-date:
+操作完成后，您可以检查刚才所说的目录：现在它应该包含.svn子文件夹且图标上含有绿色的就绪标记，这表示该文件夹的内容是最新的。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3007
+In the next step, we will add the OmegaT files to the local folder.
+下一步中，要添加OmegaT文件到本地文件夹。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3008
+The following files are to be shared among the members of the team and thus have to be included in any case:
+下面的文件用于在团队成员中共享，因此在任何情况下都必须包含它们：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3009
+the omegat project file - <f0>omegat.project</f0>
+omegat项目文件——<f0>omegat.project</f0>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3010
+the translation memory - <f0>omegat\project_save.tmx</f0>
+翻译记忆——<f0>omegat\project_save.tmx</f0>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3011
+the contents of the source folder
+源文件夹的内容
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3012
+the project-specific filters definition - <f0>omegat\filters.xml</f0>
+项目专用的过滤器定义文件——<f0>omegat\filters.xml</f0>
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3013
+The administrator may decide to include following folders and their contents as well: <f0>tm</f0>, <f1>glossary</f1> and <f2>dictionary</f2>.
+管理员还可以决定包含后面这些文件夹及其内容：<f0>tm</f0>、<f1>glossary</f1>和<f2>dictionary</f2>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3014
+Also <f3>ignored_words.txt</f3> and <f4>learned_words.txt</f4> in the <f5>omegat</f5> folder may be worth sharing and maintaining on the team level.
+还有<f5>omegat</f5>文件夹中的<f3>ignored_words.txt</f3>和<f4>learned_words.txt</f4>也许值得在团队中共享和维护。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3015
+Avoid in any case adding <f6>bak</f6> files, <f7>project_stats.txt</f7> and <f8>project_stats_match.txt</f8>, in the <f9>omegat</f9> subfolder, as they would without any need or profit just bloat the repository.
+在任何情况下都必须排除<f9>omegat</f9>子文件夹中的<f6>bak</f6>文件、<f7>project_stats.txt</f7>及<f8>project_stats_match.txt</f8>，因为它们除了让版本库变得臃肿外得不到丝毫好处。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3016
+You might want to apply the same to the <f10>target</f10> folder and its contents.
+您可以把相同的设置用于<f10>target</f10>文件夹及其内容。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3017
+After copying the required files into the checkout folder you will notice that its icon has changed: the green OK badge has changed to a red exclamation sign, signifying the change in the local copy of the repository.
+在复制必须的文件到检出文件夹后您会发现它的图标改变了：绿色的就绪标记变成红色的感叹号，这表示版本库的本地副本发生了变化。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3018
+The following two steps will bring the server version up to date:
+通过下面的两个步骤可以把最新的版本传到服务器：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3019
+<e0>add the copied files to the local version of the repository:</e0> right-click on the local checkout folder and select <g1>TortoiseSVN > Add.</g1> In the dialog that opens, leave all options as per default and click<g2> OK</g2>.
+<e0>添加已复制的文件到版本库的本地版本：</e0>右键点击检出文件夹并选择<g1>TortoiseSVN>添加</g1>。在出现的对话框中，让所有设置保持默认并点击<g2> OK</g2>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3020
+The Add Finished!
+添加结束！
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3021
+window, similar to the one below will appear:
+窗口，类似于下面会出现的一个：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3022
+The contents of the checkout folder will be marked accordingly:
+检出文件夹的内容会进行相应的标记：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3023
+<e0>commit local changes to the server: </e0>right-click on the local checkout folder and select <g1>SVN Commit....</g1> The Commit window - see below opens.
+<e0>提交本地更新到服务器：</e0>在本地检出文件夹上点击右键并选择<g1>SVN提交…。</g1>提交窗口——请参阅下面。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3024
+Check the changes to be made - i.e. the folders and files added in this case.
+选中发生的变更——在这里即是刚添加的文件夹和文件。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3025
+Enter an appropriate message into the message window and press <g0>OK</g0>.
+输入相应的信息到信息框并按下<g0>OK</g0>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3026
+The Commit window will open and show the progress of the commit command.
+将打开提交窗口并显示提交进度。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3027
+It will first commit the current contents to the server repository and then update the local copy of the repository - i.e. the contents of .svn subfolder - so that it is up to date with the latest repository version.
+它会首先提交当前内容到服务器版本库，接着更新版本库的本地副本（即.svn子文件夹的内容），这样它就是版本库的最新版本了。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3028
+<e0>update local files from the local repository copy</e0> - the changes received from the server repository reside within the .svn subfolder but not yet in the files and folders themselves.
+<e0>从本地版本库副本更新本地文件</e0>——从服务器版本库的.svn子文件夹接收到的变更但还不是文件和文件夹本身的更新。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3029
+To update the local files, right-click on the checkout folder and select <g1>SVN Update</g1>.
+要更新本地文件，右键点击检出文件夹并选择<g1>SVN更新</g1>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3030
+Check the contents of the folder to confirm that the local copy of the repository and the corresponding files and folders correspond to the latest server version:
+检查文件夹的内容以确认与服务器中的最新版本相对应的版本库和相应文件及文件夹的本地副本：
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3031
+Using the team project in OmegaT
+在OmegaT中使用团队项目
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3032
+Once the team project is setup, team members only need <a0>OmegaT</a0> to access the team project.
+建立团队项目后，团队成员只需<a0>OmegaT</a0>就能访问团队项目。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3033
+First, they need to use <g1>Project > Download Team Project</g1>.
+首先，他们需要打开<g1>项目>下载团队项目</g1>。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3034
+This will actually do a checkout of the project in a local folder.
+这个操作实际上会检出项目到本地文件夹。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3035
+Credentials are stored, so it isn't needed to enter them each time.
+访问凭据会保存下来，这样就无需每次都要输入它们。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3036
+Under Linux, if <a2>OmegaT</a2> is still asking for your credentials, you can checking the <g3>Force saving password as plain text</g3> checkbox.
+在Linux中，如果<a2>OmegaT</a2>仍要求凭据，则您可以选中<g3>强制保存密码为纯文本</g3>复选框。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3037
+For subsequent use, all is needed is opening the project like any other <a0>OmegaT</a0> project.
+以后使用时，所有需要做的只是像其他<a0>OmegaT</a0>项目那样打开项目。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3038
+OmegaT will recognize it is a team project, and will synchronize everything automatically, every three minutes by default.
+OmegaT会识别出团队项目，并在缺省的情况下每隔三分钟自动同步所有内容。
+
+Fu Rhong
+doc_src/App_TeamProjects.xml
+
+3039
+Tokenizers
+分词器
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3040
+Tokenizers
+分词器
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3041
+<p0>Lucene</p0> <s1>Tokenizer</s1>
+<p0>Lucene</p0> <s1>解析器</s1>
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3042
+<p0>Stemmer</p0> <s1>Tokenizer</s1>
+<p0>Stemmer</p0> <s1>解析器</s1>
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3043
+Introduction
+介绍
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3044
+Tokenizers (or stemmers) improve the quality of matches by recognizing inflected words in source and translation memory data.
+分词器（或 stemmer，词干分析器）通过识别源语言和翻译记忆数据中的词形变化来提高翻译匹配质量。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3045
+They also improve glossary matching.
+同时也提高了术语表的匹配度。
+
+xulihang
+doc_src/App_Tokenizer_plugin.xml
+
+3046
+A stemmer for English, for example, should identify the string "cats" (and possibly "catlike", "catty" etc.) as based on the root "cat", and "stemmer", "stemming", "stemmed" as based on "stem".
+英语中的词干分析器，例如能识别字符串 "cats"（以及 "catlike", "catty" 等）的词根是 "cat"，而 "stemmer", "stemming", "stemmed" 的词根是 "stem"。
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3047
+A stemming algorithm reduces the words "fishing", "fished", "fish", and "fisher" to the root word, "fish".
+词干分析算法能还原单词 "fishing"、"fished"、"fish" 以及 "fisher" 为相应的词根 "fish"。
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3048
+This is especially useful in case of languages that use pre- and postfix forms for the stem words.
+这对处理使用了词根加上前缀和后缀形式组成的单词的语言来说特别有用。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3049
+Borrowing an example from Slovenian, here "good" in all possible grammatically correct forms:
+看看斯洛文尼亚语的一个例子，这些是 "good" 的所有正确的语法形式：
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3050
+lep, lepa, lepo - singular, masculine, feminine, neutral
+lep, lepa, lepo - singular, masculine, feminine, neutral
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3051
+lepši, lepša, lepše .
+lepši, lepša, lepše .
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3052
+- comparative, nominative, masculine, feminine, neutral, resp. Plural form of the adjective
+- comparative, nominative, masculine, feminine, neutral, resp. 形容词的复数形式
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3053
+najlepših - superlative, plural, genitive for M,F,N
+najlepših - superlative, plural, genitive for M,F,N
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3054
+Languages selection
+语言选择
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3055
+Tokenizers are included in OmegaT and active by default.
+OmegaT里包含了分词器并且默认为开启状态。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3056
+OmegaT automatically selects a tokenizer for the source and the target language according to the language settings of the project.
+OmegaT会根据项目语言设置中的源语言和目标语言自动选择相应的分词器。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3057
+It is possible to select another tokenizer (Language Tokenizer) or a different version of the tokenizer (Tokenizer Behavior) from the Project Properties window.
+可以从项目属性窗口中选择另一个分词器（语言分词器）或分词器（分词器行为）的不同版本。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3058
+In case no tokenizer exists for the current languages, OmegaT uses Hunspell instead (in that case, make sure that relevant Hunspell dictionaries are installed).
+如果当前语言没有标记器，OmegaT会使用Hunspell（在这种情况下，确保安装了相关的Hunspell字典）。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3059
+Incompatibilities
+不兼容性
+
+Fu Rhong
+doc_src/App_Tokenizer_plugin.xml
+
+3060
+OmegaT will not launch if tokenizers are found in the /plugin folder.
+如果在/plugin文件夹找到分词器则OmegaT将不会运行它。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3061
+Remove all the tokenizers from the /plugin folder before starting OmegaT.
+在启动OmegaT前请删除/plugin文件夹中的所有分词器。
+
+gavin7
+doc_src/App_Tokenizer_plugin.xml
+
+3062
+OmegaT on the web
+网上的 OmegaT 
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3063
+<a0><i1/>OmegaT</a0> on the web
+<a0>网上的 <i1/>OmegaT</a0>
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3064
+<p0>OmegaT on the web</p0> <s1>SourceForge Project</s1>
+<p0>网上的 OmegaT</p0> <s1>SourceForge 项目</s1>
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3065
+<a0>OmegaT</a0> sites and <a1>OmegaT</a1> SourceForge project
+<a0>OmegaT</a0> 站点和 <a1>OmegaT</a1> SourceForge 项目
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3066
+http://www.omegat.org/
+http://www.omegat.org/
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3067
+http://tech.groups.yahoo.com/group/omegat/
+http://tech.groups.yahoo.com/group/omegat/
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3068
+http://tech.groups.yahoo.com/group/OmegaT/database?method=reportRows&tbl=1
+http://tech.groups.yahoo.com/group/OmegaT/database?method=reportRows&tbl=1
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3069
+https://sourceforge.net/p/omegat/bugs/
+https://sourceforge.net/p/omegat/bugs/
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3070
+https://sourceforge.net/p/omegat/feature-requests/
+https://sourceforge.net/p/omegat/feature-requests/
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3071
+The<u0> <a1>OmegaT</a1> web site </u0>contains links to numerous <a2>OmegaT</a2> resources.
+<u0> <a1>OmegaT</a1> 网站</u0>包含了众多 <a2>OmegaT</a2> 的资源链接。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3072
+User support is provided on a volunteer basis at the <u3><a4>OmegaT</a4> Yahoo!
+用户支持由<u3><a4>OmegaT</a4> Yahoo!的志愿者组成。
+
+Administrator
+doc_src/App_Website.xml
+
+3073
+User Group</u3>.
+用户群组</u3>.
+
+Administrator
+doc_src/App_Website.xml
+
+3074
+The <u5>FAQ </u5> is a good starting point for finding answers to questions you may have.
+在寻找问题的答案时 <u5>FAQ</u5> 是个不错的起点。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3075
+For the latest version of OmegaT, refer to the downloads page at www.omegat.org.
+对于最新版本的 OmegaT，请参考 www.omegat.org 上的下载页。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3076
+You can also file <u6>bug reports</u6> and <u7>requests for enhancements.</u7>
+您还可以提交 <u6>bug 报告</u6>和<u7>改进要求。</u7>
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3077
+<p0>OmegaT on the web</p0> <s1>Reporting bugs</s1>
+<p0>网上的 OmegaT</p0> <s1>反馈 bug</s1>
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3078
+Bug reports
+BUG 报告
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3079
+Remember that every good bug report needs just three things:
+请记住每份良好的 BUG 报告至少包括三方面内容：
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3080
+Steps to reproduce
+重现 BUG 的步骤
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3081
+What you expected to see
+您期望看到的情况
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3082
+What you saw instead
+您实际看到的情况
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3083
+http://www.joelonsoftware.com/articles/fog0000000029.html
+http://www.joelonsoftware.com/articles/fog0000000029.html
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3084
+More can be found in the <u0>Painless Bug Tracking</u0> article by Joel Spolsky.
+更多内容请参阅 Joel Spolsky 的那篇 <u0>无痛 Bug 跟踪</u0>文章。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3085
+You should add copies of files, portions of the log, screen shots, and anything else that you think will help the developers to find and fix your bug.
+您应该将文件的副本、部分日志、屏幕截图以及其他任何可以帮助开发人员找到并处理您所遇到的Bug的内容添加到报告中。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3086
+Note that bug reports and requests for enhancements are publicly visible, so you should not add any sensitive files.
+需要注意的是：BUG 报告和改进要求是公开可见的，因此请不要将敏感文件加入其中。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3087
+If you wish to keep track of what is happening to the report, register as a SourceForge user, login and file a bug report or simply click Monitor at the top of the report.
+如果您想知道您的报告后续处理情况，您需要注册成为 SourceForge 用户，登录并提交一份 BUG 报告，或者只需点击报告顶部的监控器。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3088
+<p0>OmegaT on the web</p0> <s1>Contributing to OmegaT</s1>
+<p0>网上的 OmegaT</p0> <s1>为 OmegaT 做贡献</s1>
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3089
+Contributing to <a0>OmegaT</a0> project
+为 <a0>OmegaT</a0> 项目做贡献
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3090
+To contribute to <a0>OmegaT</a0>:
+为 <a0>OmegaT</a0> 做贡献：
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3091
+http://tech.groups.yahoo.com/group/OmegaT/
+http://tech.groups.yahoo.com/group/OmegaT/
+
+钢
+doc_src/App_Website.xml
+
+3092
+mailto:OmegaT-subscribe@yahoogroups.com
+mailto:OmegaT-subscribe@yahoogroups.com
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3093
+mailto:omegat-development-request@list.sourceforge.net?subject=subscribe
+mailto:omegat-development-request@list.sourceforge.net?subject=subscribe
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3094
+first join the <u0>user group</u0> (via web or by sending an email to <u1><a2>OmegaT</a2>-subscribe@yahoogroups.com</u1>).
+首先请加入<u0>用户组</u0>（通过网站或给 <u1><a2>OmegaT</a2>-subscribe@yahoogroups.com</u1> 发一封电子邮件）。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3095
+To get involved in the <a3>OmegaT</a3> development effort you can join the developer group, via the web or by sending an email to <u4>omegat-development-request@lists.sourceforge.net</u4> with "subscribe" as the subject line.
+想参加 <a3>OmegaT</a3> 开发的话，您可以通过网站或者向 <u4>omegat-development-request@lists.sourceforge.net</u4> 发送一份标题为 "subscribe" 的邮件加入开发人员组。
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3096
+To translate <a0>OmegaT</a0>'s user interface, user manual or other related documents:
+如果想翻译 <a0>OmegaT</a0> 的用户界面、用户手册或其他相关文档：
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3097
+http://www.omegat.org/en/howtos/localizing_omegat.php
+http://www.omegat.org/en/howtos/localizing_omegat.php
+
+Fu Rhong
+doc_src/App_Website.xml
+
+3098
+mailto:omegat-development-request@lists.sourceforge.net?subject=subscribe
+mailto:omegat-development-request@lists.sourceforge.net?subject=subscribe
+
+Fu Rhong
+doc_src/App_Website.xml
+
