@@ -1,0 +1,938 @@
+7711
+For this reason, many CAT tools provide a preview function that shows the layout and formatting without the translator having to create the final document and open it in a separate application (usually a word processor).
+出于这个原因，许多CAT工具都提供预览功能，以此来显示布局和格式，而不需要翻译人员创建最终文档并在单独的应用程序中打开它（通常是文字处理器
+
+anton
+website/howtos/preview.html
+
+7712
+OmegaT does not have an integral preview function, but it is possible to provide much the same functionality using additional software.
+OmegaT 不提供整体预览功能，但是可以使用附加软件实现类似功能。.
+
+lenovo
+website/howtos/preview.html
+
+7713
+This HowTo describes the general principles for setting up a preview function.
+该指南介绍了设置预览功能的一般原则。
+
+lenovo
+website/howtos/preview.html
+
+7714
+Principles
+原则
+
+lenovo
+website/howtos/preview.html
+
+7715
+Ideally, a viewer should do two things:
+理想情况下，显示器主要有两个作用：
+
+lenovo
+website/howtos/preview.html
+
+7716
+It should display the text with something approaching the final layout and formatting.
+它会展示和最终布局与格式相近的文本。
+
+lenovo
+website/howtos/preview.html
+
+7717
+It should be updated continually.
+它会不断更新。
+
+lenovo
+website/howtos/preview.html
+
+7718
+Browser
+浏览器
+
+lenovo
+website/howtos/preview.html
+
+7719
+If you are translating .html files, a convenient solution is to use a browser with an automatic refresh function to provide a ready-made preview function.
+如果你正在翻译一个.html文件，一个便捷的方法就是用一个具有自动刷新功能的浏览器来实现现成的预览功能。
+
+lenovo
+website/howtos/preview.html
+
+7720
+Examples of browsers with an automatic refresh function:
+具有自动刷新功能的浏览器示例：
+
+lenovo
+website/howtos/preview.html
+
+7721
+Firefox:<br0/>
+火狐：<br0/>
+
+lenovo
+website/howtos/preview.html
+
+7722
+Windows users who are not already using Firefox can <a1>download it from www.mozilla.org</a1>; most Linux users will already have it installed, or can install it via their distributions' repositories.
+Windows用户可以从www.mozilla.org <a1>下载火狐浏览器</a1>；多数Linux用户已安装火狐，或者通过发布版本库来安装。
+
+lenovo
+website/howtos/preview.html
+
+7723
+To add an automatic refresh function to Firefox, <a2>install the "ReloadEvery" add-on</a2>.
+在Firefox中<a2>安装ReloadEvery组件</a2>添加自动刷新功能。
+
+lenovo
+website/howtos/preview.html
+
+7724
+Opera:<br0/>
+Opera:<br0/>
+
+xulihang
+website/howtos/preview.html
+
+7725
+Opera is available for all platforms; it is also very fast and requires low hardware resources.
+Opera适用于所有平台；它不但快速而且对硬件资源的要求很低。.
+
+lenovo
+website/howtos/preview.html
+
+7726
+<a1>Download it from www.opera.com</a1> (or for Linux users: through your distribution's repository).
+下载.
+
+lenovo
+website/howtos/preview.html
+
+7727
+The automatic refresh function is built in.
+未翻译
+
+没有修改者
+website/howtos/preview.html
+
+7728
+Chrome:<br0/>
+Chrome:<br0/>
+
+xulihang
+website/howtos/preview.html
+
+7729
+Chrome is also available for all platforms.
+Chrome也同样适用于所有平台。
+
+lenovo
+website/howtos/preview.html
+
+7730
+<a1>Download Chrome from www.google.com/chrome</a1>.
+在<a1>www.google.com/chrome</a1>下载Chrome.
+
+lenovo
+website/howtos/preview.html
+
+7731
+To add the auto refresh function to Chrome, <a2>download and install the Auto Refresh Plus extension</a2> from the Web Store.
+在Chrome中添加自动刷新功能，请到应用商店<a2>下载并安装自动刷新扩展功能</a2>。
+
+lenovo
+website/howtos/preview.html
+
+7732
+You may prefer <i0>not</i0> to use your usual browser for the preview function so as to keep it free for Internet browsing rather than having constantly to switch tabs, so you can regard installing an additional browser for the preview function as an advantage.
+你可能 <i0>不</i0>喜欢使用常用的浏览器进行预览， 而是将其完全用来上网浏览而不是频繁切换标签，所以你可以将安装多余的浏览器作为预览功能看成是一种便利。
+
+lenovo
+website/howtos/preview.html
+
+7733
+After selecting and installing a suitable browser (and/or the required add-on), open your translated file in the /target folder of your project:
+选择并且安装合适的浏览器（和/或所需的附加组件）后，在项目的/ target文件夹中打开已翻译的文件：
+
+lenovo
+website/howtos/preview.html
+
+7734
+Using Firefox: with File > Open File
+使用Firefox：使用文件>打开文件
+
+lenovo
+website/howtos/preview.html
+
+7735
+Using Opera: with Opera > Page > Open
+使用Opera：Opera>页面>打开
+
+lenovo
+website/howtos/preview.html
+
+7736
+Now enable automatic refreshing.
+现在启用自动刷新。.
+
+lenovo
+website/howtos/preview.html
+
+7737
+In both Firefox and Opera, this can be done by right-clicking in the translated .html file you have opened, then Reload every > select a desired interval (e.g. 5 seconds).
+在Firefox和Opera中，你可以打开已翻译.html文件单击右键，重新加载选择所需间隔（例如5秒）。
+
+lenovo
+website/howtos/preview.html
+
+7738
+You now have a preview function.
+你现在实现了预览功能。
+
+lenovo
+website/howtos/preview.html
+
+7739
+To update the display, you must still save and create your target document in OmegaT with Ctrl+s, Ctrl+d.
+若更新显示的内容，你必须使用Ctrl+s, Ctrl+d在OmegaT中保存并创建目标文档。
+
+lenovo
+website/howtos/preview.html
+
+7740
+The change will then become visible after a delay of at most the interval you selected (plus the time taken by OmegaT to save and produce the target files).
+最多延迟你所选择的时间间隔（加上OmegaT保存并生成目标文件所用的时间）后，更改可见。.
+
+lenovo
+website/howtos/preview.html
+
+7741
+Your browser won't automatically scroll as you work through the text; you have to do that yourself.
+浏览文本时，浏览器不会自动滚动; 你必须自己滑动浏览器。
+
+lenovo
+website/howtos/preview.html
+
+7742
+But it will at least stay at the same point in the text when the view is updated.
+当视图更新时，它至少会保留在文本中的相同位置。.
+
+lenovo
+website/howtos/preview.html
+
+7743
+Previewing word-processing files
+预览文字处理文件
+
+lenovo
+website/howtos/preview.html
+
+7744
+Opening your translated target file in a browser is easy when your source file is in .html format, but translations more often involve word-processing files, which in OmegaT are usually handled in .docx or .odt format.
+当你的源文件为.html格式时，很容易在浏览器中打开已翻译的目标文件，但翻译经常涉及文字处理文件，这些文件在OmegaT中通常以.docx或.odt格式处理。
+
+lenovo
+website/howtos/preview.html
+
+7745
+You can still use the browser solution described above to preview the translations of these files, but you will then also need a) a converter to convert the file to .html format, and b) a utility to launch the converter automatically so that you don't have to convert the files manually.
+你仍然可以使用以上描述的浏览器方案来预览文件，但是你仍然需要一个转换器来将文件转换成.html格式，以及自动启动转换器的功能，这样你就不用手动转换文件了。
+
+lenovo
+website/howtos/preview.html
+
+7746
+Two programs that can be used as converters are described here: Abiword and LibreOffice.
+以下介绍两个转换器程序：Abiword and LibreOffice.
+
+lenovo
+website/howtos/preview.html
+
+7747
+Abiword and LibreOffice are a word processor and an office suite respectively.
+Abiword 是文字处理器，LibreOffice是办公套件。
+
+lenovo
+website/howtos/preview.html
+
+7748
+Both are free, available for a number of different platforms, and can convert .docx and .odt files to .html format.
+这两个程序均为免费使用，适用于多种平台，并且可以将.docx和.odt文件转换成.html格式。
+
+lenovo
+website/howtos/preview.html
+
+7749
+Abiword is a relatively small download and is very fast in use.
+Abiword体积小，速度快。
+
+lenovo
+website/howtos/preview.html
+
+7750
+It has a command-line function for converting .docx and .odt files to .html format.
+它具有将.docx和.odt文件转换为.html格式的命令行功能。
+
+lenovo
+website/howtos/preview.html
+
+7751
+It is very easy for Linux users and fairly easy for Windows users to install.
+Linux用户和Windows用户安装起来都很容易。
+
+lenovo
+website/howtos/preview.html
+
+7752
+<a0>Download Abiword here</a0>.
+<a0>下载Abiword</a0>.
+
+lenovo
+website/howtos/preview.html
+
+7753
+LibreOffice is a fully featured office suite similar to Microsoft Office.
+LibreOffice是一个功能齐全的办公套件，类似于Microsoft Office。
+
+lenovo
+website/howtos/preview.html
+
+7754
+It can also be used to convert .docx and .odt files to .html format, but to do so from the command line, it also requires Unoconv, a plug-in.
+它也可用于将.docx和.odt文件转换为.html格式，但要从命令行执行此操作，还需要使用Unoconv插件。
+
+lenovo
+website/howtos/preview.html
+
+7755
+<a0>Download LibreOffice here</a0>; <a1>download the Unoconv plug-in here</a1>.
+<a0>下载LibreOffice</a0>; <a1>下载Unoconv插件</a1>.
+
+lenovo
+website/howtos/preview.html
+
+7756
+Once you have installed either Abiword or the LibreOffice+Unoconv combination, you can convert the target files produced by OmegaT to html format in order for them to be read by the browser.
+成功安装Abiword或LibreOffice + Unoconv组合后，你可以将OmegaT生成的目标文件转换为html格式便于浏览器读取。
+
+lenovo
+website/howtos/preview.html
+
+7757
+Remember that you will first have to save in OmegaT and produce the translated documents, then launch the conversion utility, then wait for the display to be updated in the browser.
+请记住首先保存OmegaT并生成翻译后的文档，然后启动转换功能，等待显示器更新。
+
+lenovo
+website/howtos/preview.html
+
+7758
+There are numerous ways of achiving this, but one practical solution is to use a script which "listens" for changes in the translated file(s) produced by OmegaT and then, when a change is detected, automatically launches the utility which converts the file(s) to html format in order for them to be read by the browser.
+有很多方法可以解决这个问题，但一个实际的解决方案是使用一个脚本来“监听”由OmegaT生成的翻译文件的更改，当它检测到更改时自动启动转换功能将文件转换为html格式便于浏览器读取。
+
+lenovo
+website/howtos/preview.html
+
+7759
+A schematic diagram is shown below:
+示意图如下：
+
+lenovo
+website/howtos/preview.html
+
+7760
+preview_flow.png
+preview_flow.png
+
+xulihang
+website/howtos/preview.html
+
+7761
+An example script that achieves this function is described in the <a0>Priorview Howto</a0>.
+<a0> Priorview Howto </ a0>中描述了实现此功能的示例脚本。
+
+lenovo
+website/howtos/preview.html
+
+7762
+Copyright Marc Prior 2012
+ 版权所有Marc Prior 2012
+
+lenovo
+website/howtos/preview.html
+
+7763
+Background and principles
+背景与原则
+
+lenovo
+website/howtos/priorview.html
+
+7764
+Priorview is a small utility that provides a preview function for use with OmegaT.
+Priorview是一个小工具，提供与OmegaT一起使用的预览功能。
+
+lenovo
+website/howtos/priorview.html
+
+7765
+For the background and principles, refer to the <a0>Preview Howto</a0>.
+背景与原则信息请参考 <a0>Preview Howto</a0>.
+
+lenovo
+website/howtos/priorview.html
+
+7766
+This HowTo describes the use of Priorview for <b1>Windows and Linux</b1>.
+本指南提供了<b1>Windows and Linux</b1>的Priorview使用说明。 
+
+lenovo
+website/howtos/priorview.html
+
+7767
+If you are using Mac OSX, you can <a2>download a version of Priorview for Mac here</a2>.
+如果你使用的是Mac OSX, 你可以在这里<a2>下载Mac版本的Priorview</a2>。
+
+lenovo
+website/howtos/priorview.html
+
+7768
+The Mac OSX version is not yet documented and the information below does <b3>not</b3> apply to it.
+Mac OSX 版本尚未记录，以下信息不适用于它。 <b3>not</b3> apply to it.
+
+lenovo
+website/howtos/priorview.html
+
+7769
+Software required
+所需软件
+
+lenovo
+website/howtos/priorview.html
+
+7770
+To use Priorview on Windows or Linux, you need the following:
+在Windows或Linux上使用Priorview，你需要：
+
+lenovo
+website/howtos/priorview.html
+
+7771
+1.
+1.
+
+Fu Rhong
+website/howtos/priorview.html
+
+7772
+<b0>A browser</b0>, specifically either:
+<b0>浏览器</b0>，可选择：
+
+lenovo
+website/howtos/priorview.html
+
+7773
+<a0>Opera</a0><br1/>
+<a0>Opera</a0><br1/>
+
+xulihang
+website/howtos/priorview.html
+
+7774
+or
+或者
+
+lenovo
+website/howtos/priorview.html
+
+7775
+<a0>Firefox</a0> together with the <a1>"ReloadEvery" add-on for Firefox</a1><br2/>
+<a0>Firefox</a0>以及<a1>"ReloadEvery"插件</a1><br2/>
+
+lenovo
+website/howtos/priorview.html
+
+7776
+Install Firefox first (if you do not already have it installed), then ReloadEvery.
+首先安装Firefox（如果你尚未安装），然后添加ReloadEvery。
+
+lenovo
+website/howtos/priorview.html
+
+7777
+(Download from the links provided; Linux users may prefer to install from their distribution's repositories, where this is possible)
+（请点击链接下载； Linux用户在可能的情况下更倾向于从其发行版的存储库进行安装）
+
+lenovo
+website/howtos/priorview.html
+
+7778
+2.
+2.
+
+Fu Rhong
+website/howtos/priorview.html
+
+7779
+<b0>A conversion utility</b0>, specifically either:
+<b0>转换功能</b0>，可选择：
+
+lenovo
+website/howtos/priorview.html
+
+7780
+<a0>Abiword</a0><br1/>
+<a0>Abiword</a0><br1/>
+
+xulihang
+website/howtos/priorview.html
+
+7781
+or
+或者
+
+lenovo
+website/howtos/priorview.html
+
+7782
+<a0>LibreOffice</a0> together with the <a1>Unoconv plug-in</a1>
+<a0>LibreOffice</a0>以及<a1>Unoconv插件</a1>
+
+lenovo
+website/howtos/priorview.html
+
+7783
+3.
+3.
+
+钢
+website/howtos/priorview.html
+
+7784
+<b0><a1>Tcl/Tk</a1></b0>
+<b0><a1>Tcl/Tk</a1></b0>
+
+xulihang
+website/howtos/priorview.html
+
+7785
+Almost any current version of Tcl/Tk will probably be suitable, but you must have both Tcl (the scripting interpreter) and Tk (the graphical component).
+几乎所有当前版本的Tcl / Tk都适用，但你必须同时拥有Tcl（脚本解释器）和Tk（图形组件）。
+
+lenovo
+website/howtos/priorview.html
+
+7786
+4.
+4.
+
+Fu Rhong
+website/howtos/priorview.html
+
+7787
+<b0><a1>Priorview</a1></b0>
+<b0><a1>Priorview</a1></b0>
+
+xulihang
+website/howtos/priorview.html
+
+7788
+To install Priorview, simply unpack the zip archive at any suitable location on your hard drive.
+要安装Priorview，只需将zip压缩包解压到硬盘驱动器上的任何合适位置即可。
+
+lenovo
+website/howtos/priorview.html
+
+7789
+To launch Priorview, open a command prompt/terminal/console and type in:
+要启动Priorview，请打开命令提示符/终端/控制台并输入：
+
+lenovo
+website/howtos/priorview.html
+
+7790
+cd <i0>path</i0>
+cd <i0>路径</i0>
+
+lenovo
+website/howtos/priorview.html
+
+7791
+where <i0>path</i0> is the full pathname of the folder in which you placed preview.tcl.
+其中<i0>路径</ i0>是放置preview.tcl的文件夹的完整路径名。.
+
+lenovo
+website/howtos/priorview.html
+
+7792
+Then type in:
+然后输入：
+
+lenovo
+website/howtos/priorview.html
+
+7793
+wish priorview.tcl
+wish priorview.tcl
+
+xulihang
+website/howtos/priorview.html
+
+7794
+You can simplify launching by writing a script file, i.e. a plain-text file containing these two lines.
+您可以通过编写脚本文件来简化启动过程，即包含这两行的纯文本文件。
+
+lenovo
+website/howtos/priorview.html
+
+7795
+Using Priorview
+使用Priorview
+
+lenovo
+website/howtos/priorview.html
+
+7796
+All being well, Priorview should appear when launched as described above.
+一切正常的话，Priorview应该按照上述方式启动。
+
+lenovo
+website/howtos/priorview.html
+
+7797
+On this, select:
+在这里，选择：
+
+lenovo
+website/howtos/priorview.html
+
+7798
+the name of the target file (in /target in your OmegaT project);
+目标文件的名称（在OmegaT项目中的/目标中）；
+
+lenovo
+website/howtos/priorview.html
+
+7799
+the browser you have installed;
+你已经安装的浏览器；
+
+lenovo
+website/howtos/priorview.html
+
+7800
+the frequency with which the script is to check whether this file has changed (polling interval);
+脚本检查此文件是否已更改的频率（轮询间隔）；
+
+lenovo
+website/howtos/priorview.html
+
+7801
+the file conversion utility that you have installed.
+你已安装的文件转换功能
+
+lenovo
+website/howtos/priorview.html
+
+7802
+When you have selected all of these, the Start button appears.
+当你选择完毕，就会出现开始按钮。
+
+lenovo
+website/howtos/priorview.html
+
+7803
+When actuated, this launches your browser with a dummy page instructing you to set the automatic refresh function, which you should then do, and then to hit Ctrl+s, Ctrl+d in OmegaT to launch automatic updating of the browser.
+点击它就会启动您的浏览器并显示虚拟页面，指示您设置自动刷新功能，然后在OmegaT中按Ctrl + s和Ctrl + d以启动浏览器的自动更新。
+
+lenovo
+website/howtos/priorview.html
+
+7804
+Whilst Priorview is running, you can:
+运行Priorview时，你可以：
+
+lenovo
+website/howtos/priorview.html
+
+7805
+interrupt and restart it;
+打断并且重启它；
+
+lenovo
+website/howtos/priorview.html
+
+7806
+select a new file (if you are working in a project containing several files, you do not have to relaunch Priorview when you reach the end of one file; you can simply select the next);
+选择一个新文件（如果您在包含多个文件的项目中工作，在到达一个文件末尾时不必重新启动Priorview；只需选择下一个）；
+
+lenovo
+website/howtos/priorview.html
+
+7807
+change the polling interval.
+改变轮询间隔。
+
+lenovo
+website/howtos/priorview.html
+
+7808
+Once Priorview has been launched, however, you cannot select a different browser or conversion utility; these options are therefore hidden after launch.
+Priorview一旦启动，你无法选择其他浏览器或转换实用程序；因此这些选项在启动后隐藏。
+
+lenovo
+website/howtos/priorview.html
+
+7809
+To select a different browser or conversion utility, you must close Priorview and relaunch it.
+如需更换浏览器或者转换功能，你必须关闭Priorview并重启。
+
+lenovo
+website/howtos/priorview.html
+
+7810
+The Quit button closes Priorview and also deletes the temporary files that it creates.
+点击停止按钮，关闭Priorview并删除它创建的临时文件。
+
+lenovo
+website/howtos/priorview.html
+
+7811
+(Other methods of closing Priorview will not delete the temporary files.)
+（其他关闭Priorview的方法不会删除临时文件。）
+
+lenovo
+website/howtos/priorview.html
+
+7812
+preview_ss.png
+ preview_ss.png
+
+think
+website/howtos/priorview.html
+
+7813
+A European Commission press release (in .odt format) in OmegaT and below it the instantaneous target text displayed in Opera.
+欧洲委员会新闻稿（采用.odt格式）在OmegaT中并在其下方显示Opera中显示的即时目标文本。
+
+lenovo
+website/howtos/priorview.html
+
+7814
+Bottom right: the Priorview utility.
+底部右侧：Priorview实用程序。.
+
+lenovo
+website/howtos/priorview.html
+
+7815
+The layout shown here is just for the sake of example; you can of course arrange the windows as you like.
+这里显示的布局仅仅是为了举例；你可以按你喜欢的方式排列窗口。
+
+lenovo
+website/howtos/priorview.html
+
+7816
+Troubleshooting
+故障排除
+
+lenovo
+website/howtos/priorview.html
+
+7817
+If the path to the location of priorview.tcl contains spaces, put it in quotes, e.g.:
+如果beforeview.tcl位置的路径包含空格，请将其放在引号中，例如：
+
+lenovo
+website/howtos/priorview.html
+
+7818
+cd "C:\My Files\priorview"
+cd "C:\My Files\priorview"
+
+xulihang
+website/howtos/priorview.html
+
+7819
+If Priorview fails to launch:
+如果Priorview未能启动：
+
+lenovo
+website/howtos/priorview.html
+
+7820
+Depending upon the version of Tcl/Tk that you have installed, you may have to add the version number to the wish command, e.g.:
+根据你安装的Tcl / Tk版本，你可能需要将版本号添加到wish命令中，例如：
+
+lenovo
+website/howtos/priorview.html
+
+7821
+wish8.5 priorview.tcl
+wish8.5 priorview.tcl
+
+xulihang
+website/howtos/priorview.html
+
+7822
+Pay attention to lower/upper case.
+注意小写/大写。.
+
+lenovo
+website/howtos/priorview.html
+
+7823
+If the file displayed in the browser is not being updated, check the following:
+如果浏览器中显示的文件未更新，请检查以下内容：
+
+lenovo
+website/howtos/priorview.html
+
+7824
+That you are remembering to hit Ctrl+s, Ctrl+d in OmegaT.
+你记得在OmegaT中按Ctrl + s，Ctrl + d。
+
+lenovo
+website/howtos/priorview.html
+
+7825
+Until/unless you do, there will be no changes to detect/display!
+除非你这样做，否则检测/显示将不会发生变化！
+
+lenovo
+website/howtos/priorview.html
+
+7826
+That the file conversion utility is installed properly and is working.
+文件转换实用程序已正确安装并正在运行。
+
+lenovo
+website/howtos/priorview.html
+
+7827
+You can test this with the relevant command below on the command line (terminal/console/DOS prompt).
+你可以在命令行（终端/控制台/ DOS提示符）中使用下面的相关命令对其进行测试。.
+
+lenovo
+website/howtos/priorview.html
+
+7828
+In each case, <i0>file</i0> is the name of a .docx or .odt file.
+在每种情况下，<i0>文件</ i0>是.docx或.odt文件的名称。.
+
+lenovo
+website/howtos/priorview.html
+
+7829
+If all is well, an .html version of the file will be produced:<br1/>
+如果一切正常，将生成文件的一个.html版本：<br1/>
+
+lenovo
+website/howtos/priorview.html
+
+7830
+For Abiword:<br2/>
+Abiword：<br2/>
+
+lenovo
+website/howtos/priorview.html
+
+7831
+<k3>abiword --to=html <i4>file</i4></k3><br5/>
+<k3>abiword --to=html <i4>file</i4></k3><br5/>
+
+xulihang
+website/howtos/priorview.html
+
+7832
+For LibreOffice+Unoconv:<br6/>
+LibreOffice+Unoconv:<br6/>
+
+lenovo
+website/howtos/priorview.html
+
+7833
+<k7>unoconv -f html <i8>file</i8></k7>
+<k7>unoconv -f html <i8>file</i8></k7>
+
+xulihang
+website/howtos/priorview.html
+
+7834
+That you have set the auto-refresh interval in the browser.
+你已在浏览器中设置自动刷新间隔。
+
+lenovo
+website/howtos/priorview.html
+
+7835
+Copyright Marc Prior 2012
+ 版权所有Marc Prior 2012
+
+lenovo
+website/howtos/priorview.html
+
+7836
+Introduction
+介绍
+
+Fu Rhong
+website/howtos/prop12m.html
+
+7837
+This HowTo describes OmegaT's functions for automatic match propagation and one-to-many matching.
+本指南介绍了OmegaT的自动匹配传播和一对多匹配功能。.
+
+lenovo
+website/howtos/prop12m.html
+
+7838
+Propagation
+传播
+
+lenovo
+website/howtos/prop12m.html
+
+7839
+By default, OmegaT uses automatic match propagation.
+默认情况下，OmegaT使用自动匹配传播。
+
+lenovo
+website/howtos/prop12m.html
+
+7840
+This means that as soon as a segment is translated, the same translation is automatically inserted into all identical segments.
+这意味着只要翻译了一个片段，相同的翻译就会自动插入到所有相同的语段中。
+
+lenovo
+website/howtos/prop12m.html
+
+7841
+If a segment has already been translated and an identical segment later on in the text is then changed, the earlier segment will be brought into line with the changed segment.
+如果一个已译片段在下文更改了译法，则较早的片段将与最新修改的片段保持一致。
+
+lenovo
+website/howtos/prop12m.html
+
+7842
+Segments which occur more than once are described in OmegaT as "non-unique segments".
+OmegaT将多次出现的片段描述为“非唯一片段“。
+
+lenovo
+website/howtos/prop12m.html
+
+7843
+Selecting View > Mark Non-Unique Segments causes only the first instance of a non-unique segment to be displayed in black, and second and subsequent instances to be displayed in grey.
+选择 视图 > 标记 非唯一片段 将导致只显示非唯一片段的第一个实例显示为黑色，并且第二个和后续实例显示为灰色.
+
+lenovo
+website/howtos/prop12m.html
+
+7844
+This is useful when a translation is being checked, since only the first instance of identical segments may need to be checked.
+这个功能很实用，翻译校对时只需要检查相同段的第一个实例。.
+
+lenovo
+website/howtos/prop12m.html
+
