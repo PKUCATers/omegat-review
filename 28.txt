@@ -1,0 +1,938 @@
+7845
+The user can therefore see immediately that a segment in grey, rather than black, has already been checked.
+因此用户很快就可以看到灰色而非黑色的语段已经检查完毕。 
+
+lenovo
+website/howtos/prop12m.html
+
+7846
+(If Options > View > "Include the first non-unique segment when marking non-unique segments" is selected, all non-unique segments including the first are marked in this way.)
+（如果选项>浏览>“标记非唯一片段时包含第一个非唯一片段”被选中，所有非唯一片段包括第一个非唯一片段将均按此方式标记）
+
+xulihang
+website/howtos/prop12m.html
+
+7847
+You can disable the auto-propagation function with Project > Properties > uncheck the "Auto-propagation of Translations" box.
+你可以通过项目>属性>取消勾选“翻译自动传输”选框，停用自动传输功能。
+
+Zoe
+website/howtos/prop12m.html
+
+7848
+This has the effect of making all instances of non-unique segments alternative translations (see "One-to-many matching" below).
+该操作可以为所有非唯一片段实例制作可选翻译（见下方“一对多匹配”）。
+
+xulihang
+website/howtos/prop12m.html
+
+7849
+One-to-many matching
+一对多匹配
+
+Zoe
+website/howtos/prop12m.html
+
+7850
+In most cases, the translator will wish to translate identical segments within a project in the same way.
+大多数情况下，译员希望将一个项目里的相同片段以同样方式翻译。
+
+Zoe
+website/howtos/prop12m.html
+
+7851
+For cases where two or more identical segments require different translations, OmegaT offers "one-to-many matching".
+对于两处或更多相同片段需要不同译文的情况，OmegaT提供“一对多匹配”功能。
+
+Zoe
+website/howtos/prop12m.html
+
+7852
+OmegaT's one-to-many matching function first assumes that identical segments are to be translated in the same way.
+OmegaT的一对多匹配功能首先默认相同片段应以同样方式翻译。
+
+Zoe
+website/howtos/prop12m.html
+
+7853
+This translation is described as the "default translation".
+这种译文被称为“默认翻译”。
+
+Zoe
+website/howtos/prop12m.html
+
+7854
+To produce a translation that is different from the "default translation", right-click with the mouse within the segment and select "Create Alternative Translation".
+要产生不同于“默认译文”的翻译，在片段中右击鼠标，选择“创建可选翻译”。
+
+Zoe
+website/howtos/prop12m.html
+
+7855
+This segment can be now translated as desired without other instances of it automatically being made identical to it.
+现在，这一片段可以按期望的方式翻译，且其他相同的实例不会自动变更成与它一致的译文。
+
+Zoe
+website/howtos/prop12m.html
+
+7856
+You can have as many "alternative translations" as you like of identical segments, but there can only be one default translation (or none at all).
+你可以为相同片段设置多种“可选翻译”，但只能有一种默认翻译（或完全没有）。
+
+Zoe
+website/howtos/prop12m.html
+
+7857
+To make an alternative translation the default translation, right-click with the mouse and select "Use as Default Translation".
+若要将一种可选翻译设置成默认翻译，鼠标右击译文，选择“用做默认翻译”。
+
+Zoe
+website/howtos/prop12m.html
+
+7858
+This will make the current translation the default translation.
+这将使当下译文成为“默认翻译”。.
+
+Zoe
+website/howtos/prop12m.html
+
+7859
+All other instances of the same segment that were previously the "default translation" will now be brought into line with this translation.
+使用之前“默认翻译”的相同片段的其他所有实例，现在都与当下译文保持一直。
+
+Zoe
+website/howtos/prop12m.html
+
+7860
+If you have already translated an instance of a non-unique segment and wish to make a different instance of the non-unique segment the default translation without changing the translation of the instance you have already translated, you must first set the status of the segment you have already translated to "alternative translation" using "Create Alternative Translation".
+如果你已经翻译过一例非唯一片段，并且希望为这非唯一片段制作一种不同的默认翻译，同时还不想改变已经翻译过的实例的译文，你必须先用“创建可选翻译”将已翻译片段设定为“可选翻译”状态，
+
+xulihang
+website/howtos/prop12m.html
+
+7861
+To remove the "alternative translation" status of a single segment and bring it back into line with the "default translation", simply delete the content of the segment.
+要撤销一个片段的“可选翻译”状态，并使其与“默认翻译”保持一致，仅需删除掉这一片段的内容即可。
+
+Zoe
+website/howtos/prop12m.html
+
+7862
+This has the effect of deleting the "alternative translation" status at the same time; the translation of the segment will therefore revert to that of the default translation.
+该操作同时还有删除“可选翻译”状态的效果；因此该片段的译文又变回了默认翻译。
+
+Zoe
+website/howtos/prop12m.html
+
+7863
+The content of a segment can be deleted completely either by means of the keyboard shortcuts Ctrl+A > Ctrl+X > Enter, by right-clicking with the mouse and the Remove Translation menu item, or simply by using the delete key (repeatedly).
+可以通过使用键盘快捷键Ctrl+A > Ctrl+X > Enter，或鼠标右击片段，选择移除翻译菜单选项，再或重复使用删除键，均可实现完全删除一条片段的内容
+
+Zoe
+website/howtos/prop12m.html
+
+7864
+Summary of propagation and one-to-many matching commands
+传输摘要与一对多匹配指令
+
+Zoe
+website/howtos/prop12m.html
+
+7865
+<b0>None</b0> (default behaviour): all identical segments are automatically translated the same way.
+<b0>无</b0> （默认行为）：所有相同片段都自动以同样形式翻译
+
+Zoe
+website/howtos/prop12m.html
+
+7866
+<b0>Mark Non-Unique Segments</b0>: identical segments are marked in grey (changes the display, but not the behaviour).
+<b0>标记非唯一片段</b0>：相同片段都用灰色标记（改变显示，而非行为）。
+
+xulihang
+website/howtos/prop12m.html
+
+7867
+<b0>Create Alternative Translation</b0>: makes the segment unique.
+<b0>创建可选译文</b0>：让片段变得独特。
+
+Zoe
+website/howtos/prop12m.html
+
+7868
+Changes to this segment have no effect upon other segments, nor do changes to the "default translation" affect it.
+当前片段的改动或“默认翻译”的改变，对其他片段均无影响，
+
+Zoe
+website/howtos/prop12m.html
+
+7869
+<b0>Remove Translation</b0>: deletes the content of the segment, causing (when Enter is pressed) the default translation to be inserted.
+<b0>撤销翻译</b0>删掉片段内容，（当按下Enter键后）会插入默认翻译。
+
+Zoe
+website/howtos/prop12m.html
+
+7870
+<b0>Use as Default Translation</b0>: causes the active segment to be made the default translation and therefore all previous "default translation" segments to be brought into line with it.
+<b0>用作默认翻译</b0>：活跃片段被用做默认翻译，因此所有采用之前“默认翻译”的片段都与当前默认翻译保持一直。
+
+Zoe
+website/howtos/prop12m.html
+
+7871
+Points to note
+指向说明
+
+Zoe
+website/howtos/prop12m.html
+
+7872
+For some file types, OmegaT differentiates between identical segments by referring to their preceding and following segments.
+对于一些文件类型，OmegaT通过参考他们的前后片段来区别相同片段。
+
+Zoe
+website/howtos/prop12m.html
+
+7873
+Creating an "alternative translation" therefore relies upon identical segments having different preceding or following segments.
+相同片段通过创建“可选翻译”而得到不同的前/后片段。
+
+Zoe
+website/howtos/prop12m.html
+
+7874
+Where two segments also have identical preceding and following segments (for example when an entire page appears twice in the text), they cannot be translated differently from each other in OmegaT, i.e. it is not possible to make one of them an "alternative translation".
+有些情况，两个片段也会拥有相同的前后片段，（例如，当一整页内容在一篇文章中出现两次），在OmegaT中这两页无法被译成不同的版本，即无法为其中一页设置“可选译文”。
+
+Zoe
+website/howtos/prop12m.html
+
+7875
+"Non-unique segment" covers both default and alternative translations.
+“非唯一片段”包含默认和可选翻译
+
+xulihang
+website/howtos/prop12m.html
+
+7876
+Consequently, segments that are marked (with the grey font) as being non-unique are marked as non-unique irrespective of whether alternative translations have been created or not.
+因此，（用灰色字体）标记为非独特的片段，无论可选翻译是否被创建均被标记为非唯一片段。
+
+xulihang
+website/howtos/prop12m.html
+
+7877
+By default, the Go To Next Untranslated Segment command (Ctrl+U) skips to the next untranslated segment, skipping propagated translations in the process.
+默认地，前往下一未翻译片段指令（Ctrl+U）跳转到下一条未翻译的片段，过程中跳过已传输的翻译。
+
+Zoe
+website/howtos/prop12m.html
+
+7878
+If Options > Editing Behaviour > "Go To Next Untranslated Segment stops when there is at least one alternative translation" is selected however and at least one alternative translation of a non-unique segment has been created, this function treats all instances of that segment (whether default or alternative translations) as untranslated, i.e. does not skip them.
+如果选项>编辑行为>“当至少有一种可选翻译时前往下一未翻译片段”被选中，并且一个非唯一片段至少创建了一种可选翻译，该功能将该片段的所有实例（不管是默认翻译还是可选翻译）视为未翻译，即不会跳过这些片段。
+
+xulihang
+website/howtos/prop12m.html
+
+7879
+Copyright Marc Prior 2014
+版权归属于Marc Prior 2014
+
+Zoe
+website/howtos/prop12m.html
+
+7880
+OmegaT has an inline spelling checker.
+OmegaT拥有内联拼写检查工具
+
+Zoe
+website/howtos/spelling.html
+
+7881
+This feature makes use of the spelling dictionaries used in LibreOffice and OpenOffice.org.
+这项功能利用LibreOffice和OpenOffice.org内使用的拼写词典。
+
+Zoe
+website/howtos/spelling.html
+
+7882
+Dictionaries are available for a large number of languages.
+词典拥有大量语种资源。
+
+Zoe
+website/howtos/spelling.html
+
+7883
+Installing new spelling from within OmegaT
+在OmegaT中安装新的拼写检查工具
+
+Zoe
+website/howtos/spelling.html
+
+7884
+New spelling dictionaries can be installed from within OmegaT in the Options > Spell Checking dialog.
+可以通过选项>拼写检查对话框，在OmegaT中安装新的拼写检查工具。
+
+Zoe
+website/howtos/spelling.html
+
+7885
+In this dialog, select or create a dictionary file folder on your hard drive.
+在此对话框中，先在你的硬盘中选择或创建一个字典文件夹。
+
+Zoe
+website/howtos/spelling.html
+
+7886
+This is the folder in which the spelling dictionary files will be placed.
+这个文件夹将用于存放拼写字典。
+
+Zoe
+website/howtos/spelling.html
+
+7887
+(Do not confuse this folder with the "dictionary" folder in OmegaT projects.) Then select the URL (website address) of an online repository from which to download the dictionary or dictionaries, and paste this URL into the "URL of online dictionaries" field.
+（请不要将这个文件夹与OmegaT项目中的“字典”文件夹混淆）然后选中下载字典的在线仓库的URL（网址），将这个URL粘帖到“在线字典URL”区域。
+
+Zoe
+website/howtos/spelling.html
+
+7888
+A list of repository URLs is provided below.
+下面给出了仓库URL清单。
+
+Zoe
+website/howtos/spelling.html
+
+7889
+URLs of repositories of spelling dictionaries:
+拼写字典仓库的 URL：
+
+Zoe
+website/howtos/spelling.html
+
+7890
+http://download.services.openoffice.org/files/contrib/dictionaries/<br0/>
+http://download.services.openoffice.org/files/contrib/dictionaries/<br0/>
+
+Zoe
+website/howtos/spelling.html
+
+7891
+http://ftp.uni-kl.de/pub/OpenOffice/contrib/dictionaries/<br1/>
+http://ftp.uni-kl.de/pub/OpenOffice/contrib/dictionaries/<br1/>
+
+xulihang
+website/howtos/spelling.html
+
+7892
+http://ftp.plusline.de/OpenOffice/contrib/dictionaries/<br2/>
+http://ftp.plusline.de/OpenOffice/contrib/dictionaries/<br2/>
+
+xulihang
+website/howtos/spelling.html
+
+7893
+http://ftp.nluug.nl/office/openoffice/contrib/dictionaries/<br3/>
+http://ftp.nluug.nl/office/openoffice/contrib/dictionaries/<br3/>
+
+xulihang
+website/howtos/spelling.html
+
+7894
+http://ftp.nluug.nl/office/openoffice/contrib/dictionaries/<br4/>
+http://ftp.nluug.nl/office/openoffice/contrib/dictionaries/<br4/>
+
+xulihang
+website/howtos/spelling.html
+
+7895
+http://linorg.usp.br/OpenOffice.org/contrib/dictionaries/<br5/>
+http://linorg.usp.br/OpenOffice.org/contrib/dictionaries/<br5/>
+
+xulihang
+website/howtos/spelling.html
+
+7896
+http://artfiles.org/openoffice.org/contrib/dictionaries/<br6/>
+http://artfiles.org/openoffice.org/contrib/dictionaries/<br6/>
+
+xulihang
+website/howtos/spelling.html
+
+7897
+http://artfiles.org/openoffice.org/contrib/dictionaries/<br7/>
+http://artfiles.org/openoffice.org/contrib/dictionaries/<br7/>
+
+xulihang
+website/howtos/spelling.html
+
+7898
+http://ftp.heanet.ie/mirrors/openoffice.org/contrib/dictionaries/<br8/>
+http://ftp.heanet.ie/mirrors/openoffice.org/contrib/dictionaries/<br8/>
+
+xulihang
+website/howtos/spelling.html
+
+7899
+http://ftp.heanet.ie/mirrors/openoffice.org/contrib/dictionaries/<br9/>
+http://ftp.heanet.ie/mirrors/openoffice.org/contrib/dictionaries/<br9/>
+
+xulihang
+website/howtos/spelling.html
+
+7900
+http://freebsd.csie.nctu.edu.tw/distfiles/openoffice.org1.1/<br10/>
+http://freebsd.csie.nctu.edu.tw/distfiles/openoffice.org1.1/<br10/>
+
+xulihang
+website/howtos/spelling.html
+
+7901
+http://freebsd.csie.nctu.edu.tw/distfiles/openoffice.org1.1/<br11/>
+http://freebsd.csie.nctu.edu.tw/distfiles/openoffice.org1.1/<br11/>
+
+xulihang
+website/howtos/spelling.html
+
+7902
+http://planetmirror.com/pub/OpenOffice/contrib/dictionaries/<br12/>
+http://planetmirror.com/pub/OpenOffice/contrib/dictionaries/<br12/>
+
+xulihang
+website/howtos/spelling.html
+
+7903
+Installing new spelling dictionaries manually
+手动安装新拼写词典
+
+Zoe
+website/howtos/spelling.html
+
+7904
+In the Options > Spell Checking dialog, select or create a dictionary file folder on your hard drive.
+在选项>拼写检查对话框中，先在你的硬盘中选择或创建一个字典文件夹。
+
+Zoe
+website/howtos/spelling.html
+
+7905
+Obtain the .dic and .aff files of the dictionary you wish to use, and place these files in this folder.
+获取想要使用的字典的.dic和.aff文件，把这些文件放入此文件夹。
+
+Zoe
+website/howtos/spelling.html
+
+7906
+Besides being available from the repositories above, spelling dictionaries are available as part of LibreOffice and OpenOffice.org installations.
+除了从上述仓库中可获取字典，LibreOffice和OpenOffice的部分安装也可获取到拼写字典。
+
+Zoe
+website/howtos/spelling.html
+
+7907
+LibreOffice and more recent versions of OpenOffice.org now use the "extensions" format for these dictionaries, in which the files are supplied in a a zip archive with the extension .oxt.
+LibreOffice和最近版本的OpenOffice.org现在以“插件”形式使用拼写字典， 字典文件在一个拓展名为.oxt的压缩文件包中。
+
+Zoe
+website/howtos/spelling.html
+
+7908
+To use spelling dictionaries in this format, rename the file extension from .oxt to .zip and using a zip archive application (such as WinZip) to extract the .dic and .aff files.
+要使用这个格式的拼写字典，需要将文件拓展名由.oxt重命名为.zip，然后用解压软件（如WinZip）提取.dic和.aff文件。
+
+Zoe
+website/howtos/spelling.html
+
+7909
+The names of the files must correspond to the language code of your target language as defined in the project properties dialog (Project > Properties).
+文件的名称必须与项目属性对话框（项目>属性）中定义的目标语言代码一致。
+
+Zoe
+website/howtos/spelling.html
+
+7910
+For example, if you have selected ES-MX (Mexican Spanish) as the target language, the dictionary files must be named es_MX.dic and es_MX.aff.
+例如，如果你选择ES-MX（墨西哥式西班牙语）为目标语言，则词典文件必须命名为es_MX.dic和es_MX.aff。
+
+Zoe
+website/howtos/spelling.html
+
+7911
+If you only have a Bolivian Spanish dictionary available, with the file names es_BO.dic and es_BO.aff, you can rename these files es_MX.dic and es_MX.aff, and the spelling dictionary will work.
+如果你只有玻利维亚西班牙语词典，文件名为es_BO.dic和es_BO.aff。你可以将这些文件改名为es_MX.dic和es_MX.aff，拼写检查词典也可以正常工作。
+
+Zoe
+website/howtos/spelling.html
+
+7912
+(It will, of course, check for Bolivian rather than Mexican Spanish!)
+（当然，有时也会检查是否是玻利维亚西班牙语而非墨西哥西班牙语！）
+
+Zoe
+website/howtos/spelling.html
+
+7913
+Troubleshooting checklist
+解决问题备忘录
+
+Zoe
+website/howtos/spelling.html
+
+7914
+Check that spelling checking is enabled in the spelling checking dialog.
+检查拼写检查对话框中，该项功能已开启。
+
+Zoe
+website/howtos/spelling.html
+
+7915
+If the automatic installation process does not work: check that your Internet connection is working; if so, try a different repository URL.
+如果自动安装流程无法正常进行：检查网络连接是否正常；如果正常，试一下其他仓库URL。
+
+Zoe
+website/howtos/spelling.html
+
+7916
+Check that you have write permissions for the spelling dictionary folder you have selected.
+检查你是否拥有已选择的拼写字典文件的写入权限。
+
+Zoe
+website/howtos/spelling.html
+
+7917
+Check that the .dic and .aff files for your language are present in the spelling dictionary folder, and that their names correspond to the target language code.
+检查当前拼写字典文件夹中的.dic和.aff文件的语言类型，以及文件名是否与目标语言代码一致。
+
+Zoe
+website/howtos/spelling.html
+
+7918
+Copyright Marc Prior 2009-2011
+版权归属于Marc Prior 2009-2011
+
+Zoe
+website/howtos/spelling.html
+
+7919
+Since version 2.0.1, OmegaT has had a text export function.
+自2.0.1版本开始，OmegaT加入了文本导出功能。
+
+Zoe
+website/howtos/text_export.html
+
+7920
+This HOWTO describes the function and possible uses for it.
+这篇HOWTO描述了这一功能以及一些可能的用途。
+
+Zoe
+website/howtos/text_export.html
+
+7921
+In addition, the package <a0>te-scripts.zip</a0> contains some very simple tcl/tk scripts which are intended to illustrate use of the function.
+此外，文件包 <a0>te-scripts.zip</a0> 包含了一些非常简单的tcl/tk 脚本，旨在演示这一功能的用法。
+
+Zoe
+website/howtos/text_export.html
+
+7922
+Purpose
+目的
+
+Zoe
+website/howtos/text_export.html
+
+7923
+The text export function exports data from within the current OmegaT project to plain-text files.
+文本导出功能会把当前OmegaT项目的内容导出为纯文本文件。
+
+Zoe
+website/howtos/text_export.html
+
+7924
+At present, the data exported are:
+目前，导出的数据为：
+
+Zoe
+website/howtos/text_export.html
+
+7925
+- The content of the segment source text, when the segment is opened<br0/>
+- 片段打开时，片段源文本内容<br0/>
+
+Zoe
+website/howtos/text_export.html
+
+7926
+- The content of the segment target text, when the segment is opened<br1/>
+- 片段打开时，片段目标文本内容<br1/>
+
+Zoe
+website/howtos/text_export.html
+
+7927
+- Highlighted text in the target text, when the relevant shortcut is pressed
+- 按下相关快捷键时，目标文本中的高亮文本
+
+Zoe
+website/howtos/text_export.html
+
+7928
+Programmers and scripters can use the files containing this text in order to add further functions to OmegaT.
+程序员和工作人员可以使用包含这些文本的文件，旨在为OmegaT加入更多功能。
+
+Zoe
+website/howtos/text_export.html
+
+7929
+They need no knowledge of Java; most if not all programming languages could be used instead, and useful functions achieved even with only relatively limited programming skill.
+他们不需要懂Java；大多数时候，不是所有编程语言都会用到，并且有些实用的功能甚至仅仅用到了相当有限的编程技能就得以实现。
+
+Zoe
+website/howtos/text_export.html
+
+7930
+Using the text export function
+使用文本导出功能
+
+Zoe
+website/howtos/text_export.html
+
+7931
+For the text export function to be used, you must first enable it within OmegaT itself:
+若要使用文本导出功能，务必先启用OmegaT内的该项功能：
+
+Zoe
+website/howtos/text_export.html
+
+7932
+Options > Editing behaviour
+选项菜单>编辑行为
+
+Zoe
+website/howtos/text_export.html
+
+7933
+Then tick the "Export the segment to text files" box.
+然后，点击“将片段导出到文本文件”选框。
+
+Zoe
+website/howtos/text_export.html
+
+7934
+The files appear in the /script subfolder in the OmegaT user files folder (for the location of the OmegaT user files folder on your operating system, see the User Manual (F1 from within OmegaT) > Files and directories > User files):
+导出的文件会保存到OmegaT用户文件中的/script子文件夹中（OmegaT用户文件夹在你的操作系统中的存储位置，参见使用手册（在OmegaT软件中使用F1键）>文件和目录>用户文件）：
+
+Zoe
+website/howtos/text_export.html
+
+7935
+source.txt - contains the source text of the segment<br0/>
+source.txt - 包含片段的源文本<br0/>
+
+Zoe
+website/howtos/text_export.html
+
+7936
+target.txt - contains the target text of the segment<br1/>
+target.txt - 包含片段的目标文本<br1/>
+
+Zoe
+website/howtos/text_export.html
+
+7937
+selection.txt - contains the text highlighted by the user, when Ctrl-Shift-C is pressed or Edit > Export Selection is selected
+selection.txt - 包含用户在按下Ctrl-Shift-C 或选择编辑 >导出选中部分时高亮过的文本
+
+Zoe
+website/howtos/text_export.html
+
+7938
+The content of the files is overwritten either when a new segment is opened (source.txt and target.txt) or when a new selection is exported (selection.txt).
+打开新片段（source.txt 和 target.txt）或导出新的选中部分（selection.txt）时，会覆盖该文件的原有内容。
+
+Zoe
+website/howtos/text_export.html
+
+7939
+The files are unformatted plain-text files.
+导出的文件是没有格式的纯文本文件。
+
+Zoe
+website/howtos/text_export.html
+
+7940
+Using the sample scripts
+使用样本脚本
+
+Zoe
+website/howtos/text_export.html
+
+7941
+Tcl/tk must be installed, if it is not already.
+必须安装Tcl/tk工具控制语言。
+
+Zoe
+website/howtos/text_export.html
+
+7942
+Tcl/tk can be obtained from a number of sources; tcl.activestate.com is one popular source.
+可以从许多地方获取Tcl/tk；tcl.activestate.com是最受欢迎的下载处。
+
+Zoe
+website/howtos/text_export.html
+
+7943
+Mac OSX users should install tcl/tk from their system media and Linux users should find it in their distribution's repository, if it is not already installed by default.
+Mac OSX系统用户应该从系统媒体中安装tcl/tk，Linux系统用户若发现系统没有默认安装tcl/tk，应去发布仓库里查找。
+
+Zoe
+website/howtos/text_export.html
+
+7944
+(Note to Ubuntu users: the font implementation of the default tcl/tk installation in Ubuntu at the present time (version 9.10) is appalling, but can be rectified.)
+（Ubuntu系统用户注意：当前版本的Ubuntu系统（9.10）中的tcl/tk默认安装中的字体略不美观，但这是可以调正的。）
+
+Zoe
+website/howtos/text_export.html
+
+7945
+In order to make the workings of the script code clearer, each script essentially performs only one function.
+为了使脚本代码清晰可读，每个脚本基本上只实现一项功能。
+
+Zoe
+website/howtos/text_export.html
+
+7946
+If multiple functions were to be used at the same time in practice, it would be more efficient to combine them in a single script file.
+如果现实情况同时要使用多种功能，将这些脚本合并成一个单独文件会更有效率。
+
+Zoe
+website/howtos/text_export.html
+
+7947
+The example scripts provided <a0>here</a0> all launch a window, but scripts that carry out functions in the background are quite conceivable.
+所提供的样例脚本 <a0>这里</a0>都会运行一个窗口，但那些可以在背景中实现功能的脚本都十分好理解。 
+
+Zoe
+website/howtos/text_export.html
+
+7948
+To launch a script:
+运行脚本：
+
+Zoe
+website/howtos/text_export.html
+
+7949
+Copy the script into the OmegaT "script" folder, i.e. the folder containing source.txt etc. (The scripts can in principle be placed anywhere, but must then be edited with addition of the path to the script files.)
+复制脚本文件到OmegaT的“script”文件夹，即包含source.txt等文件的文件夹。（脚本文件原则上可以放在任意处，但随后编辑时必须要加上脚本文件的路径。）
+
+Zoe
+website/howtos/text_export.html
+
+7950
+Depending upon how your system is configured, it may be possible to launch the scripts simply by clicking on them with the mouse.
+运行脚本可能只需要用鼠标点击文件，这取决于你的系统设定。
+
+Zoe
+website/howtos/text_export.html
+
+7951
+Alternatively:
+其他方案：
+
+Zoe
+website/howtos/text_export.html
+
+7952
+Open a command-line window (DOS prompt, terminal, console)
+打开命令行窗口（DOS prompt, terminal, console）
+
+Zoe
+website/howtos/text_export.html
+
+7953
+Change folder (directory) to the script folder, e.g. (on Windows XP systems):
+将文件夹目录转向脚本文件夹，例如，（Windows XP系统）：
+
+Zoe
+website/howtos/text_export.html
+
+7954
+cd C:\Documents and Settings\User Name\Application Data\OmegaT\script
+cd C:\Documents and Settings\User Name\Application Data\OmegaT\script
+
+xulihang
+website/howtos/text_export.html
+
+7955
+Launch the script with "wish" followed by the script file name, e.g.:
+用“wish”加脚本文件名运行脚本，例如：
+
+Zoe
+website/howtos/text_export.html
+
+7956
+wish te-basic-source.tcl
+wish te-basic-source.tcl
+
+xulihang
+website/howtos/text_export.html
+
+7957
+Descriptions of the individual scripts
+单个脚本描述
+
+Zoe
+website/howtos/text_export.html
+
+7958
+te-basic-source
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7959
+This script displays the source text in a separate window.
+这个脚本在独立窗口中展示源文本。
+
+Zoe
+website/howtos/text_export.html
+
+7960
+As such, it does nothing not already done by the OmegaT Editor pane; its purpose is to illustrate how the text can be extracted from a script file and made available for further scripts.
+其本身仅仅是做到了OmegaT编辑器窗格可以做到的功能；该脚本旨在展示如何将文本从脚本文件中提取出来，并用为更多脚本所用。
+
+Zoe
+website/howtos/text_export.html
+
+7961
+The content of the script window is editable and can be copied and pasted back into the OmegaT Editor pane.
+脚本窗口中的内容是可编辑的，也可以复制粘贴回OmegaT编辑器窗格。
+
+Zoe
+website/howtos/text_export.html
+
+7962
+te-basic-target
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7963
+As for te-basic-source, but for the target text.
+该脚本是针对te-basic-target，而不是针对目标文本的。
+
+Zoe
+website/howtos/text_export.html
+
+7964
+te-warning
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7965
+Besides displaying the source text, this script provides an entry box into which the user can type a string (e.g. a word).
+除了展示源文本，这个脚本提供了一个输入框，用户可以键入字符串（例如，一个单词）。
+
+Zoe
+website/howtos/text_export.html
+
+7966
+When an OmegaT segment containing this string is opened, the script outputs a warning.
+当包含这个字符串的OmegaT片段开启，这个脚本会输出一个警告。
+
+Zoe
+website/howtos/text_export.html
+
+7967
+The warning takes the form of the text in the script window being highlighted in yellow.
+警告采用脚本窗口中文本的形式，采用黄色高亮。
+
+Zoe
+website/howtos/text_export.html
+
+7968
+In addition, if supported by the hardware and operating system (this is not always the case), a beep will sound.
+此外，如果硬件以及操作系统支持（通常不会出现这种情况），会发出哔哔的提示音。
+
+Zoe
+website/howtos/text_export.html
+
+7969
+An example use of this function is as follows.
+以下是这一功能的使用样例。
+
+Zoe
+website/howtos/text_export.html
+
+7970
+The translator has a text containing the phrase "abc", and has completed a first draft of it, translating "abc" as "abc".
+译员有一段包含短语“abc”的文本，并且已经完成了该文本的初稿翻译，将“abc”翻译作“abc”。
+
+Zoe
+website/howtos/text_export.html
+
+7971
+She then discovers that "abc" should be translated as "def".
+随后她发现短语“abc”应被译作“def”。
+
+Zoe
+website/howtos/text_export.html
+
+7972
+Rather than find all the cases of "abc" and correcting them before proceeding (which is possible, but has drawbacks), she could simply decide to correct them in course of the next draft.
+比起找出所有的“abc”案例并加以改正，之后再继续工作（这样可能，但会有障碍），译员可以选择在译下一稿时再修正该错误。
+
+Zoe
+website/howtos/text_export.html
+
+7973
+In this case, a "reminder" in each relevant segment may be helpful.
+这种情况下，在每个相关片段设置“备忘录”可能有所帮助。
+
+Zoe
+website/howtos/text_export.html
+
+7974
+te-notags
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7975
+As its name suggests, this script automatically strips the tags out of an OmegaT (target) segment.
+正如其文件名所示，此脚本会将OmegaT（目标）片段中的标签自动去除。
+
+Zoe
+website/howtos/text_export.html
+
+7976
+This is useful when <i0>checking</i0> tag-heavy segments on the screen, since it is easy to overlook missing or double spaces, for example.
+这对于在屏幕上<i0>核查</i0>有许多标签的片段是非常有用的，因为人眼很容易忽略掉缺失或者是双空格的情况，例如。
+
+Zoe
+website/howtos/text_export.html
+
+7977
+te-tags
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7978
+This script displays the target segment in a particular font (hard-coded in the script, but can be edited) rather than the default font.
+这个脚本用一种特殊的字体展示目标片段（写死在脚本中，但可以编辑）而非采用默认字体。
+
+Zoe
+website/howtos/text_export.html
+
