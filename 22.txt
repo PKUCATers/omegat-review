@@ -1,0 +1,947 @@
+7041
+Automatic hyphenation also adds unnecessary tags, so disable it.
+自动连字还会添加不必要的标签，因此请将其禁用。
+
+liufang
+website/howtos/docx.html
+
+7042
+It may be necessary to do this for each document, in which case the procedure in Word 2007 is: Click the Page Layout tab; in the Page Setup group, click Hyphenation; then click None.
+需要为每个文档执行此操作，在这种情况下，Word 2007中的过程是：单击“页面布局”选项卡; 在“页面设置”组中，单击“断字”; 然后单击"无"。
+
+Mac Pro
+website/howtos/docx.html
+
+7043
+Use Search and Replace to remove double spaces (replacing them with a single space).
+使用"查找"和"替换"，用单空格替换双空格。
+
+Mac Pro
+website/howtos/docx.html
+
+7044
+If your text contains both Asian and "normal" (e.g. Latin) characters, use Ctrl+A to select the entire text, then select a single font for it.
+如果在文本既含有亚洲字符与“通用”字符（如拉丁语），使用Ctrl+A全选，并选择字体。
+
+Mac Pro
+website/howtos/docx.html
+
+7045
+Be careful to choose a font that contains both the necessary Asian and "normal" characters, such as MS Mincho, but without the "[text body]" style suffix.
+仔细选择字体，使其包含必要的亚洲字符和“通用”字符，例如MS Mincho，但没有“[text body]”样式后缀。
+
+Mac Pro
+website/howtos/docx.html
+
+7046
+Word 2007 inserts a tag at page breaks, even automatic page breaks.
+Word 2007在“分页符”上插入标签，甚至是自动分页符。
+
+Mac Pro
+website/howtos/docx.html
+
+7047
+This tag apparently cannot be removed.
+这个标签显然不能被删除。
+
+Mac Pro
+website/howtos/docx.html
+
+7048
+Note that even after Word's settings have been changed so that it does not insert "nuisance" codes, for example for auto-hyphenation, such codes may still be present in the file and not removed by the change in configuration.
+请注意，以为了不插入“干扰”代码（例如自动连字符），即使Word的设置已更改，此类代码仍可能存在于文件中，并且不会因配置更改而被删除。
+
+Mac Pro
+website/howtos/docx.html
+
+7049
+Removal of these codes is described below.
+下面介绍这些代码如何被删除。
+
+Mac Pro
+website/howtos/docx.html
+
+7050
+Before following the instructions below for removal of the nuisance codes, however, remember to make the configuration changes in Word first, or Word may simply re-insert nuisance codes again when the file is next opened.
+但是，在按照以下说明去除干扰码之前，记得首先在Word中进行配置更改，或者在下一次打开文件时，word可能会再次重新插入干扰码。
+
+Mac Pro
+website/howtos/docx.html
+
+7051
+Third-party tools
+第三方工具
+
+Mac Pro
+website/howtos/docx.html
+
+7052
+As already mentioned, this problem with MS Word is not unique to OmegaT.
+如前所述，MS Word的这个问题并不是OmegaT独有的。
+
+Mac Pro
+website/howtos/docx.html
+
+7053
+Third-party tools have been produced to deal with the problem.
+已经有第三方工具来处理这个问题。
+
+Mac Pro
+website/howtos/docx.html
+
+7054
+Two of these are:
+其中两个分别是：
+
+Mac Pro
+website/howtos/docx.html
+
+7055
+<a0>CodeZapper</a0> (inexpensive)
+<a0>CodeZapper</a0> 便宜
+
+Mac Pro
+website/howtos/docx.html
+
+7056
+<a0>Document Cleaner</a0> (free)
+<a0>文件清洁器</a0> (免费）
+
+Mac Pro
+website/howtos/docx.html
+
+7057
+Levelling character formatting
+调平字符的格式
+
+Mac Pro
+website/howtos/docx.html
+
+7058
+An alternative to running the CodeZapper macro on your text is to "level" the formatting.
+在文本上运行CodeZapper宏的另一种方法是“级别”格式化。
+
+Mac Pro
+website/howtos/docx.html
+
+7059
+"Levelling" the formatting means applying the format of the first character in a selection of text (such as a whole paragraph) to all subsequent characters.
+“平整”格式意味着将选定文本中的第一个字符的格式（例如整段），应用于所有后续字符。
+
+Mac Pro
+website/howtos/docx.html
+
+7060
+Note that this is not the same as "deleting" the formatting, which would cause the character formatting to revert to the document's default.
+需要注意的是，这与“删除”格式不同，这会导致字符格式化恢复为文档的默认格式。
+
+Mac Pro
+website/howtos/docx.html
+
+7061
+You can level the formatting of paragraphs essentially by copying whole paragraphs in MS Word and pasting them back over themselves such that the entire paragraph assumes the formatting of the first character.
+您基本上可以复制MS Word中的整个段落，并粘贴他们至整个段落，使整段采用第一个字符的格式来平整段落的格式。
+
+Mac Pro
+website/howtos/docx.html
+
+7062
+Levelling the character formatting of a paragraph manually
+手动调整段落的字符格式
+
+Mac Pro
+website/howtos/docx.html
+
+7063
+Step 1: Unhide the paragraph mark.
+第1步：取消隐藏段落标记。
+
+Mac Pro
+website/howtos/docx.html
+
+7064
+Mark each paragraph by clicking on it repeatedly until the entire paragraph is highlighted.
+通过反复点击来标记每个段落，直到整个段落突出显示。
+
+Mac Pro
+website/howtos/docx.html
+
+7065
+Then move the end of the highlighting one character to the left so that it does not include the paragraph mark.
+然后将突出显示的一个字符的末尾向左移动，使其不包含段落标记。
+
+Mac Pro
+website/howtos/docx.html
+
+7066
+Step 2: Copy this highlighted text (Ctrl+C).
+第2步：复制突出显示的文本（Ctrl + C）。
+
+
+Mac Pro
+website/howtos/docx.html
+
+7067
+Then select "Paste Special" (Word 2003) or click on the arrow at the bottom of the "Insert" button (Word 2007) to obtain the extended Paste options.
+然后选择“特殊粘贴”（Word 2003）或单击“插入”按钮（Word 2007）底部的箭头以获取扩展粘贴选项。
+
+
+Mac Pro
+website/howtos/docx.html
+
+7068
+Finally, insert the content using the "Unformatted Unicode text" option.
+最后，使用“无格式Unicode文本”选项插入内容。
+
+
+Mac Pro
+website/howtos/docx.html
+
+7069
+Where paragraphs do contain inline formatting (bold, italics, hyperlinks, etc.), you can either:
+在段落包含内联格式（粗体，斜体，超链接等）的情况下，您可以：
+
+
+Mac Pro
+website/howtos/docx.html
+
+7070
+- level the formatting from these paragraphs using the macro as described above, then re-insert the formatting; or
+- 如上所述使用宏对这些段落进行格式化，然后重新插入格式;要么
+
+
+Mac Pro
+website/howtos/docx.html
+
+7071
+- mark only the text up to the beginning of the formatted part, copy this text and paste it back over itself, then repeat the process on the text after the formatted part.
+- 只将文本标记到格式化部分的开头，复制此文本并将其粘贴，然后在格式化后的部分之后对文本重复该过程。
+
+
+Mac Pro
+website/howtos/docx.html
+
+7072
+Creating a macro to level the character formatting of a paragraph
+创建一个宏来平整段落的字符格式
+
+
+Mac Pro
+website/howtos/docx.html
+
+7073
+You can automate the above procedure somewhat by creating a macro.
+您可以通过创建宏来自动执行上述过程。
+
+Mac Pro
+website/howtos/docx.html
+
+7074
+Brief instructions for creating the macro (in MS Office 2007) are provided below.
+下面提供了创建宏的简要说明（在MS Office 2007中）。
+
+Mac Pro
+website/howtos/docx.html
+
+7075
+(For more detailed instructions, refer to your instruction manual or click <a0>here</a0>, <a1>here</a1> or <a2>here</a2>.)
+（有关更详细的说明，请参阅您的说明手册或点击<a0> 这里 </ a0>，<a1> 这里 </ a1>或<a2> 这里 </ a2>。）
+
+Mac Pro
+website/howtos/docx.html
+
+7076
+If you have not already done so, add the Developer tab to the ribbon as follows: click on the Office button.
+如果您尚未这样做，请按如下方式将“开发人员”选项卡添加到功能区：单击Office按钮。
+
+Mac Pro
+website/howtos/docx.html
+
+7077
+Select Word Options.
+选择Word选项。
+
+Mac Pro
+website/howtos/docx.html
+
+7078
+Click Popular in the Word Options dialog box.
+单击Word选项对话框中的“常用”。
+
+Mac Pro
+website/howtos/docx.html
+
+7079
+On the ribbon, check Show Developer tab and confirm with OK.
+在功能区上，选中“Show Developer”选项卡并按OK进行确认。
+
+Mac Pro
+website/howtos/docx.html
+
+7080
+Close Word.
+关闭Word。
+
+Mac Pro
+website/howtos/docx.html
+
+7081
+Launch Word again, create a new Word file and add a paragraph of sample text, at least three lines long, e.g.:
+再次启动Word，创建一个新的Word文件并添加一段至少三行的示例文本，例如：
+
+Mac Pro
+website/howtos/docx.html
+
+7082
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7083
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7084
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7085
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7086
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7087
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7088
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7089
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7090
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7091
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7092
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7093
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7094
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7095
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7096
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7097
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7098
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7099
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7100
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7101
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7102
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7103
+This is a paragraph.
+这里是一段。
+
+Mac Pro
+website/howtos/docx.html
+
+7104
+Click on the paragraph mark button to make paragraph marks visible.
+点击段落标记按钮可以显示段落标记。
+
+Mac Pro
+website/howtos/docx.html
+
+7105
+Place the cursor in your paragraph of text (not in the first or last lines).
+将光标放在文本段落中（不在第一行或最后一行）。
+
+Mac Pro
+website/howtos/docx.html
+
+7106
+Create the macro:
+创建宏：
+
+Mac Pro
+website/howtos/docx.html
+
+7107
+On the Developer tab, click on Record Macro.
+在开发人员选项卡上，单击记录宏。
+
+Mac Pro
+website/howtos/docx.html
+
+7108
+In the Macro name box, type a name for the macro, such as "levelformat".
+在宏名框中，键入该宏的名称，如“levelformat”。
+
+Mac Pro
+website/howtos/docx.html
+
+7109
+To make the macro available in all documents, select Normal.dotm in the "Store macro in" box.
+要使宏在所有文档中可用，请在“存储宏在”框中选择Normal.dotm。
+
+
+Mac Pro
+website/howtos/docx.html
+
+7110
+If you have made changes to your Normal.dotm, you might want to back this up first.
+如果您对Normal.dotm进行了更改，则可能需要先将其备份。
+
+Mac Pro
+website/howtos/docx.html
+
+7111
+Click on the Keyboard button.
+点击键盘按钮。
+
+Mac Pro
+website/howtos/docx.html
+
+7112
+Click in the box for a new keyboard combination, then experiment with keyboard combinations to find one that is not assigned.
+单击框中的新键盘组合，然后尝试使用键盘组合找到未分配的键盘组合。
+
+Mac Pro
+website/howtos/docx.html
+
+7113
+If a combination you try is already assigned, a message to this effect is displayed in the dialogue, and you can delete the combination and try another.
+如果您尝试的组合已被分配，则会在对话框中显示此结果的消息，您可以删除组合并尝试其他组合。
+
+Mac Pro
+website/howtos/docx.html
+
+7114
+Ctrl+Shift+9 appears not to be assigned to any other function in the basic Word installation, but you can use any other combination that has not already been assigned.
+Ctrl + Shift + 9似乎没有被分配给基本Word安装中的任何其他功能，您可以使用尚未分配的任何快捷键组合。
+
+Mac Pro
+website/howtos/docx.html
+
+7115
+Click on Assign to assign the shortcut to the macro that you are about to record.
+点击“Assign”将快捷方式分配给您即将录制的宏。
+
+Mac Pro
+website/howtos/docx.html
+
+7116
+Anything you now do will be recorded in the macro, so follow this procedure carefully:
+您现在所做的任何操作都将记录在宏中，因此请谨慎执行此过程：
+
+Mac Pro
+website/howtos/docx.html
+
+7117
+Ctrl+Cursor Up (this takes the cursor to the beginning of the paragraph)
+Ctrl +光标向上（这将光标移动到段落的开头）
+
+Mac Pro
+website/howtos/docx.html
+
+7118
+Ctrl+Shift+Cursor Down (this selects the paragraph, including the paragraph mark)
+Ctrl + Shift +光标向下（这将选择段落，包括段落标记）
+
+Mac Pro
+website/howtos/docx.html
+
+7119
+Shift+Cursor Left (this moves the end of the selection one character to the left so that it no longer includes the paragraph mark)
+Shift +光标左移（这会将选区的末尾向左移动一个字符，以便不再包含段落标记）
+
+Mac Pro
+website/howtos/docx.html
+
+7120
+Ctrl+C (this copies the paragraph)
+Ctrl + C（复制此段落）
+
+Mac Pro
+website/howtos/docx.html
+
+7121
+Ctrl+V (this pastes the text of the paragraph back over the paragraph)
+Ctrl + V（这会将段落的文本粘贴到段落上）
+
+Mac Pro
+website/howtos/docx.html
+
+7122
+After entering these commands, click Stop Recording.
+输入这些命令后，单击停止录制。
+
+Mac Pro
+website/howtos/docx.html
+
+7123
+Click on Macros and select levelformat (or whatever name you gave to your macro), then Edit.
+点击宏并选择levelformat（或者你给宏的任何名字），然后选择编辑。
+
+Mac Pro
+website/howtos/docx.html
+
+7124
+The code of your macro(s) will be displayed.
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7125
+For levelformat, this should be:
+您的宏代码将被显示。
+
+Mac Pro
+website/howtos/docx.html
+
+7126
+___________________<br0/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7127
+Sub levelformat()<br1/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7128
+'<br2/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7129
+' levelformat macro<br3/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7130
+'<br4/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7131
+'<br5/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7132
+Selection.MoveUp Unit:=wdParagraph, Count:=1<br6/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7133
+Selection.MoveDown Unit:=wdParagraph, Count:=1, Extend:=wdExtend<br7/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7134
+Selection.MoveLeft Unit:=wdWord, Count:=1, Extend:=wdExtend<br8/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7135
+Selection.Copy<br9/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7136
+Selection.PasteAndFormat (wdPasteDefault)<br10/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7137
+End Sub<br11/>
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7138
+___________________
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7139
+Change the line:
+更改该行
+
+Mac Pro
+website/howtos/docx.html
+
+7140
+Selection.PasteAndFormat (wdPasteDefault)
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7141
+to:
+改为:
+
+weiyi
+website/howtos/docx.html
+
+7142
+Selection.PasteSpecial DataType:=wdPasteText
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7143
+Save with Ctrl+S, and close the macro editing window.
+用Ctrl + S保存，然后关闭宏编辑窗口。
+
+Mac Pro
+website/howtos/docx.html
+
+7144
+If all has gone according to plan, your macro should now work.
+如果一切都按计划进行，现在你的宏应该工作。
+
+Mac Pro
+website/howtos/docx.html
+
+7145
+To test it, add some formatting to your Word document, for example by making one word bold.
+要对其进行测试，请在Word文档中添加一些格式，例如将一个单词用粗体表示。
+
+Mac Pro
+website/howtos/docx.html
+
+7146
+Now simply place the cursor anywhere in the paragraph and press Ctrl+Shift+9 (or whatever other keyboard shortcut you selected), and you should see the formatting disappear.
+现在只需将光标放在段落的任意位置，然后按Ctrl + Shift + 9（或其他任何键盘快捷键），您应该看到格式消失
+
+Mac Pro
+website/howtos/docx.html
+
+7147
+You can change the keyboard shortcut at any time.
+您可以随时更改键盘快捷键。
+
+Mac Pro
+website/howtos/docx.html
+
+7148
+To do this, click the main "Office" button, then Word options (bottom right of the dialog).
+为此，请单击主“Office”按钮，然后单击Word选项（对话框的右下角）。
+
+Mac Pro
+website/howtos/docx.html
+
+7149
+Click Customize > Choose commands.
+点击自定义>选择命令。
+
+Mac Pro
+website/howtos/docx.html
+
+7150
+Choose Macros from the drop-down list.
+从下拉列表中选择宏。
+
+Mac Pro
+website/howtos/docx.html
+
+7151
+Select "levelformat" (or whatever you called it).
+选择“levelformat”（或任何你选择的名字）。
+
+Mac Pro
+website/howtos/docx.html
+
+7152
+At the bottom of the dialog next to Keyboard shortcuts, click on Customize.
+在键盘快捷键旁边对话框的底部，点击自定义。
+
+Mac Pro
+website/howtos/docx.html
+
+7153
+In the Categories box, scroll down to Macros and select it.
+在类别框中，向下滚动到宏并选中它。
+
+Mac Pro
+website/howtos/docx.html
+
+7154
+Then on the right, under Macros, select levelformat (or whatever you called your macro).
+然后在右边的宏下，选择levelformat（或者任何你命名的宏）。
+
+Mac Pro
+website/howtos/docx.html
+
+7155
+The current shortcut will be displayed in the relevant box.
+当前快捷方式将显示在相关框中。
+
+Mac Pro
+website/howtos/docx.html
+
+7156
+You can clear it by selecting it and hitting Delete.
+您可以通过选择并按删除键来清除它。
+
+Mac Pro
+website/howtos/docx.html
+
+7157
+You can then enter a new shortcut and assign it with Assign as you did before.
+然后，您可以输入一个新的快捷方式，并像以前一样为其指定“Assign”。
+
+Mac Pro
+website/howtos/docx.html
+
+7158
+Close/confirm the dialogs.
+关闭/确认对话框。
+
+Mac Pro
+website/howtos/docx.html
+
+7159
+You can use a similar procedure to create a button for your macro:
+您可以使用类似的过程为您的宏创建一个按钮：
+
+Mac Pro
+website/howtos/docx.html
+
+7160
+Again, click the main "Office" button, then Word options.
+再次点击主“Office”按钮，然后点击Word选项。
+
+Mac Pro
+website/howtos/docx.html
+
+7161
+Click Customize > Choose commands.
+点击自定义>选择命令。
+
+Mac Pro
+website/howtos/docx.html
+
+7162
+Choose Macros from the drop-down list.
+从下拉列表中选择宏。
+
+Mac Pro
+website/howtos/docx.html
+
+7163
+Select your macro.
+选择你的宏
+
+Mac Pro
+website/howtos/docx.html
+
+7164
+Click on Add.
+点击添加
+
+Mac Pro
+website/howtos/docx.html
+
+7165
+You should see the macro command appear in the right-hand column.
+您应该看到宏命令出现在右侧的列中。
+
+Mac Pro
+website/howtos/docx.html
+
+7166
+Click on Modify.
+点击修改。
+
+Mac Pro
+website/howtos/docx.html
+
+7167
+Pick a symbol, then OK > OK.
+选择一个符号，然后确定>确定。
+
+Mac Pro
+website/howtos/docx.html
+
+7168
+The symbol for your macro should appear in the toolbar.
+您的宏的符号应该出现在工具栏中。
+
+Mac Pro
+website/howtos/docx.html
+
+7169
+This macro is useful for levelling the formatting of a whole paragraph that contains no visible formatting.
+此宏用于调整不包含可见格式的整个段落的格式。
+
+Mac Pro
+website/howtos/docx.html
+
+7170
+Where a paragraph contains desired formatting, you must restore the deleted formatting after levelling the paragraph.
+如果段落包含所需的格式，则必须在平整段落后恢复已删除的格式。
+
+Mac Pro
+website/howtos/docx.html
+
+7171
+In paragraphs containing lots of formatting, restoring the deleted formatting can be quite a lot of work.
+在包含大量格式的段落中，恢复已删除的格式可能是相当多的工作。
+
+
+Mac Pro
+website/howtos/docx.html
+
+7172
+For such paragraphs, consider the following alternatives:
+对于这些段落，请考虑以下替代方案：
+
+Mac Pro
+website/howtos/docx.html
+
+7173
+Use Dave Turner's CodeZapper macro.
+使用Dave Turner的CodeZapper宏。
+
+Mac Pro
+website/howtos/docx.html
+
+7174
+Create a second macro (with its own button and/or keyboard shortcut) of your own that only levels highlighted text, rather than the entire paragraph.
+创建一个自己的第二个宏（带有自己的按钮和/或键盘快捷键），它只能突出显示文本级别，而不是整个段落。
+
+Mac Pro
+website/howtos/docx.html
+
