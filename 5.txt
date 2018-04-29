@@ -1,0 +1,1586 @@
+893
+Sort fuzzy matches by:
+寻找模糊匹配:
+
+Lenovo
+Bundle.properties
+
+894
+Stemming, no tags and no numbers
+没有标签和数字的词干
+
+Lenovo
+Bundle.properties
+
+895
+No tags and no numbers
+没有标签和数字
+
+Lenovo
+Bundle.properties
+
+896
+Full text, including tags and numbers
+包括标签和数字的完整文本
+
+Lenovo
+Bundle.properties
+
+897
+TM Matches
+翻译记忆匹配
+
+Lenovo
+Bundle.properties
+
+898
+View Options
+查看选项
+
+钢
+Bundle.properties
+
+899
+View
+查看
+
+Fu Rhong
+Bundle.properties
+
+900
+Display all &source segments in bold
+加粗显示所有原文片段 (&s)
+
+puleiying
+Bundle.properties
+
+901
+Display &active source segment in bold
+加粗显示有效原文片段
+
+Lenovo
+Bundle.properties
+
+902
+Include the &first non-unique segment when marking non-unique segments
+标注非唯一片段时包含首个 (&f) 片段
+
+puleiying
+Bundle.properties
+
+903
+Simplify &tooltips on protected parts
+被保护部分的简化与工具提示
+
+Lenovo
+Bundle.properties
+
+904
+Modification info template
+修改信息模板
+
+Lenovo
+Bundle.properties
+
+905
+Modification info template for segments without date
+修改没有日期的信息模板
+
+Lenovo
+Bundle.properties
+
+906
+Use custom templates for modification &info
+使用惯用模板修改信息
+
+Lenovo
+Bundle.properties
+
+907
+Template variables:
+模板标量：
+
+钢
+Bundle.properties
+
+908
+Create Glossary Entry
+创建术语表条目
+
+Kaname Madokami☆!
+Bundle.properties
+
+909
+Enter a source term, a target term and a comment:
+输入术语原文、术语译文及注释：
+
+钢
+Bundle.properties
+
+910
+Source term:
+术语原文：
+
+钢
+Bundle.properties
+
+911
+Target term:
+术语译文：
+
+钢
+Bundle.properties
+
+912
+Comment:
+注释：
+
+钢
+Bundle.properties
+
+913
+Glossary file: {0}
+术语表文件：
+
+xulihang
+Bundle.properties
+
+914
+Proxy User and Password
+代理服务器用户名及密码
+
+钢
+Bundle.properties
+
+915
+Proxy Login
+代理登陆
+
+Lenovo
+Bundle.properties
+
+916
+If you are using an authenticated proxy, please enter here your user and password.
+如果用的是需要认证的代理服务器，请输入用户名和密码。
+
+钢
+Bundle.properties
+
+917
+Error decoding user and password.
+对用户名和密码进行解码时发生错误。
+
+钢
+Bundle.properties
+
+918
+User:
+用户名：
+
+钢
+Bundle.properties
+
+919
+Password:
+密码：
+
+钢
+Bundle.properties
+
+920
+Tag Processing Options
+标签处理选项
+
+Lenovo
+Bundle.properties
+
+921
+Tag Processing
+标签处理
+
+Lenovo
+Bundle.properties
+
+922
+OmegaT can also check for programming variables (printf-function variables) like '%s'.
+OmegaT也可以检查程序变量（printf函数变量），如'％s'。
+
+钢
+Bundle.properties
+
+923
+Please select which behaviour is appropriate.
+请选择运行状况正常的项目。
+
+Lenovo
+Bundle.properties
+
+924
+Full checking can lead to false positives in normal texts.
+全文检查会导致正常文本发出主动错误信息。
+
+Lenovo
+Bundle.properties
+
+925
+&Do not check printf-variables
+不检查 printf 变量(&D)
+
+xulihang
+Bundle.properties
+
+926
+Check &simple printf-variables (e.g., %s, %d)
+检查简单printf变量 (e.g., %s, %d)
+
+Lenovo
+Bundle.properties
+
+927
+Check &all printf-variables (e.g., %s, %-s)
+检查所有printf 变量（例如 %s, %-s）(&a)
+
+Lenovo
+Bundle.properties
+
+928
+Check simple &java MessageFormat patterns (e.g. {0})
+检查单个&java 信息格式匹配模式。(如：{0})
+
+Lenovo
+Bundle.properties
+
+929
+Regular expression for custom tags:
+自定义标签的正则表达式：
+
+钢
+Bundle.properties
+
+930
+Regular expression for fragments that should be removed from translation:
+必须从译文中删除片段的正则表达式：
+
+钢
+Bundle.properties
+
+931
+Bad regular expression
+错误的正则表达式！
+
+钢
+Bundle.properties
+
+932
+Allow translated tags to be in a di&fferent order
+已译标签可按不同顺序排列
+
+Lenovo
+Bundle.properties
+
+933
+Warning: Changing tag order may break the translated document!
+警告：改变标签顺序可能会破坏译文文档！
+
+钢
+Bundle.properties
+
+934
+Do not allow creating translated documents with tag &issues
+不允许用标签或问题创建已译文档
+
+Lenovo
+Bundle.properties
+
+935
+Count &protected text and custom tags in statistics
+使用统计数据计算保护文本和惯用标签
+
+Lenovo
+Bundle.properties
+
+936
+Fuzzy Matches
+模糊匹配
+
+钢
+Bundle.properties
+
+937
+Displays the translation memories segments that match the source segment.
+显示和原文片段相匹配的译法记忆片段。
+
+钢
+Bundle.properties
+
+938
+Matches can be found in your current translation or in the TMX files that you have put in the /tm/ folder.
+可能会在当前翻译或者放置在 /tm/ 目录的 TMX 文件中找到匹配项。
+
+钢
+Bundle.properties
+
+939
+Notify Me When a Segment Has Fuzzy Matches
+有片段模糊匹配时通知我
+
+Lenovo
+Bundle.properties
+
+940
+Glossary
+术语表
+
+xulihang
+Bundle.properties
+
+941
+Displays the glossary entries found in the glossary files located in the /glossary/ folder if they are present in the source segment.
+如果词条出现在原文片段中，显示所有位于 /glossary/ 目录的术语表文件中的词条。
+
+Lenovo
+Bundle.properties
+
+942
+You can create glossary entries with Create Glossary Entry in the Edit menu.
+可以通过编辑菜单中创建词条命令来创建词条
+
+Lenovo
+Bundle.properties
+
+943
+Entries from the writeable glossary are in bold.
+可写术语表条目以粗体显示。
+
+Lenovo
+Bundle.properties
+
+944
+Add Glossary Entry
+新增词条
+
+Lenovo
+Bundle.properties
+
+945
+Insert Selection
+插入选择
+
+Lenovo
+Bundle.properties
+
+946
+Notify Me When a Segment Has Glossary Hits
+有片段术语命中时通知我
+
+Lenovo
+Bundle.properties
+
+947
+Open Writable Glossary File
+打开可写术语表文件
+
+Lenovo
+Bundle.properties
+
+948
+Dictionary
+字典
+
+钢
+Bundle.properties
+
+949
+Displays the dictionary entries found in the dictionary files located in the /dictionary/ folder if they are present in the source segment.
+如果词条出现在原文片段中，显示所有位于 /dictionary/ 目录的字典文件中找到的字典项。
+
+钢
+Bundle.properties
+
+950
+Notify Me When a Segment Has Dictionary Entries
+当一个片段有字典条目时通知我
+
+Lenovo
+Bundle.properties
+
+951
+Machine Translation
+机器翻译
+
+钢
+Bundle.properties
+
+952
+Displays the translation of the source segment by the machine translation services you have selected in Preferences > Machine Translation, if those services are available.
+在机器翻译服务可用的情况下，选择 选项>机器翻译 来显示对原文部分的翻译。
+
+Lenovo
+Bundle.properties
+
+953
+Machine Translation Options
+机器翻译选择
+
+Lenovo
+Bundle.properties
+
+954
+Notes
+注释
+
+钢
+Bundle.properties
+
+955
+Allows to view, add, remove or edit a note in the active segment.
+允许查看、新增、删除或编辑当前片段中的注释。
+
+钢
+Bundle.properties
+
+956
+A note is just a comment regarding this set of source text and translation.
+注释是对当前原文和译文的思考的标注。
+
+钢
+Bundle.properties
+
+957
+Notify Me When a Segment Has Notes
+有片段存在注意事项时通知我
+
+Lenovo
+Bundle.properties
+
+958
+Comments
+评论
+
+钢
+Bundle.properties
+
+959
+Displays comments in the active segment if they exist in the source file and the file filter supports it (e.g. PO-filter).
+如果原文件中有评论，且文件过滤器支持(如 PO-过滤器)，显示当前激活片段的评论。
+
+Lenovo
+Bundle.properties
+
+960
+Key:
+键值：
+
+钢
+Bundle.properties
+
+961
+Path:
+路径：
+
+钢
+Bundle.properties
+
+962
+Comment:
+注释：
+
+钢
+Bundle.properties
+
+963
+Translation:
+译文：
+
+钢
+Bundle.properties
+
+964
+Notify Me When a Segment Has Comments
+有片段存在评论时通知我
+
+Lenovo
+Bundle.properties
+
+965
+Editor - {0}
+编辑器 - {0}
+
+钢
+Bundle.properties
+
+966
+Dock
+停靠
+
+钢
+Bundle.properties
+
+967
+Minimize
+最小化
+
+钢
+Bundle.properties
+
+968
+Maximize
+最大化
+
+钢
+Bundle.properties
+
+969
+Restore
+还原
+
+钢
+Bundle.properties
+
+970
+Undock
+移出
+
+钢
+Bundle.properties
+
+971
+Actions & Settings
+动作和设置
+
+Lenovo
+Bundle.properties
+
+972
+Instant Start
+快速入门
+
+钢
+Bundle.properties
+
+973
+OmegaT is refused access to the system property containing
+the name of your OS and/or the system property containing
+your home folder.
+OmegaT 被拒绝访问包含操作系统名称和包含主文件夹的系统属性。
+
+钢
+Bundle.properties
+
+974
+Therefore, the location of OmegaT's
+configuration folder cannot be reliably determined.
+因此，OmegaT 的配置文件夹无法被可靠确认。
+
+钢
+Bundle.properties
+
+975
+The
+current folder will be used instead.
+当前文件夹将作为替代。
+
+Lenovo
+Bundle.properties
+
+976
+As a result of this,
+all settings will be at their defaults, due to which you
+may experience unexpected, but correct behaviour.
+因此，所有的设置都会成为默认值，你可能会遇到异常，但那是正常反应。
+
+Lenovo
+Bundle.properties
+
+977
+Your operating system refused to let OmegaT
+create its configuration folder.
+操作系统拒绝 OmegaT 创建配置文件夹。
+
+钢
+Bundle.properties
+
+978
+The current folder will be used
+instead.
+使用当前文件夹替代。
+
+Lenovo
+Bundle.properties
+
+979
+If later access to the desired location is granted
+that location will be used and all settings will return to
+their defaults as a result of the location change.
+如果之后要访问的位置得到许可，将使用该位置 
+由于位置变化，所有的设置将会恢复到默认值。
+
+Lenovo
+Bundle.properties
+
+980
+It was not possible to create the script folder
+inside the configuration folder.
+无法在配置文件夹创建脚本文件夹。
+
+钢
+Bundle.properties
+
+981
+The configuration folder will be used
+instead.
+将使用当前文件夹来替代。
+
+钢
+Bundle.properties
+
+982
+Error
+错误
+
+钢
+Bundle.properties
+
+983
+Warning
+警告
+
+钢
+Bundle.properties
+
+984
+Info
+信息
+
+钢
+Bundle.properties
+
+985
+Java: {0} ver.
+Java: {0} ver.
+
+钢
+Bundle.properties
+
+986
+{1}, executed from '{2}'
+{1}, 从 '{2}' 执行
+
+钢
+Bundle.properties
+
+987
+Click on '{0}' menu item
+点击 '{0}' 菜单项
+
+钢
+Bundle.properties
+
+988
+'{0}' menu selected
+'{0}' 菜单已选定
+
+钢
+Bundle.properties
+
+989
+Event: project change - "{0}"
+事件：项目变更 - "{0}"
+
+钢
+Bundle.properties
+
+990
+An error occurred while processing a project change event:
+{0}
+处理项目更改事件时会产生错误：
+{0}
+
+Lenovo
+Bundle.properties
+
+991
+Event: application startup
+事件：应用程序启动
+
+钢
+Bundle.properties
+
+992
+An error occurred while processing an application startup event:
+{0}
+处理应用启动事件时会产生错误:
+{0}
+
+Lenovo
+Bundle.properties
+
+993
+Event: application shutdown
+事件：应用程序关闭
+
+钢
+Bundle.properties
+
+994
+An error occurred while processing an application shutdown event:
+{0}
+处理项目关闭事件时会产生错误:
+{0}
+
+Lenovo
+Bundle.properties
+
+995
+Event: new file activated ({0})
+事件：新文件已激活({0})
+
+钢
+Bundle.properties
+
+996
+An error occurred while processing a new file event:
+{0}
+处理新文件事件时会产生错误:
+{0}
+
+Lenovo
+Bundle.properties
+
+997
+Event: new entry activated
+事件：新条目激活
+
+钢
+Bundle.properties
+
+998
+An error occurred while processing an entry activated event:
+{0}
+处理目录激活事件时会产生错误:
+{0}
+
+Lenovo
+Bundle.properties
+
+999
+Event: font changed
+事件：字体变更
+
+钢
+Bundle.properties
+
+1000
+An error occurred while processing a font changed event:
+{0}
+处理字体改变事件时会产生错误:
+{0}
+
+Lenovo
+Bundle.properties
+
+1001
+This call MUST be in swing thread
+该调用应该在 swing 线程中
+
+钢
+Bundle.properties
+
+1002
+This call MUST NOT be in swing thread
+该调用应不在 swing 线程中
+
+Lenovo
+Bundle.properties
+
+1003
+Project loading start
+项目载入开始
+
+钢
+Bundle.properties
+
+1004
+Project loading end
+项目载入结束
+
+钢
+Bundle.properties
+
+1005
+Project saving start
+项目保存开始
+
+钢
+Bundle.properties
+
+1006
+Project saving end
+项目保存结束
+
+钢
+Bundle.properties
+
+1007
+No need to save project, because no changes were made
+由于未作修改，无需保存项目。
+
+钢
+Bundle.properties
+
+1008
+Project closed
+项目关闭
+
+钢
+Bundle.properties
+
+1009
+Project compiling start
+项目编译开始
+
+钢
+Bundle.properties
+
+1010
+Project compiling end
+项目编译结束
+
+钢
+Bundle.properties
+
+1011
+Project creating start
+项目创建开始
+
+钢
+Bundle.properties
+
+1012
+Project creating end
+项目创建结束
+
+钢
+Bundle.properties
+
+1013
+No Suggestions
+没有建议
+
+钢
+Bundle.properties
+
+1014
+Ignore All
+全部忽略
+
+钢
+Bundle.properties
+
+1015
+Add To Dictionary
+添加到字典
+
+钢
+Bundle.properties
+
+1016
+Spellchecker Setup
+拼写检查设置
+
+钢
+Bundle.properties
+
+1017
+Spellchecker
+拼写检查器
+
+xulihang
+Bundle.properties
+
+1018
+&Automatically check the spelling of text
+自动检查文件拼写(&A)
+
+xulihang
+Bundle.properties
+
+1019
+Dictionaries already installed:
+字典安装工具
+
+钢
+Bundle.properties
+
+1020
+Dictionary file folder:
+词典文件夹：
+
+钢
+Bundle.properties
+
+1021
+Dictionary File Folder
+词典文件夹：
+
+钢
+Bundle.properties
+
+1022
+&Browse...
+@浏览...
+
+Lenovo
+Bundle.properties
+
+1023
+&Install new dictionary...
+安装新字典(&I)...
+
+xulihang
+Bundle.properties
+
+1024
+&Remove
+删除(&R)
+
+钢
+Bundle.properties
+
+1025
+URL of online dictionaries:
+在线字典的 URL：
+
+钢
+Bundle.properties
+
+1026
+You are uninstalling the spellchecking dictionary that your project currently uses.
+要卸载的拼写检查词典当前项目正在使用中。
+
+钢
+Bundle.properties
+
+1027
+Proceed?
+继续？
+
+钢
+Bundle.properties
+
+1028
+Confirm uninstalling
+确认卸载
+
+钢
+Bundle.properties
+
+1029
+Unable to uninstall the selected dictionary
+无法卸载选中字典
+
+钢
+Bundle.properties
+
+1030
+Uninstalling failed
+卸载失败
+
+钢
+Bundle.properties
+
+1031
+Cannot install
+安装失败
+
+Lenovo
+Bundle.properties
+
+1032
+The specified dictionary folder cannot be used.
+详细说明的词典文件夹无法使用.
+
+Lenovo
+Bundle.properties
+
+1033
+Folder does not exist
+文件夹不存在
+
+Lenovo
+Bundle.properties
+
+1034
+The specified dictionary folder does not exist.
+详细说明的词典文件夹不存在.
+
+Lenovo
+Bundle.properties
+
+1035
+Do you want to create it?
+是否需要创建?
+
+Lenovo
+Bundle.properties
+
+1036
+Could not create the specified folder.
+无法创建详细说明的文件夹
+
+Lenovo
+Bundle.properties
+
+1037
+An error occurred while downloading the dictionary.
+下载字典时发生错误.
+
+Lenovo
+Bundle.properties
+
+1038
+Please try again.
+请再次尝试.
+
+Lenovo
+Bundle.properties
+
+1039
+&Source (segment {0}):
+&源 (片段 {0}):
+
+钢
+Bundle.properties
+
+1040
+LanguageTool server started
+LanguageTool服务开始
+
+Lenovo
+Bundle.properties
+
+1041
+LanguageTool server terminated
+LanguageTool服务终止
+
+Lenovo
+Bundle.properties
+
+1042
+LanguageTool API version mismatch
+LanguageTool 应用程序界面无法匹配
+
+Lenovo
+Bundle.properties
+
+1043
+LanguageTool is misconfigured.
+LanguageTool配置错误.
+
+Lenovo
+Bundle.properties
+
+1044
+Switching to built-in version.
+跳转至内嵌版本.
+
+Lenovo
+Bundle.properties
+
+1045
+LanguageTool: bad local path
+LanguageTool: 不好的本地路径
+
+Lenovo
+Bundle.properties
+
+1046
+LanguageTool: local port is unavailable
+LanguageTool: 无法获取本机端口
+
+Lenovo
+Bundle.properties
+
+1047
+LanguageTool: server returned XML when JSON was expected.
+LanguageTool: 需要使用JSON时，服务返回XML.
+
+Lenovo
+Bundle.properties
+
+1048
+Ensure you are specifying the right API version (the URL should include "/v2/").
+确认选定正确的应用程序界面 (URL地址中应该包含 "/v2/").
+
+Lenovo
+Bundle.properties
+
+1049
+LanguageTool: Bad URL
+LanguageTool:不好的URL
+
+Lenovo
+Bundle.properties
+
+1050
+LanguageTool: Server start timeout
+LanguageTool: 服务开始超时
+
+Lenovo
+Bundle.properties
+
+1051
+LanguageTool: An error occurred during check.
+LanguageTool: 检查中发生错误.
+
+Lenovo
+Bundle.properties
+
+1052
+LanguageTool will be disabled until the project is closed.
+LanguageTool在项目关闭后将无法使用.
+
+Lenovo
+Bundle.properties
+
+1053
+LanguageTool settings
+LanguageTool设置
+
+Lenovo
+Bundle.properties
+
+1054
+Select languagetool-server.jar
+选择languagetool-server.jar
+
+Lenovo
+Bundle.properties
+
+1055
+JAR files
+JAR文件
+
+Lenovo
+Bundle.properties
+
+1056
+Manually defined rules
+手动定义规则
+
+Lenovo
+Bundle.properties
+
+1057
+Type in new rule ID
+输入新规则ID
+
+Lenovo
+Bundle.properties
+
+1058
+New LanguageTool rule
+新LanguageTool规则
+
+Lenovo
+Bundle.properties
+
+1059
+&Built-in (LanguageTool {0})
+&嵌入 (LanguageTool {0})
+
+Lenovo
+Bundle.properties
+
+1060
+&Launch local server
+&启用本地服务
+
+Lenovo
+Bundle.properties
+
+1061
+Remote &server
+远程&服务
+
+Lenovo
+Bundle.properties
+
+1062
+Service type
+服务类型
+
+Lenovo
+Bundle.properties
+
+1063
+Local installation path:
+本地安装路径:
+
+Lenovo
+Bundle.properties
+
+1064
+&Browse...
+@浏览...
+
+Lenovo
+Bundle.properties
+
+1065
+URL:
+URL：
+
+xulihang
+Bundle.properties
+
+1066
+Rules
+规则
+
+Lenovo
+Bundle.properties
+
+1067
+Rule ID can only contain Latin letters, underscores, and periods.
+规则编号只能包含拉丁字母，下划线和句号.
+
+Lenovo
+Bundle.properties
+
+1068
+This ID is already being used.
+该编号已在使用.
+
+Lenovo
+Bundle.properties
+
+1069
+LanguageTool is not available for your target language.
+LanguageTool不适用于你的目标语言.
+
+Lenovo
+Bundle.properties
+
+1070
+There was an error initializing LanguageTool.
+初始化LanguageTool时存在错误.
+
+Lenovo
+Bundle.properties
+
+1071
+Load a project to configure rules for that project's languages.
+加载项目为项目语言配置规则.
+
+Lenovo
+Bundle.properties
+
+1072
+LanguageTool
+语言工具
+
+Administrator
+Bundle.properties
+
+1073
+Dictionary Installer
+字典安装工具
+
+钢
+Bundle.properties
+
+1074
+Please select the dictionaries you want to install and press the Install button.
+请选择您想要安装的字典，然后点击安装按钮。
+
+钢
+Bundle.properties
+
+1075
+No new dictionaries available at the remote server.
+远程服务器没有提供的新字典。
+
+钢
+Bundle.properties
+
+1076
+Install
+安装
+
+钢
+Bundle.properties
+
+1077
+Available dictionaries:
+可用字典：
+
+钢
+Bundle.properties
+
+1078
+S&witch Case To
+切换大小写状态为(&S)...
+
+xulihang
+Bundle.properties
+
+1079
+&Lower Case
+小写(&L)
+
+xulihang
+Bundle.properties
+
+1080
+&Upper Case
+大写(&U)
+
+xulihang
+Bundle.properties
+
+1081
+&Title Case
+首字大写(&T)
+
+xulihang
+Bundle.properties
+
+1082
+&Sentence Case
+&句子e
+
+Lenovo
+Bundle.properties
+
+1083
+&Cycle
+循环(&C)
+
+xulihang
+Bundle.properties
+
+1084
+&View
+查看(&V)
+
+xulihang
+Bundle.properties
+
+1085
+Display &Source Segments
+显示源片段(&S)
+
+钢
+Bundle.properties
+
+1086
+Mark Non-Unique Se&gments
+标记非唯一片段
+
+Lenovo
+Bundle.properties
+
+1087
+Mark Segments &with Notes
+标记有注释的片段(&w)
+
+钢
+Bundle.properties
+
+1088
+&Modification Info
+修改信息(&M)
+
+xulihang
+Bundle.properties
+
+1089
+Display &None
+不显示(&N)
+
+xulihang
+Bundle.properties
+
+1090
+Display for Current &Segment
+当前片段的显示(&S)
+
+钢
+Bundle.properties
+
+1091
+Display for &All Segments
+所有片段的显示(&A)
+
+钢
+Bundle.properties
+
+1092
+Mark &Non-breakable Spaces
+标记不可中断的空白(&N)
+
+钢
+Bundle.properties
+
+1093
+Mar&k Whitespace
+标记空白(&k)
+
+钢
+Bundle.properties
+
+1094
+Mark &Bidirectional Algorithm Control Characters
+标记双向算法控制字符(&B)
+
+钢
+Bundle.properties
+
+1095
+Mark &Auto-Populated Segments
+标记自动填充片段
+
+Lenovo
+Bundle.properties
+
+1096
+Aggressive &Font Fallback
+突出后备字体
+
+Lenovo
+Bundle.properties
+
+1097
+Mark Glossary Matches
+标注术语表匹配
+
+Lenovo
+Bundle.properties
+
+1098
+Go To Segment Source
+转到片段源
+
+钢
+Bundle.properties
+
+1099
+Insert Match or Selection Into Translation
+在翻译中插入匹配和选择
+
+Lenovo
+Bundle.properties
+
+1100
+Replace Translation with Match or Selection
+将翻译替换为匹配或选择
+
+Lenovo
+Bundle.properties
+
+1101
+[Fuzzy]
+[模糊]
+
+钢
+Bundle.properties
+
+1102
+Found in:
+找到：
+
+钢
+Bundle.properties
+
+1103
+This project
+本项目
+
+钢
+Bundle.properties
+
+1104
+(+{0} more)
+(+{0} 更多)
+
+Lenovo
+Bundle.properties
+
+1105
+TM Matching Options
+翻译记忆匹配选项
+
+Lenovo
+Bundle.properties
+
+1106
+Hide '{0}'
+隐藏 '{0}'
+
+钢
+Bundle.properties
+
+1107
+Error on application startup
+应用程序启动错误
+
+钢
+Bundle.properties
+
+1108
+You need to update your JDK 1.6 to the latest version, or just remove the jaxb-*.jar files from the OmegaT /lib dir
+需要将 JDK 1.6 更新到最近版本，或者从 OmegaT /lib 目录中删除 jaxb-*.jar 文件。
+
+钢
+Bundle.properties
+
+1109
+Cut
+剪切
+
+钢
+Bundle.properties
+
+1110
+Copy
+复制
+
+钢
+Bundle.properties
+
+1111
+Paste
+粘贴
+
+钢
+Bundle.properties
+
+1112
+&Automatically Fetch Translations
+&自动匹配翻译
+
+Lenovo
+Bundle.properties
+
+1113
+&Untranslated Segments Only
+&只未翻译片段
+
+Lenovo
+Bundle.properties
+
+1114
+Alternative Language
+替代语言
+
+Lenovo
+Bundle.properties
+
+1115
+Google Translate v2
+谷歌翻译
+
+钢
+Bundle.properties
+
