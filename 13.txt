@@ -1,0 +1,4591 @@
+3735
+Tag group overlapping
+标签组重叠
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3736
+Overlapping is the result of bad manipulations of tag pairs and is guaranteed to result in formatting corruption and sometimes in the translated file not opening at all.
+对标签对的错误维护将会导致重叠，也肯定会导致格式破坏以及某些情况下根本无法打开已译文件。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3737
+Example:
+例如：
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3738
+<b0>Formatting</b0> <b1>one</b1> is going to be messed up.<segment 0001>
+<b0>格式</b0><b1>一</b1>即将被弄乱。<片段 0001>
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3739
+After a bad manipulation:
+错误维护后：
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3740
+<b0>Formatting <b1>one</b0> </b1>is very messed up now.<segment 0001>
+<b0>格式<b1>一</b0> </b1>正被弄乱了。<segment 0001>
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3741
+Tag validation options
+标签验证选项
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3742
+To customize the work with tags, one can set down some of the rules in the <g0>Options > Tag validation...</g0> window:
+要定制标签的操作，可在<g0>选项>标签验证</g0>窗口中设置一些规则：
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3743
+The behaviour, stated here, applies to all the source files and not just to some of the file types, like formatted text.
+此处的行为、状态适用于所有的源文件而不只是某些类型的文件，如格式化文本。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3744
+Printf variables - do not check, check simple, check all
+Printf变量——不检查、简单检查、全检查
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3745
+OmegaT can check that programming variables (like %s for instance) in the source exist in the translation.
+OmegaT可以检查源文本中的程序变量如（%s）在译文中是否存在。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3746
+You can decide not to check at all, check for simple printf variables (like %s %d etc) or for print variables of all types.
+您可以决定是否检查、检查简单的printf变量（如%s %d等）或检查所有类型的printf变量。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3747
+Check simple java MessageFormat patterns
+检查简单的java MessageFormat模式
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3748
+Activating this check box will cause OmegaT to check if simple java MessageFormat tags (like {0}) are processed correctly.
+选中该复选框能让OmegaT检查简单的java MessageFormat标签（如{0}）是否处理正确。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3749
+Custom tag(s) regular expression
+自定义标签正则表达式：
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3750
+A regular expression entered here will cause OmegaT treat the detected instances as customer tags.
+此处输入的正则表达式会让OmegaT把它的匹配实例视为客户标签。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3751
+It checks that the number of tags and their order is identical, just like it is the case for omegat-tags.
+它会检查标签的编号和顺序是否一致，就如同检查omegat标签一样。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3752
+Fragment(s) that should be removed from the translation regular expression
+应从译文中移除的碎片正则表达式
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3753
+One can enter a regular expression for unwanted contents in the target.
+可以输入表示希望在目标删除的内容的正则表达式。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3754
+Any matches in the target segment will then be painted red, i.e. easy to identify and correct.
+之后在目标片段中的任何匹配将显示为红色，这样就很容易发现和纠正。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3755
+When looking for fuzzy matches, the remove pattern is ignored.
+寻找模糊匹配时，会忽略移除模式。.
+
+17012
+doc_src/FormattedText.xml
+
+3756
+A fixed penalty of 5 is added if the removed part does not match some other segment, so the match does not show up as 100%.
+如果被移除的部分与其它片段不匹配，罚分为五分，因此匹配不为100%。
+
+17012
+doc_src/FormattedText.xml
+
+3757
+<p0>Tags</p0> <s1>Group validation</s1>
+<p0>标签</p0> <s1>组检验</s1>
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3758
+Tag group validation
+标签组检验
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3759
+<p0>Shortcuts</p0> <s1>Tag validation - Ctrl+T</s1>
+<p0>快捷键</p0> <s1>标签验证——Ctrl+T</s1>
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3760
+The validate tags function detects changes to tag sequences (whether deliberate or accidental), and shows the affected segments.
+验证标签功能检测发生变化的标签序列（无论是有意的还是无意的），并显示受影响的片段。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3761
+Launching this function – <g0>Ctrl+Shift+V<i1/></g0> - opens a window containing all segments in the file containing suspected broken or bad tags in the translation.
+启动这一功能 – <g0>Ctrl+Shift+V<i1/></g0> -打开包含文件所有片段的窗口，这些片段中包括翻译中碎片标签或者坏的标签.
+
+17012
+doc_src/FormattedText.xml
+
+3762
+Repairing the tags and recreating the target documents is easy with the validate tags function.
+通过标签检验功能可以轻松地修正标签和重新创建目标文档。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3763
+The window that opens when <g2>Ctrl+Shift+V</g2> is pressed features a 3-column table with a link to the segment, the original segment and the target segment.
+按住 <g2>Ctrl+Shift+V</g2>后，窗口将打开，并出现一个表格，三列表格分别为该片段的链接，原始片段以及目标片段
+
+17012
+doc_src/FormattedText.xml
+
+3764
+Tag validation entry
+标签检验条目
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3765
+The tags are highlighted in bold blue for easy comparison between the original and the translated contents.
+标签用加粗蓝色突出显示，以便于对源内容和译后内容进行比较。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3766
+Click on the link to activate the segment in the Editor.
+点击链接可在编辑器中激活该片段。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3767
+Correct the error if necessary (in the case above it is the missing <i2></i2> pair) and press <g0>Ctrl+Shift+V</g0> to return to the tag validation window to correct other errors.
+如果有必要的话，更正错误（上例为缺失对）<i2></i2> 按下 <g0>Ctrl+Shift+V</g0> 返回标签验证窗口更正其它错误。.
+
+17012
+doc_src/FormattedText.xml
+
+3768
+Tag errors are tag sequences in the translation in which the same tag order and number as in the original segment is not reproduced.
+标签错误指的是译文中的标签序列没有完全按照源片段中的标签顺序和数量复制。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3769
+Some tag manipulations are necessary and are benign, others will cause problems when the translated document is created.
+某些标签操作是必要的和良性的，但有些在创建已译文档时会导致问题。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3770
+<p0>Tags</p0> <s1>Hints</s1>
+<p0>标签</p0> <s1>提示</s1>
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3771
+Hints for tags management
+标签管理的几点提示
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3772
+Simplify the original text
+简化源文本
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3773
+Tags generally represent formatting in some form of the original text.
+标签通常代表了原始文本中的某种格式。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3774
+Simplifying the original formatting greatly contributes to reducing the number of tags.
+对源文本格式的简化很大程度上有助于减少标签的数量。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3775
+Where circumstances permit, unifying used fonts, font sizes, colors, etc. should be considered, as it could simplify the translation and reduce the potential for tag errors.
+如果有可能，应该尽可能考虑使用统一的字体、字体大小、颜色等，以此简化翻译工作和减少可能的标签错误。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3776
+Read the tag operations section to see what can be done with tags.
+查阅标签操作部分了解可以对标签做哪些处理。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3777
+Remember that if you find tags a problem in OmegaT and formatting is not extremely relevant for the current translation, removing tags may be the easiest way out of problems.
+记住：如果标签问题困扰着您，而格式又不是当前翻译工作最至关紧要的事情的话，删除标签将会是解决问题的最简单途径。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3778
+Pay extra attention to tag pairs
+对标签对应特别小心
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3779
+If you need to see tags in OmegaT but do not need to retain most of the formatting in the translated document you are free not to include tags in the translation.
+如果需要在 OmegaT 中看到标签，但是却不需要在已译文档中保留绝大多数格式的话，可以不向译文中添加任何标签。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3780
+In this case pay extra attention to tag pairs since deleting one side of the pair but forgetting to delete the other is guaranteed to corrupt your document's formatting.
+在这种情况下，要对标签对格外小心，因为删除成对标签中的一个而忘记了删除另一个的话，肯定将破坏文档格式。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3781
+Since tags are included in the text itself, it is possible to use segmentation rules to create segments with fewer tags.
+因为标签包含在文本自身里面，因此可以使用片段规则来创建包含更含更少标签的片段。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3782
+This is an advanced feature and some experience is required in order for it to be applied properly.
+这是一种高级功能，如果想正确使用必须具备一些经验。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3783
+OmegaT is not yet able to detect mistakes in formatting fully automatically, so it will not prompt you if you make an error or change formatting to fit your target language better.
+OmegaT 目前还无法自动检测格式错误，因此如果犯了错误或者改变格式以更好适应您使用的目标语言时，它不会对您作任何提示。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3784
+Sometimes, however, your translated file may look strange, and – in the worst case – may even refuse to open.
+然而有时，这些错误会导致译出的文件看起来不正常，在最坏的情况中甚至可能无法打开。
+
+Fu Rhong
+doc_src/FormattedText.xml
+
+3785
+<p0>Windows and panes in OmegaT</p0> <s1>Glossary pane</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>术语表窗格</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3786
+Glossaries
+术语表
+
+钢
+doc_src/Glossaries.xml
+
+3787
+Glossaries
+术语表
+
+钢
+doc_src/Glossaries.xml
+
+3788
+Glossaries are files created and updated manually for use in <a0>OmegaT</a0>.
+术语表是用于 <a0>OmegaT</a0> 的文件，它由用户手工创建和更新。
+
+xulihang
+doc_src/Glossaries.xml
+
+3789
+If an <a0>OmegaT</a0> project contains one or more glossaries, any terms in the glossary which are also found in the current segment will be automatically displayed in the Glossary viewer.
+如果某个 <a0>OmegaT</a0> 项目包含一个或多个术语表文件，当前片段中出现的任何术语将自动显示在术语表查看器中。
+
+xulihang
+doc_src/Glossaries.xml
+
+3790
+You define its location and name in the project properties dialog.
+您可以在项目属性对话框中设定其位置和名称。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3791
+The extension must be <f0>.txt</f0> or <f1>.utf8</f1> (if not, it will be added).
+扩展名必须为<f0>.txt</f0> or <f1>.utf8</f1> （如果不是的话，加上扩展名）.
+
+17012
+doc_src/Glossaries.xml
+
+3792
+The location of the file must be within the <f2>/glossary</f2> folder, but it can be in a deeper folder (e.g., <f3>glossary/sub/glossary.txt</f3>).
+文件必须保存在 <f2>/glossary</f2>文件夹中，但它可以保存在/glossary的子文件夹中，如, <f3>glossary/sub/glossary.txt</f3>).
+
+17012
+doc_src/Glossaries.xml
+
+3793
+The file does not need to exist when setting it, it will be created (if necessary) when adding a glossary entry.
+在设置时该文件可以不存在，在添加词条时会自动创建该文件（如果需要）。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3794
+If the file already exists, no attempt is done to verify the format or the character set of the file: the new entries will always be in tab-separated format and UTF-8.
+如果该文件已存在，不会对其格式或字符集进行检查：新条目总是以tab分隔并使用UTF-8编码。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3795
+As the existing content will not be touched, damage to an existing file would be limited.
+由于不会操作已有的内容，这样对已有文件的破坏则受到了限制。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3796
+Usage
+用法
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3797
+<p0>Project files</p0> <s1>Glossary subfolder</s1>
+<p0>项目文件</p0> <s1>术语表子目录</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3798
+To use an existing glossary, simply place it in the<i0/> <f1>/glossary</f1> folder after creating the project.
+要使用现有的术语表，只需在创建项目后将它放到<i0/> <f1>/glossary</f1> 目录下。
+
+xulihang
+doc_src/Glossaries.xml
+
+3799
+<a2>OmegaT</a2> automatically detects glossary files in this folder when a project is opened.
+在打开项目时，<a2>OmegaT</a2> 自动检测该目录下的术语表文件。
+
+xulihang
+doc_src/Glossaries.xml
+
+3800
+Terms in the current segment which <a3>OmegaT</a3> finds in the glossary file(s) are displayed in the Glossary pane:
+从术语表中找到当前片段中的术语后，<a3>OmegaT</a3> 将会在术语表窗格将它们显示出来。
+
+xulihang
+doc_src/Glossaries.xml
+
+3801
+Glossaries, Glossary pane
+术语表，术语表窗格
+
+xulihang
+doc_src/Glossaries.xml
+
+3802
+Glossary pane
+术语表窗格
+
+xulihang
+doc_src/Glossaries.xml
+
+3803
+The word before the = sign is the source term, and its translation is (or are) the words after =.
+等号之前的单词是源术语，其翻译在等号（＝）之后。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3804
+The vocabulary entry can have a comment added.
+词条可以有附加的注释。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3805
+The glossary function only finds exact matches with the glossary entry (e.g. does not find inflected forms etc.).
+术语表功能只能找到与术语表条目精确匹配的词汇（也就是说不会找到变化的词形）。
+
+xulihang
+doc_src/Glossaries.xml
+
+3806
+New terms can be added manually to the glossary file(s) during translation, for example in a text editor.
+在翻译时可以手动添加术语到术语表中，比如在文本编辑器中。
+
+xulihang
+doc_src/Glossaries.xml
+
+3807
+Newly added terms will not be recognized once the changes in the text file have been saved.
+在文件中新增的术语保存后不会马上被发现。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3808
+The source term does not have to be a single-word item, as the next example shows:
+源术语可以不是一个单词，例如：
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3809
+<p0>Glossaries</p0> <s1>Glossary pane</s1> <t2>multiple-words entries</t2>
+<p0>术语表</p0> <s1>术语表窗格</s1> <t2>多单词条目</t2>
+
+xulihang
+doc_src/Glossaries.xml
+
+3810
+multiple words entries in glossaries - example
+术语表中的多单词条目——示例
+
+xulihang
+doc_src/Glossaries.xml
+
+3811
+The underlined item "pop-up menu" can be found in the glossary pane as "pojavni menu".
+添加了下划线的项“pop-up menu”可以在术语表窗格找到并提示“pojavni menu”。
+
+xulihang
+doc_src/Glossaries.xml
+
+3812
+Highlighting it in the Glossary pane and then rightclicking insets at the cursor position in the target segment.
+在术语表窗格中高亮该项，接着点击右键将其插入到当前目标片段的光标处。
+
+xulihang
+doc_src/Glossaries.xml
+
+3813
+Note that in the above case, this is just half (or even less) of the story, as the target language (Slovenian) uses declension.
+必须注意在这种情况中，到这里只说到一半（甚至更少），因为目标语言（斯洛文尼亚语）具有词形变化。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3814
+So the inserted "pojavni meni" in the nominative form - has to be changed to "pojavnem meniju" , i.e. to the locative.
+所以被插入的主格“pojavni meni”需要改变为“pojavnem meniju”，即转变为位置格。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3815
+So it is probably faster to type the term correctly right away without bothering with the glossary and its shortcuts.
+因此直接输入术语而不通过术语表及其快捷方式可能会更快。
+
+xulihang
+doc_src/Glossaries.xml
+
+3816
+<p0>Glossaries</p0> <s1>File format</s1>
+<p0>术语表</p0> <s1>文件格式</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3817
+<p0>Project files</p0> <s1>User files</s1> <s2>Glossaries</s2>
+<p0>项目文件</p0> <s1>用户文件</s1> <s2>术语表</s2>
+
+xulihang
+doc_src/Glossaries.xml
+
+3818
+File format
+文件格式
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3819
+Glossary files are simple plain text files containing three-column, tab-delimited lists with the source and target terms in the first and second columns respectively.
+术语表文件是简单的纯文本文件，包含了以制表符分隔的三列列表，其中第一和第二列分别对应源词汇和目标术语。
+
+xulihang
+doc_src/Glossaries.xml
+
+3820
+The third column can be used for additional information.
+第三列用来保存附加信息。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3821
+You can have entries with the target column missing, i.e. just containing the source term and the comment.
+您可以添加目标列为空的条目，即只包含源术语和注释。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3822
+The encoding of glossaries is determined automatically.
+术语表的编码是自动决定的。
+
+17012
+doc_src/Glossaries.xml
+
+3823
+Of course, the encoding must be compatible with both the languages contained, so Unicode is recommended.
+当然，编码必须和术语语言兼容，因此建议使用Unicode码。
+
+17012
+doc_src/Glossaries.xml
+
+3824
+Also supported is the CSV format.
+还支持 CSV 格式。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3825
+This format is the same as the tab separated one: source term, target term.
+该格式和 TAB 分隔的相同：源术语，目标术语。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3826
+Comment fields are separated by a comma ','.
+注释字段使用逗号 ',' 分隔开来。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3827
+Strings can be enclosed by quotes ", which allows having a comma inside a string:
+字符串需要括在引号 " 里面，这样可以在字符串中使用逗号：
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3828
+"This is a source term, which contains a comma","c'est un terme, qui contient une virgule"
+"This is a source term, which contains a comma","c'est un terme, qui contient une virgule"
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3829
+<p0>Glossaries</p0> <s1>TBX format</s1>
+<p0>术语表</p0> <s1>TBX 格式</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3830
+In addition to the plain text format, TBX format <i0/> is also supported as a read-only glossary format.
+除了纯文本格式， <i0/> 也支持TBX格式的只读术语。
+
+17012
+doc_src/Glossaries.xml
+
+3831
+The location of the <f1>.tbx</f1> file must be within the <f2>/glossary</f2> folder, but it can be in a deeper folder (e.g., <f3>glossary/sub/MyGlossary.tbx</f3>).
+<f1>.tbx</f1> 文件的地址必须在 <f2>/glossary</f2>文件夹中，但也能存在其子文件夹下，如 <f3>glossary/sub/MyGlossary.tbx。</f3>).
+
+17012
+doc_src/Glossaries.xml
+
+3832
+http://www.microsoft.com/Language/en-US/Terminology.aspx
+http://www.microsoft.com/Language/en-US/Terminology.aspx
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3833
+<p0>Glossaries</p0> <s1>Microsoft Terminology collection</s1>
+<p0>术语表</p0> <s1>微软术语集</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3834
+TBX - Term Base eXchange - is the open, XML-based standard for exchanging structured terminological data, TBX has been approved as an international standard by LISA and ISO.
+TBX（Term Base eXchange）是用于交换结构化术语数据的基于 XML 的开放标准，已经被LISA和ISO批准为国际标准。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3835
+If you have an existing terminology handling system it is quite possible it offers the export of terminology data via TBX format.
+如果你已经有术语处理系统，那它很可能提供通过 TBX格式到处术语数据。.
+
+17012
+doc_src/Glossaries.xml
+
+3836
+<u0>Microsoft Terminology Collection</u0> <i1/> can be downloaded in nearly 100 languages and can serve as a cornerstone IT glossary.
+<u0>可以下载Microsoft Terminology Collection</u0> <i1/>它有将近100种语言，可以作为基础的IT词汇表。
+
+17012
+doc_src/Glossaries.xml
+
+3837
+Note: the <f0>.tbx</f0> output of MultiTerm seems to not be reliable (November 2013), it is better to use the <f1>.tab</f1> output of MultiTerm instead.
+注意：<f0>MultiTerm导出的.tbx格式</f0>文件似乎不太可靠（2013年11月），建议使用MultiTerm的<f1>.tab</f1>文件。
+
+17012
+doc_src/Glossaries.xml
+
+3838
+<p0>Glossaries</p0> <s1>Creating a glossary</s1>
+<p0>术语表</p0> <s1>创建术语表</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3839
+How to create glossaries
+如何创建术语表
+
+xulihang
+doc_src/Glossaries.xml
+
+3840
+The project setting allows one to enter a name for a writable glossary file (see beginning of this chapter).
+你可以在项目设置时输入术语表文件的名字来创建可写入术语表（见本章开端）。.
+
+17012
+doc_src/Glossaries.xml
+
+3841
+Right-click in the glossary pane or press <k0>Ctrl+Shift+G</k0> to add a new entry.
+在术语表窗格点击右键或按下<k0>Ctrl+Shift+G</k0>来添加新条目。
+
+xulihang
+doc_src/Glossaries.xml
+
+3842
+A dialog opens, allowing you to enter the source term, target term and any comments you may have:
+在打开的对话框中可以输入源术语、目标术语及注释。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3843
+The contents of glossary files are kept in memory and are loaded when the project is opened or reloaded.
+术语表文件的内容会存放到内存中，在打开或重新载入项目时加载它们。
+
+xulihang
+doc_src/Glossaries.xml
+
+3844
+Updating a glossary file is thus rather simple: press <k0>Ctrl+Shift+G</k0> and enter the new term, its translation and any comments you may have (ensuring you press tab between the fields) and save the file.
+因此更新术语表变得非常简单：按下<k0>Ctrl+Shift+G</k0>并输入新术语、其翻译及注释（确保在字段间使用了TAB）并保存文件。
+
+xulihang
+doc_src/Glossaries.xml
+
+3845
+The contents of the glossary pane will be updated accordingly.
+因此术语表窗格的内容将会被更新。
+
+xulihang
+doc_src/Glossaries.xml
+
+3846
+<p0>Glossaries</p0> <s1>Location of the writable glossary file</s1>
+<p0>术语表</p0> <s1>可写术语表的位置</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3847
+The location of the writable glossary file can be set in the <g0>Project > Properties ... </g0>dialog.
+可写术语表的位置可在<g0>项目>属性...</g0>对话框中设定。
+
+xulihang
+doc_src/Glossaries.xml
+
+3848
+The recognized extensions are <f1>TXT</f1> and <f2>UTF8</f2>
+可识别出的扩展名为<f1>TXT</f1>和<f2>UTF8</f2>
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3849
+<e0>Note: </e0>Of course there are other ways and means to create a simple file with tab delimited entries.
+<e0>注：</e0>还有其他创建含TAB分隔条目的简单文件的方法。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3850
+Nothing speaks against using Notepad++ on Windows, GEdit on Linux for instance or some spreadsheet program for this purpose: any application, that can handle UTF-8 (or UTF-16 LE) and that can show white space (so that you do not miss the required <k1>TAB</k1> characters) can be used.
+在Windows平台上使用 Notepad++，在Linux平台上使用 GEdit， 或者用电子表格完成都是可以的：任何能处理 UTF-8 (或者UTF-16 LE) ，以及能能显示空格（你不会漏掉必要的 <k1>TAB</k1> 字符）的应用都可以使用。
+
+17012
+doc_src/Glossaries.xml
+
+3851
+<p0>Glossaries</p0> <s1>Priorities</s1>
+<p0>术语表</p0> <s1>优先级</s1>
+
+17012
+doc_src/Glossaries.xml
+
+3852
+Priority glossary
+优先术语
+
+17012
+doc_src/Glossaries.xml
+
+3853
+The results from the priority glossary (by default, glossary/glossary.txt) appear in first places in the Glossary pane and in TransTips.
+优先术语表 (默认的glossary/glossary.txt) 结果会在术语窗口和翻译建议中中优先出现。
+
+17012
+doc_src/Glossaries.xml
+
+3854
+As entries can mix words from priority and non priority glossaries, the words from the priority glossary are displayed in bold.
+优先术语表和非优先术语表中的术语可能混合，优先术语表中的词汇以粗体展现。
+
+17012
+doc_src/Glossaries.xml
+
+3855
+<p0>Glossaries</p0> <s1>Trados MultiTerm</s1>
+<p0>术语表</p0> <s1>Trados MultiTerm</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3856
+Using Trados MultiTerm
+使用Trados MultiTerm
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3857
+Data exported from Trados MultiTerm can be used as <a0>OmegaT</a0> glossaries without further modification, provided they are given the file extension <f1>.tab</f1> and the source and target term fields are the first two fields respectively.
+在 Trados MultiTerm 导出的数据可以不加修改地用作 <a0>OmegaT</a0> 术语表，只需以 <f1>.tab</f1>为扩展名，并让对应的源词汇和目标术语分别为头两个字段。
+
+xulihang
+doc_src/Glossaries.xml
+
+3858
+If you export using the system option "Tab-delimited export", you will need to delete the first 5 columns (Seq.
+如果使用 "Tab-delimited export" 系统选项导出，您必须删除头 5 列（包括
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3859
+Nr, Date created etc).
+编号, 创建日期等等）。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3860
+<p0>Glossaries</p0> <s1>Problems with glossaries</s1>
+<p0>术语表</p0> <s1>术语表相关问题</s1>
+
+xulihang
+doc_src/Glossaries.xml
+
+3861
+Common glossary problems
+常见术语表问题
+
+xulihang
+doc_src/Glossaries.xml
+
+3862
+Problem: No glossary terms are displayed - possible causes:
+问题：未显示术语表术语——可能的解决方法：
+
+xulihang
+doc_src/Glossaries.xml
+
+3863
+No glossary file found in the "glossary" folder.
+"glossary" 目录中没有找到术语表文件。
+
+xulihang
+doc_src/Glossaries.xml
+
+3864
+The glossary file is empty.
+术语表文件为空。
+
+xulihang
+doc_src/Glossaries.xml
+
+3865
+The items are not separated with a TAB character.
+词条的各项间未使用 TAB 字符分隔。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3866
+The glossary file does not have the correct extension (.tab, .utf8 or .txt).
+术语表文件没有正确的拓展名 (.tab, .utf8 or .txt)。
+
+17012
+doc_src/Glossaries.xml
+
+3867
+There is no EXACT match between the glossary entry and the source text in your document - for instance plurals.
+术语表词条和文档中的原文未完全匹配－－例如该词条是复数形式。
+
+xulihang
+doc_src/Glossaries.xml
+
+3868
+The glossary file does not have the correct encoding.
+术语表文件没有采用正确的编码。
+
+xulihang
+doc_src/Glossaries.xml
+
+3869
+There are no terms in the current segment which match any terms in the glossary.
+当前片段中没有任何术语与术语表中的术语相匹配。
+
+xulihang
+doc_src/Glossaries.xml
+
+3870
+One or more of the above problems may have been fixed, but the project has not been reloaded.
+上述一个或多个问题已经被修正，但项目还没有被重新载入。
+
+Fu Rhong
+doc_src/Glossaries.xml
+
+3871
+Problem: In the glossary pane, some characters are not displayed properly
+问题：在术语表窗格中某些字符显示不正确。
+
+xulihang
+doc_src/Glossaries.xml
+
+3872
+...but the same characters are displayed properly in the Editing pane: the extension and the file encoding do not match.
+...但在编辑窗格中能正确显示这些字符：扩展名与文件编码方式不匹配。
+
+xulihang
+doc_src/Glossaries.xml
+
+3873
+Installing and running <a0>OmegaT</a0>
+安装和运行 <a0>OmegaT</a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3874
+<p0>Installing OmegaT</p0> <s1>Windows</s1>
+<p0>安装 OmegaT</p0> <s1>Windows</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3875
+Windows Users
+Windows 用户
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3876
+Downloading the package
+下载安装包
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3877
+Do you have a Java implementation compatible with Oracle's Java 1.6 JRE?
+安装了与Oracle的Java 1.6 JRE兼容的Java实现了吗？
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3878
+<e0>Yes: </e0>download <e1>OmegaT_3.n.n_Windows_without_JRE.exe</e1>.
+<e0>是：</e0>下载<e1>OmegaT_3.n.n_Windows_without_JRE.exe</e1>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3879
+<e0>No / I don't know:</e0> download<e1> OmegaT_3.n.n_Windows.exe.</e1>
+<e0>否/我不知道：</e0>下载<e1> OmegaT_3.n.n_Windows.exe</e1>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3880
+This package is bundled with Oracle's Java Runtime Environment.
+该安装包捆绑了Oracle的Java运行环境。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3881
+This JRE will not interfere with other Java implementations that may already be installed on your system.
+该JRE不会与系统中可能已安装的其它 Java 实现相冲突。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3882
+Installing OmegaT
+安装 OmegaT
+
+钢
+doc_src/InstallingAndRunning.xml
+
+3883
+To install <a0>OmegaT</a0>, double-click on the program you have downloaded.
+要安装<a0>OmegaT</a0>，只需双击已下载的程序。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3884
+At the beginning of the installation you can select the language to be used during the installation.
+安装开始时您可以选择在安装过程中使用的语言。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3885
+In the following window you can indicate that the language selected is to be used in OmegaT.
+在接着的窗口中您可以选择在OmegaT使用的语言。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3886
+If you check the corresponding checkbox, the OmegaT.l4J.ini file is modified to use the language selected (see next section for details).
+如果您选中了相应的复选框，则会修改OmegaT.l4J.ini文件以使用选择的语言（请参阅下一部分了解详情）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3887
+Later, after you have accepted the license agreement, the setup program asks you whether you wish to create a folder in the <e0>start</e0> menu, and whether you wish to create a shortcut on the desktop and in the quick launch bar - you can create these shortcuts later by dragging <e1><a2>OmegaT</a2>.exe</e1> to the desktop or to the start menu to link it from there.
+然后，当您接受了许可协议后，安装程序将询问是否要在<e0>开始</e0>菜单中创建文件夹以及在桌面和快速启动栏创建快捷方式（以后您可以拖动<e1><a2>OmegaT</a2>.exe</e1>到桌面或开始菜单来创建快捷方式）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3888
+The last frame offers you to have a look at the readme and changes files for the version you have installed.
+最后一个画面提议您看看所安装版本的自述文件和更新文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3889
+<p0>Running OmegaT</p0> <s1>Windows</s1>
+<p0>运行OmegaT</p0> <s1>Windows</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3890
+Running <a0>OmegaT<i1/></a0>
+运行 <a0>OmegaT<i1/></a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3891
+Once <a0>OmegaT</a0> is installed, you can click on <e1><a2>OmegaT</a2>.jar</e1> to launch it directly or you can launch it directly from the command line.
+一旦安装好 <a0>OmegaT</a0>，您可以通过点击 <e1><a2>OmegaT</a2>.jar</e1> 或者从命令行启动它。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3892
+<p0>Running OmegaT</p0> <s1>Windows</s1> <t2>INI file</t2>
+<p0>运行 OmegaT</p0> <s1>Windows</s1> <t2>INI 文件</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3893
+The simplest way to launch OmegaT, however, is to execute the<e0> <a1>OmegaT</a1>.exe</e0> program.
+然而，最简单的方法是运行 <e0> <a1>OmegaT</a1>.exe</e0> 程序。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3894
+<i2/>The options for the program start-up in this case will be read from the <e3><a4>OmegaT</a4>.l4J.ini </e3>file, which resides in the same folder as the exe file and which you can edit to reflect your setup.
+<i2/>在此情形下，将从 <e3><a4>OmegaT</a4>.l4J.ini </e3> 文件读取程序选项，该文件与可执行文件在同一目录，您可对它进行修改以反映您的设置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3895
+The following example for the INI file reserves 1GB of memory, requests French as the user language and Canada as the country:
+下面的 INI 文件将保留 1GB 内存，以法语为用户语言，将国家设置为加拿大：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3896
+# OmegaT.exe runtime configuration
+# To use a parameter, remove the '#' before the '-'
+# Memory
+-Xmx1024M
+# Language
+-Duser.language=FR
+# Country
+-Duser.country=CA
+# OmegaT.exe runtime configuration
+# To use a parameter, remove the '#' before the '-'
+# Memory
+-Xmx1024M
+# Language
+-Duser.language=FR
+# Country
+-Duser.country=CA 
+
+Administrator
+doc_src/InstallingAndRunning.xml
+
+3897
+Advice: if OmegaT works slowly in Remote Desktop sessions under Windows, you may use this option:
+建议：如果OmegaT 在 Windows的远程客户端中运行缓慢，你可以使用：:
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3898
+-Dsun.java2d.noddraw=false
+-Dsun.java2d.noddraw=false 
+
+Administrator
+doc_src/InstallingAndRunning.xml
+
+3899
+<p0>Upgrading OmegaT</p0> <s1>Windows</s1>
+<p0>升级OmegaT</p0> <s1>Windows</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3900
+Upgrading OmegaT
+升级 OmegaT
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3901
+This information applies only to the "Traditional" Windows versions of OmegaT.
+这里的内容只适用于通过“传统”方式安装的 OmegaT 的 Windows 版本。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3902
+It does not apply to the Web Start versions, which are upgraded automatically, nor to cross-platform versions installed on Windows.
+它不适用于 Web Start 版本（它会自动更新），也不适用在 Windows 上安装的跨平台版本。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3903
+If you already have a version of OmegaT installed on your PC and wish to upgrade to a more recent version, you have two options:
+如果您已经在电脑上安装了某个版本的 OmegaT 且希望升级到最新的版本，有两种方法：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3904
+<e0>Install over the existing installation.
+<e0>使用覆盖方式进行安装。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3905
+</e0>To do this, simply select the same installation folder as the existing installation when installing the new version.
+</e0>要实现这个操作，只需将新版本安装到现有安装所在的目录。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3906
+The "old" version of OmegaT will be overwritten, but any settings from it will be retained.
+旧版本的 OmegaT 会被覆盖，不过将保留所有的设置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3907
+This includes preferences set from within OmegaT, any changes you have made to your<f1> OmegaT.l4J.ini</f1> file, and also your launch script (.bat file), if you are using one.
+其中包括 OmegaT 中的首选项设置，对 <f1> OmegaT.l4J.ini</f1> 文件进行的所有更改以及您使用的启动脚本（.bat 文件）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3908
+With this method, you may also download the "Windows without JRE" version, since the new installation will use your existing JRE.
+使用这种方法您可以下载“不含 JRE 的 Windows” 版本，因为新的安装程序可以使用原来的 JRE。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3909
+<e0>Install to a new folder.
+<e0>安装到新文件夹。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3910
+</e0>This will enable you to keep both versions side-by-side, which you may wish to do until you feel comfortable with the new version.
+</e0>这样您可以同时使用两个版本，直到您适应新版本的时候。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3911
+This method will also use preferences and settings you have made from within OmegaT.
+使用这种方法您也可以使用在 OmegaT 中更改的首选项和设置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3912
+In this case, however:
+不过此时：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3913
+If you have made changes to your<f0> OmegaT.l4J.ini </f0>file and/or are using a .bat file, you must copy these over.
+如果您对 <f0> OmegaT.l4J.ini </f0> 进行了修改或使用 .bat 文件，那么必须把它们复制过去。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3914
+If your existing OmegaT installation is a "Windows with JRE" version, the new version must also be a "Windows with JRE" version.
+如果您已安装的程序是“带 JRE 的 Windows”版本，那么新的安装程序也必须是“带 JRE 的 Windows”版本。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3915
+<p0>Installing OmegaT</p0> <s1>Linux</s1>
+<p0>安装 OmegaT</p0> <s1>Linux</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3916
+Linux (Intel) Users
+Linux (Intel) 用户
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3917
+Downloading the right package
+下载正确的安装包
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3918
+Do you have a Java implementation compatible with Oracle's Java 1.6 JRE?
+安装了与Oracle的Java 1.6 JRE兼容的Java实现了吗？
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3919
+<e0>Yes: </e0>download <e1>OmegaT_3.n.n_Without_JRE.zip</e1>.
+<e0>是：</e0>下载<e1>OmegaT_3.n.n_Without_JRE.zip</e1>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3920
+<e0>No / I don't know:</e0> download <e1>OmegaT_3.n.n_Linux.tar.bz2.</e1>
+<e0>否/我不知道：</e0>下载<e1>OmegaT_3.n.n_Linux.tar.bz2</e1>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3921
+This package is bundled with Oracle's Java Runtime Environment.
+该安装包捆绑了Oracle的Java运行环境。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3922
+This JRE will not interfere with other Java implementations that may already be installed on your system.
+该JRE不会与系统中可能已安装的其它 Java 实现相冲突。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3923
+Installing OmegaT
+安装 OmegaT
+
+钢
+doc_src/InstallingAndRunning.xml
+
+3924
+Unpack/untar the downloaded file.
+解压下载的文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3925
+This will create an omegat/ folder in the working folder in which you will find all the files needed to run <a0>OmegaT</a0>.
+该操作将会在工作目录中创建一个 omegat/ 目录，在该目录中可以找到运行 <a0>OmegaT</a0> 所需的所有文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3926
+To untar the <e1>.tar.gz</e1> file:
+要解压 <e1>.tar.gz</e1> 文件：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3927
+$ tar xf downloaded_file.tar.gz
+$ tar xf downloaded_file.tar.gz
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3928
+Adding <a0>OmegaT</a0> to your menus (KDE) or panels (Gnome)
+向菜单（KDE）或面板（Gnome）中增加 <a0>OmegaT</a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3929
+<p0>Customizing OmegaT</p0> <s1>Linux</s1>
+<p0>定制OmegaT</p0> <s1>Linux</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3930
+KDE 4 Users
+KDE 4 用户
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3931
+You can add <a0>OmegaT</a0> to your menus as follows:
+可按下列步骤添加 <a0>OmegaT</a0> 到菜单中：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3932
+Press <e0> <k1>Alt+F2</k1> </e0> to show KRunner.
+按下<e0> <k1>Alt+F2</k1> </e0> 以显示 KRunner。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3933
+Type <e2>kmenuedit+enter</e2> to run the command.
+输入 <e2>kmenuedit+enter</e2> 命令并运行。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3934
+The KMenuEditor appears.
+出现 KMenuEditor。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3935
+In KMenuEditor select <e3>File -> New Item.</e3>
+在 KMenuEditor 选择<e3>文件->新项目。</e3>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3936
+Then, after selecting a suitable menu, add a submenu/item with <e0>File - New</e0> Submenu and <e1>File - New Item</e1>.
+然后选择适当的菜单，通过<e0>［文件］－［新子菜单］</e0>和<e1>［文件］－［新项目］</e1>添加一个子菜单／项目。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3937
+Enter <a2>OmegaT</a2> as the name of the new item.
+输入 <a2>OmegaT</a2> 作为新菜单项的名称。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3938
+In the "Command" field, use the navigation button to find your <a0>OmegaT</a0> launch script (the file named <a1>OmegaT</a1> in the unpacked folder), and select it.
+在 "命令［Command］" 字段中，通过导航［navigation］按钮找到 <a0>OmegaT</a0> 启动脚本（在解压目录中命名为 <a1>OmegaT</a1> 的文件)并加以选中。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3939
+Click on the icon button (to the right of the Name/Description/Comment fields)
+点击图标按钮（在 Name/Description/Comment 字段的右边）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3940
+Other Icons - Browse, and navigate to the /images subfolder in the <a0>OmegaT</a0> application folder.
+其它图标［Other Icons］ - 浏览［Browse］，导航至 <a0>OmegaT</a0> 应用程序文件夹的 /images 子文件夹。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3941
+Select the <a1>OmegaT</a1>.png icon.
+选择 <a1>OmegaT</a1>.png 图标。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3942
+Finally, save the changes with <e0>File - Save.</e0>
+最后，通过<e0>“文件-保存”［File－Save］</e0>保存所作变更。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3943
+GNOME Users
+GNOME 用户
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3944
+You can add <a0>OmegaT</a0> to your menus as follows:
+可按下列步骤添加 <a0>OmegaT</a0> 到菜单中：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3945
+Right-click on the panel - <e0>Add New Launcher.</e0>
+在面板上单击鼠标右键——<e0>添加新启动器［Add New Launcher］。</e0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3946
+Enter "<a0>OmegaT</a0>" in the "Name" field; in the "Command" field, use the navigation button to find your <a1>OmegaT</a1> launch script (the file named <a2>OmegaT</a2> in the unpacked folder).
+在［名称］（Name）字段输入 "<a0>OmegaT</a0>"，在［命令］（Command）字段使用［导航］按钮找到 <a1>OmegaT</a1> 启动脚本（解压后文件夹中名为 <a2>OmegaT</a2> 的文件）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3947
+Select it and confirm with OK.
+选中并通过［确定］（OK）按钮进行确认。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3948
+Click on the icon button, then hit <e0>Browse...</e0> and navigate to the /images subfolder in the <a1>OmegaT</a1> application folder.
+点击图标按钮，然后点击<e0>【浏览】</e0>（Browse）...然后导航至 <a1>OmegaT</a1> 应用程序文件夹的 /images 子文件夹。
+
+xulihang
+doc_src/InstallingAndRunning.xml
+
+3949
+Select the <e2><a3>OmegaT</a3>.png</e2> icon.
+选择 <e2><a3>OmegaT</a3>.png</e2> 图标。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3950
+GNOME may fail to display the icon files in the available formats and initially appear to expect an SVG file, but if the folder is selected, the files should appear and <a4>OmegaT</a4>.png can be selected.
+GNOME 可能无法显示当前格式的图标文件，原本看起来预期值为一份 SVG 文件，但如果选中了该文件夹，将会显示该文件并可以选择  <a4>OmegaT</a4>.png。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3951
+<p0>Running OmegaT</p0> <s1>Linux</s1>
+<p0>运行 OmegaT</p0> <s1>Linux</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3952
+Running <a0>OmegaT<i1/></a0>
+运行 <a0>OmegaT<i1/></a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3953
+You can launch OmegaT from the command line with a script that includes start-up options or you can click on <e0><a1>OmegaT</a1>.jar</e0> to launch it directly.
+可直接在命令行中通过包含命令行启动参数的脚本启动 OmegaT，或直接点击 <e0><a1>OmegaT</a1>.jar</e0> 启动它。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3954
+Methods differ depending on the distribution.
+根据发行版本方法有所不同。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3955
+Make sure that your <e2>PATH </e2>settings are correct and that .<e3>jar</e3> files are properly associated with a Java launcher.
+请确认正确设置了 <e2>PATH</e2> 以及 <e3>.jar</e3> 与 Java 启动器正确关联。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3956
+Check "Command line launching" below for more information.
+查阅下文中的 "命令行启动 " 了解更多信息。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3957
+<p0>Installing OmegaT</p0> <s1>OS X</s1>
+<p0>安装 OmegaT</p0> <s1>OS X</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3958
+Mac OS X Users
+Mac OS X 用户
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3959
+Downloading the package
+下载安装包
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3960
+<a0>OmegaT</a0> contains the Java JRE 1.8
+<a0>OmegaT</a0>包含 Java JRE 1.8
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3961
+Download <e0>OmegaT_3.n.n_Mac.zip.</e0>
+下载<e0>OmegaT_3.n.n_Mac.zip</e0>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3962
+Installing OmegaT
+安装 OmegaT
+
+钢
+doc_src/InstallingAndRunning.xml
+
+3963
+Double click on <e0>OmegaT_3.n.n_Mac.zip</e0> to unpack it.
+双击<e0>OmegaT_3.n.n_Mac.zip</e0>解压出来。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3964
+This creates a folder called <e1> <a2>OmegaT</a2> </e1>.
+该操作会创建一个名为<e1> <a2>OmegaT</a2> </e1> 的文件夹。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3965
+The folder contains 2 files: index.html and <e3><a4>OmegaT</a4>.app.</e3> Copy the folder to a suitable folder (e.g. Applications).
+此文件夹中包含两个文件：index.html 和 <e3><a4>OmegaT</a4>.app.</e3> 将文件夹复制到合适的文件夹（如：Applications)。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3966
+Once you have done this, you can delete the <e5>OmegaT_3.n.n_Mac.zip</e5> file, it is no longer needed.
+完成上述操作后，即可删除<e5>OmegaT_3.n.n_Mac.zip</e5>文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3967
+Adding <a0>OmegaT</a0> to the Dock
+添加 <a0>OmegaT</a0> 到 Dock
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3968
+Drag and drop <e0><a1>OmegaT</a1>.app</e0> onto the Dock.
+拖放 <e0><a1>OmegaT</a1>.app</e0> 到 Dock 中。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3969
+<p0>Running OmegaT</p0> <s1>OS X</s1>
+<p0>运行 OmegaT</p0> <s1>OS X</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3970
+Running <a0>OmegaT<i1/></a0>
+运行 <a0>OmegaT<i1/></a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3971
+Double-click on<e0> <a1>OmegaT</a1>.app</e0> or click on its location in the Dock.
+双击 <e0> <a1>OmegaT</a1>.app</e0> 或点击它在 Dock 中的位置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3972
+You can modify OmegaT's behaviour by editing the <e0>Properties</e0> as well as the <e1>Configuration.properties</e1> file in the package.
+你可以通过编辑 <e0>Properties</e0>以及<e1>组件中的Configuration.properties</e1> 文件来修改OmegaT的行为。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3973
+<p0>Customizing OmegaT</p0> <s1>OS X</s1> <t2>Launch parameters</t2>
+<p0>定制OmegaT</p0> <s1>OS X</s1> <t2>启动参数</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3974
+To access <a0><e1>Configuration.properties</e1></a0>, right-click on <e2><a3>OmegaT</a3>.app</e2> and select "Show Package Contents", then open the file in Contents/Resources by right-clicking on it and selecting your text editor of choice.
+设置 <a0><e1>Configuration.properties</e1></a0>右键单击 <e2><a3>OmegaT</a3>.app</e2>，选择“显示组件内容，然后右键单击选择 Contents/Resources 中的文件，并选择文本编辑器。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3975
+You can also "cd" there directly from the command line and open <a4><e5>Configuration.properties</e5> in a command line editor like emacs or vi</a4>.
+你也可以直接使用命令行 "cd"，在命令行编辑器中打开 <a4><e5>Configuration.properties</e5> 如 emacs 或者 vi。</a4>.
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3976
+Options are changed by modifying <e0>Configuration.properties</e0>.
+通过修改 <e0>Configuration.properties</e0>可以改变选择。.
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3977
+For pre-defined options, remove the # before a parameter to enable it.
+通过移除 参数前的# 修改预定义选择。t.
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3978
+For example, <f1>LANGUAGE="-Duser.language=ja"</f1> (without the #) will launch <a2>OmegaT</a2> with the user interface in Japanese.
+例如，<f1>LANGUAGE="-Duser.language=ja"</f1> (没有 #) 可以启动日语界面的 <a2>OmegaT</a2>。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3979
+To change the amount of memory available, edit <e0>OmegaT.app/Contents/Info.plist</e0> file and change the content of <string>-Xmx1024M</string>.
+为了改变可用记忆量，编辑 <e0>OmegaT.app/Contents/Info.plist</e0> 文件，改变 <string>-Xmx1024M</string>中的内容。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3980
+For instance, <string>-Xmx2048M</string> will launch OmegaT with 2 gigas of memory.
+例如， <string>-Xmx2048M</string> 可用启动 2 gigas OmegaT记忆量。.
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3981
+To launch multiple instances of <e0><a1>OmegaT</a1>.app</e0>, double-click the file <e2>OmegaT.sh</e2> located in <e3><a4>OmegaT</a4>.app/ Contents/MacOS/</e3>.
+要启动<e0><a1>OmegaT</a1>.app</e0>的多种示例，双击<e2>OmegaT.sh</e2>，它位于<e3><a4>OmegaT</a4>.app/ Contents/MacOS/</e3>目录下。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3982
+Use the <e0><a1>OmegaT</a1>.jar</e0> file located in <e2><a3>OmegaT</a3>.app/Contents/MacOS/Java/</e2> to launch <a4>OmegaT</a4> from the command line.
+使用<e0><a1>OmegaT</a1>.jar</e0>文件，该文件位于<e2><a3>OmegaT</a3>.app/Contents/MacOS/Java/</e2>目录下，可以从命令行中启动<a4>OmegaT</a4> 。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+3983
+Check "Command line launching" below for more information.
+查阅下文中的 "命令行启动 " 了解更多信息。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3984
+Mac OS X goodies
+Mac OS X 优势
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3985
+<e0><a1>OmegaT</a1>.app</e0> can be accessed from the Mac OS X Services.
+可以从 Mac OS X 提供的服务直接访问 <e0><a1>OmegaT</a1>.app</e0>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3986
+You can thus select a word anywhere in <a2>OmegaT</a2> and use Services to check this word, for instance in Spotlight or in Google.
+因此，您可以在 <a2>OmegaT</a2> 的任何地方选择一个单词，然后使用在 Spotlight 或谷歌提供的服务查阅该词。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3987
+You can also use AppleScript or Automator to create Services or scripts that will automate frequent actions
+您还可以使用 AppleScript 或 Automator 创建能够自动频繁查询的服务或脚本
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3988
+<p0>Installing OmegaT</p0> <s1>Other systems</s1>
+<p0>安装 OmegaT</p0> <s1>其他系统</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3989
+Other Systems
+其它系统
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3990
+This information applies to systems such as Solaris SPARC/x86/x64, Linux x64/PowerPC, Windows x64
+这里的信息适用于诸如 Solaris SPARC/x86/x64、Linux x64/PowerPC、Windows x64 的系统
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3991
+Downloading the right package
+下载正确的安装包
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3992
+<a0>OmegaT</a0> is available bundled with a Oracle Java JRE for Linux (Intel x86) and Windows platforms.
+<a0>OmegaT</a0> 提供一种为Linux (Intel x86) 和 Windows 平台准备的捆绑了 Oracle Java JRE 的版本。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3993
+Users of other platforms (Linux PowerPC, Linux x64, Solaris SPARC/x86/x64, Windows x64 etc) must have a running compatible Java JRE on their system to be able to use <a1>OmegaT</a1>.
+其他平台的用户（Linux PowerPC, Linux x64, Solaris SPARC/x86/x64, Windows x64 等) 要使用 <a1>OmegaT</a1> 必须安装与系统兼容的 Java JRE。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3994
+Do you have a Java implementation compatible with Oracle's Java 1.6 JRE?
+安装了与Oracle的Java 1.6 JRE兼容的Java实现了吗？
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3995
+<e0>Yes: </e0>download <e1>OmegaT_3.n.n_Windows_without_JRE.</e1>zip.
+<e0>是：</e0>下载<e1>OmegaT_3.n.n_Windows_without_JRE.</e1>zip。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3996
+This package can be used on any platform where a Java 1.6 JRE compatible JRE is installed.
+该安装包可用在安装了兼容Java 1.6 JRE的JRE的任何平台上。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3997
+<e0>I don't know:</e0> open a terminal and type "java -version".
+<e0>我不知道：</e0>打开终端，输入“java -version”。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3998
+If a "command not found" or similar message is returned, it is likely that Java is not installed on your system
+如果返回了“command not found”或类似的信息，系统很有可能没有安装 Java
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+3999
+<e0>No:</e0> obtain a Java JRE for your system (see below) and download <e1>OmegaT_3.n.n_Without_JRE.zip</e1>.
+<e0>否：</e0>获取适用于您系统的Java JRE（见下文）并下载<e1>OmegaT_3.n.n_Without_JRE.zip</e1>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4000
+http://www.oracle.com/technetwork/java/archive-139210.html
+http://www.oracle.com/technetwork/java/archive-139210.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4001
+Oracle provides JREs for Solaris SPARC/x86 (Java 1.6) and for Linux x64, Solaris x64, Windows x64 (Java 1.6) at <u0>http://www.oracle.com/technetwork/java/archive-139210.html</u0>
+Oracle在<u0>http://www.oracle.com/technetwork/java/archive-139210.html</u0>提供了用于Solaris SPARC/x86（Java 1.6）和Linux x64、Solaris x64、Windows x64（Java 1.6）的JRE
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4002
+http://www.ibm.com/developerworks/java/jdk/linux/download.html
+http://www.ibm.com/developerworks/java/jdk/linux/download.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4003
+IBM provides JREs for Linux PowerPC at <u0>http://www.ibm.com/developerworks/java/jdk/linux/download.htm</u0>
+IBM 在 <u0>http://www.ibm.com/developerworks/java/jdk/linux/download.htm</u0> 提供了用于 Linux PowerPC 的 JRE
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4004
+Follow the installation instructions of the package you need.
+按照所需安装包的说明操作。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4005
+<p0>Installing OmegaT</p0> <s1>Other systems</s1>
+<p0>安装 OmegaT</p0> <s1>其他系统</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4006
+Installing OmegaT
+安装 OmegaT
+
+钢
+doc_src/InstallingAndRunning.xml
+
+4007
+To install <a0>OmegaT</a0>, simply unpack the <e1>OmegaT_3.n.n_Without_JRE.zip</e1> file.
+要安装<a0>OmegaT</a0>，只需解压<e1>OmegaT_3.n.n_Without_JRE.zip</e1>文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4008
+This creates an <e2>./OmegaT_3.n.n_Without_JRE/</e2> folder in the working folder with all the files necessary to run <a3>OmegaT</a3>.
+这样会在工作目录中创建<e2>./OmegaT_3.n.n_Without_JRE/</e2>文件夹，且其中包含运行<a3>OmegaT</a3>需要的所有文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4009
+Installing convenient shortcuts
+安装便捷的快捷方式
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4010
+Follow your system's instructions to install <a0>OmegaT</a0> shortcuts in convenient places of your choosing.
+按照系统的提示在方便的地方安装 <a0>OmegaT</a0> 快捷方式。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4011
+<p0>Running OmegaT</p0> <s1>Other systems</s1>
+<p0>运行 OmegaT</p0> <s1>其他系统</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4012
+Running <a0>OmegaT<i1/></a0>
+运行 <a0>OmegaT<i1/></a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4013
+Once <a0>OmegaT</a0> is installed, you can launch it directly from the command line, you can create a script that includes launch parameters for the command line or you can click on <e1><a2>OmegaT</a2>.jar</e1> to launch it directly.
+安装好 <a0>OmegaT</a0> 后，可直接在命令行中通过包含命令行启动参数的脚本启动，或直接点击  <e1><a2>OmegaT</a2>.jar</e1> 启动它。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4014
+Methods differ depending on the distribution.
+根据发行版本方法有所不同。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4015
+Make sure that your <e3>PATH</e3> settings are correct and that <e4>.jar </e4> files are properly associated with a Java launcher.
+请确认正确设置了 <e3>PATH</e3> 以及 <e4>.jar</e4> 与 Java 启动器正确关联。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4016
+Check "Command line launching" below for more information.
+查阅下文中的 "命令行启动 " 了解更多信息。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4017
+<p0>Running OmegaT</p0> <s1>Drag and drop</s1>
+<p0>运行 OmegaT</p0> <s1>拖放</s1>
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4018
+Drag and drop
+拖放
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4019
+In most systems, it is possible to open a project by dropping an <f0>omegat.project</f0> file onto the OmegaT icon on the desktop.
+在大部分系统中，可以通过拖动 <f0>omegat.project</f0>文件到OmegaT 的桌面图标中打开项目。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4020
+It might also be possible to open an OmegaT project by double-clicking on an <f1>omegat.project</f1> file.
+也可以通过双击<f1>omegat.project</f1> 文件打开OmegaT。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4021
+<p0>Running OmegaT</p0> <s1>Using Java Web Start</s1>
+<p0>运行 OmegaT</p0> <s1>使用 Java Web Start</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4022
+Using Java Web Start
+使用 Java Web Start
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4023
+Java Web Start technology (part of Java 1.6 and above) can be used to deploy standalone Java software applications with a single click over the network.
+通过Java Web Start技术（Java 1.6及以上版本的一部分），只需一次点击就可通过网络部署独立的Java应用软件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4024
+Java Web Start ensures that the latest version of the application will be deployed, as well as the correct version of the Java Runtime Environment (JRE) used.
+Java Web Start 能够保证部署应用程序的最新版本以及使用正确 Java运行环境（JRE）版本。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4025
+To start OmegaT for the first time with Java Web Start, load the following URL in your browser:
+为首次通过Java Web Start启用OmegaT，在浏览器中输入下面的网址：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4026
+https://omegat.sourceforge.io/webstart/<a0>OmegaT</a0>.jnlp
+https://omegat.sourceforge.io/webstart/<a0>OmegaT</a0>.jnlp 
+
+Administrator
+doc_src/InstallingAndRunning.xml
+
+4027
+Download the file<e0> <a1>OmegaT</a1>.jnlp</e0> and then click on it.
+下载 <e0> <a1>OmegaT</a1>.jnlp</e0> 文件然后点击它。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4028
+During the installation, depending on your operating system, you may receive several security warnings.
+在安装期间，根据操作系统的不同，你可能会收到几条安全警告。
+
+Puzzlist
+doc_src/InstallingAndRunning.xml
+
+4029
+The permissions you give to this version (which may appear as "unrestricted access to the computer") are identical to the permissions you give to the local version, i.e., they allow access to the hard drive of the computer.
+您赋予该版本的权限（可能会被认为是“对计算机的无限制访问”）和您给予本地版本的相同，也就是说它们被允许访问计算机硬盘。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4030
+Subsequent clicks on <e2><a3>OmegaT</a3>.jnlp</e2> will check for any upgrades, install them, if there are any, and then start <a4>OmegaT</a4>.
+如果处于在线状态，之后再点击 <e2><a3>OmegaT</a3>.jnlp</e2> 将会检查是否有升级，如果有的话将安装升级包并运行  <a4>OmegaT</a4>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4031
+After the initial installation you can, of course, also use <e5><a6>OmegaT</a6>.jnlp</e5> also when you are offline.
+初始化安装之后，您当然可以在离线状态使用 <e5><a6>OmegaT</a6>.jnlp</e5>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4032
+<e0>Privacy</e0>: <a1>OmegaT</a1> Java Web Start does not save any of your information beyond the computer on which you are running it.
+<e0>隐私政策</e0>：<a1>OmegaT</a1> Java Web Start 不会在您的计算机之外保存您在其中操作的任何资料。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4033
+The application runs on your machine only.
+该应用程序只在您的计算机上运行。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4034
+Your documents and translation memories remain on your computer, and the <a2>OmegaT</a2> project will have no access to your work or information.
+您的文档和翻译记忆将保留在您的计算机上，并且 <a2>OmegaT</a2> 项目就没有您的工作或信息。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4035
+Note that if you need or wish to use any of the launch command arguments (see above), you must use the normal installation.
+请注意，如果您需要某个启动命令参数（见上文），就不得不使用正常安装。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4036
+<p0>Running OmegaT</p0> <s1>Command line launching</s1>
+<p0>运行 OmegaT</p0> <s1>命令行启动</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4037
+Starting OmegaT from the command line
+从命令行启动 OmegaT
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4038
+Normally, it is not necessary to start <a0>OmegaT</a0> from the command line.
+正常情况下，没有必要从命令行启动 <a0>OmegaT</a0>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4039
+However, the command-line alternative allows the user to control and modify the program's behavior.
+不过，从命令行启动的方法允许用户控制和修改程序的行为。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4040
+There are two ways of launching <a1>OmegaT</a1> using the command line.
+在命令行有两种启动 <a1>OmegaT</a1> 的方法：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4041
+Opening a command line window
+打开命令行窗口
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4042
+A command line window is also referred to as a "terminal window".
+命令行窗口也被叫做“终端窗口“。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4043
+On Windows it is called an "MS-DOS window" and is available from the Start Menu, inside Programs, through the "MS-DOS" item.
+在 Windows 中可以称之为 "MS-DOS 窗口"，可从开始菜单，程序中的 "MS-DOS" 项找到。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4044
+The Mac OS X equivalent is the application Terminal located in Applications → Utilities.
+Mac OSX 对应的是位于 应用程序［Applications] → 实用工具［Utilities］ 中的应用程序终端。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4045
+To launch <a0>OmegaT</a0>, you must normally type two commands.
+为启动 <a0>OmegaT</a0>，通常您必须执行两条命令。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4046
+The first of these is:
+第一条是：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4047
+cd {folder}
+cd {文件夹}
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4048
+where<e0> {folder}</e0> is the name of the folder, with complete path, in which your <a1>OmegaT</a1> program - specifically, the file <e2><a3>OmegaT</a3>.jar</e2> - is located.
+其中<e0> {folder}</e0> 是 <a1>OmegaT</a1> 程序，具体地是 <e2><a3>OmegaT</a3>.jar</e2> 文件所在的文件夹的名称（带完整路径）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4049
+In practice, this command will therefore be something like this:
+在实际情况中，该命令可能是这样的：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4050
+On Windows
+在 Windows 上
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4051
+cd C:\Program Files\<a0>OmegaT</a0>
+cd C:\Program Files\<a0>OmegaT</a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4052
+On Mac OS X
+在 Mac OS X 上
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4053
+cd <<a0>OmegaT</a0>.app location>/<a1>OmegaT</a1>.app/Contents/Resources/Java/
+cd <<a0>OmegaT</a0>.app location>/<a1>OmegaT</a1>.app/Contents/Resources/Java/
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4054
+On Linux
+在 Linux 上
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4055
+cd /usr/local/omegat
+cd /usr/local/omegat
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4056
+This command changes the folder to the folder containing the executable <a0>OmegaT</a0> file.
+该命令将目录改为包含可执行 <a0>OmegaT</a0> 文件的目录。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4057
+The second command is the command which actually launches <a1>OmegaT</a1>.
+第二条是实际启动 <a1>OmegaT</a1> 的命令。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4058
+In its most basic form, this command is:
+就最基本的形式而言，该命令为：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4059
+java -jar <a0>OmegaT</a0>.jar
+java -jar <a0>OmegaT</a0>.jar
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4060
+Pay attention to the capitalization - in OS other than Windows, the program will not start, if you enter <e0>omegat</e0> instead of <e1>OmegaT </e1>!
+请注意如果在Windows外的其中操作系统中输入错误的大小写形式，例如输入<e0>omegat</e0> 而不是<e1>OmegaT </e1>，那么程序将不会启动！
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4061
+This method has a particular benefit of being suitable for finding causes of problems: if an error occurs during use of the program, an error message is output in the terminal window which may contain useful information on the cause of the error.
+该方法对于找出问题的根源有特别的意义：如果在使用程序过程中发生了错误，在终端窗口所显示的错误信息对查找原因提供了有用的信息。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4062
+The above method somewhat impractical way of launching a program routinely.
+上面的方法对于经常性启动一个程序来说是不切实际的。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4063
+For this reason, the two commands described above are contained in a file (a "script", also called a ".bat file" on Windows systems).
+为此，上述两条命令被包含在一份文件（一份脚本、在 Windows 上也叫做一份 “.bat 文件”）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4064
+When this file is executed, the commands within it are automatically carried out.
+执行该文件时，将自动执行其中的命令。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4065
+Consequently, to make changes to the launch command, it is sufficient to modify the file.
+因此，要修改启动命令，修改该文件即足以。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4066
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1>
+<p0>运行 OmegaT</p0> <s1>启动脚本参数</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4067
+Launch command arguments
+启动命令参数
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4068
+The basic command has already been mentioned above.
+基本的参数已经在上面提到过了。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4069
+Changes to this command involve the addition of "arguments" to it.
+修改该命令可以添加增加额外的“参数”。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4070
+Arguments are added after the initial <e0>"java"</e0>, and before the <e1>"-jar <a2>OmegaT</a2>.jar"</e1>.
+参数添加到首个 <e0>"java"</e0> 之后，且在 <e1>"-jar <a2>OmegaT</a2>.jar"</e1> 之前。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4071
+Note that in Windows you can change the <f3>OmegaT.l4J.ini</f3> file to reflect your preferences.
+注意在Windows中你可以改变<f3>OmegaT.l4J.ini</f3>文件来反应你的偏好。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4072
+In other platforms, you can modify <f4>Configuration.properties</f4> file on the Mac, or <f5>OmegaT</f5> launcher under Linux to do the same.
+在其它平台中，你可以修改Mac中的<f4>Configuration.properties</f4>文件，也可以在Linux中的<f5>OmegaT</f5>启动器中这样做。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4073
+A list of possible arguments is given below.
+下面给出了可用参数的清单：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4074
+Advanced users can obtain more information on the arguments by typing <e0>man java</e0> in the terminal window.
+Advanced users can obtain more information on the arguments by typing <e0>man java</e0> in the terminal window.
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4075
+User interface language
+用户界面语言
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4076
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>User interface language</t2>
+<p0>运行OmegaT</p0> <s1>启动脚本参数</s1> <t2>用户界面语言</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4077
+<e0>-Duser.language=XX</e0><i1/> Normally, i.e. when <a2>OmegaT</a2> is launched without any arguments, the program first detects the language of the user's operating system.
+<e0>-Duser.language=XX</e0><i1/> 正常情况下，也就是 <a2>OmegaT</a2> 不带任何参数启动的情况下，程序将首先检测用户操作系统所使用的语言。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4078
+If a user interface in this language is available, <a3>OmegaT</a3> uses it.
+如果存在所用语言的界面， <a3>OmegaT</a3> 将会使用它。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4079
+So, if the user's operating system is Russian and <a4>OmegaT</a4> has been localized in Russian, <a5>OmegaT</a5> is displayed with a Russian user interface, Russian menus, etc.
+因此，如果用户的操作系统为俄语版，而 <a4>OmageT</a4> 有俄语版的本地化版本，<a5>OmegaT</a5> 将显示为俄语用户界面、俄语菜单等等。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4080
+If the language of the user's system is not available, <a6>OmegaT</a6> defaults to English.
+如果不存在用户系统的语言，<a6>OmegaT</a6>缺省使用英语。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4081
+This is the standard behavior.
+这是标准行为。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4082
+The <e0>"-Duser.language=XX"</e0> argument causes <a1>OmegaT</a1> to use the language specified rather than the language of the user's operating system.
+<e0>"-Duser.language=XX"</e0> 参数会使得 <a1>OmegaT</a1> 使用指定的语言而不是用户操作系统的语言。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4083
+"XX" in the command stands for the two-digit code of the desired language.
+命令中的 "XX" 代表所需语言的双数字代码。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4084
+To launch <a2>OmegaT</a2> with a French interface (for example on a Russian operating system), the command would therefore be:
+要想 <a2>OmegaT</a2> 以法语界面运行（例如在俄语操作系统上），该命令应该为：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4085
+java -Duser.language=fr -jar <a0>OmegaT</a0>.jar
+java -Duser.language=fr -jar <a0>OmegaT</a0>.jar
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4086
+User country
+用户国家
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4087
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>User country</t2>
+<p0>运行OmegaT</p0> <s1>启动脚本参数</s1> <t2>用户国家</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4088
+<e0>-Duser.country=XX</e0><i1/> Besides the language, you can also specify the country, for example CN or TW in case of the Chinese language.
+<e0>-Duser.country=XX</e0><i1/> 语言之后，您也可以指定国家，例如对于中文情况下的 CN 或 TW 。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4089
+To display the instant start guide in the desired language, you need to specify both the language and the country.
+要使用期望的语言显示即时入门指南，您必须同时指定语言和国家。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4090
+This is necessary even if there's only one combination available, like pt_BR in case of Portuguese / Brazil.
+甚至在只要一种可用组合的情况下，这也是必须的，比如 Portuguese / Brazil 情况下的  pt_BR 。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4091
+Memory assignment
+内存分配
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4092
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>Memory assignment</t2>
+<p0>运行 OmegaT</p0> <s1>启动脚本参数</s1> <t2>内存分配</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4093
+<e0>-XmxZZM </e0><i1/>This command assigns more memory to <a2>OmegaT</a2>.
+<e0>-XmxZZM </e0><i1/>该命令给 <a2>OmegaT</a2> 分配更多内存。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4094
+By default, 512 MB are assigned, so there is no advantage in assigning less than this figure.
+缺省情况下，将会分配512 MB内存，因此分配低于此大小的内存是没有好处的。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4095
+"ZZ" stands for the amount of memory assigned, in megabytes.
+“ZZ”代表以兆字节为单位的内存。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4096
+The command to launch <a3>OmegaT</a3> with assignment of 1024 MB (1 gigabyte) of memory is therefore:
+因此，启动 <a3>OmegaT</a3> 时分配 1024 MB(1G)内存的命令是：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4097
+java -Xmx1024M -jar <a0>OmegaT</a0>.jar
+java -Xmx1024M -jar <a0>OmegaT</a0>.jar
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4098
+Proxy host IP address
+代理服务器主机 IP 地址
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4099
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>Proxy host IP address</t2>
+<p0>运行OmegaT</p0> <s1>启动脚本参数</s1> <t2>代理主机IP地址</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4100
+<e0><e1>-Dhttp.proxyHost=nnn.nnn.nnn.nnn</e1> <i2/></e0> The IP address of your proxy server, if your system uses a proxy.
+<e0><e1>-Dhttp.proxyHost=nnn.nnn.nnn.nnn</e1> <i2/></e0> 如果您系统上使用代理服务器，在这里指定它的地址。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4101
+Proxy host port number
+代理主机端口
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4102
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>Proxy host port number</t2>
+<p0>运行OmegaT</p0> <s1>启动脚本参数</s1> <t2>代理主机端口</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4103
+<e0>-Dhttp.proxyPort=NNNN</e0> <i1/> The port number your system uses to access the proxy server.
+<e0>-Dhttp.proxyPort=NNNN</e0> <i1/> 访问代理服务器使用的端口。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4104
+Google Translate V2
+谷歌翻译v2
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4105
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>Google Translate V2</t2>
+<p0>运行 OmegaT</p0> <s1>启动脚本参数</s1> <t2>谷歌翻译 V2</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4106
+<e0>-Dgoogle.api.key=A123456789B123456789C123456789D12345678 </e0><e1><i2/></e1> If you have signed up for the Google Translate services, enter your private Google API key here.
+<e0>-Dgoogle.api.key=A123456789B123456789C123456789D12345678 </e0><e1><i2/></e1> 如果您签约了谷歌翻译服务，请在这里输入您私有的谷歌 API 密钥。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4107
+Note that the key is 38 characters long.
+请注意该密钥长度为 38 个字符。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4108
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>Microsoft Translator</t2>
+<p0>运行OmegaT</p0> <s1>启动脚本参数</s1> <t2>Microsoft Translator</t2>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4109
+Microsoft Translator
+微软翻译
+
+weiyi
+doc_src/InstallingAndRunning.xml
+
+4110
+http://datamarket.azure.com/dataset/bing/microsofttranslator#schema
+http://datamarket.azure.com/dataset/bing/microsofttranslator#schema
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4111
+https://datamarket.azure.com/account
+https://datamarket.azure.com/account
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4112
+Make sure that you have a free Microsoft account.
+确保您已经有了免费的微软账户。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4113
+You’ll need this to sign-in to <u0>Windows Azure Marketplace</u0> and use the Translator service.
+您需要把它注册到<u0>Windows Azure Marketplace</u0>并使用Translator服务。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4114
+Note that up to 2M characters per month are free of charge.
+注意免费账户每月最多可用2M字符数。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4115
+The two entries required are available in your <u1>account page</u1> under Primary account key and Customer-ID:
+在您<u1>账户页面</u1>中有必须的主账户密钥和客户ID两个条目：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4116
+<e0>-Dmicrosoft.api.client_id=</e0><e1>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</e1>
+<e0>-Dmicrosoft.api.client_id=</e0><e1>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</e1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4117
+-<e0>Dmicrosoft.api.client_secret=XXXX9xXxX9xXXxxXXX9xxX99xXXXX9xx9XXxXxXXXXX=</e0>
+-<e0>Dmicrosoft.api.client_secret=XXXX9xXxX9xXXxxXXX9xxX99xXXXX9xx9XXxXxXXXXX=</e0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4118
+<p0>Running OmegaT</p0> <s1>Launch script arguments</s1> <t2>Yandex Translate</t2>
+<p0>运行 OmegaT</p0> <s1>启动脚本参数</s1> <t2>Yandex 翻译</t2>
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4119
+Yandex Translate
+Yandex 翻译
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4120
+http://api.yandex.com/key/form.xml?service=trnsl
+http://api.yandex.com/key/form.xml?service=trnsl 
+
+Administrator
+doc_src/InstallingAndRunning.xml
+
+4121
+http://api.yandex.com/key/keyslist.xml
+http://api.yandex.com/key/keyslist.xml 
+
+Administrator
+doc_src/InstallingAndRunning.xml
+
+4122
+Make sure that you have a free Yandex account.
+确认你有免费的Yandex 账号
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4123
+You’ll need this to be able to obtain and use Yandex Translate API key.
+你将需要账号获得并使用 Yandex 翻译的 API 密钥。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4124
+API keys can be requested using <u0>API key request form</u0>, and viewed on <u1>My Keys</u1> page.
+API 密钥可以使用<u0>API 密钥请求表单获得 </u0>并在 <u1>My Keys</u1>页面查看。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4125
+<e0>-Dyandex.api.key=</e0><e1>trnsl.1.1.XXXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</e1>
+<e0>-Dyandex.api.key=</e0><e1>trnsl.1.1.XXXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</e1> 
+
+Administrator
+doc_src/InstallingAndRunning.xml
+
+4126
+Arguments can be combined: to launch <a0>OmegaT</a0> with all the examples described above, the command would be:
+参数可以进行组合：要想以上面所举所有例子为参数启动 <a0>OmegaT</a0> 的话，命令可能是：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4127
+java -Dswing.aatext=true -Duser.language=pt -Duser.country=BR -Xmx1024M <a0>-Dhttp.proxyHost=192.168.1.1 -Dhttp.proxyport<e1>=</e1>3128 -jar -OmegaT</a0>.jar
+未翻译
+
+没有修改者
+doc_src/InstallingAndRunning.xml
+
+4128
+<p0>Running OmegaT</p0> <s1>Command line mode</s1>
+<p0>运行 OmegaT</p0> <s1>命令行模式</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4129
+OmegaT in the command line mode
+以命令行模式运行 OmegaT
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4130
+The purpose of the console mode is to use OmegaT as a translation tool in a scripting environment.
+控制台模式的目的是将 OmegaT 用作脚本环境的翻译工具。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4131
+When started in console mode, no GUI is loaded (so it will work on any console) and the given project is automatically processed as requested.
+在控制台模式下，将不会载入任何图形化界面（因此仅在某控制台中运行），同时会自动按要求翻译指定的项目。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4132
+Prerequisites
+先决条件
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4133
+To run <a0>OmegaT</a0> in the command line mode, a valid <a1>OmegaT</a1> project must be present.
+要以命令行模式运行 <a0>OmegaT</a0>，必须指定有效的 <a1>OmegaT</a1> 项目。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4134
+The location does not matter, since you have to add it to the command line at the start-up anyway.
+位置并不重要，因为无论如何启动时您都必须将位置添加到命令行。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4135
+If you need altered settings, the configuration files must be available.
+如果需要变更设置，必须提供配置文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4136
+This can be achieved in two ways:
+可通过两种方式达到这个目的：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4137
+Run <a0>OmegaT</a0> normally (with the GUI) and specify the settings.
+正常运行 <a0>OmegaT</a0> （带图形用户界面）并进行设置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4138
+If you start <a1>OmegaT</a1> in console mode, it will use the same settings.
+如果以控制台模式启动 <a1>OmegaT</a1>，它将使用相同的设置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4139
+If you can't run <a0>OmegaT</a0> normally (no graphical environment available): copy the settings files from some other <a1>OmegaT</a1> installation on another machine to a specific folder.
+如果您无法正常运行<a0>OmegaT</a0>（没有可用的图形界面）：可将另一机器上安装的<a1>OmegaT</a1>设置文件复制到特定的文件夹。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4140
+The location does not matter, since you can add it to the command line at startup.
+位置并不重要，因为无论如何，启动时您都必须将位置添加到命令行。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4141
+The relevant files are <l2>filters.conf</l2> and <l3>segmentation.conf</l3> and can be found in the user home folder (e.g. <l4>C:\Documents and Settings\%User%\<a5>OmegaT</a5></l4> under Windows, <l6>%user%/.omegat/</l6> under Linux)
+相关的文件是可在用户主目录找到的<l2>filters.conf</l2>和<l3>segmentation.conf</l3>（如：Windows系统中的<l4>C:\Documents and Settings\%User%\<a5>OmegaT</a5></l4>或Linux系统中的<l6>%user%/.omegat/</l6>）
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4142
+Starting in console mode
+以控制台模式启动
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4143
+To start <a0>OmegaT</a0> in console mode, some extra parameters have to be passed to it on startup.
+要以控制台模式启动 <a0>OmegaT</a0>，必须在启动时传入额外的参数。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4144
+The most important is <l1><project-dir></l1>, and optionally<l2> --config-dir=<config-dir>.
+最重要的是 <l1><project-dir></l1>，以及可选的 <l2> --config-dir=<config-dir>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4145
+</l2>Example:
+</l2>例如：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4146
+java -jar <a0>OmegaT</a0>.jar /path/to/project \
+java -jar <a0>OmegaT</a0>.jar /path/to/project \
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4147
+--config-dir=/path/to/config-files/ \
+--config-dir=/path/to/config-files/ \
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4148
+--config-file=/path/to/config-file/ \
+未翻译
+
+没有修改者
+doc_src/InstallingAndRunning.xml
+
+4149
+--mode=console-translate|console-createpseudotranslatetmx|console-align
+--mode=console-translate|console-createpseudotranslatetmx|console-align
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4150
+--source-pattern={regexp}
+--source-pattern={regexp}
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4151
+Note that all parameters start with a double - character.
+请注意所有的参数都以两个 - 字符开始。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4152
+Explanation:
+说明：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4153
+<l0><project-dir></l0> tells <a1>OmegaT</a1> where to find the project to translate.
+<l0><project-dir></l0> 告知 <a1>OmegaT</a1> 要翻译项目的位置。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4154
+If given, <a2>OmegaT</a2> starts in console mode and will translate the given project.
+如果给出了该参数，则 <a2>OmegaT</a2> 以控制台模式启动并翻译指定的项目。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4155
+<l0>--config-dir=<config-dir></l0> tells <a1>OmegaT</a1> in which folder the configuration files are stored.
+<l0>--config-dir=<config-dir></l0>告知<a1>OmegaT</a1>配置文件所在文件夹。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4156
+If not given, <a2>OmegaT</a2> reverts to default values (<a3>OmegaT</a3> folder under user home or, if unavailable, the current working folder).
+如果没有给出该参数，<a2>OmegaT</a2>将转而使用缺省值（即用户主目录中的<a3>OmegaT</a3>文件夹，如果不可用的话则是当前的工作目录）。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4157
+Note double - character
+请注意两个 - 字符
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4158
+<l0>--config-file=<config-file></l0> tells <a1>OmegaT</a1> what configuration file to use.
+<l0>--config-file=<config-file></l0> 文件会告诉<a1>OmegaT</a1> 使用什么配置文件。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4159
+<e0><l1>--mode</l1>=...-</e0> <a2>OmegaT</a2> starts in console mode to perform one of the following services automatically
+<e0><l1>--mode</l1>=...-</e0> <a2>OmegaT</a2> 以控制台模式启动，接着执行下列的某个服务
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4160
+--mode=console-translate
+--mode=console-translate
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4161
+In this mode, OmegaT will attempt to translate the files in /source/ with the available translation memories.
+在该模式中，OmegaT 将尝试使用可用的翻译记忆来翻译 /soruce/ 中的文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4162
+This is useful to run OmegaT on a server with TMX files automatically fed to a project.
+这可用于在含有 TMX 文件的服务器上运行 OmegaT 来自动翻译项目。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4163
+--mode=console-createpseudotranslatetmx
+--mode=console-createpseudotranslatetmx
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4164
+In this mode OmegaT will create a TMX for the whole project, based on the source files only.
+在该模式中，OmegaT 将仅根据项目的源文件创建整个项目的 TMX。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4165
+You specify the TMX file to be created with
+您可以使用后面的参数指定要创建的 TMX 文件：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4166
+--pseudotranslatetmx=allsegments.tmx --pseudotranslatetype=[equal|empty]
+--pseudotranslatetmx=allsegments.tmx --pseudotranslatetype=[equal|empty]
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4167
+The argument <e0>pseudotranslatetype</e0> specifies, whether the target segments are to be equal to the source, or left empty.
+参数 <e0>pseudotranslatetype</e0> 指明了目标片段是与源片段相同或留空。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4168
+--mode=console-align
+--mode=console-align
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4169
+In this mode, OmegaT will align the Java properties files found in the<l0> /source/ </l0>folder of the project to the contents found at the specified location.
+在该模式中，OmegaT 将对齐在项目的<l0> /source/ </l0> 目录找到的 Java 属性文件在指定位置的内容。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4170
+The resulting TMX is stored in the <f1>/omegat/</f1> folder under the name <f2>align.tmx</f2>.
+生成的 TMX 保存在 <f1>/omegat/</f1> 目录，名称为 <f2>align.tmx</f2>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4171
+Additional parameter is required in this case, specifying the location of the target data:
+此时需要额外的参数指明目标数据的位置：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4172
+--alignDir={location of translated files}
+--alignDir={已译文件的位置}
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4173
+<f0>alignDir</f0> must contain a translation in the target language of the project.
+<f0>alignDir</f0> 必须包含项目目标语言的翻译。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4174
+For instance, if the project is EN->FR, alignDir must contain a bundle ending with _fr.
+例如，如果项目为 EN->FR，则 alignDir 必须包含以 _fr 结尾的包。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4175
+The resulting tmx is stored in the <l1>omegat</l1> folder under the name <f2>align.tmx</f2>.
+生成的 TMX 保存在 <l1>omegat</l1> 目录，名称为 <f2>align.tmx</f2>。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4176
+--source-pattern={regexp}
+--source-pattern={regexp}
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4177
+When mode has been used, this option will specify the files to be processed automatically.
+如果使用了模式，则该选项将指定要自动翻译的文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4178
+If the parameter is not specified, all files will be processed.
+如果未使用该选项，则处理所有文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4179
+Here's few typical examples to limit your choice:
+这里是一些限制源文件匹配的实际例子：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4180
+.*\.html
+.*\.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4181
+All HTML files will be translated - note that the period in the usual *.html has to be escaped (\.) as specified by the rules for regular expressions
+此时将翻译所有的 HTML 文件，需要注意到 *.html 在正则表达式中指定时需要进行转义 (\.)。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4182
+test\.html
+test\.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4183
+Only the file test.html at the root of the source folder will be translated.
+仅翻译source文件夹下当前目录中的test.html。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4184
+If there are other files named test.html in other folders, they will be ignored.
+如果在其子目录下有名为test.html的文件，它们会被忽略。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4185
+dir-10\\test\.html
+dir-10\\test\.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4186
+Only the file test.html in the folder dir-10 will be processed.
+仅翻译dir-10文件夹中的test.html文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4187
+Again note that the backslash is escaped as well.
+再次强调反斜杠也需要进行转义。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4188
+--output-tag-validation-={regexp}
+--output-tag-validation-={regexp}
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4189
+When mode has been used, this option will specify the files to be processed automatically.
+如果使用了模式，则该选项将指定要自动翻译的文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4190
+If the parameter is not specified, all files will be processed.
+如果未使用该选项，则处理所有文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4191
+Here's few typical examples to limit your choice:
+这里是一些限制源文件匹配的实际例子：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4192
+.*\.html
+.*\.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4193
+All HTML files will be translated - note that the period in the usual *.html has to be escaped (\.) as specified by the rules for regular expressions
+此时将翻译所有的 HTML 文件，需要注意到 *.html 在正则表达式中指定时需要进行转义 (\.)。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4194
+test\.html
+test\.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4195
+Only the file test.html at the root of the source folder will be translated.
+仅翻译source文件夹下当前目录中的test.html。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4196
+If there are other files named test.html in other folders, they will be ignored.
+如果在其子目录下有名为test.html的文件，它们会被忽略。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4197
+dir-10\\test\.html
+dir-10\\test\.html
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4198
+Only the file test.html in the folder dir-10 will be processed.
+仅翻译dir-10文件夹中的test.html文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4199
+Again note that the backslash is escaped as well.
+再次强调反斜杠也需要进行转义。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4200
+<l0>--tag-validation=[abort|warn]</l0><p1> outputFileName</p1>
+<l0>--tag-validation=[abort|warn]</l0><p1> outputFileName</p1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4201
+This option allows the tag validation in a batch mode.
+该选项支持在批处理模式中进行标签验证。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4202
+If <l0>abort </l0>is selected, the tag validator will stop on the first invalid segment.
+如果选择了<l0>abort </l0>，则标签验证器会在遇到首个非法片段时停止。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4203
+If <l1>warn</l1> is specified, the tag validator will process all segments and write warnings about any segments with invalid tags into the file specified.
+如果使用<l1>warn</l1>，则标签验证器会处理所有片段并把含非法标签片段的警告写入指定文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4204
+<l0>--no-team</l0> addresses projects set up for team work.
+<l0>--no-team</l0> 解决为团队工作设立的项目。.
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4205
+Use it if OmegaT is not to synchronize the project contents.
+使用此参数能让OmegaT不同步项目内容。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4206
+<l0>--disable-project-locking</l0> allows, under Windows, to open the same project with several instances of OmegaT.
+<l0>--disable-project-locking</l0>允许在Windows平台下打开有几个OmegaT例子的同一个项目。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4207
+By default, under Windows, <l1>omegat.project</l1> is locked, and an error message is received when trying to open a project already opened in another instance of OmegaT.
+默认条件下， Windows平台下的 <l1>omegat.project</l1>文件是锁定的，试图打开在另一个OmegaT例子中已经打开的项目会报错。
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4208
+With that option, no locking occurs.
+在那种选项下，不会锁住。.
+
+17012
+doc_src/InstallingAndRunning.xml
+
+4209
+Quiet option
+静默选项
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4210
+An extra command line parameter specific to console mode: <l0>--quiet.</l0> In the quiet mode, less info is logged to the screen.
+控制台模式专用的一个附加命令行参数： <l0>--quiet</l0>。在静默【Quiet】模式下，屏幕上将显示更少的日志信息。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4211
+The messages you would usually find in the status bar are not displayed.
+在状态栏通常可以看到的所有信息都不会被显示。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4212
+Usage: <l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --quiet</l0>
+用法：<l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --quiet</l0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4213
+Tag validation option
+标记验证选项
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4214
+Another extra command line parameter specific to console mode: <l0>--tag-validation=[abort|warn].</l0> When this parameter is added, tag validation is done prior to translation/aligning.
+控制台模式专用的一个附加命令行参数：<l0>--tag-validation=[abort|warn]。</l0>添加此参数后，会在翻译/文本对齐之前验证标签。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4215
+If the value is <l1>abort</l1>, then on tag errors the errors are printed and the program stops.
+如果该参数值为 <l1>abort</l1>，那么在遇到标签错误时打印出错误，同时程序停止。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4216
+If the value is <l2>warn</l2> then the errors are printed but OmegaT continues.
+如果该参数值为 <l2>warn</l2>，则打印错误且 OmegaT 继续执行。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4217
+Usage: <l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --tag-validation=abort</l0>
+用法：<l0>java -jar <a1>OmegaT</a1>.jar /path/to/project --mode=console-translate --tag-validation=abort</l0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4218
+<p0>Running OmegaT</p0> <s1>Building OmegaT from source</s1>
+<p0>运行 OmegaT</p0> <s1>从源代码编译 OmegaT</s1>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4219
+Building <a0>OmegaT</a0> From Source
+从源代码编译 <a0>OmegaT</a0>
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4220
+Note that you will need the ant program (<e0>http://ant.apache.org/bindownload.cgi</e0>) to build your own version of OmegaT.
+请注意您还需要 ant 程序（<e0>http://ant.apache.org/bindownload.cgi</e0>）来编译 OmegaT。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4221
+Unpack the <e1>OmegaT_3.n.n_Source.zip</e1> file and enter the OmegaT_3.n.n_Source folder or enter the <e2>./omegat/</e2> folder of the SVN checked out code.
+解压<e1>OmegaT_3.n.n_Source.zip</e1>文件并进入OmegaT_3.n.n_Source文件夹或SVN检出代码的<e2>./omegat/</e2>文件夹。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4222
+Please make sure that a build.xml file is present in that folder.
+请确认 build.xml 文件存在该目录中。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4223
+Then, on the command line, type:
+然后，在命令行输入：
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4224
+$ ant jar release
+$ ant jar release
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4225
+This will create a full distribution of <a0>OmegaT</a0> in the ./dist/ folder, where you will find all the files necessary to run <a1>OmegaT</a1>.
+该命令将在 ./dist/ 目录中创建一份完整的 <a0>OmegaT</a0> 发行文件，其中包含运行 <a1>OmegaT</a1> 需要的所有文件。
+
+Fu Rhong
+doc_src/InstallingAndRunning.xml
+
+4226
+Learn to use OmegaT in 5 minutes!
+Learn to use OmegaT in 5 minutes!
+
+钢
+doc_src/InstantStartGuide.xml
+
+4227
+<p0>Project</p0> <s1>Create / open new</s1>
+<p0>项目</p0> <s1>新创建/打开</s1>
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4228
+Set up a new project
+创建新项目
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4229
+<r0>Note:</r0> On an Apple Mac, use the <k1>Command</k1> key instead of the <k2>Control</k2> key.
+<r0>注：</r0>在Apple Mac上，请使用<k1>Command</k1>代替<k2>Control</k2>键。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4230
+<p0>Menu Project</p0> <s1>New...</s1>
+<p0>项目菜单</p0> <s1>新建...</s1>
+
+xulihang
+doc_src/InstantStartGuide.xml
+
+4231
+To start using OmegaT, first create a project that will hold all your files, such as your source file, translation memories, glossaries, and eventually your translated file.
+开始使用OmegaT时首先要创建项目，用来保存您的所有文件，例如源文件、翻译记忆、术语表及您要翻译的文件。
+
+xulihang
+doc_src/InstantStartGuide.xml
+
+4232
+In the <g0>Project</g0> menu, select <m1><g2>New...</g2></m1> and type a name for your project.
+在<g0>项目</g0>菜单中选择<m1><g2>新建...</g2></m1>并输入项目名称。
+
+xulihang
+doc_src/InstantStartGuide.xml
+
+4233
+Remember where you are creating the project, because you will need to return to it later.
+记住您创建项目的位置，之后还需要返回这里。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4234
+After you give your project a name, the <g0>Create New Project</g0> dialog will open.
+给项目命名后将出现<g0>创建新项目</g0>对话框。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4235
+At the top of that dialog, select your source file's language and the language that your translated file will be, and click <g1>OK</g1> to continue.
+在该对话框顶端选择源文件语言和目标语言，并点击<g1>OK</g1>继续。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4236
+If you are interested in other settings of this dialog, you can return to it any time by pressing <k0>Ctrl+E.</k0>
+如果对该对话框中的其他设置有兴趣，您可在任何时候按下<k0>Ctrl+E</k0>来将其打开。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4237
+Next, the <g0>Project Files</g0> dialog opens.
+接着，<g0>项目文件</g0>对话框出现。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4238
+Click on <g1>Copy Files to Source Folder...</g1> to select your source files.
+点击<g1>导入源文件...</g1>按钮选择源文件。
+
+xulihang
+doc_src/InstantStartGuide.xml
+
+4239
+OmegaT will then copy the selected files to the <f2>/source/</f2> subfolder of your newly created project.
+OmegaT跟着会复制选择的文件到新建项目的<f2>/source/</f2>子文件夹。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4240
+After the source files have loaded in the <g3>Editor</g3> pane, you can close the <g4>Project Files</g4> dialog.
+当<g3>编辑器</g3>窗格中加载了源文件后，您可以关闭<g4>项目文件</g4>对话框。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4241
+Translate the file
+翻译文件
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4242
+OmegaT will present one segment at a time for you to translate.
+OmegaT每次呈现一个片段供您翻译。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4243
+After you have translated each segment, press <k0>Ctrl+U</k0> to move to the next untranslated segment (or <k1>Ctrl+Shift+U</k1> to move to the next translated segment).
+翻译一个片段后，按下<k0>Ctrl+U</k0>将前往下一个未译片段（或使用<k1>Ctrl+Shift+U</k1>前往下一个已译片段）。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4244
+Whenever you want to see what your translation will look like in its final format, press <k2>Ctrl+D</k2> to generate the translated documents, which will be created in the <f3>/target/</f3> subfolder of your project folder.
+当您想看看译文的最终格式时，按下<k2>Ctrl+D</k2>会生成已译文档，它们在项目文件夹中的<f3>/target/</f3>子文件夹。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4245
+During translation, use the <g4>Edit</g4> and <g5>Go To</g5> menus to perform various useful functions.
+在翻译过程中使用<g4>编辑</g4>和<g5>前往</g5>菜单可以执行多种有用的功能。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4246
+Validate your tags
+检验标签
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4247
+If your source files are formatted files, e.g. Microsoft Word, LibreOffice Writer or HTML, OmegaT will convert the formatting into tags that surround the text that you translate.
+如果源文件是格式化文件，如Microsoft Word、LibreOffice Writer或HTML，OmegaT会把待译文本周围的格式转换为标签。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4248
+Often documents will also have tags that have nothing to do with formatting, but which are also important in the source files (and in the translated files).
+经常文档都会含有无需处理的格式标签，但它们对源文件（和已译文件）也很重要。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4249
+A source sentence might look like:
+源语言也许类似这样：
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4250
+OmegaT, however, will present this sentence in the following fashion:
+但OmegaT会把该语句以下面的样式呈现：
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4251
+The tags in OmegaT are greyed, so they are easy to recognise.
+OmegaT中的标记为灰色，因此很容易识别。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4252
+They are protected, so that you cannot modify their contents, but you can delete them, enter them by hand or move them around in the target sentence.
+这些标签受到保护，这样您无法修改它们的内容，可以删除、手动输入或移动它们在目标语句中的位置。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4253
+However, if you made mistakes when you typed the formatting tags, your translated files might fail to open.
+无论如何当您输入了错误的格式标签，那么已译文件可能无法打开。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4254
+Therefore, press <k0>Ctrl+Shift+V</k0> before you generate your translated files, to validate that your tags are correct.
+因此，在生成已译文件前请按下<k0>Ctrl+Shift+V</k0>以检验标签是否正确。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4255
+Generate the translated file
+生成已译文件
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4256
+Once you have made certain that there are no tag errors in your translation, press <k0>Ctrl+D</k0> to generate the target files, which will be created in the <f1>/target/</f1> subfolder of your project folder.
+当您确定在翻译中没有标签错误后，按下<k0>Ctrl+D</k0>则会在项目文件夹的<f1>/target/</f1>子文件夹中生成目标文件。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4257
+Few more things to remember
+了解更多
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4258
+If a file does not load into the <g0>Editor</g0> pane, then it could be that it is in a format that doesn't work in OmegaT.
+如果某个文件无法加载到<g0>编辑器</g0>窗格，那么该文件可能是OmegaT无法处理的格式。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4259
+See <l1>File Filters</l1> for a list of file formats that OmegaT can handle.
+请参阅<l1>文件过滤器</l1>了解OmegaT能处理的文件格式列表。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4260
+You can create a new project for each new job, and you can add new source files to a project at anytime.
+你可以为每一份新工作创建一个新项目，可以在任何时候增添新的源文档到项目中。
+
+17012
+doc_src/InstantStartGuide.xml
+
+4261
+To remind yourself of the project's initial settings, open the project properties dialog by pressing <k0>Ctrl+E</k0>.
+为了记住项目的初始设置，按下<k0>Ctrl+E</k0>打开项目属性对话框。.
+
+17012
+doc_src/InstantStartGuide.xml
+
+4262
+To see a list of files in the project, open the <g1>Project Files</g1> dialog by pressing <k2>Ctrl+L</k2>.
+要查看项目中文件列表，请按下<k2>Ctrl+L</k2>打开<g1>项目文件</g1>对话框。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4263
+At the end of your translation, OmegaT exports three translation memories called <f0>level1</f0>, <f1>level2</f1> and <f2>omegat</f2> to your project folder.
+在翻译结束后，OmegaT会导出名称分别为<f0>level1</f0>、<f1>level2</f1>和<f2>omegat</f2>的三种翻译记忆文件到项目文件夹。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4264
+The <f3>level1</f3> and <f4>level2</f4> memories can be shared with users of other translation programs.
+<f3>level1</f3>和<f4>level2</f4>翻译记忆可以共享给使用其他翻译工具的用户。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4265
+The memory named <f5>omegat</f5> can be used by OmegaT itself, in future projects that you create.
+名称为<f5>omegat</f5>的翻译记忆可被OmegaT自身用于将来创建的项目。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4266
+If you place such translation memory files in the <f6>/tm/</f6> subfolder of a project, OmegaT will automatically search them for similar segments, called "fuzzy matches".
+如果您把这种翻译记忆文件放在项目的<f6>/tm/</f6>子文件夹，则OmegaT会自动在其中搜索类似的片段（被称为“模糊匹配”）。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4267
+You can add a new term to the glossary by pressing <k0>Ctrl+Shift+G</k0>, or copy existing glossaries to the <f1>/glossary/</f1> subfolder of your project folder, and OmegaT will automatically look up words in them.
+按下<k0>Ctrl+Shift+G</k0>可以添加新术语到术语表，也可以复制现有的术语表到项目文件夹的<f1>/glossary/</f1>子文件夹，OmegaT会自动在其中搜索单词。
+
+xulihang
+doc_src/InstantStartGuide.xml
+
+4268
+It is often useful to search for words and phrases in the source text and in your translation, so press <k0>Ctrl+F</k0> for the <g1>Text Search</g1> dialog at any time.
+常常需要在源文本和翻译中搜索单词和短语，需要时请按下<k0>Ctrl+F</k0>打开<g1>文本搜索</g1>对话框。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4269
+https://omegat.org/files/OmegaT_for_Beginners.pdf
+未翻译
+
+没有修改者
+doc_src/InstantStartGuide.xml
+
+4270
+https://groups.yahoo.com/neo/groups/OmegaT/info
+未翻译
+
+没有修改者
+doc_src/InstantStartGuide.xml
+
+4271
+For a more comprehensive introduction see <u0>OmegaT for beginners</u0> on the OmegaT web site.
+更全面的介绍请参阅Omegat网站上的<u0>OmegaT初学者入门</u0>。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4272
+If you need assistance with any aspect of OmegaT, feel free to join the <u1>OmegaT users group.</u1>
+如果您需要关于OmegaT某些方面的帮助，可随时加入<u1>OmegaT用户组</u1>。
+
+Fu Rhong
+doc_src/InstantStartGuide.xml
+
+4273
+GNU GENERAL PUBLIC LICENSE
+GNU GENERAL PUBLIC LICENSE
+
+xulihang
+doc_src/license.txt
+
+4274
+Version 3, 29 June 2007
+Version 3, 29 June 2007
+
+Fu Rhong
+doc_src/license.txt
+
+4275
+Copyright (C) 2007 Free Software Foundation, Inc.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4276
+<http://fsf.org/>
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4277
+Everyone is permitted to copy and distribute verbatim copies
+Everyone is permitted to copy and distribute verbatim copies
+
+Fu Rhong
+doc_src/license.txt
+
+4278
+of this license document, but changing it is not allowed.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4279
+Preamble
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4280
+The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4281
+The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4282
+By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+share and change all versions of a program--to make sure it remains free
+software for all its users.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4283
+We, the Free Software Foundation, use the
+GNU General Public License for most of our software; it applies also to
+any other work released this way by its authors.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4284
+You can apply it to
+your programs, too.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4285
+When we speak of free software, we are referring to freedom, not
+price.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4286
+Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4287
+To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4288
+Therefore, you have
+certain responsibilities if you distribute copies of the software, or if
+you modify it: responsibilities to respect the freedom of others.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4289
+For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must pass on to the recipients the same
+freedoms that you received.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4290
+You must make sure that they, too, receive
+or can get the source code.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4291
+And you must show them these terms so they
+know their rights.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4292
+Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) offer you this License
+giving you legal permission to copy, distribute and/or modify it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4293
+For the developers' and authors' protection, the GPL clearly explains
+that there is no warranty for this free software.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4294
+For both users' and
+authors' sake, the GPL requires that modified versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4295
+Some devices are designed to deny users access to install or run
+modified versions of the software inside them, although the manufacturer
+can do so.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4296
+This is fundamentally incompatible with the aim of
+protecting users' freedom to change the software.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4297
+The systematic
+pattern of such abuse occurs in the area of products for individuals to
+use, which is precisely where it is most unacceptable.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4298
+Therefore, we
+have designed this version of the GPL to prohibit the practice for those
+products.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4299
+If such problems arise substantially in other domains, we
+stand ready to extend this provision to those domains in future versions
+of the GPL, as needed to protect the freedom of users.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4300
+Finally, every program is threatened constantly by software patents.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4301
+States should not allow patents to restrict development and use of
+software on general-purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it effectively proprietary.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4302
+To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4303
+The precise terms and conditions for copying, distribution and
+modification follow.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4304
+TERMS AND CONDITIONS
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4305
+0.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4306
+Definitions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4307
+"This License" refers to version 3 of the GNU General Public License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4308
+"Copyright" also means copyright-like laws that apply to other kinds of
+works, such as semiconductor masks.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4309
+"The Program" refers to any copyrightable work licensed under this
+License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4310
+Each licensee is addressed as "you".
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4311
+"Licensees" and
+"recipients" may be individuals or organizations.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4312
+To "modify" a work means to copy from or adapt all or part of the work
+in a fashion requiring copyright permission, other than the making of an
+exact copy.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4313
+The resulting work is called a "modified version" of the
+earlier work or a work "based on" the earlier work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4314
+A "covered work" means either the unmodified Program or a work based
+on the Program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4315
+To "propagate" a work means to do anything with it that, without
+permission, would make you directly or secondarily liable for
+infringement under applicable copyright law, except executing it on a
+computer or modifying a private copy.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4316
+Propagation includes copying,
+distribution (with or without modification), making available to the
+public, and in some countries other activities as well.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4317
+To "convey" a work means any kind of propagation that enables other
+parties to make or receive copies.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4318
+Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4319
+An interactive user interface displays "Appropriate Legal Notices"
+to the extent that it includes a convenient and prominently visible
+feature that (1) displays an appropriate copyright notice, and (2)
+tells the user that there is no warranty for the work (except to the
+extent that warranties are provided), that licensees may convey the
+work under this License, and how to view a copy of this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4320
+If
+the interface presents a list of user commands or options, such as a
+menu, a prominent item in the list meets this criterion.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4321
+1.
+1.
+
+Fu Rhong
+doc_src/license.txt
+
+4322
+Source Code.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4323
+The "source code" for a work means the preferred form of the work
+for making modifications to it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4324
+"Object code" means any non-source
+form of a work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4325
+A "Standard Interface" means an interface that either is an official
+standard defined by a recognized standards body, or, in the case of
+interfaces specified for a particular programming language, one that
+is widely used among developers working in that language.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4326
+The "System Libraries" of an executable work include anything, other
+than the work as a whole, that (a) is included in the normal form of
+packaging a Major Component, but which is not part of that Major
+Component, and (b) serves only to enable use of the work with that
+Major Component, or to implement a Standard Interface for which an
+implementation is available to the public in source code form.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4327
+A
+"Major Component", in this context, means a major essential component
+(kernel, window system, and so on) of the specific operating system
+(if any) on which the executable work runs, or a compiler used to
+produce the work, or an object code interpreter used to run it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4328
+The "Corresponding Source" for a work in object code form means all
+the source code needed to generate, install, and (for an executable
+work) run the object code and to modify the work, including scripts to
+control those activities.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4329
+However, it does not include the work's
+System Libraries, or general-purpose tools or generally available free
+programs which are used unmodified in performing those activities but
+which are not part of the work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4330
+For example, Corresponding Source
+includes interface definition files associated with source files for
+the work, and the source code for shared libraries and dynamically
+linked subprograms that the work is specifically designed to require,
+such as by intimate data communication or control flow between those
+subprograms and other parts of the work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4331
+The Corresponding Source need not include anything that users
+can regenerate automatically from other parts of the Corresponding
+Source.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4332
+The Corresponding Source for a work in source code form is that
+same work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4333
+2.
+2.
+
+Fu Rhong
+doc_src/license.txt
+
+4334
+Basic Permissions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4335
+All rights granted under this License are granted for the term of
+copyright on the Program, and are irrevocable provided the stated
+conditions are met.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4336
+This License explicitly affirms your unlimited
+permission to run the unmodified Program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4337
+The output from running a
+covered work is covered by this License only if the output, given its
+content, constitutes a covered work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4338
+This License acknowledges your
+rights of fair use or other equivalent, as provided by copyright law.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4339
+You may make, run and propagate covered works that you do not
+convey, without conditions so long as your license otherwise remains
+in force.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4340
+You may convey covered works to others for the sole purpose
+of having them make modifications exclusively for you, or provide you
+with facilities for running those works, provided that you comply with
+the terms of this License in conveying all material for which you do
+not control copyright.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4341
+Those thus making or running the covered works
+for you must do so exclusively on your behalf, under your direction
+and control, on terms that prohibit them from making any copies of
+your copyrighted material outside their relationship with you.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4342
+Conveying under any other circumstances is permitted solely under
+the conditions stated below.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4343
+Sublicensing is not allowed; section 10
+makes it unnecessary.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4344
+3.
+3.
+
+钢
+doc_src/license.txt
+
+4345
+Protecting Users' Legal Rights From Anti-Circumvention Law.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4346
+No covered work shall be deemed part of an effective technological
+measure under any applicable law fulfilling obligations under article
+11 of the WIPO copyright treaty adopted on 20 December 1996, or
+similar laws prohibiting or restricting circumvention of such
+measures.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4347
+When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to
+the covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work's
+users, your or third parties' legal rights to forbid circumvention of
+technological measures.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4348
+4.
+4.
+
+Fu Rhong
+doc_src/license.txt
+
+4349
+Conveying Verbatim Copies.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4350
+You may convey verbatim copies of the Program's source code as you
+receive it, in any medium, provided that you conspicuously and
+appropriately publish on each copy an appropriate copyright notice;
+keep intact all notices stating that this License and any
+non-permissive terms added in accord with section 7 apply to the code;
+keep intact all notices of the absence of any warranty; and give all
+recipients a copy of this License along with the Program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4351
+You may charge any price or no price for each copy that you convey,
+and you may offer support or warranty protection for a fee.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4352
+5.
+5.
+
+Fu Rhong
+doc_src/license.txt
+
+4353
+Conveying Modified Source Versions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4354
+You may convey a work based on the Program, or the modifications to
+produce it from the Program, in the form of source code under the
+terms of section 4, provided that you also meet all of these conditions:
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4355
+a) The work must carry prominent notices stating that you modified
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4356
+it, and giving a relevant date.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4357
+b) The work must carry prominent notices stating that it is
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4358
+released under this License and any conditions added under section
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4359
+7.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4360
+This requirement modifies the requirement in section 4 to
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4361
+"keep intact all notices".
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4362
+c) You must license the entire work, as a whole, under this
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4363
+License to anyone who comes into possession of a copy.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4364
+This
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4365
+License will therefore apply, along with any applicable section 7
+License will therefore apply, along with any applicable section 7
+
+Fu Rhong
+doc_src/license.txt
+
+4366
+additional terms, to the whole of the work, and all its parts,
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4367
+regardless of how they are packaged.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4368
+This License gives no
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4369
+permission to license the work in any other way, but it does not
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4370
+invalidate such permission if you have separately received it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
