@@ -1,0 +1,938 @@
+6505
+Sorry
+抱歉
+
+xulihang
+website/404.html
+
+6506
+We could not find the page you are looking for.
+未查到此网页
+
+cpeishan
+website/404.html
+
+6507
+You can go to the <a0>home page</a0> and hopefully find the information you need from there.
+前往 <a0>首页</a0> 希望你能查找到有用信息
+
+cpeishan
+website/404.html
+
+6508
+Website content authors
+网站成员目录
+
+cpeishan
+website/about.html
+
+6509
+Website design
+网站设计
+
+cpeishan
+website/about.html
+
+6510
+Briac Pilpré
+Briac Pilpré
+
+Fu Rhong
+website/about.html
+
+6511
+English version translators
+英语版本译者
+
+cpeishan
+website/about.html
+
+6512
+The OmegaT project
+OmegaT 项目
+
+cpeishan
+website/about.html
+
+6513
+The OmegaT project is maintained by an informal, international group of volunteers.
+OmegaT项目由一个非正式的国际志愿者组织维护。
+
+cpeishan
+website/about.html
+
+6514
+Its purpose is to develop, distribute and support the use of OmegaT, an open-source translation memory software application.
+其目的是开发，分发和支持使用OmegaT，一个开源翻译记忆软件应用程序。
+
+cpeishan
+website/about.html
+
+6515
+The principal members of the project are:
+该项目的主要成员是：
+
+cpeishan
+website/about.html
+
+6516
+Original author of the OmegaT application
+OmegaT应用原创作作者
+
+cpeishan
+website/about.html
+
+6517
+Keith Godfrey
+未翻译
+
+没有修改者
+website/about.html
+
+6518
+Project manager
+项目经理
+
+cpeishan
+website/about.html
+
+6519
+Didier Briel
+未翻译
+
+没有修改者
+website/about.html
+
+6520
+Lead developer
+开发人员主管
+
+cpeishan
+website/about.html
+
+6521
+Alex Buloichik
+未翻译
+
+没有修改者
+website/about.html
+
+6522
+Integration manager
+集成经理
+
+cpeishan
+website/about.html
+
+6523
+Aaron Madlon-Kay
+Aaron Madlon-Kay
+
+Fu Rhong
+website/about.html
+
+6524
+Website manager
+网站经理
+
+cpeishan
+website/about.html
+
+6525
+Marc Prior
+Marc Prior
+
+Fu Rhong
+website/about.html
+
+6526
+Documentation manager
+文档经理
+
+cpeishan
+website/about.html
+
+6527
+Vincent Bidaux
+未翻译
+
+没有修改者
+website/about.html
+
+6528
+Localization manager, user group owner
+本地化经理，用户群主管
+
+cpeishan
+website/about.html
+
+6529
+Kos Ivantsov
+未翻译
+
+没有修改者
+website/about.html
+
+6530
+Developers
+开发者们
+
+cpeishan
+website/about.html
+
+6531
+The philosophy of the project is described <a0>here</a0>.
+描述项目理念 <a0>这里</a0>.
+
+cpeishan
+website/about.html
+
+6532
+Since the project's inception, it has received the support of dozens of other contributors, too numerous to mention here, but for whose help we are very grateful.
+自项目成立以来，已经得到了几十个其他贡献者的支持，太多而不能在这里提到，但对他们的帮助，我们非常感谢。
+
+cpeishan
+website/about.html
+
+6533
+User group
+用户群体
+
+cpeishan
+website/contact.html
+
+6534
+OmegaT has a very active, supportive and multilingual user group <a0>here</a0>, which users are strongly encouraged to join.
+ OmegaT拥有非常活跃，热情的多语言用户组<a0>这里</a0>, 强烈鼓励用户加入
+
+cpeishan
+website/contact.html
+
+6535
+The user group also serves as the main point of contact between users and the project team.
+用户组还是用户和项目团队之间的主要联系人。
+
+cpeishan
+website/contact.html
+
+6536
+Mailing lists
+邮件名单
+
+cpeishan
+website/contact.html
+
+6537
+OmegaT also has the following mailing lists and trackers, which are hosted on Sourceforge:
+OmegaT在Sourceforge上公布管理下面这些邮件名单和项目主页：
+
+cpeishan
+website/contact.html
+
+6538
+OmTdev
+OmegaT开发
+
+cpeishan
+website/contact.html
+
+6539
+The OmegaT developers' list.
+OmegaT项目开发人员名单：
+
+cpeishan
+website/contact.html
+
+6540
+This list is for more technical discussion of features and development, and is intended for OmegaT developers and other interested parties.
+此名单用于对功能和开发进行更技术性的讨论, 并面向 OmegaT 开发人员和其他感兴趣的各方。
+
+cpeishan
+website/contact.html
+
+6541
+OmT-l10n
+未翻译
+
+没有修改者
+website/contact.html
+
+6542
+This mailing list is for localizers of OmegaT.
+ OmegaT的本地化人员名单.
+
+cpeishan
+website/contact.html
+
+6543
+Tracking system
+跟踪系统
+
+cpeishan
+website/contact.html
+
+6544
+Bugs, feature requests and documentation issues are handled on Sourceforge by the following tracking systems.
+bug、功能请求和文档问题通过以下跟踪系统在Sourceforge上得到解决。
+
+cpeishan
+website/contact.html
+
+6545
+Please do not use these tracking systems before first raising the issue on the user group and/or mailing lists.
+首先咨询用户组和/或邮件名单解决这些问题，然后再使用这些跟踪系统。
+
+cpeishan
+website/contact.html
+
+6546
+Issues/bugs tracking system
+bug跟踪系统
+
+cpeishan
+website/contact.html
+
+6547
+Feature requests tracking system
+功能请求跟踪系统
+
+cpeishan
+website/contact.html
+
+6548
+Documentation tracking system
+文档跟踪系统
+
+cpeishan
+website/contact.html
+
+6549
+Administration
+管理部门
+
+cpeishan
+website/contact.html
+
+6550
+Please contact the <a0>OmegaT project manager</a0> regarding any point not covered above.<br1/>
+请联系<a0>OmegaT 项目经理</a0> 关于上述未提及的任何问题<br1/>
+
+cpeishan
+website/contact.html
+
+6551
+Please contact the <a2>webmaster</a2> for any point regarding specifically the website.
+请联系<a2>网站管理员</a2> 关于网站有任何问题
+
+cpeishan
+website/contact.html
+
+6552
+User manuals
+用户手册
+
+cpeishan
+website/documentation.html
+
+6553
+OmegaT is supplied with a comprehensive user manual.
+OmegaT 提供了一份全面详细的用户手册。
+
+cpeishan
+website/documentation.html
+
+6554
+To call up the manual from within OmegaT, simply select Help > Users manual, or press F1.
+选择 "帮助 > 用户手册", 或按 F1，调用OmegaT用户手册。
+
+cpeishan
+website/documentation.html
+
+6555
+An Instant Start Guide, which guides you through the main procedures and functions of OmegaT, is displayed in the OmegaT user interface by default.
+默认情况下,  OmegaT 用户界面上显示的 "即时启动向导"指导用户完成 OmegaT 的主要步骤和功能。
+
+cpeishan
+website/documentation.html
+
+6556
+You can also call up the user manual supplied with OmegaT without launching OmegaT itself.
+用户也能在OmegaT未启动时调用用户手册。
+
+cpeishan
+website/documentation.html
+
+6557
+It can be found in the "docs" folder in your OmegaT program folder.
+用户可在OmegaT项目文件夹的docs文件夹中找到用户手册。
+
+cpeishan
+website/documentation.html
+
+6558
+User manual online
+在线用户手册
+
+cpeishan
+website/documentation.html
+
+6559
+The user manual for OmegaT in PDF format ({{ site.data.versions.standard.name }}).
+OmegaT用户手册是PDF格式({{ site.data.versions.standard.name }}).
+
+cpeishan
+website/documentation.html
+
+6560
+HTML user manual online
+在线用户手册是HTML语言写的
+
+cpeishan
+website/documentation.html
+
+6561
+The HTML user manual for OmegaT standard version.
+OmegaT标准版的用户手册用HTML语言编写 
+
+cpeishan
+website/documentation.html
+
+6562
+Tutorials
+教程
+
+cpeishan
+website/documentation.html
+
+6563
+The following tutorials are available online/for download:
+下列教程可供在线查阅或下载
+
+cpeishan
+website/documentation.html
+
+6564
+OmegaT for Beginners tutorial
+OmegaT初学者教程
+
+cpeishan
+website/documentation.html
+
+6565
+By Susan Welsh (Open Document Format).
+By Susan Welsh (开放文档格式).
+
+cpeishan
+website/documentation.html
+
+6566
+OmegaT for Beginners tutorial
+OmegaT初学者教程
+
+cpeishan
+website/documentation.html
+
+6567
+By Susan Welsh (PDF format).
+By Susan Welsh (PDF格式).
+
+cpeishan
+website/documentation.html
+
+6568
+В помощь переводчику: 10 советов по OmegaT
+帮助译者:OmegaT10条提示
+
+cpeishan
+website/documentation.html
+
+6569
+By Vladimir Zhdanov (in Russian).
+By Vladimir Zhdanov (俄语).
+
+cpeishan
+website/documentation.html
+
+6570
+Recursos do OmegaT: primeiros passos
+OmegaT 资源: 第一步
+
+cpeishan
+website/documentation.html
+
+6571
+By Sheila Gomes (in Brasilian Portuguese).
+By Sheila Gomes (葡萄牙语).
+
+cpeishan
+website/documentation.html
+
+6572
+HOWTOs
+操作文档
+
+cpeishan
+website/documentation.html
+
+6573
+"How to" documents on this site, containing information on certain procedures and features of OmegaT for advanced users which are not covered by the manual.
+本网站上的操作文档适用于高级用户，包含有关 OmegaT 的具体步骤和功能的信息, 这些内容用户手册上没有。
+
+cpeishan
+website/documentation.html
+
+6574
+Compatibility HowTos
+操作的兼容性
+
+cpeishan
+website/documentation.html
+
+6575
+OmegaT compatibility
+OmegaT 兼容性
+
+cpeishan
+website/documentation.html
+
+6576
+Describes OmegaT's compatibility with selected other software products.
+描述 OmegaT 与所选其他软件产品的兼容性。
+
+cpeishan
+website/documentation.html
+
+6577
+With links to more detailed HOWTOs.
+更详细的操作点击 链接。
+
+cpeishan
+website/documentation.html
+
+6578
+docx compatibility
+docx 兼容性
+
+cpeishan
+website/documentation.html
+
+6579
+Describes OmegaT's compatibility with Microsoft Office 2007 files, especially Word 2007.
+描述 OmegaT 与 Microsoft Office 2007 文件 (特别是 Word 2007) 的兼容性。
+
+cpeishan
+website/documentation.html
+
+6580
+Déjà Vu compatibility
+Déjà Vu 兼容性
+
+cpeishan
+website/documentation.html
+
+6581
+Describes OmegaT's compatibility with Déjà Vu.
+描述OmegaT与Déjà Vu的兼容性
+
+cpeishan
+website/documentation.html
+
+6582
+Uncleaned RTF
+未处理的RTF文本
+
+cpeishan
+website/documentation.html
+
+6583
+Describes how to use OmegaT in conjunction with the Trados bilingual RTF format ("uncleaned" files).
+描述如何将 OmegaT 与 Trados 双语 RTF 格式 文本( "未处理 " 文件) 联合使用。
+
+cpeishan
+website/documentation.html
+
+6584
+Iceni Infix
+未翻译
+
+没有修改者
+website/documentation.html
+
+6585
+Describes how to use OmegaT in conjunction with Iceni Infix in order to translate files in PDF format.
+描述如何使用 OmegaT 与 Iceni Infix结合翻译PDF 格式文件。
+
+cpeishan
+website/documentation.html
+
+6586
+Feature HowTos
+操作文档功能
+
+cpeishan
+website/documentation.html
+
+6587
+Spellchecking
+拼写检查
+
+cpeishan
+website/documentation.html
+
+6588
+Describes OmegaT's spellchecking feature.
+描述OmegaT拼写检查功能
+
+cpeishan
+website/documentation.html
+
+6589
+Propagation and one-to-many matching
+传送和一对多匹配
+
+cpeishan
+website/documentation.html
+
+6590
+Describes OmegaT's propagation and one-to-many matching features.
+描述 OmegaT 的传送和一对多的匹配功能。
+
+cpeishan
+website/documentation.html
+
+6591
+Google Translate
+谷歌翻译
+
+Fu Rhong
+website/documentation.html
+
+6592
+Using OmegaT in conjunction with Google Translate.
+OmegaT 与谷歌翻译结合.
+
+cpeishan
+website/documentation.html
+
+6593
+MS Translator
+微软翻译
+
+cpeishan
+website/documentation.html
+
+6594
+Procedure for configuring Microsoft Translator.
+配置微软翻译的步骤
+
+cpeishan
+website/documentation.html
+
+6595
+Preview
+预览
+
+cpeishan
+website/documentation.html
+
+6596
+Setting up a preview function for use with OmegaT.
+设置 OmegaT 的预览功能
+
+cpeishan
+website/documentation.html
+
+6597
+Advanced feature HowTos
+操作的高级功能
+
+cpeishan
+website/documentation.html
+
+6598
+OmegaT tokenizer plugin
+OmegaT 标记器插件
+
+cpeishan
+website/documentation.html
+
+6599
+Adds recognition of inflected forms to OmegaT glossary and fuzzy match functions.
+增加 OmegaT 词汇表和模糊匹配功能对变形词汇的识别。
+
+cpeishan
+website/documentation.html
+
+6600
+OmegaT text export function
+OmegaT 文本输出功能
+
+cpeishan
+website/documentation.html
+
+6601
+Using the OmegaT text export function (scripting interface).
+使用OmegaT 文本输出功能 (脚本界面).
+
+cpeishan
+website/documentation.html
+
+6602
+Other HowTos
+其他操作
+
+cpeishan
+website/documentation.html
+
+6603
+Compiling OmegaT from source
+从源代码编译OmegaT 
+
+cpeishan
+website/documentation.html
+
+6604
+Explains how to compile OmegaT from the source code.
+解释如何从源代码编译OmegaT
+
+cpeishan
+website/documentation.html
+
+6605
+Creating a new file filter
+创建新的文件筛选器
+
+cpeishan
+website/documentation.html
+
+6606
+Explains how to create a filter for a new file format to be translated by OmegaT.
+解释如何为OmegaT 翻译创建新的文件格式筛选器。
+
+cpeishan
+website/documentation.html
+
+6607
+Localizing OmegaT
+OmegaT本地化
+
+cpeishan
+website/documentation.html
+
+6608
+Administrative and technical procedure for localizating OmegaT.
+OmegaT 本地化的管理和技术程序.
+
+cpeishan
+website/documentation.html
+
+6609
+Using OmegaT on Linux
+Linux版OmegaT
+
+cpeishan
+website/documentation.html
+
+6610
+Intended in particular for users who are new to Linux.
+专门针对 Linux 新手的用户。
+
+cpeishan
+website/documentation.html
+
+6611
+External documentation
+外部文档
+
+cpeishan
+website/documentation.html
+
+6612
+Information on procedures and features of OmegaT for advanced users which can be found on other sites.
+有关高级用户的 OmegaT 程序和功能的信息, 可在其他网站上找到。
+
+cpeishan
+website/documentation.html
+
+6613
+Translating NetBeans IDE
+转换java(NetBeans软件)开发环境
+
+cpeishan
+website/documentation.html
+
+6614
+Procedure for using OmegaT to localize the NetBeans IDE.
+使用 OmegaT使Netbeans集成开发环境本地化 的步骤。
+
+cpeishan
+website/documentation.html
+
+6615
+How to translate Magento
+如何翻译Magento
+
+cpeishan
+website/documentation.html
+
+6616
+Procedure for using OmegaT to localize Magento.
+使用 OmegaT使Magento本地化 的步骤
+
+cpeishan
+website/documentation.html
+
+6617
+How to translate Wordpress XLIFF files
+如何翻译 Wordpress XLIFF 文件
+
+cpeishan
+website/documentation.html
+
+6618
+Procedure for using OmegaT to localize XLIFF files exported from Wordpress.
+使用 OmegaT使Wordpress XLIFF 文件本地化 的步骤
+
+cpeishan
+website/documentation.html
+
+6619
+Translating with Rainbow and OmegaT
+利用Rainbow和OmegaT翻译
+
+cpeishan
+website/documentation.html
+
+6620
+A step-by-step guide on how to use the Text Extraction and the Text Merging utilities from Rainbow to pre- and post-process files to be translated using OmegaT.
+有关如何使用Rainbow的文本提取和文本合并功能预处理和后处理文件, 如何使用 OmegaT 进行翻译的分步指南。
+
+cpeishan
+website/documentation.html
+
+6621
+These utilities enable OmegaT to be used to translate file formats for which XLIFF conversion filters are available.
+这些实用程序使 OmegaT 可用于翻译 XLIFF 转换筛选器可用的文件格式。
+
+cpeishan
+website/documentation.html
+
+6622
+Training videos
+培训视频
+
+cpeishan
+website/documentation.html
+
+6623
+Playlist of OmegaT videos
+OmegaT 视频播放列表
+
+cpeishan
+website/documentation.html
+
+6624
+OmegaT videos on the Qabiria YouTube channel.
+OmegaT 视频在 Qabiria YouTube 频道。
+
+cpeishan
+website/documentation.html
+
+6625
+OmegaT introduction tutorial
+OmegaT简介教程
+
+cpeishan
+website/documentation.html
+
+6626
+An introductory video to OmegaT in English by John Moran.
+John Moran的OmegaT 简介的英语视频。
+
+cpeishan
+website/documentation.html
+
+6627
+Video 1
+视频1
+
+cpeishan
+website/documentation.html
+
+6628
+From the YouTube OmegaT series by Miguel Navarro (in Spanish).
+YouTube OmegaT 系列：Miguel Navarro (西班牙语)
+
+cpeishan
+website/documentation.html
+
+6629
+Video 2
+视频2
+
+cpeishan
+website/documentation.html
+
+6630
+From the YouTube OmegaT series by Miguel Navarro (in Spanish).
+YouTube OmegaT 系列：Miguel Navarro (西班牙语)
+
+cpeishan
+website/documentation.html
+
+6631
+Video 3
+视频3
+
+cpeishan
+website/documentation.html
+
+6632
+From the YouTube OmegaT series by Miguel Navarro (in Spanish).
+YouTube OmegaT 系列：Miguel Navarro (西班牙语)
+
+cpeishan
+website/documentation.html
+
+6633
+Books
+书籍
+
+cpeishan
+website/documentation.html
+
+6634
+Guida completa a OmegaT: tecniche, trucchi e consigli per traduttori e project manager
+OmegaT 完整指南: 翻译人员和项目经理的技术、技巧
+
+cpeishan
+website/documentation.html
+
+6635
+By Marco Cevoli and Sergio Alasia.
+Marco Cevoli 和 Sergio Alasia.
+
+Zenobia Fang
+website/documentation.html
+
+6636
+(In Italian)
+(意大利语)
+
+cpeishan
+website/documentation.html
+
+6637
+Training
+培训
+
+cpeishan
+website/documentation.html
+
+6638
+Self-paced online training course in English (for purchase)
+随到随看的英语在线培训课程 (购买)
+
+cpeishan
+website/documentation.html
+
