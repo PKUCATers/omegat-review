@@ -1,0 +1,938 @@
+6907
+It owes its origins to the use of MS Word as an interface for the Trados CAT tool.
+最早是由于将 MS Word 用作 Trados CAT 工具的接口，才产生了 RTF 这种格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6908
+In addition to Trados, however, several other CAT tools also support the "uncleaned RTF" format, notably Wordfast Classic.
+然而，除了Trados之外，其他几种CAT工具也支持“不清晰的RTF”格式，特别是Wordfast Classic。
+
+lenovo
+website/howtos/compatibility.html
+
+6909
+Essentially, this format consists of an RTF file in which the source and target segments alternate.
+本质上，这种格式由一个RTF文件组成，其中源片段和目标片段交替出现。
+
+lenovo
+website/howtos/compatibility.html
+
+6910
+These segments are marked and delimited by special characters and MS Word formatting styles.
+这些段由特殊字符和MS Word格式化样式进行标记和分隔。
+
+lenovo
+website/howtos/compatibility.html
+
+6911
+A script (for Windows only) and procedure was recently (2008) developed enabling OmegaT users to produce Trados uncleaned RTF files for delivery at the end of their translation stage.
+最近（2008年）开发了一个脚本（仅适用于Windows）和程序，使OmegaT用户能够在其翻译阶段结束时生成Trados未清理的RTF文件以供交付
+
+lenovo
+website/howtos/compatibility.html
+
+6912
+For details, see the <a0>"Exporting from OmegaT to uncleaned RTF" HOWTO</a0>.
+有关详细信息，请参阅<a0>“从OmegaT导出到未清除的RTF”HOWTO </ a0>。
+
+lenovo
+website/howtos/compatibility.html
+
+6913
+Trados TTX
+未翻译
+
+没有修改者
+website/howtos/compatibility.html
+
+6914
+Trados TTX format is the counterpart to the "uncleaned RTF" format for Trados Tag Editor, which unlike Trados Workbench, does not work in direct combination with MS Word.
+Trados TTX格式与Trados Workbench不同，Trados Tag Editor的“未清理RTF”格式与MS Word不直接结合。
+
+lenovo
+website/howtos/compatibility.html
+
+6915
+TTX is an XML-based format.
+TTX是一种基于XML的格式。
+
+lenovo
+website/howtos/compatibility.html
+
+6916
+An <a0>OmegaT plugin</a0> is now available by means of which this format can be handled in OmegaT.
+现在可以使用一个<a0> OmegaT插件</ a0>，通过它可以在OmegaT中处理这种格式。
+
+lenovo
+website/howtos/compatibility.html
+
+6917
+Wordfast TXML
+Wordfast TXML
+
+钢
+website/howtos/compatibility.html
+
+6918
+Wordfast TXML is the native internal format of Wordfast's new Wordfast Professional (also known as Wordfast 6.0).
+Wordfast TXML是Wordfast新的Wordfast Professional（也称为Wordfast 6.0）的本机内部格式。
+
+lenovo
+website/howtos/compatibility.html
+
+6919
+As its name suggests, it is an XML-based format.
+顾名思义，它是一种基于XML的格式。
+
+lenovo
+website/howtos/compatibility.html
+
+6920
+It is supported by OmegaT.
+它由OmegaT支持。
+
+lenovo
+website/howtos/compatibility.html
+
+6921
+Déjà Vu "External View"
+Déjà Vu "外部视图"
+
+lenovo
+website/howtos/compatibility.html
+
+6922
+An interesting feature of Déjà Vu DVX is its "External View" file format.
+DéjàVu DVX的一个有趣功能是其“外部视图”文件格式.
+
+lenovo
+website/howtos/compatibility.html
+
+6923
+This file format enables OmegaT users to deliver bilingual files to users of Déjà Vu DVX, who are then able to edit them further or to incorporate them into automated workflows.
+这种文件格式使得OmegaT用户能够向DéjàVu DVX用户提供双语文件，然后他们可以进一步编辑它们或将它们合并到自动化工作流程中。
+
+lenovo
+website/howtos/compatibility.html
+
+6924
+For details, see the <a0>Déjà Vu "External View" HOWTO</a0>.
+有关详细信息，请参阅<a0>DéjàVu“外部视图”HOWTO </ a0>
+
+lenovo
+website/howtos/compatibility.html
+
+6925
+Copyright Marc Prior 2009-2014
+版权所有Marc Prior 2009-2014
+
+lenovo
+website/howtos/compatibility.html
+
+6926
+This HowTo describes how to use OmegaT in conjunction with Atril's Déjà Vu CAT tool.
+本HowTo介绍如何将OmegaT与Atril的DéjàVu CAT工具结合使用。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6927
+Background situation
+背景情况。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6928
+You are an OmegaT user and are requested by a customer to deliver a translation in Déjà Vu's file format.
+您是OmegaT用户，并且被客户请求以DéjàVu的文件格式提供翻译。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6929
+This can be achieved (for Déjà Vu DVX) by use of Déjà Vu's "External View" file format.
+这可以通过使用DéjàVu的“外部视图”文件格式实现（对于DéjàVu DVX）。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6930
+Déjà Vu "External View"
+Déjà Vu "外部视图"
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6931
+The Déjà Vu "External View" file format is a feature of Déjà Vu DVX.
+DéjàVu“外部视图”文件格式是DéjàVu DVX的一项功能。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6932
+It enables editors who do not possess Déjà Vu to edit translations produced in Déjà Vu in such a way that amendments can be reincorporated easily.
+.
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6933
+In the same way, users of CAT tools, including OmegaT, who do not possess Déjà Vu can translate files prepared by a Déjà Vu user.
+它使不具备DéjàVu的编辑能够修改DéjàVu中的翻译，从而可以轻松地重新修改修改。谁不拥有DéjàVu可以翻译由DéjàVu用户准备的文件。同样，不具备DéjàVu的CAT工具（包括OmegaT）的用户可以翻译由DéjàVu用户准备的文件。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6934
+A Déjà Vu "External View" file takes the form of an RTF file containing a multi-column table, including columns for the source and target text in which each segment occupies a table cell.
+DéjàVu“外部视图”文件采用包含多列表格的RTF文件的格式，其中包括源文本和目标文本的列，其中每个段占用一个表格单元格。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6935
+In an as-yet untranslated "External View" file, the target column is empty.
+在尚未翻译的“外部视图”文件中，目标列是空的。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6936
+A "translated" External View file is produced by entering the translation in the target column.
+通过在目标列中输入翻译来生成“翻译的”外部视图文件。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6937
+To translate the file in OmegaT, proceed as follows:
+要翻译OmegaT中的文件，请按以下步骤操作：
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6938
+1.
+1.
+
+Fu Rhong
+website/howtos/compatibility_deja_vu.html
+
+6939
+Convert the file from RTF to OpenOffice.org format.
+将文件从RTF转换为OpenOffice.org格式。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6940
+2.
+2.
+
+Fu Rhong
+website/howtos/compatibility_deja_vu.html
+
+6941
+Make a copy of the External View file, and delete from it the content of all columns except the source-text column.
+复制外部视图文件，并从中删除除源文本列以外的所有列的内容。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6942
+3.
+3.
+
+钢
+website/howtos/compatibility_deja_vu.html
+
+6943
+Translate this file in OmegaT in the usual way.
+以通常的方式在OmegaT中翻译此文件。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6944
+Inline tags within segments take the form of serial numbers within curly brackets, i.e. {1}, {2}, etc.
+段内的内联标签采用大括号内的序列号形式，即{1}，{2}等。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6945
+Be careful to preserve these in the same way that you would handle OmegaT's own inline tags (the inline tag functionality of OmegaT, such as the tag validation function, is not available in this case, however).
+要小心保持这些，就像处理OmegaT自己的内嵌标签一样（OmegaT的内联标签功能，例如标签验证功能，但在这种情况下不可用）。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6946
+4.
+4.
+
+Fu Rhong
+website/howtos/compatibility_deja_vu.html
+
+6947
+After completing the translation and creating the translated documents, copy the translated column from the translated file back into the <i0>target</i0> column of the original file.
+完成翻译并创建翻译后的文档后，将已翻译的列从翻译后的文件中复制回原始文件的<i0>目标</ i0>列
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6948
+5.
+5.
+
+Fu Rhong
+website/howtos/compatibility_deja_vu.html
+
+6949
+Convert the file back to RTF format.
+将文件转换回RTF格式。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6950
+In order for this procedure to be used, the Déjà Vu user must prepare the source text file and supply it to the translator in the Déjà Vu "External View" format.
+为了使用此程序，DéjàVu用户必须准备源文本文件并以DéjàVu“外部视图”格式将其提供给翻译人员。
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6951
+More information on the format and the procedure for its creation, for both users of Déjà Vu and of other CAT tools, can be found on the <a0>relevant Atril page</a0>, and on the helpful <a1>blog maintained by Kevin Lossner</a1>.
+有关DéjàVu用户和其他CAT工具的格式和创建过程的更多信息可以在<a0>相关的Atril页面</ a0>以及由<a1>相关维护的有用<a1>博客上找到。 凯文洛斯纳</ a1>
+
+lenovo
+website/howtos/compatibility_deja_vu.html
+
+6952
+Copyright Marc Prior 2009-2011
+版权归属于Marc Prior 2009-2011
+
+Zoe
+website/howtos/compatibility_deja_vu.html
+
+6953
+This HowTo describes how to compile OmegaT from the source code.
+这篇如何描述如何从源代码编译OmegaT。
+
+xulihang
+website/howtos/compiling_from_source.html
+
+6954
+OmegaT is supplied ready-compiled for a number of platforms, including a cross-platform version.
+OmegaT是为许多平台提供的现成编译版本，包括跨平台版本。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6955
+Users do not therefore need to compile OmegaT themselves.
+用户因此不需要自己编译OmegaT。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6956
+Compiling OmegaT is relevant for developers who wish to make modifications of their own to its code.
+编译OmegaT对希望对自己的代码进行修改的开发人员很重要。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6957
+1.
+1.
+
+Fu Rhong
+website/howtos/compiling_from_source.html
+
+6958
+Download and install the Java Development Kit (JDK)
+下载并安装Java开发工具包（JDK )
+
+liufang
+website/howtos/compiling_from_source.html
+
+6959
+The <a0>Java Development Kit</a0> is required.
+<a0> Java开发工具包</a0>是必需的。
+
+xulihang
+website/howtos/compiling_from_source.html
+
+6960
+For OmegaT 4.0 and later, no additional software is required.
+对于OmegaT 4.0及更高版本，不需要额外的软件。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6961
+Earlier versions of OmegaT require <a0>Apache Ant</a0>.
+早期版本的OmegaT需要<a0> Apache Ant </a0>。
+
+xulihang
+website/howtos/compiling_from_source.html
+
+6962
+You may have to set your <c0>JAVA_HOME</c0> environment variable to point to the location of the JDK.
+您可能必须将您的<c0> JAVA_HOME </c0>环境变量设置为指向JDK的位置。
+
+xulihang
+website/howtos/compiling_from_source.html
+
+6963
+2.
+2.
+
+Fu Rhong
+website/howtos/compiling_from_source.html
+
+6964
+Compile the code
+编译代码
+
+liufang
+website/howtos/compiling_from_source.html
+
+6965
+Open a command-line window (console, DOS window).
+打开命令行窗口（控制台，DOS窗口）。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6966
+Navigate to the root of the OmegaT source code (the folder containing the file <c0>build.gradle</c0>), e.g.
+例如，导航到OmegaT源代码的根目录（包含文件<c0> build.gradle </c0>的文件夹）。
+
+xulihang
+website/howtos/compiling_from_source.html
+
+6967
+cd C:\My Documents\MyOmegat\OmegaT_<version>_Beta_Source
+cd C：\ My Documents \ MyOmegat \ OmegaT_ <version> _Beta_Source
+
+liufang
+website/howtos/compiling_from_source.html
+
+6968
+OmegaT 4.0 or later
+OmegaT 4.0或更高版本
+
+liufang
+website/howtos/compiling_from_source.html
+
+6969
+You can run OmegaT directly from the command line with
+您可以直接从命令行运行OmegaT
+
+liufang
+website/howtos/compiling_from_source.html
+
+6970
+gradlew run
+gradlew运行
+
+liufang
+website/howtos/compiling_from_source.html
+
+6971
+If this is all you're interested in, you can skip to step 3a.
+如果这是你感兴趣的所有内容，你可以跳到步骤3a。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6972
+To build the OmegaT program and all associated files, instead do
+而不是建立OmegaT程序和所有相关的文件。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6973
+gradlew installDist
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6974
+The results will be in the <c0>build\install\OmegaT</c0>.
+结果将在<c0> build \ install \ OmegaT </ c0>中显示。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6975
+Older versions of OmegaT
+旧版本的OmegaT
+
+liufang
+website/howtos/compiling_from_source.html
+
+6976
+From within the root folder, execute Apache Ant by entering the ant executable.
+从根文件夹中，通过输入ant可执行文件来执行Apache Ant。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6977
+It may be necessary to enter the full path, e.g.:
+可能需要输入完整路径，例如：
+
+liufang
+website/howtos/compiling_from_source.html
+
+6978
+C:\Program Files\apache-ant-1.7.0-bin\apache-ant-1.7.0\bin\ant
+C：\ Program Files \ apache-ant-1.7.0-bin \ apache-ant-1.7.0 \ bin \ ant
+
+liufang
+website/howtos/compiling_from_source.html
+
+6979
+If the code compiles successfully, you will see the <c0>BUILD SUCCESSFUL</c0> message.
+如果代码编译成功，您将看到<c0> BUILD SUCCESSFUL </ c0>消息。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6980
+If not, debugging messages will be shown which will (hopefully) provide some idea of where the problem is.
+如果没有，则会显示调试消息，它将（希望）提供有关问题出现的一些信息。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6981
+If your code has compiled successfully, the compiled OmegaT is placed in:
+如果你的代码编译成功，编译后的OmegaT被放入：
+
+liufang
+website/howtos/compiling_from_source.html
+
+6982
+OmegaT_<version>_Beta_Source\dist
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6983
+Still in your command-line window, change to this folder, e.g. with:
+仍然在您的命令行窗口中，切换到此文件夹，例如有：
+
+liufang
+website/howtos/compiling_from_source.html
+
+6984
+cd C:\My Documents\MyOmegat\OmegaT_<version>_Beta_Source\dist
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6985
+and launch OmegaT with:
+并推出OmegaT：
+
+liufang
+website/howtos/compiling_from_source.html
+
+6986
+java -jar OmegaT.jar
+ java -jar OmegaT.jar
+
+think
+website/howtos/compiling_from_source.html
+
+6987
+3a.
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6988
+1st example modification: changing the colour of segment highlighting
+第一个示例修改：更改段高亮的颜色
+
+liufang
+website/howtos/compiling_from_source.html
+
+6989
+In the folder <c0>src/org/omegat/gui/editor</c0> open the file <c1>SegmentBuilder.java</c1> in a text editor.
+在文件夹<c0> src / org / omegat / gui / editor </ c0>中，在文本编辑器中打开文件<c1> SegmentBuilder.java </ c1>。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6990
+Find the lines:
+查找到以下行：
+
+anton
+website/howtos/compiling_from_source.html
+
+6991
+return Styles.createAttributeSet(fg, Styles.COLOR_GREEN, true, null);
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6992
+and
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6993
+b = Styles.COLOR_GREEN;
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+6994
+and replace <c0>COLOR_GREEN</c0> with <c1>COLOR_BLUE</c1>.
+并用<c1> COLOR_BLUE </ c1>替换<c0> COLOR_GREEN </ c0>。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6995
+In the folder <c0>src/org/omegat/util/gui</c0> open the file <c1>Styles.java</c1> in a text editor.
+在文件夹<c0> src / org / omegat / util / gui </ c0>中，在文本编辑器中打开文件<c1> Styles.java </ c1>。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6996
+Find the line
+找到该行
+
+liufang
+website/howtos/compiling_from_source.html
+
+6997
+public static final Color COLOR_GREEN = new Color(192, 255, 192);
+public static final Color COLOR_GREEN = new Color（192，255，192）;
+
+liufang
+website/howtos/compiling_from_source.html
+
+6998
+Replace <c0>COLOR_GREEN</c0> with <c1>COLOR_BLUE</c1> and <c2>192, 255, 192</c2> with <c3>225, 225, 255</c3>.
+用<c3> 225,225,255 </ c3>替换<c0> COLOR_GREEN </ c0>与<c1> COLOR_BLUE </ c1>和<c2> 192,255,192 </ c2>。
+
+liufang
+website/howtos/compiling_from_source.html
+
+6999
+3b.
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+7000
+2nd example modification: increasing the number of fuzzy matches displayed from five to ten
+第二个示例修改：将显示的模糊匹配数量从五个增加到十个
+
+liufang
+website/howtos/compiling_from_source.html
+
+7001
+In the folder <c0>/src/org/omegat/util</c0> open the file <c1>OConsts.java</c1> in a text editor.
+在文件夹<c0> / src / org / omegat / util </ c0>中，在文本编辑器中打开文件<c1> OConsts.java </ c1>。
+
+liufang
+website/howtos/compiling_from_source.html
+
+7002
+Find the lines:
+查找到以下行：
+
+anton
+website/howtos/compiling_from_source.html
+
+7003
+/** Number of fuzzy matches to display */
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+7004
+public static final int MAX_NEAR_STRINGS = 5;
+未翻译
+
+没有修改者
+website/howtos/compiling_from_source.html
+
+7005
+and replace <c0>= 5</c0> with <c1>= 10</c1>.
+并用<c1> = 10 </ c1>替换<c0> = 5 </ c0>。
+
+liufang
+website/howtos/compiling_from_source.html
+
+7006
+For both examples, compile and test as described above.
+对于这两个示例，如上所述进行编译和测试。
+
+liufang
+website/howtos/compiling_from_source.html
+
+7007
+Copyright Marc Prior 2011-2012
+Copyright 2011-2012版权所有
+
+liufang
+website/howtos/compiling_from_source.html
+
+7008
+This HowTo provides tips on translating MS Office 2007 and later (Office Open XML, .docx) files in OmegaT.
+本HowTo提供有关在OmegaT中翻译MS Office 2007及更高版本（Office Open XML，.docx）文件的提示。
+
+liufang
+website/howtos/docx.html
+
+7009
+Background
+背景
+
+xulihang
+website/howtos/docx.html
+
+7010
+With the advent of Microsoft Office 2007, Microsoft Word, Excel and Powerpoint have new default file formats.
+随着Microsoft Office 2007的出现，Microsoft Word，Excel和Powerpoint具有新的默认文件格式。
+
+liufang
+website/howtos/docx.html
+
+7011
+These formats are formally known as "Office Open XML", and have the extensions .docx, .xlsx and .pptx respectively.
+这些格式正式称为“Office Open XML”，分别具有扩展名.docx，.xlsx和.pptx。
+
+liufang
+website/howtos/docx.html
+
+7012
+The formats are also used in MS Office 2010.
+这些格式也在MS Office 2010中使用。
+
+liufang
+website/howtos/docx.html
+
+7013
+For the sake of convenience, they will be referred to below as "MS Office 2007 file formats".
+为了方便起见，下面将它们称为“MS Office 2007文件格式”。
+
+liufang
+website/howtos/docx.html
+
+7014
+From Version 1.7.1 onwards, OmegaT has been able to handle Microsoft Office 2007 files directly, without conversion.
+从版本1.7.1开始，OmegaT能够直接处理Microsoft Office 2007文件，无需转换。
+
+liufang
+website/howtos/docx.html
+
+7015
+With the appearance of OmegaT Version 2.1.8, the handling of this file format in OmegaT also became much more user-friendly.
+随着OmegaT 2.1.8版的出现，在OmegaT中处理这种文件格式也变得更加用户友好。
+
+liufang
+website/howtos/docx.html
+
+7016
+The advantages of using the .docx format in conjunction with OmegaT
+与OmegaT结合使用.docx格式的优势
+
+liufang
+website/howtos/docx.html
+
+7017
+As customers/authors upgrade Microsoft Office/Word to more recent versions, translators can expect to receive files increasingly in the new format.
+随着客户/作者将Microsoft Office / Word升级到更新版本，翻译人员可能希望以新格式越来越多地接收文件。
+
+liufang
+website/howtos/docx.html
+
+7018
+Unlike the legacy .doc, .xls and .ppt formats, these files can be handled directly in OmegaT, with no loss of formatting as a result of conversion to and from other formats.
+与传统的.doc，.xls和.ppt格式不同，这些文件可以直接在OmegaT中处理，而不会由于转换为其他格式而导致格式丢失。
+
+liufang
+website/howtos/docx.html
+
+7019
+The new format can also serve as a useful way of handling the legacy .doc, .xls and .ppt formats, since they can be converted to their MS Office 2007 counterparts, translated in OmegaT, and converted back again.
+新格式还可以作为处理旧版.doc，.xls和.ppt格式的有用方式，因为它们可以转换为其MS Office 2007对应版本，在OmegaT中翻译并再次转换。
+
+liufang
+website/howtos/docx.html
+
+7020
+This procedure is therefore an alternative for translators who would prefer not to use OpenOffice.org for this purpose.
+因此，对于不希望为此使用OpenOffice.org的翻译人员而言，此过程是一种选择。
+
+liufang
+website/howtos/docx.html
+
+7021
+Converting to MS Office 2007 format
+转换为MS Office 2007格式
+
+liufang
+website/howtos/docx.html
+
+7022
+You can convert MS Office 1997/2000/2003/XP files to MS Office 2007 format by opening them in MS Office 2007 and saving them with "Save As" in the new format.
+您可以将MS Office 1997/2000/2003 / XP文件转换为MS Office 2007格式，方法是在MS Office 2007中打开它们，并以新格式保存为“另存为”。
+
+liufang
+website/howtos/docx.html
+
+7023
+(Since this is now the standard format, it is simply described as Word, Excel or Powerpoint in MS Office 2007).
+（由于这是标准格式，因此在MS Office 2007中简单描述为Word，Excel或Powerpoint）。
+
+liufang
+website/howtos/docx.html
+
+7024
+For users who do not have MS Office 2007 or 2010 and do not wish to buy it, Microsoft provides a <a0>compatibility plug-in</a0> for earlier versions.
+对于没有MS Office 2007或2010并且不想购买的用户，Microsoft为早期版本提供<a0>兼容性插件</ a0>。
+
+liufang
+website/howtos/docx.html
+
+7025
+Linux users: both MS Office 2007 and the Microsoft compatibility plug-in run on <a0>Crossover Linux.</a0>
+Linux用户：MS Office 2007和Microsoft兼容插件均在<a0> Crossover Linux上运行。</ a0>
+
+liufang
+website/howtos/docx.html
+
+7026
+Points to note when using the .docx, .xlsx and .pptx formats in OmegaT
+在OmegaT中使用.docx，.xlsx和.pptx格式时需要注意的事项
+
+liufang
+website/howtos/docx.html
+
+7027
+In OmegaT versions prior to 2.1.8, each formatting change in an MS Office 2007 file resulted in a long series of multiple tags, which often made handling this file format impractical.
+在2.1.8之前的OmegaT版本中，MS Office 2007文件中的每个格式更改都会导致一连串多个标签，这通常会导致处理此文件格式不切实际。
+
+liufang
+website/howtos/docx.html
+
+7028
+As of version 2.1.8, by default, these multiple tags are now aggregated (condensed) into a single tag.
+从版本2.1.8开始，默认情况下，这些多个标签现在被汇总（压缩）成一个标签。
+
+liufang
+website/howtos/docx.html
+
+7029
+Users wishing to translate MS Office 2007 files should therefore upgrade to OmegaT version 2.1.8 or later.
+因此，希望翻译MS Office 2007文件的用户应该升级到OmegaT 2.1.8或更高版本。
+
+liufang
+website/howtos/docx.html
+
+7030
+(The greater ease of tag handling with .docx files comes at the cost of a slight loss in control over formatting.
+（使用.docx文件进行标签处理的难度越来越大，这是以格式化控制方面的轻微损失为代价的。
+
+liufang
+website/howtos/docx.html
+
+7031
+For example, without the "aggregate tags" function, where a word in the source text is in bold and italics, the translator could choose to render it in bold only, or in italics only.
+例如，如果没有“聚合标签”功能，则源文本中的单词以粗体和斜体显示，译者可以选择仅以粗体显示，或仅以斜体显示。
+
+liufang
+website/howtos/docx.html
+
+7032
+With the "aggregate tags" function enabled, this is not possible.
+启用“聚合标签”功能后，这是不可能的。
+
+liufang
+website/howtos/docx.html
+
+7033
+Most users will probably find that the greater ease of use outweighs this drawback.)
+大多数用户可能会发现更大的易用性超过了这个缺点。)
+
+liufang
+website/howtos/docx.html
+
+7034
+The .docx format is also prone to the introduction of "nuisance" formatting code which results in unwanted and unnecessary tags appearing in OmegaT's editor pane.
+.docx格式也容易引入“滋扰”格式代码，导致OmegaT编辑器窗格中出现不需要的和不必要的标签。
+
+liufang
+website/howtos/docx.html
+
+7035
+Since these are inconvenient during translation, it is worthwhile trying to remove these nuisance tags before beginning translation in OmegaT.
+由于这些在翻译过程中不方便，因此在开始OmegaT翻译之前，尝试去除这些令人讨厌的标签是值得的。
+
+liufang
+website/howtos/docx.html
+
+7036
+OmegaT shares this problem with other CAT tools that handle the .docx format, and the solutions are similar or the same.
+OmegaT与处理.docx格式的其他CAT工具共享此问题，并且解决方案相似或相同。
+
+liufang
+website/howtos/docx.html
+
+7037
+How to remove unwanted formatting code from .docx files
+如何从.docx文件中删除不需要的格式代码
+
+liufang
+website/howtos/docx.html
+
+7038
+Word 2007 marks any words not in its spelling dictionary with tags, so even a couple of words which it considers to be mis-spelt will result in a plethora of tags.
+Word 2007标记任何不在其拼写词典中的单词，因此即使是一些它认为拼错的单词也会导致过多的标签。
+
+liufang
+website/howtos/docx.html
+
+7039
+If every single word in OmegaT is enclosed within tags, it is possible that Word has attempted to spell-check the text without access to a suitable spelling dictionary, and has therefore marked each word as mis-spelt.
+如果OmegaT中的每个单词都包含在标签内，Word可能会拼写检查文本而无法访问合适的拼写字典，因此将每个单词标记为拼写错误。
+
+liufang
+website/howtos/docx.html
+
+7040
+One solution is to switch off automatic spelling checking in Word.
+一种解决方案是关闭Word中的自动拼写检查。
+
+liufang
+website/howtos/docx.html
+
