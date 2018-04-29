@@ -1,0 +1,939 @@
+7979
+The tags are displayed in a different font in order to make them less intrusive.
+标签以一种不同的字体显示，旨在减少干扰性。
+
+Zoe
+website/howtos/text_export.html
+
+7980
+Unlike te-notags, it is possible for the translator to work in this window, then copy and paste the content in full to the OmegaT editor pane.
+与te-notags不同，翻译者可以在此窗口中工作，然后将内容全部复制并粘贴到OmegaT编辑器窗格中。
+
+10353
+website/howtos/text_export.html
+
+7981
+te-gloss-highlight
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7982
+This script reads the content of a glossary file and highlights any terms found in it in the current (source) segment.
+该脚本会读取术语表文件的内容，并高亮显示当前（源）片段中找到的所有术语。
+
+10353
+website/howtos/text_export.html
+
+7983
+The glossary file must consist of two columns only, have the name GLOSS.utf8, and be present in the /script folder.
+词汇表文件必须仅包含两列，名称为GLOSS.utf8，并且存于/ script文件夹中。
+
+10353
+website/howtos/text_export.html
+
+7984
+te-gloss-subst
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7985
+As for te-gloss-highlight, but substitutes the source terms in the glossary with the target terms.
+与 te-gloss-highlight类似，但会用目标术语替换词汇表中的源术语。
+
+10353
+website/howtos/text_export.html
+
+7986
+te-gloss-subst-highlight
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7987
+Combines the substitution and highlighting functions of te-gloss-highlight and te-gloss-subst.
+结合te-gloss-highlight和te-gloss-subst的替换和高亮显示功能。
+
+10353
+website/howtos/text_export.html
+
+7988
+Programming in tcl/tk
+在tcl/tk中编程
+
+10353
+website/howtos/text_export.html
+
+7989
+Tcl/tk has a number of advantages as a scripting language:
+Tcl/tk作为一种脚本语言，具有很多优势：
+
+10353
+website/howtos/text_export.html
+
+7990
+- It is easy to learn<br0/>
+- 易于学习<br0/>
+
+10353
+website/howtos/text_export.html
+
+7991
+- It is free<br1/>
+-免费<br1/>
+
+10353
+website/howtos/text_export.html
+
+7992
+- It is widely used, so help can be found on the Internet<br2/>
+-应用广泛，可在网上找到帮助<br2/>
+
+10353
+website/howtos/text_export.html
+
+7993
+- The Tk component makes it easy to produce graphical user interfaces<br3/>
+-Tk部分的应用便于产出图形用户界界面<br3/>
+
+10353
+website/howtos/text_export.html
+
+7994
+- There are many good books and other resources available for it (at least in English)<br4/>
+-有很多优质可用的书籍和其它资源（至少有很多英文资源）<br4/>
+
+10353
+website/howtos/text_export.html
+
+7995
+- It is string-oriented, making it particularly suitable for applications involving text
+- 它是面向字符串的，使其特别适用于涉及文本的应用程序
+
+10353
+website/howtos/text_export.html
+
+7996
+For beginners, several online tutorials are available, such as:
+对于初学者来说，网上有许多可用的教程，如：
+
+10353
+website/howtos/text_export.html
+
+7997
+<a0>www.dci.clrc.ac.uk/Publications/Cookbook/index.html</a0><br1/>
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7998
+<a2>www.tcl.tk/man/tcl8.5/tutorial/tcltutorial.html</a2><br3/>
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+7999
+<a4>www.tutorialspoint.com/tcl-tk/</a4>
+未翻译
+
+没有修改者
+website/howtos/text_export.html
+
+8000
+If you are serious about learning tcl/tk, "Practical Programming in Tcl and Tk" by Brent Welch, ISBN: 0-13-038560-3 is strongly recommended.
+如果你是非常认真地想要学习tcl/tk，强烈推荐Brent Welch编写的《Practical Programming in Tcl and Tk》 ， ISBN: 0-13-038560-3.
+
+10353
+website/howtos/text_export.html
+
+8001
+This is likely to be a little too technical for complete newcomers to programming, but after working through one of the online tutorials, they should find it useful.
+这对变成新手来说技术性可能过强，但是在学习完其中的一个在线教程后，他们会发现这是很有用的。.
+
+10353
+website/howtos/text_export.html
+
+8002
+Copyright Marc Prior 2009-2011
+版权归属于Marc Prior 2009-2011
+
+Zoe
+website/howtos/text_export.html
+
+8003
+The tokenizer plug-in was integrated into OmegaT in version 3.0.0.
+分词器插件已集成到3.0.0版的OmegaT中。
+
+10353
+website/howtos/tokenizer.html
+
+8004
+The following information is therefore applicable only if you are using a version of OmegaT earlier than 3.0.0.<br0/>
+以下信息仅当你使用早于3.0.0的OmegaT版本时才适用。<br0/>
+
+10353
+website/howtos/tokenizer.html
+
+8005
+If you have been using the tokenizer plug-in with an earlier version of OmegaT and have upgraded to version 3.0.0 or later of OmegaT, delete the tokenizer plug-in files from your plug-in folder.
+如果你曾经使用OmegaT的早期版本的分词器插件，并现在已升级到OmegaT的3.0.0版或更高版本，请从插件文件夹中删除分词器插件文件。
+
+10353
+website/howtos/tokenizer.html
+
+8006
+The OmegaT tokenizer is a plugin for OmegaT.
+OmegaT tokenizer是OmegaT的一个插件。
+
+10353
+website/howtos/tokenizer.html
+
+8007
+It provides better fuzzy and glossary matches in OmegaT, by computing the roots ("stemming") of the source words.
+它通过计算源词的词根（“词干”）来为OmegaT提供更好的模糊匹配和术语表匹配。
+
+10353
+website/howtos/tokenizer.html
+
+8008
+For example, it will recognize inflected words in texts and display the corresponding glossary entry, even if the glossary entry contains only the uninflected form of a word.
+例如，即使词汇表条目仅包含单词的原型，它也会识别文本中的变形词并显示相应的词汇表条目。
+
+
+10353
+website/howtos/tokenizer.html
+
+8009
+Preparation
+准备
+
+10353
+website/howtos/tokenizer.html
+
+8010
+Before using the tokenizer with OmegaT, you must first ensure that your version of OmegaT is suitable and prepared for use with it.
+在使用OmegaT的分词器之前，你必须首先确保你的OmegaT版本适配分词器，并已经做好了准备。
+
+10353
+website/howtos/tokenizer.html
+
+8011
+<s0>Webstart version of OmegaT</s0>: the tokenizer is not compatible with the Webstart version of OmegaT.
+<s0> Webstart版本的OmegaT</s0>:：分词器与Webstart版本的OmegaT不兼容。
+
+10353
+website/howtos/tokenizer.html
+
+8012
+If you wish to use the tokenizer, install the standard version of OmegaT (latest beta version) for your system.
+如果你希望使用分词器，请为你的系统安装标准版本的OmegaT（最新测试版）。 
+
+10353
+website/howtos/tokenizer.html
+
+8013
+<s0>OmegaT version 2.1.0 and older</s0>: the current tokenizer is not compatible with these versions.
+<s0>OmegaT 2.1.0 及之前版本</s0>：当前的分词器不适配这些版本
+
+10353
+website/howtos/tokenizer.html
+
+8014
+(The tokenizer can be used with versions 2.0.x and 2.1.0, but this requires both a different version of the tokenizer, and a different installation procedure.) Users are advised to upgrade to the latest beta version of OmegaT.
+（分词器可以与版本2.0.x和2.1.0一起使用，但这需要不同版本的分词器以及不同的安装过程。）建议用户升级到OmegaT的最新测试版。
+
+10353
+website/howtos/tokenizer.html
+
+8015
+<s0>Windows versions of OmegaT</s0>: in order for OmegaT (any version) to be used with the tokenizer, it must be launched from a launch script file.
+<s0>Windows版本的 OmegaT</s0>：为了使OmegaT（任何版本）可以与分词器一起使用，它必须从启动脚本文件启动。
+
+10353
+website/howtos/tokenizer.html
+
+8016
+A launch script file is not supplied with the Windows OmegaT versions.
+Windows 版本的OmegaT不提供启动脚本文件。
+
+10353
+website/howtos/tokenizer.html
+
+8017
+If you are using the Windows version with JRE, download the file <a1>OmegaT_with_JRE.bat</a1>; If you are using the Windows version without JRE, download the file <a2>OmegaT_without_JRE.bat</a2>.
+如果你使用的是有JRE环境的Windows，下载名为<a1>OmegaT_with_JRE.bat</a1>的文件; 如果你使用的是没有JRE环境的Windows， 下载名为<a2>OmegaT_without_JRE.bat</a2>的文件.
+
+10353
+website/howtos/tokenizer.html
+
+8018
+After downloading, place the file in the main OmegaT folder (the folder containing the file OmegaT.jar).
+下载完成后，将文件放在OmegaT主文件夹（包含文件OmegaT.jar的文件夹）中。
+
+10353
+website/howtos/tokenizer.html
+
+8019
+<s0>Platform-neutral version (on Windows)</s0>: locate your OmegaT launch script file (OmegaT.bat).
+<s0>平台中立版本（Windows系统）</s0>: 找到OmegaT启动脚本文件（OmegaT.bat）。
+
+10353
+website/howtos/tokenizer.html
+
+8020
+<s0>Linux versions/systems</s0>: locate your OmegaT launch script file (OmegaT or OmegaT.sh).
+<s0>Linux 版本/系统</s0>：找到你的OmegaT启动脚本文件（OmegaT或OmegaT.sh）。
+
+10353
+website/howtos/tokenizer.html
+
+8021
+Check that OmegaT is launched when you execute the launch script file:<br0/>
+在执行启动脚本文件时检查是否启动了OmegaT<br0/>
+
+10353
+website/howtos/tokenizer.html
+
+8022
+- On Linux, on the command line<br1/>
+-在Linux系统上，使用命令行<br1/>
+
+10353
+website/howtos/tokenizer.html
+
+8023
+- On Windows, by clicking on the launch script file
+- 在Windows系统上，点击启动脚本文件
+
+10353
+website/howtos/tokenizer.html
+
+8024
+Installing the tokenizer
+安装分词器
+
+10353
+website/howtos/tokenizer.html
+
+8025
+After preparing for installation (see above), install the tokenizer as follows:
+做好安装准备工作之后（见上文），按照如下步骤安装分词器：
+
+10353
+website/howtos/tokenizer.html
+
+8026
+1.
+1.
+
+Fu Rhong
+website/howtos/tokenizer.html
+
+8027
+Download the <a0>tokenizer zip package (for OmegaT version 2.1.1 and later)</a0>.
+下载 <a0>分词器压缩包 (OmegaT 2.1.1 及之后版本适用）</a0>.
+
+10353
+website/howtos/tokenizer.html
+
+8028
+2.
+2.
+
+Fu Rhong
+website/howtos/tokenizer.html
+
+8029
+Unzip the files from the tokenizer zip package.
+从分词器压缩包中解压文件
+
+10353
+website/howtos/tokenizer.html
+
+8030
+3.
+3.
+
+钢
+website/howtos/tokenizer.html
+
+8031
+In the main OmegaT program folder (i.e. the folder containing the file OmegaT.jar), create a sub-folder called "plugins", if a sub-folder with this name does not already exist.
+在OmegaT主程序文件夹（即包含文件OmegaT.jar的文件夹）中，如果尚未存在名为“plugins”的子文件夹，则创建一个名为“plugins”的子文件夹。
+
+10353
+website/howtos/tokenizer.html
+
+8032
+Copy the files that you have unzipped from the tokenizer package directly into this sub-folder.
+把你从分词器压缩包中解压缩的文件直接复制到此子文件夹中。
+
+10353
+website/howtos/tokenizer.html
+
+8033
+4.
+4.
+
+Fu Rhong
+website/howtos/tokenizer.html
+
+8034
+Open your launch script file in a text editor.
+在文本编辑器中打开启动脚本文件。
+
+10353
+website/howtos/tokenizer.html
+
+8035
+Windows users (in particular): do <s0>not</s0> simply click on this file.
+（特别是）Windows用户： <s0>不要</s0> 直接点击此文件。
+
+10353
+website/howtos/tokenizer.html
+
+8036
+Instead, launch a text editor (such as Notepad or Wordpad), then open the launch script file with File > Open.
+相反，启动文本编辑器（例如记事本或写字板），然后使用“文件>打开”打开启动脚本文件。
+
+10353
+website/howtos/tokenizer.html
+
+8037
+You may also be able to right-click with the mouse on the file, then select a text editor in which to open it.
+你也可以在文件上单击鼠标右键，然后选择一个文本编辑器打开它。
+
+10353
+website/howtos/tokenizer.html
+
+8038
+5.
+5.
+
+Fu Rhong
+website/howtos/tokenizer.html
+
+8039
+The launch file script contains the OmegaT launch command.
+启动文件脚本包含OmegaT启动命令。
+
+10353
+website/howtos/tokenizer.html
+
+8040
+The basic form of this command is:
+该命令的基本形式为：
+
+10353
+website/howtos/tokenizer.html
+
+8041
+java -jar OmegaT.jar
+ java -jar OmegaT.jar
+
+think
+website/howtos/tokenizer.html
+
+8042
+Depending upon your system configuration, the launch command may be slightly different.
+根据您的系统配置，启动命令可能会稍有不同。
+
+10353
+website/howtos/tokenizer.html
+
+8043
+6.
+6.
+
+Fu Rhong
+website/howtos/tokenizer.html
+
+8044
+Choose a tokenizer from the following list, according to your <s0>source</s0> language:
+根据你的 <s0>源</s0> 语言，从以下列表中选择一个分词器：
+
+10353
+website/howtos/tokenizer.html
+
+8045
+org.omegat.plugins.tokenizer.LuceneArabicTokenizer<br0/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8046
+org.omegat.plugins.tokenizer.LuceneBrazilianTokenizer<br1/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8047
+org.omegat.plugins.tokenizer.LuceneChineseTokenizer<br2/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8048
+org.omegat.plugins.tokenizer.LuceneCJKTokenizer<br3/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8049
+org.omegat.plugins.tokenizer.LuceneCzechTokenizer<br4/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8050
+org.omegat.plugins.tokenizer.LuceneDutchTokenizer<br5/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8051
+org.omegat.plugins.tokenizer.LuceneFrenchTokenizer<br6/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8052
+org.omegat.plugins.tokenizer.LuceneGermanTokenizer<br7/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8053
+org.omegat.plugins.tokenizer.LuceneGreekTokenizer<br8/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8054
+org.omegat.plugins.tokenizer.LucenePersianTokenizer<br9/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8055
+org.omegat.plugins.tokenizer.LuceneSmartChineseTokenizer<br10/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8056
+org.omegat.plugins.tokenizer.LuceneRussianTokenizer<br11/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8057
+org.omegat.plugins.tokenizer.LuceneThaiTokenizer<br12/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8058
+org.omegat.plugins.tokenizer.SnowballDanishTokenizer<br13/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8059
+org.omegat.plugins.tokenizer.SnowballDutchTokenizer<br14/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8060
+org.omegat.plugins.tokenizer.SnowballEnglishTokenizer<br15/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8061
+org.omegat.plugins.tokenizer.SnowballFinnishTokenizer<br16/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8062
+org.omegat.plugins.tokenizer.SnowballFrenchTokenizer<br17/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8063
+org.omegat.plugins.tokenizer.SnowballGerman2Tokenizer<br18/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8064
+org.omegat.plugins.tokenizer.SnowballGermanTokenizer<br19/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8065
+org.omegat.plugins.tokenizer.SnowballHungarianTokenizer<br20/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8066
+org.omegat.plugins.tokenizer.SnowballItalianTokenizer<br21/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8067
+org.omegat.plugins.tokenizer.SnowballNorwegianTokenizer<br22/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8068
+org.omegat.plugins.tokenizer.SnowballPorterTokenizer<br23/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8069
+org.omegat.plugins.tokenizer.SnowballPortugueseTokenizer<br24/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8070
+org.omegat.plugins.tokenizer.SnowballRomanianTokenizer<br25/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8071
+org.omegat.plugins.tokenizer.SnowballRussianTokenizer<br26/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8072
+org.omegat.plugins.tokenizer.SnowballSpanishTokenizer<br27/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8073
+org.omegat.plugins.tokenizer.SnowballSwedishTokenizer<br28/>
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8074
+org.omegat.plugins.tokenizer.SnowballTurkishTokenizer
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8075
+Add the argument --ITokenizer= followed by the full name of this tokenizer (by copying the entire line, inserting a space) to the end of the launch command in your OmegaT launch script file.
+在你的OmegaT启动脚本文件中将参数-- ITokenizer =后面加该分词器的全名（复制整行，并插入一个空格）添加到启动命令的末尾
+
+10353
+website/howtos/tokenizer.html
+
+8076
+For example, to use the English tokenizer (when translating from English), your launch command might now be:
+例如，要使用英语分词器（从英语翻译成别的语言时），你的启动命令现在可能是：
+
+10353
+website/howtos/tokenizer.html
+
+8077
+java -jar OmegaT.jar %* --ITokenizer=org.omegat.plugins.tokenizer.SnowballEnglishTokenizer
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8078
+Or if you are translating from Turkish, it might now be:
+或者，当你要从土耳其语翻译成别的语言时，你的启动命令现在可能是：
+
+10353
+website/howtos/tokenizer.html
+
+8079
+java -jar OmegaT.jar %* --ITokenizer=org.omegat.plugins.tokenizer.SnowballTurkishTokenizer
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8080
+Important: this whole command must appear on one line (even if it appears to be on two lines in the display in which you are reading this).
+注意：这整个命令必须是一行（即使它在你正在阅读的显示器上可能显示为两行）。
+
+10353
+website/howtos/tokenizer.html
+
+8081
+7.
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8082
+Execute this file, and OmegaT should now launch with the tokenizer function.
+执行这个文件，现在再打开OmegaT ，应该就能使用分词功能了。
+
+10353
+website/howtos/tokenizer.html
+
+8083
+To test, check whether glossary entries are displayed even when the current OmegaT segment contains a term in an inflected form from that in the glossary.
+若要验证这一点，请检查在当前OmegaT片段中包含术语表中词汇的变形的情况下，词汇表术语是否仍能显示。
+
+10353
+website/howtos/tokenizer.html
+
+8084
+8.
+8.
+
+lenovo
+website/howtos/tokenizer.html
+
+8085
+If you wish to use different tokenizers because you translate from more than one language, create a separate OmegaT launch script file for each tokenizer you wish to use.
+如果你要从多种源语言进行翻译，因此你希望使用不同的分词器，请为你希望使用的每个分词器创建单独的OmegaT启动脚本文件。
+
+10353
+website/howtos/tokenizer.html
+
+8086
+Name the launch script files appropriately, for example "OmegaT-EN.bat" for the launch script file containing the command with the English tokenizer and "OmegaT-TR.bat" for the launch script file containing the command with the Turkish tokenizer.
+为启动脚本文件进行合适的命名，例如，把包含英语分词器命令的启动脚本文件命名为“OmegaT-EN.bat”,把包含土耳其语分词器命令的启动脚本文件命名为“OmegaT-TR.bat”
+
+10353
+website/howtos/tokenizer.html
+
+8087
+9.
+9.
+
+lenovo
+website/howtos/tokenizer.html
+
+8088
+In some cases, you may find that the source-language tokenizer interferes with the target-language spelling checker.
+在某些情况下，你可能会发现源语言标记器会干扰目标语言拼写检查器。
+
+10353
+website/howtos/tokenizer.html
+
+8089
+You can eliminate this problem by specifying a tokenizer for the target language as well (where available), with the argument --ITokenizerTarget=.
+你可以通过也为目标语言指定一个分词器（如果可用），并使用参数--ITokenizerTarget =来消除此问题。
+
+10353
+website/howtos/tokenizer.html
+
+8090
+For instance, if you are translating from Chinese to Dutch, try:
+例如，如果你要从汉语翻译成荷兰语，尝试：
+
+10353
+website/howtos/tokenizer.html
+
+8091
+java -jar OmegaT.jar %* --ITokenizer=org.omegat.plugins.tokenizer.LuceneChineseTokenizer --ITokenizerTarget=org.omegat.plugins.tokenizer.LuceneDutchTokenizer
+未翻译
+
+没有修改者
+website/howtos/tokenizer.html
+
+8092
+10.
+10.
+
+lenovo
+website/howtos/tokenizer.html
+
+8093
+After creating a launch script as described above, you can configure your system so that OmegaT is launched more conveniently, for example by creating a shortcut.
+在如上所述创建启动脚本之后，您可以配置你的系统以便更方便地启动OmegaT，例如创建快捷方式。
+
+10353
+website/howtos/tokenizer.html
+
+8094
+To create a shortcut in Windows:
+在Windows中创建快捷方式：
+
+10353
+website/howtos/tokenizer.html
+
+8095
+Right-click on the launch script (OmegaT.bat), then keeping the right mouse button depressed, drag the script to a convenient location, such as your desktop.
+右键单击启动脚本（OmegaT.bat），然后按住鼠标右键，将脚本拖到方便的位置，例如桌面。
+
+10353
+website/howtos/tokenizer.html
+
+8096
+When you release the right click, a dialog opens with a number of options.
+当你释放右键时，会打开一个对话框，其中包含多个选项。
+
+10353
+website/howtos/tokenizer.html
+
+8097
+Choose "Create Shortcuts Here".
+选择“在此创建快捷方式”。
+
+10353
+website/howtos/tokenizer.html
+
+8098
+Alternatively, right-click on the launch script.
+或者，右键单击启动脚本。
+
+10353
+website/howtos/tokenizer.html
+
+8099
+Select: "Send to", then select "Desktop (create shortcut)".
+选择：“发送到”，然后选择“桌面（创建快捷方式）”。
+
+10353
+website/howtos/tokenizer.html
+
+8100
+After creating and testing the shortcut, you can add it to the Start menu by dragging it there.
+在创建并测试快捷方式之后，你可以将其拖动到“开始”菜单，这样就可以将其添加到“开始”菜单中。
+
+10353
+website/howtos/tokenizer.html
+
+8101
+Copyright Marc Prior 2010-2011
+版权归属于Marc Prior 2010-2011
+
+10353
+website/howtos/tokenizer.html
+
+8102
+OmegaT <s0>the free translation memory tool</s0>
+OmegaT <s0>免费的翻译记忆工具</s0>
+
+10353
+website/index.html
+
+8103
+<a0>Download</a0> <a1>Get Started</a1>
+<a0>下载</a0> <a1>开始</a1>
+
+10353
+website/index.html
+
+8104
+×
+未翻译
+
+没有修改者
+website/index.html
+
+8105
+Get Started with OmegaT
+开始使用OmegaT
+
+10353
+website/index.html
+
+8106
+Video by <a0>CATguruEN</a0> (Dominique Pivard)
+视频 上传者 <a0>CATguruEN</a0> (Dominique Pivard)
+
+10353
+website/index.html
+
+8107
+Close
+关闭
+
+Fu Rhong
+website/index.html
+
+8108
+<s0>OmegaT</s0> is a free translation memory application written in Java.
+<s0>OmegaT</s0>是一个使用Java编写的免费翻译记忆库应用程序。
+
+10353
+website/index.html
+
+8109
+It is a tool intended for professional translators.
+它是为专业翻译人员准备的工具。
+
+10353
+website/index.html
+
+8110
+It does not translate for you!
+它不会替你进行翻译！
+
+10353
+website/index.html
+
+8111
+(Software that does this is called "machine translation", and you will have to look elsewhere for it.)
+（可以替你进行翻译的软件是“机器翻译”，你要到别处寻找。）
+
+10353
+website/index.html
+
+8112
+Professional features
+专业功能
+
+10353
+website/index.html
+
