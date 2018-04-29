@@ -1,0 +1,4686 @@
+4371
+d) If the work has interactive user interfaces, each must display
+d) If the work has interactive user interfaces, each must display
+
+xulihang
+doc_src/license.txt
+
+4372
+Appropriate Legal Notices; however, if the Program has interactive
+Appropriate Legal Notices; however, if the Program has interactive
+
+xulihang
+doc_src/license.txt
+
+4373
+interfaces that do not display Appropriate Legal Notices, your
+interfaces that do not display Appropriate Legal Notices, your
+
+xulihang
+doc_src/license.txt
+
+4374
+work need not make them do so.
+work need not make them do so.
+
+xulihang
+doc_src/license.txt
+
+4375
+A compilation of a covered work with other separate and independent
+works, which are not by their nature extensions of the covered work,
+and which are not combined with it such as to form a larger program,
+in or on a volume of a storage or distribution medium, is called an
+"aggregate" if the compilation and its resulting copyright are not
+used to limit the access or legal rights of the compilation's users
+beyond what the individual works permit.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4376
+Inclusion of a covered work
+in an aggregate does not cause this License to apply to the other
+parts of the aggregate.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4377
+6.
+6.
+
+Fu Rhong
+doc_src/license.txt
+
+4378
+Conveying Non-Source Forms.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4379
+You may convey a covered work in object code form under the terms
+of sections 4 and 5, provided that you also convey the
+machine-readable Corresponding Source under the terms of this License,
+in one of these ways:
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4380
+a) Convey the object code in, or embodied in, a physical product
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4381
+(including a physical distribution medium), accompanied by the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4382
+Corresponding Source fixed on a durable physical medium
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4383
+customarily used for software interchange.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4384
+b) Convey the object code in, or embodied in, a physical product
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4385
+(including a physical distribution medium), accompanied by a
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4386
+written offer, valid for at least three years and valid for as
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4387
+long as you offer spare parts or customer support for that product
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4388
+model, to give anyone who possesses the object code either (1) a
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4389
+copy of the Corresponding Source for all the software in the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4390
+product that is covered by this License, on a durable physical
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4391
+medium customarily used for software interchange, for a price no
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4392
+more than your reasonable cost of physically performing this
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4393
+conveying of source, or (2) access to copy the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4394
+Corresponding Source from a network server at no charge.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4395
+c) Convey individual copies of the object code with a copy of the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4396
+written offer to provide the Corresponding Source.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4397
+This
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4398
+alternative is allowed only occasionally and noncommercially, and
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4399
+only if you received the object code with such an offer, in accord
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4400
+with subsection 6b.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4401
+d) Convey the object code by offering access from a designated
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4402
+place (gratis or for a charge), and offer equivalent access to the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4403
+Corresponding Source in the same way through the same place at no
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4404
+further charge.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4405
+You need not require recipients to copy the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4406
+Corresponding Source along with the object code.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4407
+If the place to
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4408
+copy the object code is a network server, the Corresponding Source
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4409
+may be on a different server (operated by you or a third party)
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4410
+that supports equivalent copying facilities, provided you maintain
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4411
+clear directions next to the object code saying where to find the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4412
+Corresponding Source.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4413
+Regardless of what server hosts the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4414
+Corresponding Source, you remain obligated to ensure that it is
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4415
+available for as long as needed to satisfy these requirements.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4416
+e) Convey the object code using peer-to-peer transmission, provided
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4417
+you inform other peers where the object code and Corresponding
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4418
+Source of the work are being offered to the general public at no
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4419
+charge under subsection 6d.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4420
+A separable portion of the object code, whose source code is excluded
+from the Corresponding Source as a System Library, need not be
+included in conveying the object code work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4421
+A "User Product" is either (1) a "consumer product", which means any
+tangible personal property which is normally used for personal, family,
+or household purposes, or (2) anything designed or sold for incorporation
+into a dwelling.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4422
+In determining whether a product is a consumer product,
+doubtful cases shall be resolved in favor of coverage.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4423
+For a particular
+product received by a particular user, "normally used" refers to a
+typical or common use of that class of product, regardless of the status
+of the particular user or of the way in which the particular user
+actually uses, or expects or is expected to use, the product.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4424
+A product
+is a consumer product regardless of whether the product has substantial
+commercial, industrial or non-consumer uses, unless such uses represent
+the only significant mode of use of the product.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4425
+"Installation Information" for a User Product means any methods,
+procedures, authorization keys, or other information required to install
+and execute modified versions of a covered work in that User Product from
+a modified version of its Corresponding Source.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4426
+The information must
+suffice to ensure that the continued functioning of the modified object
+code is in no case prevented or interfered with solely because
+modification has been made.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4427
+If you convey an object code work under this section in, or with, or
+specifically for use in, a User Product, and the conveying occurs as
+part of a transaction in which the right of possession and use of the
+User Product is transferred to the recipient in perpetuity or for a
+fixed term (regardless of how the transaction is characterized), the
+Corresponding Source conveyed under this section must be accompanied
+by the Installation Information.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4428
+But this requirement does not apply
+if neither you nor any third party retains the ability to install
+modified object code on the User Product (for example, the work has
+been installed in ROM).
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4429
+The requirement to provide Installation Information does not include a
+requirement to continue to provide support service, warranty, or updates
+for a work that has been modified or installed by the recipient, or for
+the User Product in which it has been modified or installed.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4430
+Access to a
+network may be denied when the modification itself materially and
+adversely affects the operation of the network or violates the rules and
+protocols for communication across the network.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4431
+Corresponding Source conveyed, and Installation Information provided,
+in accord with this section must be in a format that is publicly
+documented (and with an implementation available to the public in
+source code form), and must require no special password or key for
+unpacking, reading or copying.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4432
+7.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4433
+Additional Terms.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4434
+"Additional permissions" are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4435
+Additional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4436
+If additional permissions
+apply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by
+this License without regard to the additional permissions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4437
+When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part of
+it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4438
+(Additional permissions may be written to require their own
+removal in certain cases when you modify the work.)  You may place
+additional permissions on material, added by you to a covered work,
+for which you have or can give appropriate copyright permission.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4439
+Notwithstanding any other provision of this License, for material you
+add to a covered work, you may (if authorized by the copyright holders of
+that material) supplement the terms of this License with terms:
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4440
+a) Disclaiming warranty or limiting liability differently from the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4441
+terms of sections 15 and 16 of this License; or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4442
+b) Requiring preservation of specified reasonable legal notices or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4443
+author attributions in that material or in the Appropriate Legal
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4444
+Notices displayed by works containing it; or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4445
+c) Prohibiting misrepresentation of the origin of that material, or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4446
+requiring that modified versions of such material be marked in
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4447
+reasonable ways as different from the original version; or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4448
+d) Limiting the use for publicity purposes of names of licensors or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4449
+authors of the material; or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4450
+e) Declining to grant rights under trademark law for use of some
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4451
+trade names, trademarks, or service marks; or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4452
+f) Requiring indemnification of licensors and authors of that
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4453
+material by anyone who conveys the material (or modified versions of
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4454
+it) with contractual assumptions of liability to the recipient, for
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4455
+any liability that these contractual assumptions directly impose on
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4456
+those licensors and authors.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4457
+All other non-permissive additional terms are considered "further
+restrictions" within the meaning of section 10.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4458
+If the Program as you
+received it, or any part of it, contains a notice stating that it is
+governed by this License along with a term that is a further
+restriction, you may remove that term.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4459
+If a license document contains
+a further restriction but permits relicensing or conveying under this
+License, you may add to a covered work material governed by the terms
+of that license document, provided that the further restriction does
+not survive such relicensing or conveying.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4460
+If you add terms to a covered work in accord with this section, you
+must place, in the relevant source files, a statement of the
+additional terms that apply to those files, or a notice indicating
+where to find the applicable terms.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4461
+Additional terms, permissive or non-permissive, may be stated in the
+form of a separately written license, or stated as exceptions;
+the above requirements apply either way.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4462
+8.
+8.
+
+lenovo
+doc_src/license.txt
+
+4463
+Termination.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4464
+You may not propagate or modify a covered work except as expressly
+provided under this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4465
+Any attempt otherwise to propagate or
+modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4466
+However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright
+holder fails to notify you of the violation by some reasonable means
+prior to 60 days after the cessation.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4467
+Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after
+your receipt of the notice.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4468
+Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4469
+If your rights have been terminated and not permanently
+reinstated, you do not qualify to receive new licenses for the same
+material under section 10.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4470
+9.
+9.
+
+lenovo
+doc_src/license.txt
+
+4471
+Acceptance Not Required for Having Copies.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4472
+You are not required to accept this License in order to receive or
+run a copy of the Program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4473
+Ancillary propagation of a covered work
+occurring solely as a consequence of using peer-to-peer transmission
+to receive a copy likewise does not require acceptance.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4474
+However,
+nothing other than this License grants you permission to propagate or
+modify any covered work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4475
+These actions infringe copyright if you do
+not accept this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4476
+Therefore, by modifying or propagating a
+covered work, you indicate your acceptance of this License to do so.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4477
+10.
+10.
+
+lenovo
+doc_src/license.txt
+
+4478
+Automatic Licensing of Downstream Recipients.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4479
+Each time you convey a covered work, the recipient automatically
+receives a license from the original licensors, to run, modify and
+propagate that work, subject to this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4480
+You are not responsible
+for enforcing compliance by third parties with this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4481
+An "entity transaction" is a transaction transferring control of an
+organization, or substantially all assets of one, or subdividing an
+organization, or merging organizations.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4482
+If propagation of a covered
+work results from an entity transaction, each party to that
+transaction who receives a copy of the work also receives whatever
+licenses to the work the party's predecessor in interest had or could
+give under the previous paragraph, plus a right to possession of the
+Corresponding Source of the work from the predecessor in interest, if
+the predecessor has it or can get it with reasonable efforts.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4483
+You may not impose any further restrictions on the exercise of the
+rights granted or affirmed under this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4484
+For example, you may
+not impose a license fee, royalty, or other charge for exercise of
+rights granted under this License, and you may not initiate litigation
+(including a cross-claim or counterclaim in a lawsuit) alleging that
+any patent claim is infringed by making, using, selling, offering for
+sale, or importing the Program or any portion of it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4485
+11.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4486
+Patents.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4487
+A "contributor" is a copyright holder who authorizes use under this
+License of the Program or a work on which the Program is based.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4488
+The
+work thus licensed is called the contributor's "contributor version".
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4489
+A contributor's "essential patent claims" are all patent claims
+owned or controlled by the contributor, whether already acquired or
+hereafter acquired, that would be infringed by some manner, permitted
+by this License, of making, using, or selling its contributor version,
+but do not include claims that would be infringed only as a
+consequence of further modification of the contributor version.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4490
+For
+purposes of this definition, "control" includes the right to grant
+patent sublicenses in a manner consistent with the requirements of
+this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4491
+Each contributor grants you a non-exclusive, worldwide, royalty-free
+patent license under the contributor's essential patent claims, to
+make, use, sell, offer for sale, import and otherwise run, modify and
+propagate the contents of its contributor version.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4492
+In the following three paragraphs, a "patent license" is any express
+agreement or commitment, however denominated, not to enforce a patent
+(such as an express permission to practice a patent or covenant not to
+sue for patent infringement).
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4493
+To "grant" such a patent license to a
+party means to make such an agreement or commitment not to enforce a
+patent against the party.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4494
+If you convey a covered work, knowingly relying on a patent license,
+and the Corresponding Source of the work is not available for anyone
+to copy, free of charge and under the terms of this License, through a
+publicly available network server or other readily accessible means,
+then you must either (1) cause the Corresponding Source to be so
+available, or (2) arrange to deprive yourself of the benefit of the
+patent license for this particular work, or (3) arrange, in a manner
+consistent with the requirements of this License, to extend the patent
+license to downstream recipients.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4495
+"Knowingly relying" means you have
+actual knowledge that, but for the patent license, your conveying the
+covered work in a country, or your recipient's use of the covered work
+in a country, would infringe one or more identifiable patents in that
+country that you have reason to believe are valid.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4496
+If, pursuant to or in connection with a single transaction or
+arrangement, you convey, or propagate by procuring conveyance of, a
+covered work, and grant a patent license to some of the parties
+receiving the covered work authorizing them to use, propagate, modify
+or convey a specific copy of the covered work, then the patent license
+you grant is automatically extended to all recipients of the covered
+work and works based on it.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4497
+A patent license is "discriminatory" if it does not include within
+the scope of its coverage, prohibits the exercise of, or is
+conditioned on the non-exercise of one or more of the rights that are
+specifically granted under this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4498
+You may not convey a covered
+work if you are a party to an arrangement with a third party that is
+in the business of distributing software, under which you make payment
+to the third party based on the extent of your activity of conveying
+the work, and under which the third party grants, to any of the
+parties who would receive the covered work from you, a discriminatory
+patent license (a) in connection with copies of the covered work
+conveyed by you (or copies made from those copies), or (b) primarily
+for and in connection with specific products or compilations that
+contain the covered work, unless you entered into that arrangement,
+or that patent license was granted, prior to 28 March 2007.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4499
+Nothing in this License shall be construed as excluding or limiting
+any implied license or other defenses to infringement that may
+otherwise be available to you under applicable patent law.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4500
+12.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4501
+No Surrender of Others' Freedom.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4502
+If conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4503
+If you cannot convey a
+covered work so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you may
+not convey it at all.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4504
+For example, if you agree to terms that obligate you
+to collect a royalty for further conveying from those to whom you convey
+the Program, the only way you could satisfy both those terms and this
+License would be to refrain entirely from conveying the Program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4505
+13.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4506
+Use with the GNU Affero General Public License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4507
+Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU Affero General Public License into a single
+combined work, and to convey the resulting work.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4508
+The terms of this
+License will continue to apply to the part which is the covered work,
+but the special requirements of the GNU Affero General Public License,
+section 13, concerning interaction through a network will apply to the
+combination as such.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4509
+14.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4510
+Revised Versions of this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4511
+The Free Software Foundation may publish revised and/or new versions of
+the GNU General Public License from time to time.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4512
+Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4513
+Each version is given a distinguishing version number.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4514
+If the
+Program specifies that a certain numbered version of the GNU General
+Public License "or any later version" applies to it, you have the
+option of following the terms and conditions either of that numbered
+version or of any later version published by the Free Software
+Foundation.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4515
+If the Program does not specify a version number of the
+GNU General Public License, you may choose any version ever published
+by the Free Software Foundation.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4516
+If the Program specifies that a proxy can decide which future
+versions of the GNU General Public License can be used, that proxy's
+public statement of acceptance of a version permanently authorizes you
+to choose that version for the Program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4517
+Later license versions may give you additional or different
+permissions.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4518
+However, no additional obligations are imposed on any
+author or copyright holder as a result of your choosing to follow a
+later version.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4519
+15.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4520
+Disclaimer of Warranty.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4521
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4522
+EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4523
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4524
+SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4525
+16.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4526
+Limitation of Liability.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4527
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4528
+17.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4529
+Interpretation of Sections 15 and 16.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4530
+If the disclaimer of warranty and limitation of liability provided
+above cannot be given local legal effect according to their terms,
+reviewing courts shall apply local law that most closely approximates
+an absolute waiver of all civil liability in connection with the
+Program, unless a warranty or assumption of liability accompanies a
+copy of the Program in return for a fee.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4531
+END OF TERMS AND CONDITIONS
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4532
+How to Apply These Terms to Your New Programs
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4533
+If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4534
+To do so, attach the following notices to the program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4535
+It is safest
+to attach them to the start of each source file to most effectively
+state the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4536
+<one line to give the program's name and a brief idea of what it does.>
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4537
+Copyright (C) <year>  <name of author>
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4538
+This program is free software: you can redistribute it and/or modify
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4539
+it under the terms of the GNU General Public License as published by
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4540
+the Free Software Foundation, either version 3 of the License, or
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4541
+(at your option) any later version.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4542
+This program is distributed in the hope that it will be useful,
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4543
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4544
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4545
+See the
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4546
+GNU General Public License for more details.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4547
+You should have received a copy of the GNU General Public License
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4548
+along with this program.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4549
+If not, see <http://www.gnu.org/licenses/>.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4550
+Also add information on how to contact you by electronic and paper mail.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4551
+If the program does terminal interaction, make it output a short
+notice like this when it starts in an interactive mode:
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4552
+<program>  Copyright (C) <year>  <name of author>
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4553
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4554
+This is free software, and you are welcome to redistribute it
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4555
+under certain conditions; type `show c' for details.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4556
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4557
+Of course, your program's commands
+might be different; for a GUI interface, you would use an "about box".
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4558
+You should also get your employer (if you work as a programmer) or school,
+if any, to sign a "copyright disclaimer" for the program, if necessary.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4559
+For more information on this, and how to apply and follow the GNU GPL, see
+<http://www.gnu.org/licenses/>.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4560
+The GNU General Public License does not permit incorporating your program
+into proprietary programs.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4561
+If your program is a subroutine library, you
+may consider it more useful to permit linking proprietary applications with
+the library.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4562
+If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4563
+But first, please read
+<http://www.gnu.org/philosophy/why-not-lgpl.html>.
+未翻译
+
+没有修改者
+doc_src/license.txt
+
+4564
+Machine Translation
+机器翻译
+
+钢
+doc_src/MachineTranslation.xml
+
+4565
+Machine Translation
+机器翻译
+
+钢
+doc_src/MachineTranslation.xml
+
+4566
+<p0>Machine Translation</p0> <s1>Introduction</s1>
+<p0>机器翻译</p0> <s1>介绍</s1>
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4567
+Introduction
+介绍
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4568
+As opposed to user-generated translation memories (as in the case of <a0>OmegaT</a0>) Machine translation (MT) tools use rule-based linguistic tools to create a translation of the source segment without the need for a translation memory.
+与用户生成的翻译记忆（就像 <a0>OmegaT</a0>）相对的是机器翻译 (MT) 工具，它使用基于规则的语言学工具而不是翻译记忆来创建源片段的翻译。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4569
+Statistical learning techniques, based on source and target texts, are used to build a translation model.
+使用根据源和目标文本的统计学习技术来构建翻译模型。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4570
+Machine translation services have been achieving good and steadfastly improving results in research evaluations.
+机器翻译服务已经在研究评估中实现了较好且稳定的结果改善。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4571
+To activate any of the Machine Translation services, go to <g0>Options > Machine Translate ...</g0> and activate the service desired.
+要激活某种机器翻译服务，请前往<g0>选项>机器翻译...</g0>，然后激活需要的服务。
+
+xulihang
+doc_src/MachineTranslation.xml
+
+4572
+Note that they are all web-based: you will have to be on-line if you want to use them.
+需要注意的是它们都是基于网络：您必须在线才能使用它们。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4573
+<p0>Machine Translation</p0> <s1>Google Translate</s1>
+<p0>机器翻译</p0> <s1>谷歌翻译</s1>
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4574
+Google Translate
+谷歌翻译
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4575
+Google Translate is a payable service offered by Google, for translating sentences, web sites and complete texts between an ever-growing number of languages.
+谷歌翻译是由谷歌提供的付费服务，可用于翻译句子，网站和日益增多的语言的竞争文本。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4576
+At the time of writing the list includes more than 50 languages, from Albanian to Yiddish, including of course all the major languages.
+在编写此文档时，其支持的语言超过50多种，从阿尔巴尼亚语到意第绪语，其中当然包括所有主要语言。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4577
+The current version of the service is based on usage, with the price of 20 USD per million characters at the time of writing.
+该服务的当前版本根据使用付费的，在编写此文档时每百万字符 20美元 的价格。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4578
+https://developers.google.com/translate/v2/pricing?hl=en-US
+https://developers.google.com/translate/v2/pricing?hl=en-US
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4579
+<e0>Important: </e0>Google Translate API v2 requires billing information for all accounts before you can start using the service (see <u1>Pricing and Terms of Service</u1> for more).
+<e0>重要提示：</e0>在您使用谷歌翻译 API v2 的服务前需要所有客户的账单信息（请参阅<u1>价格和服务条款</u1>了解更多信息）。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4580
+To identify yourself as a valid user for the Google services, you use your private unique key sent to you by Google, when you have registered for the service.
+为了向谷歌服务表明您是合法用户，您需要使用在注册服务后谷歌发给您的唯一的API Key。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4581
+See chapter <l2>Installing and Running</l2>, section Launch command arguments, for details on how to add this key to the OmegaT environment.
+请参阅<l2>安装和运行</l2>章节的运行命令参数部分，了解如何添加该API Key到 OmegaT 环境中的详细情况。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4582
+The quality of the Google Translate translation depends on one side on the reservoir of target-language texts and the availability of their bilingual versions, on the other hand on the quality of the models built.
+谷歌翻译的质量当然一方面取决于目标语言文本和双语版本的可用性，另一方面取决于所创建模型的质量。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4583
+It is pretty much certain that while the quality may be insufficient in some cases, it will definitely get better with time and not worse.
+有一点可以肯定，在某些情况下，其质量肯定不够好。但翻译质量肯定会在不断提高。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4584
+<a0>OmegaT</a0> users and Google Translate
+<a0>OmegaT</a0> 用户和谷歌翻译
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4585
+The <a0>OmegaT</a0> user is not forced to use Google Translate.
+<a0>OmegaT</a0> 并不强迫用户使用谷歌翻译。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4586
+If used, neither the user's decision to accept the translation nor the final translation are made available to Google.
+如果用了，既不表示用户要接受该译文，更不表示最终译文会提供给谷歌。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4587
+The following window shows an example of a) the English source b) Spanish and c) Slovenian Google Translate translation.
+下面的窗口展示了一个 a) 英文原文 b) 西班牙语 和 c) 斯洛文尼亚语 的谷歌翻译译文。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4588
+Google Translate - example
+谷歌翻译 - 示例
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4589
+The Spanish translation is better than the Slovenian.
+西班牙语译文要好于斯洛文尼亚语的。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4590
+Note <e0>interesar</e0> and<e1> navegar</e1> in Spanish, are correctly translated as the verbs interest and sail respectively.
+注意西班牙语中的 <e0>interesar</e0> 和 <e1> navegar</e1> 被正确地翻译成动词 "interest" 和 "sail"。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4591
+In the Slovenian version both words have been translated as nouns.
+在斯洛文尼亚语版本中，两个词都被译成了名词。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4592
+It is actually quite probable that the Spanish translation is based at least partially on the actual translation of the book.
+很可能西班牙语的翻译至少部分基于实际的书籍译文。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4593
+<p0>Shortcuts</p0> <s1>Machine Translate - Ctrl+M</s1>
+<p0>快捷键</p0> <s1>机器翻译——Ctrl+M</s1>
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4594
+Once you have activated the service, a suggestion for the translation will appear in the Machine Translate pane every time a new source segment is opened.
+当您激活了该服务后，每次打开新的源片段时，其对应的翻译建议将会出现在机器翻译窗格中。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4595
+If you find the suggestion acceptable, press <k0> <k1><i2/>Ctrl</k1> <k3>M</k3> </k0> to replace the target part of the opened segment with the suggestion.
+如果发现了可接受的建议，按下<k0> <k1><i2/>Ctrl</k1> <k3>M</k3> </k0> 可使用它替换已打开片段的目标部分。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4596
+In the above segment, for instance, <k4> <k5>Ctrl</k5> <k6>M</k6> </k4> would replace the Spanish version with the Slovenian suggestion.
+例如在上面的片段中，使用 <k4> <k5>Ctrl</k5> <k6>M</k6> </k4> 将会用斯洛文尼亚语的建议版本覆盖西班牙语的版本。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4597
+If you do not wish <a0>OmegaT</a0> to send your source segments to Google to get translated, untick the Google Translate menu entry in Options.
+如果不希望 <a0>OmegaT</a0> 把源片段发送至谷歌获取译文，请取消选项菜单中的谷歌翻译菜单项。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4598
+Note that nothing but your source segment is sent to the MT service.
+提示：除了源片段外，其他任何内容不会发送至机器翻译服务。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4599
+The online version of Google Translate allows the user to correct the suggestion and send the corrected segment in.
+谷歌翻译的在线版本允许用户纠正翻译建议和发送正确的片段。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4600
+This feature, however, is not implemented in OmegaT.
+然而此功能在 OmegaT 中尚未实现。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4601
+<p0>Machine Translation</p0> <s1>Belazar</s1>
+<p0>机器翻译</p0> <s1>Belazar</s1>
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4602
+Belazar
+Belazar
+
+钢
+doc_src/MachineTranslation.xml
+
+4603
+http://belazar.info/
+http://belazar.info/
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4604
+<u0>Belazar</u0> is a Machine language translation tool for the Russian-Belarusian language pair.
+<u0>Belazar</u0> 是用于俄罗斯－白俄罗斯语言对的机器语言翻译工具。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4605
+<p0>Machine Translation</p0> <s1>Apertium</s1>
+<p0>机器翻译</p0> <s1>Apertium</s1>
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4606
+Apertium
+Apertium
+
+钢
+doc_src/MachineTranslation.xml
+
+4607
+http://www.apertium.org/
+http://www.apertium.org/
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4608
+<u0>Apertium</u0> is a free/open-source machine translation platform, initially aimed at related-language pairs, like CA, ES, GA, PT, OC and FR but recently expanded to deal with more divergent language pairs (such as English-Catalan).
+<u0>Apertium</u0> 是自由、开源的机器翻译平台，最初致力于相关的语言对，例如 CA、ES、GA、PT、OC 以及 FR，不过最近扩展为能够处理更多的其他语言对（例如英语-加泰罗尼亚语）。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4609
+Check the web site for the latest list of implemented language pairs.
+请参阅网站了解已实现语言对的最新列表。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4610
+The platform provides
+该平台提供
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4611
+a language-independent machine translation engine
+语言独立的机器翻译引擎
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4612
+tools to manage the linguistic data necessary to build a machine translation system for a given language pair
+工具用来管理必要语言学数据，确保可以根据已有语言对建立机器翻译系统
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4613
+linguistic data for a growing number of language pairs
+用于不断增长的语言对数目的语言学数据
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4614
+Apertium uses a shallow-transfer machine translation engine which processes the input text in stages, as in an assembly line: de-formatting, morphological analysis, part-of-speech disambiguation, shallow structural transfer, lexical transfer, morphological generation, and re-formatting.
+Apertium 使用浅层传播机器翻译引擎（shallow-transfer machine translation engine ）来处理输入的文本，就像汇编行：去除格式，形态分析，语音消歧，浅层结构传播，词汇传播，形态生成以及重新格式化。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4615
+It is possible to use Apertium to build machine translation systems for a variety of language pairs; to that end, Apertium uses simple XML-based standard formats to encode the linguistic data needed (either by hand or by converting existing data), which are compiled using the provided tools into the high-speed formats used by the engine.
+使用 Apertium 为各种语言对构建机器翻译系统是可行的，在底端，Apertium 使用基于 XML 的简单标准格式对需要的语言学数据（通过手工或转换现有数据）进行编码，并使用提供的工具被编译为引擎可用的高级格式。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4616
+<p0>Machine Translation</p0> <s1>MyMemory</s1>
+<p0>机器翻译</p0> <s1>MyMemory</s1>
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4617
+MyMemory (machine)
+MyMemory（机器）
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4618
+By default, MyMemory allows a maximum of 100 requests per day.
+默然情况下，MyMemory每天最多允许发生100条请求。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4619
+By specifying an email address, it is possible to use 1000 requests per day instead of 100 ones.
+电子邮箱经认证后，每天可发送1000条请求。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4620
+There are at least 3 ways to specify your address:
+邮箱认证方式至少有以下三种
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4621
+in the OmegaT.l4J.ini file (Windows only), change:
+在OmegaT.l4J.ini文件（只限Windows操作系统）中将：
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4622
+# MyMemory email
+未翻译
+
+没有修改者
+doc_src/MachineTranslation.xml
+
+4623
+to:
+改为:
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4624
+MyMemory your@email-address.com
+MyMemory 你的邮箱名@邮箱地址.com
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4625
+When starting OmegaT from the command line, specify in the command:
+通过命令行打开OmegaT，输入命令：
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4626
+-Dmymemory.api.email=your@email-address.com
+-Dmymemory.api.email=你的邮箱名@邮箱地址.com
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4627
+in the Kaptain launcher (Linux only), enter the address in the corresponding field on the "Online Services" tab.
+在Kaptain启动器中（仅限Linux操作系统）, 将邮箱地址输入到“Online Services” 标签的对应域中。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4628
+http://mymemory.translated.net/
+未翻译
+
+没有修改者
+doc_src/MachineTranslation.xml
+
+4629
+MyMemory provides also <e0>Human translations</e0> originating from professional translators, LSPs, customers and multilingual web content.
+MyMemory也提供<e0>人工翻译</e0> ，翻译记忆来自专业译员、语言服务供应商、客户以及多语种网站内容。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4630
+To get these translations, you must upload your source file <u1>on their site</u1> that generates a TMX file.
+未获得以上来源的翻译记忆，您应将您的源文件上传至 <u1>他们的网站</u1>，以获得网站生成的TMX文件。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4631
+Then you must put this TMX file in the /tm/ or /tm/auto/ folder of your OmegaT project.
+随后，您须将TMX文件放入到您OmegaT项目相应的/tm/或/tm/auto/文件夹中。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4632
+MyMemory offers also the possibility to manage <e0>private TMs</e0>.
+MyMemory 也提供 <e0>私人翻译记忆</e0>管理功能。.
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4633
+Note: OmegaT does not interact dynamically with them (you must export/import TMX files manually).
+提示： OmegaT不能动态与翻译记忆文件关联（您必须手动导入/导出TMX文件）。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4634
+<p0>Machine Translation</p0> <s1>Microsoft Translator</s1>
+<p0>机器翻译</p0> <s1>微软翻译</s1>
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4635
+Microsoft Translator
+微软翻译
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4636
+In order to get credentials for MS Translator, follow these steps:
+通过以下步骤获得微软翻译许可证：
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4637
+http://datamarket.azure.com/
+未翻译
+
+没有修改者
+doc_src/MachineTranslation.xml
+
+4638
+Log into Microsoft Azure Marketplace: <u0>http://datamarket.azure.com/</u0>
+登陆微软Azure Marketplace： <u0>http://datamarket.azure.com/</u0>
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4639
+If you do not already have an Azure Marketplace account you will need to register one first.
+如果您还没有Azure Marketplace账户，您首先需要注册一个账户。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4640
+Click on the My Account option at the top of the page.
+点击页面上方“我的账户”选项
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4641
+Near the bottom you will see entries and values for:
+在接近底部的位置您会看到以下条目及其对应值：
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4642
+Primary Account Key (corresponds to <c0>microsoft.api.client_secret</c0> command-line parameter)
+主账户API Key（对应<c0>microsoft.api.client_secret</c0> 命令行参数）
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4643
+Customer ID (corresponds to <c0>microsoft.api.client_id</c0> command-line parameter)
+客户ID（对应<c0>microsoft.api.client_id</c0>命令行参数）
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4644
+To enable MS Translator in OmegaT edit its launcher or see chapter <l0>Installing and Running</l0> to learn how to start OmegaT from the command line.
+许可OmegaT中的微软翻译需编辑其启动器或了解如何通过命令行启动OmegaT，见 <l0>安装和运行</l0>。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4645
+<p0>Machine Translation</p0> <s1>Yandex Translate</s1>
+<p0>机器翻译</p0> <s1>Yandex Translate</s1>
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4646
+Yandex Translate
+Yandex 翻译
+
+17012
+doc_src/MachineTranslation.xml
+
+4647
+http://api.yandex.com/key/form.xml?service=trnsl
+http://api.yandex.com/key/form.xml?service=trnsl 
+
+Administrator
+doc_src/MachineTranslation.xml
+
+4648
+In order to be able to use Yandex Translate in OmegaT, you need to <u0>obtain an API key from Yandex</u0>.
+若需使用OmegaT中的Yandex Translate，您需 <u0>从Yandex获得API Key</u0>。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4649
+The obtained API key needs to be passed to OmegaT at startup through <c0>yandex.api.key</c0> command-line parameter.
+获得的API Key需启动时通过 <c0>yandex.api.key</c0> 命令行参数传入在OmegaT。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4650
+To do that edit OmegaT launcher or see chapter <l1>Installing and Running</l1> to learn how to start OmegaT from the command line.
+为完成上述步骤，需编辑OmegaT启动器或了解如何通过命令行启动OmegaT，见<l1>安装和运行</l1>。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4651
+<p0>Machine Translation</p0> <s1>Troubleshooting</s1>
+<p0>机器翻译</p0> <s1>故障排除</s1>
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4652
+Machine translation - trouble shooting
+机器翻译 - 故障排除
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4653
+If there's nothing appearing in the Machine Translate pane, then check the following:
+如果在机器翻译窗格中没有出现任何东西，检查下列内容：
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4654
+Are you online?
+是否在线？
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4655
+You need to be online to be able to use an MT tool.
+必须处于在线状态才能使用机器翻译。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4656
+What is the language pair you need?
+进行翻译的语言对是什么？
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4657
+Check if the selected service offers it.
+检查选择的服务是否支持。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4658
+https://developers.google.com/translate/v2/faq
+https://developers.google.com/translate/v2/faq
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4659
+Google Translate does not work: have you applied <u0>Translate API service</u0>?
+谷歌翻译无法工作：您申请了<u0>翻译API服务</u0>吗？
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4660
+Note that Google Translate service is not free of charge, see chapter <l1>Installing and Running</l1> (runtime parameters) for more on that.
+注意：谷歌翻译服务需要付费，请参阅<l1>安装和运行</l1>章节（运行时参数）了解更多相关信息。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4661
+https://developers.google.com/translate/v2/faq
+https://developers.google.com/translate/v2/faq
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4662
+"Google Translate returned HTTP response code: 403 ...": check that the 38-characters key, entered in the pinfo.list file, is correct.
+"Google Translate returned HTTP response code: 403 ..."：请检查 38 个字符的API Key，输入到 pinfo.list 文件时是否正确。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4663
+Check that <u0>Translate API service </u0>has been activated.
+请检查是否激活<u0>翻译 API 服务</u0>。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4664
+Google Translate does not work: - with the Google API key entered as requested.
+谷歌翻译无法工作：请在请求时输入谷歌API Key。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4665
+Check in Options > Machine Translate, that Google Translate V2 is checked.
+检查选项>机器翻译中的谷歌翻译V2是否选中。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4666
+Google Translate V2 reports "Bad request" - check the source and target languages for your project.
+翻译 V2报告“Bad request”——请检查项目的源和目标语言。
+
+weiyi
+doc_src/MachineTranslation.xml
+
+4667
+Having no languages defined elicits this kind or a response.
+包含未定义的语言会引起此类响应。
+
+Fu Rhong
+doc_src/MachineTranslation.xml
+
+4668
+Menu and Keyboard shortcuts
+菜单和键盘快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+4669
+Menu
+菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4670
+Main Menu
+主菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4671
+All of OmegaT's functions are available through the menu bar at the top of the Editor window.
+OmegaT 的所有功能均可通过编辑器窗口顶部的菜单栏来调用。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4672
+Most functions are also available via keyboard shortcuts.
+多数功能也可以通过键盘快捷方式调用。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4673
+Shortcuts are activated by pressing <k0>Ctrl</k0> and a letter.
+快捷键通过按 <k0>Ctrl</k0> 和字母键来激活。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4674
+Some shortcuts involve other keys.
+某些快捷键还包含其他按键。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4675
+For readability purposes, letters are written in uppercase here.
+为了增强可读性，本手册中这些字母以大写形式出现。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4676
+<k1>Ctrl</k1> is used on Windows, UNIX and UNIX-like operating systems with keyboards featuring a <k2>Ctrl</k2> or <k3>Control</k3> key.
+<k1>Ctrl</k1> 在 Windows 系统中使用，UNIX 和类 UNIX 操作系统使用 <k2>Ctrl</k2> 或 <k3>Control</k3> 键。
+
+weiyi
+doc_src/Menu.xml
+
+4677
+Mac users should instead use <k4> <k5>Cmd</k5> <k6>key</k6> </k4> instead.
+Mac 用户应该使用 <k4> <k5>cmd</k5> <k6>键</k6> </k4> 来代替它。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4678
+The "Cmd" key either has a "command" label or an apple symbol on Apple keyboards.
+"Cmd" 键就是在苹果键盘上印有 "command" 或“苹果”符号的那个键。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4679
+You can customize existing shortcuts or add new ones according to your needs.
+您可以根据自己的需要自定义现有的或增加新的快捷键。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4680
+<l0>See Appendix - Shortcuts Customization</l0>
+<l0>请参阅附录——自定义快捷键</l0>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4681
+Main Menu
+主菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4682
+Project
+项目
+
+Fu Rhong
+doc_src/Menu.xml
+
+4683
+Edit
+编辑
+
+Fu Rhong
+doc_src/Menu.xml
+
+4684
+Go to
+前往
+
+Fu Rhong
+doc_src/Menu.xml
+
+4685
+View
+查看
+
+Fu Rhong
+doc_src/Menu.xml
+
+4686
+Tools
+工具
+
+Fu Rhong
+doc_src/Menu.xml
+
+4687
+Options
+选项
+
+钢
+doc_src/Menu.xml
+
+4688
+Help
+帮助
+
+Fu Rhong
+doc_src/Menu.xml
+
+4689
+<p0>Menu</p0> <s1>Project</s1>
+<p0>菜单</p0> <s1>项目</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4690
+Project
+项目
+
+Fu Rhong
+doc_src/Menu.xml
+
+4691
+Project menu
+项目菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4692
+New...
+新建...
+
+weiyi
+doc_src/Menu.xml
+
+4693
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>N</k2>
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>N</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4694
+Creates and opens a new project.
+创建并打开一个新项目。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4695
+The dialog to create a project is the same as to edit the project.
+创建项目的对话框与编辑项目属性的相同。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4696
+See
+请参阅
+
+Fu Rhong
+doc_src/Menu.xml
+
+4697
+Download Team Project...
+下载团队项目...
+
+weiyi
+doc_src/Menu.xml
+
+4698
+Creates a local copy of a remote OmegaT project.
+创建远程OmegaT项目的本地拷贝。
+
+weiyi
+doc_src/Menu.xml
+
+4699
+Open...
+打开...
+
+weiyi
+doc_src/Menu.xml
+
+4700
+<k0>Ctrl</k0> <k1>O</k1>
+<k0>Ctrl</k0> <k1>O</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4701
+Opens a previously created project.
+打开之前创建的项目。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4702
+Open Recent Project
+打开最近的项目
+
+weiyi
+doc_src/Menu.xml
+
+4703
+Give access to the five last edited projects.
+获取最后编辑的5个文档.
+
+weiyi
+doc_src/Menu.xml
+
+4704
+Clicking on one will save the current project, close it and open the other project.
+点击可以保存当前项目、关闭它或打开其他项目
+
+Andrew
+doc_src/Menu.xml
+
+4705
+Copy Files to Source Folder...
+复制文件到原文文件夹...
+
+lenovo
+doc_src/Menu.xml
+
+4706
+Copies the selected files to the <f0>source</f0> folder and reloads the project to load the new files.
+将选中的文件复制到<f0>源</f0>目录，并重新加载项目以载入新文件。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4707
+Download MediaWiki Page...
+下载MediaWiki页...
+
+weiyi
+doc_src/Menu.xml
+
+4708
+Downloads units from MediaWiki pages, based on the URL entered.
+根据输入的URL下载MediaWiki页面的单位。
+
+weiyi
+doc_src/Menu.xml
+
+4709
+Reload
+重新载入
+
+Fu Rhong
+doc_src/Menu.xml
+
+4710
+F5
+F5
+
+Fu Rhong
+doc_src/Menu.xml
+
+4711
+Reloads the project to take external changes in source files, legacy translation memories, glossaries and project settings into account.
+重新载入项目以载入源文件、翻译记忆、术语表内容和项目设置的外部修改。 
+
+Andrew
+doc_src/Menu.xml
+
+4712
+Close
+关闭
+
+Fu Rhong
+doc_src/Menu.xml
+
+4713
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>W</k2>
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>W</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4714
+Saves the translation and closes the project.
+保存翻译并关闭项目。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4715
+Save
+保存
+
+Fu Rhong
+doc_src/Menu.xml
+
+4716
+<k0>Ctrl</k0> <k1>S</k1>
+<k0>Ctrl</k0> <k1>S</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4717
+Saves the internal translation memory to the hard disk.
+将内部的翻译记忆保存到硬盘。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4718
+OmegaT automatically saves translations every 10 minutes as well as when you close the project or quit OmegaT.
+OmegaT 每十分钟自动保存一次翻译，且在关闭项目或退出程序前自动保存。
+
+weiyi
+doc_src/Menu.xml
+
+4719
+Create Translated Documents
+创建已译文档
+
+Fu Rhong
+doc_src/Menu.xml
+
+4720
+<k0>Ctrl</k0> <k1>D</k1>
+<k0>Ctrl</k0> <k1>D</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4721
+Creates the target documents based on your translation of the documents' text.
+根据您对文档文本的翻译创建目标文档。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4722
+The created target documents are located in the <f0>target</f0> folder.
+创建的目标文档放置在<f0>目标</f0>文件夹中。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4723
+Create Current Translated Document
+创建当前翻译文档
+
+weiyi
+doc_src/Menu.xml
+
+4724
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>D</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4725
+Creates the target document corresponding to the current document in translation.
+创建与当前翻译文档对应的目标文档
+
+weiyi
+doc_src/Menu.xml
+
+4726
+Properties...
+属性...
+
+xulihang
+doc_src/Menu.xml
+
+4727
+<k0>Ctrl</k0> <k1>E</k1>
+<k0>Ctrl</k0> <k1>E</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4728
+Displays <l0>Project properties</l0> dialog to edit project languages and folder locations.
+显示<l0>项目属性</l0>对话框以便编辑项目语言和文件夹位置。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4729
+Project Files...
+项目文件...
+
+xulihang
+doc_src/Menu.xml
+
+4730
+<k0>Ctrl</k0> <k1>L</k1>
+<k0>Ctrl</k0> <k1>L</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4731
+Closes or opens the <l0>Project files window</l0> (depending on whether it is open or closed).
+关闭或打开<l0>项目文件窗口</l0>（取决于它处于打开或关闭状态）。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4732
+Access Project Contents
+访问项目内容
+
+weiyi
+doc_src/Menu.xml
+
+4733
+Gives access to the project folders.
+访问项目文件夹。
+
+Andrew
+doc_src/Menu.xml
+
+4734
+In addition, two menu entries allow opening directly the current source and target documents and the writable glossary.
+另外，两个菜单条目可直接打开源文档、目标文档以及可写术语表。
+
+Andrew
+doc_src/Menu.xml
+
+4735
+The documents are opened by the application chosen by the operating system.
+文档以操作系统选定的应用打开。
+
+weiyi
+doc_src/Menu.xml
+
+4736
+If the documents are not available, the entry is greyed out.
+如果文件不可用，该菜单条目为灰。
+
+Andrew
+doc_src/Menu.xml
+
+4737
+Quit
+退出
+
+Fu Rhong
+doc_src/Menu.xml
+
+4738
+<k0>Ctrl</k0> <k1>Q</k1>
+<k0>Ctrl</k0> <k1>Q</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4739
+Saves the project and quits <a0>OmegaT</a0>.
+保存项目并退出 <a0>OmegaT</a0>。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4740
+If you haven't yet saved the project, this manually confirms whether you really wish to quit.
+如果您未手动保存项目，系统将会让您确认是否退出。
+
+Andrew
+doc_src/Menu.xml
+
+4741
+<p0>Menu</p0> <s1>Edit</s1>
+<p0>菜单</p0> <s1>编辑</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4742
+Edit
+编辑
+
+Fu Rhong
+doc_src/Menu.xml
+
+4743
+Note: Items that are found in most applications (copy/cut/paste) are not displayed in this menu, but are available using your system shortcuts.
+注意：在多数程序中可以找到的（复制/剪切/粘贴）条目没有出现在这个菜单中，但是您可以通过系统快捷键使用。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4744
+For example:
+例如：
+
+Fu Rhong
+doc_src/Menu.xml
+
+4745
+Copy/cut/paste shortcuts
+复制/剪切/粘贴快捷键
+
+Fu Rhong
+doc_src/Menu.xml
+
+4746
+Copy
+复制
+
+钢
+doc_src/Menu.xml
+
+4747
+<k0>Ctrl</k0> <k1>C</k1>
+<k0>Ctrl</k0> <k1>C</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4748
+Copies the selected text to the clipboard.
+复制选中的文本到剪贴板。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4749
+Cut
+剪切
+
+钢
+doc_src/Menu.xml
+
+4750
+<k0>Ctrl</k0> <k1>X</k1>
+<k0>Ctrl</k0> <k1>X</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4751
+Copies the selected text to the clipboard and deletes the selected text.
+将选中的文本复制到剪贴板并删除选中文本。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4752
+Paste
+粘贴
+
+钢
+doc_src/Menu.xml
+
+4753
+<k0>Ctrl</k0> <k1>V</k1>
+<k0>Ctrl</k0> <k1>V</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4754
+Pastes the text from the clipboard at the cursor position.
+将剪贴板中的文本粘贴到光标位置。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4755
+The Edit menu itself contains the following items:
+该菜单本身包括下列条目：
+
+Fu Rhong
+doc_src/Menu.xml
+
+4756
+Edit menu
+编辑菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4757
+Undo Last Action
+取消前一操作
+
+Fu Rhong
+doc_src/Menu.xml
+
+4758
+<k0>Ctrl</k0> <k1>Z</k1>
+<k0>Ctrl</k0> <k1>Z</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4759
+Restores the status before the last editing action was taken.
+恢复前一个编辑操作发生之前的状态。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4760
+This command does not work once the modified segment has been validated.
+如所修改的片段已经确认，则该操作无效。
+
+Andrew
+doc_src/Menu.xml
+
+4761
+Redo Last Action
+重做前一操作
+
+Fu Rhong
+doc_src/Menu.xml
+
+4762
+<k0>Ctrl</k0> <k1>Y</k1>
+<k0>Ctrl</k0> <k1>Y</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4763
+Restores the status before the last editing action was cancelled.
+恢复前一个编辑操作取消之前的状态。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4764
+This command does not work once the modified segment has been validated.
+如所修改的片段已经确认，则该操作无效。
+
+Andrew
+doc_src/Menu.xml
+
+4765
+Replace With Match or Selection
+替换成匹配或选择
+
+weiyi
+doc_src/Menu.xml
+
+4766
+<k0>Ctrl</k0> <k1>R</k1>
+<k0>Ctrl</k0> <k1>R</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4767
+Replaces the whole target segment with the currently selected fuzzy match (by default the first match is selected).
+使用当前选中的模糊匹配覆盖整个目标片段（默认选中第1个匹配）。
+
+Andrew
+doc_src/Menu.xml
+
+4768
+If some texts are selected within the fuzzy match, only this selection will replace the whole target segment.
+如果某段文字被选为模糊匹配，那么只有被选中的部分会被整个目标片段替换。
+
+weiyi
+doc_src/Menu.xml
+
+4769
+Insert Match or Selection
+插入匹配或选择
+
+weiyi
+doc_src/Menu.xml
+
+4770
+<k0>Ctrl</k0> <k1>I</k1>
+<k0>Ctrl</k0> <k1>I</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4771
+Inserts the currently selected fuzzy match at the cursor position.
+将当前选中的模糊匹配插入到光标位置。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4772
+If part of the target segment has been selected, this function overwrites the selected portion.
+如果已选中了目标片段的某个部分，则此功能会覆盖此部分。
+
+Andrew
+doc_src/Menu.xml
+
+4773
+If some texts are selected within the fuzzy match, only this selection will be inserted at the cursor position.
+如果某段文字被选为模糊匹配，那么被选择的部分会在光标处插入。
+
+weiyi
+doc_src/Menu.xml
+
+4774
+Replace with Machine Translation
+用机器翻译替换
+
+Fu Rhong
+doc_src/Menu.xml
+
+4775
+<k0>Ctrl</k0> <k1>M</k1>
+<k0>Ctrl</k0> <k1>M</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4776
+Replaces the target segment with the translation, provided by the selected Machine Translation service.
+使用选择的机器翻译服务提供的译文替换目标片段。
+
+Andrew
+doc_src/Menu.xml
+
+4777
+No action is taken, if no Machine Translation service has been activated (see Menu > Options below).
+如果未激活机器翻译服务（参阅下面的 菜单 > 选项），将不会有任何动作。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4778
+Replace With Source
+用源文本替换
+
+Fu Rhong
+doc_src/Menu.xml
+
+4779
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>R</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4780
+Replaces the whole target segment with the source.
+使用源片段覆盖整个目标片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4781
+Insert Source
+插入源文本
+
+Fu Rhong
+doc_src/Menu.xml
+
+4782
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>I</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4783
+Inserts the source at the cursor position.
+在光标位置插入源段落内容。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4784
+Insert Missing Source Tags
+插入丢失源标签
+
+weiyi
+doc_src/Menu.xml
+
+4785
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>T</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4786
+<p0>Tags</p0> <s1>Inserting missing source tags</s1>
+<p0>标签</p0> <s1>插入丢失源标签</s1>
+
+weiyi
+doc_src/Menu.xml
+
+4787
+Inserts the source tags (if they where missing) at the cursor position.
+在光标处插入（丢失的）源标签。
+
+weiyi
+doc_src/Menu.xml
+
+4788
+Insert Next Missing Tag
+插入下一个遗漏的标签
+
+lenovo
+doc_src/Menu.xml
+
+4789
+<k0>Ctrl</k0> <k1>T</k1>
+<k0>Ctrl</k0> <k1>T</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4790
+<p0>Tags</p0> <s1>Inserting next missing tag</s1>
+<p0>标签</p0> <s1>插入下一个丢失的标</s1>
+
+weiyi
+doc_src/Menu.xml
+
+4791
+Inserts only one tag (among the missing ones) at the cursor position.
+在光标处仅插入（所有丢失标签中的）一个标签。
+
+weiyi
+doc_src/Menu.xml
+
+4792
+Export Selection
+导出选中部分
+
+Fu Rhong
+doc_src/Menu.xml
+
+4793
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>C</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4794
+Exports the current selection to a text file for processing.
+将当前选中内容导出至文本文件进行处理。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4795
+If no text has been selected, the current source segment is written to this file.
+如果未选中文本，将导出当前的源片段至该文件。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4796
+When the user exits <a0>OmegaT</a0>, this file is not emptied, in order to be consistent with usual clipboard behavior.
+当用户退出 <a0>OmegaT</a0> 时，为了与通常的剪贴板行为一致，该文件不会清空。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4797
+The exported contents are copied to the file <f1>selection.txt</f1> located in the User's preference files folder (see <x2/>).
+导出的内容被复制到位于用户偏好设置文件的文件夹（请参阅<x2/>）的 <f1>selection.txt</f1> 文件中。
+
+Andrew
+doc_src/Menu.xml
+
+4798
+Create Glossary Entry
+创建术语表条目
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4799
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>G</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4800
+Allows the user create an entry in the default glossary file.
+可让用户在缺省的术语表文件中创建条目。
+
+xulihang
+doc_src/Menu.xml
+
+4801
+If you select a text string (in any pane) before pressing <k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>G</k3> </k0>, the text will be pasted by default in the <g4>Source term</g4> field.
+如果您 (位于任何窗格中)在按<k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>G</k3> </k0>前，选择了文本中的一串字符 ，选中文本将根据默认粘贴到 <g4>源语术语</g4> 字段。
+
+Andrew
+doc_src/Menu.xml
+
+4802
+Search Project...
+在项目中搜索...
+
+xulihang
+doc_src/Menu.xml
+
+4803
+<k0>Ctrl</k0> <k1>F</k1>
+<k0>Ctrl</k0> <k1>F</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4804
+Opens a new <l0>Search window</l0>.
+打开新<l0>搜索窗口</l0>。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4805
+If you select a text string (in any pane) before pressing <k0> <k1>Ctrl</k1> <k2>F</k2> </k0>, the text will be pasted by default in the <g3>Search for</g3> field.
+如果您 (位于任何窗格中)在按<k0> <k1>Ctrl</k1> <k2>F</k2> </k0>前，选择了文本中的一串字符 ，选中文本将根据默认粘贴到 <g3>查找</g3> 字段。
+
+Andrew
+doc_src/Menu.xml
+
+4806
+Pressing <k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>F</k3> </k0> displays the last already opened Search window (instead of opening a new one).
+按 <k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>F</k3> </k0>显示上次打开的（而不是新打开）搜索窗。
+
+Andrew
+doc_src/Menu.xml
+
+4807
+Search and Replace...
+搜索与替换...
+
+xulihang
+doc_src/Menu.xml
+
+4808
+<k0>Ctrl</k0> <k1>K</k1>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4809
+Opens a new <l0>Search and replace window</l0>.
+打开新的 <l0>搜索与替换窗口</l0>.
+
+weiyi
+doc_src/Menu.xml
+
+4810
+If you select a text string (in any pane) before pressing <k0> <k1>Ctrl</k1> <k2>K</k2> </k0>, the text will be pasted by default in the <g3>Search for</g3> field.
+如果您 (位于任何窗格中)在按<k0> <k1>Ctrl</k1> <k2>K</k2> </k0>前，选择了文本中的一串字符 ，选中文本将根据默认粘贴到 <g3>查找</g3> 字段。
+
+Andrew
+doc_src/Menu.xml
+
+4811
+Switch case to
+转换大小写为
+
+weiyi
+doc_src/Menu.xml
+
+4812
+<k0> <k1>Shift</k1> <k2>F3</k2> </k0> (see text)
+<k0> <k1>Shift</k1> <k2>F3</k2> </k0>（查阅文本）
+
+Fu Rhong
+doc_src/Menu.xml
+
+4813
+<p0>Shortcuts</p0> <s1>Case selection - Shift+F3</s1>
+<p0>快捷键</p0> <s1>大小写选择——Shift+F3</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4814
+Changes the case of the highlighted text in the target segment to the selected option (Lower case, Upper case, Title case or Sentence case).
+改变目标片段中高亮文本的大小写改变为选择项（全部小写、全部大写、首字母大写或句首字母大写）
+
+weiyi
+doc_src/Menu.xml
+
+4815
+Use Shift+F3 <i0/>to cycle through the four alternatives.
+使用Shift + F3 <i0/>循环选择上述四种选项。
+
+weiyi
+doc_src/Menu.xml
+
+4816
+If no text is selected, <a1>OmegaT</a1> selects the word that contains the letter immediately to the right of the cursor.
+如果未选中文本， <a1>OmegaT</a1> 将选中包含了紧挨着光标右边字母的单词。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4817
+Select Match
+选择匹配
+
+weiyi
+doc_src/Menu.xml
+
+4818
+<k0>Ctrl</k0> <k1>#N</k1>
+<k0>Ctrl</k0> <k1>#N</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4819
+(#N is a digit from 1 to 5) - Selects the Nth fuzzy match displayed in the match viewer to replace or insert it to the segment.
+(#N 为 1 至 5 之间的数字) - 选择在匹配查看器中列出的第 N 个模糊匹配项，并将其替代或插入该段中。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4820
+The <x0/> describes the color coding in detail.
+<x0/> 描述了关于颜色代码的细节。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4821
+Use as Default Translation
+用作缺省译文
+
+钢
+doc_src/Menu.xml
+
+4822
+If there's several alternative translations available for the active segment, you can label the alternative selected as the default translation.
+如果当前片段有多个可选译文，您可以标记所选择的译文为缺省译文。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4823
+The entry will be greyed, if there's just one translation available.
+如果仅有一个可用译文，则该条目会显示为灰色。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4824
+Create Alternative Translation
+创建多重译法
+
+钢
+doc_src/Menu.xml
+
+4825
+The one and the same segment may, depending on the context, require different translations.
+同样的片段在不同的语境中可能会使用不同的译文。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4826
+Select this menu item, if the current translation does not apply and enter the alternative translation.
+如果当前译文不适合，则选择该菜单项并输入可选译文。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4827
+Remove Translation
+移除译文
+
+weiyi
+doc_src/Menu.xml
+
+4828
+Deletes the translation and set the segment as untranslated.
+删除译文设定片段为未翻译
+
+weiyi
+doc_src/Menu.xml
+
+4829
+Set empty translation
+设置空译文
+
+钢
+doc_src/Menu.xml
+
+4830
+Define the translation as being empty.
+将译文片段定义为空
+
+weiyi
+doc_src/Menu.xml
+
+4831
+In the target document, nothing will appear for this segment.
+在目标文件中，此片段不会显示任何内容。
+
+weiyi
+doc_src/Menu.xml
+
+4832
+In the Editor, the translation is displayed as <EMPTY>
+在编辑器中，此译文片段显示为<EMPTY>
+
+weiyi
+doc_src/Menu.xml
+
+4833
+Register Identical Translation
+使用原文作为译文
+
+xulihang
+doc_src/Menu.xml
+
+4834
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>S</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4835
+Use this command to register the translation to be identical to the source, even if "Allow translation to be equal to source" (in Options/Editing Behaviour...) is not checked.
+使用此命令将以为片段记录为原文的同意译文，即使“允许译文片段与原文一致”选项（在选项/编辑操作中）并未选中。
+
+weiyi
+doc_src/Menu.xml
+
+4836
+<p0>Menu</p0> <s1>Goto</s1>
+<p0>菜单</p0> <s1>前往</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4837
+Go to
+前往
+
+Fu Rhong
+doc_src/Menu.xml
+
+4838
+Go To menu
+前往菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4839
+Next Untranslated Segment
+后一未译片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4840
+<k0>Ctrl</k0> <k1>U</k1>
+<k0>Ctrl</k0> <k1>U</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4841
+Moves to the next segment that has no equivalent in the translation memory.
+移动到翻译记忆中无相同内容的后一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4842
+Next Translated Segment
+下一已译片段
+
+weiyi
+doc_src/Menu.xml
+
+4843
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>U</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4844
+Moves to the next already translated segment, ignoring untranslated segments.
+移至下一已译片段，忽略未译片段
+
+weiyi
+doc_src/Menu.xml
+
+4845
+Next Segment
+后一片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4846
+<k0> <k1>Ctrl</k1> <k2>N</k2> </k0> or <k3>Enter</k3>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4847
+Moves to the next segment.
+移动到后一片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4848
+If the current segment is the last segment in a file, it moves to the first segment of the next file.
+如果当前片段是文件中的最后一个片段，将移动到下个文件的第一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4849
+Previous Segment
+前一片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4850
+<k0> <k1>Ctrl</k1> <k2>P</k2> </k0> or <k3> <k4>Ctrl</k4> <k5>Enter</k5> </k3>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4851
+Moves to the previous segment.
+移动到前一片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4852
+If the current segment is the first one in a file, it moves to the last segment of the previous file.
+如果当前片段是文件中的第一个片段，将移动到前个文件的最后一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4853
+Segment number...
+片段序号...
+
+xulihang
+doc_src/Menu.xml
+
+4854
+<k0>Ctrl</k0> <k1>J</k1>
+<k0>Ctrl</k0> <k1>J</k1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4855
+The segment is opened when either its segment call-out or segment number is entered.
+在调出片段或输入片段数后，片段打开
+
+weiyi
+doc_src/Menu.xml
+
+4856
+Next Note
+后一笔记
+
+Fu Rhong
+doc_src/Menu.xml
+
+4857
+The next segment with a note attached to it, will open.
+打开含笔记的下一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4858
+Previous Note
+前一笔记
+
+Fu Rhong
+doc_src/Menu.xml
+
+4859
+The previous segment with a note will open.
+打开含笔记的前一个片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4860
+Source of Selected Match
+当前匹配原文
+
+weiyi
+doc_src/Menu.xml
+
+4861
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>M</k2>
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4862
+Moves to the segment that does correspond to the current selected match in the <g0>Fuzzy matches</g0> pane.
+移动至当前<g0>模糊匹配</g0>窗口选中文本所对应的片段。
+
+Andrew
+doc_src/Menu.xml
+
+4863
+Forward in history...
+在编辑历史中前进...
+
+Andrew
+doc_src/Menu.xml
+
+4864
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>N</k2>
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>N</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4865
+<a0>OmegaT</a0> remembers the segments executed.
+<a0>OmegaT</a0> 会记住执行时所在的片段。
+
+Andrew
+doc_src/Menu.xml
+
+4866
+With this command you can step forward to the segment, you have previously left by the <g1>Back in history</g1>...command.
+使用该命令可以前进到使用<g1>在编辑历史中回退...</g1>命令之前所处片段。
+
+Andrew
+doc_src/Menu.xml
+
+4867
+Back in history...
+在编辑历史中回退...
+
+Andrew
+doc_src/Menu.xml
+
+4868
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>P</k2>
+<k0>Ctrl</k0> <k1>Shift</k1> <k2>P</k2>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4869
+With this command you can move backward one segment at a time, to return later to the current segment using <g0>Forward in history... </g0>command below.
+通过该命令一次可以返回一个片段，在稍后可使用下面的<g0>在编辑历史中前进...</g0>命令返回当前片段。
+
+xulihang
+doc_src/Menu.xml
+
+4870
+<p0>Menu</p0> <s1>View</s1>
+<p0>菜单</p0> <s1>查看</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4871
+View
+查看
+
+Fu Rhong
+doc_src/Menu.xml
+
+4872
+View menu
+查看菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4873
+Mark Translated Segments
+标记已译片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4874
+If checked, the translated segments will be marked in yellow.
+如果选中该选项，已译片段将会标记为黄色。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4875
+Mark Untranslated Segments
+标记未译片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4876
+If checked, the untranslated segments will be marked in violet.
+如果选中该选项，未译片段将会标记为紫色。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4877
+Display Source Segments
+显示源片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4878
+If checked, source segments will be shown and marked in green.
+如果选中该选项，将会显示源片段并标记为绿色。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4879
+If not checked, source segments will not be shown.
+如果未选中，将不会显示源片段。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4880
+Mark Non-Unique Segments
+标记非唯一片段
+
+xulihang
+doc_src/Menu.xml
+
+4881
+If checked, non-unique segments will be marked in pale grey.
+如果选中该选项，则非唯一片段会被标记为浅灰色。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4882
+Mark Segments with Notes
+标记含笔记片段
+
+Fu Rhong
+doc_src/Menu.xml
+
+4883
+If checked, segments with notes will be marked in cyan.
+如果选中该选项，则含笔记片段会被标记为青绿色。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4884
+This marking has priority over Mark Translated Segments and Mark Untranslated Segments.
+该标记优先于标记已译片段和标记未译片段功能。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4885
+Mark Non-breakable Spaces
+标记不可分割空格
+
+Andrew
+doc_src/Menu.xml
+
+4886
+If checked, non-breakable spaces will be displayed with a grey background.
+如果选中该选项，不可分割空格以灰底显示。
+
+Andrew
+doc_src/Menu.xml
+
+4887
+Mark Whitespace
+标记空白字符
+
+Fu Rhong
+doc_src/Menu.xml
+
+4888
+If checked, white spaces will be displayed with a small dot.
+如果选中该选项，空格将以小点显示。
+
+Andrew
+doc_src/Menu.xml
+
+4889
+Mark Bidirectional Algorithm Control Characters
+标记双向算法控制字符
+
+Andrew
+doc_src/Menu.xml
+
+4890
+http://www.w3.org/International/questions/qa-bidi-controls
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4891
+This option displays <u0>bidirectional control characters</u0>
+此选项显示 <u0>双向控制字符</u0>
+
+weiyi
+doc_src/Menu.xml
+
+4892
+Mark Auto-Populated Segments
+标记自动填充片段
+
+weiyi
+doc_src/Menu.xml
+
+4893
+http://sourceforge.net/p/omegat/feature-requests/963/
+未翻译
+
+没有修改者
+doc_src/Menu.xml
+
+4894
+If checked, the background of all segments where the target segment has been auto-populated (from TMXs placed in /tm/auto for example) are displayed in colour.
+如果选中该选项，所有（例如根据/tm/auto路径下的TMX文件）自动填充的片段背景将标记有颜色。
+
+Andrew
+doc_src/Menu.xml
+
+4895
+The colours are displayed as long as the "Save auto-populated status" (in Options/Editing behaviour..) option is checked.
+只要（在选项/编辑操作中）“保存自动填充状态”选项，背景颜色将会一直显示。
+
+Andrew
+doc_src/Menu.xml
+
+4896
+Usual translations inserted from the auto folder are displayed in orange.
+来自“auto”文件夹中的常规翻译会以橙色显示。
+
+weiyi
+doc_src/Menu.xml
+
+4897
+Other translations, identified specifically in the TMX, can be displayed using different colours.
+其它在TMX中独有的翻译会以不同的颜色显示。
+
+weiyi
+doc_src/Menu.xml
+
+4898
+For technical details, see the <u0>Request For Enhancement</u0>
+更多技术细节，见<u0>增强需求</u0>
+
+weiyi
+doc_src/Menu.xml
+
+4899
+Aggressive Font Fallback
+突出后备字体
+
+weiyi
+doc_src/Menu.xml
+
+4900
+Check this option in case OmegaT does not display some glyphs properly (even if the fonts containing the relevant glyphs are installed on your machine).
+选中此选项以防止OmegaT不能正确显示某些字形（即使相关字体已在您的计算机中安装）。
+
+Andrew
+doc_src/Menu.xml
+
+4901
+Note: on Windows it seems that this manual font fallback mechanism can interfere with standard font fallback, causing undesirable font substitution.
+注意：Windows操作系统中手动突出后备字体可能会影响标准后备字体，导致不理想的字体替换。
+
+Andrew
+doc_src/Menu.xml
+
+4902
+For that reason, it is OFF by default.
+基于这个原因，此选项默认关闭。
+
+weiyi
+doc_src/Menu.xml
+
+4903
+Modification Info
+修改信息
+
+Fu Rhong
+doc_src/Menu.xml
+
+4904
+Setting the Display Modification option to <e0>Current segment</e0> will display the time and the author of the last change in the current segment.
+设定将显示修改选项应用于<e0>当前片段</e0> 可显示当前片段上次修改者和修改时间。
+
+Andrew
+doc_src/Menu.xml
+
+4905
+Setting it to <e1>All segments</e1> shows this information for all segments and <e2>None</e2> turns this option off.
+将此选项设置为 <e1>所有片段</e1> 显示所有片段信息，设置为<e2>无</e2> 以关闭此选项。
+
+weiyi
+doc_src/Menu.xml
+
+4906
+Note: colors are customizable through the <g0>Options / Custom colours...</g0> dialog.
+提示：颜色可在 <g0>选项/个性化颜色</g0> 中定制。
+
+weiyi
+doc_src/Menu.xml
+
+4907
+<p0>Menu</p0> <s1>Tools</s1>
+<p0>菜单</p0> <s1>工具</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4908
+Tools
+工具
+
+Fu Rhong
+doc_src/Menu.xml
+
+4909
+Tools menu
+工具菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4910
+<p0>Matches</p0> <s1>Matches statistics</s1>
+<p0>匹配</p0> <s1>匹配统计</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4911
+<p0>Project</p0> <s1>Match statistics</s1>
+<p0>项目</p0> <s1>匹配统计</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4912
+<p0>Project</p0> <s1>Statistics</s1>
+<p0>项目</p0> <s1>统计</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4913
+Validate Tags
+检验标签
+
+Fu Rhong
+doc_src/Menu.xml
+
+4914
+<g0>Ctrl+Shift+V</g0>: Checks for missing or displaced tags in formatted files.
+<g0>Ctrl+Shift+V</g0>：寻找格式化文件中丢失或错置的标签。
+
+weiyi
+doc_src/Menu.xml
+
+4915
+Will display a list of segments with tag errors and possible inconsistencies.
+将会显示一份含有错误和可能不一致标签的片段清单。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4916
+See <l1>Tag Validation</l1> and <x2/>.
+请参阅<l1>标签验证</l1>和<x2/>。
+
+Andrew
+doc_src/Menu.xml
+
+4917
+Validate Tags for Current Document
+验证当前文件中的标签
+
+weiyi
+doc_src/Menu.xml
+
+4918
+Same as above, but only for the current document in translation.
+与上述内容相同，但仅应用于当前翻译的文档。
+
+weiyi
+doc_src/Menu.xml
+
+4919
+Statistics
+统计
+
+Andrew
+doc_src/Menu.xml
+
+4920
+Opens a new window and displays the project statistics, i.e. the project totals and totals for every file in the project.
+打开新的窗口并在其中显示项目的统计数据，即整个项目和项目中每个文件的统计数据。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4921
+Match Statistics
+匹配状态
+
+钢
+doc_src/Menu.xml
+
+4922
+Displays the Match Statistics for the project: the number of repetitions, exact matches, fuzzy matches and no-matches, for segments, words and in characters.
+显示当前项目的匹配统计：对于片段、单词和字符的重复、精确匹配、模糊匹配和无匹配的数目。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4923
+Match Statistics per File
+每文件匹配统计
+
+Fu Rhong
+doc_src/Menu.xml
+
+4924
+Displays the Match Statistics for each file of the project: the number of repetitions, exact matches, fuzzy matches and no-matches, for segments, words and in characters.
+显示当前项目中每个文件的匹配统计：片段、单词和字符的重复、精确匹配、模糊匹配和无匹配的数目。
+
+Andrew
+doc_src/Menu.xml
+
+4925
+Scripting...
+脚本...
+
+weiyi
+doc_src/Menu.xml
+
+4926
+Opens a dialog box where the location of scripts can be set, and where scripts can be written, run and associated with a shortcut (see <l0>Scripts window</l0>)
+打开对话框以设置脚本；脚本可以被改写、运行并和缩略词建立关联（见 <l0>脚本窗口</l0>）
+
+Andrew
+doc_src/Menu.xml
+
+4927
+<p0>Menu</p0> <s1>Options</s1>
+<p0>菜单</p0> <s1>选项</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+4928
+Options
+选项
+
+钢
+doc_src/Menu.xml
+
+4929
+Options menu
+选项菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
+4930
+Use TAB To Advance
+使用 Tab 前进
+
+Fu Rhong
+doc_src/Menu.xml
+
+4931
+Sets segment validation key to <g0>Tab</g0> instead of the default <g1>Enter</g1>.
+设置片段检验键为 <g0>Tab</g0>来代替缺省的<g1>Enter</g1>。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4932
+This option is useful for some Chinese, Japanese or Korean character input systems.
+该选项对于一些中文、日文、韩文字符输入系统非常有用。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4933
+Always Confirm Quit
+退出前总是确认
+
+Fu Rhong
+doc_src/Menu.xml
+
+4934
+The program will see confirmation before closing down.
+程序在关闭前即需要确认。
+
+Andrew
+doc_src/Menu.xml
+
+4935
+Machine Translate
+机器翻译
+
+Fu Rhong
+doc_src/Menu.xml
+
+4936
+Allows you to activate/deactivate the Machine Translation tools offered.
+允许您激活/取消激活程序提供的机器翻译工具。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4937
+When active, <k0> <k1>Ctrl</k1> <k2>M</k2> </k0> will insert the suggestion into the target part of the current segment.
+激活后，使用 <k0> <k1>Ctrl</k1> <k2>M</k2> </k0> 可将翻译建议插入到当前片段的目标部分。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4938
+For confidentiality reasons, you may want to not send all the segments to the Machine Translation tool.
+由于保密原因，您可能不想将所有的片段上传至机器翻译工具。
+
+weiyi
+doc_src/Menu.xml
+
+4939
+By unchecking <e0>Automatically Fetch Translations</e0> option, machine translations will be fetched only upon invoking <k1> <k2>Ctrl</k2> <k3>M</k3> </k1> (<k4> <k5>Cmd</k5> <k6>M</k6> </k4> on OS X) on the current segment.
+关闭<e0>自动获取翻译</e0>选项，程序只会在按下<k1> <k2>Ctrl</k2> <k3>M</k3> </k1> （在OS X操作系统中为<k4> <k5>Cmd</k5> <k6>M</k6> </k4>）后获取当前片段的机器翻译。
+
+Andrew
+doc_src/Menu.xml
+
+4940
+Then you must use <k7> <k8>Ctrl</k8> <k9>M</k9> </k7> a second time, to insert the suggestion.
+随后，您必须再次使用 <k7> <k8>Ctrl</k8> <k9>M</k9> </k7> 以插入建议。
+
+weiyi
+doc_src/Menu.xml
+
+4941
+Check <e0>Untranslated Segments Only</e0> option to deactivate Machine Translation tools on already translated segments.
+选择<e0>仅未翻译片段</e0>选项为已翻译片段关闭机器翻译工具。
+
+Andrew
+doc_src/Menu.xml
+
+4942
+Note: in that case, <k1> <k2>Ctrl</k2> <k3>M</k3> </k1> can still be used, to force a Machine Translation call on an already translated segment.
+提示：在上述情况中，<k1> <k2>Ctrl</k2> <k3>M</k3> </k1>仍可用来为已翻片段获取机器翻译。
+
+Andrew
+doc_src/Menu.xml
+
+4943
+Glossary
+术语表
+
+xulihang
+doc_src/Menu.xml
+
+4944
+The <g0>Display Context Description for TBX Glossaries</g0> option allows to show or hide contextual information with the terms (that come from TBX glossaries located in <f1>glossary</f1> folder) in the Glossary pane.
+<g0>展示TBX术语表文本描述</g0> 选项可在术语表窗口展示或隐藏术语文本信息（来自TBX术语表中的<f1>glossary</f1> 文件夹）。
+
+Andrew
+doc_src/Menu.xml
+
+4945
+If <g0>Use Terms Appearing Separately in the Source Text</g0> option is ON, the glossary entry "itema itemb" will be found in the source text "itema other word itemb".
+如果 <g0>源文件中使用分开出现的术语</g0>选项开启，术语条目 "itema itemb" 会在源文件 "itema other word itemb" 中显示。
+
+Andrew
+doc_src/Menu.xml
+
+4946
+If the option is OFF, the glossary entry above will not be found.
+如果关闭此选项，上述术语条目将不会显示。
+
+Andrew
+doc_src/Menu.xml
+
+4947
+If <g0>Use Stemming for Glossary Entries</g0> option is ON, with an English source text, the glossary entry "element" will be found if the source text contains "elements".
+如果<g0>使用词干提取自术语条目</g0>选项开启，英文原文中若存在 "elements"，术语条目 "element" 将会显示。
+
+Andrew
+doc_src/Menu.xml
+
+4948
+If the option is OFF, the glossary entry above will not be found.
+如果关闭此选项，上述术语条目将不会显示。
+
+Andrew
+doc_src/Menu.xml
+
+4949
+The <e0>Replace Glossary Hits when Inserting Source Text</e0> option allows to replace automatically glossary hits with the target term when source text is inserted.
+<e0>插入原文时替换匹配术语表中的术语</e0> 选项可插入原文时，程序自动替换匹配表中的术语。
+
+Andrew
+doc_src/Menu.xml
+
+4950
+This is effective upon <e1>Edit > Replace with Source</e1>, <e2>Edit > Insert Source</e2>, and when entering a segment when <e3>Options > Editing Behavior > [Insert] The source text</e3> is enabled.
+此选项于<e1>编辑 > 以原语替换</e1>、<e2>编辑 > 插入原语</e2>和（在<e3>选项 > 编辑操作 > [I插入] 源文本</e3>开启时键入片段时生效。 
+
+Andrew
+doc_src/Menu.xml
+
+4951
+When multiple target terms are available, the first one (as shown in the Glossary pane) will be used.
+当多个目标术语可用时，（在术语表窗格中显示的）第一条术语会被使用。
+
+Andrew
+doc_src/Menu.xml
+
+4952
+Glossary matching does not use stemming or stop words, but is case-insensitive.
+术语表匹配不使用词干提取或停用词，但大小写不敏感。
+
+weiyi
+doc_src/Menu.xml
+
+4953
+An attempt is made to match the capitalization of the source word.
+大写的原词语也会尝试匹配。
+
+Andrew
+doc_src/Menu.xml
+
+4954
+The 3 other options are described in the specific page concerning <l0>TaaS</l0> (Terminology as a Service).
+其它三种选项在关于<l0>TaaS</l0> （术语即服务）的页面中介绍。
+
+Andrew
+doc_src/Menu.xml
+
+4955
+TransTips
+翻译提示
+
+Fu Rhong
+doc_src/Menu.xml
+
+4956
+Allows you to activate/deactivate <e0>TransTips </e0>feature and set its option<e1> Exact Match.</e1> With <e2>TransTips</e2> activated a right click on a highlighted word in the source will open a pop up menu with the glossary entries for the word you clicked.
+可以让您激活/取消激活<e0>翻译提示</e0>功能，并设置<e1>精确匹配</e1>选项。激活<e2>翻译提示</e2>后，在原文中突出显示的单词上右击，可显示含有术语表条目的弹出菜单。
+
+Andrew
+doc_src/Menu.xml
+
+4957
+You can then click on the preferred translation to insert it into the target segment at the current position.
+接着可以点击喜欢的翻译来将其插入目标片段的当前位置。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4958
+With <e3>TransTips/Exact Match </e3> checked, only complete words will be checked, otherwise parts of words will be matched as well.
+选中<e3>翻译提示/精确匹配</e3>时只检查完整的单词，否则也会匹配部分单词。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4959
+Auto-completion
+自动完成
+
+weiyi
+doc_src/Menu.xml
+
+4960
+Click on <g0>Glossary...</g0> to configure the Auto-completer Glossary View.
+点击<g0>术语表...</g0>设置自动完成器术语表视图。
+
+Andrew
+doc_src/Menu.xml
+
+4961
+Click on <g0>Auto-text...</g0> to configure Auto-text options and to add or remove entries.
+点击<g0>自动文本...</g0> 配置自动文本选项并添加或移除条目。
+
+weiyi
+doc_src/Menu.xml
+
+4962
+Click on <g0>Character Table...</g0> to set the Character table auto-completer options.
+点击 <g0>字符表...</g0> 设置字符表自动完成器选项。
+
+weiyi
+doc_src/Menu.xml
+
+4963
+Auto-completer is launched within the target segment via <e0>Ctrl+Space</e0> shortcut.
+目标片段可通过快捷键 <e0>Ctrl+Space</e0> 启动自动完成器。
+
+weiyi
+doc_src/Menu.xml
+
+4964
+If <e0>Show Relevant Suggestions Automatically</e0> option is checked, Auto-completer is launched automatically by typing the first letter of a translated glossary entry, or by typing "<" in case of tags.
+如果<e0>自动显示相关建议</e0>选项被选中，输入已翻译术语表中条目的首字母或输入标签的“<"后自动完成器会启动。
+
+weiyi
+doc_src/Menu.xml
+
+4965
+Font...
+字体...
+
+xulihang
+doc_src/Menu.xml
+
+4966
+Shows the dialog to modify the text display font.
+显示对话框以修改文本显示字体。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4967
+Users of old computers who feel window resizing is very slow can try changing the font.
+调整窗口尺寸大小非常缓慢的旧款计算机的用户可以尝试改变字体。
+
+Andrew
+doc_src/Menu.xml
+
+4968
+See font settings in <l0>Miscellanea</l0>
+请参阅<l0>杂项</l0>中的字体设置
+
+Fu Rhong
+doc_src/Menu.xml
+
+4969
+Custom colours...
+自定义颜色...
+
+weiyi
+doc_src/Menu.xml
+
+4970
+Allows you to choose different colours for each part of the User Interface.
+您可以为每个用户界面选择不同的颜色。
+
+Andrew
+doc_src/Menu.xml
+
+4971
+Pre-defined themes can be set through a script.
+预定义主题可用脚本设置。
+
+Andrew
+doc_src/Menu.xml
+
+4972
+A default script called Switch Colour Themes provides a default "Dark".
+默认脚本为“替换颜色主题”，“深黑”为默认选项。
+
+Andrew
+doc_src/Menu.xml
+
+4973
+File Filters...
+文件过滤器...
+
+xulihang
+doc_src/Menu.xml
+
+4974
+Displays the <l0>File filters</l0> dialog to configure file handling and parsing.
+显示<l0>文件过滤器</l0>对话框来设置文件的分析和处理方式。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4975
+Segmentation...
+分割规则...
+
+xulihang
+doc_src/Menu.xml
+
+4976
+Opens the <l0>Source segmentation</l0> dialog to configure text segmentation.
+打开<l0>源片段分割设置</l0>对话框来配置文本切割设置。
+
+Andrew
+doc_src/Menu.xml
+
+4977
+Spell checking...
+拼写检查...
+
+xulihang
+doc_src/Menu.xml
+
+4978
+Displays the <l0>Spell checker setup</l0> window to install, configure and activate the spell checker.
+显示<l0>拼写检查工具设置</l0>窗口以安装、配置和激活拼写检查工具。
+
+Andrew
+doc_src/Menu.xml
+
+4979
+Editing Behavior...
+编辑行为...
+
+xulihang
+doc_src/Menu.xml
+
+4980
+Displays the <l0>Translation editing</l0> dialog to configure.
+显示<l0>翻译编辑</l0>对话框以进行配置。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4981
+Tag Processing...
+标签处理
+
+weiyi
+doc_src/Menu.xml
+
+4982
+When translating software-related files: Allows you to configure the Tag Validator options to check also programming (%...) variables.
+在翻译与软件关联的文件时：您可以通过标签验证器检验程序中的（%...）变量。
+
+weiyi
+doc_src/Menu.xml
+
+4983
+It also allows to define various options related to tag validation and to define custom tags.
+同样可以设定多种选项与标签验证和定义自定义标签关联。
+
+weiyi
+doc_src/Menu.xml
+
+4984
+Team...
+团队...
+
+xulihang
+doc_src/Menu.xml
+
+4985
+Enter your name here and it will be attached to all segments translated by you.
+在这里输入您的名字，它将附加到您翻译的所有片段中。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4986
+External TMXs...
+外部 TMX ...
+
+xulihang
+doc_src/Menu.xml
+
+4987
+Allows the user decide, how tags in foreign TMX files (i.e. not generated by OmegaT) are to be treated.
+用户可决定如何处理外部TMX文件（即不是由OmegaT生成的）中的标签。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4988
+The fuzzy matches can be also sorted in different ways (for displaying only; no influence on statistics).
+模糊匹配可以按两种方式排序 （仅用于显示；不影响统计）。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4989
+The Match Display Template area also allows changing how fuzzy matches are displayed, through the use of pre-configured variables.
+也可在匹配显示模板区域中可使用预设置变量修改模糊匹配如何显示。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4990
+View...
+查看...
+
+xulihang
+doc_src/Menu.xml
+
+4991
+Contains options for displaying texts and modification information in different ways.
+包含多种显示文本和修改信息方式的设置。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4992
+Saving and Output...
+保存和输出...
+
+xulihang
+doc_src/Menu.xml
+
+4993
+Allows the user select the interval - in minutes and seconds - between consecutive automatic saves of the project.
+用户可选择自动保存项目的间隔（分钟数和秒数）。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4994
+The minimum is 10 seconds.
+最小间隔为10秒。
+
+Fu Rhong
+doc_src/Menu.xml
+
+4995
+The dialog box allows also to set external Post-processing commands (that are executed after <g0>Create Translated Documents</g0> command
+对话框也可以设定外部后期处理命令（会在点击 <g0>创建已译文档</g0> 命令后执行）。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4996
+Proxy login...
+代理服务器登录...
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4997
+Enter your user name and your password, if you use a proxy to access your projects.
+如果使用代理服务器访问您的项目，请输入用户名和密码。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+4998
+Restore Main Window
+恢复主窗口
+
+Fu Rhong
+doc_src/Menu.xml
+
+4999
+Restores the components of the main OmegaT window to their default state.
+将 OmegaT 窗口的组件恢复到缺省状态。
+
+Fu Rhong
+doc_src/Menu.xml
+
+5000
+Use this feature when you have undocked, moved, or hidden one or more components and you are unable to restore the desired arrangement.
+在对一个或多个组件进行了分离、移动或隐藏操作后无法还原时可以使用这个功能。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5001
+It can also be used when panes do not appear as expected following an OmegaT upgrade.
+它还可用于更新 OmegaT 后窗格显示异常的情况。
+
+Kaname Madokami☆!
+doc_src/Menu.xml
+
+5002
+Language Checker
+语言检查工具
+
+钢
+doc_src/Menu.xml
+
+5003
+When selected, LanguageTool checks the translations, and underline potential issues in blue.
+选择该选项后，语言检查工具会对译文检查，并用蓝色显示出可能存在的问题。
+
+weiyi
+doc_src/Menu.xml
+
+5004
+<p0>Menu</p0> <s1>Help</s1>
+<p0>菜单</p0> <s1>帮助</s1>
+
+Fu Rhong
+doc_src/Menu.xml
+
+5005
+Help
+帮助
+
+Fu Rhong
+doc_src/Menu.xml
+
+5006
+Help menu
+帮助菜单
+
+Fu Rhong
+doc_src/Menu.xml
+
