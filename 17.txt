@@ -1,0 +1,1643 @@
+6279
+Opening the user manual in this way also enables you to follow external links, as the built-in help browser does not accept external Internet links.
+用这种方法，您也可以打开外部的链接，因为内建的帮助浏览器并不接受外部互联网链接。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6280
+@TRANSLATION_NOTICE@
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6281
+What is OmegaT?
+什么是OmegaT？
+
+xulihang
+readme_zh_CN.txt
+
+6282
+===============
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6283
+OmegaT is a free and open source multiplatform Computer Assisted Translation
+tool with fuzzy matching, translation memory, keyword search, glossaries, and
+translation leveraging into updated projects.
+OmegaT 是一种免费开源的跨平台计算机辅助翻译工具软件，包含模糊匹配、翻译记忆、关键词搜索、术语表和协作翻译等功能
+
+xulihang
+readme_zh_CN.txt
+
+6284
+Licensing information
+=====================
+许可信息
+=====================
+
+xulihang
+readme_zh_CN.txt
+
+6285
+OmegaT is available under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+该程序是免费软件，遵循 FSF 的 GNU General Public License v3或者更高版本，你可以对它进行编辑或者重新发布。
+
+xulihang
+readme_zh_CN.txt
+
+6286
+You can find the text of the license in
+/docs/OmegaT-license.txt.
+你可以在此找到证书的文本：
+/docs/OmegaT-license.txt.
+
+xulihang
+readme_zh_CN.txt
+
+6287
+OmegaT uses a number of librairies.
+OmegaT使用了许多类库。
+
+xulihang
+readme_zh_CN.txt
+
+6288
+The license of each library is mentionned
+in /lib/licenses/Licenses.txt.
+每个类库的许可证书在以下文本中都有提到：/lib/licenses/Licenses.txt。
+
+xulihang
+readme_zh_CN.txt
+
+6289
+Prerequisites for installing OmegaT
+===================================
+安装OmegaT的要求
+===================================
+
+xulihang
+readme_zh_CN.txt
+
+6290
+OmegaT requires the Java Runtime Environment (JRE) version 1.8 or higher to be
+installed on your system.
+OmegaT需要您的系统安装了Java运行环境（JRE）1.8或者更高的版本。
+
+xulihang
+readme_zh_CN.txt
+
+6291
+We recommend using OmegaT packages that include the JRE, to save you the
+trouble of selecting, obtaining and installing it.
+我们推荐使用自带JRE的OmegaT安装包，免去您安装JRE的麻烦。
+
+xulihang
+readme_zh_CN.txt
+
+6292
+Installing OmegaT (Windows)
+===========================
+在Windows上安装
+===========================
+
+xulihang
+readme_zh_CN.txt
+
+6293
+Launch the installation program.
+启动安装程序。
+
+xulihang
+readme_zh_CN.txt
+
+6294
+Installing OmegaT (Mac)
+=======================
+在Mac上安装
+=======================
+
+xulihang
+readme_zh_CN.txt
+
+6295
+Unpack the OmegaT .zip archive to obtain a folder that contains a
+documentation file and the OmegaT application.
+解压OmegaT.zip文件，获得一个包含OmegaT程序及其文档文件的文件夹。
+
+xulihang
+readme_zh_CN.txt
+
+6296
+Move the folder to an
+appropriate location such as the Applications folder.
+将该文件夹移动到合适的地方，比如应用程序文件夹。
+
+xulihang
+readme_zh_CN.txt
+
+6297
+Installing OmegaT (Linux)
+=========================
+在Linux上安装OmegaT
+=========================
+
+xulihang
+readme_zh_CN.txt
+
+6298
+Place the archive in any suitable folder and unpack it.
+将压缩包放在任何合适的文件夹解压
+
+xulihang
+readme_zh_CN.txt
+
+6299
+OmegaT is then ready
+to be launched.
+你有可以运行OmegaT了。
+
+xulihang
+readme_zh_CN.txt
+
+6300
+You can however obtain a neater and more user-friendly installation by using
+the installation script (linux-install.sh).
+不过您可以使用安装脚本（linux-install.sh）进行更整洁和友好的安装。
+
+xulihang
+readme_zh_CN.txt
+
+6301
+To use this script, open a
+terminal window (console), change folder to the folder containing OmegaT.jar
+and the linux-install.sh script, and execute the script with ./linux-
+install.sh.
+要使用此脚本，请打开终端窗口（控制台），进入包含OmegaT.jar和linux-install.sh的目录并执行./linux-install.sh。
+
+xulihang
+readme_zh_CN.txt
+
+6302
+Installing OmegaT (Solaris, FreeBSD, ...)
+=========================================
+在Solaris, FreeBSD等系统安装
+=========================================
+
+xulihang
+readme_zh_CN.txt
+
+6303
+Place the archive in any suitable folder and unpack it.
+将压缩包放在任何合适的文件夹解压
+
+xulihang
+readme_zh_CN.txt
+
+6304
+OmegaT is then ready
+to be launched.
+你有可以运行OmegaT了。
+
+xulihang
+readme_zh_CN.txt
+
+6305
+Using Java Web Start for installing OmegaT (all platforms)
+===========================================================
+使用Java Web Start安装OmegaT（适合任何平台）
+===========================================================
+
+xulihang
+readme_zh_CN.txt
+
+6306
+If you have already Java installed on your system, one way to install OmegaT
+is to use Java Web Start.
+如果已经装了 Java，安装 OmegaT 的途径之一是使用 Java Web Start。
+
+xulihang
+readme_zh_CN.txt
+
+6307
+For this purpose download the following file and then execute it:
+为此，需要下载下面的文件并运行它：
+
+钢
+readme_zh_CN.txt
+
+6308
+https://omegat.sourceforge.io/webstart/OmegaT.jnlp
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6309
+It will install the correct environment for your computer and the application
+itself on the first run.
+它将在第一次运行时给您的计算机安装正确的环境和应用程序本身。
+
+xulihang
+readme_zh_CN.txt
+
+6310
+Later calls do not need to be online.
+之后再运行的话无需处于在线状态。
+
+钢
+readme_zh_CN.txt
+
+6311
+Launching OmegaT (Windows)
+==========================
+在Windows上启动OmegaT
+==========================
+
+xulihang
+readme_zh_CN.txt
+
+6312
+If, during installation, you have created a shortcut on the desktop, double-
+click on that shortcut.
+* Windows用户：
+若在安装时您选择创建了桌面快捷方式，那么双击它。
+
+xulihang
+readme_zh_CN.txt
+
+6313
+The install program can create shortcuts for you in the start menu, on the
+desktop and in the quick launch area.
+* Windows用户：
+安装程序可以在开始菜单、桌面和快速启动栏创建快捷方式。
+
+xulihang
+readme_zh_CN.txt
+
+6314
+You can also manually drag the file
+OmegaT.exe to the start menu, the desktop or the quick launch area to link it
+from there.
+您也可以手动将 OmegaT.exe 文件拖动到开始菜单、桌面或快速启动栏，以将其链接到该处。
+
+xulihang
+readme_zh_CN.txt
+
+6315
+If you can see the file OmegaT but not OmegaT.exe in your File Manager
+(Windows Explorer), change the settings so that file extensions are displayed.
+如果您能在文件管理器（Windows资源管理器）中看到OmegaT但没有OmegaT.exe文件，请修改此设置以显示文件扩展名。
+
+xulihang
+readme_zh_CN.txt
+
+6316
+Launching OmegaT (Mac)
+======================
+在Mac上启动OmegaT
+=======================
+
+xulihang
+readme_zh_CN.txt
+
+6317
+Double-click on the OmegaT application.
+双击OmegaT应用
+
+xulihang
+readme_zh_CN.txt
+
+6318
+You may drag the OmegaT application to your dock or to the tool bar of a
+Finder window to be able to launch it from any location.
+拖动OmegaT.app到dock面板或Finder窗口的工具栏以便从任意位置启动此程序。
+
+xulihang
+readme_zh_CN.txt
+
+6319
+You can also launch
+it from the Spotlight search field.
+您还可以在Spotlight搜索区域中进行调用。
+
+xulihang
+readme_zh_CN.txt
+
+6320
+Launching OmegaT (Linux)
+========================
+在Linux上启动OmegaT
+========================
+
+xulihang
+readme_zh_CN.txt
+
+6321
+If you used linux-install.sh script, you should be able to launch OmegaT with:
+如果您用所提供的脚本实施安装，那么可以这样启动OmegaT：
+
+xulihang
+readme_zh_CN.txt
+
+6322
+Alt+F2
+Alt+F2
+
+xulihang
+readme_zh_CN.txt
+
+6323
+and then:
+然后：
+
+xulihang
+readme_zh_CN.txt
+
+6324
+omegat
+omegat
+
+xulihang
+readme_zh_CN.txt
+
+6325
+For a more user-friendly way of launching OmegaT, you can use the Kaptain
+script provided (omegat.kaptn).
+要更友好地启动OmegaT，您可以使用一起提供的Kaptain脚本（omegat.kaptn）。
+
+xulihang
+readme_zh_CN.txt
+
+6326
+To use this script you must first install
+Kaptain.
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6327
+You can then launch the Kaptain launch script with:
+然后您可以这样运行Kaptain启动脚本：
+
+xulihang
+readme_zh_CN.txt
+
+6328
+Alt+F2
+Alt+F2
+
+xulihang
+readme_zh_CN.txt
+
+6329
+and then:
+然后：
+
+xulihang
+readme_zh_CN.txt
+
+6330
+omegat.kaptn
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6331
+Launching OmegaT from the command line (all systems)
+====================================================
+从命令行启动OmegaT（支持所有系统）
+====================================================
+
+xulihang
+readme_zh_CN.txt
+
+6332
+The command to launch OmegaT is:
+启动OmegaT的命令是：
+
+xulihang
+readme_zh_CN.txt
+
+6333
+cd <folder where the file OmegaT.jar is located>
+cd <OmegaT.jar 文件所在文件夹>
+
+Fu Rhong
+readme_zh_CN.txt
+
+6334
+<name and path of the Java executable file> -jar OmegaT.jar
+<Java 可执行文件的路径和名称> -jar OmegaT.jar
+
+Fu Rhong
+readme_zh_CN.txt
+
+6335
+(The Java executable file is the file java on Linux and java.exe on Windows.
+（Java 可执行文件即 Linux 系统中的 java 文件和 Windows 系统中的 java.exe 文件。
+
+Fu Rhong
+readme_zh_CN.txt
+
+6336
+If Java is installed at system level and is in the command path, the full path
+need not be entered.)
+如果系统上安装了Java且处于命令行路径中，则无需输入它的完整路径。）
+
+xulihang
+readme_zh_CN.txt
+
+6337
+Contributors
+============
+贡献者
+============
+
+xulihang
+readme_zh_CN.txt
+
+6338
+OmegaT is the original work of Keith Godfrey.
+OmegaT 最初的工作由 Keith Godfrey 完成。
+
+钢
+readme_zh_CN.txt
+
+6339
+Didier Briel is the OmegaT project manager.
+Didier Briel是OmegaT项目的经理。
+
+xulihang
+readme_zh_CN.txt
+
+6340
+Current team:
+(alphabetical order)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6341
+Vincent Bidaux (documentation manager)
+Vincent Bidaux (文档管理员)
+
+xulihang
+readme_zh_CN.txt
+
+6342
+Didier Briel (OmegaT project manager, Twitter community manager)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6343
+Kos Ivantsof (localisation manager)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6344
+Aaron Madlon-Kay (integration manager)
+Aaron Madlon-Kay (集成管理员)
+
+xulihang
+readme_zh_CN.txt
+
+6345
+Concepción Martin (Facebook community manager)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6346
+Briac Pilpré (webmaster)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6347
+Lucie Vecerova (Facebook community manager)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6348
+Contributions to the code are documented in /docs/contributors.txt.
+为代码做出贡献的名单在这里：/docs/contributors.txt。
+
+xulihang
+readme_zh_CN.txt
+
+6349
+Previous contributors include:
+(alphabetical order)
+之前做过贡献的人还包括（姓名字母排序）：
+
+Fu Rhong
+readme_zh_CN.txt
+
+6350
+Alex Buloichik (lead developer)
+Alex Buloichik (开发人员主管)
+
+Fu Rhong
+readme_zh_CN.txt
+
+6351
+Sabine Cretella
+Sabine Cretella
+
+Fu Rhong
+readme_zh_CN.txt
+
+6352
+Dmitri Gabinski
+Dmitri Gabinski
+
+Fu Rhong
+readme_zh_CN.txt
+
+6353
+Jean-Christophe Helary (support group owner, localization manager)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6354
+Maxym Mykhalchuk (lead developper)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6355
+Samuel Murray
+Samuel Murray
+
+Fu Rhong
+readme_zh_CN.txt
+
+6356
+Henry Pijffers (release manager)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6357
+Marc Prior (project co-ordinator, webmaster)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6358
+Vito Smolej (documentation manager)
+Vito Smolej（文档管理员）
+
+Fu Rhong
+readme_zh_CN.txt
+
+6359
+and many, many more very helpful people
+以及非常、非常多的提供了帮助的人们。
+
+Fu Rhong
+readme_zh_CN.txt
+
+6360
+(If you think you have significantly contributed to the OmegaT Project but you
+(don't see your name on the lists, feel free to contact us.)
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6361
+Useful links
+============
+有用的链接
+============
+
+xulihang
+readme_zh_CN.txt
+
+6362
+The most current info about OmegaT can be found at:
+可从下列网址获取 OmegaT 的最新信息：
+
+xulihang
+readme_zh_CN.txt
+
+6363
+http://www.omegat.org/
+http://www.omegat.org/
+
+Fu Rhong
+readme_zh_CN.txt
+
+6364
+User support, at the Yahoo user group (multilingual), where the archives are
+searchable without subscription:
+在 Yahoo 用户组可以获得（多语种）用户支持，无需订阅也可以对归档进行搜索，网址是：
+
+xulihang
+readme_zh_CN.txt
+
+6365
+https://groups.yahoo.com/neo/groups/OmegaT/info
+未翻译
+
+没有修改者
+readme_zh_CN.txt
+
+6366
+Requests for Enhancements (in English), at the SourceForge site:
+在 SourceForge 网站的下列网址可以（用英语）提出改进建议：
+
+钢
+readme_zh_CN.txt
+
+6367
+https://sourceforge.net/p/omegat/feature-requests/
+https://sourceforge.net/p/omegat/feature-requests/
+
+Fu Rhong
+readme_zh_CN.txt
+
+6368
+Bug reports (in English), at the SourceForge site:
+在 SourceForge 的下列网址可以（用英语）报告 Bug：
+
+钢
+readme_zh_CN.txt
+
+6369
+https://sourceforge.net/p/omegat/bugs/
+https://sourceforge.net/p/omegat/bugs/
+
+Fu Rhong
+readme_zh_CN.txt
+
+6370
+OmegaT User Interface Language
+OmegaT 用户界面语言
+
+钢
+release/win32-specific/CustomMessages.ini
+
+6371
+User interface language for OmegaT
+OmegaT 所使用的用户界面语言
+
+钢
+release/win32-specific/CustomMessages.ini
+
+6372
+If you want to use the same language in OmegaT as the one used during installation, check the box below.
+如果要在 OmegaT 中使用安装时所用的语言，请勾选下面的方框。
+
+钢
+release/win32-specific/CustomMessages.ini
+
+6373
+Otherwise, OmegaT will use the language of the operating system.
+否则，OmegaT 将会使用操作系统的语言。
+
+钢
+release/win32-specific/CustomMessages.ini
+
+6374
+Use the installation language in OmegaT
+在 OmegaT 中使用安装时的语言。
+
+钢
+release/win32-specific/CustomMessages.ini
+
+6375
+QA - Check Rules
+QA - 检查规则
+
+xulihang
+scripts/check_rules.properties
+
+6376
+A simple set of QA checks for current OmegaT project
+一套简单的QA检查
+
+xulihang
+scripts/check_rules.properties
+
+6377
+Check Rules
+检查规则
+
+xulihang
+scripts/check_rules.properties
+
+6378
+Please try again after you open a project.
+请在打开一个项目后重试。
+
+xulihang
+scripts/check_rules.properties
+
+6379
+Errors found:
+发现错误：
+
+xulihang
+scripts/check_rules.properties
+
+6380
+Segment
+片段
+
+xulihang
+scripts/check_rules.properties
+
+6381
+Rule
+规则
+
+xulihang
+scripts/check_rules.properties
+
+6382
+Target
+目标文件
+
+Administrator
+scripts/check_rules.properties
+
+6383
+Source
+源文件
+
+Administrator
+scripts/check_rules.properties
+
+6384
+LanguageTools Rules
+语言工具规则
+
+xulihang
+scripts/check_rules.properties
+
+6385
+Whitespace - leading
+左边的空行
+
+xulihang
+scripts/check_rules.properties
+
+6386
+Whitespace - trailing
+右边的空行
+
+xulihang
+scripts/check_rules.properties
+
+6387
+Doubled blanks
+双空白
+
+xulihang
+scripts/check_rules.properties
+
+6388
+Doubled words
+双字
+
+xulihang
+scripts/check_rules.properties
+
+6389
+Target shorter
+译文更短
+
+xulihang
+scripts/check_rules.properties
+
+6390
+Target longer
+译文更长
+
+xulihang
+scripts/check_rules.properties
+
+6391
+Different punctuation
+不同的标点。
+
+xulihang
+scripts/check_rules.properties
+
+6392
+Different start case
+不同的首字大写。
+
+xulihang
+scripts/check_rules.properties
+
+6393
+Equal source & target
+原文和译文相同
+
+xulihang
+scripts/check_rules.properties
+
+6394
+Untranslated segment
+未翻译片段
+
+xulihang
+scripts/check_rules.properties
+
+6395
+Tags - number
+标签 - 数字
+
+xulihang
+scripts/check_rules.properties
+
+6396
+Tags - spaces
+标签 - 空行
+
+xulihang
+scripts/check_rules.properties
+
+6397
+Tags - order
+标签 - 顺序
+
+xulihang
+scripts/check_rules.properties
+
+6398
+Inconsistent numbers
+不一致的数字
+
+xulihang
+scripts/check_rules.properties
+
+6399
+Spelling errors(s)
+拼写错误(s)
+
+xulihang
+scripts/check_rules.properties
+
+6400
+Check whole project
+检查整个项目
+
+xulihang
+scripts/check_rules.properties
+
+6401
+Check for leading whitespace
+检查左边的空行
+
+xulihang
+scripts/check_rules.properties
+
+6402
+Check LanguageTools rules
+检查语言工具规则
+
+xulihang
+scripts/check_rules.properties
+
+6403
+Check for trailing whitespace
+检查右边的空行
+
+xulihang
+scripts/check_rules.properties
+
+6404
+Check for doubled blanks
+检查双空白
+
+xulihang
+scripts/check_rules.properties
+
+6405
+Check for doubled words
+检查双字
+
+xulihang
+scripts/check_rules.properties
+
+6406
+Check for shorter target
+检查更短的译文
+
+xulihang
+scripts/check_rules.properties
+
+6407
+Check for longer target
+检查更长的译文
+
+xulihang
+scripts/check_rules.properties
+
+6408
+Check punctuation at segment end
+检查片段末的标点
+
+xulihang
+scripts/check_rules.properties
+
+6409
+Check start case
+检查首字母大小写
+
+xulihang
+scripts/check_rules.properties
+
+6410
+Check for equal source & target
+检查相同的原文和译文
+
+xulihang
+scripts/check_rules.properties
+
+6411
+Check for untranslated segments
+检查未译片段
+
+xulihang
+scripts/check_rules.properties
+
+6412
+Check number of tags
+检查数字标签
+
+xulihang
+scripts/check_rules.properties
+
+6413
+Check spaces around tags
+检查空行标签
+
+xulihang
+scripts/check_rules.properties
+
+6414
+Check sequence of tags
+检查标签顺序
+
+xulihang
+scripts/check_rules.properties
+
+6415
+Check for inconsistent numbers
+检查不一致的数字
+
+xulihang
+scripts/check_rules.properties
+
+6416
+Check for segments with spelling errors
+检查有拼写错误的片段
+
+xulihang
+scripts/check_rules.properties
+
+6417
+Refresh
+刷新
+
+xulihang
+scripts/check_rules.properties
+
+6418
+Non-breaking space
+不换行空格
+
+xulihang
+scripts/nbsp.properties
+
+6419
+Replace spaces with non-breakable spaces where appropriate in French
+用不换行空格替换空格（在法语中适用）
+
+xulihang
+scripts/nbsp.properties
+
+6420
+Strip Tags
+剥除标签
+
+xulihang
+scripts/replace_strip_tags.properties
+
+6421
+Remove tags in the current target
+删除当前译文中的标签
+
+xulihang
+scripts/replace_strip_tags.properties
+
+6422
+Strip tags in current segment
+剥除当前片段中的标签
+
+xulihang
+scripts/replace_strip_tags.properties
+
+6423
+Please try again after you open a project.
+请在打开一个项目后重试。
+
+xulihang
+scripts/replace_strip_tags.properties
+
+6424
+Example - Search and Replace
+示例 - 搜索与替换
+
+xulihang
+scripts/search_replace.properties
+
+6425
+Simple search and replace script
+简单的搜索与替换脚本
+
+xulihang
+scripts/search_replace.properties
+
+6426
+Search
+搜索
+
+xulihang
+scripts/search_replace.properties
+
+6427
+Replace
+替换
+
+xulihang
+scripts/search_replace.properties
+
+6428
+Search and Replace
+搜索与替换
+
+xulihang
+scripts/search_replace.properties
+
+6429
+Modified Segments:
+修改过的片段：
+
+xulihang
+scripts/search_replace.properties
+
+6430
+Spellcheck
+拼写检查
+
+xulihang
+scripts/spellcheck.properties
+
+6431
+Global spell checking
+全局拼写检查
+
+xulihang
+scripts/spellcheck.properties
+
+6432
+Spellchecker
+拼写检查器
+
+xulihang
+scripts/spellcheck.properties
+
+6433
+Please try again after you open a project.
+请在打开一个项目后重试。
+
+xulihang
+scripts/spellcheck.properties
+
+6434
+Errors found:
+发现错误：
+
+xulihang
+scripts/spellcheck.properties
+
+6435
+IGNORED:
+忽略：
+
+xulihang
+scripts/spellcheck.properties
+
+6436
+LEARNED:
+学习到：
+
+xulihang
+scripts/spellcheck.properties
+
+6437
+Spellcheck - errors found:
+拼写检查 - 发现错误：
+
+xulihang
+scripts/spellcheck.properties
+
+6438
+Segment
+片段
+
+xulihang
+scripts/spellcheck.properties
+
+6439
+Target
+目标文件
+
+Administrator
+scripts/spellcheck.properties
+
+6440
+Ignore
+忽略
+
+xulihang
+scripts/spellcheck.properties
+
+6441
+Learn
+学习
+
+xulihang
+scripts/spellcheck.properties
+
+6442
+IGNORED:
+忽略：
+
+xulihang
+scripts/spellcheck.properties
+
+6443
+LEARNED:
+学习到：
+
+xulihang
+scripts/spellcheck.properties
+
+6444
+Ignore
+忽略
+
+xulihang
+scripts/spellcheck.properties
+
+6445
+Learn
+学习
+
+xulihang
+scripts/spellcheck.properties
+
+6446
+Check whole project
+检查整个项目
+
+xulihang
+scripts/spellcheck.properties
+
+6447
+Use glossary
+使用术语表
+
+xulihang
+scripts/spellcheck.properties
+
+6448
+Ignore glossary case
+忽略术语大小写
+
+xulihang
+scripts/spellcheck.properties
+
+6449
+Replace escaped sequences with space
+使用空行替换转义字符
+
+xulihang
+scripts/spellcheck.properties
+
+6450
+Replace custom tags with space
+使用空行替换自定义标签
+
+xulihang
+scripts/spellcheck.properties
+
+6451
+Remove OmegaT tags which have <br>lower case letter before and after it
+去除被小写字母保卫的标签。
+
+xulihang
+scripts/spellcheck.properties
+
+6452
+Remove mnemonics
+删除mnemonics
+
+xulihang
+scripts/spellcheck.properties
+
+6453
+Remove defined fragments
+删除定义的片段
+
+xulihang
+scripts/spellcheck.properties
+
+6454
+Skip segments where source=target
+跳过原文译文相同的片段
+
+xulihang
+scripts/spellcheck.properties
+
+6455
+Refresh
+刷新
+
+xulihang
+scripts/spellcheck.properties
+
+6456
+Strip BiDi Marks
+未翻译
+
+没有修改者
+scripts/strip_bidi_marks.properties
+
+6457
+Remove bidirectionality control characters in the current target
+删除当前译文中的双向控制符
+
+xulihang
+scripts/strip_bidi_marks.properties
+
+6458
+Strip BiDi marks in current segment
+剥除当前片段中的BiDi记号
+
+xulihang
+scripts/strip_bidi_marks.properties
+
+6459
+Please try again after you open a project.
+请在打开一个项目后重试。
+
+xulihang
+scripts/strip_bidi_marks.properties
+
+6460
+SVN - Cleanup (recursive)
+未翻译
+
+没有修改者
+scripts/svn_cleanup_selected.properties
+
+6461
+Perform SVN cleanup on current project or any local SVN repository
+在当前项目或任意远程SVN仓库执行SVN Cleanup
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6462
+Choose SVN repository to perform cleanup
+选择进行清理的SVN仓库
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6463
+Canceled
+未翻译
+
+没有修改者
+scripts/svn_cleanup_selected.properties
+
+6464
+{0}:	cleanup done!!
+{0}:	清理完成!!
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6465
+{0} is not a local working copy, skipping.
+{0}不是一个本地工作副本，跳过
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6466
+There are no local working copies in {0}.
+在{0}中没有本地工作副本。
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6467
+The script will quit now.
+这个脚本将会退出。
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6468
+Local working copies cleaned up: {0}
+本地工作副本已清理完成{0}
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6469
+You are running OmegaT version {0}.
+你在运行OmegaT版本{0}.
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6470
+This script is intended to run in OmegaT 3.6 and newer.
+这个脚本需要OmegaT 3.6或更新的版本。
+
+xulihang
+scripts/svn_cleanup_selected.properties
+
+6471
+Tagwipe
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6472
+Remove tags from DOCX documents
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6473
+No project loaded.
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6474
+Project contains no files.
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6475
+Running Tagwipe for file '{0}'
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6476
+Selected options:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6477
+Converting all .DOCX in the project...
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6478
+Converting current .DOCX...
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6479
+No .DOCX files to clean.
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6480
+Tagwipe finished, reloading project...
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6481
+Opening input file '{0}'
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6482
+Creating output file '{0}'
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6483
+Cleaning entry '{0}'...
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6484
+Moving original '{0}' to '{1}'
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6485
+Moving cleaned '{0}' to '{1}'
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6486
+Level
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6487
+Beautify
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6488
+Convert
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6489
+Backup
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6490
+Beautify resulting DOCX
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6491
+All DOCX files in the project
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6492
+Current DOCX file
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6493
+Create backup files of original DOCX
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6494
+Cancel
+取消
+
+Administrator
+scripts/tagwipe.properties
+
+6495
+Level 0:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6496
+Level 1:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6497
+Level 2:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6498
+Level 3:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6499
+Level 4:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6500
+Level 5:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6501
+Level 6:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6502
+Level 7:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6503
+Level 8:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
+6504
+Level 9:
+未翻译
+
+没有修改者
+scripts/tagwipe.properties
+
