@@ -1,0 +1,1561 @@
+1562
+Created by
+由…创建
+
+Administrator
+Bundle.properties
+
+1563
+Created on
+创建在…
+
+Administrator
+Bundle.properties
+
+1564
+Resource name
+资源名称
+
+Administrator
+Bundle.properties
+
+1565
+Is duplicate
+是否复制
+
+Administrator
+Bundle.properties
+
+1566
+Note
+说明
+
+Fu Rhong
+Bundle.properties
+
+1567
+Comment
+注释
+
+Fu Rhong
+Bundle.properties
+
+1568
+Has note
+有笔记
+
+Administrator
+Bundle.properties
+
+1569
+Is alternative
+多选译文
+
+Administrator
+Bundle.properties
+
+1570
+Match type
+匹配类型
+
+Administrator
+Bundle.properties
+
+1571
+Align Files
+对齐文件
+
+Administrator
+Bundle.properties
+
+1572
+Source
+源文件
+
+Administrator
+Bundle.properties
+
+1573
+Target
+目标文件
+
+Administrator
+Bundle.properties
+
+1574
+Browse...
+浏览...
+
+Administrator
+Bundle.properties
+
+1575
+The file "{0}" is not supported.
+文件 "{0}"不支持 。  
+
+Administrator
+Bundle.properties
+
+1576
+The specified files are not supported.
+特殊文件类型不支持。
+
+Administrator
+Bundle.properties
+
+1577
+An error occurred when loading the source files.
+载入源文件时出现错误。
+
+Administrator
+Bundle.properties
+
+1578
+Choose Source File
+选择源文件
+
+Administrator
+Bundle.properties
+
+1579
+Choose Target File
+选择目标文件
+
+Administrator
+Bundle.properties
+
+1580
+Supported Files
+支持文件类型
+
+Administrator
+Bundle.properties
+
+1581
+File
+文件
+
+xulihang
+Bundle.properties
+
+1582
+Save TMX...
+保存为TMX...
+
+Administrator
+Bundle.properties
+
+1583
+Reset
+重置
+
+Administrator
+Bundle.properties
+
+1584
+Reload
+重新载入
+
+Fu Rhong
+Bundle.properties
+
+1585
+Close
+关闭
+
+Fu Rhong
+Bundle.properties
+
+1586
+Edit
+编辑
+
+Fu Rhong
+Bundle.properties
+
+1587
+Move Up
+上移
+
+Administrator
+Bundle.properties
+
+1588
+Move Down
+下移
+
+Administrator
+Bundle.properties
+
+1589
+Split
+拆分
+
+Administrator
+Bundle.properties
+
+1590
+Merge
+合并
+
+xulihang
+Bundle.properties
+
+1591
+Edit
+编辑
+
+Fu Rhong
+Bundle.properties
+
+1592
+Mark Accepted
+接受标记
+
+Administrator
+Bundle.properties
+
+1593
+Mark Needs Review
+需检查的标记
+
+Administrator
+Bundle.properties
+
+1594
+Clear Mark
+清除标记
+
+Administrator
+Bundle.properties
+
+1595
+Realign Pending
+即将重新对齐
+
+Administrator
+Bundle.properties
+
+1596
+Keep All
+全部保留
+
+Administrator
+Bundle.properties
+
+1597
+Keep None
+不保留
+
+Administrator
+Bundle.properties
+
+1598
+Toggle Selected
+切换已选择的
+
+Administrator
+Bundle.properties
+
+1599
+Start Pinpoint Align
+开始精确对齐
+
+Administrator
+Bundle.properties
+
+1600
+End Pinpoint Align
+结束精确对齐
+
+Administrator
+Bundle.properties
+
+1601
+Cancel Pinpoint Align
+取消精确对齐
+
+Administrator
+Bundle.properties
+
+1602
+View
+查看
+
+Fu Rhong
+Bundle.properties
+
+1603
+Highlight
+高亮
+
+Administrator
+Bundle.properties
+
+1604
+Highlight Pattern...
+高亮模式...
+
+Administrator
+Bundle.properties
+
+1605
+Options
+选项
+
+钢
+Bundle.properties
+
+1606
+Remove Tags
+移除标签
+
+Fu Rhong
+Bundle.properties
+
+1607
+Segment
+片段
+
+xulihang
+Bundle.properties
+
+1608
+Segmentation Rules...
+片段分割规则...
+
+Administrator
+Bundle.properties
+
+1609
+File Filters...
+文件过滤器...
+
+xulihang
+Bundle.properties
+
+1610
+Align
+对齐
+
+Administrator
+Bundle.properties
+
+1611
+Algorithm:
+计算程序
+
+Administrator
+Bundle.properties
+
+1612
+Calculator:
+计算器
+
+Administrator
+Bundle.properties
+
+1613
+Counter:
+计数：
+
+Administrator
+Bundle.properties
+
+1614
+Comparison Mode:
+对比模式：
+
+Administrator
+Bundle.properties
+
+1615
+Average Score: {0}
+平均分数： {0}
+
+Administrator
+Bundle.properties
+
+1616
+▲
+▲
+
+Administrator
+Bundle.properties
+
+1617
+▼
+▼
+
+Administrator
+Bundle.properties
+
+1618
+Split
+拆分
+
+Administrator
+Bundle.properties
+
+1619
+Merge
+合并
+
+xulihang
+Bundle.properties
+
+1620
+Edit
+编辑
+
+Fu Rhong
+Bundle.properties
+
+1621
+Segment
+片段
+
+xulihang
+Bundle.properties
+
+1622
+Rules...
+规则...
+
+Administrator
+Bundle.properties
+
+1623
+Remove Tags
+移除标签
+
+Fu Rhong
+Bundle.properties
+
+1624
+Filters...
+过滤器...
+
+Administrator
+Bundle.properties
+
+1625
+Highlight
+高亮
+
+Administrator
+Bundle.properties
+
+1626
+Pattern...
+模式...
+
+Administrator
+Bundle.properties
+
+1627
+Save TMX...
+保存为TMX...
+
+Administrator
+Bundle.properties
+
+1628
+Reset
+重置
+
+Administrator
+Bundle.properties
+
+1629
+Continue
+继续
+
+Administrator
+Bundle.properties
+
+1630
+Step 1: Adjust alignment parameters
+第一步：调整对齐参数
+
+Administrator
+Bundle.properties
+
+1631
+Step 2: Make manual corrections
+第二步：手动校正
+
+Administrator
+Bundle.properties
+
+1632
+Pinpoint Align: Select corresponding cell
+精确对齐：选择对应的模块
+
+Administrator
+Bundle.properties
+
+1633
+Row
+行
+
+Administrator
+Bundle.properties
+
+1634
+Distance
+距离
+
+Administrator
+Bundle.properties
+
+1635
+Keep
+保留
+
+Administrator
+Bundle.properties
+
+1636
+Source
+源文件
+
+Administrator
+Bundle.properties
+
+1637
+Target
+目标文件
+
+Administrator
+Bundle.properties
+
+1638
+Save Alignment Results
+保存对齐结果
+
+Administrator
+Bundle.properties
+
+1639
+An item of the name "{0}" already exists at this location.
+名为"{0}" 已经存在。
+
+Administrator
+Bundle.properties
+
+1640
+Do you want to overwrite it?
+你想要重写它吗？
+
+Administrator
+Bundle.properties
+
+1641
+An error occurred when saving the TMX.
+保存TMX时出错。
+
+Administrator
+Bundle.properties
+
+1642
+This will discard all changes you have made so far.
+您做的所有修改将被抹除。
+
+Administrator
+Bundle.properties
+
+1643
+Continue?
+继续？
+
+Administrator
+Bundle.properties
+
+1644
+Edit Text
+编辑文本
+
+Administrator
+Bundle.properties
+
+1645
+Edit Highlight Pattern
+编辑高亮模式
+
+Administrator
+Bundle.properties
+
+1646
+Split Text
+拆分文本
+
+Administrator
+Bundle.properties
+
+1647
+<html>Place the caret at the location where you want to split the text.</html>
+<html>将插入符号定位在你想要拆分的位置。</html>
+
+Administrator
+Bundle.properties
+
+1648
+Save changes to segmentation rules?
+是否将修改保存到切分规则中？
+
+Administrator
+Bundle.properties
+
+1649
+Save changes to filter settings?
+是否将修改保存到过滤器设置中？
+
+Administrator
+Bundle.properties
+
+1650
+Some alignments still need review.
+部分对齐仍需校对。
+
+Administrator
+Bundle.properties
+
+1651
+Continue anyway?
+仍然继续？
+
+Administrator
+Bundle.properties
+
+1652
+Warning
+警告
+
+钢
+Bundle.properties
+
+1653
+Confirm
+确认
+
+钢
+Bundle.properties
+
+1654
+Heapwise
+Heapwise
+
+Administrator
+Bundle.properties
+
+1655
+Parsewise
+Parsewise
+
+Administrator
+Bundle.properties
+
+1656
+ID
+ID
+
+Administrator
+Bundle.properties
+
+1657
+Viterbi
+维特比算法
+
+Administrator
+Bundle.properties
+
+1658
+Forward-Backward
+向前-向后
+
+Administrator
+Bundle.properties
+
+1659
+Normal
+正常
+
+Administrator
+Bundle.properties
+
+1660
+Poisson
+泊松
+
+Administrator
+Bundle.properties
+
+1661
+Word
+Word 软件
+
+钢
+Bundle.properties
+
+1662
+Character
+字体
+
+Administrator
+Bundle.properties
+
+1663
+&Jump To Segment
+&跳转到片段
+
+Administrator
+Bundle.properties
+
+1664
+&Show All
+&显示所有
+
+Administrator
+Bundle.properties
+
+1665
+&Refresh
+&刷新
+
+Administrator
+Bundle.properties
+
+1666
+Issues
+问题
+
+Administrator
+Bundle.properties
+
+1667
+Issues ({0})
+问题{0})
+
+Administrator
+Bundle.properties
+
+1668
+Issues for {0} ({1})
+问题 {0} ({1})
+
+Administrator
+Bundle.properties
+
+1669
+Issues ({0} of {1})
+问题{0} of {1})
+
+Administrator
+Bundle.properties
+
+1670
+Issues for {0} ({1} of {2})
+问题{0} ({1} of {2})
+
+Administrator
+Bundle.properties
+
+1671
+<html><center>Loading...<br><br>Tip: Enable/disable checks at any time from the Options menu.</center></html>
+<html><center>加载中...<br><br>Tip: 在选项菜单中打开、关闭检查</center></html>
+
+Administrator
+Bundle.properties
+
+1672
+No Issues Found
+未发现问题
+
+Administrator
+Bundle.properties
+
+1673
+Segment
+片段
+
+xulihang
+Bundle.properties
+
+1674
+Type
+类型
+
+christy
+Bundle.properties
+
+1675
+Description
+描述
+
+xulihang
+Bundle.properties
+
+1676
+All
+全部
+
+Administrator
+Bundle.properties
+
+1677
+{0} ({1})
+{0} ({1})
+
+Administrator
+Bundle.properties
+
+1678
+Options
+选项
+
+钢
+Bundle.properties
+
+1679
+Check {0}
+检查{0}
+
+Administrator
+Bundle.properties
+
+1680
+Don't Ask What to Check First
+不要询问先检查哪个
+
+Administrator
+Bundle.properties
+
+1681
+Spelling Issues
+拼写问题
+
+Administrator
+Bundle.properties
+
+1682
+Spelling
+拼写
+
+Administrator
+Bundle.properties
+
+1683
+,
+,
+
+Administrator
+Bundle.properties
+
+1684
+Add To Dictionary: “{0}”
+添加到词典：{0}”
+
+Administrator
+Bundle.properties
+
+1685
+Ignore: “{0}”
+忽略：{0}”
+
+Administrator
+Bundle.properties
+
+1686
+Tag Issues
+标签
+
+Administrator
+Bundle.properties
+
+1687
+Tags
+标签
+
+Fu Rhong
+Bundle.properties
+
+1688
+{0} x{1}
+{0} x{1}
+
+Administrator
+Bundle.properties
+
+1689
+,
+,
+
+Administrator
+Bundle.properties
+
+1690
+Apply &Fix
+应用 &修改
+
+Administrator
+Bundle.properties
+
+1691
+LanguageTool Issues
+语言工具问题
+
+Administrator
+Bundle.properties
+
+1692
+LanguageTool
+语言工具
+
+Administrator
+Bundle.properties
+
+1693
+Disable rule “{0}”
+规则失效{0}”
+
+Administrator
+Bundle.properties
+
+1694
+Terminology Issues
+术语问题
+
+Administrator
+Bundle.properties
+
+1695
+Terminology
+术语
+
+Administrator
+Bundle.properties
+
+1696
+[{0}] “{1}” in source; expected “{2}” in target
+[{0}] “{1}” 出现在源语言中; 期望在目标语中出现 “{2}” 
+
+Administrator
+Bundle.properties
+
+1697
+[{0}] “{1}” in source; expected one of {2} in target
+[{0}] “{1}”出现在源语言中; 期望在目标语中出现 {2} 中的一个
+
+Administrator
+Bundle.properties
+
+1698
+,
+,
+
+Administrator
+Bundle.properties
+
+1699
+“{0}”
+“{0}”
+
+Administrator
+Bundle.properties
+
+1700
+“{0}” ({1})
+“{0}” ({1})
+
+Administrator
+Bundle.properties
+
+1701
+,
+,
+
+Administrator
+Bundle.properties
+
+1702
+,
+,
+
+Administrator
+Bundle.properties
+
+1703
+<html>Term: <b>{0}</b><br>Glossaries:<br>{1}</html>
+<html>术语：<b>{0}</b><br>术语表：<br>{1}</html>
+
+Administrator
+Bundle.properties
+
+1704
+{0}.
+{0}.
+
+Administrator
+Bundle.properties
+
+1705
+{1}: <b>{2}</b>
+{1}: <b>{2}</b>
+
+Administrator
+Bundle.properties
+
+1706
+<br>
+<br>
+
+Administrator
+Bundle.properties
+
+1707
+Select Issue Types
+选择问题类型
+
+Administrator
+Bundle.properties
+
+1708
+Select issue types to check.
+选择问题类型进行检查。
+
+Administrator
+Bundle.properties
+
+1709
+If issue checking is slow, try disabling some of the optional checks.
+如果问题检查进行缓慢，可尝试取消一些可选的检查。
+
+Administrator
+Bundle.properties
+
+1710
+Don't ask before checking issues
+先进行问题检查再询问
+
+Administrator
+Bundle.properties
+
+1711
+Master Password
+主密码
+
+Administrator
+Bundle.properties
+
+1712
+Set a master password to protect your private data.
+设置主密码保护你的隐私数据
+
+Administrator
+Bundle.properties
+
+1713
+You will be prompted to enter this password every time you launch OmegaT.
+每次登陆OmegaT系统会提醒你键入密码。
+
+Administrator
+Bundle.properties
+
+1714
+Enter your master password.
+键入主密码。
+
+Administrator
+Bundle.properties
+
+1715
+The password you entered did not match.
+您输入的密码不匹配。
+
+Administrator
+Bundle.properties
+
+1716
+Password:
+密码：
+
+钢
+Bundle.properties
+
+1717
+Confirm:
+确认：
+
+Administrator
+Bundle.properties
+
+1718
+The password cannot be empty.
+密码不能为空。
+
+Administrator
+Bundle.properties
+
+1719
+Please enter your password again for confirmation.
+请再次输入你的密码。
+
+Administrator
+Bundle.properties
+
+1720
+The passwords don't match.
+密码不匹配。
+
+Administrator
+Bundle.properties
+
+1721
+Please double-check.
+请再次检查。
+
+Administrator
+Bundle.properties
+
+1722
+Skip
+跳过
+
+Administrator
+Bundle.properties
+
+1723
+OmegaT can generate and store a master password so you don't have to enter it each time, but this is much less secure.
+OmegaT可以生成并存储主密码，因此你不需要每次都键入密码，但这样安全性会大大降低。
+
+Administrator
+Bundle.properties
+
+1724
+Set My Own Password
+设置我的个人密码
+
+Administrator
+Bundle.properties
+
+1725
+I Understand; Do It Anyway
+我理解；执行
+
+Administrator
+Bundle.properties
+
+1726
+Preferences
+偏好
+
+Administrator
+Bundle.properties
+
+1727
+Preferences - {0}
+偏好 - {0}
+
+Administrator
+Bundle.properties
+
+1728
+Search ({0})
+搜索 ({0})
+
+Administrator
+Bundle.properties
+
+1729
+Select a Category
+选择一个目录
+
+Administrator
+Bundle.properties
+
+1730
+&Undo Changes
+&不保存改变
+
+Administrator
+Bundle.properties
+
+1731
+Restore &Defaults
+重置&缺省
+
+Administrator
+Bundle.properties
+
+1732
+A restart is required in order to apply these changes
+要应用这些修改需要重启
+
+Administrator
+Bundle.properties
+
+1733
+The current project must be reloaded in order to apply these changes
+要应用这些修改当前项目需要重新载入
+
+Administrator
+Bundle.properties
+
+1734
+Plugins
+插件
+
+Administrator
+Bundle.properties
+
+1735
+&Browse Online
+&在线浏览e
+
+Administrator
+Bundle.properties
+
+1736
+There are many plugins available for OmegaT online.
+OmegaT官网有许多插件.
+
+Administrator
+Bundle.properties
+
+1737
+Machine Translation
+机器翻译
+
+钢
+Bundle.properties
+
+1738
+Con&figure
+配置
+
+Administrator
+Bundle.properties
+
+1739
+&Automatically fetch translations
+&自动匹配翻译
+
+Administrator
+Bundle.properties
+
+1740
+Untranslated segments &only
+只&未翻译片段
+
+Administrator
+Bundle.properties
+
+1741
+Provider
+供应商
+
+Administrator
+Bundle.properties
+
+1742
+Enabled
+已启用
+
+flycr
+Bundle.properties
+
+1743
+General
+通用
+
+Administrator
+Bundle.properties
+
+1744
+Appearance
+外观
+
+Administrator
+Bundle.properties
+
+1745
+Secure Store
+安全商店
+
+Administrator
+Bundle.properties
+
+1746
+OmegaT encrypts sensitive passwords and API keys with a master password.
+OmegaT用主密码将密码和API密钥加密。
+
+Administrator
+Bundle.properties
+
+1747
+Master Password:
+主密码
+
+Administrator
+Bundle.properties
+
+1748
+&Reset Master Password
+&重置主密码
+
+Administrator
+Bundle.properties
+
+1749
+Set & Stored
+重置 & 保存
+
+Administrator
+Bundle.properties
+
+1750
+Set
+设置
+
+Administrator
+Bundle.properties
+
+1751
+Not Set
+不设置
+
+Administrator
+Bundle.properties
+
+1752
+Reset Master Password
+重置主密码
+
+Administrator
+Bundle.properties
+
+1753
+Are you sure you want to reset the master password?
+你确定要重置主密码吗？
+
+Administrator
+Bundle.properties
+
+1754
+All preferences protected by the master password will be reset.
+受主密码保护的所有偏好设置都将被重置。
+
+Administrator
+Bundle.properties
+
+1755
+Shortcut:
+快捷键：
+
+xulihang
+Bundle.properties
+
+1756
+Not Set
+不设置
+
+Administrator
+Bundle.properties
+
+1757
+Press the keyboard shortcut you wish to assign, then click OK.
+粘贴你剪切板上的内容，然后点击OK。
+
+Administrator
+Bundle.properties
+
+1758
+Clear
+清除
+
+Fu Rhong
+Bundle.properties
+
+1759
+Default
+缺省
+
+钢
+Bundle.properties
+
+1760
+Escape
+跳过
+
+Administrator
+Bundle.properties
+
+1761
+None
+无
+
+Administrator
+Bundle.properties
+
+1762
+ASCII Only
+只有ASCII
+
+Administrator
+Bundle.properties
+
+1763
+Non-ASCII Only
+只有非ASCII
+
+Administrator
+Bundle.properties
+
+1764
+Both
+两者皆
+
+Administrator
+Bundle.properties
+
+1765
+Project commands are disabled for security reasons.
+因为安全原因项目命令不能执行。
+
+Administrator
+Bundle.properties
+
+1766
+Go to Preferences > External Search to enable.
+前往 设置 > 外部搜索 来开启。
+
+Administrator
+Bundle.properties
+
+1767
+Item name is empty or missing
+项目名称为空或缺失
+
+Administrator
+Bundle.properties
+
+1768
+Item has neither URLs nor commands.
+项目既没有URL也没有命令。
+
+Administrator
+Bundle.properties
+
+1769
+Name: {0}
+名称： {0}
+
+Administrator
+Bundle.properties
+
+1770
+Item is missing scope
+项目缺失范围
+
+Administrator
+Bundle.properties
+
+1771
+URL is missing URL string
+URL缺失
+
+Administrator
+Bundle.properties
+
+1772
+URL does not contain "{0}"
+URL不包括 "{0}"
+
+Administrator
+Bundle.properties
+
+1773
+URL is missing target
+URL缺少目标
+
+Administrator
+Bundle.properties
+
+1774
+URL is missing encoding
+URL 未编码
+
+Administrator
+Bundle.properties
+
+1775
+Command is missing command string
+命令缺少命令串
+
+Administrator
+Bundle.properties
+
+1776
+Command does not contain "{0}"
+命令不包括"{0}"
+
+Administrator
+Bundle.properties
+
+1777
+Command is missing target
+命令缺少目标
+
+Administrator
+Bundle.properties
+
+1778
+Command is missing encoding
+命令未编码
+
+Administrator
+Bundle.properties
+
+1779
+Command is missing delimiter
+命令缺少分隔符
+
+Administrator
+Bundle.properties
+
+1780
+Command delimiter is empty
+命令分隔符为空
+
+Administrator
+Bundle.properties
+
+1781
+URLs
+URLs
+
+xulihang
+Bundle.properties
+
+1782
+Commands
+命令
+
+xulihang
+Bundle.properties
+
+1783
+{0} x{1}
+{0} x{1}
+
+Administrator
+Bundle.properties
+
+1784
+,
+,
+
+Administrator
+Bundle.properties
+
