@@ -1,0 +1,1561 @@
+1339
+Missing
+丢失
+
+钢
+Bundle.properties
+
+1340
+Extraneous
+外部的
+
+Funster
+Bundle.properties
+
+1341
+Out-of-order
+顺序混乱
+
+钢
+Bundle.properties
+
+1342
+Whitespace
+空白字符
+
+钢
+Bundle.properties
+
+1343
+Orphaned
+孤立
+
+钢
+Bundle.properties
+
+1344
+Unspecified
+未指定
+
+钢
+Bundle.properties
+
+1345
+Error fixing tags
+修复标签出错
+
+钢
+Bundle.properties
+
+1346
+The translation has changed.
+译文已修改。
+
+钢
+Bundle.properties
+
+1347
+Please redo tag validation.
+请重新进行标签检验。
+
+钢
+Bundle.properties
+
+1348
+<No suggestions>
+<无建议>
+
+钢
+Bundle.properties
+
+1349
+Press <u>{0}</u> to return to <b>{1}</b> suggestions.
+按下<u>{0}</u>以返回到<b>{1}</b>建议。
+
+xulihang
+Bundle.properties
+
+1350
+Press <u>{0}</u> to go to <b>{1}</b> suggestions.
+按下 <u>{0}</u>以跳到<b>{1}</b> 建议。
+
+xulihang
+Bundle.properties
+
+1351
+Glossary entries
+术语表条目
+
+xulihang
+Bundle.properties
+
+1352
+Missing tags
+丢失的标签
+
+钢
+Bundle.properties
+
+1353
+Autotext entries
+自动文本条目
+
+Fu Rhong
+Bundle.properties
+
+1354
+Character table
+字符表
+
+xulihang
+Bundle.properties
+
+1355
+History Completions
+历史完成
+
+xulihang
+Bundle.properties
+
+1356
+History Predictions
+历史预测
+
+xulihang
+Bundle.properties
+
+1357
+Displa&y source terms
+显示源术语(&y)
+
+xulihang
+Bundle.properties
+
+1358
+When checked, the items in the glossary auto-completer view will contain the source text, too.
+选中时，在术语表自动完成视图中显示的术语也将包含源文本。
+
+xulihang
+Bundle.properties
+
+1359
+Show &longer target terms first
+优先显示较长的目标术语(&l)
+
+xulihang
+Bundle.properties
+
+1360
+If checked, the longer entries are placed on the list first.
+选中时，列表中首先出现较长的条目。
+
+Fu Rhong
+Bundle.properties
+
+1361
+Sort by source term &alphabetically
+按源术语字母顺序排列(&a)
+
+xulihang
+Bundle.properties
+
+1362
+Sort tar&get terms alphabetically
+按目标术语字母顺序排列(&g)
+
+xulihang
+Bundle.properties
+
+1363
+If checked, the entries are sorted alphabetically.
+选中时，条目会按字母顺序排列。
+
+Fu Rhong
+Bundle.properties
+
+1364
+Glossary auto-completer options
+术语表自动完成选项
+
+xulihang
+Bundle.properties
+
+1365
+Show &target term first
+首先显示目标术语(&t)
+
+xulihang
+Bundle.properties
+
+1366
+Displays the entries as "<target> → <source>"
+显示条目为“<目标> → <源>”
+
+Fu Rhong
+Bundle.properties
+
+1367
+Show &source term first
+首先显示源术语(&s)
+
+xulihang
+Bundle.properties
+
+1368
+&Enable glossary suggestions
+启用术语表建议(&E)
+
+xulihang
+Bundle.properties
+
+1369
+Terms with multiple targets
+含多个目标的术语
+
+Fu Rhong
+Bundle.properties
+
+1370
+Follow capitalization of the typed text
+遵循输入文本的大小写形式
+
+Fu Rhong
+Bundle.properties
+
+1371
+Glossary
+术语表
+
+xulihang
+Bundle.properties
+
+1372
+&Enable autotext
+启用自动文本(&E)
+
+xulihang
+Bundle.properties
+
+1373
+Sort by len&gth
+按长度排序(&g)
+
+xulihang
+Bundle.properties
+
+1374
+Sort &alphabetically
+按字幕排序(&a)
+
+xulihang
+Bundle.properties
+
+1375
+Sort by &full text, not shortcut
+按完整文本而非缩略词排序(&f)
+
+xulihang
+Bundle.properties
+
+1376
+Auto-text configuration
+自动文本配置
+
+Fu Rhong
+Bundle.properties
+
+1377
+Display
+显示
+
+Fu Rhong
+Bundle.properties
+
+1378
+Entries
+条目
+
+Fu Rhong
+Bundle.properties
+
+1379
+&Load...
+加载(&L)
+
+Fu Rhong
+Bundle.properties
+
+1380
+&Save...
+保存(&S)
+
+Fu Rhong
+Bundle.properties
+
+1381
+Auto-text file (*.autotext)
+自动文本文件(*.autotext)
+
+xulihang
+Bundle.properties
+
+1382
+Unable to save data.
+无法保存数据。
+
+Fu Rhong
+Bundle.properties
+
+1383
+Shortcut
+缩略词
+
+Fu Rhong
+Bundle.properties
+
+1384
+Full text
+完整文本
+
+Fu Rhong
+Bundle.properties
+
+1385
+Comment
+注释
+
+Fu Rhong
+Bundle.properties
+
+1386
+Autotext
+自动文本
+
+xulihang
+Bundle.properties
+
+1387
+&Enable character table
+启用字符表(&E)
+
+xulihang
+Bundle.properties
+
+1388
+Character table auto-completer options
+字符表自动完成选项
+
+Fu Rhong
+Bundle.properties
+
+1389
+Customize character &table
+自定义字符表(t)
+
+xulihang
+Bundle.properties
+
+1390
+Add characters to the custom table by double-clicking, or by highlighting and pressing the Insert key.
+通过双击、高亮或按Insert键添加字符到自定义表。
+
+Fu Rhong
+Bundle.properties
+
+1391
+Full table
+完整表格
+
+Fu Rhong
+Bundle.properties
+
+1392
+Custom table
+自定义表
+
+Fu Rhong
+Bundle.properties
+
+1393
+&Allow only unique characters
+仅允许唯一的字符(&A)
+
+xulihang
+Bundle.properties
+
+1394
+C&lear
+清楚(&C)
+
+xulihang
+Bundle.properties
+
+1395
+Character Table
+字符表
+
+xulihang
+Bundle.properties
+
+1396
+Warning!
+警告！
+
+Fu Rhong
+Bundle.properties
+
+1397
+You are trying to use the HunspellTokenizer with the language {0}, but no spelling dictionaries are installed for this language.
+您正试图在{0}语言中使用HunspellTokenizer，但该语言没有安装拼写词典。
+
+Fu Rhong
+Bundle.properties
+
+1398
+For best results, please install the appropriate dictionaries via Preferences > Spell Checking.
+要使它生效，请通过偏好设置>拼写检查 安装适用的词典。
+
+xulihang
+Bundle.properties
+
+1399
+Server (original)
+服务器（原来的）
+
+xulihang
+Bundle.properties
+
+1400
+Mine
+我的
+
+xulihang
+Bundle.properties
+
+1401
+Server (updated)
+服务器（更新的）
+
+xulihang
+Bundle.properties
+
+1402
+Merge
+合并
+
+xulihang
+Bundle.properties
+
+1403
+Please resolve the conflicts by choosing a translation for each segment below.
+请在下方为每个片段选择一条翻译来解决冲突。
+
+xulihang
+Bundle.properties
+
+1404
+{0} segments
+{0} 片段
+
+xulihang
+Bundle.properties
+
+1405
+1 segment
+1 片段
+
+xulihang
+Bundle.properties
+
+1406
+{0} conflicts
+{0} 冲突
+
+xulihang
+Bundle.properties
+
+1407
+1 conflict
+1 冲突
+
+xulihang
+Bundle.properties
+
+1408
+Details unavailable
+细节不可用
+
+xulihang
+Bundle.properties
+
+1409
+Use all mine
+全都只用自己的
+
+xulihang
+Bundle.properties
+
+1410
+Use all original
+全都使用原来的
+
+xulihang
+Bundle.properties
+
+1411
+Use all updated
+全都使用更新的
+
+xulihang
+Bundle.properties
+
+1412
+Done
+完成
+
+xulihang
+Bundle.properties
+
+1413
+Conflict resolution
+解决冲突
+
+xulihang
+Bundle.properties
+
+1414
+Processing...
+处理中...
+
+xulihang
+Bundle.properties
+
+1415
+Conflict {0} of {1}
+ 关于 {1} 冲突 {0}
+
+xulihang
+Bundle.properties
+
+1416
+Deleted
+已删除的
+
+xulihang
+Bundle.properties
+
+1417
+Not present
+不存在
+
+xulihang
+Bundle.properties
+
+1418
+List View
+列表
+
+xulihang
+Bundle.properties
+
+1419
+Detail View
+详细列表
+
+xulihang
+Bundle.properties
+
+1420
+{0}/{1}
+{0}/{1}
+
+xulihang
+Bundle.properties
+
+1421
+← Back
+← 返回
+
+xulihang
+Bundle.properties
+
+1422
+Next →
+下一步 →
+
+xulihang
+Bundle.properties
+
+1423
+Change date
+修改日期
+
+xulihang
+Bundle.properties
+
+1424
+Changer
+修改者
+
+xulihang
+Bundle.properties
+
+1425
+Creation date
+创建日期
+
+xulihang
+Bundle.properties
+
+1426
+Creator
+创建者
+
+xulihang
+Bundle.properties
+
+1427
+Is default translation
+是默认翻译
+
+xulihang
+Bundle.properties
+
+1428
+Note
+说明
+
+Fu Rhong
+Bundle.properties
+
+1429
+Source
+源文件
+
+Administrator
+Bundle.properties
+
+1430
+Translation
+翻译
+
+xulihang
+Bundle.properties
+
+1431
+File
+文件
+
+xulihang
+Bundle.properties
+
+1432
+Next
+下一步
+
+xulihang
+Bundle.properties
+
+1433
+Previous
+上一步
+
+xulihang
+Bundle.properties
+
+1434
+Added: {1}, Deleted: {2}, Modified: {3} (Conflicts: {0})
+添加: {1}, 删除: {2}, 修改: {3} (冲突: {0})
+
+xulihang
+Bundle.properties
+
+1435
+Request to TaaS: {0}
+向TaaS的请求: {0}
+
+xulihang
+Bundle.properties
+
+1436
+&Browse TaaS Collections...
+浏览TaaS术语集(&B)
+
+xulihang
+Bundle.properties
+
+1437
+Select TaaS Terminology &Lookup Domain...
+选择TaaS术语和查询领域(&L)
+
+xulihang
+Bundle.properties
+
+1438
+&TaaS Terminology Lookup
+TaaS术语查询(&T)
+
+xulihang
+Bundle.properties
+
+1439
+TaaS Collections
+TaaS术语集
+
+xulihang
+Bundle.properties
+
+1440
+Name
+名称
+
+xulihang
+Bundle.properties
+
+1441
+Description
+描述
+
+xulihang
+Bundle.properties
+
+1442
+Source count
+源数量
+
+xulihang
+Bundle.properties
+
+1443
+Target count
+目标数量
+
+xulihang
+Bundle.properties
+
+1444
+Domains
+领域
+
+xulihang
+Bundle.properties
+
+1445
+Updated
+更新的
+
+xulihang
+Bundle.properties
+
+1446
+&Download
+下载(&D)
+
+xulihang
+Bundle.properties
+
+1447
+All domains
+所有领域
+
+xulihang
+Bundle.properties
+
+1448
+&Select
+选择(&S)
+
+xulihang
+Bundle.properties
+
+1449
+Retrieve collection list...
+获得术语集列表
+
+xulihang
+Bundle.properties
+
+1450
+Select TaaS domain
+选择TaaS领域
+
+apple
+Bundle.properties
+
+1451
+Retrieve domain list...
+获取领域列表
+
+xulihang
+Bundle.properties
+
+1452
+Download collection {0}
+下载合集 {0}
+
+xulihang
+Bundle.properties
+
+1453
+Request error: {0}
+请求错误: {0}
+
+xulihang
+Bundle.properties
+
+1454
+Unauthorized request to TaaS service.
+未授权的TaaS服务请求。
+
+xulihang
+Bundle.properties
+
+1455
+Something went wrong, please visit Tilde Terminology for details.
+有错误发生，请访问Tilde Terminology获得具体信息。
+
+xulihang
+Bundle.properties
+
+1456
+Wrong response format from TaaS service
+TaaS服务的返回格式错误
+
+xulihang
+Bundle.properties
+
+1457
+Error updating glossary file
+上传术语表文件错误
+
+xulihang
+Bundle.properties
+
+1458
+TaaS API key not set.
+TaaS API key未设置。
+
+xulihang
+Bundle.properties
+
+1459
+Create your own key then input it below.
+创建你自己的key并在下方输入。
+
+xulihang
+Bundle.properties
+
+1460
+Get API Key
+获得API Key
+
+xulihang
+Bundle.properties
+
+1461
+&Select
+选择(&S)
+
+xulihang
+Bundle.properties
+
+1462
+TaaS
+TaaS
+
+xulihang
+Bundle.properties
+
+1463
+API Key:
+API 密钥：
+
+Administrator
+Bundle.properties
+
+1464
+TaaS Terminology
+TaaS术语
+
+xulihang
+Bundle.properties
+
+1465
+&Enable TaaS terminology lookup
+启用TaaS术语查询(&E)
+
+xulihang
+Bundle.properties
+
+1466
+Exclusion Patterns
+排除模式
+
+xulihang
+Bundle.properties
+
+1467
+Mask
+掩码
+
+xulihang
+Bundle.properties
+
+1468
+<html>Add patterns using wildcards (Apache Ant style): <code>*</code>, <code>?</code>, <code>**</code><br>Example: <code>**/.svn/**</code></html>
+<html>使用通配符添加模式 (Apache Ant style): <code>*</code>, <code>?</code>, <code>**</code><br>例： <code>**/.svn/**</code></html>
+
+xulihang
+Bundle.properties
+
+1469
+&Add
+新增(&A)
+
+xulihang
+Bundle.properties
+
+1470
+&Remove
+删除(&R)
+
+钢
+Bundle.properties
+
+1471
+Custom Colours Selection
+选择自定义颜色
+
+xulihang
+Bundle.properties
+
+1472
+Custom Colours
+自定义颜色
+
+xulihang
+Bundle.properties
+
+1473
+Background
+背景
+
+xulihang
+Bundle.properties
+
+1474
+Text
+文本
+
+钢
+Bundle.properties
+
+1475
+Active segment source
+活动片段的源部分
+
+xulihang
+Bundle.properties
+
+1476
+Active segment source text
+活动片段的源文本
+
+xulihang
+Bundle.properties
+
+1477
+Active segment target
+活动片段的目标部分
+
+xulihang
+Bundle.properties
+
+1478
+Active segment target text
+活动片段的目标文本
+
+xulihang
+Bundle.properties
+
+1479
+Segment marker text
+片段标记文本
+
+xulihang
+Bundle.properties
+
+1480
+Segment marker background
+片段标记背景
+
+xulihang
+Bundle.properties
+
+1481
+Source segments
+源片段
+
+xulihang
+Bundle.properties
+
+1482
+Source segments text
+源片段文本
+
+xulihang
+Bundle.properties
+
+1483
+Segments with notes
+有注释的片段
+
+xulihang
+Bundle.properties
+
+1484
+Segments with notes text
+有注释文本的片段
+
+xulihang
+Bundle.properties
+
+1485
+Untranslated segments
+未译片段
+
+xulihang
+Bundle.properties
+
+1486
+Untranslated segments text
+未译片段文本
+
+xulihang
+Bundle.properties
+
+1487
+Translated segments
+已译片段
+
+xulihang
+Bundle.properties
+
+1488
+Translated segments text
+已译片段文本
+
+xulihang
+Bundle.properties
+
+1489
+Non-unique segments
+非唯一片段
+
+xulihang
+Bundle.properties
+
+1490
+Non-unique segments background
+非唯一片段背景
+
+xulihang
+Bundle.properties
+
+1491
+Modification info
+修改信息
+
+xulihang
+Bundle.properties
+
+1492
+Modification info text
+修改信息文本
+
+xulihang
+Bundle.properties
+
+1493
+Tags
+标签
+
+Fu Rhong
+Bundle.properties
+
+1494
+Remove text target
+删除文本目标
+
+xulihang
+Bundle.properties
+
+1495
+Non-breakable spaces
+不可中断的空白符
+
+apple
+Bundle.properties
+
+1496
+Whitespaces
+空白字符
+
+apple
+Bundle.properties
+
+1497
+Bidirectional control characters
+双向算法控制字符
+
+apple
+Bundle.properties
+
+1498
+From memory
+来自翻译记忆
+
+apple
+Bundle.properties
+
+1499
+From ICE memory
+来自ICE翻译记忆
+
+apple
+Bundle.properties
+
+1500
+From 100% memory
+100%保留
+
+apple
+Bundle.properties
+
+1501
+From auto memory
+来自自动翻译记忆
+
+apple
+Bundle.properties
+
+1502
+Replace
+替换
+
+xulihang
+Bundle.properties
+
+1503
+Language Checker
+语言检查工具
+
+钢
+Bundle.properties
+
+1504
+Glossary Matches
+术语表匹配
+
+apple
+Bundle.properties
+
+1505
+Spellcheck
+拼写检查
+
+xulihang
+Bundle.properties
+
+1506
+Terminology
+术语
+
+Administrator
+Bundle.properties
+
+1507
+Matches Changed
+匹配修改
+
+apple
+Bundle.properties
+
+1508
+Matches Unchanged
+不修改匹配
+
+apple
+Bundle.properties
+
+1509
+Matches Inserted Active
+活动的已插入匹配
+
+apple
+Bundle.properties
+
+1510
+Matches Inserted Inactive
+不活动的已插入匹配
+
+apple
+Bundle.properties
+
+1511
+Matches Deleted Active
+活动的已删除匹配
+
+apple
+Bundle.properties
+
+1512
+Matches Deleted Inactive
+不活动的已删除匹配
+
+apple
+Bundle.properties
+
+1513
+Hyperlinks
+超链接
+
+apple
+Bundle.properties
+
+1514
+Notification (steady)
+通知 (持续)
+
+apple
+Bundle.properties
+
+1515
+Notification (flash)
+通知 (闪光)
+
+apple
+Bundle.properties
+
+1516
+Aligner "Accepted" Group
+Aligner "接收" 群组
+
+apple
+Bundle.properties
+
+1517
+Aligner "Needs Review" Group
+Aligner "需要检查"群组
+
+apple
+Bundle.properties
+
+1518
+Aligner Highlight
+Aligner 高亮
+
+apple
+Bundle.properties
+
+1519
+Aligner Table Row Highlight
+Aligner 表行高亮
+
+apple
+Bundle.properties
+
+1520
+Item:
+项目
+
+apple
+Bundle.properties
+
+1521
+&Reset This Colour
+&重置颜色
+
+apple
+Bundle.properties
+
+1522
+Reset &All Colours
+重置 &所有颜色
+
+apple
+Bundle.properties
+
+1523
+Are you sure you want to reset all custom colours?
+你确定要重置所有自定义颜色吗？
+
+apple
+Bundle.properties
+
+1524
+The new colours have been saved.
+已保存新设置颜色
+
+apple
+Bundle.properties
+
+1525
+Please restart the application to correctly display the new colours.
+请重新启用应用程序以正确显示设定颜色。
+
+apple
+Bundle.properties
+
+1526
+Colours
+颜色
+
+apple
+Bundle.properties
+
+1527
+<html><i>Preferences</i> &gt; <i>General</i> &gt; <i>Use TAB to Advance</i> is checked</html>
+<html><i>参数选择</i> &gt; <i>通常</i> &gt; <i>用 TAB 快进</i> 检查</html><
+
+apple
+Bundle.properties
+
+1528
+{0} toggles orientation between LTR, RTL, and language-dependent
+{0} 在LTR、RTL和语言相关的方向上切换
+
+apple
+Bundle.properties
+
+1529
+Drop files here to add them to the project.
+在此处放置文件将它们添加到项目中。.
+
+apple
+Bundle.properties
+
+1530
+Drop glossary files here to add them to the project.
+在此处放置术语表文件将它们添加到项目里。
+
+apple
+Bundle.properties
+
+1531
+Drop TMX files here to add them to the project.
+在此处放置TMX文件将它们添加到项目里。
+
+apple
+Bundle.properties
+
+1532
+Drop a project here to open it.
+在此处放置一个项目打开它。
+
+apple
+Bundle.properties
+
+1533
+An item named "{0}" already exists in this location.
+名为"{0}" 的项目已经存在。
+
+apple
+Bundle.properties
+
+1534
+Do you want to replace it with the one you're moving?
+你想要以现在移动的替换它吗？
+
+apple
+Bundle.properties
+
+1535
+&Replace
+替换(&R)
+
+lenovo
+Bundle.properties
+
+1536
+&Apply to all
+&适用全部
+
+apple
+Bundle.properties
+
+1537
+An error occurred while opening the item.
+打开项目时发生错误。
+
+apple
+Bundle.properties
+
+1538
+Resolve Conflicts
+解决冲突
+
+apple
+Bundle.properties
+
+1539
+An existing translation was changed to something different from what you chose.
+现有翻译改成了与你选择不同的翻译。
+
+apple
+Bundle.properties
+
+1540
+Which version do you want to keep?
+你想保存哪个版本?
+
+apple
+Bundle.properties
+
+1541
+Previous
+上一步
+
+xulihang
+Bundle.properties
+
+1542
+Mine
+我的
+
+xulihang
+Bundle.properties
+
+1543
+Other
+其它
+
+Fu Rhong
+Bundle.properties
+
+1544
+Keep Mine
+保留我的
+
+apple
+Bundle.properties
+
+1545
+Keep Other
+保留其它
+
+apple
+Bundle.properties
+
+1546
+Segment Properties
+片段属性
+
+apple
+Bundle.properties
+
+1547
+Table View
+表格视图
+
+apple
+Bundle.properties
+
+1548
+List View
+列表
+
+xulihang
+Bundle.properties
+
+1549
+Show Raw Key Names
+显示原始密钥名
+
+apple
+Bundle.properties
+
+1550
+Notify Me When a Segment Has "{0}"
+有片段出现时通知我 "{0}"
+
+apple
+Bundle.properties
+
+1551
+Name
+名称
+
+xulihang
+Bundle.properties
+
+1552
+Value
+值
+
+apple
+Bundle.properties
+
+1553
+File
+文件
+
+xulihang
+Bundle.properties
+
+1554
+ID
+ID
+
+Administrator
+Bundle.properties
+
+1555
+Translation
+翻译
+
+xulihang
+Bundle.properties
+
+1556
+Translation is fuzzy
+模糊翻译
+
+apple
+Bundle.properties
+
+1557
+Next
+下一步
+
+xulihang
+Bundle.properties
+
+1558
+Previous
+上一步
+
+xulihang
+Bundle.properties
+
+1559
+Path
+路径
+
+Administrator
+Bundle.properties
+
+1560
+Changed by
+由…修改
+
+Administrator
+Bundle.properties
+
+1561
+Changed on
+修改在…
+
+Administrator
+Bundle.properties
+
