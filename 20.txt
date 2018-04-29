@@ -1,0 +1,939 @@
+6773
+The permissions you give to this version (which may be described as "unrestricted access to the computer") are no different from the permissions you assign to the local version, i.e., an access to the hard drive of your computer.
+您赋予该版本的权限（可能会被描述为“对计算机的无限制访问”）与您赋予本地版本的权限相同，比如，可访问您电脑的硬盘。
+
+Zenobia Fang
+website/download.html
+
+6774
+In order to install the Web start version, you must already have Java version 1.3 or later installed on your computer.
+欲安装 Web start 版，您的电脑需要先安装1.3 以上版本的 Java。
+
+Wyndy
+website/download.html
+
+6775
+Privacy information: OmegaT Java Web Start does not save any of your information to OmegaT's web servers.
+隐私信息：OmegaT Java Web Start 不会收集您的任何信息上传至 OmegaT 的 网络服务器。
+
+Wyndy
+website/download.html
+
+6776
+The application runs on your machine.
+应用程序在本地运行
+
+Wyndy
+website/download.html
+
+6777
+Your documents and translation memories remain on your computer, and the OmegaT project will have no access to your work or information.
+您的文件及翻译记忆都保存在本地， OmegaT 项目组将无法获取您的作品及相关信息。
+
+Wyndy
+website/download.html
+
+6778
+The /trunk (alpha) version reflects the very latest state of development.
+主开发（trunk）版本（即内部测试版本 Alpha）展示了最新开发状态。
+
+Wyndy
+website/download.html
+
+6779
+It is recommended for serious developers and testers only.
+只推荐专业开发人员及测试人员使用该版本。
+
+Wyndy
+website/download.html
+
+6780
+It can also be obtained using the subversion command:
+您也可通过 subversion 命令获取该版本：
+
+Wyndy
+website/download.html
+
+6781
+svn checkout svn://svn.code.sf.net/p/omegat/svn/trunk omegat-svn
+未翻译
+
+没有修改者
+website/download.html
+
+6782
+Periodic builds are available on CloudBees.
+您可在 CloudBees 上获取周期性的构建任务
+
+Wyndy
+website/download.html
+
+6783
+built on DEV@cloud
+由 DEV@cloud 构建
+
+Wyndy
+website/download.html
+
+6784
+Source code packages are not required by users and are intended for developers only.
+源代码包仅为开发者提供，用户无需源代码包。
+
+Wyndy
+website/download.html
+
+6785
+They can be found in the folders of the corresponding compiled versions.
+您也可在相应编译版本的文件夹中找到源代码包。
+
+Wyndy
+website/download.html
+
+6786
+This HOWTO describes OmegaT's compatibility with other software products.
+这篇 HOWTO 描述了 OmegaT 与其他软件产品的兼容性。
+
+Wyndy
+website/howtos/compatibility.html
+
+6787
+General comments
+一般性评论
+
+Wyndy
+website/howtos/compatibility.html
+
+6788
+Since it is standard procedure for professional translators to receive and deliver texts in digital form, users of OmegaT are naturally interested in its compatibility with other software products.
+按照标准流程，专业译员收发的是电子形式的文本，所以 OmegaT 用户很关心它与其他软件产品的兼容性
+
+Wyndy
+website/howtos/compatibility.html
+
+6789
+This HOWTO aims to provide information in this area.
+这篇 HOWTO 旨在提供兼容性信息。
+
+Wyndy
+website/howtos/compatibility.html
+
+6790
+A general observation: "compatibility" is rarely a black and white, "yes" or "no" issue.
+通常我们会发现：“兼容性”并不是一个非黑即白的问题。
+
+Wyndy
+website/howtos/compatibility.html
+
+6791
+Where the vendor of a software product claims that his product is compatible with another piece of software, this compatibility is seldom 100%.
+就算软件产品供应商声称其产品与其他软件兼容，事实上也很少完美兼容。
+
+Wyndy
+website/howtos/compatibility.html
+
+6792
+Conversely, where products are clearly not directly compatible, it is often possible to find procedures by which they can work together.
+反过来，就算供应商并未断言其产品直接与其他产品兼容，它也很可能找到与之兼容的的程序。
+
+Wyndy
+website/howtos/compatibility.html
+
+6793
+The question which must be answered is whether these procedures are acceptable in terms of the result and the effort involved, and the answer is likely to vary from one user to another.
+软件效果及投入是否可接受才是必答题，但这又仁者见仁，智者见智。
+
+Wyndy
+website/howtos/compatibility.html
+
+6794
+In other words, "compatibility" is not only about products, but also about workflows.
+换句话说，“兼容性”不仅涉及产品本身，还与工作流程有关。
+
+Wyndy
+website/howtos/compatibility.html
+
+6795
+Operating systems
+操作系统
+
+Wyndy
+website/howtos/compatibility.html
+
+6796
+OmegaT runs on any operating system on which a suitable version of the Java Runtime Environment (JRE) can be run.
+只要操作系统能运行适当版本的 Java Runtime Environment (JRE) ，那 OmegaT 就能在该操作系统上运行。
+
+Wyndy
+website/howtos/compatibility.html
+
+6797
+At the present time, this includes all versions of Microsoft Windows from Windows 98 onwards, Mac OS X, and most Linux distributions.
+目前，所有微软 Windows 98 以上版本的 Windows 操作系统，Mac OS X 以及大部分 Linux 发行版都可运行 OmegaT 。
+
+Wyndy
+website/howtos/compatibility.html
+
+6798
+Source texts (files for translation)
+源文本（待翻译文件）
+
+Wyndy
+website/howtos/compatibility.html
+
+6799
+Refer to the OmegaT user manual for an up-to-date list of all supported file formats.
+欲查阅 OmegaT 支持的所有文件格式的最新列表，请参见 OmegaT 用户手册。 
+
+Wyndy
+website/howtos/compatibility.html
+
+6800
+The list below is <s0>not</s0> an exhaustive list of all file formats supported by OmegaT, but is limited to those of particular interest to typical users.
+而以下列表仅包含一般用户最感兴趣的文件格式，并未列出 OmegaT  支持的所有文件格式。.
+
+Wyndy
+website/howtos/compatibility.html
+
+6801
+Microsoft Office 2007-2010 (Word, Excel, PowerPoint 2007-2010); Office Open XML:
+未翻译
+
+没有修改者
+website/howtos/compatibility.html
+
+6802
+OmegaT is capable of handling the current Microsoft Office formats directly, without conversion to or from other formats.
+OmegaT 现在能直接处理当前的 Microsoft office 文件格式，不能处理从其他格式转换而来的Microsoft office 文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6803
+The Microsoft Office 2007-2010 file formats (also known as Office Open XML, and with the file extensions .docx, .xlsx and .pptx) is radically different to the Office 97-2003 formats which they supersede.
+Microsoft Office 2007-2010 文件格式 (也称 Office Open XML, 以及该文件的拓展格式 .docx, .xlsx and .pptx)与其继承的 Office 97-2003 文件格式由本质区别。
+
+Wyndy
+website/howtos/compatibility.html
+
+6804
+In fact, their structure is very similar to that of OpenOffice.org files: they consists of a zip archive containing multiple files, and the files containing the text are based upon the XML standard.
+事实上，Microsoft Office 2007-2010 文件格式的架构与 OpenOffice.org 文件格式结构很相似: 文本基于 XML 标准，文本组成文件，文件组成压缩档案，压缩档案组成最终的文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6805
+This makes it much easier for CAT tools to support it and edit it directly.
+从而更易于 CAT 工具支持并直接编辑其文件格。
+
+Wyndy
+website/howtos/compatibility.html
+
+6806
+The Microsoft Office 2007-2010 file formats can be processed directly in OmegaT; more information can be found <a0>here</a0>.
+Microsoft Office 2007-2010 文件格式能直接在 OmegaT 中直接处理；点击  <a0>此处</a0>获取更多信息。
+
+Wyndy
+website/howtos/compatibility.html
+
+6807
+For users of Microsoft Office who do not (yet) have the 2007 version, conversion between Office Open XML and Microsoft Office 98-2003 can be achieved using a free plug-in converter available <a0>here</a0> from Microsoft.
+还未获取 Microsoft Office  2007 版本的用户，您可通过 Microsoft 提供的免费转换插件 <a0>here</a0>完成 Office Open XML 与 Microsoft Office 98-2003 文件格式的转换。
+
+Wyndy
+website/howtos/compatibility.html
+
+6808
+This converter is available for Windows and Mac.
+此插件包含 Windows 与 Mac 版本。
+
+Wyndy
+website/howtos/compatibility.html
+
+6809
+Office Open XML can be converted directly to Open Document Format and back by means of the ODF converter, available <a0>here</a0>.
+Office Open XML 既可直接转成开放文档格式开放文档格式（ODF），也可通过 ODF 转换器（在 <a0>此处</a0>获取）转回Office Open XML 。
+
+Wyndy
+website/howtos/compatibility.html
+
+6810
+This utility requires a version of MS Office (XP/2003/2007).
+MS Office (XP/2003/2007) 才能使用该插件。
+
+Wyndy
+website/howtos/compatibility.html
+
+6811
+Mac OS X users can convert directly from Office Open XML to OpenDocument Format and back in <a0>NeoOffice</a0>.
+Mac OS X 用户可通过 <a0>NeoOffice</a0>将 Office Open XML 与开放文档格式（ODF）互相转换。
+
+Wyndy
+website/howtos/compatibility.html
+
+6812
+Linux users can use this version of the standalone <a0>conversion utility</a0> to convert directly between Office Open XML and OpenDocument Format.
+Linux 用户可通过这个版本的 <a0>conversion utility</a0> 独立应用程序直接进行 Office Open XML 与 OpenDocument Format 的互相转换。
+
+Wyndy
+website/howtos/compatibility.html
+
+6813
+Recent versions of OpenOffice.org are able to convert between Microsoft Office 2007 and Open Document Format.
+最新版的 OpenOffice.org 能将 Microsoft Office 2007 与开放文档格式（ODF）互相转换。
+
+Wyndy
+website/howtos/compatibility.html
+
+6814
+Microsoft Office 97-2003 (Microsoft Word/Excel/Powerpoint 2003):
+未翻译
+
+没有修改者
+website/howtos/compatibility.html
+
+6815
+These file formats are proprietary, binary, and until recently were not publicly documented, all characteristics which make them extremely difficult to handle in a CAT tool.
+这些二进制文件格式有专利权，而且目前为止还未以文件形式公开，以上特点都让这些文件格式难以用 CAT工具处理。
+
+Wyndy
+website/howtos/compatibility.html
+
+6816
+Some CAT tools solve this problem, at least for MS Word, by working within Word itself; most other CAT tools convert to RTF and back, often invisibly for the translator.
+有些 CAT 工具能克服这个问题，至少在 MS Word 软件自身内工作时可以处理 Word 文件；其他大部分 CAT 工具只能先将其转换成富文本格式处理再转回，不过译员通常见不到该过程。
+
+Wyndy
+website/howtos/compatibility.html
+
+6817
+OmegaT does not support these formats directly.
+OmegaT 不直接支持这些文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6818
+Instead, they must first be converted manually to Office Open XML (MS Office 2007/2010) or Open Document format (LibreOffice or OpenOffice.org) before they can be handled in OmegaT.
+而必须先手动将这些文件转换成 Office Open XML (MS Office 2007/2010) 或者开放文档格式 (LibreOffice or OpenOffice.org) 才能在 OmegaT 中处理。
+
+Wyndy
+website/howtos/compatibility.html
+
+6819
+(OmegaT is far from unique in this respect: many other CAT tools convert source files to a different format, in some cases in the background without the translator being aware of the fact, before they are translated.)
+(由此看来，OmegaT 远不能独立使用：毕竟许多其他 CAT 工具可在译员翻译之前自行将源文件转换为其他格式。)
+
+Wyndy
+website/howtos/compatibility.html
+
+6820
+RTF (Rich Text Format):
+RTF (Rich Text Format 富文本格式):
+
+Wyndy
+website/howtos/compatibility.html
+
+6821
+RTF is structurally quite different from the Microsoft Office 98-2003 file format, but with regard to OmegaT, the same applies: it is not supported directly and must first be converted to .docx (MS Office 2007/2010) or Open Document format (LibreOffice/OpenOffice.org).
+RTF 文件的结构与 Microsoft Office 98-2003 文件格式结构截然不同，但对于 OmegaT 而言，以下情况相同： OmegaT 不能直接支持这两种文件格式，只能先将它们转换成 .docx (MS Office 2007/2010) 格式或者开放文档格式(LibreOffice/OpenOffice.org).
+
+Wyndy
+website/howtos/compatibility.html
+
+6822
+Open Document Format: LibreOffice/OpenOffice.org/NeoOffice Writer/Calc/Impress
+开放文档格式（Open Document Format，简称 ODF）: LibreOffice/OpenOffice.org/NeoOffice Writer/Calc/Impress
+
+Wyndy
+website/howtos/compatibility.html
+
+6823
+These file formats are the equivalent of Microsoft Office's formats.
+这些文件格式等同于 Microsoft Office 格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6824
+The Open Document Format is an international standard and has replaced the former proprietary (but open) Star Office file format (two different but very similar file formats).
+开放文档格式（ODF)是一种国际标准，其代替了之前的专利性（但是开源的）Star Office file 格式(这两种格式不同但相似)。
+
+Wyndy
+website/howtos/compatibility.html
+
+6825
+OmegaT has file filters for both Open Document Format and for the Star Office format which it replaced.
+无论是开放文档格式（ODF）还是它所替代的 Star Office format 格式，OmegaT 都有针对该格式的文件过滤器。
+
+Wyndy
+website/howtos/compatibility.html
+
+6826
+These file filters are excellent, and the risk of damaging the formatting of a LibreOffice, OpenOffice.org, etc. file during translation in OmegaT is extremely low.
+这些文件过滤器性能优良，用 OmegaT 翻译LibreOffice, OpenOffice.org 等文件时，极少损坏其文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6827
+HTML; XHTML:
+未翻译
+
+没有修改者
+website/howtos/compatibility.html
+
+6828
+HTML and XHTML, its XML equivalent, are the most common file format for web pages.
+HTML 与 XHTML（前者的 XML 版），是最通用的网页文件格式 。
+
+Wyndy
+website/howtos/compatibility.html
+
+6829
+Again, OmegaT has excellent file filters for both.
+OmegaT 对这两种格式的文件过滤器性能同样优良。
+
+Wyndy
+website/howtos/compatibility.html
+
+6830
+Like OpenOffice.org files, these file formats can be translated in OmegaT with very little risk of corruption.
+类似 OpenOffice.org 文件, 用 OmegaT 翻译 HTML 与 XHTML文件时，也极少损坏其文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6831
+It is however worth customizing the filter settings for optimum results.
+
+对文件过滤器进行自定义设置以获得最佳结果
+
+Wyndy
+website/howtos/compatibility.html
+
+6832
+Translation memories
+翻译记忆
+
+Fu Rhong
+website/howtos/compatibility.html
+
+6833
+An international standard exists for translation memories: TMX, or Translation Memory eXchange.
+翻译记忆交换（ Translation Memory eXchange，简称 TMX）是一种用于翻译记忆的国际标准。
+
+Wyndy
+website/howtos/compatibility.html
+
+6834
+It has been widely adopted and is supported by almost all current CAT tools.
+TMX 已经获得广泛使用，几乎目前所有的 CAT 工具都支持 TMX。
+
+Wyndy
+website/howtos/compatibility.html
+
+6835
+The TMX standard exists both in different <s0>versions</s0> and in different <s1>levels</s1>.
+TMX 标准区分<s0>版本</s0> 和 <s1>级别</s1>。
+
+Wyndy
+website/howtos/compatibility.html
+
+6836
+The distinction is important for compatibility purposes.
+区分版本与级别对兼容性非常重要。
+
+Wyndy
+website/howtos/compatibility.html
+
+6837
+The standard is still undergoing development; this is what the different versions refer to.
+该标准仍在不断发展，因而有许多版本。
+
+Wyndy
+website/howtos/compatibility.html
+
+6838
+The levels refer to the formatting information that is contained in the TMX file:
+级别指 TMX 文件所包含的格式信息：
+
+Wyndy
+website/howtos/compatibility.html
+
+6839
+Level 1 TMX files contain no formatting information.
+Level 1 TMX 文件不包含任何格式信息。
+
+Wyndy
+website/howtos/compatibility.html
+
+6840
+Level 2 TMX files contain formatting information, but these files are typically only compatible when the same CAT tool is used.
+Level 2 TMX 文件包含格式信息，但是这些 TMX 文件通常只有在同一 CAT 工具中才互相兼容。
+
+Wyndy
+website/howtos/compatibility.html
+
+6841
+In other words, if an OmegaT user finds a 100% match in a Level 2 OmegaT TMX file, it can be accepted without requiring adaptation, but the same would not be true for a Level 2 TMX file produced by a different CAT tool (or vice-versa).
+换言之，如果 OmegaT 用户在 Level 2 OmegaT TMX 文件里找到 100% match 片段，他可以直接采取记忆片段而不做任何改动，但如果是其他 CAT 工具生成的 TMX 文件，就不能直接使用（反之亦然）。
+
+Wyndy
+website/howtos/compatibility.html
+
+6842
+This has repercussions for workflows in which CAT tool users (typically customers) expect to receive translation memory files and to have 100% matches inserted automatically.
+当 CAT 工具用户 （通常是客户）希望获取翻译记忆文件，而且希望100% 匹配的片段可以自动插入时，Level 2 文件的局限性就暴露了。
+
+Wyndy
+website/howtos/compatibility.html
+
+6843
+Level 3 TMX files contain formatting information in a form that can be read by other CAT tools.
+而 Level 3 TMX 文件所包含的格式信息，能被生成该文件的 CAT 工具之外的其他 CAT 工具读取。
+
+Wyndy
+website/howtos/compatibility.html
+
+6844
+Support for Level 3 in CAT tools is rare.
+但是CAT 工具很少支持  Level 3  TMX 文件。 
+
+Wyndy
+website/howtos/compatibility.html
+
+6845
+Certain other CAT tools (such as TRADOS) are able to export different TMX files in different versions.
+某些 CAT 工具（如 TRADOS）可以输出不同版本的 TMX 文件。
+
+Wyndy
+website/howtos/compatibility.html
+
+6846
+OmegaT supports all current versions of TMX, but is likely to deliver better match results if the TMX file is version 1.4b.
+OmegaT 支持当前所有版本的TMX，不过 TMX 文件版本为1.4b 时，产生的匹配结果更好。
+
+Wyndy
+website/howtos/compatibility.html
+
+6847
+Tools which support different levels of TMX files are in principle still compatible with each other.
+原则上说，支持不同级别 TMX 文件的工具之间互相兼容。 
+
+Wyndy
+website/howtos/compatibility.html
+
+6848
+The formatting information contained in the higher levels will be meaningless to the "other" tool, but the textual information can still be viewed, fuzzy matches found, etc.
+更高级别的 TMX 文件所包含的格式信息对“其他”工具而言，毫无意义。但“其他”工具仍然可以读取文本信息，找到模糊匹配。
+
+Wyndy
+website/howtos/compatibility.html
+
+6849
+OmegaT uses the international TMX standard as its native translation memory format.
+OmegaT 将国际化的 TMX 标准格式作为其本地翻译记忆的格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6850
+Some CAT tools still employ dedicated proprietary translation memory formats, but virtually all support the import and export of TMX files.
+虽然有些 CAT 工具仍采用专用的、专利性的翻译记忆格式，但几乎所有 CAT 工具都支持导入、导出 TMX 文件。
+
+Wyndy
+website/howtos/compatibility.html
+
+6851
+In practice, it is therefore possible for translators to deliver translation memories to customers and vice-versa, and for the recipient to use these files for immediate or future reference; if the files are to be used within an automated workflow, however, the constraint described above applies.
+所以实际上，译员可以向客户交付翻译记忆，客户也可以给译员提供翻译记忆，接收者可以立即使用这些翻译记忆文件，也可留待以后使用；然而，如果要在自动化工作流中使用该翻译记忆文件，就会出现上述的使用限制。
+
+Wyndy
+website/howtos/compatibility.html
+
+6852
+Further points to note regarding TMX files:
+TMX 文件其他注意事项：
+
+Wyndy
+website/howtos/compatibility.html
+
+6853
+The TMX standard contains definitions of what characters are permissible.
+TMX 标准定义了合法字符。
+
+Wyndy
+website/howtos/compatibility.html
+
+6854
+Not all CAT tools are equally strict in their observance of these definitions; consequently, some CAT tools are unable to open TMX files produced by certain other CAT tools directly.
+各 CAT 工具对于合法字符定义的严格程度不同；所以有些 CAT 工具不能直接打开其他 CAT 工具所生成的 TMX 文件。
+
+Wyndy
+website/howtos/compatibility.html
+
+6855
+OmegaT is generally observant of the conditions and tolerant of other tools' failure to observe them; should problems arise here, however, they can generally be resolved fairly easily by a search & replace in a text editor of the illegal character in the TMX file.
+OmegaT 通常会遵守条件，而且也允许其他 CAT 工具不遵从这些条件; 不过，如果因此出现问题，一般可以在文本编辑器中查找和替换 TMX 文件中的非法字符，从而轻而易举地解决问题。
+
+Wyndy
+website/howtos/compatibility.html
+
+6856
+TMX files are in the Unicode encoding, but may be UTF-8 or UTF-16.
+TMX 文件采用 Unicode 编码方式，也有可能采用UTF-8 或者 UTF-16。
+
+Wyndy
+website/howtos/compatibility.html
+
+6857
+TMX files produced on Windows systems may begin with a byte-order mark (BOM).
+而 Windows操作系统上生成的 TMX 文件开头可能以字节顺序标记 （byte-order mark ，简称BOM)开始。
+
+Wyndy
+website/howtos/compatibility.html
+
+6858
+This differences do not generally lead to compatibility problems.
+不过这些差异并不会导致兼容性问题。
+
+Wyndy
+website/howtos/compatibility.html
+
+6859
+Compatibility problems may be caused by differences in the language codes employed.
+但使用的语言编码不同却可能导致兼容性问题。
+
+Wyndy
+website/howtos/compatibility.html
+
+6860
+OmegaT supports language codes in the format "xx", "XX", "xx-YY" and "XX-YY", where xx or XX is the language, yy or YY the region.
+OmegaT 支持 "xx", "XX", "xx-YY" and "XX-YY"这些格式的语言编码，其中xx 或者 XX 表示语言, yy 或者 YY 表示地区。
+
+Wyndy
+website/howtos/compatibility.html
+
+6861
+Strictly speaking, the ISO standard for language codes requires "xx-YY" (for example: "en-GB" for British English); although this variant is supported by OmegaT, the default convention offered by OmegaT is "XX-YY", e.g. "EN-GB".
+严格来讲，ISO 语言编码标准要求为"xx-YY" 例如英国英语 British English 语言编码为"en-GB" )； 虽然OmegaT 支持这种变体，可是OmegaT提供的默认编码格式为 "XX-YY"，如"EN-GB"。
+
+Wyndy
+website/howtos/compatibility.html
+
+6862
+OmegaT is tolerant when reading TMX files: it will accept files with en-GB, en-US, en, EN, etc.
+OmegaT 读取 TMX 文件时容忍度很高：它支持用en-GB, en-US, en, EN等语言编码的文件。
+
+Wyndy
+website/howtos/compatibility.html
+
+6863
+Not all CAT tools exhibit the same tolerance and some may not therefore display the expected matches if the language codes are not sufficiently compliant.
+不是所有 CAT 工具都支持如此多文件语言编码，因此如果语言编码不太一致，有些 CAT 工具可能显示不了本该匹配的片段。
+
+Wyndy
+website/howtos/compatibility.html
+
+6864
+This incompatibility can be resolved by searching for and replacing the relevant language codes in the TMX file in a suitable text editor.
+用合适的文件编辑器将 TMX  文件中的相关语言编码进行查找和替换，兼容性问题就会得到解决。
+
+Wyndy
+website/howtos/compatibility.html
+
+6865
+Another possible source of incompatibility are three-digit language codes, which are not supported by OmegaT at all.
+另外一个可能导致兼容性问题的原因是三位的语言编码，OmegaT 完全不支持这种编码。
+
+Wyndy
+website/howtos/compatibility.html
+
+6866
+(This incidentally is a limitation of Java, not of OmegaT itself.)
+(这是 Java 附带的局限性，并非由 OmegaT 自身导致。）
+
+Wyndy
+website/howtos/compatibility.html
+
+6867
+Points regarding proprietary translation memory files:
+专利性翻译记忆要点：
+
+Wyndy
+website/howtos/compatibility.html
+
+6868
+The traditional Wordfast translation memory file format is of particular interest owing to its simplicity: it consists of a plain-text file with a translation unit (segment) on each line in which the source and target are separated by a tab.
+传统的 Wordfast 翻译记忆文件格式尤其看重自身简洁性。它由纯文本构成，每行一个翻译单元（片段），行内用 tab 分隔源语言与目标语言。
+
+Wyndy
+website/howtos/compatibility.html
+
+6869
+This format can be converted easily to the TMX format by third-party utilities such as <a0>Wf2TMX</a0>.
+Wordfast 格式通过第三方应用如 <a0>Wf2TMX</a0>很容易转换成 TMX 格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6870
+<a1>Anaphraseus</a1> can also be used for this purpose.
+<a1>Anaphraseus</a1> 也能进行该转换。
+
+Wyndy
+website/howtos/compatibility.html
+
+6871
+Glossary files
+术语表文件
+
+Wyndy
+website/howtos/compatibility.html
+
+6872
+OmegaT's glossary files are plain-text files in the format:
+OmegaT's 术语表文件为以下格式的纯文本文件
+
+Wyndy
+website/howtos/compatibility.html
+
+6873
+source term    <tab>    target term    <tab>    additional information
+源语言术语   <tab>   目标语言术语    <tab>    附属信息
+
+Wyndy
+website/howtos/compatibility.html
+
+6874
+Some other CAT tools are able to import and export glossary files in this format, or in a similar plain-text format which can be produced from it very easily (for example by a search & replace operation in Microsoft Word).
+某些其他 CAT 工具也能导入、导出该格式的术语表文件，或者可从该格式简单转换得到的类似纯文本格式 (比如通过Microsoft Word 的查找与替换操作）。
+
+Wyndy
+website/howtos/compatibility.html
+
+6875
+OmegaT is also capable of reading glossaries in TBX, the industry-standard format for glossary files.
+OmegaT 还能读取 TBX 格式的术语表，该格式是术语表文件的行业标准文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6876
+OmegaT cannot import or read glossary files in proprietary binary formats, such as Trados Multiterm.
+OmegaT 不能读取专利性的二进制文件格式，如 Trados Multiterm。
+
+Wyndy
+website/howtos/compatibility.html
+
+6877
+Bilingual CAT-tool formats
+双语 CAT-工具格式
+
+Wyndy
+website/howtos/compatibility.html
+
+6878
+Many CAT tools make use of an intermediate bilingual file format, i.e. a file containing both source and target language segments, and in some cases also the structure of the original file.
+许多 CAT 工具使用的是中间形式的双语格式，例如，同时包含源语言与目标语言片段的文件，有时延续源文件的格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6879
+Originally, these bilingual file formats may have been a by-product of the tool's architecture.
+这些双语文件格式原本是这些 CAT 工具架构的副产品。
+
+Wyndy
+website/howtos/compatibility.html
+
+6880
+They have however become an important phenomenon in translation workflows involving CAT tools, and they often present the greatest obstacle to compatibility between OmegaT and other CAT tools (or for that matter between CAT tools in general).
+而后演变为 CAT 工具相关工作流的重要现象，这些文件格式也代表了OmegaT 与其他 CAT 工具的兼容性鸿沟（或者说是所有 CAT 工具之间普遍性兼容性鸿沟）。
+
+Wyndy
+website/howtos/compatibility.html
+
+6881
+There are at least three reasons why a customer may request delivery of a translation in a particular bilingual file format (rather than simply delivery of the translated file and possibly also the translation memory):
+客户要求交付特殊形式的双语文件格式（而不仅仅是译后文件，可能再加上翻译记忆）原因至少由以下三点：
+
+Wyndy
+website/howtos/compatibility.html
+
+6882
+1.
+1.
+
+Fu Rhong
+website/howtos/compatibility.html
+
+6883
+Some CAT tools, notably TRADOS, are able to import a wide range of file formats, including desktop publishing formats, and to prepare them for translation in the tool concerned.
+某些 CAT 工具，如著名的 TRADOS， 能输出许多种格式的文件，包括桌面出版文件，并为其在相关软件进行翻译做好准备。
+
+Wyndy
+website/howtos/compatibility.html
+
+6884
+The "prepared" form is typically the tool's bilingual file format.
+而“准备就绪”的文件通常是该工具的双语文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6885
+Without preparation in this way, the original file format may be accessible to the translator.
+如果源文件没有经过这类准备处理，那译员可能无法打开处理该文。
+
+Wyndy
+website/howtos/compatibility.html
+
+6886
+2.
+2.
+
+Fu Rhong
+website/howtos/compatibility.html
+
+6887
+The translation stage is only part of the customer's workflow.
+翻译阶段仅仅是客户工作流程的一个环节。
+
+Wyndy
+website/howtos/compatibility.html
+
+6888
+The translation may for example be passed to a checker for editing.
+比如翻译后的文件需要送给校对人员进行编辑。
+
+Wyndy
+website/howtos/compatibility.html
+
+6889
+If the checker's changes are to be included in a translation memory repository maintained by the customer, the changes need to be made <i0>before</i0> the final documents are created.
+如果要将校对人员的改动也纳入客户维护的翻译记忆库， 那么必须在创建最终版文件 <i0>之前</i0> 进行改动。
+
+Wyndy
+website/howtos/compatibility.html
+
+6890
+This can be done either within the CAT tool concerned, or in some cases in an external bilingual file format which the tool is capable of reading.
+可以在相关 CAT 工具中进行改动，或者也在该工具可读取的外部双语文件格式中进行改动。
+
+Wyndy
+website/howtos/compatibility.html
+
+6891
+3.
+3.
+
+钢
+website/howtos/compatibility.html
+
+6892
+The customer wishes to receive a translation memory against which texts can be run in the future: in other words, to "pretranslate" future texts against an existing translation memory.
+客户希望得到的翻译记忆库能够运行文本：换言之，可通过现有的翻译记忆可以对今后的文本进行“预翻译”。
+
+Wyndy
+website/howtos/compatibility.html
+
+6893
+In order for this process to be as automatic as possible, two conditions must in particular be met: firstly, the translation memory must contain formatting information (see above); and secondly, the segmentation rules applied to the text must be the same as those applied when the translation memory (or part of it) was produced.
+为了让该流程尽可能自动化，有两个条件尤其需要满足：一是翻译记忆必须包含格式信息；二是文本切分片段的规则与创建（部分）翻译记忆时使用的切分片段规则一致。
+
+Wyndy
+website/howtos/compatibility.html
+
+6894
+The easiest way for a customers to ensure that these two conditions are met is for them to pretranslate the text themselves before passing it to the translator (thereby defining how it is segmented), and to create the translation memory in the CAT tool of their choice after receiving the translated intermediate bilingual file from the translator (thereby ensuring that the formatting information contained within the translation memory will be compatible with future projects).
+对客户而言，要确保满足上述两个条件，最简单的方法就是在把文本发给译员之前先自行预翻译（从而确定了切分规则），并且在收到中间形式的译后双语文件后，用自选的 CAT 工具创建翻译记忆（从而确保翻译记忆所包含的格式信息与今后的项目兼容）。
+
+Wyndy
+website/howtos/compatibility.html
+
+6895
+Several of the bilingual file formats can be handled by OmegaT, and not necessarily with great effort.
+OmegaT不用费很大力气，就能处理好几种双语文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6896
+An understanding of the processes involved is however important.
+无论如何，理解相关流程非常重要。
+
+Wyndy
+website/howtos/compatibility.html
+
+6897
+The individual bilingual file formats are described below.
+下面分别描述各双语文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6898
+XLIFF
+XLIFF
+
+钢
+website/howtos/compatibility.html
+
+6899
+XLIFF is the industry-standard bilingual file format.
+XLIFF 是双语文件格式的行业标准格式。
+
+Wyndy
+website/howtos/compatibility.html
+
+6900
+It is supported by several CAT tools, and in fact some CAT tools are effectively "designed around" the XLIFF standard: Heartsome and Swordfish are examples.
+多个 CAT 工具支持 XLIFF，事实上某些 CAT 工具就是“围绕”XLIFF 标准进行了有效的设计：例如Heartsome 和 Swordfish。
+
+Wyndy
+website/howtos/compatibility.html
+
+6901
+Since it is a standard, an advantage of XLIFF is that file filters provided by one CAT tool vendor for conversion between a certain format and XLIFF (and, following completion of the translation workflow, back again) can in theory be used to prepare files in the format concerned for translation in any CAT tool capable of supporting XLIFF.
+因为 XLIFF 是行业标准，所以它的一大优势就是，一个 CAT 工具供应商所提供的某文件格式与 XLIFF 之间的文件转换器(并且按照翻译流程的完整性，从 XLIFF 转换回该文件格式) 理论上也可以在任意一款支持 XLIFF 的 CAT 工具中用于该格式相关文件的准备。
+
+Wyndy
+website/howtos/compatibility.html
+
+6902
+In practice, working with the XLIFF workflow often requires the use of tools that are not very user-friendly.
+实际上，使用 XLIFF 工作流程通常需要用到一些不太友好的工具。
+
+Wyndy
+website/howtos/compatibility.html
+
+6903
+OmegaT has rudimentary support for XLIFF, and a procedure for using XLIFF in OmegaT in conjunction with the Rainbow tools can be found <a0>here</a0>.
+OmegaT 对 XLIFF 有基础性支持, 通过OmegaT 与 Rainbow 工具协同使用 XLIFF， 可借助<a0>此程序</a0>。
+
+Wyndy
+website/howtos/compatibility.html
+
+6904
+The filters available are mainly for file formats peculiar to the IT industry rather than end-user files.
+现有的文件过滤器主要都是针对 IT 行业的文件格式，而非终端用户的文件
+
+Wyndy
+website/howtos/compatibility.html
+
+6905
+Trados "uncleaned RTF"
+Trados “不干净的富文本格式 RTF”
+
+Wyndy
+website/howtos/compatibility.html
+
+6906
+The Trados "uncleaned" RTF file format, often referred to simply as "uncleaned files", has for many years been the most common bilingual file format used in translation workflows.
+Trados "不干净的" 富文本文件格式，常简称为 "不干净的文件",，许多年来都是翻译流程中最常用的双语文件格式。
+
+Wyndy
+website/howtos/compatibility.html
+
