@@ -1,0 +1,1564 @@
+670
+OpenDocument
+OpenDocument
+
+钢
+Bundle.properties
+
+671
+OpenDocument Filter Options
+OpenDocument 过滤器选项
+
+钢
+Bundle.properties
+
+672
+Translate the following elements:
+翻译下列元素：
+
+钢
+Bundle.properties
+
+673
+&Index entries
+索引项(&I)
+
+钢
+Bundle.properties
+
+674
+&Bookmarks
+书签(&B)
+
+钢
+Bundle.properties
+
+675
+Bookmark &references
+书签引用(&r)
+
+钢
+Bundle.properties
+
+676
+&Notes
+注释(&N)
+
+钢
+Bundle.properties
+
+677
+&Comments
+评论(&n)
+
+xulihang
+Bundle.properties
+
+678
+&Presentation notes
+演示注释(&P)
+
+xulihang
+Bundle.properties
+
+679
+Links (&URL)
+链接(&URL)
+
+puleiying
+Bundle.properties
+
+680
+&Sheet Names
+工作表名称(&S)
+
+puleiying
+Bundle.properties
+
+681
+Error in file
+文件出错
+
+钢
+Bundle.properties
+
+682
+XLIFF Filter Options
+XLIFF 过滤器选项
+
+钢
+Bundle.properties
+
+683
+Specify tag handling behaviour
+指定标签处理行为
+
+钢
+Bundle.properties
+
+684
+&Compatibility with OmegaT 2.6
+和 OmegaT 2.6 兼容(&C)
+
+钢
+Bundle.properties
+
+685
+Identifier used for alternative translations
+未翻译
+
+没有修改者
+Bundle.properties
+
+686
+Previous and &next paragraphs
+前一和后一(&n) 段落
+
+puleiying
+Bundle.properties
+
+687
+<trans-unit> I&D
+未翻译
+
+没有修改者
+Bundle.properties
+
+688
+<trans-unit> &resname attribute when available
+未翻译
+
+没有修改者
+Bundle.properties
+
+689
+When unavailable, the ID will be used as a fallback
+当不可用时，该ID将用作后备
+
+puleiying
+Bundle.properties
+
+690
+The following options do not apply if "Compatibility with OmegaT 2.6" is checked
+未翻译
+
+没有修改者
+Bundle.properties
+
+691
+&Force shortcut to "f" for <it pos="end"> tags
+ &F 是 <it pos="end"> 标签的快捷方式
+
+puleiying
+Bundle.properties
+
+692
+&Ignore type and ctype attributes when building <ph> tag shortcuts
+在构建 <ph> 标签快捷方式时忽略(&I) type 和 ctype 属性
+
+puleiying
+Bundle.properties
+
+693
+Ignore type and ctype attributes when building <&bpt> and <ept> tag shortcuts
+构建 <＆bpt> 和 <ept> 标签快捷方式时，请忽略 type 和 ctype 属性
+
+puleiying
+Bundle.properties
+
+694
+Microsoft Open XML
+Microsoft Open XML
+
+钢
+Bundle.properties
+
+695
+Open XML Filter Options
+Open XML 过滤器选项
+
+钢
+Bundle.properties
+
+696
+Word
+Word 软件
+
+钢
+Bundle.properties
+
+697
+Non-visible Instruction Te&xt
+不可见指令文本(&x)
+
+puleiying
+Bundle.properties
+
+698
+Co&mments
+评论(&m)
+
+puleiying
+Bundle.properties
+
+699
+&Footnotes
+脚注(&F)
+
+puleiying
+Bundle.properties
+
+700
+&Endnotes
+尾注(&E)
+
+puleiying
+Bundle.properties
+
+701
+He&aders
+页眉(&a)
+
+puleiying
+Bundle.properties
+
+702
+Foote&rs
+页脚(&r)
+
+puleiying
+Bundle.properties
+
+703
+Duplicate Fallbac&k Text
+重复后备(&k)文本
+
+puleiying
+Bundle.properties
+
+704
+Doc&ument properties
+项目属性(&u)
+
+puleiying
+Bundle.properties
+
+705
+Excel
+Excel 软件
+
+钢
+Bundle.properties
+
+706
+Comme&nts
+评论(&n)
+
+puleiying
+Bundle.properties
+
+707
+&Sheet Names
+工作表名称(&S)
+
+puleiying
+Bundle.properties
+
+708
+Power Point
+Power Point 软件
+
+钢
+Bundle.properties
+
+709
+S&lide Comments
+幻灯注释(&l)
+
+puleiying
+Bundle.properties
+
+710
+Sli&de Masters
+幻灯模板(&d)
+
+puleiying
+Bundle.properties
+
+711
+Slide La&youts
+幻灯布局(&y)
+
+puleiying
+Bundle.properties
+
+712
+Global
+全局
+
+钢
+Bundle.properties
+
+713
+External Lin&ks
+外部链接(&k)
+
+puleiying
+Bundle.properties
+
+714
+C&harts
+图表(C&)
+
+puleiying
+Bundle.properties
+
+715
+D&iagrams
+报表(&i)
+
+puleiying
+Bundle.properties
+
+716
+Dra&wings
+图(&w)
+
+puleiying
+Bundle.properties
+
+717
+WordAr&t
+艺术字(&t)
+
+puleiying
+Bundle.properties
+
+718
+Other Options:
+其它选项
+
+钢
+Bundle.properties
+
+719
+A&ggregate Tags
+聚合标签(&g)
+
+puleiying
+Bundle.properties
+
+720
+&Preserve spaces for all tags
+给所有标签预留空格(&P)
+
+puleiying
+Bundle.properties
+
+721
+Start a New Paragraph &on Word Soft Return
+在 Word Soft 上开始新段落：
+
+puleiying
+Bundle.properties
+
+722
+Error in file
+文件出错
+
+钢
+Bundle.properties
+
+723
+OmegaT version {0} ({1})
+OmegaT 版本{0} ({1})
+
+puleiying
+Bundle.properties
+
+724
+OmegaT version {0}, update {1} ({2})
+OmegaT 版本{0}, 第{1}次更新
+
+puleiying
+Bundle.properties
+
+725
+About OmegaT
+关于 OmegaT 
+
+钢
+Bundle.properties
+
+726
+Copyright © 2000-2018 Keith Godfrey, Maxym Mykhalchuk and others
+未翻译
+
+没有修改者
+Bundle.properties
+
+727
+&License
+许可证(&L)
+
+puleiying
+Bundle.properties
+
+728
+OmegaT is a free and open source multiplatform Computer Assisted Translation tool with fuzzy matching, translation memory, keyword search, glossaries, and translation leveraging into updated projects.
+OmegaT 是一种免费开源的多平台计算机辅助翻译工具软件，它将模糊匹配、译法记忆、关键词搜索、术语表和译法杠杆等融合成了最新项目。
+
+xulihang
+Bundle.properties
+
+729
+OmegaT is the original work of Keith Godfrey.
+OmegaT 最初的工作由 Keith Godfrey 完成。
+
+钢
+Bundle.properties
+
+730
+Didier Briel is the OmegaT project manager.
+Didier Briel是OmegaT项目的经理。
+
+xulihang
+Bundle.properties
+
+731
+Code has been contributed by:
+{0}
+代码贡献者:
+{0}
+
+puleiying
+Bundle.properties
+
+732
+Other contributions are detailed in the readme.txt file
+更多致谢内容在 readme.txt 中。
+
+钢
+Bundle.properties
+
+733
+OmegaT uses the following libraries:
+{1}
+OmegaT 使用了下列类库：
+
+puleiying
+Bundle.properties
+
+734
+See /docs/contributors.txt
+参阅 /docs/contributors.txt
+
+puleiying
+Bundle.properties
+
+735
+HTMLParser 1.6 by Somik Raha, Derrick Oswald and others (LGPL License)
+Somik Raha, Derrick Oswald 等人的 HTMLParser （LGPL License）
+
+puleiying
+Bundle.properties
+
+736
+VLDocking Framework (LGPL License)
+VLDocking Framework（LGPL License）
+
+puleiying
+Bundle.properties
+
+737
+Jmyspell (LGPL License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+738
+SVNKit (TMate License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+739
+Sequence Library (Sequence Library License)
+Sequence Library（Sequence Library许可）
+
+Fu Rhong
+Bundle.properties
+
+740
+ANTLR (ANTLR 3 License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+741
+SQLJet (GPL License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+742
+JGit (Eclipse Distribution License)
+JGit (Eclipse Distribution License)
+
+钢
+Bundle.properties
+
+743
+JSch (JSch License)
+JSch (JSch License)
+
+钢
+Bundle.properties
+
+744
+jsch-agent-proxy (jsch-agent-proxy License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+745
+Diff (GPL)
+Diff (GPL)
+
+钢
+Bundle.properties
+
+746
+trilead-ssh2 (Trilead SSH license)
+trilead-ssh2 (Trilead SSH 协议)
+
+puleiying
+Bundle.properties
+
+747
+Lucene (Apache License 2.0)
+Lucene (Apache License 2.0)
+
+钢
+Bundle.properties
+
+748
+Apache Commons (Apache License 2.0)
+未翻译
+
+没有修改者
+Bundle.properties
+
+749
+LanguageTool (LGPL License and others)
+未翻译
+
+没有修改者
+Bundle.properties
+
+750
+PDFBox (Apache License 2.0)
+未翻译
+
+没有修改者
+Bundle.properties
+
+751
+SuperTMXMerge (Apache License 2.0)
+未翻译
+
+没有修改者
+Bundle.properties
+
+752
+Groovy (Apache Licence 2.0)
+未翻译
+
+没有修改者
+Bundle.properties
+
+753
+slf4j (MIT License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+754
+juniversalchardet (GPL)
+未翻译
+
+没有修改者
+Bundle.properties
+
+755
+DictZip from JDict (GPL)
+未翻译
+
+没有修改者
+Bundle.properties
+
+756
+mALIGNa (MIT License)
+未翻译
+
+没有修改者
+Bundle.properties
+
+757
+trie4j (Apache License 2.0)
+未翻译
+
+没有修改者
+Bundle.properties
+
+758
+&Copy Support Info
+复制支持信息(&C)
+
+puleiying
+Bundle.properties
+
+759
+OmegaT license
+OmegaT 许可协议
+
+钢
+Bundle.properties
+
+760
+Last changes
+最近更新
+
+钢
+Bundle.properties
+
+761
+Log:
+日志：
+
+钢
+Bundle.properties
+
+762
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+该程序是免费软件，在遵守 FSF 的 GNU General Public License 或者该协议的版本2或者更高版本的前提下，你可以对它进行编辑或者重新发布。
+
+钢
+Bundle.properties
+
+763
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+这个程式的目的是希望它有用，但没有任何担保，甚至没有适销性或针对特定用途的隐含的担保。
+
+钢
+Bundle.properties
+
+764
+Edit Filter
+编辑过滤器
+
+钢
+Bundle.properties
+
+765
+Confirm removal of pattern {0}
+确认删除模式{0}
+
+钢
+Bundle.properties
+
+766
+Remove pattern?
+删除模式？
+
+钢
+Bundle.properties
+
+767
+Cannot reset the filter to default patterns.
+无法将过滤器重置为缺省模式。
+
+钢
+Bundle.properties
+
+768
+Exception occurred:
+发生异常：
+
+钢
+Bundle.properties
+
+769
+&Defaults
+缺省 (&D)
+
+puleiying
+Bundle.properties
+
+770
+File &Format
+文件格式 (&F)
+
+puleiying
+Bundle.properties
+
+771
+Here you may setup the source filename patterns of files the filter will process, customize the filenames of translated files, and select what encodings it will use for loading the file and saving its translated counterpart.
+在此你可以设置过滤器使用的源文件的文件模式，自定义已译文件的文件名，并用来选择载入和保存已译副本的编码。
+
+钢
+Bundle.properties
+
+772
+Note: not all filters allow you to select an encoding.
+注意：并非所有的过滤器允许选择某种编码。
+
+钢
+Bundle.properties
+
+773
+File Filters
+文件过滤器
+
+钢
+Bundle.properties
+
+774
+Project Specific File Filters
+项目特定的文件过滤器
+
+钢
+Bundle.properties
+
+775
+&Make the file filter settings project specific
+使文件过滤器只对特定项目有效(&M)
+
+puleiying
+Bundle.properties
+
+776
+View or edit file filters.
+查看或编辑过滤器
+
+钢
+Bundle.properties
+
+777
+To edit what files in what encodings the filter will process, select the filter from the list and click Edit.
+要想对某个过滤器以何种编码处理何种文件进行编辑，可以从列表中选中该过滤器然后点击编辑按钮。
+
+钢
+Bundle.properties
+
+778
+If the filter has any options, you may change them by clicking Options.
+如果过滤器有可选项，你可以通过点击选项来改变它们。
+
+钢
+Bundle.properties
+
+779
+Edit Filter Patterns
+编辑过滤器模式
+
+钢
+Bundle.properties
+
+780
+O&ptions...
+选项(&p)...
+
+puleiying
+Bundle.properties
+
+781
+Remove &leading and trailing tags
+删除首(&l) 尾的标签
+
+puleiying
+Bundle.properties
+
+782
+Remove leading and trailing &whitespace in non-segmented projects
+在未分段的项目中删除首尾的空白字符(&w)。
+
+puleiying
+Bundle.properties
+
+783
+Preserve spaces &for all tags
+给所有标签预留空格
+
+puleiying
+Bundle.properties
+
+784
+&Ignore file context when identifying segments with alternate translations
+当识别片段带有替代翻译时，忽略文件上下文。
+
+puleiying
+Bundle.properties
+
+785
+Add Pattern
+增加模式
+
+钢
+Bundle.properties
+
+786
+Edit Pattern
+编辑模式
+
+钢
+Bundle.properties
+
+787
+Source Filename Pattern:
+源文件名模式：
+
+钢
+Bundle.properties
+
+788
+Source File Encoding:
+源文件编码：
+
+钢
+Bundle.properties
+
+789
+Translated File Encoding:
+已译文件编码：
+
+钢
+Bundle.properties
+
+790
+Filename Variables:
+文件名变量：
+
+钢
+Bundle.properties
+
+791
+Translated Filename Pattern
+译文文件匹配模式
+
+钢
+Bundle.properties
+
+792
+Project autosaved on {0}
+项目自动保存在 {0}
+
+钢
+Bundle.properties
+
+793
+Too big HTML file!
+HTML文件过大！
+
+钢
+Bundle.properties
+
+794
+Invalid HTML file
+无效 HTML 文件
+
+钢
+Bundle.properties
+
+795
+HTML and XHTML
+HTML 和 XHTML
+
+钢
+Bundle.properties
+
+796
+Note: Source File Encoding setting affects only the HTML files that have no encoding declaration inside.
+注意：源文件编码设置只影响内部没有编码声明的 HTML 文件。
+
+钢
+Bundle.properties
+
+797
+If HTML file has the encoding declaration, it will be used disregarding any value you set in this dialog.
+对于有编码声明的HTML文件，将会忽略你在此对话框中设置的任何编码值。
+
+钢
+Bundle.properties
+
+798
+(X)HTML Filter Options
+(X)HTML 过滤器选项
+
+钢
+Bundle.properties
+
+799
+Add or rewrite encoding declaration in HTML and XHTML files:
+在 HTML 和 XHTML 文件中新增或重写编码声明：
+
+钢
+Bundle.properties
+
+800
+&Always
+总是(&A)
+
+puleiying
+Bundle.properties
+
+801
+Only if (X)HTML file has a &header
+仅当 (X)HTML 文件有 &header 声明时
+
+钢
+Bundle.properties
+
+802
+Skip text matching regular expression:
+忽略文本匹配和正则表达式：
+
+钢
+Bundle.properties
+
+803
+Bad regular expression
+错误的正则表达式！
+
+钢
+Bundle.properties
+
+804
+Do not translate the content attribute of meta-tags with the following attribute key-value pairs (separate with commas):
+不要翻译以下属性键值对内容的元属性标签（用逗号分隔）：
+
+钢
+Bundle.properties
+
+805
+Do not translate the content of tags with the following attribute key-value pairs (separate with commas):
+不翻译以下键值对（逗号分隔）的标签内容：
+
+钢
+Bundle.properties
+
+806
+Only if (X)HTML file has an &encoding declaration
+仅当 (X)HTML 文件有 编码(&e) 声明时
+
+puleiying
+Bundle.properties
+
+807
+&Never
+从不
+
+flycr
+Bundle.properties
+
+808
+Translate the following attributes:
+翻译以下属性：
+
+钢
+Bundle.properties
+
+809
+href (URL of &links)
+href (&links 的 URL)
+
+钢
+Bundle.properties
+
+810
+src (URL of &images)
+src (&images 的 URL)
+
+钢
+Bundle.properties
+
+811
+lan&g (language attribute)
+lan&g （语言属性）
+
+puleiying
+Bundle.properties
+
+812
+h&reflang (language of links)
+h&reflang （语言链接）
+
+puleiying
+Bundle.properties
+
+813
+&value (of form input, including button, submit and reset)
+&value （表单输入，包括按钮、提交扭和复位钮）
+
+puleiying
+Bundle.properties
+
+814
+value (of button, &submit and reset input)
+value （按钮、提交&s和复位输入）
+
+puleiying
+Bundle.properties
+
+815
+Compress whitespace in translated document
+压缩译文文档中的空白字符
+
+钢
+Bundle.properties
+
+816
+Remove HTML comments in translated document
+删除译文文档中的 HTML 注释
+
+钢
+Bundle.properties
+
+817
+Start a new paragraph on:
+开始新段落的条件：
+
+钢
+Bundle.properties
+
+818
+<&br> (breaks)
+<&br> (折行)
+
+puleiying
+Bundle.properties
+
+819
+Exception while editing options:
+编辑选项时发生异常：
+
+钢
+Bundle.properties
+
+820
+HTML Help Compiler
+HTML 帮助文件编译器
+
+钢
+Bundle.properties
+
+821
+HHC file too big!
+HHC 文件过大！
+
+钢
+Bundle.properties
+
+822
+Note: Source File Encoding setting affects only the HHC and HHK files that do not contain an encoding declaration.
+注意：源文件编码设置至影响内部没有编码声明的 HHC 和 HHK 文件。
+
+钢
+Bundle.properties
+
+823
+If a HHC or HHK file has an encoding declaration, it will be used regardless of any value you specify in this dialog.
+对于有编码声明的 HHC 或 HHK 文件，将会忽略你在此对话框中设置的任何编码值。
+
+puleiying
+Bundle.properties
+
+824
+XHTML
+XHTML
+
+钢
+Bundle.properties
+
+825
+XHTML Filter Options
+XHTML 过滤器选项
+
+钢
+Bundle.properties
+
+826
+Exceptions occurred while loading segmentation rules:
+载入片段分割规则时发生异常：
+
+钢
+Bundle.properties
+
+827
+Error saving segmentation rules configuration:
+保存分管规则配置错误：
+
+钢
+Bundle.properties
+
+828
+Language Name
+语言名称
+
+钢
+Bundle.properties
+
+829
+Language Pattern
+语言匹配模式
+
+钢
+Bundle.properties
+
+830
+Break/Exception
+中断或例外
+
+钢
+Bundle.properties
+
+831
+Pattern Before
+前匹配模式
+
+钢
+Bundle.properties
+
+832
+Pattern After
+后匹配模式
+
+钢
+Bundle.properties
+
+833
+Catalan
+加泰罗尼亚语
+
+钢
+Bundle.properties
+
+834
+German
+德语
+
+钢
+Bundle.properties
+
+835
+English
+英语
+
+钢
+Bundle.properties
+
+836
+Spanish
+西班牙语
+
+钢
+Bundle.properties
+
+837
+Finnish
+芬兰语
+
+钢
+Bundle.properties
+
+838
+French
+法语
+
+钢
+Bundle.properties
+
+839
+Italian
+意大利语
+
+钢
+Bundle.properties
+
+840
+Japanese
+日语
+
+钢
+Bundle.properties
+
+841
+Dutch
+荷兰语
+
+钢
+Bundle.properties
+
+842
+Polish
+波兰语
+
+钢
+Bundle.properties
+
+843
+Russian
+俄语
+
+钢
+Bundle.properties
+
+844
+Swedish
+瑞典语
+
+钢
+Bundle.properties
+
+845
+Chinese
+中文
+
+Fu Rhong
+Bundle.properties
+
+846
+Default
+缺省
+
+钢
+Bundle.properties
+
+847
+Text files segmentation
+文本文件分段
+
+钢
+Bundle.properties
+
+848
+HTML, XHTML, ODF and Infix segmentation
+HTML、XHTML、ODF 和 Infix 片段
+
+puleiying
+Bundle.properties
+
+849
+Segmentation Setup
+片段分割设置
+
+钢
+Bundle.properties
+
+850
+Project Specific Segmentation Setup
+项目特定的分段规则设置
+
+钢
+Bundle.properties
+
+851
+Note: All of the segmentation rule sets with a matching Language Pattern are applied in the given order.
+注意：和匹配语言模式一起设置的分段规则集合将会以给出的顺序应用。
+
+钢
+Bundle.properties
+
+852
+Thus, for example, rules for Canadian French (FR-CA) should be higher than rules for French (FR.*), and higher than Default (.*) ones.
+例如，为 Canadian French (FR-CA) 创建的规则优先级应该比为法语 (FR.*)创见规则的优先级要高，也比缺省规则(.*) 要高。
+
+钢
+Bundle.properties
+
+853
+Then while translating from Canadian French your project will use all the rules defined for all the language chain in the correct order.
+当对加拿大法语进行翻译时，你的项目将会以正确的顺序使用所有语言链的规则定义。
+
+钢
+Bundle.properties
+
+854
+Move &First
+移动 & 首个片段
+
+christy
+Bundle.properties
+
+855
+Move &Last
+移到最后一个片段
+
+christy
+Bundle.properties
+
+856
+Move U&p
+上移(&p)
+
+puleiying
+Bundle.properties
+
+857
+Move Do&wn
+下移(&w)
+
+puleiying
+Bundle.properties
+
+858
+Move &Up
+上移(&p)
+
+puleiying
+Bundle.properties
+
+859
+&Move Down
+下移(&M)
+
+puleiying
+Bundle.properties
+
+860
+Sets of segmentation rules:
+分段规则集合：
+
+钢
+Bundle.properties
+
+861
+Segmentation rules are applied in the following order:
+分段规则按照以下顺序应用：
+
+钢
+Bundle.properties
+
+862
+Are you sure you want to remove the {0} set of segmentation rules?
+你确认要删除第 {0} 个分段规则集合吗？
+
+钢
+Bundle.properties
+
+863
+New Language and Country
+新语言和国家
+
+钢
+Bundle.properties
+
+864
+Team Options
+团队选项
+
+钢
+Bundle.properties
+
+865
+Team
+团队
+
+puleiying
+Bundle.properties
+
+866
+Please enter your name/ID.
+请输入您的姓名或 ID。
+
+puleiying
+Bundle.properties
+
+867
+It is used to mark your translations.
+它被用于标记你的翻译。
+
+钢
+Bundle.properties
+
+868
+&Name/ID:
+姓名或 ID(&N) ：
+
+puleiying
+Bundle.properties
+
+869
+Editor Options
+编辑器选项
+
+puleiying
+Bundle.properties
+
+870
+Editor
+编辑器
+
+puleiying
+Bundle.properties
+
+871
+Please select what text you would like to be inserted into the segment that is not translated yet, when you move to it.
+当你移动到未翻译片段时，请选择插入你想插入的文本
+
+puleiying
+Bundle.properties
+
+872
+Insert the &source text
+插入源文本(&s)
+
+puleiying
+Bundle.properties
+
+873
+&Leave the segment empty
+保持片段为空(&L)
+
+puleiying
+Bundle.properties
+
+874
+Insert the &best fuzzy match
+插入最佳模糊匹配(&b)
+
+puleiying
+Bundle.properties
+
+875
+&Minimal similarity:
+最小相似度(&M)
+
+puleiying
+Bundle.properties
+
+876
+&Prefix:
+前缀(&P)：
+
+puleiying
+Bundle.properties
+
+877
+[fuzzy]
+[模糊]
+
+钢
+Bundle.properties
+
+878
+&Allow translation to be equal to source
+允许译文和原文相同(&A)
+
+puleiying
+Bundle.properties
+
+879
+E&xport the segment to text files
+将片段导出 (&x) 到文本文件
+
+puleiying
+Bundle.properties
+
+880
+&Go To Next Untranslated Segment stops when there is at least one alternative translation
+转到 (&G) 下一未译片段，遇到至少一个以上可选译法时停下
+
+puleiying
+Bundle.properties
+
+881
+Attempt to convert &numbers when inserting a fuzzy match
+插入模糊匹配时尝试转换数字(&n)
+
+puleiying
+Bundle.properties
+
+882
+Allo&w tag editing
+允许 (&w) 标签编辑
+
+puleiying
+Bundle.properties
+
+883
+&Validate tags when leaving a segment
+离开片段时进行标签检验(&V)
+
+puleiying
+Bundle.properties
+
+884
+Save aut&o-populated status
+保持自动 (&o) 填充状态
+
+puleiying
+Bundle.properties
+
+885
+Initially load this many segments:
+初始加载多片段
+
+puleiying
+Bundle.properties
+
+886
+When a single file has more segments than this, additional segments will be loaded on-demand as you scroll.
+如果单个文件中的片段超过了这个，多出的片段将在经批后准根据鼠标滚动。
+
+puleiying
+Bundle.properties
+
+887
+External TMX Options
+外部 TMX 选项
+
+钢
+Bundle.properties
+
+888
+Please select how tags of non-OmegaT TMXs should be displayed.
+请选择非 OmegaT TMX 标签的展示模式。
+
+钢
+Bundle.properties
+
+889
+Display &tags
+显示&标签
+
+Lenovo
+Bundle.properties
+
+890
+Use &XML for standalone tags (e.g., <i/>)
+对独立标签(如 <i/>)使用 XML(&X) 
+
+puleiying
+Bundle.properties
+
+891
+Template variables:
+模板标量：
+
+钢
+Bundle.properties
+
+892
+Match display template
+匹配显示模板
+
+钢
+Bundle.properties
+
