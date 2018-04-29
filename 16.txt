@@ -1,0 +1,4452 @@
+5643
+All segmentation rule sets for a matching language pattern are active and are applied in the given order of priority, so rules for specific language should be higher than default ones.
+为匹配的语言模式定义的所有片段分割规则会按照规定的优先级别得到应用，因此为特定语言定义的规则优先级会比缺省规则要高。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5644
+For example, rules for Canadian French (FR-CA) should be set higher than rules for French (FR.*), and higher than Default (.*) ones.
+例如，为加拿大法语 (FR-CA) 创建的规则优先级应该比为法语 (FR.*) 创建规则的优先级要高，也比缺省规则(.*) 要高。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5645
+Thus, when translating from Canadian French the rules for Canadian French - if any - will be applied first, followed by the rules for French and lastly, by the Default rules.
+因此，在翻译加拿大法语时，会首先应用加拿大法语规则（如果存在的话），接着是法语规则，最后为缺省规则。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5646
+<p0>Segmentation</p0> <s1>Creating a new rule</s1> <s2>Regular expressions</s2>
+<p0>片段分割</p0> <s1>创建新规则</s1> <s2>正则表达式</s2>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5647
+Creating a new rule
+创建新规则
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5648
+Major changes to the segmentation rules should be generally avoided, especially after completion of the first draft, but minor changes, such as the addition of a recognized abbreviation, can be advantageous.
+一般应避免对分割规则进行大幅调整，尤其在开始翻译后，但进行细微修正，例如加上识别的缩略语，可能会有好处。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5649
+In order to edit or expand an existing set of rules, simply click on it in the top table.
+要编辑或扩展现有规则集合，仅需在上面的表格中打开它。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5650
+The rules for that set will appear in the bottom half of the window.
+规则集合将出现在窗口的下半部分。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5651
+In order to create an empty set of rules for a new language pattern click <e0>Add </e0>in the upper half of the dialog.
+要为某新语种模式创建空的规则集合，在对话框的上半部分点击<e0>新增</e0>。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5652
+An empty line will appear at the bottom of the upper table (you may have to scroll down to see it).
+上方表格的底部将出现一条空行（您可能需要向下滚动才能看到它）。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5653
+Change the name of the rule set and the language pattern to the language concerned and its code (see <x1/> for a list of language codes).
+修改规则集的名称和语言模式到相关的语言及其代码（请参阅<x1/>语言代码列表）。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5654
+The syntax of the language pattern conforms to regular expression syntax.
+语言模式的语法遵循正则表达式的语法规则。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5655
+If your set of rules handles a language-country pair, we advise you to move it to the top using the <e2>Move Up</e2> button.
+如果您设置了规则集来处理语言——国家对，我们建议您使用<e2>上移</e2>按钮将它移到顶部。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5656
+Add the <e0>Before</e0> and<e1> After</e1> patterns.
+添加<e0>之前</e0>和<e1>之后</e1>模式。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5657
+To check their syntax and their applicability, it is advisable to use tools which allow you to see their effect directly.
+要检查它们的语法和适用性，建议使用工具来直接查看效果。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5658
+See the chapter on <l2>Regular expressions</l2>.
+请参阅<l2>正则表达式</l2>章节。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5659
+A good starting point will always be the existing rules.
+了解现有的规则总是个很好的起点。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5660
+<p0>Segmentation</p0> <s1>Examples</s1>
+<p0>片段分割</p0> <s1>示例</s1>
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5661
+A few simple examples
+一些简单的例子
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5662
+Intention
+目的
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5663
+Before
+前模式
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5664
+After
+后模式
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5665
+Note
+说明
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5666
+Set the segment start after a period ('.') followed by a space, tab ...
+设置在句点（‘.’）后跟着空格、Tab等的位置后开始新片段。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5667
+\.
+\.
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5668
+\s
+\s
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5669
+"\." stands for the period character.
+“\.”表示句点字符。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5670
+"\s" means any white space character (space, tab, new page etc.)
+“\s”表示任意空白字符（空格、Tab、新行符等）。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5671
+Do not segment after Mr.
+不要在Mr.后进行分割
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5672
+Mr\.
+Mr\.
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5673
+\s
+\s
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5674
+This an exception rule, so the rule check box must not be ticked
+这是一条例外规则，因此必须取消选中规则的复选框。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5675
+Set a segment after "。" (Japanese period)
+在“。”（日文句点）后进行分割
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5676
+。
+。
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5677
+Note that <l0>after</l0> is empty
+注意<l0>后模式</l0>规则是空的
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5678
+Do not segment after M. Mr. Mrs. and Ms.
+不要对M.、Mr.、Mrs.、和Ms.之后的内容进行分割
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5679
+Mr??s??\.
+Mr??s??\.
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5680
+\s
+\s
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5681
+Exception rule - see the use of ?
+例外规则——请查阅?
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5682
+in regular expressions
+在正则表达式中的用途
+
+Fu Rhong
+doc_src/Segmentation.xml
+
+5683
+Spell checker
+拼写检查
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5684
+Spell checker
+拼写检查
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5685
+OmegaT has a built-in spell checker based on the spelling checker used in Apache OpenOffice, LibreOffice, Firefox and Thunderbird.
+OmegaT内置有拼写检查器，它基于在Apache OpenOffice、LibreOffice、Firefox和Thunderbird中使用的拼写检查器。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5686
+It is consequently able to use the huge range of free spelling dictionaries available for these applications.
+因此能使用在这些程序中可用的大量免费的拼写检查词典。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5687
+Installing spelling dictionaries
+安装拼写词典
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5688
+Before the spell check function can be used, a suitable dictionary or dictionaries (i.e. for your target language) must be installed.
+在检查拼写前，必须先安装适合的词典（例如用于您的目标语言）。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5689
+To install spelling dictionaries, follow this procedure:
+要安装拼写词典，请参照这些步骤：
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5690
+In your file manager, create a new folder in a suitable location in which to store spelling dictionaries (D:\Translations\spellcheckers in the example below).
+请在文件管理器中适当的位置创建新文件夹用来保存拼写词典（在下面的示例中为D:\Translations\spellcheckers）。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5691
+<p0>Menu Options</p0> <s1>Spell checking</s1>
+<p0>菜单选项</p0> <s1>拼写检查</s1>
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5692
+In OmegaT, select <g0><i1/></g0><g2>Options > Spell Checking</g2>, then click <g3>Choose </g3>beside the Dictionary file folder field.
+在 OmegaT，选择<g0><i1/></g0><g2>选项>拼写检查</g2>，然后点击词典文件夹区域旁<g3>选择</g3>。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5693
+Navigate to and select the folder you created for dictionaries.
+浏览到保存词典的文件夹并选中。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5694
+Place the dictionary files you wish to use in this folder.
+把要使用的词典文件放到此文件夹。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5695
+There are essentially two ways in which you can do this.
+进行这个操作实际分成两步。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5696
+You can either copy files manually, i.e. from elsewhere on your system, using your file manager; or you can use OmegaT's <e0>"Install new dictionary"</e0> function to provide a list of available dictionaries to select from.
+您可以使用文件管理器从其他位置手动复制文件，或使用 OmegaT 的<e0>“安装”</e0>功能来提供可选择的词典列表。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5697
+Note that the "Install" function requires an Internet connection.
+请注意“安装”功能需要网络连接。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5698
+The selected languages will then be installed and will eventually appear in your spell checker setup window (this may take a while).
+随后选中的语言将会被安装，并出现在拼写检查器窗口中（可能需要一段时间）。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5699
+Copying the files manually makes sense if you already have suitable dictionary files on your system, for instance as part of your Apache OpenOffice, LibreOffice, Firefox or Thunderbird installation.
+如果您系统中已经有合适的词典，那么可以手动复制，例如在Apache OpenOffice、LibreOffice、Firefox或Thunderbird安装过程中已经安装了。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5700
+It is simpler, however, to look for dictionaries online, using the <e0>URL of online dictionaries</e0> field:
+这样简单点，不过如果要查找在线词典，请使用<e0>在线词典的网址</e0>字段：
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5701
+<p0>Spell checker</p0> <s1>Spell checker setup</s1>
+<p0>拼写检查器</p0> <s1>拼写检查器设置</s1>
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5702
+Spellchecker setup
+拼写检查器设置
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5703
+Clicking on <g0>Install new dictionary</g0> button will open the Dictionary installer window, where you can select the dictionaries you want to install.
+点击<g0>安装新词典</g0>按钮将打开词典安装窗口，此处您可选择要安装的词典。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5704
+The names of the files must correspond to the language code of your target language as defined in the project properties dialog (<g0>Project > Properties</g0>).
+文件的名称必须与项目属性对话框（<g0>项目>属性</g0>）中定义的目标语言的代码一致。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5705
+For example, if you have selected ES-MX (Mexican Spanish) as the target language, the dictionary files must be named es_MX.dic and es_MX.aff.
+例如，如果你选择ES-MX（墨西哥式西班牙语）为目标语言，则词典文件必须命名为es_MX.dic和es_MX.aff。
+
+Zoe
+doc_src/Spellchecker.xml
+
+5706
+If you only have a standard Spanish dictionary available, with file names es_es.dic and es_es.aff for instance, you can copy these files to es_MX.dic and es_MX.aff, and the spelling dictionary will work.
+如果您只有标准的西班牙语词典（例如文件名为es_es.dic和es_es.aff），您把这些文件改名为es_MX.dic和es_MX.aff也能让拼写检查词典正常工作。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5707
+Note that this will of course check for the standard (Castillian) rather than for Mexican Spanish.
+请注意，除墨西哥式西班牙语外这时也会检查标准的卡斯提尔语。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5708
+Using spelling dictionaries
+使用拼写词典
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5709
+There is no need to instruct OmegaT to use a particular spelling dictionary; OmegaT will use the correct language dictionary based upon the language codes of your project.
+无需告诉 OmegaT 使用特殊的拼写词典，它会根据项目的语言代码来使用正确的语言词典。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5710
+Check however that the language codes are exactly the same: an FR-FR dictionary will not work with an FR target setting, for example.
+请确保目标文件的语言代码与字典的语言代码相同：例如，FR-FR 字典在 FR 为目标语言设置下将无法正常使用。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5711
+If necessary, edit the file names of the dictionary or change your project's language settings.
+必要时可编辑词典文件名或改变项目的语言设置。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5712
+To enable the spell checker, select <g0>Options > Spell Checking</g0> and tick the <g1>Automatically check the spelling of text</g1> check box (see above).
+要启用拼写检查器，请选择<g0>选项>拼写检查</g0>并选中<g1>自动检查文本拼写</g1>的复选框（见上面）。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5713
+Using spellchecker
+使用拼写检查器
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5714
+Right-clicking on an underlined word (Artund in the figure above) opens a drop-down menu listing suggestions for the correction (Art und).
+右键单击突出显示的词汇（上面图示中的 "Artund"）打开下拉菜单，其中列出了更正建议（Art und）。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5715
+You can also instruct the spell checker to ignore all the occurrences of the mis-spelled word, or add it to the dictionary.
+此外，您也可以要求拼写检查器忽略所有该词的出现，或者把它添加到字典。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5716
+<p0>Spell checker</p0> <s1>Hints</s1>
+<p0>拼写检查器</p0> <s1>提示</s1>
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5717
+Hints
+提示
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5718
+If the spell checker is not working, then make sure first that the check box <g0>"Automatically check the spelling of text"</g0> in the spell checker dialog (<g1>Options > Spell checking...)</g1> is checked.
+如果拼写检查器没有运行，首先确保选中了拼写检查器对话框（<g1>选项>拼写检查...</g1>）中<g0>“自动检查文本拼写”</g0>的复选框。
+
+xulihang
+doc_src/Spellchecker.xml
+
+5719
+Also check that the target language code of your project against the available vocabularies in the setup window.
+在设置窗口中对照可用术语表检查项目的目标语言代码。
+
+xulihang
+doc_src/Spellchecker.xml
+
+5720
+The spell checker uses the target language code to determine the language to be used : if the target language is Brazilian Portuguese (PT_BR), the subfolder with vocabularies must contain the two vocabulary files, called <e0>pt_br.aff</e0> and <e1>pt_br.dic</e1>.
+拼写检查器根据目标语言代码来决定要使用的语言：如果目标语言是巴西葡萄牙语 (PT_BR)，存放术语表的目录必须包括两份术语表，名为 <e0>pt_br.aff</e0> 和 <e1>pt_br.dic</e1>。
+
+xulihang
+doc_src/Spellchecker.xml
+
+5721
+If you have already translated a large body of text, and then realize the target language code of the project does not match the spell checker's language code (you specified pt_BR as the language, but there are no pt_BR vocabularies, for instance) you can simply copy the two corresponding files and rename them (e.g. from <e0>pt_PT.aff</e0> and <e1>pt_PT.dic</e1> to <e2>pt_BR.aff</e2> and <e3>pt_BR.dic</e3>).
+如果已经译了一大段文本，但是才意识到项目的目标语言代码与拼写检查器的语言代码不符（如将pt_BR设为目标语言，但没有pt_BR术语表），您只需复制两份对应的文件并进行重命名（例如把<e0>pt_PT.aff</e0>和<e1>pt_PT.dic</e1>改名为<e2>pt_BR.aff</e2>和<e3>pt_BR.dic</e3>）。
+
+xulihang
+doc_src/Spellchecker.xml
+
+5722
+Of course it is much wiser, to take a short break and download the correct versions of the spell checker.
+当然，中断一小段时间并下载正确的拼写检查器版本的做法更加理智。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5723
+Note that <f0>Remove</f0> physically removes the selected vocabularies.
+注意<f0>删除</f0>实际上只是删除了选择的术语表。
+
+xulihang
+doc_src/Spellchecker.xml
+
+5724
+If they are used by some other application on your system, they will disappear from that application, too.
+如果系统上有其他程序使用它们，则它们也会从那些程序中消失。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5725
+If, for whatever reason, you need to do this from time to time, it may make sense to copy the files involved to a different folder, reserved just for use by OmegaT.
+如果出于某种原因，您必须不时地重复该操作，将这些文件复制到其它目录并为 OmegaT 保留它们是非常有意义的。
+
+Fu Rhong
+doc_src/Spellchecker.xml
+
+5726
+Search
+搜索
+
+xulihang
+doc_src/TaaS.xml
+
+5727
+Using TaaS in OmegaT
+在OmegaT中使用TaaS
+
+Doris
+doc_src/TaaS.xml
+
+5728
+Generalities
+概述
+
+Doris
+doc_src/TaaS.xml
+
+5729
+The TaaS service at https://demo.taas-project.eu/info provides terminology services in European languages (plus Russian).
+TaaS服务提供欧洲语言（以及俄语）的术语服务，网址位于https://demo.taas-project.eu/info。
+
+Doris
+doc_src/TaaS.xml
+
+5730
+It allows accessing both public and private data, where private glossaries (called "collections") can be extracted from existing documents, and the target terms partly populated automatically from various sources.
+它允许访问公共和私人数据，可以从这些数据的现有文档中提取私人术语表（也称“集合”），并且部分目标术语能够从各种来源获得自动填充。
+
+Doris
+doc_src/TaaS.xml
+
+5731
+Creating a key
+创建密钥
+
+Doris
+doc_src/TaaS.xml
+
+5732
+To access the TaaS service, a user must create a key using https://term.tilde.com/account/keys/create?system=omegaT.
+要访问TaaS服务，用户必须通过 https://term.tilde.com/account/keys/create?system=omegaT 网址创建一个密钥。
+
+Doris
+doc_src/TaaS.xml
+
+5733
+The key must then be given to OmegaT using -Dtaas.user.key=xxxxx.
+然后通过 -Dtaas.user.key=xxxxx 形式将密钥输入OmegaT。
+
+Doris
+doc_src/TaaS.xml
+
+5734
+OmegaT configuration launchers (OmegaT.l4J.ini, omegat.kaptn and Configuration.properties) contain a template entry.
+OmegaT的配置启动器（包括OmegaT.l4J.ini、omegat.kaptn和Configuration.properties）包含模板条目。
+
+Doris
+doc_src/TaaS.xml
+
+5735
+Accessing the TaaS service
+访问TaaS服务
+
+Doris
+doc_src/TaaS.xml
+
+5736
+Click on <e0>Options, Glossary</e0> to display the following options:
+点击<e0>选项，术语表</e0>将显示以下选项：
+
+Doris
+doc_src/TaaS.xml
+
+5737
+<e0>Browse TaaS Collections</e0> will allow browsing existing collections for the source and target languages of the project, and downloading them.
+<e0>浏览TaaS集合</e0>将允许浏览现有集合以获取并下载项目所需的源语言和目标语言。
+
+Doris
+doc_src/TaaS.xml
+
+5738
+Private collections are displayed in bold.
+私人集合以粗体显示。
+
+Doris
+doc_src/TaaS.xml
+
+5739
+The collections are downloaded as TBX glossaries in the current glossary folder.
+这些集合将以TBX术语表格式下载至当前术语表文件夹中。
+
+Doris
+doc_src/TaaS.xml
+
+5740
+<e0>TaaS Terminology Lookup</e0>: when checked, will allow querying TaaS data on a segment by segment basis.
+<e0>TaaS术语查询</e0>：勾选时，将允许逐段查询TaaS数据。
+
+Doris
+doc_src/TaaS.xml
+
+5741
+All collections (public and private) will be queried for the source and target language.
+所有集合（公共和私人）都将被查询源语言和目标语言。
+
+Doris
+doc_src/TaaS.xml
+
+5742
+To limit the amount of data, it is possible to select a specific domain by selecting <e0>Select TaaS Terminology Lookup Domain</e0>.
+为了限制数据量，您可通过选择<e0>选择TaaS术语查找域</e0>来选择特定域。
+
+Doris
+doc_src/TaaS.xml
+
+5743
+In that dialog, it's possible to select All domains or a specific one.
+在该对话框中，您可选择所有域或特定域。
+
+Doris
+doc_src/TaaS.xml
+
+5744
+Translation memories
+翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5745
+<p0>TMX</p0> <s1>Translation memories</s1>
+<p0>TMX</p0> <s1>翻译记忆</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5746
+Translation memories
+翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5747
+Translation memories in OmegaT
+OmegaT 中的翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5748
+tmx folders - location and purpose
+tmx 文件夹 - 位置及用途
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5749
+<a0>OmegaT</a0> projects can have translation memory files - i.e. files with the extension tmx - in five different places:
+<a0>OmegaT</a0>项目含有在五个不同位置的翻译记忆文件，即扩展名为tmx的文件：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5750
+<p0>Translation memories</p0> <s1>Subfolder omegat</s1> <s2>Project files</s2>
+<p0>翻译记忆</p0> <s1>omegat 子目录</s1> <s2>项目文件</s2>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5751
+omegat folder
+omegat 文件夹
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5752
+The omegat folder contains the <f0>project_save.tmx</f0> and possibly a number of backup TMX files.
+omegat 文件夹包含 <f0>project_save.tmx</f0> 文件，以及一些备份的 TMX 文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5753
+The <f1>project_save.tmx</f1> file contains all the segments that have been recorded in memory since you started the project.
+<f1>project_save.tmx</f1> 文件包含了自项目开始以来所有被保存的片段。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5754
+This file always exists in the project.
+项目中总是存在此文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5755
+Its contents will always be sorted alphabetically by the source segment.
+其内容总是根据源片段的字母进行排序。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5756
+<p0>Translation memories</p0> <s1>Project main folder</s1>
+<p0>翻译记忆</p0> <s1>项目主文件夹</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5757
+main project folder
+项目主文件夹
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5758
+The main project folder contains 3 tmx files, <f0>project_name-omegat.tmx</f0>, <f1>project_name-level1.tmx</f1> and <f2>project_name-level2.tmx</f2> (project_name being the name of your project).
+项目主文件夹中包含 3 个 tmx 文件：<f0>project_name-omegat.tmx</f0>，<f1>project_name-level1.tmx</f1> 以及 <f2>project_name-level2.tmx</f2>（project_name 是项目的名称）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5759
+The level1 file contains only textual information.
+level1 文件仅包含文本信息。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5760
+The level2 file encapsulates <a0>OmegaT</a0> specific tags in correct tmx tags so that the file can be used with its formatting information in a translation tool that supports tmx level 2 memories, or <a1>OmegaT</a1> itself.
+level2 文件以适当的 TMX 标签封装了 <a0>OmegaT</a0> 的特殊标签，因此它可以在支持第 2 级 TMX 的翻译工具中使用其中的格式信息，包括 <a1>OmegaT</a1> 本身。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5761
+The <a0>OmegaT</a0> file includes <a1>OmegaT</a1> specific formatting tags so that the file can be used in other <a2>OmegaT</a2> projects
+<a0>OmegaT</a0> 文件包含了 <a1>OmegaT</a1> 特殊的格式标签，因此该文件可用于其他 <a2>OmegaT</a2> 项目。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5762
+These files are copies of the file <f0>project_save.tmx</f0>, i.e. of the project's main translation memory, excluding the so-called orphan segments.
+这些文件是 <f0>project_save.tmx</f0>文件的副本，即不包括被称为孤立片段的主翻译记忆。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5763
+They carry appropriately changed names, so that its contents still remain identifiable, when used elsewhere, for instance in the <f1>tm</f1> subfolder of some other project (see below).
+它们使用适当变化的名称，这样在其他地方使用时容易识别其中包含的内容，例如在其他项目的<f1>tm</f1>子文件夹（见下面）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5764
+<p0>Translation memories</p0> <s1>Subfolder tm</s1> <s2>Project files</s2>
+<p0>翻译记忆</p0> <s1>tm 子目录</s1> <s2>项目文件</s2>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5765
+<f0><i1/>tm</f0> folder
+<f0><i1/>tm</f0> 目录
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5766
+The /tm/ folder can contain any number of ancillary translation memories - i.e. tmx files.
+/tm/ 可包含任何数量的辅助翻译记忆，即 TMX 文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5767
+Such files can be created in any of the three varieties indicated above.
+这样的文件可创建为上面提示的三种形式。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5768
+Note that other CAT tools can export (and import as well) tmx files, usually in all three forms.
+注意：其他 CAT 也能导出（以及导入）TMX 文件，一般也有三种形式。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5769
+The best thing of course is to use OmegaT-specific TMX files (see above), so that the in-line formatting within the segment is retained.
+最好的来源是使用 OmegaT 特定的 TMX 文件（见上文），这样可以保持片段中的内联格式。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5770
+The contents of translation memories in the tm subfolder serve to generate suggestions for the text(s) to be translated.
+在 tm 子目录中翻译记忆的内容是为要翻译文本提供建议。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5771
+Any text, already translated and stored in those files, will appear among the fuzzy matches, if it is sufficiently similar to the text currently being translated.
+这些文件中已经保存并翻译的任何文本，当它们与正在翻译的文本十分相似时，将出现在模糊匹配窗格中。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5772
+If the source segment in one of the ancillary TMs is identical to the text being translated, OmegaT acts as defined in the <m0> <g1>Options</g1> <g2>Editing Behavior...</g2> </m0> dialog window.
+如果某个辅助TM中的某个源片段与待译的文本完全相同，OmegaT会安装在<m0> <g1>选项</g1> <g2>编辑行为...</g2> </m0>对话框中的设置进行操作。
+
+xulihang
+doc_src/TranslationMemories.xml
+
+5773
+For instance (if the default is accepted), the translation from the ancillary TM is accepted and prefixed with<e3> [fuzzy]</e3>, so that the translator can review the translations at a later stage and check whether the segments tagged this way, have been translated correctly (see the <l4>Editing behavior</l4> chapter) <m5> <g6>.</g6> </m5>
+例如（使用缺省设置），在辅助TM中的译文被接受并加上前缀<e3>[模糊]</e3>，这样译员随后可以通过这个标记检查译文是否正确翻译（请参阅<l4>编辑行为</l4>章节）<m5> <g6>。</g6> </m5>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5774
+It may happen, that translation memories, available in the <f0>tm</f0> subfolder, contain segments with identical source text, but differing targets.
+可能出现这样的情况：在<f0>tm</f0>子文件夹的翻译记忆中多个片段含有相同的源文本，但目标译文不同。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5775
+TMX files are read sorted by their names and segments within a given TMX file line by line.
+在指定的TMX文件中是根据每行的名称和片段逐行读取TMX文件的。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5776
+The last segment with the identical source text will thus prevail (Note: of course it makes more sense to avoid this to happen in the first place).
+因此含相同源文本的最后一个片段将获得采用（注：当然预先避免这种情况发生会更有意义）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5777
+<p0>Translation memories</p0> <s1>compressed</s1>
+<p0>翻译记忆</p0> <s1>打包</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5778
+Note that the TMX files in the tm folder can be compressed with gzip.
+注意在tm文件夹中的TMX文件可使用gzip压缩。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5779
+<p0>Translation memories</p0> <s1>Subfolder tm/auto</s1> <s2>Project files</s2>
+<p0>翻译记忆</p0> <s1>tm/auto 子目录</s1> <s2>项目文件</s2>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5780
+<p0>Project</p0> <s1>Pretranslation</s1>
+<p0>项目</p0> <s1>预翻译</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5781
+tm/auto folder
+tm/auto  目录
+
+Doris
+doc_src/TranslationMemories.xml
+
+5782
+If it is clear from the very start, that translations in a given TM (or TMs) are all correct, one can put them into the<e0> tm/auto</e0> folder and avoid confirming a lot of<e1> [fuzzy]</e1> cases.
+如果在提供的 TM 中的译文完全可靠的话，那么可以把它们放到 <e0> tm/auto</e0> 目录以避免需要对大量的 <e1> [模糊]</e1>进行确认。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5783
+Put the TMX in /tm/auto.
+将TMX文件放入tm/auto/文件夹。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5784
+Open the project.
+打开项目。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5785
+The changes are displayed.
+显示更改。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5786
+Make a slight change anywhere in the project.
+在项目的任意地方稍做改动。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5787
+This modifies <f0>project_save.tmx</f0> (by adding proper Translation Units from "auto" TMX)
+这将修改<f0>project_save.tmx</f0>（通过从“auto”TMX添加适当的翻译单元）
+
+Doris
+doc_src/TranslationMemories.xml
+
+5788
+Note: if TMX is removed from /tm/auto before step 3, no extra Translation Unit is added.
+提示：如果在步骤3之前，TMX已从/tm/auto文件夹移除，则不会添加额外的翻译单元。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5789
+tm/enforce folder
+tm/enforce 目录
+
+Doris
+doc_src/TranslationMemories.xml
+
+5790
+If you have no doubt that a TMX is more accurate than the <f0>project_save.tmx</f0> of OmegaT, put this TMX in /tm/enforce to overwrite existing default translations unconditionally.
+如果您认同TMX比OmegaT的<f0>project_save.tmx</f0>更准确，请将此TMX置于/tm/enforce目录下，以便无条件覆盖现有的默认翻译。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5791
+Put the TMX in /tm/enforce.
+将TMX放入/tm/enforce目录
+
+Doris
+doc_src/TranslationMemories.xml
+
+5792
+Open the project.
+打开项目。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5793
+The changes are displayed.
+显示更改。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5794
+Make a slight change anywhere in the project.
+在项目的任意地方稍做改动。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5795
+This modifies <f0>project_save.tmx</f0>.
+这将修改 <f0>project_save.tmx</f0>.
+
+Doris
+doc_src/TranslationMemories.xml
+
+5796
+Make decision about immunity of the enforced segments:
+使片段免除于强制执行：
+
+Doris
+doc_src/TranslationMemories.xml
+
+5797
+If they <e0>don't need</e0> to stay immune from further changes, then remove the TMX from /tm/enforce.
+如果它们<e0>不需要</e0>免除于进一步更改，请从/tm/enforce中删除TMX。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5798
+If they <e0>need</e0> to stay immune from further changes, then keep the TMX in /tm/enforce.
+如果它们<e0>需要</e0>免除于进一步更改，请在/tm/enforce中保留TMX。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5799
+Note: if TMX is removed from /tm/enforce before step 3, enforcements aren't kept at all.
+提示：如果在步骤3之前，TMX已从/tm/auto文件夹移除，则强制执行不会被保存。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5800
+tm/mt folder
+tm/mt 目录
+
+Doris
+doc_src/TranslationMemories.xml
+
+5801
+In the editor pane, when a match is inserted from a TMX contained in a folder named <e0>mt</e0>, the background of the active segment is changed to red.
+在编辑窗格中，从<e0>mt</e0>的文件夹中的TMX文件插入匹配项时，当前所在片段的背景变为红色。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5802
+The background is restored to normal when the segment is left.
+从当前所在片段离开后，背景恢复正常。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5803
+<p0>Translation memories</p0> <s1>Subfolders tm/penalty-xxx</s1> <s2>Project files</s2>
+<p0>翻译记忆</p0> <s1>tm/penalty-xxx子文件夹</s1> <s2>项目文件</s2>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5804
+tm/penalty-xxx folders
+tm/penalty-xxx文件夹
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5805
+Sometimes, it is useful to distinguish between high-quality translation memories and those that are, because of the subject matter, client, revision status, etc., less reliable.
+有时由于题材、客户、版本状态等，需要从翻译记忆中区分出高质量译文与不可靠译文。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5806
+For translation memories in folders with a name "penalty-xxx" (with xxx between 0 and 100), matches will be degraded according to the name of the folder: a 100% match in any of TMs, residing in a folder called Penalty-30 for instance, will be lowered to a 70% match.
+在名称为“penalty-xxx”（其中xxx在0到100之间）文件夹中的翻译记忆产生的匹配其匹配度将减少文件夹名称中的数字：例如Penalty-30文件夹中所有TM中100%匹配的条目将减低至70%的匹配度。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5807
+The penalty applies to all three match percentages: matches 75, 80, 90 will in this case be lowered to 45, 50, 60.
+罚点适用于所有的三种匹配百分率：此时匹配度75、80、90将减低至45、50和60。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5808
+Optionally, you can let <a0>OmegaT</a0> have an additional tmx file (<a1>OmegaT</a1>-style) anywhere you specify, containing all translatable segments of the project.
+或者，您可以让 <a0>OmegaT</a0> 制作一份附加的 TMX 文件（<a1>OmegaT</a1> 风格）到您指定的地方，包含了项目所有的可译片段。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5809
+See pseudo-translated memory below.
+请参阅下面的伪翻译记忆。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5810
+Note that all the translation memories are loaded into memory when the project is opened.
+注意：打开项目时会把所有的翻译记忆加载到内存中。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5811
+Back-ups of the project translation memory are produced regularly (see next chapter), and <f0>project_save.tmx</f0> is also saved/updated when the project is closed or loaded again.
+对项目翻译记忆的备份会定期进行（请参阅下一章），同时在打开或关闭项目时也会保存/更新<f0>project_save.tmx</f0>。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5812
+This means for instance that you do not need to exit a project you are currently working on if you decide to add another ancillary TM to it: you simply reload the project, and the changes you have made will be included.
+这里的意思是，例如如果您想添加一个辅助 TM 到当前正在工作的项目时，无需退出项目：只要简单地重新载入项目，所做的更改就会生效。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5813
+The locations of the various different translation memories for a given project are user-defined (see Project dialog window in <l0>Project properties)</l0>
+对于指定的项目，多种不同翻译记忆的位置是由用户定义的（请参阅<l0>项目属性</l0>中的项目对话框）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5814
+Depending on the situation, different strategies are thus possible, for instance:
+根据不同的情况可采取不同的策略，例如：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5815
+<e0>several projects on the same subject: </e0>keep the project structure, and change source and target folders (Source = source/order1, target = target/order1 etc).
+<e0>在相同主题中保存多个项目：</e0>保留项目结构，同时改变源和目标目录（Source = source/order1，target = target/order1等）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5816
+Note that you segments from order1, that are not present in order2 and other subsequent jobs, will be tagged as orphan segments; however, they will still be useful for getting fuzzy matches.
+需要注意存在于order1而不在order2或后续任务中的片段，会被标记为孤立片段，不过这样仍可用来获取模糊匹配。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5817
+<e0>several translators working on the same project:</e0> split the source files into source/Alice, source/Bob... and allocate them to team members (Alice, Bob ...).
+<e0>多个译员工作于相同项目：</e0>把源文件分成 source/Alice, source/Bob 等，同时把它们分配给项目成员 (Alice, Bob ...)。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5818
+They can then create their own projects and, deliver their own <f1>project_save.tmx</f1>, when finished or when a given milestone has been reached.
+随后他们可创建自己的项目，当结束或到达阶段性目标时实现他们自己的 <f1>project_save.tmx</f1>。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5819
+The <f2>project_save.tmx</f2> files are then collected and possible conflicts as regards terminology for instance get resolved.
+然后收集 <f2>project_save.tmx</f2>，并解决可能存在的用词冲突。 
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5820
+A new version of the master TM is then created, either to be put in team members' <e3>tm/auto</e3>subfolders or to replace their <f4>project_save.tmx</f4> files.
+之后创建新的主翻译记忆，可以放到项目成员的<e3>tm/auto</e3>子文件夹或覆盖他们的<f4>project_save.tmx</f4>文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5821
+The team can also use the same subfolder structure for the target files.
+该团队还可以使用相同的子目录结构来保存目标文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5822
+This allows them for instance to check at any moment, whether the target version for the complete project is still OK
+这样允许他们，例如在任何时刻进行检查整个项目的目标版本是否已经完成。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5823
+<p0>Translation memories</p0> <s1>Backup</s1>
+<p0>翻译记忆</p0> <s1>备份</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5824
+tmx backup
+TMX 备份
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5825
+As you translate your files, <a0>OmegaT</a0> stores your work continually in <f1>project_save.tmx</f1> in the project's /<f2>omegat</f2> subfolder.
+翻译时，<a0>OmegaT</a0>会不断在项目/<f2>omegat</f2>子文件夹的<f1>project_save.tmx</f1>文件中保存您的工作。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5826
+<a0>OmegaT</a0> also backups translation memory to <f1>project_save.tmx.YEARMMDDHHNN.bak</f1> in the same subfolder whenever a project is opened or reloaded.
+<a0>OmegaT</a0> 还会在每次项目被打开或重新载入时备份翻译记忆到同一子目录的 <f1>project_save.tmx.YEARMMDDHHNN.bak</f1>。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5827
+YEAR is 4-digit year, MM is a month, DD day of the month, HH and NN are hours and minutes when the previous translation memory was saved.
+YEAR 是 4 位数的年份；MM 是月份；DD 是日期；HH 和 NN 是前一份翻译记忆保存时的小时和分钟。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5828
+If you believe you have lost translation data, follow the following procedure:
+如果您认为丢失了翻译数据，可执行下列步骤：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5829
+Close the project
+关闭项目
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5830
+Rename the current <f0>project_save.tmx</f0> file ( e.g. to <f1>project_save.tmx.temporary</f1>)
+重命名当前的 <f0>project_save.tmx</f0> 文件（例如改名为 <f1>project_save.tmx.temporary</f1>）
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5831
+Select the backup translation memory that is most likely - e.g. the most recent one, or the last version from the day before) to contain the data you are looking for
+选择最有可能包含所需数据的翻译记忆备份（例如最近的那个或从某个日子的最后版本）
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5832
+Copy it to <f0>project_save.tmx</f0>
+复制并更名为 <f0>project_save.tmx</f0>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5833
+Open the project
+打开项目
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5834
+<p0>Translation memories</p0> <s1>Language</s1>
+<p0>翻译记忆</p0> <s1>语种</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5835
+tmx files and language
+tmx 文件和语种
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5836
+Tmx files contain translation units, made of a number of equivalent segments in several languages.
+tmx文件包含了由一定数量多种语言的等义片段组成的翻译单元。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5837
+A translation unit comprises at least two translation unit variants (TUV).
+一个翻译单元至少包含了两个翻译单元变体（tuv）组成。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5838
+Either can be used as the source or target.
+每个都可以当作源或者目标使用。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5839
+The settings in your project indicate which is the source and which the target language.
+项目的设置将指出哪个是源语言，哪个是目标语言。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5840
+OmegaT thus takes the TUV segments corresponding to the project's source and target language codes and uses them as the source and target segments respectively.
+因此OmegaT抓取符合项目的源和目标语言代码的tuv片段，并把它们分别作为源和目标片段使用。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5841
+OmegaT recognizes the language codes using the following two standard conventions :
+OmegaT 使用下面两个标准约定来识别语言代码：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5842
+2 letters (e.g. JA for Japanese), or
+2 字母（例如对于 Japanese 为 JA），或者
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5843
+2- or 3-letter language code followed by the 2-letter country code (e.g. EN-US - See <x0/> for a partial list of language and country codes).
+2 或 3 个字母的语言代码后跟着 2 个字母的国家代码（例如 EN-US - 请参阅<x0/>了解部分的语言和国家代码）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5844
+If the project language codes and the tmx language codes fully match, the segments are loaded in memory.
+如果项目语言代码和 TMX 语言代码完全匹配，片段将会导入内存中。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5845
+If languages match but not the country, the segments still get loaded.
+如果语言匹配但国家不匹配，仍会导入片段。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5846
+If neither the language code not the country code match, the segments will be ignored.
+如果语言代码和国家代码都不符合，片段将被忽略。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5847
+<p0>Translation memories</p0> <s1>multilingual, handling of</s1>
+<p0>翻译记忆</p0> <s1>多语种处理</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5848
+TMX files can generally contain translation units with several candidate languages.
+TMX文件通常包含有多种候选语言的翻译单元。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5849
+If for a given source segment there is no entry for the selected target language, all other target segments are loaded, regardless of the language.
+如果一个指定的源片段在选择的目标语言中没有条目，则不考虑语言而加载其他所有目标片段。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5850
+For instance, if the language pair of the project is DE-FR, it can be still be of some help to see hits in the DE-EN translation, if there's none in the DE-FR pair.
+例如如果项目的语言对为DE-FR，则在不存在DE-FR对的情况下，看看DE-EN翻译仍然会有些帮助。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5851
+<p0>Translation memories</p0> <s1>Orphan segments</s1>
+<p0>翻译记忆</p0> <s1>孤立片段</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5852
+Orphan segments
+孤立片段
+
+钢
+doc_src/TranslationMemories.xml
+
+5853
+The file <f0>project_save.tmx</f0> contains all the segments that have been translated since you started the project.
+<f0>project_save.tmx</f0> 文件包含了自项目开始以来已翻译的所有片段。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5854
+If you modify the project segmentation or delete files from the source, some matches may appear as <e1>orphan strings</e1> in the Match Viewer: such matches refer to segments that do not exist any more in the source documents, as they correspond to segments translated and recorded before the modifications took place.
+如果您修改了项目的分割规则或从源中删除了文件，那么在匹配查看器中可能出现<e1>孤立字符串</e1>。这样的匹配指向源文档中不存在的片段，而是指向修改发生前的片段记录。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5855
+<p0>Translation memories</p0> <s1>Reusing translation memories</s1>
+<p0>翻译记忆</p0> <s1>重用翻译记忆</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5856
+Reusing translation memories
+重用翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5857
+Initially, that is when the project is created, the main TM of the project, <f0>project_save.tmx</f0> is empty.
+在创建项目时，项目的主 TM <f0>project_save.tmx</f0> 是空的。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5858
+This TM gradually becomes filled during the translation.
+该 TM 文件会在翻译时逐步进行填充。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5859
+To speed up this process, existing translations can be reused.
+要加快这个过程，可重用现有的翻译。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5860
+If a given sentence has already been translated once, and translated correctly, there is no need for it to be retranslated.
+如果指定的片段已翻译过一次且翻译正确，则无需再次翻译它们。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5861
+Translation memories may also contain reference translations: multinational legislation, such as that of the European Community, is a typical example.
+翻译记忆还可以包含参考翻译：多国法律，例如欧共体的法律是个实际的例子。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5862
+When you create the target documents in an <a0>OmegaT</a0> project, the translation memory of the project is output in the form of three files in the root folder of your <a1>OmegaT</a1> project (see the above description).
+在<a0>OmegaT</a0>项目中创建目标文档时，项目的翻译记忆记忆将会在<a1>OmegaT</a1>项目的根目录中输出三份文件（查阅之前的表述）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5863
+You can regard these three tmx files (<f2>-omegat.tmx</f2>, <f3>-level1.tmx</f3> and <f4>-level2.tmx</f4>) as an "export translation memory", i.e. as an export of your current project's content in bilingual form.
+可将这三份 TMX 文件（<f2>-omegat.tmx</f2>，<f3>-level1.tmx</f3> 和 <f4>-level2.tmx</f4>）视为一份“导出的翻译记忆”，即当前项目的可导出双语形式。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5864
+Should you wish to reuse a translation memory from a previous project (for example because the new project is similar to the previous project, or uses terminology which might have been used before), you can use these translation memories as "input translation memories", i.e. for import into your new project.
+如果希望复用之前某个项目的翻译记忆（例如新的项目与之前的项目非常相似，或者使用了之前可能用到的术语），您可以将这些用法记忆用作“输入翻译记忆”，也就是说导入您的新项目。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5865
+In this case, place the translation memories you wish to use in the <e0>/tm</e0> or <e1>/tm</e1>/auto folder of your new project: in the former case you will get hits from these translation memories in the fuzzy matches viewer, and in the latter case these TMs will be used to pre-translate your source text.
+在此情况下，可将这些翻译记忆记忆文件放置在新项目的<e0>/tm</e0>或<e1>/tm</e1>/auto目录下：以前您将在模糊匹配查看器中获取来自这些翻译记忆的提示，现在开始将使用这些翻译记忆预翻译您的源文本。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5866
+By default, the /tm folder is below the project's root folder (e.g. ...<e0>/MyProject/tm</e0>), but you can choose a different folder in the project properties dialog if you wish.
+默认情况下，/tm文件夹位于项目的根文件夹中（例如：...<e0>/MyProject/tm)</e0>，但如果您愿意您也可以在项目属性对话框中选择不同的文件夹。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5867
+This is useful if you frequently use translation memories produced in the past, for example because they are on the same subject or for the same customer.
+如果您频繁使用过去创建的翻译记忆，这将非常有用，比方说因为您一直在同一领域或为同一客户服务。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5868
+In this case, a useful procedure would be:
+在此情况下，有益的过程可能包括如下步骤：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5869
+Create a folder (a "repository folder") in a convenient location on your hard drive for the translation memories for a particular customer or subject.
+在硬盘上某个习惯的位置创建一个文件夹（“仓库文件夹”）以保存某个客户或者主题的翻译记忆。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5870
+Whenever you finish a project, copy one of the three "export" translation memory files from the root folder of the project to the repository folder.
+每当完成一个项目，将该三份“导出”翻译记忆从项目的根文件夹复制到仓库文件夹。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5871
+When you begin a new project on the same subject or for the same customer, navigate to the repository folder in the <g0>Project > Properties > Edit Project dialog</g0> and select it as the translation memory folder.
+当您为同一主题或者客户启动一个新项目时，在<g0>项目 > 属性 > 编辑项目</g0>对话框找到该仓库文件夹，将其选中为翻译记忆文件夹。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5872
+Note that all the tmx files in the /tm repository are parsed when the project is opened, so putting all different TMs you may have on hand into this folder may unnecessarily slow OmegaT down.
+注意在程序启动时，/tm 仓库中的所有 TMX 文件将会被解析，因此将手头所有的 TMX 文件导入将会不必要地减慢 OmegaT 的运行。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5873
+You may even consider removing those that are not required any more, once you have used their contents to fill up the <f0>project-save.tmx</f0> file.
+每当翻译记忆文件的内容已经转到<f0>project-save.tmx</f0>文件的时候，您可能要考虑移除那些不再需要的文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5874
+<p0>Translation memories</p0> <s1>Importing and exporting</s1>
+<p0>翻译记忆</p0> <s1>导入和导出</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5875
+Importing and exporting translation memories
+导入和导出翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5876
+OmegaT supports imported tmx versions 1.1-1.4b (both level 1 and level 2).
+OmegaT 支持导入 tmx 的 1.1-1.4b 版本（包括级别 1 和级别 2）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5877
+This enables the translation memories produced by other tools to be read by OmegaT.
+这样就可以在 OmegaT 中使用其他工具创建的翻译记忆。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5878
+However, OmegaT does not fully support imported level 2 tmx files (these store not only the translation, but also the formatting).
+然而，OmegaT 不完全支持导入级别 2 tmx 文件（同时保存了译文和格式）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5879
+Level 2 tmx files will still be imported and their textual content can be seen in OmegaT, but the quality of fuzzy matches will be somewhat lower.
+支持导入级别 2 tmx 文件并在 OmegaT 中看到它们的文本信息，但模糊匹配的质量会有所下降。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5880
+OmegaT follows very strict procedures when loading translation memory (tmx) files.
+OmegaT在加载翻译记忆文件（TMX 文件）时遵循非常严格的过程。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5881
+If an error is found in such a file, OmegaT will indicate the position within the defective file at which the error is located.
+如果在文件中发现了错误，则 OmegaT 将提示问题文件中发现错误的位置。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5882
+Some tools are known to produce invalid tmx files under certain conditions.
+已知有些工具在某些情况下会产生非法的TMX文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5883
+If you wish to use such files as reference translations in OmegaT, they must be repaired, or OmegaT will report an error and fail to load them.
+如果您想在 OmegaT 中使用这样的文件作为参考翻译，您必须对它们进行修补，否则 OmegaT 会加载失败并报告错误。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5884
+Fixes are trivial operations and OmegaT assists troubleshooting with the related error message.
+修补是琐碎的操作，OmegaT 将会在相关的错误信息中给您一些提示。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5885
+You can ask the user group for advice if you have problems.
+如果遇到麻烦，可以向用户组垂询。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5886
+OmegaT exports version 1.4 TMX files (both level 1 and level 2).
+OmegaT 导出 1.4 版本的 TMX 文件（包括级别 1 和级别 2）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5887
+The level 2 export is not fully compliant with the level 2 standard, but is sufficiently close and will generate correct matches in other translation memory tools supporting TMX Level 2.
+导出的级别 2 不是标准的级别 2，但是足以在支持 TMX 级别 2 的翻译工具中产生正确的匹配。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5888
+If you only need textual information (and not formatting information), use the level 1 file that OmegaT has created.
+如果您只需要文本信息（而不是格式信息），可以使用 OmegaT 创建的级别 1 文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5889
+Creating a translation memory for selected documents
+创建所选文档的翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5890
+In case translators need to share their TMX bases while excluding some of their parts or including just translations of certain files, sharing the complete <f0>ProjectName-omegat.tmx</f0> is out of question.
+在译员需要与别人分享排除或仅包含某些文件的TMX翻译记忆文件时，此时无法分享<f0>ProjectName-omegat.tmx</f0>文件。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5891
+The following recipee is just one of the possibilities, but simple enough to follow and without any dangers for the assets.
+下面的窍门只是其中一种方法，不过非常简单、容易操作且没有危险性。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5892
+Create a project, separate for other projects, in the desired language pair, with an appropriate name - note that the TMXs created will include this name.
+使用希望的语言对和名称（注创建的翻译记忆文件也包含此名称）创建一个独立于其他项目的项目。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5893
+Copy the documents, you need the translation memory for, into the source folder of the project.
+复制您希望获取翻译记忆的源文档到项目的源文件夹。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5894
+Copy the translation memories, containing the translations of the documents above, into <f0>tm/auto</f0> subfolder of the new project.
+复制包含上述源文档翻译的翻译记忆到新项目的<f0>tm/auto</f0>子文件夹。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5895
+Start the project.
+打开项目。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5896
+Check for possible Tag errors with <k0>Ctrl+T </k0>and untranslated segments with <k1>Ctrl+U</k1>.
+使用<k0>Ctrl+T </k0>检查标签错误，并用<k1>Ctrl+U</k1>检查未译片段。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5897
+To check everything is as expected, you may press <k2>Ctrl+D</k2> to create the target documents and check their contents.
+一切就绪后，按下<k2>Ctrl+D</k2>创建目标文档并检查其内容。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5898
+When you exit the project.
+在退出项目时，
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5899
+the TMX files in the main project folder (see above) now contain the transltions in the selected language pair, for the files, you have copied into the source folder.
+现在在项目主文件夹（见上面）中的翻译记忆文件包含了所选语言对和您所复制到源文件夹中的所选文件的翻译。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5900
+Copy them to a safe place for future referrals.
+把它们复制到安全位置供将来使用。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5901
+To avoid reusing the project and thus possibly polluting future cases, delete the project folder or archive it away from your workplace.
+要避免重用该项目而可能破坏将来的情况，则删除项目或存档到工作区外的其他位置。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5902
+<p0>Translation memories</p0> <s1>Sharing</s1> <s2>Project,Download Team Project...</s2>
+<p0>翻译记忆</p0> <s1>分享</s1> <s2>项目，下载团队项目...</s2>
+
+xulihang
+doc_src/TranslationMemories.xml
+
+5903
+Sharing translation memories
+分享翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5904
+In cases where a team of translators is involved, translators will prefer to share common translation memories rather than distribute their local versions.
+在一个翻译团队参与的情况下，译员更喜欢分享公共的翻译记忆而不是发布他们的本地版本。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5905
+OmegaT interfaces to SVN and Git, two common team software versioning and revision control systems (RCS), available under an open source license.
+OmegaT为SVN和Git提供了界面，它们是在开源许可下提供的版本控制系统的两种常用协作软件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5906
+In case of OmegaT complete project folders - in other words the translation memories involved as well as source folders, project settings etc - are managed by the selected RCS.
+在OmegaT中完整的项目文件夹（即包含翻译记忆、源文件夹、项目设置等）都由所选的RCS进行管理。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5907
+see more in Chapter
+在**章节中可进一步了解
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5908
+<p0>Translation memories</p0> <s1>Alternative language pairs</s1>
+<p0>翻译记忆</p0> <s1>可选语言对</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5909
+Using TMX with alternative language pairs
+使用包含可选语言对的翻译记忆文件
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5910
+There may be cases where you have done a project with e.g. Dutch sources, and a translation in say English.
+可能会遇到这样的情况：项目源语言为荷兰语、目标语言为英语。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5911
+Then you need a translation in e.g. Chinese, but your translator does not understand Dutch; she, however, understands perfectly English.
+然而您需要翻译成中文，但您的译员不懂荷兰语，不过她英语极好。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5912
+In this case, the NL-EN translation memory can serve as a go-between to help generate NL to ZH translation.
+此时NL-EN的翻译记忆可作为桥梁以帮助生成NL-ZH的译文。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5913
+The solution in our example is to copy the existing translation memory into the tm/tmx2source/ subfolder and rename it to ZH_CN.tmx to indicate the target language of the tmx.
+我们的解决方法是复制已有的翻译记忆到 tm/tmx2source/ 子文件夹，并重命名为ZH_CN.tmx，以表明TMX的目标语言。
+
+Doris
+doc_src/TranslationMemories.xml
+
+5914
+The translator will be shown English translations for source segments in Dutch and use them to create the Chinese translation.
+这样将显示给译员荷兰语的源片段其译文为英文，并使用它们创建中文译文。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5915
+<e0>Important: </e0>the supporting TMX must be renamed XX_YY.tmx, where XX_YY is the target language of the tmx, for instance to ZH_CN.tmx in the example above.
+<e0>重要提示：</e0>受支持的TMX必须重命名为XX_YY.tmx，其中XX_YY为TMX的目标语言，例如上面例子中的ZH_CN.tmx。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5916
+The project and TMX source languages should of course be identical - NL in our example.
+当然项目和TMX的源语言必须一致，此例中为NL。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5917
+Note that only one TMX for a given language pair is possible, so if several translation memories should be involved, you will need to merge them all into the XX_YY.tmx.
+请注意，对于指定的语言对只有一个TMX是可行的，所以当应该包含多个翻译记忆时您需要将它们全部合并到XX_YY.tmx。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5918
+<p0>Translation memories</p0> <s1>PO and OKAPI TTX files</s1> <s2>Translation memories Subfolder tm/auto</s2>
+<p0>翻译记忆</p0> <s1>PO和OKAPI TTX文件</s1> <s2>翻译记忆tm/auto子文件夹</s2>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5919
+Sources with existing translations
+带有现存译文的源
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5920
+Some types of source files (for instance PO, TTX, etc.) are bilingual, i.e. they serve both as a source and as a translation memory.
+某些类型的源文件（例如PO、TTX等）是双语文件，即它们即作为源文件又作为翻译记忆。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5921
+In such cases, an existing translation, found in the file, is included in the <f0>project_save.tmx</f0>.
+此时在文件中的已有译文会包含到<f0>project_save.tmx</f0>。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5922
+It is treated as a default translation, if no match has been found, or as an alternative translation, in case the same source segment exists, but with a target text.
+在没有找到匹配的源片段中这些译文被视为默认译文，当已含有目标译文的相同源片段中它们被作为可选译文。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5923
+The result will thus depend on the order in which the source segments have been loaded.
+因此结果取决于其中源片段被加载的顺序。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5924
+All translations from source documents are also displayed in the Comment pane, in addition to the Match pane.
+源片段的所有译文除显示在匹配窗格外，还显示在注解窗格。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5925
+In case of PO files, a 20% penalty applied to the alternative translation (i.e., a 100% match becomes an 80% match).
+如果是PO文件，会对可选译文应用20%的罚点（即100%的匹配度变成80%）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5926
+The word [Fuzzy] is displayed on the source segment.
+[模糊]短语会显示在源片段中。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5927
+When you load a segmented TTX file, segments with source = target will be included, if "Allow translation to be equal to source" in Options → Editing Behavior... has been checked.
+当您加载片段化的TTX文件时，如果选中了选项→编辑行为...中的“允许译文和原文相同”选项时将会包含源文本与目标文本相同的片段。
+
+xulihang
+doc_src/TranslationMemories.xml
+
+5928
+This may be confusing, so you may consider unchecking this option in this case.
+这样可能引起混乱，所以此时您应考虑取消该选项。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5929
+<p0>Translation memories</p0> <s1>Pseudotranslation</s1>
+<p0>翻译记忆</p0> <s1>伪翻译</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5930
+Pseudo-translated memory
+伪翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5931
+Of interest for advanced users only!
+这些内容为感兴趣的高级用户准备的！
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5932
+Before segments get translated, you may wish to pre-process them or address them in some other way than is possible with OmegaT.
+在翻译片段之前，您可能想以不同于 OmegaT 的其他方式预处理它们。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5933
+For example, if you wish to create a pseudo-translation for testing purposes, OmegaT enables you to create an additional tmx file that contains all segments of the project.
+例如，如果想创建伪翻译进行测试，OmegaT 能为您创建包含项目所有片段的附加 TMX 文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5934
+The translation in this tmx can be either
+该翻译记忆中的译文可以是：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5935
+translation equals source (default)
+和原文相同的译文（缺省）
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5936
+translation segment is empty
+译文片段为空
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5937
+The tmx file can be given any name you specify.
+翻译记忆文件的名称可以任意指定。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5938
+A pseudo-translated memory can be generated with the following command line parameters:
+通过下列命令行参数可生成伪翻译记忆：
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5939
+java -jar omegat.jar --pseudotranslatetmx=<filename> [pseudotranslatetype=[equal|empty]]
+java -jar omegat.jar --pseudotranslatetmx=<filename> [pseudotranslatetype=[equal|empty]]
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5940
+Replace <l0><filename></l0> with the name of the file you wish to create, either absolute or relative to the working folder (the folder you start <a1>OmegaT</a1> from).
+把其中的<l0><filename></l0>替换为想创建的文件名，可以为绝对目录或也可以相对于工作目录（<a1>OmegaT</a1>的启动文件夹）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5941
+The second argument <l2>--pseudotranslatetype</l2> is optional.
+第二个参数 <l2>--pseudotranslatetype</l2> 是可选的。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5942
+Its value is either <l3>equal</l3> (default value, for source=target) or <l4>empty</l4> (target segment is empty).
+它的值可以是 <l3>equal</l3>（缺省值，此时 source=target）或 <l4>empty</l4>（目标片段为空）。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5943
+You can process the generated tmx with any tool you want.
+可以使用任何工具处理生成的 tmx 文件。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5944
+To reuse it in <a5>OmegaT</a5> rename it to <e6>project_save.tmx </e6> and place it in the <l7>omegat</l7>-folder of your project.
+要在 <a5>OmegaT</a5> 重用这个文件，请把它更名为 <e6>project_save.tmx </e6> 并放置到项目的 <l7>omegat</l7> 文件夹。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5945
+<p0>Translation memories</p0> <s1>Upgrading to sentence segmentation</s1>
+<p0>翻译记忆</p0> <s1>更新句子分割规则</s1>
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5946
+Upgrading translation memories
+更新翻译记忆
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5947
+Very early versions of <a0>OmegaT</a0> were capable of segmenting source files into paragraphs only and were inconsistent when numbering formatting tags in HTML and Open Document files.
+<a0>OmegaT</a0> 的早期版本只能将源文本按照段落切割成片段，而且对HTML和开放文档文件的格式标签编号时会出现前后不一致。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5948
+<a1>OmegaT</a1> can detect and upgrade such tmx files on the fly to increase fuzzy matching quality and leverage your existing translation better, saving you the work of doing this manually.
+<a1>OmegaT</a1>可以实时检测并更新这样的TMX文件，以此提高模糊匹配的质量、提高现有翻译的水平，减少您的手工操作。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5949
+A project's tmx will be upgraded only once, and will be written in upgraded form into the <f0>project-save.tmx</f0>; legacy tmx files will be upgraded on the fly each time the project is loaded.
+项目的 TMX 只会更新一次，且会以更新过的格式写入 <f0>project-save.tmx</f0>，而每次项目被载入时都会对所继承的TMX文件进行更新。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5950
+Note that in some cases changes in file filters in <a1>OmegaT</a1> may lead to totally different segmentation; as a result, you will have to upgrade your translation manually in such rare cases.
+注意：修改<a1>OmegaT</a1>中的文件过滤器在某些情况下可能会导致完全不同的片段分割结构，结果在少数情况下您必须手动更新译文。
+
+Fu Rhong
+doc_src/TranslationMemories.xml
+
+5951
+The user interface
+用户界面
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5952
+Main OmegaT window, other windows and dialogs
+OmegaT主窗口、其他窗口及对话框
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5953
+OmegaT main window contains the main menu, status bar and several panes.
+OmegaT主窗口包括主菜单、状态栏和几个窗格。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5954
+Additional windows are available, as well as dialogs, used to change OmegaT project settings.
+还有另外的用来改变OmegaT项目设置的窗口和对话框。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5955
+The information below summarizes their use and how they are invoked:
+下面的信息概述了它们的用途和调用方式：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5956
+<p0>User Interface</p0> <s1>Main OmegaT window</s1>
+<p0>用户界面</p0> <s1>OmegaT主窗口</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5957
+Main OmegaT window
+OmegaT主窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5958
+Editor pane
+编辑器窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5959
+where you type and edit the translation
+输入编辑译文的地方
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5960
+Match pane
+匹配窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5961
+displays the most similar segments from translation memories
+显示翻译记忆中最相似的片段
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5962
+Glossary pane
+术语表窗格
+
+xulihang
+doc_src/UserInterface.xml
+
+5963
+displays terminology found for items in the current segment
+显示当前片段中存在的术语
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5964
+Dictonary pane
+词典窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5965
+displays dictionary hits found for items in the current segment
+显示当前片段中词汇的词典提示
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5966
+Machine Translations pane
+机器翻译窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5967
+displays the translation, provided by MT services
+显示由机器翻译服务提供的译文
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5968
+Notes pane
+笔记窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5969
+notes pertaining to the current segment, e.g. alternative translations or the current key in case of key=value file formats
+注解附属于当前片段，例如可选译文或键值对格式中的当前键
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5970
+Comments pane
+注解面板
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5971
+Comments by the author in PO files, or the name of the attribute being translated (in XHTML)
+对于PO文件为作者的注解，对于XHTML为待译属性名称。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5972
+<p0>User interface</p0> <s1>Other windows</s1>
+<p0>用户界面</p0> <s1>其他窗口</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5973
+Other windows
+其它窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5974
+<p0>Shortcuts</p0> <s1>Tag validation - Ctrl+Shift+V</s1>
+<p0>快捷键</p0> <s1>标签验证——Ctrl+Shift+V</s1>
+
+Doris
+doc_src/UserInterface.xml
+
+5975
+Tag Validation window
+标签验证窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5976
+Used to validate tags (open with <k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>V</k3> </k0>, close with <k4>Esc</k4>)
+用来检验标签（用<k0> <k1>Ctrl</k1> <k2>Shift</k2> <k3>V</k3></k0>打开、<k3>Esc</k3>关闭）
+
+Doris
+doc_src/UserInterface.xml
+
+5977
+<p0>Shortcuts</p0> <s1>Help - F1</s1>
+<p0>快捷键</p0> <s1>F1——帮助</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5978
+Help browser
+帮助浏览器
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5979
+Used to display the user manual (open with <k0>F1</k0>)
+用来显示用户手册（用<k0>F1</k0>打开）
+
+Doris
+doc_src/UserInterface.xml
+
+5980
+Statistics window
+统计窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5981
+<p0>Menu Tools</p0> <s1>statistics</s1>
+<p0>菜单工具</p0> <s1>统计</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5982
+Used to open the window with the statistics of the project, display it, using <m0> <g1><i2/>Tools</g1> <g3>Statistics.</g3> </m0>
+用来查看项目统计信息的窗口，通过<m0> <g1><i2/>工具</g1> <g3>统计</g3> </m0>打开。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5983
+Match statistics window
+匹配统计窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5984
+<p0>Menu Tools</p0> <s1>Match statistics</s1>
+<p0>菜单工具</p0> <s1>匹配统计</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5985
+Used to display the match statistics of the project, select <m0> <g1><i2/>Tools</g1> <g3>Match statistics</g3> </m0> to open it.
+用来查看项目匹配统计的窗口，通过<m0> <g1><i2/>工具</g1> <g3>匹配统计</g3> </m0>打开。
+
+Doris
+doc_src/UserInterface.xml
+
+5986
+<p0>User interface</p0> <s1>Settings dialogs</s1> <s2>Project Settings</s2>
+<p0>用户界面</p0> <s1>设置对话框</s1> <s2>项目设置</s2>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5987
+Settings dialogs
+设置对话框
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5988
+<p0>Menu Project</p0> <s1>Properties</s1>
+<p0>项目菜单</p0> <s1>属性</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5989
+<p0>Shortcuts</p0> <s1>Project properties - Ctrl+E</s1>
+<p0>快捷键</p0> <s1>项目属性——Ctrl+E</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5990
+Project properties
+项目属性
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5991
+Used to modify the project folders and languages (access via <g0>Ctrl+E </g0>shortcut or <m1> <g2>Project</g2> <g3>properties...</g3> </m1>, close via <k4>Esc)</k4>
+用来修改项目文件夹和语言（通过<g0>Ctrl+E </g0>快捷键或<m1> <g2>项目</g2> <g3>属性...</g3> </m1>打开、<k4>Esc</k4>关闭）
+
+xulihang
+doc_src/UserInterface.xml
+
+5992
+Font
+字体
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5993
+Font
+字体
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5994
+Used to modify the font used by <a0>OmegaT</a0> to display source, translation, matches and glossary terms, (access via <m1> <g2>Options</g2> <g3>Font...</g3> </m1>, close via <k4>Esc</k4>)
+用来修改<a0>OmegaT</a0>显示原文、译文、匹配和术语表术语的字体（通过<m1> <g2>选项</g2> <g3>字体...</g3> </m1>打开、<k4>Esc</k4>）
+
+xulihang
+doc_src/UserInterface.xml
+
+5995
+File filters
+文件过滤器
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5996
+File filters
+文件过滤器
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5997
+Used to adjust the handling of supported file formats (access via <m0> <g1>Options</g1> <g2>File Filters...</g2> </m0>, close via <k3>Esc</k3>)
+用来调整所支持格式的处理方式（通过<m0> <g1>选项</g1> <g2>文件过滤器...</g2> </m0>打开，通过 <k3>Esc</k3> 关闭）
+
+xulihang
+doc_src/UserInterface.xml
+
+5998
+Segmentation
+分割规则
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+5999
+Segmentation
+分割规则
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6000
+Used to change the way your text is segmented into sentences (access via <m0> <g1>Options</g1> <g2>Segmentation</g2> </m0>, close via <k3>Esc</k3>)
+用来改变把源文本分割成句子的方式（通过<m0> <g1>选项</g1> <g2>片段分割</g2> </m0> 打开，通过 <k3>Esc</k3> 关闭）
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6001
+Editing Behavior
+编辑行为
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6002
+Editing Behavior
+编辑行为
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6003
+Used to change how <a0>OmegaT</a0> behaves when you iterate between the segments (access via <m1> <g2>Options</g2> <g3>Behavior...</g3> </m1>, close via <k4>Esc</k4>)
+用来改变在片段间往返移动时 <a0>OmegaT</a0> 的行为（通过<m1> <g2>选项</g2> <g3>编辑行为...</g3> </m1>关闭，通过 <k4>Esc</k4> 关闭）
+
+xulihang
+doc_src/UserInterface.xml
+
+6004
+<p0>Windows and panes in OmegaT</p0> <s1>Main window</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>主窗口</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6005
+<a0>OmegaT</a0> main window
+<a0>OmegaT</a0> 主窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6006
+OmegaT main window
+OmegaT 主窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6007
+The main window consists of several panes, the main menu and a status bar.
+主窗口由几个窗格、主菜单和状态栏组成。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6008
+You can change the position of any pane or even undock it to a separate window by clicking and dragging the pane by its name.
+您可以改变任何窗格的位置，甚至可以通过点击和拖动窗格的名称将其变成独立的窗口。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6009
+Depending on the pane status, different signs can appear at its top right corner:
+根据窗格的不同状态，在它的右上角可能会显示不同的标志：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6010
+If you can not see all the panes (be it opened or minimized), pressing <g0> Options > Restore Main Window </g0>will restore them to the state, defined in the installation.
+如果您无法看到所有窗格（处于打开或最小化状态），按下<g0>选项>恢复主窗口</g0>将把它们恢复为原始状态。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6011
+<p0>Windows and panes in OmegaT</p0> <s1>Pane widgets</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>窗格 widget</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6012
+Pane widgets
+窗格 widget
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6013
+minimizes the pane, so that only its name is shown at the bottom of the window
+最小化窗格后，这样只它的名称在窗口的底部
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6014
+maximizes the pane
+最大化窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6015
+restores the layout before the maximizing step
+恢复最大化操作前的布局
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6016
+undocks the pane from the main window
+从主窗口中移出窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6017
+puts the pane back within the main window
+把窗格停靠到主窗口内
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6018
+<p0>OmegaT windows</p0> <s1>Windows and panes in OmegaT</s1>
+<p0>OmegaT 窗口</p0> <s1>OmegaT 窗口和窗格</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6019
+<p0>OmegaT windows</p0> <s1>Restoring to factory setup</s1>
+<p0>OmegaT 窗口</p0> <s1>恢复原始设置</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6020
+You can overlap panes if desired.
+需要时您可以重叠窗格。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6021
+When this is done the panes display a tab at the top.
+重叠后的窗格将在顶部显示一个标签。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6022
+The separators between the panes can be dragged to resize panes.
+窗格之间的分割线可以拖动来改变窗格的尺寸。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6023
+Should you lose track of your changes to the user interface, you can use <g0><i1/> <i2/>Options → Restore the main window</g0> any time to return to the original layout.
+当您忘记了对用户界面进行哪些调整后，可在任何时候使用<g0><i1/> <i2/>选项→恢复主窗口</g0>来恢复原始布局。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6024
+It is possible to drag and drop files to each pane, which will react accordingly.
+可以将文件拖放到每个窗格，窗格将作出相应反应。
+
+Doris
+doc_src/UserInterface.xml
+
+6025
+Editor pane: If an OmegaT project file (<f0>omegat.project</f0>) is dropped on this pane, the corresponding project will be opened, closing first any opened project.
+编辑窗格：如果一个OmegaT项目文件（<f0>omegat.project</f0>）被拖放至该窗格内，当前打开的任何项目将先被关闭，相应的被拖放项目将被打开。
+
+Doris
+doc_src/UserInterface.xml
+
+6026
+Other dropped files will be copied to the <f1>source</f1> folder.
+其他被拖放文件将被复制到<f1>源</ f1>文件夹。
+
+Doris
+doc_src/UserInterface.xml
+
+6027
+This applies also to the <l2>Project files</l2> window.
+此操作也适用于<l2>项目文件</l2>窗口。
+
+Doris
+doc_src/UserInterface.xml
+
+6028
+Fuzzy Matches pane: Dropped <f0>.tmx</f0> files will be copied to the <f1>tm</f1> folder.
+模糊匹配窗格：被拖放的<f0>.tmx</f0>文件将被复制到<f1>tm</f1>目录下。
+
+Doris
+doc_src/UserInterface.xml
+
+6029
+Glossary pane: Dropped files with known glossary extensions (<f0>.txt</f0>, <f1>.tab</f1>, etc.) will be copied to the <f2>glossary</f2> folder.
+术语表窗格：带有已知词汇表扩展名（<f0>.txt</f0>、<f1>.tab</f1>等）的被拖放的文件将被复制到<f2>术语表</f2>文件夹中。
+
+Doris
+doc_src/UserInterface.xml
+
+6030
+The counters in the lower right corner keep track of the progress of the translation (numbers in the left hand column refer to the figure above):
+在右下角方框中的内容表示翻译工作的进度（左列的数字请参考上面的图示）：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6031
+<p0>Windows and panes in OmegaT</p0> <s1>Counters</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>方框</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6032
+Main Window - counters
+主窗口 - 方框
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6033
+27/27
+27/27
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6034
+number of segments - translated vs total for the current file
+片段数 - 已译/总数（当前文件）
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6035
+9319/16338
+9319/16338
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6036
+number of unique segments - translated vs total in the project
+唯一片段数 - 已译/总数（整个项目）
+
+xulihang
+doc_src/UserInterface.xml
+
+6037
+31175
+31175
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6038
+total number of segments (including repeats) in the project
+项目中的片段总数（包括重复）
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6039
+103/114
+103/114
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6040
+number of source and target characters in the current segment
+在当前片段中原文和译文中的单词数
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6041
+From a practical point of view, the most important pair of numbers is the second pair: it tells, how much you have done so far, in relation to the total or second number.
+在实际中，最重要的数字是第二对，它告诉您总的有多少，到现在已经做了多少。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6042
+The project in the example is evidently finished, as all the unique segments have been translated.
+在这个例子中显然项目已经完成了，因为已经翻译了所有的唯一片段。
+
+xulihang
+doc_src/UserInterface.xml
+
+6043
+<p0>Windows and panes in OmegaT</p0> <s1>Editor pane</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>编辑器窗格</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6044
+Editor pane
+编辑器窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6045
+This is where you type and edit your translation.
+这是输入和编辑译文的地方。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6046
+The Editor pane displays the text of the partially translated document: the text already translated is displayed in translation while the untranslated text is displayed in the original language.
+编辑窗格显示部分被翻译的文本：已经被翻译好的文本将会显示为已翻译，而未翻译的文本以原始语言显示。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6047
+The displayed text is split into segments and you may scroll through the document and double-click on any segment to open and edit it.
+显示的文本被分成片段，您可以在文档中上下移动或者双击某个片段进行编辑。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6048
+In the above case, the segments already translated are shown in yellow.
+在上面的情况中，已译片段显示为黄色。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6049
+Segment marker
+片段标记
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6050
+One of the above segments is the current segment.
+其中某个片段是激活状态的片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6051
+It is the segment that is displayed in two parts.
+这是那个显示为两部分的片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6052
+The upper part is in the source language, in bold characters with a green background color, the lower part is the editing field, ended by a marker: <i0/>the marker is <l1><segment nnnn></l1> where nnnn is a number of the segment in the project.
+上面部分是源语言，使用绿色背景并加粗字体显示；下面部分是编辑区域，以标记结尾：<i0/>这里的标记是 <l1><segment nnnn></l1>，其中 nnnn 为当前片段在项目中的编号。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6053
+Use the upper part as a reference and replace or modify the contents of the editing field with your translation.
+您可以使用上面部分作为参考，覆盖或者修改编辑区域的内容以使它包括译文。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6054
+Note: the segment marker displays <l0><segment nnnn +yy more> when the segment is non-unique.
+提示：片段不唯一时，片段标记将显示<l0><段nnnn + yy 更多>。
+
+Doris
+doc_src/UserInterface.xml
+
+6055
+In that case, yy is the number of other occurrences of the segment in the project.</l0>
+这种情况下，yy是该项目中出现的片段总数。</l0>
+
+Doris
+doc_src/UserInterface.xml
+
+6056
+Depending upon the preferred editing behavior, the editing field for the untranslated segment may be empty, contain the source text, or contain the translation of the string most similar to the one to be translated.
+根据不同的首选编辑行为，未译片段的编辑区域可能是空的、可能包含源文本或者与待译内容最接近的字符串的译文。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6057
+When you move to another segment, the translation is validated and stored.
+移动到另一个片段时，译文将被确认并保存。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6058
+If you want the translation to be the same as the source, simply make the editing field empty by removing all the text (select all with <k0>Ctrl+A</k0> and delete with <k1>Del</k1>).
+如果您想让译文等同于原文，只需简单地删除所有文本使编辑区域为空（<k0>Ctrl+A</k0> 然后用 <k1>Del</k1> 删除）。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6059
+OmegaT is able to store translations that are identical to the source.
+OmegaT 会保存等同于原文的译文。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6060
+This is useful for documents that contain trade marks, names or other proper nouns, or parts in a third language that do not require translation.
+该功能对翻译包含商标、姓名或专用名词以及不须翻译的第三方语言的文档非常有用。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6061
+See <e2>Translation editing</e2> for more details.
+请参阅<e2>译文编辑</e2>了解更多信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6062
+If you right click on the Editor pane, a pop-up menu opens, offering<e0> Cut, Copy, Paste</e0> (i.e. same functions as <k1> <k2>Ctrl</k2> <k3>X</k3> </k1>, <k4> <k5>Ctrl</k5> <k6>C</k6> </k4> and <k7> <k8>Ctrl</k8> <k9>V</k9> </k7>), <e10>GoTo segment</e10> and <e11>Add glossary entry</e11> functions.
+如果在编辑窗格中点击右键，会打开弹出菜单，其中提供了<e0>剪切、复制、粘贴</e0>（即功能等同于 <k1> <k2>Ctrl</k2> <k3>X</k3> </k1>, <k4> <k5>Ctrl</k5> <k6>C</k6> </k4> 和 <k7> <k8>Ctrl</k8> <k9>V</k9> </k7>）；<e10>转到片段</e10>功能和<e11>添加术语表入口</e11>功能。
+
+Doris
+doc_src/UserInterface.xml
+
+6063
+In addition, when the right click occurs on an opened segment, other options concerning <e12>Alternative translations</e12> are proposed, for example to to jump to another instance of non-unique segments.
+另外，在打开的片段上右击，会出现<e12>替换译文</e12>的选项，例如跳转到若干片段中的另一个实例。
+
+Doris
+doc_src/UserInterface.xml
+
+6064
+It is possible to drag text from anywhere in the main window and to drop it within the segment.
+可以从主窗口中的任何位置拖动文本并将其放入片段内。
+
+Doris
+doc_src/UserInterface.xml
+
+6065
+Texted dragged from outside the target segment is copied, while text dragged from within the segment is moved.
+从目标片段之外拖动的文本将被复制，而目标片段内部拖动的文本将被移动。
+
+Doris
+doc_src/UserInterface.xml
+
+6066
+By default, it is not possible to select words in the source segment using the keyboard rather than the mouse.
+默认情况下，如果不使用鼠标而使用键盘，无法在源片段中选择单词。
+
+Doris
+doc_src/UserInterface.xml
+
+6067
+Pressing <k0>F2</k0> key allows to move the cursor into the source segment (or anywhere in the editor) with the keyboard arrows.
+按下<k0>F2</k0>键可以使用键盘箭头在源片段（或编辑器中的任何位置）中移动光标。
+
+Doris
+doc_src/UserInterface.xml
+
+6068
+In this mode, "<g1>Cursor lock off</g1>" is displayed at the bottom of the pane.
+在此模式下，窗格底部会显示“<g1>光标解锁</g1>”。
+
+Doris
+doc_src/UserInterface.xml
+
+6069
+To come back to the standard mode "<g2>Cursor lock on</g2>", press <k3>F2</k3> again.
+要回到标准模式“<g2>光标锁定</g2>”，再次按<k3>F2</k3>。
+
+Doris
+doc_src/UserInterface.xml
+
+6070
+<p0>Windows and panes in OmegaT</p0> <s1>Fuzzy matches pane</s1>
+<p0>OmegaT窗口和窗格</p0> <s1>模糊匹配窗格</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6071
+Fuzzy matches pane
+模糊匹配窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6072
+<p0>Matches</p0> <s1>Matches pane - figure</s1>
+<p0>匹配</p0> <s1>匹配窗格 - 图示</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6073
+<p0>Windows and panes in OmegaT</p0> <s1>Matches pane - figure</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>匹配面板 - 图示</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6074
+Matches pane
+匹配窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6075
+The match viewer shows the most similar segments from translation memories, both from internal project translation memory created in real time as you translate your project and from ancillary translation memories you have imported from your earlier jobs, or received from your client or translation agency.
+匹配查看器中显示译法记忆中最相似的片段，包括您在项目翻译过程中创建的项目翻译记忆，也包括从您早前工作中导入的辅助记忆，或者是您从客户或翻译代理那里得到得到的。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6076
+<p0>Shortcuts</p0> <s1>Selecting the match - Ctrl+N</s1>
+<p0>快捷键</p0> <s1>选择匹配——Ctrl+N</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6077
+<p0>Shortcuts</p0> <s1>Replace text - Ctrl+R</s1>
+<p0>快捷键</p0> <s1>替换文本——Ctrl+R</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6078
+<p0>Shortcuts</p0> <s1>Insert text - Ctrl+I</s1>
+<p0>快捷键</p0> <s1>插入——Ctrl+I</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6079
+When you move to the next segment, the first fuzzy match (the one with the best matching percentage) is automatically selected.
+当您进入下一片段，第一个模糊匹配（拥有最高匹配百分比的那个）自动被选中。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6080
+You may select a different match by pressing <g0>Ctrl+2, 3, 4, or 5</g0>.<i1/> Of course, pressing <k2> <k3>Ctrl</k3> <k4>5</k4> </k2> will have no effect, if there is no match #5.
+您可以使用 <g0>Ctrl+2, 3, 4 或 5</g0>选择另一个。<i1/>当然，如果没有第 5 号匹配，按下<k2> <k3>Ctrl</k3> <k4>5</k4> </k2>是没有效果的。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6081
+To use the selected match in your translation, use <g5>Ctrl+R</g5><i6/> to replace the target field with the match or use <g7>Ctrl+I <i8/></g7> to insert it at the cursor position.
+要在译文中使用选中的匹配，请使用 <g5>Ctrl+R</g5><i6/> 以用匹配替换目标区域，或使用 <g7>Ctrl+I <i8/></g7> 以将匹配插入到当前光标位置。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6082
+<p0>Translation memories</p0> <s1>Matches</s1>
+<p0>翻译记忆</p0> <s1>匹配</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6083
+<p0>Translation memories</p0> <s1>Orphan segments</s1>
+<p0>翻译记忆</p0> <s1>孤立片段</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6084
+The matching percentage is roughly equivalent to taking the number of common words in the matched and the matching segment and dividing by the number of words in the longer of the two.
+匹配率大体上相当于匹配片段和被匹配片段中相同的单词数量，并除以两者单词数量中较大者。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6085
+The selected fuzzy match is highlighted in bold, words that are missing in the segment you are translating are colored blue and words adjacent to the missing parts green.
+被选中的模糊匹配会以粗体突出显示，对正在翻译片段中缺少的单词显示为蓝色，而在缺少单词旁边的单词显示为绿色。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6086
+In the above example the source segment is <e0>Context menu command</e0>.
+在上述示例中源片段为<e0>Context menu command</e0>。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6087
+The top match is 100%, because all words match.
+第一个匹配度是100%，因为所有的单词都相同。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6088
+So do the next two matches, and the match #4 is similar, but different.
+而接下来的两个匹配和第4个匹配是类似的，但不同。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6089
+The line with the matching percentage also includes the name of the translation memory <i1/> containing the match.
+在显示匹配率的这一行还显示了包含该匹配的翻译记忆的名称<i1/>。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6090
+If there's no file name displayed, the source is the internal project translation memory.
+如果未显示文件名，则发现匹配的源为缺省项目的翻译记忆。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6091
+Orphan segments<i2/> (the match #2) describe segments in the default project translation memory that have no corresponding source segment.
+孤立片段<i2/>（第2个匹配）表示该片段存在默认项目的翻译记忆中，但不存在于项目的源片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6092
+There are actually three match estimates available (66/66/30 in the case of the match #4 above).
+实际上还有三个可用的匹配估计（在上面第4个匹配中为66/66/30）。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6093
+They are defined as follows:
+它们的含义如下：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6094
+match percentage (taking into account tokenizers)
+匹配百分比（考虑分词器）
+
+Doris
+doc_src/UserInterface.xml
+
+6095
+default OmegaT match - number of matched words - with numerals and tags ignored - divided by the total word count
+缺省的OmegaT匹配度，即忽略数字和标签后匹配词汇数除以总的词汇数
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6096
+OmegaT match, including numbers, tags
+包含数字、标签的OmegaT匹配度
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6097
+<p0>Windows and panes in OmegaT</p0> <s1>Fuzzy matches pane</s1> <t2>Customizing</t2>
+<p0>OmegaT窗口和窗格</p0> <s1>模糊匹配窗格</s1> <t2>定制</t2>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6098
+<p0>Source files</p0> <s1>Translating updated source</s1>
+<p0>源文件</p0> <s1>翻译更新过的源文件</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6099
+Customizing the Fuzzy matches pane
+定制模糊匹配窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6100
+In <g0>Options > External TMXs</g0>, a number of variables allow to configure the display of the match pane:
+在<g0>选项>外部TMX</g0>中有一些用来配置匹配窗格显示的选项。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6101
+<p0>Matches</p0> <s1>Matches pane setup - figure</s1>
+<p0>匹配</p0> <s1>匹配窗口设置——图示</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6102
+<p0>Windows and panes in OmegaT</p0> <s1>Matches pane setup - figure</s1>
+<p0>OmegaT窗口和窗格</p0> <s1>匹配窗格设置——图示</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6103
+Matches pane setup
+匹配窗格设置
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6104
+The figure above shows the default match display template.
+上图显示了默认的匹配显示模板。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6105
+The contents can be customized using following variables:
+可以下列变量定制该内容：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6106
+<p0>User Interface</p0> <s1>Match pane setup</s1>
+<p0>用户界面</p0> <s1>匹配窗口设置</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6107
+Match pane setup
+匹配窗格设置
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6108
+${id}
+${id}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6109
+Number of the match from 1 to 5
+从1到5的匹配编号
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6110
+${sourceText}
+${sourceText}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6111
+Source text of the match
+当前匹配的原文
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6112
+${targetText}
+${targetText}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6113
+Target text of the match
+当前匹配的目标文本
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6114
+${diff}
+${diff}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6115
+String showing the differences between the source and the match.<e0> Hint:</e0> use this if the text you are translating has been updated.
+显示源片段和匹配片段之间差异的字符串<e0>提示：</e0>如果正在翻译的文本已更新，则使用此功能。
+
+Doris
+doc_src/UserInterface.xml
+
+6116
+${diffReversed}
+字符串：${diffReversed}
+
+Doris
+doc_src/UserInterface.xml
+
+6117
+Same as ${diff}, but with the differences (what is to be inserted and deleted) inverted.
+作用与${diff}相同，但片段之间的差异（需要插入和删除的内容）倒置。
+
+Doris
+doc_src/UserInterface.xml
+
+6118
+${score}
+${score}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6119
+Percentage with tokenizer
+解析器得出的百分率
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6120
+${noStemScore}
+${noStemScore}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6121
+Percentage without numbers and tags
+不计算数字和标签的百分率
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6122
+${adjustedScore}
+${adjustedScore}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6123
+Percentage adjusted
+校准的百分率
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6124
+${fileNameOnly}
+${fileNameOnly}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6125
+Name of the TMX
+TMX的名称
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6126
+${filePath}
+${filePath}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6127
+Full path of the TMX
+TMX的完整路径
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6128
+${fileShortPath}
+${fileShortPath}
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6129
+Path of the TMX starting from the root of /tm
+相对于/tm根目录的TMX路径
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6130
+${initialCreationID}
+字符串：${initialCreationID}
+
+Doris
+doc_src/UserInterface.xml
+
+6131
+Author of the match when the match was created
+匹配创建时的译文作者
+
+Doris
+doc_src/UserInterface.xml
+
+6132
+${initialCreationDate}
+字符串：${initialCreationDate}
+
+Doris
+doc_src/UserInterface.xml
+
+6133
+Date of the match when the match was created
+匹配创建时的译文创建日期
+
+Doris
+doc_src/UserInterface.xml
+
+6134
+${changedID}
+字符串：${changedID}
+
+Doris
+doc_src/UserInterface.xml
+
+6135
+Author of the match when the match was last updated
+匹配最近更新时的译文作者
+
+Doris
+doc_src/UserInterface.xml
+
+6136
+${changedDate}
+字符串：${changedDate}
+
+Doris
+doc_src/UserInterface.xml
+
+6137
+Date of the match when the match was last updated
+匹配最近更新时的译文创建日期
+
+Doris
+doc_src/UserInterface.xml
+
+6138
+${fuzzyFlag}
+字符串：${fuzzyFlag}
+
+Doris
+doc_src/UserInterface.xml
+
+6139
+Indicate that this match is fuzzy (currently only for translations from PO files with the #fuzzy mark)
+表示该匹配为模糊匹配（当前仅用于来自PO文件中带#fuzzy标志的翻译）
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6140
+<p0>Windows and panes in OmegaT</p0> <s1>Glossary pane</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>术语表窗格</s1>
+
+xulihang
+doc_src/UserInterface.xml
+
+6141
+Glossary pane
+术语表窗格
+
+xulihang
+doc_src/UserInterface.xml
+
+6142
+The Glossary pane allows you to access your own collection of expressions and specialist terminology which you have built up in your glossary files.
+术语表窗格允许您使用个人收集的词汇和专业术语，这些词汇都存放在术语表文件中。
+
+xulihang
+doc_src/UserInterface.xml
+
+6143
+It shows translation of terms found in the current segment.
+它显示当前片段中找到的术语。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6144
+The source segment in the example below was “<e0>Context menu command</e0>”, as in the Fuzzy Matches example above, and the terms shown were found in the glossaries, available (Microsoft's Term collection and Slovenian Linux User group Glossary).
+下面例子中源片段为“<e0>Context menu command</e0>”（就像上面例子中模糊匹配显示的一样），显示出在可用的术语表（微软术语集和斯洛文尼亚语Linux用户组术语表）中找到的术语。
+
+xulihang
+doc_src/UserInterface.xml
+
+6145
+Glossaries
+术语表
+
+钢
+doc_src/UserInterface.xml
+
+6146
+multi-word entry in the glossary
+术语表中的多词条目
+
+xulihang
+doc_src/UserInterface.xml
+
+6147
+If you have TransTips option activated (<g0>Options → TransTips</g0>), you can right click on the highlighted word in the source segment to open a pop-up menu with suggested translation, as offered by your glossary.
+如果您激活<g0>选项→翻译提示</g0>中的翻译提示，那么可在源片段中突出显示的单词上点击右键来打开包含由术语表提供的可选译文的弹出菜单。
+
+xulihang
+doc_src/UserInterface.xml
+
+6148
+Selecting one of them will insert it at the current cursor position into the target segment.
+选择其中一个可将其插入到目标片段的当前光标位置。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6149
+You can also highlight your preferred alternative in the glossary pane and insert it into the target by right clicking on the selection.
+您可以让术语表窗格中的首选译文突出显示，并通过右键点击选区来将它插入目标片段中。
+
+xulihang
+doc_src/UserInterface.xml
+
+6150
+<p0>Windows and panes in OmegaT</p0> <s1>Dictionary pane</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>词典窗格</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6151
+Dictionary pane
+词典窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6152
+Dictionaries are the electronic equivalents of printed dictionaries like Merriam Webster, Duden, Larousse etc., that you may have on your desk.
+词典是等同于 Merriam Webster、Duden、Larousse 等桌面上的印刷词典的电子版本。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6153
+See more about them in the chapter on <l0>Dictionaries</l0>
+请在<l0>词典</l0>章节中了解关于它们的更多信息
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6154
+<p0>Windows and panes in OmegaT</p0> <s1>Multiple Translations pane</s1>
+<p0>OmegaT窗口和窗格</p0> <s1>多选译文窗格</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6155
+Multiple Translations pane
+多选译文窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6156
+A given source segment may require several different translations, depending on the context.
+特定的源片段在不同的语境中可能需要集中不同的翻译。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6157
+If the current translation of the segment does not fit, the user can select <g0>Edit → Create Alternative Translation</g0>.
+如果片段的当前译文不适合，则用户可选择<g0>编辑→创建可选译文</g0>。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6158
+The target text entered after that will be treated as an alternative translation of the source segment.
+之后输入的目标文本会被视为当前源片段的可选译文。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6159
+You can define one of the alternative - for instance the most probable among them - as default translation by selecting <g1>Edit → Use as Default Translation</g1>
+您可以通过<g1>编辑→用作默认译文</g1>指定某个可选译文（例如其中可能性最大的译文）为默认译文。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6160
+Notes pane
+笔记窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6161
+The translator can add notes to the opened segment, for instance to come back later to the segment and redo the translation, check that alternative translations are correct or to ask colleagues for their opinion.
+译员可添加笔记到打开的片段（例如之后返回该片段并撤销译文、检查可选译文是否正确或询问同事的看法。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6162
+You can browse through notes using <g0>GoTo → Next Note</g0> and <g1>GoTo → Previous Note</g1>.
+您可通过<g0>前往→后一笔记</g0>和<g1>前往→前一笔记</g1>以浏览笔记。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6163
+Comments pane
+注解面板
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6164
+Some of the file formats, specialized for translation work, for instance PO, allow the inclusion of comments.
+某些专门用于翻译工作的文件格式（例如PO）允许包含注释。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6165
+This way the translator can be provided the context about the segment to be translated.
+这样就为译者提供了待译片段的相关信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6166
+In the example below, the author of the PO file included a warning for the translator to check the length of the translation:
+在下面的示例中，包含为译者提供警告的PO文件可用于其作者检查译文的长度：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6167
+<p0>Comments</p0> <s1>Comments pane</s1>
+<p0>注解</p0> <s1>注解面板</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6168
+Comments pane
+注解面板
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6169
+<p0>Windows and panes in OmegaT</p0> <s1>Machine Translation pane</s1>
+<p0>OmegaT窗口和窗格</p0> <s1>机器翻译窗格</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6170
+Machine Translation pane
+机器翻译窗格
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6171
+The machine translation pane, when opened, contains the suggestions by machine translation tools for the current segment.
+在机器翻译窗格中，打开后其中会包含由机器翻译工具为当前片段提供的翻译建议。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6172
+Press <k0>Ctrl+M</k0> to replace the translation of the current segment with the suggested translation.
+按 <k0>Ctrl+M </k0>可使用建议译文替换当前片段的译文。
+
+Doris
+doc_src/UserInterface.xml
+
+6173
+More in the chapter <l1>Machine translation</l1>
+请到<l1>机器翻译</l1>章节了解更多
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6174
+Main menu
+主菜单
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6175
+The main menu provides access to all <a0>OmegaT</a0> functions.
+通过主菜单可访问 <a0>OmegaT</a0> 的所有功能。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6176
+See the <e1>Main Menu</e1> appendix for a full description of all menus and menu items.
+参阅<e1>主菜单</e1>附录了解所有菜单和菜单项的完整描述。
+
+Doris
+doc_src/UserInterface.xml
+
+6177
+The most frequently used functions are accessible with keyboard shortcuts, so once you become accustomed to them, you will no longer need to browse through the menus while translating.
+最常用的功能可以使用键盘快捷键访问，因此当您习惯了使用它们之后，在翻译的时候根本不需要使用菜单。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6178
+See chapter <l2>Menu and Keyboard shortcuts</l2> for details.
+请参阅<l2>菜单和键盘快捷键</l2>了解细节。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6179
+Status bar
+状态栏
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6180
+The status bar displays work-flow related messages at the bottom of the main window.
+在主窗口底部的状态栏显示和工作流相关的信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6181
+This bar gives the user feedback on specific operations that are in progress.
+该栏目向用户给出仅在进行的某个操作的反馈。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6182
+It also displays the number of fuzzy and glossary matches for the current segment.
+它也会显示和当前片段匹配的模糊和术语的数量。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6183
+Other windows
+其它窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6184
+<p0>Windows and panes in OmegaT</p0> <s1>Project files</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>项目文件</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6185
+Project files
+项目文件
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6186
+The Project Files window lists the project files and displays other project information.
+项目文件窗口显示所有的项目文件和其他项目的信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6187
+It is displayed automatically when OmegaT loads a project.
+当 OmegaT 载入项目时这个窗口自动出现。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6188
+<r0>Note:</r0> it is possible to inhibit this Project Files window displaying, by setting <e1>project_files_show_on_load</e1> to <e2>false</e2> in <f3>omegat.prefs</f3> file (accessible by Options / Access Configuration Folder menu).
+<r0>提示：</r0>可以通过在<f3>omegat.prefs</f3>文件中将<e1>project_files_show_on_load</e1>设置为<e2>false</e2>来禁止显示此项目文件窗口（文件仍可通过选项/访问配置文件夹菜单访问）。
+
+Doris
+doc_src/UserInterface.xml
+
+6189
+<p0>Shortcuts</p0> <s1>Project files list - Ctrl+L</s1>
+<p0>快捷键</p0> <s1>项目文件列表——Ctrl+L</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6190
+Use <g0>Ctrl+L<i1/></g0> to open and <k2>Esc</k2> to close it.
+使用 <g0>Ctrl+L<i1/></g0> 打开，使用 <k2>Esc</k2> 关闭。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6191
+The Project Files Window displays the following information:
+项目文件窗口显示了下列信息：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6192
+the total number of translatable files in the project.
+项目中可翻译文件总数。
+
+Doris
+doc_src/UserInterface.xml
+
+6193
+These are the files present in the /source folder in a format that OmegaT is able to recognize.
+这些是指以OmegaT能够识别的格式存储于/source文件夹中的文件。
+
+Doris
+doc_src/UserInterface.xml
+
+6194
+This number is displayed in brackets, next to the "Project file" title
+该数据显示在“项目文件”标题旁边的括号内。
+
+Doris
+doc_src/UserInterface.xml
+
+6195
+the list of all translatable files in the project.
+项目中所有待译文件组成的列表。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6196
+Clicking on any file will open it for translation.
+点击任何一份文件将打开它用于翻译
+
+Doris
+doc_src/UserInterface.xml
+
+6197
+Typing any text will open a Filter field where parts of filenames can be entered.
+输入任何文本都会打开一个Filter字段，其中可以输入部分文件名。
+
+Doris
+doc_src/UserInterface.xml
+
+6198
+You can select a file with <k0>Up</k0> and <k1>Down</k1> keys, and open it for translation by pressing <k2>Enter</k2>
+您可以使用<k0>Up</k0>和<k1>Down</k1>选择文件，然后按<k2> Enter</k2>打开此文件开始翻译。
+
+Doris
+doc_src/UserInterface.xml
+
+6199
+Note: filenames (in first column) can be sorted alphabetically by clicking in the header.
+提示：单击标题可将文件名（第一列）按字母顺序排序。
+
+Doris
+doc_src/UserInterface.xml
+
+6200
+It also possible to change the position of a filename, by clicking on it and pressing <e0>Move ...</e0> buttons.
+也可以通过单击并长按<e0>移动...</e0>按钮来更改文件名的位置。
+
+Doris
+doc_src/UserInterface.xml
+
+6201
+Right-clicking on a filename opens a popup that allows to open the source file and (if it exists) the target file.
+右键单击文件名将打开一个弹出窗口，允许打开源文件（如果源文件存在）和目标文件。
+
+Doris
+doc_src/UserInterface.xml
+
+6202
+File entries include their names, file filter types, their encoding and the number of segments each file contains
+每个文件条目包含它的名称、文件过滤器类型、编码和它所包含的片段数
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6203
+the total number of segments, the number of unique segments in the whole project, and the number of unique segments already translated are shown at the bottom
+整个项目的片段总数、唯一片段数和已译唯一片段数显示在底部
+
+xulihang
+doc_src/UserInterface.xml
+
+6204
+The set of <e0>Unique </e0>segments is computed by taking all the segments and removing all duplicate segments.
+<e0>唯一</e0>片段数目的计算方法为统计所有的片段并去除所有重复片段。
+
+xulihang
+doc_src/UserInterface.xml
+
+6205
+(The definition of “unique” is case-sensitive: "Run" and "run" are treated as being different)
+（“唯一” 的判断方法是区分大小写的："Run" 和 "run" 被看作是不同的片段）
+
+xulihang
+doc_src/UserInterface.xml
+
+6206
+The difference between "Number of segments" and "Number of unique segments" provides an approximate idea of the number of repetitions in the text.
+通过“片段数”和“唯一片段数”的差异可粗略估算出文本中有多少重复内容。
+
+xulihang
+doc_src/UserInterface.xml
+
+6207
+Note however that the numbers do not indicate how relevant the repetitions are: they could mean relatively long sentences repeated a number of times (in which case you are fortunate) or it could describe a table of keywords (not so fortunate).
+但是请注意：该数字并未透露这些重复的相关性，它们可能是多次重复的相当长的句子（此时是幸运的）或关键字表格（不那么幸运了）。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6208
+The <f0>project_stats.txt</f0> located in the omegat folder of your project contains more detailed segment information, broken down by file.
+项目 omegat 文件夹中的 <f0>project_stats.txt</f0> 提供了每份文件更多的片段细节信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6209
+Modifying the segmentation rules may have the effect of modifying the number of segments/unique segments.
+修改分割规则可能改变片段数和唯一片段数。
+
+xulihang
+doc_src/UserInterface.xml
+
+6210
+This, however, should generally be avoided once you have started translating the project.
+然而，一旦启动项目的翻译工作，就应该避免发生这样的事情。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6211
+See the chapter <e0>Segmentation rules</e0> for more information.
+请参阅<e0>分割规则</e0>章节了解更多信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6212
+<p0>Source files</p0> <s1>Adding files to the project</s1>
+<p0>源文件</p0> <s1>添加文件到项目</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6213
+<e0><i1/>Adding files to the project: </e0>You can add source files to the project by clicking on the "<g2>Import Source Files..."</g2> button.
+<e0><i1/>添加文件到项目：</e0>您可以通过点击<g2>“导入源文件”</g2>按钮将源文件添加到项目中。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6214
+This copies the selected files to the <f3>source</f3> folder and reloads the project to import the new files.
+它将选中的文件拷贝到 <f3>/source</f3> 目录并重新载入项目以导入新文件。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6215
+You can also add source files from Internet pages, written in MediaWiki, by clicking on<g4> "Import from MediaWiki"</g4> button and providing the corresponding URL.
+通过点击<g4>“从 MediaWiki 导入”</g4>按钮并输入相应的网址，您还可以添加互联网页中用MediaWiki编写的源文件。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6216
+<p0>Windows and panes in OmegaT</p0> <s1>Search pane</s1>
+<p0>OmegaT 窗口和窗格</p0> <s1>搜索面板</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6217
+Search window
+搜索窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6218
+You can use the search window to find specific segments in a project.
+您可以用使用搜索窗口查找项目中的某个片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6219
+You can also have several search windows open simultaneously.
+可以同时打开多个搜索窗口。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6220
+To open a new search window, use <k0> <k1>Ctrl</k1> <k2>F</k2> </k0> in the Main window.
+在主窗口中使用<k0> <k1>Ctrl</k1> <k2>F</k2> </k0>可打开一个新的搜索窗口。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6221
+The search window consists of a text field for search strings or keywords, flags and radio buttons for setting up the search and a display area containing the results of the search.
+搜索窗口由三个部分组成：用于输入搜索字符串或关键字的文本框、用于设置搜索的标志和单选按钮、包含搜索结果的显示区域。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6222
+See the chapter<e3> <l4>Searches</l4> </e3>for more information about the search window.
+请参阅<e3> <l4>搜索</l4> </e3>章节来了解关于搜索窗口的更多信息。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6223
+<p0>Tag validation</p0> <s1>Shortcuts, Tags</s1>
+<p0>标签验证</p0> <s1>快捷键，标签</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6224
+<p0>Windows and panes in OmegaT</p0> <s1>Tag validation</s1> <s2>Tags</s2>
+<p0>OmegaT 窗口和窗格</p0> <s1>标签验证</s1> <s2>标签</s2>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6225
+Tag validation
+标签验证
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6226
+The tag validation window detects and lists any tag errors and inconsistencies in the translation.
+标签检验窗口检测译文中出现的所有标签错误和不一致并列出来。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6227
+Open the window with <g0>Ctrl+T.
+使用<g0>Ctrl+T 打开该窗口。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6228
+</g0>The window features a 3 column table with a link to the segment and its source and target contents:
+</g0>该窗口显示了一个三列表格，其中列出了指向出错片段的链接及其原文和译文内容：
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6229
+<p0>Tag validation</p0> <s1>Window - figure</s1> <s2>Tags</s2>
+<p0>标签验证</p0> <s1>窗口 - 配置</s1> <s2>标签</s2>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6230
+Tag validation window
+标签验证窗口
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6231
+Tags are highlighted in bold blue for easy comparison between the original and the translated contents.
+标签用加粗蓝色突出显示，以便于对源内容和译后内容进行比较。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6232
+Click on the link to jump to the segment in the Editor pane.
+点击该链接可在编辑器窗格中跳转至该片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6233
+Correct the error if necessary and press <g0>Ctrl+T</g0> to return to the tag validation window to correct other errors.
+如果必要的话，修正错误然后按<g0>Ctrl+T</g0> 键返回标签验证窗口以修正其它错误。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6234
+In the first and third case above tags are paired incorrectly, and in the second case the < sign is missing from the starting tag.
+在上述的第一和第三种情况中，标签的错误成对出现，而在第二种情况中开始标记缺失了 < 标记。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6235
+Tag errors are cases in which the tags in the translation do not correspond in order and number to the original segment.
+标签错误是指译文中标签的顺序和数目与源片段不一致。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6236
+Some tag scenarios flagged in the tag validation window are necessary and are benign, others will cause problems when the translated document is created.
+在标签验证窗口中包含的某些情况的标签是必要的和良性的，但有些在创建已译文档时会导致问题。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6237
+Tags generally represent some kind of formatting in the original text.
+标签通常代表了原始文本中的某种格式。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6238
+Simplifying the original text formatting in the source file before commencing translation greatly contributes to reducing the number of tags.
+开始翻译前对源文本格式的简化很大程度上有助于减少标签的数目。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6239
+<p0>Statistics</p0> <s1>Menu Tools</s1>
+<p0>统计</p0> <s1>菜单工具</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6240
+Statistics
+统计
+
+Andrew
+doc_src/UserInterface.xml
+
+6241
+<p0>Shortcuts</p0> <s1>Select All - Ctrl+A</s1>
+<p0>快捷键</p0> <s1>选择所有——Ctrl+A</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6242
+<p0>Shortcuts</p0> <s1>Copy text - Ctrl+C</s1>
+<p0>快捷键</p0> <s1>复制文本——Ctrl+C</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6243
+<p0>Shortcuts</p0> <s1>Paste text - Ctrl+V</s1>
+<p0>快捷键</p0> <s1>粘贴文本——Ctrl+V</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6244
+The statistics window - accessed via <e0>Tools>Statistics </e0>- shows the statistics of the current OmegaT project, both in the summary form as well as in detail for every file to be translated.
+统计窗口（通过<e0>工具>统计</e0>打开）显示了OmegaT当前项目的统计信息，包括整个项目的总的统计信息和其中每个待译文件的详细情况。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6245
+The statistics shown is available as a tab-separated <f1>project_stats.txt</f1> file (subfolder <f2>omegat</f2>), ready to be loaded into a spreadsheet program for the user's convenience.
+这里显示的统计信息是tab分隔的<f1>project_stats.txt</f1>文件（在<f2>omegat</f2>子文件夹），方便用户加载到电子表格程序。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6246
+You can use <g3>Ctrl+A <i4/></g3><g5>, Ctrl+C <i6/></g5>, <g7>Ctrl+V <i8/></g7> to copy/paste the contents.
+您可用<g3>Ctrl+A <i4/></g3><g5>、Ctrl+C <i6/></g5>、<g7>Ctrl+V <i8/></g7>复制/粘贴其中的内容。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6247
+project statistics
+项目统计
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6248
+<p0>Match Statistics</p0> <s1>Menu Tools</s1>
+<p0>匹配统计</p0> <s1>工具菜单</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6249
+Match statistics
+匹配统计
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6250
+The match statistics are accessed via<g0>Tools>Match Statistics.</g0> The evaluation is rather CPU intensive and can be time-consuming, so a progress bar is shown during the calculation.
+通过<g0>工具/匹配统计</g0>可访问统计信息。该统计需要CPU进行繁重的运算而耗时较多，所以在计算时会显示进度条。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6251
+As far as categories are concerned, the de facto industry standard of classifying matches into the following groups is used: Repetitions, Exact match, 95%-100%, 85%-94%, 75%-84%, 50%-74% and No match.
+至于相关的分类，下面这些组的分类符合工业标准：重复率、精确匹配、95%-100%、85%-94%、75%-84%、50%-74%和无匹配。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6252
+This information is computed for segments as well as for words and for characters (without and including spaces).
+这些信息是针对片段、文字和字符（不包括空格）计算的。
+
+Doris
+doc_src/UserInterface.xml
+
+6253
+Note that there could be minor differences between the OmegaT counts and the numbers, provided by other CAT tools.
+请注意，由其他CAT工具提供的数据同OmegaT提供的数据之间可能存在细微差异。
+
+Doris
+doc_src/UserInterface.xml
+
+6254
+Match statistics
+匹配统计
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6255
+Note that these totals are a good (or as good as they can be) approximation of the work involved in the project and thus can serve as a basis for your cost and price calculations.
+请注意，这些数据是对项目中所涉及工作的较好（或尽可能好的）估计，因此可以作为您估算成本和价格的基础。
+
+Doris
+doc_src/UserInterface.xml
+
+6256
+Spaces between segments are not taken into account in the last column.
+在最后一列片段间的空格无需考虑。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6257
+Repetitions stand for identical segments present several times in the text.
+重复表示多次出现在文本中的相同片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6258
+The first segment and its contents will be classified as "no match", and the rest of them as a repetition of the first.
+第一个片段及其内容将被归类到“无匹配”中，而剩余片段则被视为第一个的重复。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6259
+If the translation for several identical source segments already exists in the translation memory of the project, these segments, together with other, already translated unique segments, will be classified as an "Exact match".
+如果在项目的翻译记忆中存在多个相同源片段的译文，这些及其他已译唯一片段将被归类为“精确匹配”。
+
+xulihang
+doc_src/UserInterface.xml
+
+6260
+The number of unique segments, if needed, is provided in the standard statistics window, regardless of whether they have been translated or not.
+在需要时，标准统计窗口中会显示唯一片段数，不论它们是否已经翻译。
+
+xulihang
+doc_src/UserInterface.xml
+
+6261
+The rest of the categories (50-100%) involves untranslated segments with a fuzzy match.
+分类中的其他部分 (50-100%) 包含了具有模糊匹配的未译片段。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6262
+Fuzzy matches can come from the <f0>/tm</f0> folder as well - and not just from the internal translation memory in <f1>/omegaT,</f1> as is the case for repetitions and exact matches.
+在统计重复和精确匹配时模糊匹配不仅可以来自 <f1>/omegaT</f1>，也可以可以来自 <f0>/tm</f0> 文件夹。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6263
+The only difference with matches from the <f2>project_save</f2> translation memory is that external TMs cannot give exact matches, only 100%.
+与 <f2>project_save</f2> 翻译记忆的匹配的唯一区别是外部 TM 中的统计不会得到精确匹配，而只是 100%。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6264
+If one does not wish to use external TMs for counting, one will either have to empty the /tm folder or change the project setup (temporarily) so that the value for /tm points to a different location.
+如果不想使用外部翻译记忆参与统计，可以让 /tm 文件夹为空或临时改变项目设置以让 /tm 指向其他地方。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6265
+<p0>Shortcuts</p0> <s1>Select All - Ctrl+A</s1>
+<p0>快捷键</p0> <s1>选择所有——Ctrl+A</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6266
+<p0>Shortcuts</p0> <s1>copy text - Ctrl+C</s1>
+<p0>快捷键</p0> <s1>复制文本——Ctrl+C</s1>
+
+Doris
+doc_src/UserInterface.xml
+
+6267
+<p0>Shortcuts</p0> <s1>Paste text - Ctrl+V</s1>
+<p0>快捷键</p0> <s1>粘贴文本——Ctrl+V</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6268
+The Match Statistics are tab-separated and you can use <g0>Ctrl+A <i1/></g0><g2>, Ctrl+C <i3/></g2>, <g4>Ctrl+V <i5/></g4> to copy/paste them, for instance into a spreadsheet or into your cost-accounting application.
+该匹配统计是 tab 分割的，您可用 <g0>Ctrl+A <i1/></g0><g2>, Ctrl+C <i3/></g2>, <g4>Ctrl+V <i5/></g4> 来复制/粘贴它们，例如到工作表或费用统计程序中。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6269
+Once computed, the data also available in <f6>omegat/project_stats_match.txt.</f6> Note that the file is time-stamped, as the calculation (contrary to the standard statistics) is not instantaneous and can thus quickly become obsolete.
+在计算后，该数据还可以在 <f6>omegat/project_stats_match.txt</f6> 中找到。需要注意的是该文件是有时间戳记录的，因为计算不是瞬时的（相对于统计），所以可能很快过时。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6270
+<p0>Menu Help</p0> <s1>Help browser</s1>
+<p0>帮助菜单</p0> <s1>帮助浏览器</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6271
+Help browser
+帮助浏览器
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6272
+<p0>Shortcuts</p0> <s1>Help - F1</s1>
+<p0>快捷键</p0> <s1>F1——帮助</s1>
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6273
+<p0>Menu Help</p0> <s1>User Manual...</s1>
+<p0>帮助菜单</p0> <s1>用户手册...</s1>
+
+xulihang
+doc_src/UserInterface.xml
+
+6274
+The help browser (which displays this manual) can be opened by pressing <k0><i1/>F1</k0> or navigating to <g2><i3/>Help → User Manual...</g2> in the main menu.
+帮助浏览器（显示本手册）可通过按 <k0><i1/>F1</k0> 或调用主菜单中的<g2><i3/>帮助→用户手册...</g2>条目来打开。
+
+xulihang
+doc_src/UserInterface.xml
+
+6275
+In the window, the manual and two buttons are displayed: Back and Contents.
+在该窗口中会显示手册和两个按钮：退后和内容。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6276
+The user manual is an HTML document with links to different chapters.
+用户手册是一份包含各个不同章节链接的 HTML 文档。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6277
+Clicking on a link as you would do in a web browser brings the desired page to the front.
+像在网页浏览器中那样点击一个链接将会打开要看的页面。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
+6278
+The user manual is located in the docs subfolder under the OmegaT installation folder, so you may can, for instance, view the English documentation by opening the <f0>docs/en/index.html </f0>file in your browser.
+用户手册存放在 OmegaT 安装目录的 doc 子目录中，因此可在浏览器中打开 <f0>doc/en/index.hmtl</f0> 文件来查看英文文档。
+
+Fu Rhong
+doc_src/UserInterface.xml
+
