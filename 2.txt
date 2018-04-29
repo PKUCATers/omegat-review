@@ -1,0 +1,1565 @@
+224
+Enter the segment number:
+输入片段编号:
+
+钢
+Bundle.properties
+
+225
+Go To Segment
+转到片段
+
+钢
+Bundle.properties
+
+226
+Duplicate segments: {0}
+复制片段: {0}
+
+christy
+Bundle.properties
+
+227
+Segment {0,number,#}
+片段 {0,序号,#}
+
+christy
+Bundle.properties
+
+228
+More
+更多
+
+christy
+Bundle.properties
+
+229
+You must enter a number between 1 and {0}.
+必须输入 1 到 {0} 之间的数字。
+
+钢
+Bundle.properties
+
+230
+Error while trying to edit the project!
+试图编辑项目时出错！
+
+钢
+Bundle.properties
+
+231
+Reopen the project?
+是否重新打开项目？
+
+钢
+Bundle.properties
+
+232
+Saving project...
+正在保存项目...
+
+xulihang
+Bundle.properties
+
+233
+Project saved
+项目已保存
+
+钢
+Bundle.properties
+
+234
+Cursor lock on
+鼠标锁定
+
+christy
+Bundle.properties
+
+235
+Cursor lock off
+光标解锁
+
+Doris
+Bundle.properties
+
+236
+--/--
+--/--
+
+钢
+Bundle.properties
+
+237
+Do you really want to quit?
+确定退出？
+
+christy
+Bundle.properties
+
+238
+Source/translation lengths (characters)
+原文/译文长度（字符个数）
+
+xulihang
+Bundle.properties
+
+239
+--/-- (--/--, --)
+--/-- (--/--, --)
+
+钢
+Bundle.properties
+
+240
+{0} ({1} left) / {2} ({3} left), {4}
+{0} ({1} 剩余) / {2} ({3} 剩余), {4}
+
+christy
+Bundle.properties
+
+241
+File: translated / number of segments (project: unique translated / unique, total number of segments)
+文件：已译/片段数量(项目：唯一已译/唯一片段总量)
+
+christy
+Bundle.properties
+
+242
+File: unique translated % (unique left) / project: unique translated % (unique left), total number of segments
+文件: 唯一片段已译 % (剩余) / 项目: 唯一片段已译 % (剩余), total number of segments
+
+christy
+Bundle.properties
+
+243
+Jumping to last edited segment...
+跳转到最后编辑片段...
+
+christy
+Bundle.properties
+
+244
+segment 0000
+片段 0000
+
+钢
+Bundle.properties
+
+245
+Translation last modified by {0} on {1} at {2}
+译文最后由 {0} 在 {1} {2} 修改
+
+钢
+Bundle.properties
+
+246
+Last modified by {0}
+最后修改由 {0} 进行
+
+钢
+Bundle.properties
+
+247
+unknown
+未知
+
+钢
+Bundle.properties
+
+248
+Display Font
+显示字体
+
+钢
+Bundle.properties
+
+249
+Font
+字体
+
+Fu Rhong
+Bundle.properties
+
+250
+Size
+字体大小
+
+christy
+Bundle.properties
+
+251
+This is the way text will look when displayed.
+这里是字体显示时的样子。
+
+钢
+Bundle.properties
+
+252
+Sample Text
+示例文本
+
+钢
+Bundle.properties
+
+253
+&Apply this font to tabular data (project files, statistics, etc.)
+&将该字体应用到列表数据 (项目文件, 统计数字等.)
+
+christy
+Bundle.properties
+
+254
+Font
+字体
+
+Fu Rhong
+Bundle.properties
+
+255
+Project Files ({0})
+项目文件({0})
+
+Fu Rhong
+Bundle.properties
+
+256
+Project Files ({0} of {1})
+项目文件({0} {1})
+
+christy
+Bundle.properties
+
+257
+Filename
+文件名
+
+钢
+Bundle.properties
+
+258
+Filter
+过滤器(&F)
+
+钢
+Bundle.properties
+
+259
+Encoding
+编码
+
+钢
+Bundle.properties
+
+260
+Segments
+片段
+
+钢
+Bundle.properties
+
+261
+Unique segments
+唯一片段
+
+christy
+Bundle.properties
+
+262
+You can find detailed statistic information in the file:
+{0}
+可在文件: {0} 中找到更详细的统计信息
+
+钢
+Bundle.properties
+
+263
+Move &First
+移动 & 首个片段
+
+christy
+Bundle.properties
+
+264
+Move &Up
+上移(&p)
+
+puleiying
+Bundle.properties
+
+265
+Move &Down
+下移
+
+christy
+Bundle.properties
+
+266
+Move &Last
+移到最后一个片段
+
+christy
+Bundle.properties
+
+267
+Filter:
+过滤器:
+
+christy
+Bundle.properties
+
+268
+Clo&se
+关闭
+
+christy
+Bundle.properties
+
+269
+Open Source File
+打开源文件
+
+christy
+Bundle.properties
+
+270
+Open {0} Source Files
+打开 {0}源文件
+
+christy
+Bundle.properties
+
+271
+Open Source File Location
+打开源文件位置
+
+christy
+Bundle.properties
+
+272
+Open {0} Source Files' Locations
+打开{0} 源文件位置
+
+christy
+Bundle.properties
+
+273
+Open Target File
+打开目标文件
+
+christy
+Bundle.properties
+
+274
+Open {0} Target Files
+打开 {0} 目标文件
+
+christy
+Bundle.properties
+
+275
+Open Target File Location
+打开目标文件位置
+
+christy
+Bundle.properties
+
+276
+Open {0} Target Files' Locations
+打开 {0}目标文件位置
+
+christy
+Bundle.properties
+
+277
+Total number of segments
+片段总数
+
+钢
+Bundle.properties
+
+278
+Number of unique segments
+唯一片段数量
+
+xulihang
+Bundle.properties
+
+279
+Translated unique segments
+已译唯一片段
+
+xulihang
+Bundle.properties
+
+280
+Exciting help page<p>Gossamer threads hold you back<p>404 not found
+Exciting help page<p>Gossamer threads hold you back<p>404 not found
+
+钢
+Bundle.properties
+
+281
+Wind catches lily<p>Scatt'ring petals to the wind:<p>Your page is not found
+Wind catches lily<p>Scatt'ring petals to the wind:<p>Your page is not found
+
+钢
+Bundle.properties
+
+282
+Bartender yells loud:<p>Your page cannot be found, boy<p>Buy another drink.
+Bartender yells loud:<p>Your page cannot be found, boy<p>Buy another drink.
+
+钢
+Bundle.properties
+
+283
+Page slips through fingers<p>Pulse pounding hard and frantic<p>Vanishing like mist.
+Page slips through fingers<p>Pulse pounding hard and frantic<p>Vanishing like mist.
+
+钢
+Bundle.properties
+
+284
+These three are certain:<p>Death, taxes, and page not found.<p>You, victim of one.
+These three are certain:<p>Death, taxes, and page not found.<p>You, victim of one.
+
+钢
+Bundle.properties
+
+285
+The help page you seek<p>Lies beyond our perception<p>But others await
+The help page you seek<p>Lies beyond our perception<p>But others await
+
+钢
+Bundle.properties
+
+286
+Emptiness of soul<p>Forever aching blackness<p>Your help page not found
+Emptiness of soul<p>Forever aching blackness<p>Your help page not found
+
+钢
+Bundle.properties
+
+287
+Ephemeral page<p>I am the Blue Screen of Death<p>No one hears your screams.
+Ephemeral page<p>I am the Blue Screen of Death<p>No one hears your screams.
+
+钢
+Bundle.properties
+
+288
+Rather than beep<p>Or a rude error message<p>These words: 'Page not found'
+Rather than beep<p>Or a rude error message<p>These words: 'Page not found'
+
+钢
+Bundle.properties
+
+289
+Mourning and sorrow<p>404 not with us now<p>Lost to paradise
+Mourning and sorrow<p>404 not with us now<p>Lost to paradise
+
+钢
+Bundle.properties
+
+290
+Help you are seeking<p>From your path it is fleeing<p>Its winter has come
+Help you are seeking<p>From your path it is fleeing<p>Its winter has come
+
+钢
+Bundle.properties
+
+291
+Analyzing strings - {0} of {1} completed
+分析字符串 - {0} / {1} 完成
+
+钢
+Bundle.properties
+
+292
+Downloading project...
+下载项目中...
+
+christy
+Bundle.properties
+
+293
+Loading project...
+载入项目中...
+
+xulihang
+Bundle.properties
+
+294
+Loading glossaries
+载入术语表
+
+xulihang
+Bundle.properties
+
+295
+Project load cancelled by user
+项目载入被用户取消
+
+钢
+Bundle.properties
+
+296
+Error saving project file!
+保存项目文件出错！
+
+钢
+Bundle.properties
+
+297
+Error creating project!
+项目创建出错！
+
+钢
+Bundle.properties
+
+298
+Fatal error encountered - saving project file with '.recover' backup extension.
+遇到致命错误——使用 '.recover' 备份扩展名保存项目
+
+钢
+Bundle.properties
+
+299
+Please consult the documentation about your recovery options and
+return the information below to the software manufacturer with
+a description of how this error was produced.
+请参考文档中关于恢复的选项并将下列信息反馈给软件开发者，并描述下该错误是如何发生的。
+
+钢
+Bundle.properties
+
+300
+Folder {0} was automatically created for team mode project
+ 在团队项目中{0} 文件夹会自动创建
+
+christy
+Bundle.properties
+
+301
+Loading: {0}
+载入：
+
+钢
+Bundle.properties
+
+302
+Source file loading complete
+原文载入完成
+
+钢
+Bundle.properties
+
+303
+Loading TMX files...
+正在载入 TMX 文件...
+
+xulihang
+Bundle.properties
+
+304
+Creating translated documents: {0}
+正在创建译文文档：{0}
+
+钢
+Bundle.properties
+
+305
+Translated documents created
+译文文档已创建
+
+钢
+Bundle.properties
+
+306
+Translated document created
+译文文档已创建
+
+christy
+Bundle.properties
+
+307
+Unable to build new TMX file!
+无法创建新的TMX文件！
+
+钢
+Bundle.properties
+
+308
+Failed to create project!
+创建项目失败！
+
+钢
+Bundle.properties
+
+309
+Problem encountered loading project file!
+载入项目文件出错！
+
+钢
+Bundle.properties
+
+310
+Cannot access glossary folder!
+无法访问术语表文件夹！
+
+xulihang
+Bundle.properties
+
+311
+Cannot create folder for translated files:
+无法为已译文件创建目录：
+
+钢
+Bundle.properties
+
+312
+Orphan segments
+孤立片段
+
+钢
+Bundle.properties
+
+313
+Executing external command...
+执行外部命令...
+
+xulihang
+Bundle.properties
+
+314
+Error starting external command: {0}
+开始外部命令时出错： {0}
+
+钢
+Bundle.properties
+
+315
+External command completed.
+外部命令结束。
+
+钢
+Bundle.properties
+
+316
+Exit code: {0}
+返回代码： {0}
+
+钢
+Bundle.properties
+
+317
+External command completed.
+外部命令结束。
+
+钢
+Bundle.properties
+
+318
+Exit code {0}: "{1}"
+返回代码： {0}: "{1}"
+
+钢
+Bundle.properties
+
+319
+External command failed.
+外部命令失败。
+
+钢
+Bundle.properties
+
+320
+Exit code: {0}
+返回代码： {0}
+
+钢
+Bundle.properties
+
+321
+External command failed.
+外部命令失败。
+
+钢
+Bundle.properties
+
+322
+Exit code {0}: "{1}"
+返回代码： {0}: "{1}"
+
+钢
+Bundle.properties
+
+323
+External command was interrupted.
+外部命令被中断。
+
+钢
+Bundle.properties
+
+324
+Error monitoring external command!
+监测外部命令时出错！
+
+钢
+Bundle.properties
+
+325
+Project Statistics
+项目状态
+
+钢
+Bundle.properties
+
+326
+Total:
+总共：
+
+钢
+Bundle.properties
+
+327
+Segments
+片段
+
+钢
+Bundle.properties
+
+328
+Words
+词汇
+
+钢
+Bundle.properties
+
+329
+Characters (without spaces)
+字符(不含空白字符)
+
+Puzzlist
+Bundle.properties
+
+330
+Characters (including spaces)
+字符(含空白)
+
+Puzzlist
+Bundle.properties
+
+331
+#Files
+#文件
+
+christy
+Bundle.properties
+
+332
+Remaining:
+剩余：
+
+钢
+Bundle.properties
+
+333
+Unique Remaining:
+剩余唯一：
+
+xulihang
+Bundle.properties
+
+334
+Unique:
+唯一：
+
+xulihang
+Bundle.properties
+
+335
+Individual File Statistics:
+单个文件状态：
+
+钢
+Bundle.properties
+
+336
+File Name
+文件名
+
+钢
+Bundle.properties
+
+337
+Total Segments
+所有片段
+
+钢
+Bundle.properties
+
+338
+Remaining Segments
+剩余片段
+
+钢
+Bundle.properties
+
+339
+Unique Segments
+唯一片段
+
+xulihang
+Bundle.properties
+
+340
+Unique Remaining Segments
+剩余唯一片段
+
+xulihang
+Bundle.properties
+
+341
+Total Words
+总共词汇量
+
+钢
+Bundle.properties
+
+342
+Remaining Words
+剩余词汇
+
+钢
+Bundle.properties
+
+343
+Unique Words
+唯一词汇
+
+xulihang
+Bundle.properties
+
+344
+Unique Remaining Words
+剩余唯一词汇
+
+xulihang
+Bundle.properties
+
+345
+Total Characters (without spaces)
+总字符(不含空白)
+
+Puzzlist
+Bundle.properties
+
+346
+Remaining Characters (without spaces)
+剩余字符(不含空白)
+
+Puzzlist
+Bundle.properties
+
+347
+Unique Characters (without spaces)
+唯一字符(不含空白)
+
+xulihang
+Bundle.properties
+
+348
+Unique Remaining Characters (without spaces)
+剩余唯一字符（不含空白）
+
+xulihang
+Bundle.properties
+
+349
+Total Characters (including spaces)
+总字符（含空白）
+
+钢
+Bundle.properties
+
+350
+Remaining Characters (including spaces)
+保留字符（含空白）
+
+钢
+Bundle.properties
+
+351
+Unique Characters (including spaces)
+唯一字符（不含空白）
+
+xulihang
+Bundle.properties
+
+352
+Unique Remaining Characters (including spaces)
+剩余唯一字符（不含空白）
+
+xulihang
+Bundle.properties
+
+353
+C&opy All Data to Clipboard
+复制所有数据至剪贴板
+
+christy
+Bundle.properties
+
+354
+Statistics
+统计
+
+Andrew
+Bundle.properties
+
+355
+Match Statistics
+匹配状态
+
+钢
+Bundle.properties
+
+356
+Match Statistics per File
+每文件匹配统计
+
+Fu Rhong
+Bundle.properties
+
+357
+Repetitions:
+重复：
+
+钢
+Bundle.properties
+
+358
+Repetitions within this file:
+本文件内重复：
+
+Fu Rhong
+Bundle.properties
+
+359
+Repetitions from other files:
+与其他文件重复：
+
+Fu Rhong
+Bundle.properties
+
+360
+Exact match:
+精确匹配:
+
+钢
+Bundle.properties
+
+361
+95%-100%:
+95%-100%:
+
+钢
+Bundle.properties
+
+362
+85%-94%:
+85%-94%:
+
+钢
+Bundle.properties
+
+363
+75%-84%:
+75%-84%:
+
+钢
+Bundle.properties
+
+364
+50%-74%:
+50%-74%:
+
+钢
+Bundle.properties
+
+365
+No match:
+无匹配:
+
+钢
+Bundle.properties
+
+366
+Total:
+总共：
+
+钢
+Bundle.properties
+
+367
+File {0}: {1}
+文件{0}：{1}
+
+Fu Rhong
+Bundle.properties
+
+368
+For all files:
+所有文件：
+
+Fu Rhong
+Bundle.properties
+
+369
+Arrays must not be null
+数组不能为空
+
+钢
+Bundle.properties
+
+370
+E&nable Sentence-level Segmenting
+激活句子级别的分段（E&)
+
+xulihang
+Bundle.properties
+
+371
+Edit Project
+编辑项目
+
+钢
+Bundle.properties
+
+372
+Edit project properties here.
+在此编辑项目属性。
+
+钢
+Bundle.properties
+
+373
+Languages
+语言
+
+钢
+Bundle.properties
+
+374
+Options
+选项
+
+钢
+Bundle.properties
+
+375
+File locations
+文件位置
+
+钢
+Bundle.properties
+
+376
+&Make the segmentation rules project specific
+使片段分割规则仅对指定项目有效(&M)
+
+钢
+Bundle.properties
+
+377
+Create New Project
+创建新项目
+
+钢
+Bundle.properties
+
+378
+Open Project
+打开项目
+
+钢
+Bundle.properties
+
+379
+Source Files Folder:
+原文文件目录：
+
+钢
+Bundle.properties
+
+380
+Translated Files Folder:
+译文文件目录：
+
+钢
+Bundle.properties
+
+381
+Glossary Folder:
+术语表文件夹：
+
+xulihang
+Bundle.properties
+
+382
+Writeable Glossary File:
+可写术语表文件：
+
+xulihang
+Bundle.properties
+
+383
+Translation Memory Folder:
+译法记忆文件夹：
+
+钢
+Bundle.properties
+
+384
+&Source Files Language:
+原文文件语种(&S)：
+
+钢
+Bundle.properties
+
+385
+&Translated Files Language:
+译文文件语种(&T)：
+
+钢
+Bundle.properties
+
+386
+&Source Language Tokenizer:
+原文语言分词器(&S)
+
+钢
+Bundle.properties
+
+387
+&Target Language Tokenizer:
+译文语言分词器(&T)
+
+钢
+Bundle.properties
+
+388
+Dictionary Folder:
+字典文件夹：
+
+钢
+Bundle.properties
+
+389
+&Auto-propagation of Translations
+译文的自动传播(&A)
+
+钢
+Bundle.properties
+
+390
+Remove Ta&gs
+删除标签(&g)
+
+钢
+Bundle.properties
+
+391
+External Post-processing Command:
+外部后置处理命令：
+
+钢
+Bundle.properties
+
+392
+External Post-processing Command (Disabled):
+外部后置处理命令（未激活）：
+
+钢
+Bundle.properties
+
+393
+<html>Per-project external commands are disabled and will not be executed.
+<html>每个项目的外部命令未激活，不会被执行。
+
+钢
+Bundle.properties
+
+394
+Enable them in <b>Preferences > Saving and Output...</b>.</html>
+在 <b>偏好设置 > 保存并输出...</b>激活该功能。</html>
+
+christy
+Bundle.properties
+
+395
+&Browse
+浏览(&B)
+
+钢
+Bundle.properties
+
+396
+E&xclusions...
+排除...
+
+christy
+Bundle.properties
+
+397
+B&rowse
+浏览(&r)
+
+钢
+Bundle.properties
+
+398
+Bro&wse
+浏览(&w)
+
+钢
+Bundle.properties
+
+399
+Browse
+浏览
+
+钢
+Bundle.properties
+
+400
+Brows&e
+浏览(&e)
+
+钢
+Bundle.properties
+
+401
+Browse
+浏览
+
+钢
+Bundle.properties
+
+402
+Source Files Folder
+原文文件目录：
+
+钢
+Bundle.properties
+
+403
+Translated Files Folder
+译文文件目录：
+
+钢
+Bundle.properties
+
+404
+Glossary Files Folder
+术语表文件夹
+
+xulihang
+Bundle.properties
+
+405
+Translation Memory Files Folder
+译法记忆文件文件夹
+
+钢
+Bundle.properties
+
+406
+Dictionary Files Folder
+字典文件文件夹
+
+钢
+Bundle.properties
+
+407
+Writeable Glossary File
+可写术语表文件：
+
+xulihang
+Bundle.properties
+
+408
+Repository Mapping...
+仓库映射...
+
+christy
+Bundle.properties
+
+409
+External Search...
+外部搜索...
+
+christy
+Bundle.properties
+
+410
+Some project folders seem to have been moved.
+某些项目目录好像被移走了。
+
+钢
+Bundle.properties
+
+411
+You should specify their new location or recreate them.
+为文件夹指定新位置或重新创建
+
+christy
+Bundle.properties
+
+412
+Please select the language of your source files and the target language you would like to translate to.
+选择源文件语种并为设置目标语种
+
+christy
+Bundle.properties
+
+413
+Here you may also specify custom location of project folders.
+此处还可指定项目文件夹的位置。
+
+钢
+Bundle.properties
+
+414
+Create a New Project
+创建新项目
+
+钢
+Bundle.properties
+
+415
+Choose MED project
+选择 MED 项目
+
+christy
+Bundle.properties
+
+416
+ZIP files
+压缩文件
+
+christy
+Bundle.properties
+
+417
+OmegaT Project Files
+OmegaT 项目文件
+
+钢
+Bundle.properties
+
+418
+Unable to read project file!
+无法读取项目文件！
+
+钢
+Bundle.properties
+
+419
+Unable to convert project!
+无法转换项目!
+
+christy
+Bundle.properties
+
+420
+Unable to download team project!
+无法下载项目文件!
+
+christy
+Bundle.properties
+
+421
+Repository Mapping
+仓库映射
+
+christy
+Bundle.properties
+
+422
+Add
+添加
+
+christy
+Bundle.properties
+
+423
+Remove
+移除
+
+christy
+Bundle.properties
+
+424
+Remote Repositories
+远程仓库
+
+christy
+Bundle.properties
+
+425
+Type
+类型
+
+christy
+Bundle.properties
+
+426
+URL
+URL
+
+xulihang
+Bundle.properties
+
+427
+Mapping of Local Folders to Remote Folders in Repositories
+本地文件夹到仓库远程文件夹的映射
+
+christy
+Bundle.properties
+
+428
+Repository
+仓库
+
+christy
+Bundle.properties
+
+429
+Local File/Folder
+本地文件/文件夹
+
+christy
+Bundle.properties
+
+430
+Remote File/Folder
+远程文件/文件夹
+
+christy
+Bundle.properties
+
+431
+Exclude Pattern
+排除模式
+
+christy
+Bundle.properties
+
+432
+Include Pattern
+包含模式
+
+christy
+Bundle.properties
+
+433
+Invalid repository type: {0}
+无效仓库类型: {0}
+
+christy
+Bundle.properties
+
+434
+Repository {0} is already present
+仓库{0} 已存在
+
+christy
+Bundle.properties
+
+435
+Repository {0} unknown
+未知 {0}仓库
+
+christy
+Bundle.properties
+
+436
+Empty repository URL in the mapping
+映射中的空仓库地址
+
+christy
+Bundle.properties
+
+437
+Git
+Git
+
+钢
+Bundle.properties
+
+438
+Subversion
+未翻译
+
+没有修改者
+Bundle.properties
+
+439
+HTTP(S)
+未翻译
+
+没有修改者
+Bundle.properties
+
+440
+The source file language entered is invalid!
+输入的源文件语种无效！
+
+钢
+Bundle.properties
+
+441
+The language code should be in the form xx-YY, xxx-YY, xx_YY or xxx_YY, where 
+xx or xxx is the language code and YY is the region or country code (optional).
+语种代码应该以 xx-YY 或 xx_YY的形式输入，其中 xx 是语言代码而 YY 是地区或国家代码（可选）。
+
+钢
+Bundle.properties
+
+442
+The translated file language entered is invalid!
+输入的原文文件语种无效！
+
+钢
+Bundle.properties
+
+443
+Source files folder entered does not exist!
+输入的源文件目录不存在！
+
+钢
+Bundle.properties
+
+444
+Translated files folder entered does not exist!
+输入的源文件目录不存在！
+
+钢
+Bundle.properties
+
+445
+Glossary files folder entered does not exist!
+输入的术语表文件目录不存在！
+
+xulihang
+Bundle.properties
+
+446
+Writeable glossary file folder entered does not exist!
+输入的可写术语表文件目录不存在！
+
+xulihang
+Bundle.properties
+
