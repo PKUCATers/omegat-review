@@ -1,0 +1,1582 @@
+447
+The writeable glossary file must be inside the glossary folder
+可写术语表文件必须置于术语表目录中。
+
+xulihang
+Bundle.properties
+
+448
+Translation memory files folder entered does not exist!
+输入的翻译记忆文件目录不存在！
+
+flycr
+Bundle.properties
+
+449
+Dictionary files folder entered does not exist!
+输入的字典文件文件目录不存在！
+
+钢
+Bundle.properties
+
+450
+ERROR: {0}
+错误：{0}
+
+钢
+Bundle.properties
+
+451
+OmegaT Project Folder
+OmegaT 项目文件夹
+
+钢
+Bundle.properties
+
+452
+Folder already exists and is not empty.
+目录已经存在而且不是空的。
+
+钢
+Bundle.properties
+
+453
+Please select a different folder.
+请另选一个目录。
+
+钢
+Bundle.properties
+
+454
+Error
+错误
+
+钢
+Bundle.properties
+
+455
+An error occurred while trying to create a new folder
+创建新文件夹时发生错误
+
+钢
+Bundle.properties
+
+456
+Search for:
+查找：
+
+钢
+Bundle.properties
+
+457
+Replace with:
+替换为:
+
+flycr
+Bundle.properties
+
+458
+&Keyword search
+关键词搜索
+
+flycr
+Bundle.properties
+
+459
+&Exact search
+精确搜索
+
+flycr
+Bundle.properties
+
+460
+&Regular expressions
+正则表达式
+
+flycr
+Bundle.properties
+
+461
+In notes
+在注释中查找
+
+flycr
+Bundle.properties
+
+462
+In comments
+在评论中查找
+
+flycr
+Bundle.properties
+
+463
+Show Advanced &Options
+显示高级选项
+
+flycr
+Bundle.properties
+
+464
+Hide Advanced &Options
+隐藏高级选项
+
+flycr
+Bundle.properties
+
+465
+Aut&hor:
+作者:
+
+flycr
+Bundle.properties
+
+466
+Now
+目前
+
+钢
+Bundle.properties
+
+467
+Changed after:
+之后修改
+
+flycr
+Bundle.properties
+
+468
+Changed &before:
+之前修改:
+
+flycr
+Bundle.properties
+
+469
+C&ase sensitive
+区分大小写
+
+flycr
+Bundle.properties
+
+470
+Full/Half &width char insensitive
+全半角字符敏感
+
+flycr
+Bundle.properties
+
+471
+S&pace matches nbsp
+匹配空格
+
+flycr
+Bundle.properties
+
+472
+Search in
+搜索范围
+
+钢
+Bundle.properties
+
+473
+Memor&y
+记忆
+
+flycr
+Bundle.properties
+
+474
+T&Ms
+翻译记忆库(&M)
+
+lenovo
+Bundle.properties
+
+475
+&Glossaries
+术语表(&G)
+
+lenovo
+Bundle.properties
+
+476
+&Translated
+已译
+
+flycr
+Bundle.properties
+
+477
+U&ntranslated
+未译
+
+flycr
+Bundle.properties
+
+478
+In so&urce
+在原文中
+
+flycr
+Bundle.properties
+
+479
+&In translation
+在译文中
+
+flycr
+Bundle.properties
+
+480
+Trans&lated or untranslated
+已译或未译
+
+flycr
+Bundle.properties
+
+481
+U&ntranslated
+未译
+
+flycr
+Bundle.properties
+
+482
+Display:
+显示:
+
+flycr
+Bundle.properties
+
+483
+all matching segments
+所有匹配片段
+
+flycr
+Bundle.properties
+
+484
+file names
+文件名
+
+flycr
+Bundle.properties
+
+485
+Location
+位置
+
+钢
+Bundle.properties
+
+486
+Select Fol&der
+选择文件夹
+
+flycr
+Bundle.properties
+
+487
+&Files
+文件
+
+flycr
+Bundle.properties
+
+488
+Pro&ject
+项目
+
+flycr
+Bundle.properties
+
+489
+Recursi&ve search
+递归搜索
+
+flycr
+Bundle.properties
+
+490
+Text Search
+文本搜索
+
+钢
+Bundle.properties
+
+491
+Text Replace
+文本替换
+
+flycr
+Bundle.properties
+
+492
+You are going to modify {0} segments.
+您即将修改 {0} 片段
+
+flycr
+Bundle.properties
+
+493
+Do you want to continue?
+是否继续？
+
+flycr
+Bundle.properties
+
+494
+Number of matching segments:
+匹配片段数量
+
+flycr
+Bundle.properties
+
+495
+Scope:
+The scope of a search is by default the project and can be set to be any files located in a specified folder hierarchy.
+范围：
+搜索的默认范围是本项目文件，也可以设置为指定目录下的其他文件
+
+flycr
+Bundle.properties
+
+496
+Project searches are by default performed on the source and target, reference TMs, glossaries, notes and comments of the project.
+项目搜索默认将搜索源文和译文、引用的翻译记忆库、术语表、注释及项目中的评论。
+
+flycr
+Bundle.properties
+
+497
+Types:
+Exact searches match the whole search string.
+类型：
+精确搜索将完美匹配输入的字符串。
+
+flycr
+Bundle.properties
+
+498
+Keyword searches match all the space-separated keywords regardless of their order.
+关键字搜索匹配所有以空格隔开的关键词，顺序不限。
+
+flycr
+Bundle.properties
+
+499
+Regular expression searches match Java regular expressions as documented in the user manual.
+正则表达式搜索匹配Java正则表达式结果，请参阅相关用户手册。
+
+flycr
+Bundle.properties
+
+500
+Wildcards:
+Both exact and keyword searches support the wildcard characters * and ?.
+通配符：精确搜索和关键字搜索均支持通配符 * 和 ?。
+
+flycr
+Bundle.properties
+
+501
+'*' matches zero or more characters ('run*' matches 'run', 'runs', and'running', etc.)
+'?' matches exactly one character ('run?' matches 'runs' and 'rung', but not 'run' or 'running').
+字符"*"匹配零个或任意数量个字符（例如'run*'将会匹配'run'、'runs'、'running'以及很多）
+字符 '?' 匹配任何单个的字符（例如'run?' 将会匹配'runs' 和 'rung'，但是不匹配 'run' 或 'running'）
+
+flycr
+Bundle.properties
+
+502
+Text Replace:
+The scope of a text replacement is the target segments of the project, whether they already have contents or not.
+文本替换：
+文本替换的范围是项目中的目标片段，不论其目前是否有内容
+
+flycr
+Bundle.properties
+
+503
+Keyword searches are not available in the search string.
+您目前输入的内容无法进行关键字搜索。
+
+flycr
+Bundle.properties
+
+504
+When using regular expressions, the replacement string supports references to groups defined in the search string.
+当您使用正则表达式时，您可以在正则表达式中定义组别并指定要替换内容的组别。
+
+flycr
+Bundle.properties
+
+505
+Use $n to refer to the nth group.
+使用 $n 指定第n组。
+
+flycr
+Bundle.properties
+
+506
+Auto-sync with Editor
+自动与编辑器保持同步
+
+flycr
+Bundle.properties
+
+507
+Back to the initial segment on close
+关闭时回到初始片段
+
+flycr
+Bundle.properties
+
+508
+Exclude orphan segments
+排除孤立片段
+
+flycr
+Bundle.properties
+
+509
+Maximum number of finds has been reached ({0})
+达到了最大查找数量（{0}）
+
+钢
+Bundle.properties
+
+510
+Error searching directory tree!
+搜索目录树时发生错误！
+
+钢
+Bundle.properties
+
+511
+Bad regular expression!
+错误的正则表达式！
+
+钢
+Bundle.properties
+
+512
+Error during regular expression replacement:
+使用正则表达式进行替换时产生错误:
+
+flycr
+Bundle.properties
+
+513
+Group {0} does not exist in search expression
+第 {0} 组在搜索表达式中不存在
+
+flycr
+Bundle.properties
+
+514
+Bad folder name {0}
+出错文件夹名称 {0}
+
+钢
+Bundle.properties
+
+515
+Search thread died unexpectedly!
+搜索线程意外崩溃！
+
+钢
+Bundle.properties
+
+516
+Please close search window.
+请关闭搜索窗口。
+
+钢
+Bundle.properties
+
+517
+No matches returned by search.
+搜索未发现任何匹配内容。
+
+钢
+Bundle.properties
+
+518
+Nr of matching segments: {0}
+匹配片段数量
+
+flycr
+Bundle.properties
+
+519
+Glossary
+术语表
+
+xulihang
+Bundle.properties
+
+520
++{0} more
++{0} 更多
+
+flycr
+Bundle.properties
+
+521
+{0} +{1} more
+{0} +{1} 更多
+
+flycr
+Bundle.properties
+
+522
+File
+文件
+
+xulihang
+Bundle.properties
+
+523
+&Close
+关闭(&C)
+
+Administrator
+Bundle.properties
+
+524
+&Search for Selection
+在选中部分中搜索
+
+flycr
+Bundle.properties
+
+525
+Edit
+编辑
+
+Fu Rhong
+Bundle.properties
+
+526
+&Reset Options
+重置所有选项
+
+flycr
+Bundle.properties
+
+527
+Unable to initialize read of XML file!
+无法初始化读取 XML 文件！
+
+钢
+Bundle.properties
+
+528
+Unsupported XML version {0}!
+不支持的 XML 版本 {0}!
+
+钢
+Bundle.properties
+
+529
+Not a valid XML file!
+非法的 XML 文件！
+
+钢
+Bundle.properties
+
+530
+Cannot load specified XML file!
+无法载入指定的 XML 文件！
+
+钢
+Bundle.properties
+
+531
+IOException encountered:
+发生输入输出错误：
+
+flycr
+Bundle.properties
+
+532
+Unexpected char {0} ({1})!
+意外字符 {0} ({1})!
+
+钢
+Bundle.properties
+
+533
+Confused by false start of comment tag!
+错误开始的注释标签导致混乱！
+
+flycr
+Bundle.properties
+
+534
+Tag name:
+标签名称：
+
+钢
+Bundle.properties
+
+535
+(comment tag)
+(注释标签)
+
+钢
+Bundle.properties
+
+536
+Floating '?' character not tied to '>'!
+浮点数 '?' 无法绑定到 '>'!
+
+钢
+Bundle.properties
+
+537
+(empty tag)
+(空白标签)
+
+钢
+Bundle.properties
+
+538
+(close tag)
+(闭标签)
+
+钢
+Bundle.properties
+
+539
+loaded
+已载入
+
+钢
+Bundle.properties
+
+540
+attributes.
+属性。
+
+钢
+Bundle.properties
+
+541
+End of stream encountered without finding close block!
+文件流在未进行到关闭代码块时意外结束！
+
+flycr
+Bundle.properties
+
+542
+Escaped character never terminated!
+转义字符未结束！
+
+钢
+Bundle.properties
+
+543
+Escaped binary char contains malformed data ({0})!
+转义二进制字符包含错误数据 ({0})!
+
+钢
+Bundle.properties
+
+544
+Escaped decimal char contains malformed data ({0})!
+转义十进制字符包含包含错误数据({0})!
+
+钢
+Bundle.properties
+
+545
+File {0} does not exist!
+文件 {0} 不存在！
+
+钢
+Bundle.properties
+
+546
+Preferences system save operation failed!
+首选项系统保存失败！
+
+flycr
+Bundle.properties
+
+547
+Parse error encountered reading preferences file!
+读取首选项文件时解析错误！
+
+flycr
+Bundle.properties
+
+548
+Unsupported file encoding
+不支持的文件编码
+
+钢
+Bundle.properties
+
+549
+Unable to read file
+无法读取文件！
+
+钢
+Bundle.properties
+
+550
+Backed up preferences to {0}
+将首选项备份至 {0}
+
+flycr
+Bundle.properties
+
+551
+Failed to back up preferences file.
+首选项文件备份失败。
+
+flycr
+Bundle.properties
+
+552
+Unsupported project file version ({0})!
+不支持的项目文件版本({0})!
+
+flycr
+Bundle.properties
+
+553
+Reading TMX file {0}
+读取TMX 文件 {0}
+
+钢
+Bundle.properties
+
+554
+Reading of TMX file complete
+读取 TMX 文件完成
+
+钢
+Bundle.properties
+
+555
+Created by: {0}
+由: {0}创建
+
+钢
+Bundle.properties
+
+556
+Version: {0}
+版本：{0}
+
+钢
+Bundle.properties
+
+557
+Segmentation method: {0}
+分段方法： {0}
+
+钢
+Bundle.properties
+
+558
+Source language: {0}
+原文语种：{0}
+
+钢
+Bundle.properties
+
+559
+Variants in the following languages will be displayed: {0}
+下列语言的变量将会被显示： {0}
+
+钢
+Bundle.properties
+
+560
+Exception while parsing:
+结构化处理时遇到异常：{0}
+
+flycr
+Bundle.properties
+
+561
+An exception occurred while parsing the TMX file
+{0}
+The TMX file will not be loaded.
+分析TMX文件时发生异常：{0}
+此TMX 文件不会被载入。
+
+flycr
+Bundle.properties
+
+562
+Please consult the log
+({1})
+to determine the source of the error and try again.
+请分析日志
+({1})
+以确定异常产生的原因，并再试一次。
+
+flycr
+Bundle.properties
+
+563
+Warning on line {0}, column {1} while parsing:
+处理第 {0} 行第 {1} 列发生警告：
+
+flycr
+Bundle.properties
+
+564
+Recoverable error on line {0}, column {1} while parsing:
+处理第 {0} 行第 {1} 列发生可恢复错误：
+
+flycr
+Bundle.properties
+
+565
+Fatal error on line {0}, column {1} while parsing:
+处理第 {0} 行第 {1} 列时发生致命错误：
+
+flycr
+Bundle.properties
+
+566
+Unrecoverable error while parsing TMX file
+{0}
+on line {1}, column {2}.
+分析TMX文件 {0} 时在第 {1} 行第 {2} 列发生不可恢复错误
+
+钢
+Bundle.properties
+
+567
+The TMX file will not be loaded
+Please try to correct the error and reload the project.
+此TMX文件将不会被导入。请尝试修正错误并重新载入项目。
+
+flycr
+Bundle.properties
+
+568
+Translation unit encountered before TMX header.
+错误：TMX文件头之前发现了翻译单元。
+
+钢
+Bundle.properties
+
+569
+Translation unit variant encountered outside translation unit.
+在翻译单元之外发现了翻译单元变量。
+
+flycr
+Bundle.properties
+
+570
+Variant skipped.
+变量被忽略。
+
+钢
+Bundle.properties
+
+571
+Language not specified for translation unit variant.
+没有为翻译单元变量指定语种。
+
+钢
+Bundle.properties
+
+572
+Variant skipped.
+变量被忽略。
+
+钢
+Bundle.properties
+
+573
+Segment encountered outside translation unit variant.
+在翻译单元变量之外发现了片段。
+
+flycr
+Bundle.properties
+
+574
+Segment skipped.
+片段被忽略。
+
+钢
+Bundle.properties
+
+575
+Source segment could not be located for certain translation units.
+某些翻译单元无法找到源片段。
+
+flycr
+Bundle.properties
+
+576
+These units have been skipped.
+已经忽略这些单元。
+
+钢
+Bundle.properties
+
+577
+The TMX source language ({0}) is different from the project source language ({1}).
+TMX源语种（{0}）和项目源语种{1}不同。
+
+钢
+Bundle.properties
+
+578
+The TMX file will continue to be loaded.
+TMX文件将被继续载入。
+
+钢
+Bundle.properties
+
+579
+TMX file was created by OmegaT 1.4.x or earlier.
+TMX由OmegaT1.4.X或更早的版本创建。
+
+钢
+Bundle.properties
+
+580
+Upgrading...
+更在更新中...
+
+xulihang
+Bundle.properties
+
+581
+Your current project uses sentence segmentation, but TMX file was created using paragraph segmentation.
+当前项目使用句子分段，但TMX文件使用段落分段创建。
+
+钢
+Bundle.properties
+
+582
+OmegaT will try to resegment the TMX file...
+OmegaT 将尝试对TMX文件重新分段。
+
+钢
+Bundle.properties
+
+583
+Error reading TMX level2 at line {0} column {1}
+读取二级 TMX 文件的第 {0} 行第 {1} 时发生错误
+
+钢
+Bundle.properties
+
+584
+Loading glossary {0}
+载入术语表{0}
+
+xulihang
+Bundle.properties
+
+585
+Added {0} glossary entries from {1}
+从 {1} 中添加了 {0} 项术语条目
+
+flycr
+Bundle.properties
+
+586
+Could not initialize OS look and feel!
+无法初始化操作系统外观！
+
+钢
+Bundle.properties
+
+587
+Unknown plugin type '{0}' in '{1}'
+'{1} 中的 '{0}' 插件类型未知'
+
+flycr
+Bundle.properties
+
+588
+Error initializing marker '{0}'
+初始化标记工具时出错 '{0}'
+
+钢
+Bundle.properties
+
+589
+Error load plugin from class '{0}': {1}: {2}
+从类 '{0}': {1}: {2} 中载入插件出错
+
+钢
+Bundle.properties
+
+590
+Error unload plugin from class '{0}': {1}
+从类 '{0}': 中卸载插件出错
+
+钢
+Bundle.properties
+
+591
+Jar used for plugins: {0}
+插件所使用的 Jar：{0}
+
+钢
+Bundle.properties
+
+592
+Plugin successfully loaded from class '{0}'
+成功从类 '{0}' 中导入插件
+
+钢
+Bundle.properties
+
+593
+Unable to parse filters configuration file
+无法解析过滤器配置文件
+
+钢
+Bundle.properties
+
+594
+Unable to save filters configuration file
+无法保存过滤器配置文件
+
+flycr
+Bundle.properties
+
+595
+Filter '{0}' could not be loaded from '{1}'
+无法从 {1} 载入过滤器  '{0}' 
+
+钢
+Bundle.properties
+
+596
+Translated file path cannot be identical to the source file path:
+{0}
+已译文件路径不能与源文件路径相同:
+{0}
+
+flycr
+Bundle.properties
+
+597
+File Format
+文件格式
+
+钢
+Bundle.properties
+
+598
+Enabled
+已启用
+
+flycr
+Bundle.properties
+
+599
+Column Index must be equal to 1
+列索引必须等于 1
+
+钢
+Bundle.properties
+
+600
+Source Filename Pattern
+原文文件名模式
+
+钢
+Bundle.properties
+
+601
+Source File Encoding
+原文文件编码方式
+
+钢
+Bundle.properties
+
+602
+Translated File Encoding
+译文文件编码方式
+
+钢
+Bundle.properties
+
+603
+Translated Filename Pattern
+译文文件匹配模式
+
+钢
+Bundle.properties
+
+604
+LaTeX
+LaTeX
+
+钢
+Bundle.properties
+
+605
+PO
+PO
+
+钢
+Bundle.properties
+
+606
+PO Filter Options
+PO 过滤器选项
+
+钢
+Bundle.properties
+
+607
+&Allow blank translations in the target files
+在目标文件中允许空译文
+
+flycr
+Bundle.properties
+
+608
+Allow translating &blank source segments
+允许翻译空白源片段
+
+flycr
+Bundle.properties
+
+609
+&Skip PO header
+跳过 PO 文件头部
+
+flycr
+Bundle.properties
+
+610
+Auto replace 'nplurals=INTEGER; &plural=EXPRESSION;' in header
+自动替换头部的 'nplurals=INTEGER; &plural=EXPRESSION;' 
+
+钢
+Bundle.properties
+
+611
+Format:
+格式：
+
+钢
+Bundle.properties
+
+612
+Standard
+标准
+
+钢
+Bundle.properties
+
+613
+Monolingual
+单语
+
+钢
+Bundle.properties
+
+614
+The PO filter threw an exception:
+PO 过滤器抛出异常：
+
+flycr
+Bundle.properties
+
+615
+Invalid file format
+无效文件格式
+
+钢
+Bundle.properties
+
+616
+PDF Input
+PDF 输入
+
+钢
+Bundle.properties
+
+617
+Password-protected PDF files are not supported: {0}
+不支持受密码保护的PDF文件: {0}
+
+flycr
+Bundle.properties
+
+618
+Windows Resources
+Windows 资源
+
+钢
+Bundle.properties
+
+619
+Mozilla DTD
+Mozilla DTD
+
+钢
+Bundle.properties
+
+620
+Mozilla DTD Filter Options
+Mozilla DTD过滤器选项
+
+flycr
+Bundle.properties
+
+621
+&Remove untranslated strings in the target files
+删除目标文件中的未翻译字符串
+
+flycr
+Bundle.properties
+
+622
+The Mozilla DTD filter threw an exception:
+Mozilla DTD过滤器抛出异常::
+
+flycr
+Bundle.properties
+
+623
+Mozilla Lang
+Mozilla 语言
+
+flycr
+Bundle.properties
+
+624
+---- Localization Notes ----
+---- 本地化注释 ----
+
+flycr
+Bundle.properties
+
+625
+QuarkXPress CopyFlow Gold
+QuarkXPress CopyFlow Gold
+
+钢
+Bundle.properties
+
+626
+Text
+文本
+
+钢
+Bundle.properties
+
+627
+Text Filter Options
+文本过滤器选项
+
+flycr
+Bundle.properties
+
+628
+Segment source text into paragraphs on:
+将源文本分割成段落时使用：
+
+钢
+Bundle.properties
+
+629
+&Line breaks
+行终止符
+
+flycr
+Bundle.properties
+
+630
+&Empty lines
+空行
+
+flycr
+Bundle.properties
+
+631
+&Never
+从不
+
+flycr
+Bundle.properties
+
+632
+Options to set the line length in target documents (0 = no limit)
+设置目标文件中的每行长度 (0 = 没有限制)
+
+flycr
+Bundle.properties
+
+633
+Line length:
+每行长度:
+
+flycr
+Bundle.properties
+
+634
+Maximum line length:
+最大每行长度:
+
+flycr
+Bundle.properties
+
+635
+Java(TM) Resource Bundles
+Java(TM) 资源包
+
+flycr
+Bundle.properties
+
+636
+Encountered illegal \u sequence
+遇到非法 \u 序列
+
+flycr
+Bundle.properties
+
+637
+Java Resource Bundles Filter Options
+Java资源包过滤器选项
+
+flycr
+Bundle.properties
+
+638
+&Remove untranslated strings in the target files
+删除目标文件中的未翻译字符串
+
+flycr
+Bundle.properties
+
+639
+&Do not unescape Unicode literals (\uXXXX)
+不要对Unicode文本进行反转义，如: \uXXXX
+
+flycr
+Bundle.properties
+
+640
+The Java Resource Bundles filter threw an exception:
+Java资源包产生异常:
+
+flycr
+Bundle.properties
+
+641
+XLIFF
+XLIFF
+
+钢
+Bundle.properties
+
+642
+ResX
+ResX
+
+钢
+Bundle.properties
+
+643
+Help & Manual
+帮助和手册
+
+钢
+Bundle.properties
+
+644
+Java Properties XML
+Java资源文件XML
+
+flycr
+Bundle.properties
+
+645
+Schematron
+Schematron标准
+
+flycr
+Bundle.properties
+
+646
+RELAX NG
+未翻译
+
+没有修改者
+Bundle.properties
+
+647
+Camtasia for Windows
+Camtasia 的 Windows 版本
+
+钢
+Bundle.properties
+
+648
+Typo3 LocManager
+Typo3 LocManager
+
+钢
+Bundle.properties
+
+649
+Typo3 l10nmgr
+Typo3 l10nmgr
+
+钢
+Bundle.properties
+
+650
+WiX Localization
+WiX Localization
+
+钢
+Bundle.properties
+
+651
+SVG Image and Adobe Illustrator Export
+SVG图像及Adobe Illustrator文件导出
+
+flycr
+Bundle.properties
+
+652
+Infix
+Infix
+
+钢
+Bundle.properties
+
+653
+Flash XML Export
+Flash XML 输出
+
+钢
+Bundle.properties
+
+654
+Wordfast TXML
+Wordfast TXML
+
+钢
+Bundle.properties
+
+655
+Visio
+Visio
+
+钢
+Bundle.properties
+
+656
+Wordpress
+未翻译
+
+没有修改者
+Bundle.properties
+
+657
+Scribus
+未翻译
+
+没有修改者
+Bundle.properties
+
+658
+XML Spreadsheet 2003
+XML 2003电子表格
+
+flycr
+Bundle.properties
+
+659
+Error in file {0}, line {1}
+文件 {0} 第 {1} 行遇到错误
+
+钢
+Bundle.properties
+
+660
+DocBook
+DocBook
+
+钢
+Bundle.properties
+
+661
+Note: DocBook files are recognized not only by file extension, but they also must have a DOCTYPE declaration: <!DOCTYPE book PUBLIC \"-//OASIS//DTD DocBook XML... for DocBook 4, or a Namespace: xmlns="http://docbook.org/ns/docbook" for DocBook 5
+注意：DocBook 文件不仅仅根据文件扩展名判断。这些文件必须同时包括 DOCTYPE 声明： <!DOCTYPE book PUBLIC \"-//OASIS//DTD DocBook XML... （对于 DocBook 4），或者是 Namespace: xmlns="http://docbook.org/ns/docbook" （对于 DocBook 5）
+
+xulihang
+Bundle.properties
+
+662
+SubRip Subtitles
+SubRip 字幕
+
+钢
+Bundle.properties
+
+663
+YouTube Subtitles
+YouTube 字幕
+
+flycr
+Bundle.properties
+
+664
+WebVTT Subtitles
+WebVTT 字幕
+
+flycr
+Bundle.properties
+
+665
+Android Resources
+Android 资源文件
+
+钢
+Bundle.properties
+
+666
+Key=Value Text
+Key=Value Text
+
+钢
+Bundle.properties
+
+667
+DokuWiki
+DokuWiki
+
+钢
+Bundle.properties
+
+668
+Magento CE Locale CSV
+Magento CE Locale CSV
+
+钢
+Bundle.properties
+
+669
+ILIAS Language File
+ILIAS 语言文件
+
+flycr
+Bundle.properties
+
