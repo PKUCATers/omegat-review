@@ -1,0 +1,938 @@
+8113
+Fuzzy matching
+模糊匹配
+
+10353
+website/index.html
+
+8114
+Match propagation
+扩展匹配
+
+18261
+website/index.html
+
+8115
+Simultaneous processing of multiple-file projects
+多文件项目同步处理
+
+18261
+website/index.html
+
+8116
+Simultaneous use of multiple translation memories
+ 多翻译记忆同步使用
+
+18261
+website/index.html
+
+8117
+User glossaries with recognition of inflected forms
+屈折形态用户术语识别
+
+18261
+website/index.html
+
+8118
+Work with more than 30 file formats
+处理超过30种文件格式
+
+18261
+website/index.html
+
+8119
+Microsoft Word, Excel, Power
+Microsoft Word, Excel, Power格式
+
+18261
+website/index.html
+
+8120
+XHTML and HTML
+XHTML和HTML
+
+18261
+website/index.html
+
+8121
+Open Document Format (LibreOffice, OpenOffice.org)
+开源文档格式 (LibreOffice, OpenOffice.org)
+
+18261
+website/index.html
+
+8122
+MediaWiki (Wikipedia)
+维基百科 (Wikipedia)
+
+18261
+website/index.html
+
+8123
+Plain text
+纯文本
+
+18261
+website/index.html
+
+8124
+...and around 30 other file formats
+……和其他近30种文件格式
+
+18261
+website/index.html
+
+8125
+Powerful tools
+ 强大的工具
+
+18261
+website/index.html
+
+8126
+Unicode (UTF-8) support: can be used with non-Latin alphabets
+支持Unicode (UTF-8)：可使用非拉丁字母
+
+18261
+website/index.html
+
+8127
+Support for right-to-left languages
+支持从右到左的语言
+
+18261
+website/index.html
+
+8128
+Integral spelling checker
+整体拼写检查
+
+18261
+website/index.html
+
+8129
+Compatible with other translation memory applications (TMX, TTX, TXML, XLIFF, SDLXLIFF)
+与其他翻译记忆软件兼容(TMX, TTX, TXML, XLIFF, SDLXLIFF)
+
+18261
+website/index.html
+
+8130
+Interface to Google Translate
+Google 翻译接口
+
+18261
+website/index.html
+
+8131
+OmegaT Screenshot
+OmegaT 截屏
+
+18261
+website/index.html
+
+8132
+Download
+下载
+
+18261
+website/index.html
+
+8133
+<s0>OmegaT</s0> is available in many different versions in order to suit a range of user requirements.
+为满足多样用户需求<s0>OmegaT</s0>提供多种版本。
+
+18261
+website/index.html
+
+8134
+To find the version most suitable for you, follow the link below to the Download Selector.
+寻找最合适的版本，点击下载选择下方的链接。
+
+18261
+website/index.html
+
+8135
+Alternatively, if you already know which version you wish to download, click on the button to have an overview of the different OmegaT versions available.
+或者，如果你已经知道想要下载的版本，点击按钮，概览OmegaT的不同可用版本。
+
+18261
+website/index.html
+
+8136
+Download Selector
+下载选择
+
+18261
+website/index.html
+
+8137
+Download Overview
+下载概览
+
+18261
+website/index.html
+
+8138
+<s0><a1>{{site.data.versions.standard.name}}</a1></s0> Standard Version
+<s0><a1>{{site.data.versions.standard.name}}</a1></s0> 标准版
+
+18261
+website/index.html
+
+8139
+<s0><a1>{{site.data.versions.latest.name}}</a1></s0> Latest Version
+<s0><a1>{{site.data.versions.latest.name}}</a1></s0> 最新版
+
+18261
+website/index.html
+
+8140
+User portrait
+用户画像
+
+18261
+website/index.html
+
+8141
+The perfect companion for those of us who don't need complexity but efficiency; glossaries, auto-complete and automatic translation makes my work in literary translation so much more efficient
+提高效率的最佳选择；术语库，自动填写，自动翻译让我的翻译更加高效。
+
+18261
+website/index.html
+
+8142
+Diego Merino - Translator EN > ES
+Diego Merino - 英文译者 > ES
+
+18261
+website/index.html
+
+8143
+ODFAuthors and LibreOffice's Italian translators are proud to use such a good tool for their hard work within the LibreOffice Community.
+ODF的作者和LibreOffice 的意大利语译者对于可以使用这样一款好用的工具来处理LibreOffice社区的繁重工作，感到很满足。
+
+18261
+website/index.html
+
+8144
+Valter Mura - Translator EN > IT
+Valter Mura -英文译者  > IT
+
+18261
+website/index.html
+
+8145
+User portrait
+用户画像
+
+18261
+website/index.html
+
+8146
+I've been using OmegaT as a professional translator for over 10 years, benefiting in the early days from its ease of use and extremely helpful forum.
+我已经使用OmegaT超过10年，因为它的易用性和论坛受益匪浅。
+
+18261
+website/index.html
+
+8147
+A vast range of functions, an uncluttered interface, and, most importantly, constant, regular open-source development!
+多样的功能，简洁的界面，最重要的是持续的开源研发！
+
+18261
+website/index.html
+
+8148
+Robert Corner, Institut Laue-Langevin, France
+Robert Corner，Laue-Langevin研究所，法国
+
+18261
+website/index.html
+
+8149
+The OmegaT project and you
+你和OmegaT项目
+
+18261
+website/index.html
+
+8150
+OmegaT isn't just a product; it's an exciting project, and you can be part of it.
+OmegaT不仅是一款产品；更是一个你可以参与其中的，令人激动的项目。
+
+18261
+website/index.html
+
+8151
+OmegaT is free software.
+OmegaT是一款免费软件。
+
+18261
+website/index.html
+
+8152
+That means that users like you are free to download and use it with very little in the way of restrictions.
+这意味着，像你一样的用户，可以免费下载，几乎无限制地使用。
+
+18261
+website/index.html
+
+8153
+You are also free to copy it and pass it on to other people.
+你可以免费复制，拷贝给他人。
+
+18261
+website/index.html
+
+8154
+OmegaT is open-source software.
+OmegaT 是一款开源软件。
+
+18261
+website/index.html
+
+8155
+That means that if you feel so inclined, you may modify OmegaT to suit your own requirements.
+这意味着如果你想，就可以修改OmegaT满足自己的需求。
+
+18261
+website/index.html
+
+8156
+For advocates of open-source software, this freedom is even more important than the exemption from having to pay anything.
+支持开源软件，这份自由比免于付费更重要。
+
+18261
+website/index.html
+
+8157
+The OmegaT project would benefit from greater support from volunteers in almost all areas.
+OmegaT 项目得益于来自世界各地志愿者的大力支持。
+
+18261
+website/index.html
+
+8158
+Although many users are aware of this, their reaction is often "But I can't program!".
+许多用户意识到了这一点，但他们的反应经常是“可我并不会编程！”。
+
+18261
+website/index.html
+
+8159
+Programming is certainly the most important function, and without programming, there is no program.
+编程确实是最重要的，没有编程就不会有这款程序。
+
+18261
+website/index.html
+
+8160
+But programming isn't the only job needing to be done.
+但是编程并不是唯一的工作。
+
+18261
+website/index.html
+
+8161
+Below is a list of areas for which further volunteers would be more than welcome!
+下面列表的工作，欢迎更多志愿者的加入！
+
+18261
+website/index.html
+
+8162
+Documentation authoring
+文档写作
+
+18261
+website/index.html
+
+8163
+<a0>Documentation</a0> is very important.
+<a0>文档</a0> 非常重要。
+
+18261
+website/index.html
+
+8164
+Many of you reading this will be translators who have translated a lot of user documentation.
+正在阅读的各位，有许多都是翻译过许多用户文档的译者。
+
+18261
+website/index.html
+
+8165
+Have you considered writing some user documentation yourself?
+你有想过自己攥写用户文档吗？
+
+18261
+website/index.html
+
+8166
+It's a real eye-opener!
+这真的会让人大开眼界！
+
+18261
+website/index.html
+
+8167
+Localization
+本地化
+
+18261
+website/index.html
+
+8168
+Thanks to the work of translators in the past, OmegaT's user interface and/or Help texts have been translated into several languages.
+ 感谢以前译者的工作，OmegaT的用户界面和帮助文档 已经被翻译成多种语言。
+
+18261
+website/index.html
+
+8169
+That means there are only a few thousand left!
+这意味着只剩下几千种了!
+
+18261
+website/index.html
+
+8170
+Localizing OmegaT into other languages is also an ongoing task, since new features and functions are being added all the time.
+本地化OmegaT是一项正在进行的任务，因为随时都在添加新的特性和功能。
+
+18261
+website/index.html
+
+8171
+See the <a0>Localizing OmegaT HowTo</a0> for details of what is involved in localizing/translating OmegaT.
+查看 <a0>本地化 OmegaT 方法</a0>获取本地化/翻译 OmegaT的细节。
+
+18261
+website/index.html
+
+8172
+Testing
+测试
+
+18261
+website/index.html
+
+8173
+One of the most useful things OmegaT users can do is... to use OmegaT.
+用户可以做的最有用的事情之一就是使用OmegaT.
+
+18261
+website/index.html
+
+8174
+And when they find things that don't work, or deficiencies in the documentation, to tell us about them.
+发现无法使用的功能或者不足，请告知我们。
+
+18261
+website/index.html
+
+8175
+Publicity
+宣传
+
+18261
+website/index.html
+
+8176
+Have you ever written an article for your professional association's journal?
+你曾为你的专业协会期刊写过文章吗？
+
+18261
+website/index.html
+
+8177
+If not, why not write an article on using OmegaT?
+如果没有，为什么不写一篇关于OmegaT使用的文章呢？
+
+18261
+website/index.html
+
+8178
+Donations
+捐赠
+
+18261
+website/index.html
+
+8179
+If you have found OmegaT useful and would like to express your gratitude by making a <a0>donation</a0> on our Paypal account.
+如果你觉得OmegaT很有用，并且想要表达感谢，可以 <a0>捐赠</a0>在我们的paypal账号。
+
+18261
+website/index.html
+
+8180
+Programming (Java)
+编程(Java)
+
+18261
+website/index.html
+
+8181
+OmegaT is written in Java.
+OmegaT采用Java编程语言。
+
+18261
+website/index.html
+
+8182
+If you're a programmer and you happen to know Java, please check the documentation in the <a0>source code</a0> under /docs_devel for information on how to get started.
+如果你是一位程序员并且碰巧会用Java，请在docs_devel下查看 <a0>源代码</a0>获取更多信息，以便开始研发。 
+
+18261
+website/index.html
+
+8183
+Programming (not Java)
+编程 (not Java)
+
+18261
+website/index.html
+
+8184
+If you can program in another language, you can write code to support the core application.
+如果你会其他编程语言，可以编写代码支持核心应用。
+
+18261
+website/index.html
+
+8185
+Such auxiliary code has already been written in Javascript, Groovy and Tcl/Tk, for instance.
+其他辅助性代码有用Javascript, Groovy 和 Tcl/Tk等语言编写。
+
+18261
+website/index.html
+
+8186
+But I can't program at all, I hear you say.
+我知道你所说的，但是我不会编程。
+
+18261
+website/index.html
+
+8187
+Well, have you considered learning?
+那么，你想过学习吗？
+
+18261
+website/index.html
+
+8188
+If you are already reasonably familiar with computers in general and choose a straightforward scripting language like Javascript or Tcl/Tk, you could teach yourself enough to be able to write simple but useful scripts within just a couple of weeks.
+如果你已经了解了电脑，选择一种简单的脚本语言例如 Javascript 或者Tcl/Tk，通过可以自学，可以在几周内写出简单又有用的脚本。
+
+18261
+website/index.html
+
+8189
+Continuing Professional Development is the current buzzword!
+持续专业开发是现在的热词。
+
+18261
+website/index.html
+
+8190
+The open-source philosophy
+开源的理念
+
+18261
+website/philosophy.html
+
+8191
+OmegaT is an open-source application and project.
+OmegaT是一款开源的应用和项目。
+
+18261
+website/philosophy.html
+
+8192
+This means that the source code of the OmegaT program is freely available, and that OmegaT's license gives its users considerable freedom in its use.
+这意味着OmegaT的源代码可以免费获得，OmegaT的许可证给予用户相当的使用自由。
+
+18261
+website/philosophy.html
+
+8193
+Not only may it be used free of charge, users are also free to make copies of it and distribute them.
+用户不仅可以免费使用，还可以免费复制和分发。
+
+18261
+website/philosophy.html
+
+8194
+An important aspect of this freedom is that users may also modify the program's code.
+自由的一个重要方面是用户可以修改程序的代码。
+
+18261
+website/philosophy.html
+
+8195
+To the open-source movement, the freedom that users have to change the program to suit their own needs is more important than the fact that they do not have to pay for it.
+对于开源运动来说，用户可以根据需求改变程序比免费更重
+
+18261
+website/philosophy.html
+
+8196
+This is described as "free as in speech", in contrast to "free as in beer".
+这被描述为“自由的权利”，与“自由地获取软件”不同。
+
+18261
+website/philosophy.html
+
+8197
+The OmegaT project philosophy
+OmegaT 项目理念
+
+18261
+website/philosophy.html
+
+8198
+The same spirit can be found within the OmegaT project.
+在OmegaT项目中可以发现相同的精神。
+
+18261
+website/philosophy.html
+
+8199
+Users are free to download and use the program.
+用户可以自由地下载和使用项目。
+
+18261
+website/philosophy.html
+
+8200
+In turn, they are free, and indeed encouraged (but not obliged in any way) to contribute back to the project.
+转而，用户可以自由，并且被鼓励（并不是义务）为这一项目做贡献。
+
+18261
+website/philosophy.html
+
+8201
+How they do so is very much up to them.
+用户怎样做取决于他们自己。
+
+18261
+website/philosophy.html
+
+8202
+For example, there is nothing to stop a user writing their own user manual or a demonstration video for OmegaT, and if the project considers it remotely useful, it is likely to be made available to OmegaT's community of users.
+例如，没有什么可以阻止用户为OmegaT编写自己的用户手册或演示视频，如果项目认为它有长远的用途，它很可能会被提供给OmegaT的用户社区。
+
+18261
+website/philosophy.html
+
+8203
+Where routine tasks are concerned, volunteers working on the OmegaT project are generally given as much freedom as possible in determining the form of their contribution.
+在日常任务方面，从事OmegaT项目的志愿者通常会有尽可能多的自由来确定其贡献形式。.
+
+18261
+website/philosophy.html
+
+8204
+This hands-off approach is described by the current OmegaT project co-ordinator as "delegated anarchy".
+目前的OmegaT项目协调员将这种不干涉的方法描述为“授权无政府状态”。
+
+18261
+website/philosophy.html
+
+8205
+In some areas, some degree of co-ordination is required.
+在一些领域，需要一定程度的协调。
+
+18261
+website/philosophy.html
+
+8206
+For example, anyone is free to make changes to OmegaT's program code and to submit these changes to the development team.
+例如，任何人都可以自由地更改OmegaT的程序代码，并将这些更改提交给开发团队。
+
+18261
+website/philosophy.html
+
+8207
+Only if they are considered beneficial for OmegaT's users, however, will the development team include them in OmegaT.
+但是，只有当他们被认为对OmegaT的用户有利时，开发团队才会将他们纳入OmegaT。
+
+18261
+website/philosophy.html
+
+8208
+This ensures that the users' interests are protected, and has also resulted in OmegaT being awarded the <a0>Softpedia "100% FREE" guarantee</a0>.
+这确保了用户的利益受到保护，并且使OmegaT有<a0> Softpedia“100％免费”的保证</a0>。
+
+18261
+website/philosophy.html
+
+8209
+Development of OmegaT
+OmegaT开发
+
+18261
+website/philosophy.html
+
+8210
+As elsewhere in the OmegaT project, the work of programming OmegaT is done by volunteers, and in keeping with the project philosophy, the developments and improvements they make to OmegaT are ultimately at their discretion.
+与OmegaT项目的其他工作一样，OmegaT编程的工作由志愿者完成，并且与项目理念保持一致，他们对OmegaT的发展和改进最终由他们自行决定。
+
+18261
+website/philosophy.html
+
+8211
+There is however considerable scope within the project for users to suggest improvements and influence the course of future development.
+然而，用户在项目中有相当大的空间来提出改进，影响未来开发的进程。
+
+18261
+website/philosophy.html
+
+8212
+The first of these is the <a0>OmegaT user group</a0>.
+第一 <a0>OmegaT 用户组</a0>.
+
+18261
+website/philosophy.html
+
+8213
+This is the main focus of the OmegaT user community.
+这是OmegaT用户社区的主要关注点。
+
+18261
+website/philosophy.html
+
+8214
+New users of OmegaT are encouraged to make any suggestions here.
+鼓励OmegaT的新用户在此提出任何建议。
+
+18261
+website/philosophy.html
+
+8215
+One reason for this is that the desired function may already have been implemented, or that there may be reasons why it cannot be implemented.
+其中一个原因是，所需的功能可能已经实现，或者可能存在无法实现的原因。
+
+18261
+website/philosophy.html
+
+8216
+Convenient alternative functions or solutions may also exist.
+方便的替代功能或解决方案也可能存在。
+
+18261
+website/philosophy.html
+
+8217
+Detailed technical discussion of changes is best conducted directly with OmegaT's developers.
+最好直接与OmegaT的开发人员讨论有关更改的详细技术。
+
+18261
+website/philosophy.html
+
+8218
+For this purpose, a dedicated <a0>developers' mailing list</a0> exists.
+因为这一目的，有专用 <a0>开发者邮箱列表</a0> 。
+
+18261
+website/philosophy.html
+
+8219
+Once a user has formulated a proposed change or enhancement to OmegaT, a defined procedure exists for its submission to the development team for consideration.
+一旦用户提出了对OmegaT的更改或增强建议，就会有一个明确的程序提交给开发团队考虑。
+
+18261
+website/philosophy.html
+
+8220
+This enables the numerous suggestions to be managed more easily.
+这使得众多建议更易于管理。
+
+18261
+website/philosophy.html
+
+8221
+The procedure is termed an <a0>"RFE" (Request for Feature Enhancement) and is managed here</a0>.
+这一程序被称为 <a0>"RFE" （增强需求）</a0>.
+
+18261
+website/philosophy.html
+
+8222
+Literally hundreds of RFEs have already been made, and many of them already implemented.
+确实已经提出了数百个RFEs，许多已经实现。
+
+18261
+website/philosophy.html
+
+8223
+However, submission of an RFE does not mean that the desired feature or improvement will automatically be implemented.
+然而，提交RFE并不意味着所需的功能或改进将自动实现。
+
+18261
+website/philosophy.html
+
+8224
+Whether or not it is adopted depends firstly upon whether the development team considers it beneficial to OmegaT, and secondly, upon whether one of the developers is willing to do the work of implementing it.
+它是否被采用，首先取决于开发团队是否认为这是对OmegaT有利的，其次是开发人员是否愿意实现它。
+
+18261
+website/philosophy.html
+
+8225
+OmegaT's developers, who are all volunteers, may be more willing to implement an RFE if the development work is funded by the requester.
+OmegaT的开发人员都是志愿者，如果请求者提供资金，他们可能更愿意实施RFE。
+
+18261
+website/philosophy.html
+
+8226
+<a0>Sponsorship of development has already resulted in the addition of certain features.</a0> If you are willing to finance the work of implementing your desired feature, please contact the development team privately for a quotation.
+<a0>赞助已经促成了一些功能的实现</a0>如果您愿意资助实现您所需功能的工作，请私下与开发团队联系以获取报价。 
+
+18261
+website/philosophy.html
+
+8227
+It may also be possible for developments commissioned from external developers to be implemented within OmegaT.
+在OmegaT内实施外部开发者委托的开发也是可能的。
+
+18261
+website/philosophy.html
+
+8228
+As with free developments, however, the principle still applies that any changes to OmegaT must be beneficial to the application and its users.
+然而，与自由开发一样，该原则仍然适用，即对OmegaT的任何更改都必须有利于应用程序及其用户。
+
+18261
+website/philosophy.html
+
+8229
+Other OmegaT resources
+其他OmegaT资源 
+
+18261
+website/resources.html
+
+8230
+Tokenizers plug-in
+分词器插件
+
+18261
+website/resources.html
+
+8231
+Provides recognition of inflected forms in fuzzy matches and glossary hits.
+识别模糊匹配和术语采样中的屈折词形。
+
+18261
+website/resources.html
+
+8232
+A <a0>HowTo describing the tokenizers plug-in</a0> is also available.
+ <a0>分词器插件介绍</a0> 
+
+18261
+website/resources.html
+
+8233
+LanguageTool plug-in
+语言工具插件
+
+18261
+website/resources.html
+
+8234
+Checks for language errors (style, grammar, etc.).
+检查语言错误（写作风格、语法等）。
+
+18261
+website/resources.html
+
+8235
+Scripting plug-in
+脚本插件
+
+18261
+website/resources.html
+
+8236
+Enables external scripts to access OmegaT's functionality.
+启用外部脚本来获取OmegaT的功能
+
+18261
+website/resources.html
+
+8237
+(Not to be confused with the "Text Export" feature, which also enables scripts to be used with OmegaT, but on a more basic level.)
+（不要与“文本导出”功能混淆，该功能也可以在OmegaT中使用脚本，但是在更基础的层面上）。
+
+18261
+website/resources.html
+
+8238
+Okapi Filters Plugin
+Okapi过滤器插件
+
+18261
+website/resources.html
+
+8239
+Provides filters for handling further file formats, including Trados TTX.
+提供过滤器处理更多的文件格式，包括Trados TTX.
+
+18261
+website/resources.html
+
+8240
+Apertium Plugin
+Apertium插件
+
+18261
+website/resources.html
+
+8241
+Integrates the Apertium machine translation functionality into OmegaT.
+在OmegaT中集成了Apertium机器翻译的功能。
+
+18261
+website/resources.html
+
+8242
+Browser plugin
+浏览器插件
+
+18261
+website/resources.html
+
+8243
+Fast access to websites.
+快速浏览网站
+
+18261
+website/resources.html
+
+8244
+Website support can be scripted in Groovy.
+网站维护可以用Groovy编写。
+
+18261
+website/resources.html
+
+8245
+Important: in order to use the plug-ins, you may need to install a more recent version of OmegaT.
+注意：为了使用插件，您可能需要安装最新版本的OmegaT。
+
+18261
+website/resources.html
+
+8246
+Utilities
+实用工具
+
+18261
+website/resources.html
+
