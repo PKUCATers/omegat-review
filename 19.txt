@@ -1,0 +1,938 @@
+6639
+By Marco Cevoli and Sergio Alasia.
+Marco Cevoli 和 Sergio Alasia.
+
+Zenobia Fang
+website/documentation.html
+
+6640
+Blogs
+博客
+
+Zenobia Fang
+website/documentation.html
+
+6641
+Velior's corporate blog <br0/>
+Velior 的企业博客 <br0/>
+
+Zenobia Fang
+website/documentation.html
+
+6642
+on translation and the <br1/>
+关于翻译和 <br1/>
+
+Zenobia Fang
+website/documentation.html
+
+6643
+translation industry
+翻译产业
+
+Zenobia Fang
+website/documentation.html
+
+6644
+Blog pages on OmegaT.
+OmegaT 相关博客.
+
+Zenobia Fang
+website/documentation.html
+
+6645
+(In English)
+（英语）
+
+Zenobia Fang
+website/documentation.html
+
+6646
+Velior's corporate blog <br0/>
+Velior 的企业博客 <br0/>
+
+Zenobia Fang
+website/documentation.html
+
+6647
+on translation and the <br1/>
+关于翻译和 <br1/>
+
+Zenobia Fang
+website/documentation.html
+
+6648
+translation industry
+翻译产业
+
+Zenobia Fang
+website/documentation.html
+
+6649
+Blog pages on OmegaT.
+OmegaT 相关博客.
+
+Zenobia Fang
+website/documentation.html
+
+6650
+(In Russian)
+（俄语）
+
+Zenobia Fang
+website/documentation.html
+
+6651
+Links are provided below to the various versions of OmegaT.
+提供旧版本的 OmegaT 链接.
+
+Zenobia Fang
+website/download.html
+
+6652
+If you are confused about which version to download, you can use the <a0>Download selector</a0>.
+如果您不确定应下载哪个版本，您可以使用 <a0>下载选择</a0>.
+
+Zenobia Fang
+website/download.html
+
+6653
+OmegaT Download Selector
+OmegaT 下载选择
+
+Zenobia Fang
+website/download.html
+
+6654
+Installation Type
+安装类型
+
+Zenobia Fang
+website/download.html
+
+6655
+Version
+版本
+
+Zenobia Fang
+website/download.html
+
+6656
+Operating System
+操作系统
+
+Zenobia Fang
+website/download.html
+
+6657
+JRE
+未翻译
+
+没有修改者
+website/download.html
+
+6658
+Traditional
+传统的
+
+Zenobia Fang
+website/download.html
+
+6659
+The version for installation by the user, familiar to existing OmegaT users.
+用户安装的版本， OmegaT 现有用户较为熟悉。
+
+Zenobia Fang
+website/download.html
+
+6660
+If in doubt, select this version.
+如果不确定，选择此版本。
+
+Zenobia Fang
+website/download.html
+
+6661
+Web Start
+网页启动
+
+Zenobia Fang
+website/download.html
+
+6662
+The Web Start version is the "install and forget" version.<br0/>
+网页启动版本为“简单安装'版本。<br0/>
+
+Zenobia Fang
+website/download.html
+
+6663
+<s1>The benefit</s1>: once launched, future updates of the Web Start version will be installed automatically on your computer.<br2/>
+<s1>优点</s1>: 一旦启动，网页启动版本之后的更新将自动安装在您的电脑上。<br2/>
+
+Zenobia Fang
+website/download.html
+
+6664
+<s3>The drawback</s3>: at present, this version cannot be used in conjunction with plug-ins, so not all functions are available.
+<s3>调查问卷</s3>: 目前，该版本不能和插件一起使用，因此部分功能不可用。
+
+Zenobia Fang
+website/download.html
+
+6665
+Windows
+未翻译
+
+没有修改者
+website/download.html
+
+6666
+For installation on Windows System.
+安装在 Windows系统上。
+
+Zenobia Fang
+website/download.html
+
+6667
+Mac OS X
+未翻译
+
+没有修改者
+website/download.html
+
+6668
+For installation on Mac OS X.
+安装在 Mac OS X 上。
+
+Zenobia Fang
+website/download.html
+
+6669
+Linux
+未翻译
+
+没有修改者
+website/download.html
+
+6670
+For installation on Linux.
+安装在 Linux 系统上。
+
+Zenobia Fang
+website/download.html
+
+6671
+Other
+其它
+
+Fu Rhong
+website/download.html
+
+6672
+For installation on other operating systems (such as FreeBSD and Solaris).<br0/>
+安装在其他操作系统上（如 FreeBSD 和 Solaris 系统）。<br0/>
+
+Zenobia Fang
+website/download.html
+
+6673
+<i1>OmegaT can be installed on any operating system capable of running version 1.6 of the Java runtime environment.</i1>
+<i1>OmegaT 可安装在任何适应 Java 1.6 运行环境的操作系统上。</i1>
+
+Zenobia Fang
+website/download.html
+
+6674
+Select whether to download OmegaT with or without the Java Runtime Environment (JRE) included.
+选择下载是否包含 Java 运行环境（JRE）的 OmegaT。
+
+Zenobia Fang
+website/download.html
+
+6675
+If a suitable JRE is already installed on your Windows system, select "Without JRE".
+如果 Windows 系统中已经安装了适用的 JRE， 选择“不包含 JRE 版本”。
+
+Zenobia Fang
+website/download.html
+
+6676
+If not, or if you are not sure, select "with JRE".
+如果未安装或不确定，选择“包含 JRE 版本”。
+
+Zenobia Fang
+website/download.html
+
+6677
+OmegaT will usually run on any Linux system on which a suitable version of the Java Runtime Environment (JRE) can be be installed.
+OmegaT 可在任何能安装 Java 运行环境的 Linux 系统上运行。
+
+Zenobia Fang
+website/download.html
+
+6678
+OmegaT currently requires version 1.6 of the JRE or later.
+OmegaT 现要求 JRE 1.6 或更高版本。
+
+Zenobia Fang
+website/download.html
+
+6679
+To check what version of the JRE, if any, is installed on your Linux system, open a console (command-line window) and type:
+查看安装在 Linux 系统上的 JRE 版本，打开控制台（命令行窗口）和类型：
+
+Zenobia Fang
+website/download.html
+
+6680
+$ <s0>java -version</s0>
+$ <s0>java—版本</s0>
+
+Zenobia Fang
+website/download.html
+
+6681
+If you are unsure whether a suitable JRE is already installed on your system, you can still download and install an OmegaT version with JRE.
+如不确定系统中是否已安装了适用的 JRE，您可下载并安装包含 JRE 的 OmegaT 版本。
+
+Zenobia Fang
+website/download.html
+
+6682
+This version of the JRE will only be used locally for OmegaT, will not conflict with, override or uninstall any other JRE installations, and is therefore safe to use.
+这个版本的 JRE 只会在本地用于 OmegaT，不会与安装的其他 JRE 冲突，不会覆盖或卸载任何其他安装的 JRE。
+
+Zenobia Fang
+website/download.html
+
+6683
+With JRE
+包含 JRE
+
+Zenobia Fang
+website/download.html
+
+6684
+The "batteries included" version of OmegaT, with its own Java Runtime Environment.
+“内置配置”的 OmegaT 版本，有其独立的 JRE。
+
+Zenobia Fang
+website/download.html
+
+6685
+This version will take longer to download and will require more space on your hard drive, but you can be confident that it will run.
+该版本下载时间更长，需占用更大硬盘空间，但能确保可用。
+
+Zenobia Fang
+website/download.html
+
+6686
+If in doubt, select this option.
+如果不确定，选择此选项。.
+
+Zenobia Fang
+website/download.html
+
+6687
+With 64-bit JRE
+包含 64-bit JRE
+
+Zenobia Fang
+website/download.html
+
+6688
+The included JRE is the 64-bit version.
+内含 64-bit 版本 JRE。
+
+Zenobia Fang
+website/download.html
+
+6689
+The "batteries included" version of OmegaT, with its own Java Runtime Environment.
+“内置配置”的 OmegaT 版本，有其独立的 JRE。
+
+Zenobia Fang
+website/download.html
+
+6690
+This version will take longer to download and will require more space on your hard drive, but you can be confident that it will run.
+该版本下载时间更长，需占用更大硬盘空间，但能确保可用。
+
+Zenobia Fang
+website/download.html
+
+6691
+If in doubt, select this option.
+如果不确定，选择此选项。.
+
+Zenobia Fang
+website/download.html
+
+6692
+Without JRE
+不包含 JRE
+
+Zenobia Fang
+website/download.html
+
+6693
+If you are sure that a suitable Java Runtime Environment is already installed on your computer at system level, you can select the option without JRE included.
+如果您的电脑系统上已经安装了使用的 Java 运行环境，您可选择该不包含 JRE 的版本。
+
+Zenobia Fang
+website/download.html
+
+6694
+Standard
+标准
+
+钢
+website/download.html
+
+6695
+The "Standard" version of OmegaT includes a full user manual (at least in English) and will usually have been tested for some time to eliminate any bugs.
+OmegaT 的“标准”版本包括完整的用户手册（至少包含英文版本），并且通常会经过一段时间的测试以消除 bug。
+
+Zenobia Fang
+website/download.html
+
+6696
+It is the recommended version for first-time users.
+首次使用的用户，推荐使用该版本。
+
+Zenobia Fang
+website/download.html
+
+6697
+Latest
+最新
+
+Zenobia Fang
+website/download.html
+
+6698
+As its name suggests, the "Latest" version of Omegat is more up to date.
+顾名思义，“最新”指最新版本的 OmegaT。
+
+Zenobia Fang
+website/download.html
+
+6699
+However, the user manual may no longer be up to date (and therefore possibly confusing), and some minor bugs are possible.
+但是，用户手册可能不再是最新版本（因此可能会让人困惑），并且可能会出现小错误。
+
+Zenobia Fang
+website/download.html
+
+6700
+Nevertheless, the "Latest" versions of OmegaT are usually very stable and are recommended for any users who already have some experience with OmegaT.
+尽管如此，OmegaT 的“最新”版本通常非常稳定，推荐已有过使用 OmegaT 经验的用户使用。
+
+Zenobia Fang
+website/download.html
+
+6701
+Based on your choices, we recommand you use:
+根据您的选择，我们推荐您使用：
+
+Zenobia Fang
+website/download.html
+
+6702
+some version
+部分版本
+
+Zenobia Fang
+website/download.html
+
+6703
+Download
+下载
+
+18261
+website/download.html
+
+6704
+If this version is not available, you can try to <a0>download the unsigned version</a0>.
+如果该版本不可用，可尝试<a0>下载未签名版本</a0>。
+
+Zenobia Fang
+website/download.html
+
+6705
+Requirements
+运行要求
+
+Zenobia Fang
+website/download.html
+
+6706
+System requirements
+系统要求
+
+Zenobia Fang
+website/download.html
+
+6707
+OmegaT will run on any system on which the JRE (Java Runtime Environment) has been or can be installed.
+OmegaT 可在任何能或已安装 JRE（Java 运行环境）的系统上运行。
+
+Zenobia Fang
+website/download.html
+
+6708
+The JRE is now supplied with OmegaT and need not be obtained separately.
+OmegaT 会自带 JRE，不需要单独下载。
+
+Zenobia Fang
+website/download.html
+
+6709
+OmegaT has been successfully installed on Windows (all versions from 98 onwards), Macintosh OS X and Linux.
+OmegaT 已在 Windows（除 98 外的所有版本）、Micintosh OS X 及 Linux 上成功安装。 
+
+Zenobia Fang
+website/download.html
+
+6710
+Files in Microsoft Office XML format can be translated directly in OmegaT.
+Microsoft Office XML 格式的文件可直接在 OmegaT 中翻译。
+
+Zenobia Fang
+website/download.html
+
+6711
+Files in older MS Word, Excel and Powerpoint formats can be translated following conversion to the equivalent current Microsoft Office formats, or alternatively to the Office Open XML format, which can be done in OpenOffice.org or LibreOffice (also free).
+旧的 MS Word、Excel 和 Powerpoint 格式的文件可以在转换到等效的 Microsoft Office 格式文件后翻译，或者也可使用 OpenOffice.org 或 LibreOffice（同样免费）中转换成 Office Open XML 格式。
+
+Zenobia Fang
+website/download.html
+
+6712
+To obtain OpenOffice.org or LibreOffice, follow the link from "Third-party software" button on the left.
+获取 OpenOffice.org 或 LibreOffice，请点击左方“第三方软件”按钮链接到相应网站。
+
+Zenobia Fang
+website/download.html
+
+6713
+User requirements
+用户要求
+
+Zenobia Fang
+website/download.html
+
+6714
+OmegaT is not particularly difficult to install or use, but it does require a willingness to read and follow the instructions.
+OmegaT 的安装和使用都不复杂，但也需要阅读及遵循指示说明。
+
+Zenobia Fang
+website/download.html
+
+6715
+If you have a natural aversion to reading instructions, and your approach to new software is to click on every button you see until something resembling the desired effect occurs, then OmegaT is probably not suitable for you.
+如果您讨厌阅读，您面对新软件更喜欢点击每一个按钮，直到实现预期效果，那么 OmegaT 可能并不适合您。
+
+Zenobia Fang
+website/download.html
+
+6716
+Standard Version - {{site.data.versions.standard.name}}
+标准版本 — {{site.data.versions.standard.name}}
+
+Zenobia Fang
+website/download.html
+
+6717
+The Standard version has usually been in use for some time and is therefore proven.
+标准版通常已经使用了一段时间，已经被证明可用。.
+
+Zenobia Fang
+website/download.html
+
+6718
+Its documentation, at least in English, is usually reasonably up to date.
+其文档通常合理有效，至少英文文档如此。
+
+Zenobia Fang
+website/download.html
+
+6719
+It will however lack some of the features of the "Latest" version.
+然而，这一版本缺少“最新”版本的部分特性。
+
+Zenobia Fang
+website/download.html
+
+6720
+Platform
+平台
+
+Zenobia Fang
+website/download.html
+
+6721
+Detailed instructions
+详细说明
+
+Zenobia Fang
+website/download.html
+
+6722
+{% if platform.link != null %} <a0>Download</a0>
+{% if platform.link != null %} <a0>下载</a0>
+
+Zenobia Fang
+website/download.html
+
+6723
+{% else %} <a0>Download</a0>
+{% else %} <a0>下载</a0>
+
+Zenobia Fang
+website/download.html
+
+6724
+Latest Version - {{site.data.versions.latest.name}}
+最新版本 - {{site.data.versions.latest.name}}
+
+Zenobia Fang
+website/download.html
+
+6725
+The Latest version is a more recent version than the Standard version and includes new features not present in the latter.
+最新版本比标准版更新，包含一些之前没有的新特性。
+
+Zenobia Fang
+website/download.html
+
+6726
+The Latest version will usually be reasonably stable and usable, but may have some bugs.
+最新版本通常都较为稳定，但可能会有一些 bug。
+
+Zenobia Fang
+website/download.html
+
+6727
+Documentation, particularly of new features, will be less comprehensive than that of the Standard version.
+最新版的文档，尤其是一些新特性的文档，会比标准版文档更全面。
+
+Zenobia Fang
+website/download.html
+
+6728
+Users who already have some experience with OmegaT often prefer the Latest version.
+有 OmegaT 使用经验的用户往往更喜欢最新版本。
+
+Zenobia Fang
+website/download.html
+
+6729
+Platform
+平台
+
+Zenobia Fang
+website/download.html
+
+6730
+Detailed instructions
+详细说明
+
+Zenobia Fang
+website/download.html
+
+6731
+{% if platform.link != null %} <a0>Download</a0>
+{% if platform.link != null %} <a0>下载</a0>
+
+Zenobia Fang
+website/download.html
+
+6732
+{% else %} <a0>Download</a0>
+{% else %} <a0>下载</a0>
+
+Zenobia Fang
+website/download.html
+
+6733
+Developer Version
+开发者版本
+
+Zenobia Fang
+website/download.html
+
+6734
+The "/trunk" version is a cutting-edge, "alpha" version, still in development.
+“/主干”版本是一个前沿的“alpha”版本，仍在开发中。
+
+Zenobia Fang
+website/download.html
+
+6735
+Pre-built binaries, are available as Nightly Builds.
+预先构建的二进制文件可用作 Nightly Builds。
+
+Zenobia Fang
+website/download.html
+
+6736
+Platform
+平台
+
+Zenobia Fang
+website/download.html
+
+6737
+Detailed instructions
+详细说明
+
+Zenobia Fang
+website/download.html
+
+6738
+Trunk
+主干
+
+Zenobia Fang
+website/download.html
+
+6739
+Download
+下载
+
+18261
+website/download.html
+
+6740
+Nightly Builds
+未翻译
+
+没有修改者
+website/download.html
+
+6741
+Download
+下载
+
+18261
+website/download.html
+
+6742
+Legacy versions
+历史版本
+
+Zenobia Fang
+website/download.html
+
+6743
+You can still find <a0>older, superseded versions</a0> of OmegaT.
+您仍可获取 <a0>较老的、已被取代的版本</a0>的 OmegaT。
+
+Zenobia Fang
+website/download.html
+
+6744
+Legacy versions are older versions that have been superseded.
+历史版本是已经被取代的旧版本。.
+
+Zenobia Fang
+website/download.html
+
+6745
+For most users, these are not of interest.
+大多数用户对这些都不感兴趣。
+
+Zenobia Fang
+website/download.html
+
+6746
+However, some users may face restrictions (imposed by their operating systems or Java version) that may result in a preference for an older version.
+然而，一些用户可能会面临一些限制（由用户的操作系统或 Java 版本强制执行），这可能会导致对旧版本的偏好。
+
+Zenobia Fang
+website/download.html
+
+6747
+With/without JRE
+包含/不包含 JRE
+
+Zenobia Fang
+website/download.html
+
+6748
+In order to run, OmegaT requires the Java Runtime Environment (JRE) to be installed on your computer.
+要想运行 OmegaT，电脑上必须安装 Java 运行环境（JRE）。
+
+Zenobia Fang
+website/download.html
+
+6749
+If you are confident that a suitable version of the JRE is already installed on your computer, you can download a version of OmegaT without the JRE.
+如果您确定电脑中已经安装了适用的 JRE，您可下载不包含 JRE 的 OmegaT 版本。
+
+Zenobia Fang
+website/download.html
+
+6750
+The download will be faster, and the installation will require less space on your hard drive.
+下载会更快，安装占用硬盘空间更小。
+
+Zenobia Fang
+website/download.html
+
+6751
+In this case, do not select the Default version; select a different version (e.g. Standard or Latest), then select a version marked "Java not included".
+在此情况下，请勿选择默认版本；选择不同版本（例如标准或最新版本），然后选择标记“不包含 Java”的版本。
+
+Zenobia Fang
+website/download.html
+
+6752
+If you install the OmegaT version with JRE even though the JRE is already installed on your computer, OmegaT's JRE will be installed separately and will not conflict with it.
+如果您在电脑上已安装 JRE 的情况下下载了包含 JRE 的 OmegaT 版本，OmegaT 的 JRE 会独立安装，不会与已有的 JRE 冲突
+
+Zenobia Fang
+website/download.html
+
+6753
+It is therefore always safe to install the version of OmegaT with JRE.
+因此，安装含有 JRE 的 OmegaT 总是安全的。
+
+Zenobia Fang
+website/download.html
+
+6754
+If you are unsure whether or not you have a suitable version of the JRE, select a version with JRE (or the Default version).
+如果您不确定您是否已安装了适用的 JRE 版本，选择包含 JRE 的版本（或默认版本）。
+
+Zenobia Fang
+website/download.html
+
+6755
+<s0>Mac OS X users</s0>: the JRE is installed on Mac OS X by default; there is therefore no version for Mac OS X with the JRE.
+<s0>Mac OS X 用户</s0>：Mac OS X 上已默认安装 JRE；因此，不提供 Mac OS X 上的包含 JRE 版本。
+
+Zenobia Fang
+website/download.html
+
+6756
+<s0>Linux users</s0>: most Linux distributions are supplied with a Java Runtime Environment, but some open-source implementations do not work properly with OmegaT (although this may not be immediately apparent).
+<s0>Linux 用户</s0>：多数 Linux 发行版都提供了 Java 运行环境，但一些开源实现不能很好地处理 OmegaT（尽管可能并不明显）。
+
+Zenobia Fang
+website/download.html
+
+6757
+If you are relatively new to Linux, we advise you to select an OmegaT version with the JRE included.
+如果您是 Linux 的新用户，我们建议您选择包含 JRE 的 OmegaT 版本。
+
+Zenobia Fang
+website/download.html
+
+6758
+More experienced Linux users may prefer to install the Oracle (formerly Sun) JRE at system level.
+较有经验的 Linux 用户可能更喜欢在系统上按照 Oracle（以前的 Sun）JRE。
+
+Zenobia Fang
+website/download.html
+
+6759
+Signed/Unsigned
+已签名/未签名
+
+Zenobia Fang
+website/download.html
+
+6760
+Mac OS X has a feature called Gatekeeper that increases security by making it difficult to run unsigned programs.
+Mac OS X 有一个叫做 Gatekeeper 的功能，该功能通过增加运行未签字程序的难度来增加安全性。
+
+Zenobia Fang
+website/download.html
+
+6761
+OmegaT for Mac OS X is available in both signed and unsigned versions; they are functionally identical, but the signed version is preferred as it is recognized by the system as being published by a known developer.
+Mac OS X 上的 OmegaT 签名和未签名版都可用；他们在功能上相同，但首选签名版本，因为其是由已知开发者发布的。
+
+Zenobia Fang
+website/download.html
+
+6762
+There may be a delay in publishing signed versions.
+在发布签名版本时可能会有延迟。
+
+Zenobia Fang
+website/download.html
+
+6763
+Users in a hurry can use the unsigned version instead; if you have difficulty launching the app, see <a0>how to open an app from an unidentified developer</a0>.
+用户也可使用未签名版本替代；如果您在启动应用时遇到问题，请查看 <a0>如何打开未认证开发者的应用</a0>.
+
+Zenobia Fang
+website/download.html
+
+6764
+Signed/Unsigned
+已签名/未签名
+
+Zenobia Fang
+website/download.html
+
+6765
+Mac OS X has a feature called Gatekeeper that increases security by making it difficult to run unsigned programs.
+Mac OS X 有一个叫做 Gatekeeper 的功能，该功能通过增加运行未签字程序的难度来增加安全性。
+
+Zenobia Fang
+website/download.html
+
+6766
+OmegaT for Mac OS X is available in both signed and unsigned versions; they are functionally identical, but the signed version is preferred as it is recognized by the system as being published by a known developer.
+Mac OS X 上的 OmegaT 签名和未签名版都可用；他们在功能上相同，但首选签名版本，因为其是由已知开发者发布的。
+
+Zenobia Fang
+website/download.html
+
+6767
+There may be a delay in publishing signed versions.
+在发布签名版本时可能会有延迟。
+
+Zenobia Fang
+website/download.html
+
+6768
+Users in a hurry can use the unsigned version instead; if you have difficulty launching the app, see <a0>how to open an app from an unidentified developer</a0>.
+用户也可使用未签名版本替代；如果您在启动应用时遇到问题，请查看 <a0>如何打开未认证开发者的应用</a0>.
+
+Zenobia Fang
+website/download.html
+
+6769
+The Web Start version offers an alternative means of installing OmegaT on your computer.
+网页启动版本提供了在您电脑上安装 OmegaT 的另一种方法。
+
+Zenobia Fang
+website/download.html
+
+6770
+With this version, future updates will be installed automatically.
+这一版本下，后续更新将自动安装。
+
+Zenobia Fang
+website/download.html
+
+6771
+During installation, depending on your operating system, you may receive several security warnings.<br0/>
+在安装期间，根据操作系统的不同，你可能会收到几条安全警告。<br0/>
+
+Zenobia Fang
+website/download.html
+
+6772
+The certificate is signed by <a1>PnS Concept Sarl</a1>, a French registered company.
+该证书由 <a1>PnS Concept Sarl</a1>签名，这是一家法国注册公司。
+
+Zenobia Fang
+website/download.html
+
