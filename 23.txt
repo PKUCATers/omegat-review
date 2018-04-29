@@ -1,0 +1,942 @@
+7175
+(Record as described above, but only recording the command Ctrl+C followed by Ctrl+V.) You can then highlight text between the points at which formatting changes.
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7176
+This will level the formatting over sections of text that have the same, desired formatting, and you will not then need to restore deleted formatting.
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7177
+Use the level formatting macro only on paragraphs with little or no formatting.
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7178
+Paragraphs that you have not "levelled" will then contain nuisance tags, but at least the others will be much "cleaner".
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7179
+More advanced users may wish to try OmegaT's Text Export function.
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7180
+In conjunction with the te-st-notags script, this provides a separate window in which tags are not displayed.
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7181
+You must still handle tags properly when producing and editing your translation, but you can view it in a separate window without the clutter of tags ("tag soup").
+未翻译
+
+没有修改者
+website/howtos/docx.html
+
+7182
+Copyright Marc Prior 2009-2011
+版权归属于Marc Prior 2009-2011
+
+Zoe
+website/howtos/docx.html
+
+7183
+This HowTo explains how to produce an "uncleaned RTF" file from an OmegaT project.
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7184
+This format may be a practical interchange format for users of other CAT tools, particularly Trados and Wordfast Classic.
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7185
+Points to note:
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7186
+This code/procedure combination has not yet been thoroughly tested (though initial reports are promising).
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7187
+The script is available for the Windows platform only.
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7188
+It only enables translators to generate (i.e. deliver) Trados uncleaned files.
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7189
+It does not enable them to "translate" bilingual files supplied by their customers.
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7190
+1.
+1.
+
+Fu Rhong
+website/howtos/export_uncleaned_rtf.html
+
+7191
+Insert Trados segment delimiters
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7192
+To produce a bilingual OpenOffice.Org file containing the Trados segment delimiters, close the OmegaT project, then run the following AutoIt script (requires Windows) on the project's project_save.tmx file:
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7193
+www.leuce.com/autoit/uncleanifyTMX.zip
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7194
+2.
+2.
+
+Fu Rhong
+website/howtos/export_uncleaned_rtf.html
+
+7195
+Create target documents
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7196
+Create the target documents as usual and convert the file to Microsoft Word.
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7197
+3.
+3.
+
+钢
+website/howtos/export_uncleaned_rtf.html
+
+7198
+Apply styles to delimiters
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7199
+In Microsoft Word, run the following macro to apply the relevant styles to the target document(s):
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7200
+Private Sub AddTw4winStyles()<br0/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7201
+On Error Resume Next<br1/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7202
+Dim sMark, sInt, sExt As Style<br2/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7203
+Set sMark = ActiveDocument.Styles.Add(Name:="tw4winMark", _<br3/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7204
+    Type:=wdStyleTypeCharacter)<br4/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7205
+With sMark.Font<br5/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7206
+  .Name = "Courier"<br6/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7207
+  .Size = 11<br7/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7208
+  .Hidden = True<br8/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7209
+  .Subscript = True<br9/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7210
+  .ColorIndex = wdViolet<br10/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7211
+End With<br11/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7212
+Set sInt = ActiveDocument.Styles.Add(Name:="tw4winInternal", _<br12/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7213
+    Type:=wdStyleTypeCharacter)<br13/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7214
+sInt.LanguageID = wdNoProofing<br14/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7215
+With sInt.Font<br15/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7216
+  .Name = "Courier"<br16/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7217
+  .Size = 11<br17/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7218
+  .ColorIndex = wdRed<br18/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7219
+End With<br19/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7220
+Set sExt = ActiveDocument.Styles.Add(Name:="tw4winExternal", _<br20/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7221
+    Type:=wdStyleTypeCharacter)<br21/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7222
+sExt.LanguageID = wdNoProofing<br22/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7223
+With sExt.Font<br23/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7224
+  .Name = "Courier"<br24/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7225
+  .Size = 11<br25/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7226
+  .ColorIndex = wdGray50<br26/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7227
+End With<br27/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7228
+End Sub<br28/>
+未翻译
+
+没有修改者
+website/howtos/export_uncleaned_rtf.html
+
+7229
+Copyright Marc Prior 2009-2011
+版权归属于Marc Prior 2009-2011
+
+Zoe
+website/howtos/export_uncleaned_rtf.html
+
+7230
+Besides the web page into which users can simply paste text for translation, Google Translate also provides an interface (API) which can be used by CAT tools to access the service.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7231
+As of December 2011, Google has required payment from users for use of this service.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7232
+This HowTo describes how to configure the function in OmegaT.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7233
+1.
+1.
+
+Fu Rhong
+website/howtos/google_translate.html
+
+7234
+If you don't already have one, open an account with google.com.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7235
+2.
+2.
+
+Fu Rhong
+website/howtos/google_translate.html
+
+7236
+<a0>Follow this link to apply to Google</a0> for the Google Translate API v2 key.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7237
+Make sure that you have your credit card details handy.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7238
+Google will generate your API key, a string with approximately 39 characters.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7239
+3.
+3.
+
+钢
+website/howtos/google_translate.html
+
+7240
+Assign the key to OmegaT's launch procedure as follows, depending upon whether you are using Windows, Mac, or launching OmegaT from the command line or by means of a script:
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7241
+Windows users:
+Windows 用户:
+
+anton
+website/howtos/google_translate.html
+
+7242
+3.1.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7243
+Locate the configuration file OmegaT.l4J.ini (the default location is C:\Program Files (x86)\OmegaT).
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7244
+3.2.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7245
+To edit this file, you may need Administrator mode, or to move it temporarily to a different location on your hard drive.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7246
+3.3.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7247
+Open OmegaT.l4J.ini in a plain-text editor
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7248
+3.4.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7249
+Find the following lines;
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7250
+# Google Translate v2 API key
+#-Dgoogle.api.key=xxxxx
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7251
+And remove "#" at the line head of -Dgoogle.api.key.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7252
+# Google Translate v2 API key
+-Dgoogle.api.key=xxxxx
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7253
+(where "xxxxx" is the API key provided by Google).
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7254
+3.5.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7255
+Save OmegaT.l4J.ini (and if necessary, move it back to the OmegaT folder).
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7256
+Mac users:
+Mac 用户：
+
+Puzzlist
+website/howtos/google_translate.html
+
+7257
+3.6.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7258
+Right-click on OmegaT.app and select "Show Package Contents".
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7259
+3.7.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7260
+Find the file OmegaT.app/Contents/MacOS/OmegaT.sh and select your preferred editor to open the file.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7261
+3.8.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7262
+Find the following lines;
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7263
+# Google Translate v2 API key
+#GOOGLE_API_KEY="-Dgoogle.api.key=0123456789A0123456789B0123456789C0123456789D"
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7264
+And remove "#" at the line head.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7265
+This line defines GOOGLE_API_KEY.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7266
+# Google Translate v2 API key
+GOOGLE_API_KEY="-Dgoogle.api.key=XXXXXXXX"
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7267
+where "XXXXXXXX" is your Google Translate API key.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7268
+3.9
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7269
+Save OmegaT.sh.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7270
+Linux users:
+Linux 用户
+
+Puzzlist
+website/howtos/google_translate.html
+
+7271
+3.10
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7272
+Make sure that you have the Kaptain launcher installed (<a0>refer if necessary to the Linux Howto)</a0>, then enter the Google Translate API key in the relevant field on the Connectivity tab.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7273
+Users launching OmegaT from the command line or by a script:
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7274
+3.11
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7275
+Add the following argument to the launch command:
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7276
+-Dgoogle.api.key=XXXXXXXX
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7277
+where "XXXXXXXX" is your Google Translate API key.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7278
+The basic launch command with the Google Translate API added will therefore be:
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7279
+java -jar -Dgoogle.api.key=XXXXXXXX OmegaT.jar
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7280
+4.
+4.
+
+Fu Rhong
+website/howtos/google_translate.html
+
+7281
+Configuration in OmegaT
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7282
+4.1.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7283
+Launch OmegaT
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7284
+4.2.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7285
+Select Options > Machine Translate
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7286
+4.3.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7287
+Check Google Translate v2 (leaving the other options unchecked)
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7288
+5.
+5.
+
+Fu Rhong
+website/howtos/google_translate.html
+
+7289
+Note:
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7290
+5.1
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7291
+Google Machine Translation is a paid service (US$20.00 per million characters).
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7292
+You can check the daily usage from your Google account.
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7293
+In the upper menu:
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7294
+More > Even More > Innovation/Code > APIs Console > Service/Translate API
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7295
+Copyright Milan Hubacek and Marc Prior 2011
+未翻译
+
+没有修改者
+website/howtos/google_translate.html
+
+7296
+This HowTo provides information on using OmegaT and Iceni Infix to translate PDF files.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7297
+Background
+背景
+
+xulihang
+website/howtos/iceni_infix.html
+
+7298
+PDF files fall into two categories: true and "scanned" PDFs.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7299
+A "scanned" PDF file is a file in which the PDF format merely serves as a convenient container for scans of hardcopy pages.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7300
+Often, these scans contain text for translation.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7301
+There is no way of translating a scanned PDF file other than to recreate the text, either by typing it out again or by OCR (optical character recognition), and to recreate the file layout from scratch.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7302
+Scanned PDFs are not the subject of this HowTo.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7303
+True PDF files (sometimes called "native" or "distilled" PDF files, though "distilled" has a more precise meaning) are PDF files that have been exported from another application, usually a desktop publishing (DTP) program.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7304
+For a true PDF file to be translated, the correct procedure is usually to produce the translation in the original (DTP) application, and then to follow the same procedure for production of the PDF that was followed for the original.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7305
+Translating the PDF file by editing it directly is not usually a practical proposition.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7306
+For translation of PDF files "for information", translators often resort to converting the PDF file to some other file format before translation, such as RTF; the results may be adequate for this purpose, but will not meet the professional standards of the original DTP process.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7307
+Iceni Infix
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
+7308
+Iceni Infix offers a further option.
+未翻译
+
+没有修改者
+website/howtos/iceni_infix.html
+
