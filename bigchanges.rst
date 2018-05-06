@@ -1,5 +1,5 @@
 .. csv-table:: 重大变动
-   :header: "原文", "原译文", "修改", "备注"
+   :header: "source", "previous translation", "now", "note"
    :widths: 15, 15, 15,30
 
    "glossary", "词汇表", "术语表", "无"
